@@ -41,6 +41,7 @@
 				<li><a href="/">Home</a></li>
 				<li><a href="/special-search/">Search</a></li>
 				<li><a href="/generator/">Form Generator</a></li>
+				<li><a href="/lingo/">Lingo</a></li>
 				<li><a href="#">Help</a></li>
 			</ul>
 		</div>
