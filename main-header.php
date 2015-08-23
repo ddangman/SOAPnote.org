@@ -34,9 +34,9 @@
 		</div>
 		<div>
 			<ul class="nav navbar-nav">
-				<li><a href="http://www.soapnote.org/">Home</a></li>
-				<li><a href="http://www.soapnote.org/special-search/">Search</a></li>
-				<li><a href="http://www.soapnote.org/generator/">Form Generator</a></li>
+				<li><a href="/">Home</a></li>
+				<li><a href="/special-search/">Search</a></li>
+				<li><a href="/generator/">Form Generator</a></li>
 				<li><a href="#">Help</a></li>
 			</ul>
 		</div>

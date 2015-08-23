@@ -230,7 +230,7 @@ include('main-header.php');
 			<ul>
 				<li><a href="###" target="_blank">Anemia Evaluation</a></li>
 				<li><a href="###" target="_blank">Heparin Induced Thrombocytopenia Pre-Test Scoring System</a></li>
-				<li><a href="http://www.soapnote.org/blood-lymph/perc/" target="_blank">Pulmonary Embolism Rule out Criteria – PERC Rule</a></li>
+				<li><a href="/blood-lymph/perc/" target="_blank">Pulmonary Embolism Rule out Criteria – PERC Rule</a></li>
 				<li><a href="###" target="_blank">VTE risk after surgery</a></li>
 				<li><a href="###" target="_blank">Wells Clinical Prediction Rule for DVT</a></li>
 				<li><a href="###" target="_blank">Wells Clinical Prediction Rule for Pulmonary Embolism</a></li>
