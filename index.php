@@ -7,88 +7,88 @@ include('main-header.php');
 		<div class="col-sm-4">
 			<h3>Cardiology</h3>
 			<ul>
-				<li><a href="http://www.soapnote.org/cardiovascular/aaa-prognosis-surveillance/" target="_blank">Abdominal Aortic Aneurysm Prognosis and Surveillance</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/cardiovascular-examination/" target="_blank">Cardiovascular Examinations</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/cardio-exam/" target="_blank">Cardiovascular Examination with Checkboxes</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/accp-stroke-risk-calculator/" target="_blank">ACCP Stroke Risk Calculator for Atrial Fibrillation</a></li>
+				<li><a href="/aaa-prognosis-surveillance/" target="_blank">Abdominal Aortic Aneurysm Prognosis and Surveillance</a></li>
+				<li><a href="/cardiovascular-examination/" target="_blank">Cardiovascular Examinations</a></li>
+				<li><a href="/cardio-exam/" target="_blank">Cardiovascular Examination with Checkboxes</a></li>
+				<li><a href="/accp-stroke-risk-calculator/" target="_blank">ACCP Stroke Risk Calculator for Atrial Fibrillation</a></li>
 				<li><a href="###" target="_blank">ATP III Guidelines * Framingham Score for Cardiac Risk</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/cardiac-chest-pain-decision-rule/" target="_blank">Bosner Chest Pain Decision rule</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/dm-cardiac-risk/" target="_blank">Cardiac Risk in Diabetes Calculator (UKPDS)</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/chads2/" target="_blank">CHADS2 Calculator - Stroke Risk in Atrial Fibrillation</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/chads2-vasc/" target="_blank">CHADS2-VASc Score - Stroke Risk in Atrial Fibrillation</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/chest-pain-evaluation/" target="_blank">Chest Pain Decision Tool</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/chest-pain-history/" target="_blank">Chest Pain History</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/chf-mortality/" target="_blank">CHF Exacerbation 30-day and 1-year Mortality Rate</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/jobst-prescription/" target="_blank">Compression (Jobst) Stockings Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/coumadin-calculator/" target="_blank">Coumadin Adjustment Calculator</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/detskys-risk-index/" target="_blank">Detsky's Modified Cardiac Risk Index</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/chest-pain-decision-rule/" target="_blank">Diamond and Forrester Chest Pain Decision Rule</a></li>
-				<li><a href="http://www.soapnote.org/nutrition/diet-plans/" target="_blank">Diet Plans</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/eagle-cardiac-risk-assessment/" target="_blank">Eagle Preoperative Cardiac Risk Assessment Tool</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/claudication-questionnaire/" target="_blank">Edinburgh Claudication Questionnaire</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/fleisher-eagle-algorithm/" target="_blank">Fleisher-Eagle Algorithm</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/framingham-heart-failure-criteria/" target="_blank">Framingham Heart Failure Criteria</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/global-risk-assessment-tool/" target="_blank">Global Risk Assessment Tool (2013 AHA/ACC Cardiac Calculator)</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/goldman-chest-pain/" target="_blank">Goldman Criteria for ICU Chest Pain Admission</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/grace-mortality-score/" target="_blank">GRACE Mortality Score for Acute Coronary Syndrome</a</li>
-				<li><a href="http://www.soapnote.org/cardiovascular/has-bled/" target="_blank">HAS-BLED Bleeding Risk in Atrial Fibrillation Anticoagulation</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/hyperlipidemia-plan/" target="_blank">Hyperlipidemia Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/htn-plan/" target="_blank">Hypertension Plan</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/lee-index/" target="_blank">Lee's Revised Cardiac Risk Index for Complication Following Surgery</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/loop-diuretic-sliding-scale-for-systolic-heart-failure/" target="_blank">Loop Diuretic Sliding Scale for Systolic Heart Failure</a></li>
+				<li><a href="/cardiac-chest-pain-decision-rule/" target="_blank">Bosner Chest Pain Decision rule</a></li>
+				<li><a href="/dm-cardiac-risk/" target="_blank">Cardiac Risk in Diabetes Calculator (UKPDS)</a></li>
+				<li><a href="/chads2/" target="_blank">CHADS2 Calculator - Stroke Risk in Atrial Fibrillation</a></li>
+				<li><a href="/chads2-vasc/" target="_blank">CHADS2-VASc Score - Stroke Risk in Atrial Fibrillation</a></li>
+				<li><a href="/chest-pain-evaluation/" target="_blank">Chest Pain Decision Tool</a></li>
+				<li><a href="/chest-pain-history/" target="_blank">Chest Pain History</a></li>
+				<li><a href="/chf-mortality/" target="_blank">CHF Exacerbation 30-day and 1-year Mortality Rate</a></li>
+				<li><a href="/jobst-prescription/" target="_blank">Compression (Jobst) Stockings Assessment/Plan</a></li>
+				<li><a href="/coumadin-calculator/" target="_blank">Coumadin Adjustment Calculator</a></li>
+				<li><a href="/detskys-risk-index/" target="_blank">Detsky's Modified Cardiac Risk Index</a></li>
+				<li><a href="/chest-pain-decision-rule/" target="_blank">Diamond and Forrester Chest Pain Decision Rule</a></li>
+				<li><a href="/diet-plans/" target="_blank">Diet Plans</a></li>
+				<li><a href="/eagle-cardiac-risk-assessment/" target="_blank">Eagle Preoperative Cardiac Risk Assessment Tool</a></li>
+				<li><a href="/claudication-questionnaire/" target="_blank">Edinburgh Claudication Questionnaire</a></li>
+				<li><a href="/fleisher-eagle-algorithm/" target="_blank">Fleisher-Eagle Algorithm</a></li>
+				<li><a href="/framingham-heart-failure-criteria/" target="_blank">Framingham Heart Failure Criteria</a></li>
+				<li><a href="/global-risk-assessment-tool/" target="_blank">Global Risk Assessment Tool (2013 AHA/ACC Cardiac Calculator)</a></li>
+				<li><a href="/goldman-chest-pain/" target="_blank">Goldman Criteria for ICU Chest Pain Admission</a></li>
+				<li><a href="/grace-mortality-score/" target="_blank">GRACE Mortality Score for Acute Coronary Syndrome</a</li>
+				<li><a href="/has-bled/" target="_blank">HAS-BLED Bleeding Risk in Atrial Fibrillation Anticoagulation</a></li>
+				<li><a href="/hyperlipidemia-plan/" target="_blank">Hyperlipidemia Assessment/Plan</a></li>
+				<li><a href="/htn-plan/" target="_blank">Hypertension Plan</a></li>
+				<li><a href="/lee-index/" target="_blank">Lee's Revised Cardiac Risk Index for Complication Following Surgery</a></li>
+				<li><a href="/loop-diuretic-sliding-scale-for-systolic-heart-failure/" target="_blank">Loop Diuretic Sliding Scale for Systolic Heart Failure</a></li>
 				<li><a href="www.soapnote.org/cardiovascular/oesil-risk-score/" target="_blank">OESIL Risk Score for Syncope</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/outpatient-bleeding-risk-index-obri/" target="_blank">Outpatient Bleeding Risk Index Calculator</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/palpitations-history/" target="_blank">Palpitations History</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/rose-risk-score/" target="_blank">ROSE Risk Score for Syncope</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/rouan/" target="_blank">Rouan Decision Rule for Myocardial Infarction</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/secondary-hypertension/" target="_blank">Secondary Hypertension Workup</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/singh-risk-score/" target="_blank">Singh Risk Score for Angioplasty Complications</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/stress-testing-chd/" target="_blank">Stress Testing for Diagnosis of Coronary Heart Disease</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/syncope-prognosis-calculator/" target="_blank">Syncope Prognosis Calculator</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/target-heart-rate/" target="_blank">Target and Maximum Heart Rate for Exercise</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/timi-risk-score/" target="_blank">TIMI Risk Score</a></li>
+				<li><a href="/outpatient-bleeding-risk-index-obri/" target="_blank">Outpatient Bleeding Risk Index Calculator</a></li>
+				<li><a href="/palpitations-history/" target="_blank">Palpitations History</a></li>
+				<li><a href="/rose-risk-score/" target="_blank">ROSE Risk Score for Syncope</a></li>
+				<li><a href="/rouan/" target="_blank">Rouan Decision Rule for Myocardial Infarction</a></li>
+				<li><a href="/secondary-hypertension/" target="_blank">Secondary Hypertension Workup</a></li>
+				<li><a href="/singh-risk-score/" target="_blank">Singh Risk Score for Angioplasty Complications</a></li>
+				<li><a href="/stress-testing-chd/" target="_blank">Stress Testing for Diagnosis of Coronary Heart Disease</a></li>
+				<li><a href="/syncope-prognosis-calculator/" target="_blank">Syncope Prognosis Calculator</a></li>
+				<li><a href="/target-heart-rate/" target="_blank">Target and Maximum Heart Rate for Exercise</a></li>
+				<li><a href="/timi-risk-score/" target="_blank">TIMI Risk Score</a></li>
 			</ul>
 
 
 			<h3>Dermatology</h3>
 			<ul>
-				<li><a href="http://www.soapnote.org/skin/acne-plan/" target="_blank">Acne Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/atopic-dermatitis-plan/" target="_blank">Atopic Dermatitis Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/eczema-plan/" target="_blank">Eczema Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/epidermal-cyst-plan/" target="_blank">Epidermal Cyst Minimal Excision Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/excisional-plan/" target="_blank">Excisional Biopsy Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/pitted-keratolysis/" target="_blank">Pitted Keratolysis Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/punch-plan/" target="_blank">Punch Biopsy Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/rash-plan/" target="_blank">Rash Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/rash-exam/" target="_blank">Rash Exam</a></li>
-				<li><a href="http://www.soapnote.org/skin/rash-history/" target="_blank">Rash History</a></li>
-				<li><a href="http://www.soapnote.org/skin/scabies-hx/" target="_blank">Scabies History</a></li>
-				<li><a href="http://www.soapnote.org/skin/scabies-plan/" target="_blank">Scabies Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/shave-plan/" target="_blank">Shave Biopsy Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/tag-shave-plan/" target="_blank">Skin Tag Shave Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/wart-plan/" target="_blank">Wart Assessment/Plan</a></li>
+				<li><a href="/acne-plan/" target="_blank">Acne Assessment/Plan</a></li>
+				<li><a href="/atopic-dermatitis-plan/" target="_blank">Atopic Dermatitis Assessment/Plan</a></li>
+				<li><a href="/eczema-plan/" target="_blank">Eczema Assessment/Plan</a></li>
+				<li><a href="/epidermal-cyst-plan/" target="_blank">Epidermal Cyst Minimal Excision Assessment/Plan</a></li>
+				<li><a href="/excisional-plan/" target="_blank">Excisional Biopsy Assessment/Plan</a></li>
+				<li><a href="/pitted-keratolysis/" target="_blank">Pitted Keratolysis Assessment/Plan</a></li>
+				<li><a href="/punch-plan/" target="_blank">Punch Biopsy Assessment/Plan</a></li>
+				<li><a href="/rash-plan/" target="_blank">Rash Assessment/Plan</a></li>
+				<li><a href="/rash-exam/" target="_blank">Rash Exam</a></li>
+				<li><a href="/rash-history/" target="_blank">Rash History</a></li>
+				<li><a href="/scabies-hx/" target="_blank">Scabies History</a></li>
+				<li><a href="/scabies-plan/" target="_blank">Scabies Assessment/Plan</a></li>
+				<li><a href="/shave-plan/" target="_blank">Shave Biopsy Assessment/Plan</a></li>
+				<li><a href="/tag-shave-plan/" target="_blank">Skin Tag Shave Assessment/Plan</a></li>
+				<li><a href="/wart-plan/" target="_blank">Wart Assessment/Plan</a></li>
 			</ul>
 
 
 			<h3>Endocrine</h3>
 			<ul>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/bmi-calc/" target="_blank">Body Mass Index (BMI) Calculator</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/dm-cardiac-risk/" target="_blank">Cardiac Risk in Diabetes Calculator (UKPDS)</a></li>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/diabetes-plan/" target="_blank">Diabetes Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/dm-history/" target="_blank">Diabetes History</a></li>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/diabetes-medications/" target="_blank">Diabetes Medication Decision Tool</a></li>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/endocrine-metabolic/diabetic-foot-ulcer-plan/" target="_blank">Diabetic Foot Ulcer Assessment/Plan (with Wagner Classification)</a></li>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/endocrine-metabolic/diabetic-foot-ulcer-exam/" target="_blank">Diabetic Foot Ulcer Exam</a></li>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/diabetic-foot-ulcer-history/" target="_blank">Diabetic Foot Ulcer History</a></li>
-				<li><a href="http://www.soapnote.org/nutrition/diet-plans/" target="_blank">Diet Plans</a></li>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/dietary-fiber-plan/" target="_blank">Dietary Fiber Plan (featuring Mary Jo's Delicious Snack Mix)</a></li>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/gastric-bypass-plan/" target="_blank">Gastric Bypass Follow Up Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/insulin-correction/" target="_blank">Insulin Correction Dose for Hyperglycemia</a></li>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/sliding-scale/" target="_blank">Insulin Sliding Scales</a></li>
+				<li><a href="/bmi-calc/" target="_blank">Body Mass Index (BMI) Calculator</a></li>
+				<li><a href="/dm-cardiac-risk/" target="_blank">Cardiac Risk in Diabetes Calculator (UKPDS)</a></li>
+				<li><a href="/diabetes-plan/" target="_blank">Diabetes Assessment/Plan</a></li>
+				<li><a href="/dm-history/" target="_blank">Diabetes History</a></li>
+				<li><a href="/diabetes-medications/" target="_blank">Diabetes Medication Decision Tool</a></li>
+				<li><a href="/endocrine-metabolic/diabetic-foot-ulcer-plan/" target="_blank">Diabetic Foot Ulcer Assessment/Plan (with Wagner Classification)</a></li>
+				<li><a href="/endocrine-metabolic/diabetic-foot-ulcer-exam/" target="_blank">Diabetic Foot Ulcer Exam</a></li>
+				<li><a href="/diabetic-foot-ulcer-history/" target="_blank">Diabetic Foot Ulcer History</a></li>
+				<li><a href="/diet-plans/" target="_blank">Diet Plans</a></li>
+				<li><a href="/dietary-fiber-plan/" target="_blank">Dietary Fiber Plan (featuring Mary Jo's Delicious Snack Mix)</a></li>
+				<li><a href="/gastric-bypass-plan/" target="_blank">Gastric Bypass Follow Up Assessment/Plan</a></li>
+				<li><a href="/insulin-correction/" target="_blank">Insulin Correction Dose for Hyperglycemia</a></li>
+				<li><a href="/sliding-scale/" target="_blank">Insulin Sliding Scales</a></li>
 				<li><a href="###" target="_blank">Interpreting Thyroid Tests</a></li>
 				<li><a href="###" target="_blank">Long Acting Insulin Self Adjustment 3 by 3</a></li>
 				<li><a href="###" target="_blank">Obesity Basic Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/bariatric-risk/" target="_blank">Obesity Surgery Mortality Risk Score</a></li>
+				<li><a href="/bariatric-risk/" target="_blank">Obesity Surgery Mortality Risk Score</a></li>
 				<li><a href="###" target="_blank">Subclinical Hyperthyroidism Calculator</a></li>
 				<li><a href="###" target="_blank">Thyroiditis calculator</a></li>
 				<li><a href="###" target="_blank">Weight Management Checklist</a></li>
@@ -100,7 +100,7 @@ include('main-header.php');
 				<li><a href="###" target="_blank">Abdominal Pain History</a></li>
 				<li><a href="###" target="_blank">BARD Score for Advanced Fibrosis in Nonalcoholic Fatty Liver</a></li>
 				<li><a href="###" target="_blank">Child-Pugh Score for Liver Failure</a></li>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/dietary-fiber-plan/" target="_blank">Dietary Fiber Plan (featuring Mary Jo's Delicious Snack Mix)</a></li>
+				<li><a href="/dietary-fiber-plan/" target="_blank">Dietary Fiber Plan (featuring Mary Jo's Delicious Snack Mix)</a></li>
 				<li><a href="###" target="_blank">Diverticulitis Decision Rule</a></li>
 				<li><a href="###" target="_blank">Dyspepsia Evaluation</a></li>
 				<li><a href="###" target="_blank">Gastroenteritis Assessment/Plan</a></li>
@@ -250,7 +250,7 @@ include('main-header.php');
 				<li><a href="###" target="_blank">Hepatitis B Screening Decision Tool</a></li>
 				<li><a href="###" target="_blank">Influenza Assessment/Plan</a></li>
 				<li><a href="###" target="_blank">Influenza history</a></li>
-				<li><a href="http://www.soapnote.org/respiratory/pneumonia-severity-index/" target="_blank">Pneumonia Severity Index</a></li>
+				<li><a href="/pneumonia-severity-index/" target="_blank">Pneumonia Severity Index</a></li>
 				<li><a href="http://www.soapnote.org/infectious/uri-objective/" target="_blank">Upper Respiratory Infection (URI) Exam</a></li>
 				<li><a href="http://www.soapnote.org/infectious/uri-plan/" target="_blank">Upper Respiratory Infection Assessment/Plan</a></li>
 				<li><a href="###" target="_blank">Vaccine component allergy assessment</a></li>
@@ -342,7 +342,7 @@ include('main-header.php');
 			<ul>
 				<li><a href="###" target="_blank">Chronic Kidney Disease in Diabetes Mellitus</a></li>
 				<li><a href="###" target="_blank">Cockcroft-Gault GFR Calculator</a></li>
-				<li><a href="http://www.soapnote.org/nutrition/diet-plans/" target="_blank">Diet Plans</a></li>
+				<li><a href="/diet-plans/" target="_blank">Diet Plans</a></li>
 				<li><a href="###" target="_blank">MDRD GFR Calculator</a></li>
 			</ul>
 
@@ -363,16 +363,16 @@ include('main-header.php');
 				<li><a href="www.soapnote.org/cardiovascular/oesil-risk-score/" target="_blank">OESIL Risk Score for Syncope</a></li>
 				<li><a href="###" target="_blank">Ottawa Subarachnoid Hemorrhage (SAH) Rule</a></li>
 				<li><a href="###" target="_blank">Peripheral Neuropathy Plan</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/rose-risk-score/" target="_blank">ROSE Risk Score for Syncope</a></li>
+				<li><a href="/rose-risk-score/" target="_blank">ROSE Risk Score for Syncope</a></li>
 				<li><a href="###" target="_blank">Seizure History</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/syncope-prognosis-calculator/" target="_blank">Syncope Prognosis Calculator</a></li>
+				<li><a href="/syncope-prognosis-calculator/" target="_blank">Syncope Prognosis Calculator</a></li>
 			</ul>
 
 
 			<h3>Nutrition</h3>
 			<ul>
-				<li><a href="http://www.soapnote.org/nutrition/diet-plans/" target="_blank">Diet Plans</a></li>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/dietary-fiber-plan/" target="_blank">Dietary Fiber Plan (featuring Mary Jo's Delicious Snack Mix)</a></li>
+				<li><a href="/diet-plans/" target="_blank">Diet Plans</a></li>
+				<li><a href="/dietary-fiber-plan/" target="_blank">Dietary Fiber Plan (featuring Mary Jo's Delicious Snack Mix)</a></li>
 			</ul>
 
 			<h3>Obstetrics</h3>
@@ -525,15 +525,15 @@ include('main-header.php');
 				<li><a href="###" target="_blank">Bronchitis Assessment/Plan</a></li>
 				<li><a href="###" target="_blank">Bronchitis history</a></li>
 				<li><a href="###" target="_blank">Classification of Asthma Severity</a></li>
-				<li><a href="http://www.soapnote.org/respiratory/copd-screening-tool/" target="_blank">COPD Screening tool</a></li>
-				<li><a href="http://www.soapnote.org/respiratory/cough-exam/" target="_blank">Cough Exam</a></li>
-				<li><a href="http://www.soapnote.org/respiratory/cough-history/" target="_blank">Cough History</a></li>
-				<li><a href="http://www.soapnote.org/respiratory/dyspnea-history/" target="_blank">Dyspnea History</a></li>
-				<li><a href="http://www.soapnote.org/respiratory/asthma-control-questions/" target="_blank">Generic Asthma Symptom Control Questionnaire</a></li>
-				<li><a href="http://www.soapnote.org/respiratory/pneumonia-severity-index/" target="_blank">Pneumonia Severity Index</a></li>
-				<li><a href="http://www.soapnote.org/respiratory/predicted-peak-flow/" target="_blank">Predicted Peak Expiratory Flow</a></li>
+				<li><a href="/copd-screening-tool/" target="_blank">COPD Screening tool</a></li>
+				<li><a href="/cough-exam/" target="_blank">Cough Exam</a></li>
+				<li><a href="/cough-history/" target="_blank">Cough History</a></li>
+				<li><a href="/dyspnea-history/" target="_blank">Dyspnea History</a></li>
+				<li><a href="/asthma-control-questions/" target="_blank">Generic Asthma Symptom Control Questionnaire</a></li>
+				<li><a href="/pneumonia-severity-index/" target="_blank">Pneumonia Severity Index</a></li>
+				<li><a href="/predicted-peak-flow/" target="_blank">Predicted Peak Expiratory Flow</a></li>
 				<li><a href="http://www.soapnote.org/blood-lymph/perc/" target="_blank">Pulmonary Embolism Rule out Criteria – PERC Rule</a></li>
-				<li><a href="http://www.soapnote.org/respiratory/pesi/" target="_blank">Pulmonary Embolism Severity Index</a></li>
+				<li><a href="/pesi/" target="_blank">Pulmonary Embolism Severity Index</a></li>
 				<li><a href="http://www.soapnote.org/infectious/uri-objective/" target="_blank">Upper Respiratory Infection (URI) Exam</a></li>
 				<li><a href="http://www.soapnote.org/infectious/uri-plan/" target="_blank">Upper Respiratory Infection Assessment/Plan</a></li>
 			</ul>
@@ -580,24 +580,24 @@ include('main-header.php');
 
 			<h3>SOAP Note Subjective or History Element</h3>
 			<ul>
-				<li><a href="http://www.soapnote.org/cardiovascular/chest-pain-history/" target="_blank">Chest Pain History</a></li>
-				<li><a href="http://www.soapnote.org/respiratory/cough-history/" target="_blank">Cough History</a></li>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/dm-history/" target="_blank">Diabetes History</a></li>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/diabetic-foot-ulcer-history/" target="_blank">Diabetic Foot Ulcer History</a></li>
-				<li><a href="http://www.soapnote.org/respiratory/dyspnea-history/" target="_blank">Dyspnea History</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/palpitations-history/" target="_blank">Palpitations History</a></li>
-				<li><a href="http://www.soapnote.org/skin/rash-history/" target="_blank">Rash History</a></li>
-				<li><a href="http://www.soapnote.org/skin/scabies-hx/" target="_blank">Scabies History</a></li>
+				<li><a href="/chest-pain-history/" target="_blank">Chest Pain History</a></li>
+				<li><a href="/cough-history/" target="_blank">Cough History</a></li>
+				<li><a href="/dm-history/" target="_blank">Diabetes History</a></li>
+				<li><a href="/diabetic-foot-ulcer-history/" target="_blank">Diabetic Foot Ulcer History</a></li>
+				<li><a href="/dyspnea-history/" target="_blank">Dyspnea History</a></li>
+				<li><a href="/palpitations-history/" target="_blank">Palpitations History</a></li>
+				<li><a href="/rash-history/" target="_blank">Rash History</a></li>
+				<li><a href="/scabies-hx/" target="_blank">Scabies History</a></li>
 			</ul>
 
 
 			<h3>SOAP Note Objective or Exam Element</h3>
 			<ul>
-				<li><a href="http://www.soapnote.org/cardiovascular/cardiovascular-examination/" target="_blank">Cardiovascular Examinations</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/cardio-exam/" target="_blank">Cardiovascular Examination with Checkboxes</a></li>
-				<li><a href="http://www.soapnote.org/respiratory/cough-exam/" target="_blank">Cough Exam</a></li>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/endocrine-metabolic/diabetic-foot-ulcer-exam/" target="_blank">Diabetic Foot Ulcer Exam</a></li>
-				<li><a href="http://www.soapnote.org/skin/rash-exam/" target="_blank">Rash Exam</a></li>
+				<li><a href="/cardiovascular-examination/" target="_blank">Cardiovascular Examinations</a></li>
+				<li><a href="/cardio-exam/" target="_blank">Cardiovascular Examination with Checkboxes</a></li>
+				<li><a href="/cough-exam/" target="_blank">Cough Exam</a></li>
+				<li><a href="/endocrine-metabolic/diabetic-foot-ulcer-exam/" target="_blank">Diabetic Foot Ulcer Exam</a></li>
+				<li><a href="/rash-exam/" target="_blank">Rash Exam</a></li>
 				<li><a href="http://www.soapnote.org/infectious/uri-objective/" target="_blank">Upper Respiratory Infection (URI) Exam</a></li>
 			</ul>
 
@@ -605,27 +605,27 @@ include('main-header.php');
 
 			<h3>SOAP Note Assessment and Plan Elements</h3>
 			<ul>
-				<li><a href="http://www.soapnote.org/skin/acne-plan/" target="_blank">Acne Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/atopic-dermatitis-plan/" target="_blank">Atopic Dermatitis Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/jobst-prescription/" target="_blank">Compression (Jobst) Stockings Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/diabetes-plan/" target="_blank">Diabetes Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/endocrine-metabolic/diabetic-foot-ulcer-plan/" target="_blank">Diabetic Foot Ulcer Assessment/Plan (with Wagner Classification)</a></li>
-				<li><a href="http://www.soapnote.org/nutrition/diet-plans/" target="_blank">Diet Plans</a></li>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/dietary-fiber-plan/" target="_blank">Dietary Fiber Plan (featuring Mary Jo's Delicious Snack Mix)</a></li>
-				<li><a href="http://www.soapnote.org/skin/eczema-plan/" target="_blank">Eczema Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/epidermal-cyst-plan/" target="_blank">Epidermal Cyst Minimal Excision Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/excisional-plan/" target="_blank">Excisional Biopsy Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/endocrine-metabolic/gastric-bypass-plan/" target="_blank">Gastric Bypass Follow Up Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/hyperlipidemia-plan/" target="_blank">Hyperlipidemia Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/cardiovascular/htn-plan/" target="_blank">Hypertension Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/pitted-keratolysis/" target="_blank">Pitted Keratolysis Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/punch-plan/" target="_blank">Punch Biopsy Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/rash-plan/" target="_blank">Rash Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/scabies-plan/" target="_blank">Scabies Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/shave-plan/" target="_blank">Shave Biopsy Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/tag-shave-plan/" target="_blank">Skin Tag Shave Assessment/Plan</a></li>
+				<li><a href="/acne-plan/" target="_blank">Acne Assessment/Plan</a></li>
+				<li><a href="/atopic-dermatitis-plan/" target="_blank">Atopic Dermatitis Assessment/Plan</a></li>
+				<li><a href="/jobst-prescription/" target="_blank">Compression (Jobst) Stockings Assessment/Plan</a></li>
+				<li><a href="/diabetes-plan/" target="_blank">Diabetes Assessment/Plan</a></li>
+				<li><a href="/endocrine-metabolic/diabetic-foot-ulcer-plan/" target="_blank">Diabetic Foot Ulcer Assessment/Plan (with Wagner Classification)</a></li>
+				<li><a href="/diet-plans/" target="_blank">Diet Plans</a></li>
+				<li><a href="/dietary-fiber-plan/" target="_blank">Dietary Fiber Plan (featuring Mary Jo's Delicious Snack Mix)</a></li>
+				<li><a href="/eczema-plan/" target="_blank">Eczema Assessment/Plan</a></li>
+				<li><a href="/epidermal-cyst-plan/" target="_blank">Epidermal Cyst Minimal Excision Assessment/Plan</a></li>
+				<li><a href="/excisional-plan/" target="_blank">Excisional Biopsy Assessment/Plan</a></li>
+				<li><a href="/gastric-bypass-plan/" target="_blank">Gastric Bypass Follow Up Assessment/Plan</a></li>
+				<li><a href="/hyperlipidemia-plan/" target="_blank">Hyperlipidemia Assessment/Plan</a></li>
+				<li><a href="/htn-plan/" target="_blank">Hypertension Plan</a></li>
+				<li><a href="/pitted-keratolysis/" target="_blank">Pitted Keratolysis Assessment/Plan</a></li>
+				<li><a href="/punch-plan/" target="_blank">Punch Biopsy Assessment/Plan</a></li>
+				<li><a href="/rash-plan/" target="_blank">Rash Assessment/Plan</a></li>
+				<li><a href="/scabies-plan/" target="_blank">Scabies Assessment/Plan</a></li>
+				<li><a href="/shave-plan/" target="_blank">Shave Biopsy Assessment/Plan</a></li>
+				<li><a href="/tag-shave-plan/" target="_blank">Skin Tag Shave Assessment/Plan</a></li>
 				<li><a href="http://www.soapnote.org/infectious/uri-plan/" target="_blank">Upper Respiratory Infection Assessment/Plan</a></li>
-				<li><a href="http://www.soapnote.org/skin/wart-plan/" target="_blank">Wart Assessment/Plan</a></li>
+				<li><a href="/wart-plan/" target="_blank">Wart Assessment/Plan</a></li>
 			</ul>
 
 
