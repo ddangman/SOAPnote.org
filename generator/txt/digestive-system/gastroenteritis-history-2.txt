@@ -1,0 +1,20 @@
+[select value="less than 1 day|1 day|2 days|3 days|4 days|5 days|6 days|7 days|more than 1 week"] <-- duration
+[select value="no|YES"] <-- nausea
+[select name="vomit" value="no|YES"] <-- vomiting[conditional field="vomit" condition="(vomit).is('YES')"]
+[select value="no|YES"] <-- post prandial vomiting
+[select value="no|YES"] <-- recurrent vomiting[/conditional]
+[select name="diarrhea" value="no|YES"] <-- diarrhea[conditional field="diarrhea" condition="(diarrhea).is('YES')"]
+[select value="1 to 5 times|6 to 10 times|more than 10 times"] <-- number of loose stools in the last 24 hours.[/conditional]
+[select value="no|YES"] <-- fever
+[select value="no|YES"] <-- abdominal pain
+[select value="no|YES"] <-- hematemesis
+[select value="no|YES"] <-- hematochezia
+[select value="no|YES"] <-- melena
+[select value="yes|NO"] <-- adequate urine output
+[select value="others with similar symptoms|others with Campylobacter|others with Giardia|others with Salmonella|recent travel out of the area|contaminated or possible contaminated food source"] <-- exposures
+Past history of GI problems
+[select value="no|YES"] <-- infectious diarrhea
+[select value="no|YES"] <-- diverticulitis
+[select value="no|YES"] <-- irritable bowel syndrome
+[select value="no|YES"] <-- inflammatory bowel disease
+[textarea]

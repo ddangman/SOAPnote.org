@@ -1,0 +1,47 @@
+Chest pain
+Onset [text] prior to evaluation
+Onset while:  [text]
+
+Associated Pain (0=none, 10=severe)
+Location: [text]
+Radiation: [text]
+Severity now (0-10): [text]
+Severity at worst (0-10): [text]
+Duration: [text]
+Characterized as: [text].
+
+The pain is relieved with [text]
+[select value="no|YES"] <-- exertional pain
+[select value="no|YES"] <-- pleuritic pain
+
+Associated Symptoms:
+[select value="no|YES"] <-- nausea/vomiting
+[select value="no|YES"] <-- diaphoresis
+[select value="no|YES"] <-- shortness of breath
+
+Pertinent PMH
+[select value="no|YES"] <-- Coronary Disease
+[select value="no|YES"] <-- Cerebrovascular disease
+[select value="no|YES"] <-- Diabetes Mellitus
+[select value="no|YES"] <-- Peptic Ulcer or GERD
+[select value="no|YES"] <-- Chest injury or overuse
+
+Pertinent Medications:
+[select value="no|YES"] <-- Aspirin was taken today
+[select value="no|YES"] <-- Nitroglycerin
+
+Pitfalls:
+[select value="no|YES"] <-- unilateral leg swelling
+[select value="no|YES"] <-- recent prolonged travel, recent trauma, hypercoagulable state, hormonal therapy
+
+Cardiovascular risks are reviewed as follows:
+Family history of Premature CAD or CVA (<55): [text]
+Tobacco use: [text]
+Hyperlipidemia: [text]
+Hypertension: [text]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  contributed by Dr. Scott Moses, creator/author of the <a href="http://www.fpnotebook.com" target="_blank">Family Practice Notebook</a>.
+posted by:  Mark Morgan, M.D.
+post/review dates:  November 24, 2010; August 18, 2015
+permalink: <a href="http://www.soapnote.org/cardiovascular/chest-pain-history/" target="_blank">www.soapnote.org/cardiovascular/chest-pain-history/</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/chest-pain-history.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/chest-pain-history.txt</a>[/html][/conditional]

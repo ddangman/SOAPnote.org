@@ -1,0 +1,12 @@
+Wells Clinical Prediction Rule for Deep Vein Thrombosis [html]
+2010-08-31[/html][link url="http://www.ncbi.nlm.nih.gov/pubmed/9428249" memo="Wells (1997) Lancet 350:1795-8"] [link url="http://www.aafp.org/afp/2004/0615/p2829.html" memo="Ramzi (2004) Am Fam Physician 69:2829-36"]
+Clinical Features:
+[select name="cancer" value="No (0 points)=0|Yes (1 point)=1"] <-- Active cancer (treatment within 6 months, or palliation)?
+[select name="bedridden" value="No (0 points)=0|Yes (1 point)=1"] <-- Bedridden for more than 3 days because of surgery (within 4 weeks)?
+[select name="localTender" value="No (0 points)=0|Yes (1 point)=1"] <-- Localized tenderness along distribution of deep veins?
+[select name="allSwollen" value="No (0 points)=0|Yes (1 point)=1"] <-- Entire leg swollen?
+[select name="unilateralSwollen" value="No (0 points)=0|Yes (1 point)=1"] <-- Unilateral calf swelling of greater than 3 cm (below tibial tuberosity)?
+[select name="unilateralEdema" value="No (0 points)=0|Yes (1 point)=1"] <-- Unilateral pitting edema?
+[select name="collateral" value="No (0 points)=0|Yes (1 point)=1"] <-- Collateral superficial veins?
+[select name="alternative" value="No (0 points)=0|Yes (-2 points)=-2"] <-- Alternative diagnosis as likely as or more likely than DVT?
+Score: [calc value="score=(cancer)+(bedridden)+(localTender)+(allSwollen)+(unilateralSwollen)+(collateral)+(alternative)"] --> [calc value="score=(cancer)+(bedridden)+(localTender)+(allSwollen)+(unilateralSwollen)+(collateral)+(alternative);score>2?'High Risk (75%)':score>0?'Moderate Risk (17%)':'Low Risk (3%)'" memo="Interpretation"]

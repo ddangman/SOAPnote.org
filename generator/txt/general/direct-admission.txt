@@ -1,0 +1,9 @@
+Referring Physician: ***
+Summary of clinical history and reason for admission: ***
+Admitting diagnosis: ***
+Plan of care: ***
+Type of admission: ***Emergency/Urgent/Routine***
+Room assignment needs: ***ICU/Private/Strict Isolation/Airbourne Isolation/Monitored bed***
+IV drips or other needs: ***
+Mode of transportation: ***Private car/Ground ambulance/Fixed wing***
+Insurance Information: ***Unknown/Medicare/Private Insurance ---/Medical Assistance ---/Managed Care ---***

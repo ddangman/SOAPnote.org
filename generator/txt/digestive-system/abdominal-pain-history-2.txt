@@ -1,0 +1,52 @@
+[html]Subjective/History template for abdominal pain contributed by Dr. Scott Moses, creator/author of the <a href="http://www.fpnotebook.com">Family Practice Notebook</a>.[/html]
+Patient complains of abdominal pain.
+Onset [text] prior to evaluation
+Onset while:  [text]
+
+Associated Pain (0=none, 10=severe)
+Location: [text]
+Radiation: [text]
+Severity now (0-10): [text]
+Severity at worst (0-10): [text]
+Duration: [text]
+Characterized as: [text].
+
+The pain is relieved with [text]
+[select value="no|YES"] <-- worse with standing
+[select value="no|YES"] <-- pleuritic pain
+
+Associated Symptoms:
+[select value="no|YES"] <-- decreased appetite (last ate at [text])
+[select value="no|YES"] <-- nausea
+[select value="no|YES"] <-- vomiting  [text]
+[select value="no|YES"] <-- diarrhea
+[select value="no|YES"] <-- constipation (last stool at [text])
+[select value="no|YES"] <-- black or bloody stool
+[select value="no|YES"] <-- fever
+[select value="no|YES"] <-- Dysuria
+[select value="no|YES"] <-- Frequency
+[select value="no|YES"] <-- Hematuria
+
+Pertinent PMH
+[select value="no|YES"] <-- Gall Bladder or liver disease
+[select value="no|YES"] <-- GERD
+[select value="no|YES"] <-- Peptic ulcer
+[select value="no|YES"] <-- Pancreatitis
+[select value="no|YES"] <-- Kidney stones
+[select value="no|YES"] <-- Urinary tract infections
+[select value="no|YES"] <-- Diverticulitis
+[select value="no|YES"] <-- Inflammatory Bowel Disease
+[select value="no|YES"] <-- Pelvic Infection
+[select value="no|YES"] <-- Vascular disease
+
+Pertinent Past Surgeries:
+[select value="no|YES"] <-- Appendectomy
+[select value="no|YES"] <-- Cholecystectomy
+
+Pertinent Medications:
+[select value="no|YES"] <-- NSAIDs
+[select value="no|YES"] <-- Excessive Alcohol 
+
+Pitfalls:
+[select value="no|YES"] <-- aortic aneurysm history or risk (age over 60, tobacco history)
+[select value="no|YES"] <-- pregnancy risk

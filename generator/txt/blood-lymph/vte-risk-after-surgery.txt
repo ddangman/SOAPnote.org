@@ -1,0 +1,16 @@
+Venous Thromboembolism Risk after Surgery[html]
+2014-08-08
+Reference: <a href="http://www.ncbi.nlm.nih.gov/pubmed/24091567" target="_blank"> Pannucci CJ, Laird S, Dimick JB, Campbell DA, Henke PK. A validated risk model to predict 90-day VTE events in postsurgical patients. Chest. 2014 Mar 1;145(3):567-73.</a>
+[/html]
+[select name="age" value="no=0|yes=1"] <-- Age at least 60 years (1 point)
+[select name="bmi" value="no=0|yes=1"] <-- BMI at least 40 kg/m2 (1 point)
+[select name="sex" value="female=0|male=2"] <-- Gender (male = 2 points, female = 0 points)
+[select name="sepsis" value="no=0|yes=3"] <-- Sepsis (3 points)
+[select name="shock" value="no=0|yes=3"] <-- Septic shock (3 points)
+[select name="sirs" value="no=0|yes=3"] <-- Systemic Inflammatory Response Syndrome (3 points)
+[select name="vtehx" value="no=0|yes=3"] <-- Personal history of venous thromboembolism (3 points)
+[select name="vtefam" value="no=0|yes=4"] <-- Family history of venous thromboembolism (4 points)
+[select name="cancer" value="no=0|yes=5"] <-- Current cancer (5 points)
+
+Score --> [calc memo="number" value="score1=(age)+(bmi)+(sex)+(sepsis)+(shock)+(sirs)+(vtehx)+(vtefam)+(cancer)"]
+Interpretation --> [calc memo="result" value="score2=(age)+(bmi)+(sex)+(sepsis)+(shock)+(sirs)+(vtehx)+(vtefam)+(cancer);score2>5?'High risk, 3.2 percent':score2>2?'Moderate risk, 1.8 percent':'Very low risk, 0.4 percent'"]

@@ -1,0 +1,10 @@
+SKIN:  Patient has a ***generalized rash/rash localized to ---***.
+Rash is ***erythematous/maculopapular/papular/macular/urticarial/purpuric/flaking/raised/excoriated/pustular/tender/nodular/bullous/crusting/vesicular***.
+There is ***no/serous/purulent/bloody*** drainage.
+There ***is no sign of secondary infection/is sign of secondary infection ---***
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; August 20, 2015
+permalink: <a href="http://www.soapnote.org/skin/rash-exam/" target="_blank">www.soapnote.org/skin/rash-exam/</a>
+markup link:  <a href="http://www.soapnote.org/txt/skin/rash-exam.txt" target="_blank">www.soapnote.org/txt/skin/rash-exam.txt</a>[/html][/conditional]

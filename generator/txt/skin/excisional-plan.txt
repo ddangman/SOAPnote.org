@@ -1,0 +1,11 @@
+#1 Skin lesion - excisional biopsy
+PROCEDURAL PAUSE
+A procedural pause was conducted to verify correct patient identity, procedure to be performed, correct side and site, correct patient position, availability of implants, and need for special equipment or special requirements.
+The patient was prepped and draped in a sterile fashion. Local anesthesia was obtained with ***1% lidocaine with epinephrine/1% lidocaine without epinephrine/0.5% bupivicaine***
+A *** cm incision was made *** and the lesion was removed and sent for pathology. The wound edges were undermined and the wound was closed with *** sutures in a simple interrupted fashion. A pressure dressing was applied and wound care was discussed. The patient tolerated the procedure well. Sutures out in *** days.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 10, 2010; August 20, 2015
+permalink: <a href="http://www.soapnote.org/skin/excisional-plan/" target="_blank">www.soapnote.org/skin/excisional-plan/</a>
+markup link:  <a href="http://www.soapnote.org/txt/skin/excisional-plan.txt" target="_blank">www.soapnote.org/txt/skin/excisional-plan.txt</a>[/html][/conditional]

@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="http://www.soapnote.org/new/data/html/css/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="http://www.soapnote.org/new/data/html/js/jquery.min.js"></script>
+    <script type="text/javascript" src="http://www.soapnote.org/new/data/html/js/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <h1 class="entry-title">Current Medication History</h1>
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Patient Initials: MK<br>DOB: 06/10/74<br>Date: 08/20/15<br><br>S: MK is a 41 YO male. He presents to the ED with CC: left leg numbmess x 1 day. Pt. has a history of HIV since 4/2015 and was treated for syphilis in 4/2015. Upon 3rd shot of Penicillin he described severe pain in his lower left buttock and pain in left leg. Pt . has also discovered a palpable mass in the same region on buttock where he received the penicillin shot. NKDA. Pt. reports the following home medications during Med Rec:<br><br>Rx<br>Prezista 800 mg 1 tab PO QD<br>Truvada 1 tab PO QD<br>Ethambutol 400 mg 1 tab PO TID<br>Raltegravir 400 mg 1 tab PO BID<br>Ritonavir 100 mg 1 tab PO QD<br>Bactrim DS 1 tab PO QD<br>Gabapentin 600 mg 1 tab qPM<br>Ketorolac 10 mg 1 tab PO TID<br>Lidocaine Patch 5 % qday PRN <br><br>Social hx: Smoking (-) Alcohol (+) Pt reports he drinks "socially." Rec. drugs (-)<br><br>O: Rx- Senna S2 tab PO at bedtime<br>     <br>Weight: 74 kg<br><br>Vitals: N/A<br>Labs: N/A<br><br>A: Patient experiencing numbness in left leg and left foot appears swollen. Pt. reports not being able to feel any sensation in foot. Patient has completed syphillis treatment and continues to take HIV medications as prescribed. In past visits patient reports having a Penicillin drug allergy resulting in rash, patient chart currently lists that he has no known drug allergies.<br><br>P: Verify with patient when last dose of Penicillin was taken and does he have any drug allergy to Penicillin or any other medications. Update chart to show any drug allergies and the affect. No recommendations on home medications which all have an indication and are dosed properly. <br><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="http://www.soapnote.org/new/data/html/js/form.js"></script>
+</div>
+</div>
+</body>
+</html>

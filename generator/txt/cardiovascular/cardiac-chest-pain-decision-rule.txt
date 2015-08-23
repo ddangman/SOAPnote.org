@@ -1,0 +1,17 @@
+Bösner chest pain decision rule
+.....................................................................................................
+Factors:
+ [select name="agesex"  value="yes (1 point)=1|no (0 points)=0"] <-- Man 55 years or older OR Woman 65 years or older
+ [select name="vascular"  value="yes (1 point)=1|no (0 points)=0"]  <-- Known vascular disease (CAD, occlusive vascular disease, cerebrovascular disease)
+[select name="exercise"  value="yes (1 point)=1|no (0 points)=0"]  <-- Pain worse with exercise
+[select name="palpation"  value="yes (1 point)=1|no (0 points)=0"]  <-- Pain not elicited with palpation
+[select name="assume"  value="yes (1 point)=1|no (0 points)=0"] <-- Patient assumes pain is of cardiac origin
+.....................................................................................................
+ Score --> [calc value="score1=(agesex)+(vascular)+(exercise)+(palpation)+(assume)" memo="number"] / 5
+Interpretation --> [calc value="score=(agesex)+(vascular)+(exercise)+(palpation)+(assume); score>3?'Positive likelihood ratio: 4.52 and Negative likelihood ratio: 0.16':score>1?'Positive likelihood ratio: 1.83 and Negative likelihood ratio: 0.03':'Positive likelihood ratio: 4.52 and Negative likelihood ratio: 0.16'" memo="result"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/20603345" target="_blank">Bösner (2010) CMAJ. 182:1298</a>, <a href="http://www.fpnotebook.com/Neuro/Exam/NhStrkScl.htm" target="_blank">FP Notebook page</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  February 3, 2013; August 18, 2015
+permalink: <a href="http://www.soapnote.org/cardiovascular/cardiac-chest-pain-decision-rule/" target="_blank">www.soapnote.org/cardiovascular/cardiac-chest-pain-decision-rule/</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/cardiac-chest-pain-decision-rule.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/cardiac-chest-pain-decision-rule.txt</a>[/html][/conditional]

@@ -1,0 +1,25 @@
+Framingham Heart Failure Diagnostic Criteria 
+------------------------------------------------------------
+Major Criteria (CHF diagnosis requires 1 or more positive)
+A. Acute pulmonary edema ---> [select name="acute_pulmonary"   value="no=0|yes=10"]
+B. Cardiomegaly ---> [select name="cardiomegaly"   value="no=0|yes=10"]
+C. Hepatojugular reflex ---> [select name="hepatojugular"   value="no=0|yes=10"]
+D. Neck vein distention ---> [select name="neck_vein"   value="no=0|yes=10"]
+E. Paroxysmal nocturnal Dyspnea or Orthopnea ---> [select name="orthopnea"   value="no=0|yes=10"]
+F. Pulmonary rales ---> [select name="rales"   value="no=0|yes=10"]
+G. Third Heart Sound (S3 Gallup Rhythm) ---> [select name="third_sound"   value="no=0|yes=10"]
+Minor Criteria (CHF diagnosis requires 2 or more positive)
+A. Ankle edema  ---> [select name="ankle"   value="no=0|yes=1"]
+B. Dyspnea on exertion  ---> [select name="dyspnea"   value="no=0|yes=1"]
+C. Hepatomegaly  ---> [select name="hepatomegaly"   value="no=0|yes=1"]
+D. Nocturnal cough  ---> [select name="nocturnal_cough"   value="no=0|yes=1"]
+E. Pleural Effusion  ---> [select name="pleural_effusion"   value="no=0|yes=1"]
+F. Tachycardia (Heart Rate >120 beats per minute)  ---> [select name="tachycardia"   value="no=0|yes=1"]
+------------------------------------------------------------
+Interpretation:  [calc value="score=(tachycardia)+(pleural_effusion)+(nocturnal_cough)+(hepatomegaly)+(dyspnea)+(ankle)+(third_sound)+(rales)+(orthopnea)+(neck_vein)+(hepatojugular)+(cardiomegaly)+(acute_pulmonary); score>71?'meets Framingham criteria for CHF':score>69?'does not meet Framingham criteria for CHF':score>61?'meets Framingham criteria for CHF':score>59?'does not meet Framingham criteria for CHF':score>51?'meets Framingham criteria for CHF':score>49?'does not meet Framingham criteria for CHF':score>41?'meets Framingham criteria for CHF':score>39?'does not meet Framingham criteria for CHF':score>31?'meets Framingham criteria for CHF':score>29?'does not meet Framingham criteria for CHF':score>21?'meets Framingham criteria for CHF':score>19?'does not meet Framingham criteria for CHF':score>11?'meets Framingham criteria for CHF':'does not meet Framingham criteria for CHF'" memo="score interpretation"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/19239582" target="_blank">Maestre (2009) J Eval Clin Pract 15:55</a>, <a href="http://www.fpnotebook.com/cv/exam/FrmnghmHrtFlrDgnstcCrtr.htm" target="_blank">FP Notebook page</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  February 7, 2013; August 19, 2015
+permalink: <a href="http://www.soapnote.org/cardiovascular/framingham-heart-failure-criteria/" target="_blank">www.soapnote.org/cardiovascular/framingham-heart-failure-criteria/</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/framingham-heart-failure-criteria.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/framingham-heart-failure-criteria.txt</a>[/html][/conditional]

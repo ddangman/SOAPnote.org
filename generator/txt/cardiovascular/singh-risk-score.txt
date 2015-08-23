@@ -1,0 +1,17 @@
+Singh Risk Score for Angioplasty Complications[html]
+[select name="age" value="40 to 49 (1 point)=1|50 to 59 (2 points)=2|60 to 69 (3 points)=3|70 to 79 (4 points)=4|80 to 89 (5 points)=5|90 to 99 (6 points)=6"] <-- Age (years)
+[select name="shock" value="no=0|yes=5"] <-- Preprocedural shock (5 points)
+[select name="lma" value="no=0|yes=5"] <-- Left main coronary artery lesion (5 points)
+[select name="renal" value="no=0|yes=3"] <-- Renal disease (3 points)
+[select name="nonelect" value="no=0|yes=2"] <-- Nonelective procedure (2 points)
+[select name="multi" value="no=0|yes=2"] <-- Multivessel disease (2 points)
+[select name="nyha" value="no=0|yes=2"] <-- New York Heart Association class 3 or 4 heart failure (2 points)
+[select name="thromb" value="no=0|yes=2"] <-- Intracoronary thrombus (2 points)
+Score --> [calc memo="number" value="score1=(age)+(shock)+(lma)+(renal)+(nonelect)+(multi)+(nyha)+(thromb)"]
+Interpretation --> [calc memo="result" value="score2=(age)+(shock)+(lma)+(renal)+(nonelect)+(multi)+(nyha)+(thromb);score2>14?'Very high risk, more than 25 percent':score2>11?'High risk, more than 10 to 25 percent':score2>8?'Moderate risk, more than 5 to 10 percent':score2>5?'Low risk, more than 2 to 5 percent':'Very low risk, less than or equal to 2 percent'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/12142101" target="_blank"> Singh M, Lennon RJ, Holmes DR, Bell MR, Rihal CS. Correlates of procedural complications and a simple integer risk score for percutaneous coronary intervention. J Am Coll Cardiol. 2002;40:387-393.</a>, <a href="http://www.aafp.org/fpm/2004/1100/p71.html" target="_blank">AFP article</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  February 19, 2014; August 20, 2015
+permalink: <a href="http://www.soapnote.org/cardiovascular/singh-risk-score/" target="_blank">www.soapnote.org/cardiovascular/singh-risk-score/</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/singh-risk-score.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/singh-risk-score.txt</a>[/html][/conditional]

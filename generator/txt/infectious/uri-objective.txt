@@ -1,0 +1,15 @@
+General Appearance: ***NAD/lethargic/listless***
+Nose: ***normal/mucosal edema/rhinorrhea/purulent rhinorrhea***
+Ears: ***normal/other***
+Throat: ***normal/erythematous/tonsillar inflammation/tonsillar exudate***
+Lymph nodes: ***no adenopathy/anterior cervical adenopathy/posterior cervical adenopathy/anterior and posterior cervical adenopathy/supraclavicular/axillary/inguinal/bilateral
+/on the right/on the left/left greater than right/right greater than left***
+Heart: ***RR, no murmur/click, S3/S4/other***
+Lungs: ***clear/scattered rhonchi/scattered wheezes/decreased breath sounds***
+Abdomen: ***soft, flat; no masses, tenderness or organomegaly/bowel sounds present/bowel sounds absent/spleen tip palpable/liver edge palpable***
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; August 20, 2015
+permalink: <a href="http://www.soapnote.org/infectious/uri-objective/" target="_blank">www.soapnote.org/infectious/uri-objective/</a>
+markup link:  <a href="http://www.soapnote.org/txt/infectious/uri-objective.txt" target="_blank">www.soapnote.org/txt/infectious/uri-objective.txt</a>[/html][/conditional]

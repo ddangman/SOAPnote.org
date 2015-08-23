@@ -1,0 +1,24 @@
+History:
+Onset:  [textarea]
+Location:  [textarea]
+Duration of Diabetes Mellitus:  [text]
+Last A1c:  [text]
+Risk Assessment
+[select name="Q1" value="no|YES"] <-- Previous Foot Ulceration[conditional field="Q1" condition="(Q1).is('YES')"]
+[textarea][/conditional] 
+[select name="Q2" value="no|YES"] <-- Neuropathy (loss of protective sensation)[conditional field="Q2" condition="(Q2).is('YES')"]
+[textarea][/conditional] 
+[select name="Q3" value="no|YES"] <-- Foot Deformity[conditional field="Q3" condition="(Q3).is('YES')"]
+[textarea][/conditional] 
+[select name="Q4" value="no|YES"] <-- Peripheral Vascular Disease[conditional field="Q4" condition="(Q4).is('YES')"]
+[textarea][/conditional] 
+[select name="Q5" value="no|YES"] <-- Lower Limb Bypasses or Amputations[conditional field="Q5" condition="(Q5).is('YES')"]
+[textarea][/conditional] 
+[select name="Q6" value="no|YES"] <-- Tobacco Use[conditional field="Q6" condition="(Q6).is('YES')"]
+[textarea][/conditional] 
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  June 19, 2012; August 21, 2015
+permalink: <a href="http://www.soapnote.org/endocrine-metabolic/diabetic-foot-ulcer-history/" target="_blank">www.soapnote.org/endocrine-metabolic/diabetic-foot-ulcer-history/</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/diabetic-foot-ulcer-history.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/diabetic-foot-ulcer-history.txt</a>[/html][/conditional]

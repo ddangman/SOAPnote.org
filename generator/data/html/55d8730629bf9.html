@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="http://www.soapnote.org/something-form//data/html/css/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="http://www.soapnote.org/something-form//data/html/js/jquery.min.js"></script>
+    <script type="text/javascript" src="http://www.soapnote.org/something-form//data/html/js/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <h1 class="entry-title">cough-history</h1>
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>History provided by <input type="text" value="" size="15" name="text_55d8732356191" /><br>The patient has had cough for <input type="text" value="" size="15" name="text_55d8732356191" /> days.<br>Cough <select name="select_55d87323562f5"><option value="has not been productive">has not been productive</option><option value="has been productive">has been productive</option></select>.<br>Frequency is <select name="select_55d87323563b5"><option value="infrequent">infrequent</option><option value="intermittent">intermittent</option><option value="constant">constant</option></select>.<br>Severity is <select name="select_55d8732356478"><option value="minimal">minimal</option><option value="moderate">moderate</option><option value="severe">severe</option></select>.<br>Fever <select name="select_55d873235652b"><option value="is not present">is not present</option><option value="is present">is present</option></select><br>Other characteristics include <span class="checkbox" name="checkbox_55d87323565e1"> <label><input type="checkbox" name="checkbox_55d87323565e1" value="sputum clear" /> sputum clear</label> <label><input type="checkbox" name="checkbox_55d87323565e1" value="sputum purulent" /> sputum purulent</label> <label><input type="checkbox" name="checkbox_55d87323565e1" value="hemoptysis noted" /> hemoptysis noted</label> <label><input type="checkbox" name="checkbox_55d87323565e1" value="harsh and barking quality" /> harsh and barking quality</label> <label><input type="checkbox" name="checkbox_55d87323565e1" value="post-tussive emesis" /> post-tussive emesis</label></span>.<br>Over the counter medications/remedies that have been tried are <input type="text" value="" size="15" name="text_55d8732356191" />.<br>Patient has <select name="select_55d8732356727"><option value="no known">no known</option><option value="known">known</option></select> sick contacts at home, school, or work.<br>Other symptoms: <span class="checkbox" name="checkbox_55d87323567d2"> <label><input type="checkbox" name="checkbox_55d87323567d2" value="sore throat" /> sore throat</label> <label><input type="checkbox" name="checkbox_55d87323567d2" value="nasal congestion" /> nasal congestion</label> <label><input type="checkbox" name="checkbox_55d87323567d2" value="earache" /> earache</label> <label><input type="checkbox" name="checkbox_55d87323567d2" value="headache" /> headache</label> <label><input type="checkbox" name="checkbox_55d87323567d2" value="myalgias" /> myalgias</label></span>.<br>Other clues: <span class="checkbox" name="checkbox_55d873235688b"> <label><input type="checkbox" name="checkbox_55d873235688b" value="seasonal allergies" /> seasonal allergies</label> <label><input type="checkbox" name="checkbox_55d873235688b" value="gastroesophageal reflux (GERD)" /> gastroesophageal reflux (GERD)</label></span>.<br>History of pulmonary problems:  <span class="checkbox" name="pulmhx"> <label><input type="checkbox" name="pulmhx" value="no respiratory problems" /> no respiratory problems</label> <label><input type="checkbox" name="pulmhx" value="frequent pneumonia" /> frequent pneumonia</label> <label><input type="checkbox" name="pulmhx" value="frequent bronchitis" /> frequent bronchitis</label> <label><input type="checkbox" name="pulmhx" value="asthma" /> asthma</label> <label><input type="checkbox" name="pulmhx" value="other" /> other</label></span><span name="conditional_55d87323569b8" class="hidden"><input type="text" value="" size="72" name="text_55d8732356ac6" /><span class="memo exclude"><--describe other</span></span>.<br>Tobacco:  <span class="checkbox" name="tobacco"> <label><input type="checkbox" name="tobacco" value="Patient is not a smoker" /> Patient is not a smoker</label> <label><input type="checkbox" name="tobacco" value="Patient is a current or former smoker" /> Patient is a current or former smoker</label> <label><input type="checkbox" name="tobacco" value="Patient is exposed to second hand smoke" /> Patient is exposed to second hand smoke</label></span><span name="conditional_55d8732356bfa" class="hidden"> <input type="text" value="" size="72" name="text_55d8732356ced" /><span class="memo exclude"><--smoking details (optional)</span></span>.<br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55d8732356e20" class="hidden"><span class="exclude"><br>reference:  none<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  April 28, 2010; August 21, 2015<br>permalink: <a href="http://www.soapnote.org/respiratory/cough-history/" target="_blank">www.soapnote.org/respiratory/cough-history/</a><br>markup link:  <a href="http://www.soapnote.org/txt/respiratory/cough-history.txt" target="_blank">www.soapnote.org/txt/respiratory/cough-history.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(pulmhx).is('other')", show:"conditional_55d87323569b8"});
+conditions[1].push({logic:"(tobacco).is('Patient is a current or former smoker')", show:"conditional_55d8732356bfa"});
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_55d8732356e20"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="pulmhx"], select[name="pulmhx"], input[name="tobacco"], select[name="tobacco"], input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="pulmhx"], select[name="pulmhx"], input[name="tobacco"], select[name="tobacco"], input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="http://www.soapnote.org/something-form//data/html/js/form.js"></script>
+</div>
+</div>
+</body>
+</html>

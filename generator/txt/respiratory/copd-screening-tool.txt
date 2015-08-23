@@ -1,0 +1,16 @@
+COPD Screening Tool[html]
+Score of 5 or more may indicate COPD[/html]
+[select name="Q1" value="None of the time (0 points)=0|A little of the time (0 points)=0|Some of the time (1 point)=1|Most of the time (2 points)=2|All of the time (2 points)=2"] <-- 1. During the past 4 weeks, how much of the time did you feel short of breath?
+[select name="Q2" value="No, never (0 points)=0|Only with occasional colds or chest infections (0 points)=0|Yes, a few days a month (1 point)=1|Yes, most days a week (1 point)=1|Yes, everyday (2 points)=2"] <-- 2. Do you ever cough up any “stuff,’’ such as mucus or phlegm?
+[select name="Q3" value="Strongly disagree (0 points)=0|Disagree (0 points)=0|Unsure (0 points)=0|Agree (1 point)=1|Strongly agree (2 points)=2"] <-- 3. Please select the answer that best describes you in the past 12 months. I do less than I used to because of my breathing problems.
+[select name="Q4" value="No (0 points)=0|Yes (2 points)=2|Don't know (0 points)=0"] <-- 4. Have you smoked at least 100 cigarettes in your ENTIRE LIFE?
+[select name="Q5" value="35 - 49 (0 points)=0|50 - 59 (1 point)=1|60 - 69 (2 points)=2|70+ (2 points)=2"] <-- 5. How old are you?
+Score --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)" memo="Score"] points
+Interpretation --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5);score>4?'Possible Chronic Obstructive Pulmonary Disease':'Low Risk for Chronic Obstructive Pulmonary Disease'" memo="Interpretation"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/18415807" target="_blank">Journal of Chronic Obstructive Pulmonary Disease, April 2008, Martinez, F. J., Raczek, A. E., Seifer, F. D., Conoscenti, C. S., Curtice, T. G. & D'Eletto, T., et al. (2008). Development and Initial Validation of a Self-Scored COPD Population Screener Questionnaire (COPD-PS). </a>
+Screening tool adapted from <a href="http://www.drive4copd.org/" target="_blank">Drive4COPD</a> campaign.
+posted by:  Jonathan Poon
+post/review dates:  December 15, 2011; August 21, 2015
+permalink: <a href="http://www.soapnote.org/respiratory/copd-screening-tool/" target="_blank">www.soapnote.org/respiratory/copd-screening-tool/</a>
+markup link:  <a href="http://www.soapnote.org/txt/respiratory/copd-screening-tool.txt" target="_blank">www.soapnote.org/txt/respiratory/copd-screening-tool.txt</a>[/html][/conditional]

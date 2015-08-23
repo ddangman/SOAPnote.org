@@ -1,0 +1,18 @@
+Stress Testing for Diagnosis of Coronary Artery Disease[html]
+Pretest probability calculator/decision tool[/html]
+[select name="gender" value="Female=10|Male=100"] <-- Gender
+[select name="age" value="30 to 39=1|40 to 49=2|50 to 59=3|60 to 69=4"] <-- Age
+[select name="pain" value="One=10|Two=20|Three=30"] <-- Pain Features (Pain has how many of these features: Substernal location; Provoked by exertion; and/or Relieved by rest/nitroglycerin)
+Pretest probability --> [calc memo="pretest probability" value="score=((gender)*(pain))+(age);score>3003?'94%':score>3002?'93%':score>3001?'87%':score>3000?'76%':score>2003?'72%':score>2002?'65%':score>2001?'51%':score>2000?'34%':score>1003?'27%':score>1002?'20%':score>1001?'13%':score>1000?'4%':score>303?'86%':score>302?'73%':score>301?'55%':score>300?'26%':score>203?'51%':score>202?'31%':score>201?'22%':score>200?'12%':score>103?'14%':score>102?'7%':score>101?'3%':'2%'"]
+Interpretation and recommendations:
+One approach to pretest probability is to consider <20% low, 20-80% intermediate, and >80% high.
+Based on your interpretation of pretest probability levels above, consider:
+For high pretest probability:  exercise stress test may be performed to aid with prognosis and management.
+For intermediate pretest probability:  exercise stress test may be performed to aid with diagnosis.
+For low pretest probability:  exercise stress test may have a role in some circumstances, but is not generally recommended.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  Garber, AM Stress testing for diagnosis of coronary heart disease. UpToDate, Basow, DS (Ed), UpToDate, Waltham, MA, 2010.
+posted by:  Mark Morgan, M.D.
+post/review dates:  July 31, 2013; August 20, 2015
+permalink: <a href="http://www.soapnote.org/cardiovascular/stress-testing-chd/" target="_blank">www.soapnote.org/cardiovascular/stress-testing-chd/</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/stress-testing-chd.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/stress-testing-chd.txt</a>[/html][/conditional]

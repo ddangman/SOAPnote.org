@@ -1,0 +1,11 @@
+Wells Clinical Prediction Rule for Pulmonary Embolism [html]
+2012-07-09[/html][link url="http://www.aafp.org/afp/2004/0615/p2829.html" memo="Ramzi (2004) Am Fam Physician 69:2829-36"]
+Clinical Features:
+[select name="DVT" value="No (0 points)=0|Yes (3 points)=3"] <-- Clinical symptoms of DVT?
+[select name="Alternative" value="No (0 points)=0|Yes (3 points)=3"] <-- Other diagnosis less likely than PE? 
+[select name="Rate" value="No (0 points)=0|Yes (1.5 points)=1.5"] <-- Heart rate greater than 100 beats per minute?
+[select name="Immobilization" value="No (0 points)=0|Yes (1.5 points)=1.5"] <-- Immobilization or surgery in the last 4 weeks?
+[select name="Previous" value="No (0 points)=0|Yes (1.5 points)=1.5"] <-- Previous DVT or PE?
+[select name="Hemoptysis" value="No (0 points)=0|Yes (1 point)=1"] <-- Hemoptysis?
+[select name="Malignancy" value="No (0 points)=0|Yes (1 point)=1"] <-- Malignancy?
+Score: [calc value="score=(DVT)+(Alternative)+(Rate)+(Immobilization)+(Previous)+(Hemoptysis)+(Malignancy)"] --> [calc value="score=(DVT)+(Alternative)+(Rate)+(Immobilization)+(Previous)+(Hemoptysis)+(Malignancy);score>6?'High Risk - 78.4%':score>1?'Moderate Risk - 27.8%':'Low Risk - 3.4%'" memo="Interpretation"]

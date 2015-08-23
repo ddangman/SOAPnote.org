@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^soapnote.org/$ [NC] 
+RewriteRule ^(.*\.txt)$ http://soapnote.org/generator/index.php?file=$1 [R=301,L] 
+</IfModule>

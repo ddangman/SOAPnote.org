@@ -1,0 +1,9 @@
+#1 Lower extremity edema
+Compression stockings are prescribed to help mobilize fluid and improve orthostasis.
+A prescription is given for ***20-30 mm Hg Knee High Compression Stocking/20-30 mm Hg Thigh High Compression Stocking/30-40mm Hg Knee High Compression Stocking/30-40mm Hg Thigh High Compression Stocking***.  Quantity 1. No refills. Sig: Apply to legs each am off each pm at hs.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  Stephen Merry, M.D.
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 12, 2010
+permalink: <a href="http://www.soapnote.org/cardiovascular/jobst-prescription/" target="_blank">www.soapnote.org/cardiovascular/jobst-prescription/</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/jobst-prescription.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/jobst-prescription.txt</a>[/html][/conditional]

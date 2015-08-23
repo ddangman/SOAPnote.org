@@ -1,0 +1,13 @@
+Emergency Medical Condition Checklist[html]
+<a href="http://www.law.cornell.edu/uscode/text/42/1395dd">US Code EMTALA text</a>
+<a href="http://www.fpnotebook.com/Manage/Legal/RskMngmnt.htm">FP Notebook Risk Management</a>
+<strong>Note:  This checklist is for chart review purposes only.</strong>  Patient care should not be delayed to use this resource.[/html]
+A medical condition manifesting itself by acute symptoms of sufficient severity (including severe pain) such that the absence of immediate medical attention could reasonably be expected to result in—
+[select name="Q1" value="YES=1|NO=0"] <--   (i) placing the health of the individual (or, with respect to a pregnant woman, the health of the woman or her unborn child) in serious jeopardy,  
+[select name="Q2" value="YES=1|NO=0"] <--  (ii) serious impairment to bodily functions, or  
+[select name="Q3" value="YES=1|NO=0"] <-- (iii) serious dysfunction of any bodily organ or part; or  
+(B) with respect to a pregnant woman who is having contractions—
+[select name="Q4" value="YES=1|NO=0"] <--   (i) that there is inadequate time to effect a safe transfer to another hospital before delivery, or
+[select name="Q5" value="YES=1|NO=0"] <--  (ii) that transfer may pose a threat to the health or safety of the woman or the unborn child.
+
+RESULT --> [calc memo="interpretation" value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5);score>0?'An Emergency Medical Condition is Present':'An Emergency Medical Condition May Not be Present'"]

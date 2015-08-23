@@ -1,0 +1,12 @@
+Exam:
+Appearance:  [textarea default="NO Claw toe.  INTACT midfoot arch.  NO abnormal bony prominences.  NO muscle wasting.  NORMAL distribution of weight when standing."]
+Vascular:  [textarea default="DP and PT pulses 2+, symmetric"]
+Sensation:  [textarea default="INTACT vibration, pressure, pinprick"]
+Signs of Infection [textarea default="NO erythema, warmth, tenderness, swelling, purulence"]
+Measurement of ulcer:  [text]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  June 19, 2012; August 21, 2015
+permalink: <a href="http://www.soapnote.org/endocrine-metabolic/diabetic-foot-ulcer-exam/" target="_blank">www.soapnote.org/endocrine-metabolic/diabetic-foot-ulcer-exam/</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/diabetic-foot-ulcer-exam.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/diabetic-foot-ulcer-exam.txt</a>[/html][/conditional]

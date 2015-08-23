@@ -1,0 +1,34 @@
+EMERGENCY ROOM PROVIDER CHART REVIEW TOOL
+[text default="chart #"] <-- Visit Identifier
+[date] <-- Visit Date
+[text] <-- Visit Provider
+[text] <-- Reviewer
+[date] <-- Review Date
+[text] <-- 1.  Patient age
+[select name="Q2" value="yes|no|uncertain|not applicable"] <-- 2.  Medical screening exam sufficient[conditional field="Q2" condition="(Q2).is('no')||(Q2).is('uncertain')"] 
+  COMMENT:  [text][/conditional]
+[select name="Q3" value="yes|no|uncertain|not applicable"] <-- 3.  Documentation of the absence or presence of an Emergency Medical Condition[conditional field="Q3" condition="(Q3).is('no')||(Q3).is('uncertain')"] 
+  COMMENT:  [text][/conditional]
+[select name="Q4"  value="yes|no|uncertain|not applicable"] <-- 4.  History of present illness is sufficient and addresses significant subjective complaints[conditional field="Q4" condition="(Q4).is('no')||(Q4).is('uncertain')"]
+  COMMENT:  [text][/conditional]
+[select name="Q5"  value="yes|no|uncertain|not applicable"] <-- 5.  Pain assessment sufficient[conditional field="Q5" condition="(Q5).is('no')||(Q5).is('uncertain')"]
+  COMMENT:  [text][/conditional]
+[select name="Q6"  value="yes|no|uncertain|not applicable"] <-- 6.  Allergies documented[conditional field="Q6" condition="(Q6).is('no')||(Q6).is('uncertain')"]
+  COMMENT:  [text][/conditional]
+[select name="Q7"  value="yes|no|uncertain|not applicable"] <-- 7.  Review of Systems sufficient[conditional field="Q7" condition="(Q7).is('no')||(Q7).is('uncertain')"]
+  COMMENT:  [text][/conditional]
+[select name="Q8"  value="yes|no|uncertain|not applicable"] <-- 8.  Physical exam sufficient[conditional field="Q8" condition="(Q8).is('no')||(Q8).is('uncertain')"]
+  COMMENT:  [text][/conditional]
+[select name="Q9"  value="yes|no|uncertain|not applicable"] <-- 9.  Abnormal vital signs and/or physical findings addressed[conditional field="Q9" condition="(Q9).is('no')||(Q9).is('uncertain')"]
+  COMMENT:  [text][/conditional]
+[select name="Q10"  value="yes|no|uncertain|not applicable"] <-- 10.  Appropriate Labs, Radiology, and Special Studies (e.g. EKG) obtained and addressed[conditional field="Q10" condition="(Q10).is('no')||(Q10).is('uncertain')"]
+  COMMENT:  [text][/conditional]
+[select name="Q11"  value="yes|no|uncertain|not applicable"] <-- 11.  Reassessment of patient’s condition after treatment interventions (e.g. nebs/pain/etc)[conditional field="Q11" condition="(Q11).is('no')||(Q11).is('uncertain')"]
+  COMMENT:  [text][/conditional]
+[select name="Q12"  value="yes|no|uncertain|not applicable"] <-- 12.  Assessment and plan appropriate and clearly documented[conditional field="Q12" condition="(Q12).is('no')||(Q12).is('uncertain')"]
+  COMMENT:  [text][/conditional]
+[select name="Q13"  value="yes|no|uncertain|not applicable"] <-- 13.  Appropriate patient education provided[conditional field="Q13" condition="(Q13).is('no')||(Q13).is('uncertain')"]
+  COMMENT:  [text][/conditional]
+[select name="Q14"  value="yes|no|uncertain|not applicable"] <-- 14.  Disposition appropriate (discharge, admission, or transfer)[conditional field="Q14" condition="(Q14).is('no')||(Q14).is('uncertain')"]
+  COMMENT:  [text][/conditional]
+OVERALL COMMENTS: [text size=100]

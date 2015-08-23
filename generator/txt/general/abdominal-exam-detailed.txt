@@ -1,0 +1,3 @@
+ABDOMEN: ***obese/soft/flat/rigid/distended/tympany to percussion/hepatomegaly/splenomegaly/RUQ scar/midline scar/RLQ scar/suprapubic scar/right flank scar/left flank scar***
+***bowel sounds active/decreased bowel sounds/increased bowel sounds/no bruits/abdominal bruit at ---/right femoral artery bruit/left femoral artery bruit/bilateral femoral bruits***
+***no guarding/no rebound tenderness/no abdominal tenderness to palpation/suprapubic tenderness/diffuse tenderness/tender to palpation at ---/RLQ tenderness/rebound tenderness/diminished bowel sounds/hyperactive bowel sounds/guarding/Rovsing's positive/mass at ---/hernia at ---***

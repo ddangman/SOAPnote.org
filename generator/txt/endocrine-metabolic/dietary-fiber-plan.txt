@@ -1,0 +1,18 @@
+#1 ***constipation/irritable bowel syndrome/diverticulosis/hemorrhoids/obesity/hypercholesterolemia***
+Discussed benefits of increasing fiber.
+-the U.S. Department of Agriculture (USDA) recommendation for dietary fiber is 14 g fiber/1,000 kcal
+Discussed alternatives to high carbohydrate and fat snack foods.  Specifically recommended increasing fresh fruit and vegetable intake to at least 5 servings per day.
+Recommended high fiber cereals such as Kashi Go Lean, General Mills Fiber One, Kelloggs All Bran, or similar.
+Cereals usually much less expensive than fiber supplements.
+While increasing fiber intake, reminded patient to ensure water intake is adequate (at least 1.5 Liters/day)
+[checkbox memo="Show the Famous Mary Jo High Fiber Snack Mix Recipe" name="MJ" value=""][conditional field="MJ" condition="(MJ).is('')"]
+Mary Jo's Delicious HIGH FIBER Snack Mix
+- 1 cup General Mills Fiber One (or similar)
+- 1/4 cup very coarsely chopped roasted almonds (and/or other nuts)
+- 1/4 cup raisins (or dates)[/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  March 21, 2011; August 22, 2015
+permalink: <a href="http://www.soapnote.org/endocrine-metabolic/dietary-fiber-plan/" target="_blank">www.soapnote.org/endocrine-metabolic/dietary-fiber-plan/</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/dietary-fiber-plan.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/dietary-fiber-plan.txt</a>[/html][/conditional]

@@ -1,0 +1,1 @@
+[textarea default="History provided by patient|parent|guardian.  Age ***. Patient has had fever for ***.  Home treatments include motrin|tylenol|antipyretics.  Fever is worsening|improving|constant|intermittent|daily|nightly.  Other symptoms include runny nose|sore throat|headache|cough|shortness of breath."]
