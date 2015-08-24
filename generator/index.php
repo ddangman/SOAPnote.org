@@ -8,7 +8,8 @@
         $fileName = explode('/',$_GET['file']);
         $fileName = str_replace('.txt','',$fileName[count($fileName) - 1]);
  }
- include('../generator-header.php');
+include('../main-header.php');
+include('../generator-header.php');
 
  /*
 $content = file_get_contents('testData.txt'); 
