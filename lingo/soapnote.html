@@ -51,6 +51,7 @@
 </ul>
 </li>
 </ul>
+<em>Last Updated August 24, 2015</em>
 <h2><a name="getstarted"></a>Getting started making Soapnotes</h2>
 To save you time, there are a few suggestions that I have before you dive in.
 <ul>
@@ -65,7 +66,7 @@ Soapnote Markup is the snippets in the brackets that turn boilerplate into an in
 Aside from the ones below, there's a lot of other calculators and forms you can take a look at and shamelessly steal from, too.  Just go to "Markup View", "Duplicate" the form and make your changes. Easy!
 <h3><a name="boilerplate"></a>Boilerplate</h3>
 This is simply text entered into a form. Nothing interactive or customized here.
-Here is a sample of <a href="http://www.soapnote.org/sample/sample-boilerplate/">boilerplate</a>.
+Here is a sample of <a href="/sample/sample-boilerplate/">boilerplate</a>.
 <h3><a name="textbox"></a>Text Box</h3>
 This displays a small text box for entry of a few words.
 Code for this is: [text]
@@ -95,7 +96,6 @@ Required parameter is <em>value</em>.
 Optional parameter is <em>name</em>.
 Example 1:
 Employment type: [radio value="Full Time|Part Time|Unemployed"]
-Here are sample <a href="http://www.soapnote.org/tag/radiobutton/" target="_blank">radio buttons</a>.
 <h3><a name="checkbox"></a>Check Boxes</h3>
 This displays boxes where more than one item can be selected.
 Code for this is: [checkbox]
@@ -105,7 +105,6 @@ Example 1:
 [checkbox value="option A|option B|option C"]
 Example 2:
 [checkbox name="cb1" value="upper extremity|lower extremity|neck|back|knee"]
-Here are sample <a href="http://www.soapnote.org/tag/checkbox/" target="_blank">check boxes</a>.
 <h3><a name="select"></a>Drop Down (Select) Box</h3>
 This displays a drop down box where only one item can be selected.
 Code for this is: [select]
@@ -115,21 +114,18 @@ Example 1:
 [select value="choice A|choice B|choice C"]
 Also, numeric values (for calculations) can be set by using the 'equals sign' in the name parameter. Example 2:
 [select name="letters" value="choice A=1|choice B=2|choice C=3"]
-Here are sample drop down or <a href="http://www.soapnote.org/tag/selectbox/" target="_blank">select boxes</a>.
 <h3><a name="comment"></a>Comments</h3>
 Comments do not show up in output but do display in the form.
 Code for this is: [comment]
 Required parameter is <em>memo</em>.
 Example 1:
 [comment memo="Text that will not show up in output"]
-Here are samples with <a href="http://www.soapnote.org/tag/comment/" target="_blank">comments</a>.
 <h3><a name="link"></a>Links</h3>
 Links can take you to other web pages or to locations within the current form.
 Code for this is: [link]
 Optional parameters are <em>url, mark, and memo</em>
 Example 1:
 [link url=”http://www.soapnote.org” memo=”Soapnote Home”]
-Here are samples with <a href="http://www.soapnote.org/tag/link/" target="_blank">links</a>.
 <h3><a name="html"></a>HTML</h3>
 If you have some formatted HTML that you'd like in the form, you can sandwich it between a [html] and a [/html].
 HTML is used to display links or other formatting. It does not display in the output.
@@ -173,7 +169,6 @@ blah
 blah
 blah
 
-Here are samples with <a href="http://www.soapnote.org/tag/mark/" target="_blank">marks</a>.
 <h2><a name="parameters"></a>Parameters</h2>
 <h3><a name="namepar"></a>Name</h3>
 By assigning a name to a form element, you can retrieve it for later use in a form or for calculations.
@@ -223,7 +218,12 @@ These are operators for <strong>combining multiple comparisons</strong>
 &amp;&amp; is the "AND" operator
 || is the "OR" operator
 
-A good example is <a href="http://www.soapnote.org/sample/conditional-comparison/">at this page</a>.
+See example for required syntax.
+Example 1:
+Employment type: [radio value="Full Time|Part Time|Unemployed"]
+[conditional field="job" condition="(job).is('Full Time')||(job).is('Part Time')"]Job title: [text name="job_title"][/conditional]
+
+Another good example is <a href="http://www.soapnote.org/sample/conditional-comparison/">at this page</a>.
 
 Please note that with these comparison operators, blank/empty fields would be considered as 0, so
 (field1).isLess(5) will always be true if "field1" is blank. (Because 0 is less than 5)
@@ -234,7 +234,17 @@ This is a powerful feature of the site and can be used in two ways.
 <h4><a name="computation"></a>Raw Computations</h4>
 A sample with some simple computations is <a href="http://www.soapnote.org/sample/simple-computations/" target="_blank">here</a>.
 In the sample above, raw computations such as addition, subtraction, multiplication, and division is performed on numbers gathered with [text] input fields.
-<em>[calc value="score1=(A)+(B)" memo="addition"]</em>
+Example 1:
+This calculator performs simple computations
+[text name="A"] <-- A (enter a number)
+[text name="B"] <-- B (enter a number)
+
+A + B --> [calc value="score1=(A)+(B)" memo="addition"]
+A - B --> [calc value="score2=(A)-(B)" memo="subtraction"]
+A x B --> [calc value="score3=(A)*(B)" memo="multiplication"]
+A / B --> [calc value="score4=(A)/(B)" memo="division"]
+A raised to the power of B --> [calc value="score5=Math.pow((A),(B))" memo="exponent"]
+
 The [calc] field from the sample is shown above. You can see it has a certain format to it.
 <em>value</em> contains the entire computation in double quotes.
 <em>score1</em> is a required name for the computation. In the sample, you see that <em>value</em> is set equal to <em>score1</em>, <em>score2</em>, <em>score3</em>, <em>score4</em>, and <em>score5</em>. A new name is needed for each computation, but it can be more descriptive than <em>score1</em>.
