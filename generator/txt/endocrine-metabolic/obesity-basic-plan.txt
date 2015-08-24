@@ -1,1 +1,8 @@
-Discussed caloric restriction, increased exercise and the health benefits of weight loss.
+[textarea default="Discussed caloric restriction, increased exercise and the health benefits of weight loss."]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 11, 2010; August 23, 2015
+permalink: <a href="http://www.soapnote.org/endocrine-metabolic/obesity-basic-plan/" target="_blank">www.soapnote.org/endocrine-metabolic/obesity-basic-plan/</a>
+markup link:  <a href="http://www.soapnote.org/txt/endocrine-metabolic/obesity-basic-plan.txt" target="_blank">www.soapnote.org/txt/endocrine-metabolic/obesity-basic-plan.txt</a>[/html][/conditional]
+

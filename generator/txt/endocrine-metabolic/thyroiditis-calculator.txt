@@ -1,6 +1,6 @@
-Thyroiditis Decision Tool
-[html]<strong>Summary:</strong> How to proceed when thyroiditis is suspected.
-<strong>Reference:</strong> <a href="http://www.aafp.org/afp/2006/0515/p1769.html" target="_blank">Am Fam Physician. 2006 May 15;73(10):1769-1776. </a>[/html]
+Thyroiditis Decision Tool[html]
+<strong>Summary:</strong> How to proceed when thyroiditis is suspected.[/html]
+<strong>Reference:</strong> [/html]
 [select name="Q1" value="choose below...=-1|No=0|Yes=1"] <-- Thyroid Pain[conditional field="Q1" condition="(Q1).is('No=0')"]
 [select name="Q2" value="choose below...=-1|No=0|Yes=10"] <-- Taking amiodarone, interferon alfa, interleukin-2, or kinase inhibitor[/conditional][conditional field="Q1|Q2" condition="(Q1).is('No=0')&&(Q2).is('No=0')"]
 [select name="Q3" value="choose below...=-1|Low=0|High=100"] <-- TSH[/conditional][conditional field="Q1|Q2" condition="(Q1).is('No=0')&&(Q2).is('Yes=10')"]
@@ -19,3 +19,9 @@ DIAGNOSIS --> Radiation- or trauma-induced thyroiditis[/conditional][conditional
 [select name="Q8" value="choose below...=-1|No=0|Yes=10000000"] <-- Low TSH and High Thyroglobulin Level[/conditional][conditional field="Q1|Q6|Q7|Q8" condition="(Q1).is('Yes=1')&&(Q6).is('No=0')&&(Q7).is('No=0')&&(Q8).is('No=0')"]
 DIAGNOSIS --> Thyroid hemorrhage[/conditional][conditional field="Q1|Q6|Q7|Q8" condition="(Q1).is('Yes=1')&&(Q6).is('No=0')&&(Q7).is('No=0')&&(Q8).is('Yes=10000000')"]
 DIAGNOSIS --> Subacute thyroiditis[/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.aafp.org/afp/2006/0515/p1769.html" target="_blank">Am Fam Physician. 2006 May 15;73(10):1769-1776. </a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  September 23, 2014; August 23, 2015
+permalink: <a href="http://www.soapnote.org/endocrine-metabolic/thyroiditis-calculator/" target="_blank">www.soapnote.org/endocrine-metabolic/thyroiditis-calculator/</a>
+markup link:  <a href="http://www.soapnote.org/txt/endocrine-metabolic/thyroiditis-calculator.txt" target="_blank">www.soapnote.org/txt/endocrine-metabolic/thyroiditis-calculator.txt</a>[/html][/conditional]

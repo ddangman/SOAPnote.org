@@ -15,3 +15,9 @@ If ALL of your blood sugars less than [text default="80"]. --> DECREASE by 3 uni
 ----------------------------------------
 4. Tell your medical provider how much insulin you are taking at every office visit.
 5. Bring your meter, diary, or log of your blood sugars to every office visit.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  March 9, 2013; August 23, 2015
+permalink: <a href="http://www.soapnote.org/endocrine-metabolic/long-acting-insulin-self-3-3/" target="_blank">www.soapnote.org/endocrine-metabolic/long-acting-insulin-self-3-3/</a>
+markup link:  <a href="http://www.soapnote.org/txt/endocrine-metabolic/long-acting-insulin-self-3-3.txt" target="_blank">www.soapnote.org/txt/endocrine-metabolic/long-acting-insulin-self-3-3.txt</a>[/html][/conditional]

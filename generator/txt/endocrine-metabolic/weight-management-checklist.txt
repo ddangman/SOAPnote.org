@@ -1,6 +1,5 @@
-[html]summary, references, & relevant links
-Summary: The Obesity Management Checklist is intended to be used in serial fashion to support and encourage weight loss in obese adults and children.
-AAFP Office Management of Obesity article:  <a href="http://www.aafp.org/afp/2010/0615/p1449.html">Goutham (2010) Am Fam Phys 81: 1449-55</a>[/html]
+Weight Management Checklist[html]
+Summary: The Obesity Management Checklist is intended to be used in serial fashion to support and encourage weight loss in obese adults and children.[/html]
 [select name="agegrp" value="Adult|Child"] Weight Loss Checklist
 
 [conditional field="agegrp" condition="(agegrp).is('Child')"][select name="Q1a" value="no=0|YES=1"] <-- 1. Do you eat fast food, such as hamburgers or french fries, more than once per week?
@@ -41,3 +40,9 @@ Interpretation --> [calc memo="Result" value="score1=(Q1a)+(Q2a)+(Q3a)+(Q4a)+(Q5
 [html]<em>Using food as a reward or for comfort contributes to weight gain.</em>[/html]
 
 Interpretation --> [calc memo="Result" value="score2=(Q1b)+(Q2b)+(Q3b)+(Q4b)+(Q5b)+(Q6b);score2>0?'There are opportunities to improve your health':'Excellent. Keep up the great work!'"][/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  AAFP Office Management of Obesity article:  <a href="http://www.aafp.org/afp/2010/0615/p1449.html" target="_blank">Goutham (2010) Am Fam Phys 81: 1449-55</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  August 11, 2011; August 23, 2015
+permalink: <a href="http://www.soapnote.org/endocrine-metabolic/weight-management-checklist/" target="_blank">www.soapnote.org/endocrine-metabolic/weight-management-checklist/</a>
+markup link:  <a href="http://www.soapnote.org/txt/endocrine-metabolic/weight-management-checklist.txt" target="_blank">www.soapnote.org/txt/endocrine-metabolic/weight-management-checklist.txt</a>[/html][/conditional]
