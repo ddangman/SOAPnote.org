@@ -1,4 +1,4 @@
-[html]Subjective/History template for abdominal pain contributed by Dr. Scott Moses, creator/author of the <a href="http://www.fpnotebook.com">Family Practice Notebook</a>.[/html]
+[html]Subjective/History template for abdominal pain[/html]
 Patient complains of abdominal pain.
 Onset [text] prior to evaluation
 Onset while:  [text]
@@ -50,3 +50,9 @@ Pertinent Medications:
 Pitfalls:
 [select value="no|YES"] <-- aortic aneurysm history or risk (age over 60, tobacco history)
 [select value="no|YES"] <-- pregnancy risk
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  contributed by Dr. Scott Moses, creator/author of the <a href="http://www.fpnotebook.com" target="_blank">Family Practice Notebook</a>.
+posted by:  Mark Morgan, M.D.
+post/review dates:  November 24, 2010; August 24, 2015
+permalink: <a href="http://www.soapnote.org/digestive-system/abdominal-pain-history-2/" target="_blank">www.soapnote.org/digestive-system/abdominal-pain-history-2/</a>
+markup link:  <a href="http://www.soapnote.org/txt/digestive-system/abdominal-pain-history-2.txt" target="_blank">www.soapnote.org/txt/digestive-system/abdominal-pain-history-2.txt</a>[/html][/conditional]

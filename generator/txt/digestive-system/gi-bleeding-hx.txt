@@ -1,5 +1,4 @@
-Gastrointestinal Bleeding[html]
-contributed by Dr. Scott Moses, creator/author of the <a href="http://www.fpnotebook.com">Family Practice Notebook</a>.[/html]
+Gastrointestinal Bleeding
 Onset [text] prior to evaluation
 Onset while:  [text]
 
@@ -33,3 +32,9 @@ The blood contents is the color [text].
 
 [select value="no|YES"] <-- history of serious CNS risks (e.g. active cancer, immunosuppression, HIV)
 [select value="no|YES"] <-- History of rectal trauma (e.g. intercourse)
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  contributed by Dr. Scott Moses, creator/author of the <a href="http://www.fpnotebook.com" target="_blank">Family Practice Notebook</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  November 24, 2010; August 25, 2015
+permalink: <a href="http://www.soapnote.org/digestive-system/gi-bleeding-hx/" target="_blank">www.soapnote.org/digestive-system/gi-bleeding-hx/</a>
+markup link:  <a href="http://www.soapnote.org/txt/digestive-system/gi-bleeding-hx.txt" target="_blank">www.soapnote.org/txt/digestive-system/gi-bleeding-hx.txt</a>[/html][/conditional]

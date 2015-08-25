@@ -1,8 +1,5 @@
-GerdQ Calculator for Reflux (likelihood of GERD)[html]
-<strong>Summary:</strong> Calculates the likelihood of GERD being present given responses to 6 symptom-related questions.
-<strong>References:</strong>
-<a href="http://www.aafp.org/afp/2010/0515/p1278.html" target="_blank">Am Fam Physician. 2010 May 15;81(10):1278-1280.</a>
-Jones R, Junghard O, Dent J, et al. Development of the GerdQ, a tool for the diagnosis and management of gastrooesophageal reflux disease in primary care. Aliment Pharmacol Ther. 2009;30(10):1034.[/html]
+GerdQ Calculator for Likelihood of Gastroesophageal Reflux Disease[html]
+<strong>Summary:</strong> Calculates the likelihood of GERD being present given responses to 6 symptom-related questions.[/html]
 [select name="Q1" value="Zero (0 points)=0|One (1 point)=1|Two to Three (2 points)=2|Four to Seven (3 points)=3"] <-- Days per week with burning feeling behind the breastbone (heartburn)?
 [select name="Q2" value="Zero (0 points)=0|One (1 point)=1|Two to Three (2 points)=2|Four to Seven (3 points)=3"] <-- Days per week with stomach contents moving up to the throat or mouth (regurgitation)?
 [select name="Q3" value="Zero (3 points)=3|One (2 points)=2|Two to Three (1 point)=1|Four to Seven (0 points)=0"] <-- Days per week with pain in the middle of the upper stomach area?
@@ -10,3 +7,9 @@ Jones R, Junghard O, Dent J, et al. Development of the GerdQ, a tool for the dia
 [select name="Q5" value="Zero (0 points)=0|One (1 point)=1|Two to Three (2 points)=2|Four to Seven (3 points)=3"] <-- Days per week with trouble getting a good night's sleep because of heartburn or regurgitation?
 [select name="Q6" value="Zero (0 points)=0|One (1 point)=1|Two to Three (2 points)=2|Four to Seven (3 points)=3"] <-- Days per week with the need for over-the-counter medicine for heartburn or regurgitation (such as Tums, Rolaids, Maalox, or other antacids), in addition to the medicine your doctor prescribed?
 Score --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)" memo="score"] out of 18.  Interpretation --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6);score>10?'89%':score>7?'79%':score>2?'50%':'0%'" memo="interpretation"] likelihood of GERD.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.aafp.org/afp/2010/0515/p1278.html" target="_blank">Am Fam Physician. 2010 May 15;81(10):1278-1280.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/19737151" target="_blank">Jones R, Junghard O, Dent J, et al. Development of the GerdQ, a tool for the diagnosis and management of gastrooesophageal reflux disease in primary care. Aliment Pharmacol Ther. 2009;30(10):1034</a>, 
+posted by:  Mark Morgan, M.D.
+post/review dates:  October 4, 2010; August 25, 2015
+permalink: <a href="http://www.soapnote.org/digestive-system/gerdq/" target="_blank">www.soapnote.org/digestive-system/gerdq/</a>
+markup link:  <a href="http://www.soapnote.org/txt/digestive-system/gerdq.txt" target="_blank">www.soapnote.org/txt/digestive-system/gerdq.txt</a>[/html][/conditional]

@@ -1,5 +1,4 @@
-Rockall Risk Score for GI bleeding[html]
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/8675081" target="_blank">Rockall TA, Logan RF, Devlin HB, Northfield TC. Risk assessment after acute upper gastrointestinal haemorrhage. Gut. 1996 Mar;38(3):316-21.</a>[/html]
+Rockall Risk Score for GI Bleeding
 [select name="Q1" value="0|1|2"] <-- Age
 Score 0: Age less than 60 years
 Score 1: Age 60 to 79 years
@@ -21,3 +20,9 @@ Score 0: No stigmata or dark spot only
 Score 3: Blood in upper GI tract, adherent clot, visible vessel, or actively bleeding or spurting vessel
 Score --> [calc memo="number" value="score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)"]
 Interpretation --> [calc memo="number" value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5);score2>7?'Rebleeding rate: 41.8%, Mortality: 41.1%':score2>6?'Rebleeding rate: 43.8%, Mortality: 27%':score2>5?'Rebleeding rate: 32.9%, Mortality: 17.3%':score2>4?'Rebleeding rate: 24.1%, Mortality: 10.8%':score2>3?'Rebleeding rate: 14.1%, Mortality: 5.3%':score2>2?'Rebleeding rate: 11.2%, Mortality: 2.9%':'Rebleeding rate: 3.5 to 5.3%, Mortality: 0 to 0.2%'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/8675081" target="_blank">Rockall TA, Logan RF, Devlin HB, Northfield TC. Risk assessment after acute upper gastrointestinal haemorrhage. Gut. 1996 Mar;38(3):316-21.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  October 6, 2014; August 25, 2015
+permalink: <a href="http://www.soapnote.org/digestive-system/rockall-gi-bleed/" target="_blank">www.soapnote.org/digestive-system/rockall-gi-bleed/</a>
+markup link:  <a href="http://www.soapnote.org/txt/digestive-system/rockall-gi-bleed.txt" target="_blank">www.soapnote.org/txt/digestive-system/rockall-gi-bleed.txt</a>[/html][/conditional]

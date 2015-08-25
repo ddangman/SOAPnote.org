@@ -18,3 +18,9 @@ Past history of GI problems
 [select value="no|YES"] <-- irritable bowel syndrome
 [select value="no|YES"] <-- inflammatory bowel disease
 [textarea]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  February 16, 2014; August 25, 2015
+permalink: <a href="http://www.soapnote.org/digestive-system/gastroenteritis-history-2/" target="_blank">www.soapnote.org/digestive-system/gastroenteritis-history-2/</a>
+markup link:  <a href="http://www.soapnote.org/txt/digestive-system/gastroenteritis-history-2.txt" target="_blank">www.soapnote.org/txt/digestive-system/gastroenteritis-history-2.txt</a>[/html][/conditional]

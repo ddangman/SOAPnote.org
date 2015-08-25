@@ -1,8 +1,12 @@
-BARD noninvasive prediction score for advanced fibrosis in nonalcoholic fatty liver[html]
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18390575" target="_blank">Harrison SA, Oliver D, Arnold HL, Gogia S, Neuschwander-Tetri BA. Development and validation of a simple NAFLD clinical scoring system for identifying patients without advanced disease. Gut. 2008 Oct;57(10):1441-7.</a>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20584330" target="_blank">Raszeja-Wyszomirska J, Szymanik B, Ławniczak M, Kajor M, Chwist A, Milkiewicz P, Hartleb M. Validation of the BARD scoring system in Polish patients with nonalcoholic fatty liver disease (NAFLD). BMC Gastroenterol. 2010 Jun 28;10:67.</a>[/html]
+BARD noninvasive prediction score for advanced fibrosis in nonalcoholic fatty liver
 [select name="Q1" value="no (0 points)=0|YES (1 point)=1"] <-- BMI: 28 or higher
 [select name="Q2" value="no (0 points)=0|YES (2 point)=2"] <-- AST to ALT Ratio (AAR): 0.8 or higher
 [select name="Q3" value="no (0 points)=0|YES (1 point)=1"] <-- Type 2 Diabetes Mellitus
 score --> [calc memo="number" value="score1=(Q1)+(Q2)+(Q3)"]
 interpretation --> [calc memo="result" value="score2=(Q1)+(Q2)+(Q3);score2>1?'Advanced fibrosis is possible, further evaluation may be needed':'Advanced fibrosis is unlikely, negative predictive value of score is 90-97%'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/18390575" target="_blank">Harrison SA, Oliver D, Arnold HL, Gogia S, Neuschwander-Tetri BA. Development and validation of a simple NAFLD clinical scoring system for identifying patients without advanced disease. Gut. 2008 Oct;57(10):1441-7.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/20584330" target="_blank">Raszeja-Wyszomirska J, Szymanik B, Ławniczak M, Kajor M, Chwist A, Milkiewicz P, Hartleb M. Validation of the BARD scoring system in Polish patients with nonalcoholic fatty liver disease (NAFLD). BMC Gastroenterol. 2010 Jun 28;10:67.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  October 6, 2014; August 24, 2015
+permalink: <a href="http://www.soapnote.org/digestive-system/bard/" target="_blank">www.soapnote.org/digestive-system/bard/</a>
+markup link:  <a href="http://www.soapnote.org/txt/digestive-system/bard.txt" target="_blank">www.soapnote.org/txt/digestive-system/bard.txt</a>[/html][/conditional]

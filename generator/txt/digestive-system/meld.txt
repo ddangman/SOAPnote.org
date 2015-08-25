@@ -1,4 +1,5 @@
-Model for End-Stage Liver Disease (UNOS) Calculation [comment memo="This calculator provides the MELD score for patients with cirrhosis."]    [link memo="See also Child-Pugh Liver Failure Prognosis Calculator" url="http://www.soapnote.org/digestive-system/child-pugh-score/"]
+Model for End-Stage Liver Disease (UNOS) Calculation[html]
+This calculator provides the MELD score for patients with cirrhosis.  See also <a href="http://www.soapnote.org/digestive-system/child-pugh-score/" target="_blank">Child-Pugh Liver Failure Prognosis Calculator</a>[/html]
 [text name="bilirubin" size=5] <-- Bilirubin [comment memo="units are mg/dL"]  
 [text name="creatinine" size=5] <-- Serum Creatinine [comment memo="units are mg/dL"]  
 [text name="INR" size=5] <-- INR  
@@ -16,4 +17,10 @@ Based on a MELD score of [calc value="score1=score.toFixed(0)" memo="score"][/co
 Based on a MELD score of [calc value="score1=score.toFixed(0)" memo="score"][/conditional][conditional field="INR|creatinine|bilirubin" condition="(bilirubin).isGreaterOrEqual(1)&&(INR).isGreaterOrEqual(1)&&(creatinine).isGreater(4)"][calc value="score=6.431+(3.78*Math.log((bilirubin)))+(11.2 * Math.log((INR)))+(9.57*Math.log((4)))+(9.57*(dialysis)*Math.log((4)))+(-13.267*(dialysis));score>39.5?'71.3%':score>29.5?'52.6%':score>19.5?'19.6%':score>9.5?'6.0%':'1.9%'" memo="Mortality Rate (percentage)"]
 Based on a MELD score of [calc value="score1=score.toFixed(0)" memo="score"][/conditional][conditional field="INR|creatinine|bilirubin" condition="(bilirubin).isGreaterOrEqual(1)&&(INR).isGreaterOrEqual(1)&&(creatinine).isGreaterOrEqual(1)&&(creatinine).isLessOrEqual(4)"][calc value="score=6.431+(3.78*Math.log((bilirubin)))+(11.2 * Math.log((INR)))+(9.57*Math.log((creatinine)))+(9.57*(dialysis)*Math.log((creatinine)))+(-13.267*(dialysis));score>39.5?'71.3%':score>29.5?'52.6%':score>19.5?'19.6%':score>9.5?'6.0%':'1.9%'" memo="Mortality Rate (percentage)"]
 Based on a MELD score of [calc value="score1=score.toFixed(0)" memo="score"][/conditional]
-[comment memo="References: "][link url="http://www.ncbi.nlm.nih.gov/pubmed/12512033" memo="Wiesner (2003) Gastroenterology 124: 91-96"]  [link url="http://optn.transplant.hrsa.gov/resources/allocationcalculators.asp" memo="United Network for Organ Sharing (UNOS) allocation page"]  [link url="http://www.unos.org/docs/MELD_PELD_Calculator_Documentation.pdf" memo="UNOS documentation"]
+[link url="" memo=""]  [link url="http://optn.transplant.hrsa.gov/resources/allocationcalculators.asp" memo="United Network for Organ Sharing (UNOS) allocation page"]  [link url="" memo=""]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/12512033" target="_blank">Wiesner (2003) Gastroenterology 124: 91-96</a>, <a href="http://www.unos.org/docs/MELD_PELD_Calculator_Documentation.pdf" target="_blank">UNOS documentation</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  June 8, 2011; August 25, 2015
+permalink: <a href="http://www.soapnote.org/digestive-system/meld/" target="_blank">www.soapnote.org/digestive-system/meld/</a>
+markup link:  <a href="http://www.soapnote.org/txt/digestive-system/meld.txt" target="_blank">www.soapnote.org/txt/digestive-system/meld.txt</a>[/html][/conditional]

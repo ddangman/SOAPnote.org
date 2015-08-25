@@ -1,0 +1,56 @@
+Gastroenteritis
+Onset [text] prior to evaluation
+Onset while:  [text]
+
+Associated Pain (0=none, 10=severe)
+Location: [text]
+Radiation: [text]
+Severity now (0-10): [text]
+Severity at worst (0-10): [text]
+Duration: [text]
+Characterized as: [text].
+
+Pain modifiers
+Relieved with [text]
+Worse with [text]
+
+Key Symptoms:
+[select value="no|YES"] <-- decreased appetite (last ate at [text])
+[select value="no|YES"] <-- nausea
+[select value="no|YES"] <-- vomiting  [text]
+[select value="no|YES"] <-- diarrhea ([text]stools per day)
+[select value="no|YES"] <-- black or bloody stool
+
+Exposures
+[select value="no|YES"] <-- Bad food intake
+[select value="no|YES"] <-- Recent antibiotics
+[select value="no|YES"] <-- Recent travel
+
+Associated Symptoms:
+[select value="no|YES"] <-- Fever
+[select value="no|YES"] <-- Dysuria
+[select value="no|YES"] <-- Frequency
+[select value="no|YES"] <-- Hematuria
+ 
+Pertinent PMH
+[select value="no|YES"] <-- Gall Bladder or liver disease
+[select value="no|YES"] <-- GERD
+[select value="no|YES"] <-- Peptic ulcer
+[select value="no|YES"] <-- Pancreatitis
+[select value="no|YES"] <-- Urinary tract infections
+[select value="no|YES"] <-- Diverticulitis
+[select value="no|YES"] <-- Inflammatory Bowel Disease
+[select value="no|YES"] <-- Diabetes Mellitus
+
+Pertinent Past Surgeries:
+[select value="no|YES"] <-- Appendectomy
+[select value="no|YES"] <-- Cholecystectomy
+
+Pitfalls:
+[select value="no|YES"] <-- pregnancy risk
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  contributed by Dr. Scott Moses, creator/author of the <a href="http://www.fpnotebook.com" target="_blank">Family Practice Notebook</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  November 24, 2010; August 25, 2015
+permalink: <a href="http://www.soapnote.org/digestive-system/gastroenteritis-history/" target="_blank">www.soapnote.org/digestive-system/gastroenteritis-history/</a>
+markup link:  <a href="http://www.soapnote.org/txt/digestive-system/gastroenteritis-history.txt" target="_blank">www.soapnote.org/txt/digestive-system/gastroenteritis-history.txt</a>[/html][/conditional]

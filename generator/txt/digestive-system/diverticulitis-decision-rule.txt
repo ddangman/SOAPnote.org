@@ -1,7 +1,12 @@
-Diverticulitis Decision Rule[html]<br /><a href="http://www.ncbi.nlm.nih.gov/pubmed/20485003">Laméris W, van Randen A, van Gulik TM, Busch OR, Winkelhagen J, Bossuyt PM, Stoker J, Boermeester MA. A clinical decision rule to establish the diagnosis of acute diverticulitis at the emergency department. Dis Colon Rectum. 2010 Jun;53(6):896-904.</a>
-[/html]
+Diverticulitis Decision Rule
 [select name="Q1" value="No=0|YES=1"] <-- Direct tenderness only in the left lower quadrant
 [select name="Q2" value="No=1|YES=1"] <-- Absence of vomiting
 [select name="Q3" value="No=0|YES=1"] <-- C-reactive protein >50 mg/L
 Interpretation --> [calc value="score=(Q1)+(Q2)+(Q3);
 score>2?'Diverticulitis Likely - Imaging not required - 97 percent positive predictive value for suspected cases':'Unable to Diagnose Clinically - Imaging required'" memo="Interpretation"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/20485003" target="_blank">Laméris W, van Randen A, van Gulik TM, Busch OR, Winkelhagen J, Bossuyt PM, Stoker J, Boermeester MA. A clinical decision rule to establish the diagnosis of acute diverticulitis at the emergency department. Dis Colon Rectum. 2010 Jun;53(6):896-904.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  May 11, 2015; August 24, 2015
+permalink: <a href="http://www.soapnote.org/digestive-system/diverticulitis-decision-rule/" target="_blank">www.soapnote.org/digestive-system/diverticulitis-decision-rule/</a>
+markup link:  <a href="http://www.soapnote.org/txt/digestive-system/diverticulitis-decision-rule.txt" target="_blank">www.soapnote.org/txt/digestive-system/diverticulitis-decision-rule.txt</a>[/html][/conditional]

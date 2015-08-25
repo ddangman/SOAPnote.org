@@ -1,4 +1,0 @@
-Assessment:
-Gastroenteritis
-Plan:
-[checkbox value="Advance diet as tolerated|Discussed importance of taking fluids|Recommended a bland (BRAT - Bananas, Rice, Applesauce, Toast) diet|Discussed anticipated course of symptoms|Emphasized importance of handwashing"]

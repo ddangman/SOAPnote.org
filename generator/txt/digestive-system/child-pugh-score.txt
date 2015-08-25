@@ -1,4 +1,5 @@
-Child-Pugh Score [comment memo="Liver Failure Prognosis Assessment"]  [link memo="See also Model for End-Stage Liver Disease (MELD) calculator" url="http://www.soapnote.org/digestive-system/meld/"]
+Child-Pugh Score [html]Liver Failure Prognosis Assessment
+See also <a href="http://www.soapnote.org/digestive-system/meld/" target="_blank">Model for End-Stage Liver Disease (MELD) Calculator</a>[/html]
 Measurements:
 [select value="<2 mg/dl (1 point)=1|2-3 mg/dl (2 points)=2|>3 mg/dl (3 points)=3" name="bilirubin"] <-- Total Serum Bilibrubin
 [select value=">3.5 g/dl (1 point)=1|2.8 to 3.5 g/dl (2 points)=2|<2.8 g/dl (3 points)=3" name="albumin"] <-- Serum Albumin
@@ -8,5 +9,9 @@ Measurements:
 [select value="No Encephalopathy (1 point)=1|Encephalopathy controlled medically (2 points)=2|Encephalopathy poorly controlled (3 points)=3" name="encephalopathy"]  <-- Encephalopathy
 Assessment:
 Score:  [calc memo="score" value="score=(bilirubin)+(albumin)+(INR)+(ascites)+(encephalopathy)"].  Interpretation:  [calc memo="interpretation" value="score=(bilirubin)+(albumin)+(INR)+(ascites)+(encephalopathy); score>9?'Class C:  Life expectancy: 1 to 3 years, Abdominal surgery peri-operative mortality: 82%':score>6?'Class B:  Indicated for liver transplantation evaluation, Abdominal surgery peri-operative mortality: 30%':'Class A:  Life expectancy: 15 to 20 years, Abdominal surgery peri-operative mortality: 10%'"]
-
-[link url="http://www.fpnotebook.com/GI/Exam/ChldPghScr.htm" memo="More details at the Family Practice Notebook"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.fpnotebook.com/GI/Exam/ChldPghScr.htm" target="_blank">More details at the Family Practice Notebook</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  August 24, 2010; August 24, 2015
+permalink: <a href="http://www.soapnote.org/digestive-system/child-pugh-score/" target="_blank">www.soapnote.org/digestive-system/child-pugh-score/</a>
+markup link:  <a href="http://www.soapnote.org/txt/digestive-system/child-pugh-score.txt" target="_blank">www.soapnote.org/txt/digestive-system/child-pugh-score.txt</a>[/html][/conditional]

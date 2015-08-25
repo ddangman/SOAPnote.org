@@ -1,0 +1,10 @@
+[checkbox memo="Short Version" name="short" value=""][conditional field="short" condition="(short).is('')"][textarea cols=108 rows=5 default="ABDOMEN: soft, flat, nontender without masses or hepatosplenomegaly. Bowel sounds active. No bruits."][/conditional][checkbox memo="Long Version" name="long" value=""][conditional field="long" condition="(long).is('')"][textarea cols=108 rows=5 default="ABDOMEN: ***obese/soft/flat/rigid/distended/tympany to percussion/hepatomegaly/splenomegaly/RUQ scar/midline scar/RLQ scar/suprapubic scar/right flank scar/left flank scar***
+"]
+[textarea cols=108 rows=5 default="***bowel sounds active/decreased bowel sounds/increased bowel sounds/no bruits/abdominal bruit at ---/right femoral artery bruit/left femoral artery bruit/bilateral femoral bruits***"]
+[textarea cols=108 rows=5 default="***no guarding/no rebound tenderness/no abdominal tenderness to palpation/suprapubic tenderness/diffuse tenderness/tender to palpation at ---/RLQ tenderness/rebound tenderness/diminished bowel sounds/hyperactive bowel sounds/guarding/Rovsing's positive/mass at ---/hernia at ---***"][/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+posted by:  Mark Morgan, M.D.
+post/review dates:  August 25, 2015
+permalink: <a href="http://www.soapnote.org/digestive-system/abdominal-exam/" target="_blank">www.soapnote.org/digestive-system/abdominal-exam/</a>
+markup link:  <a href="http://www.soapnote.org/txt/digestive-system/abdominal-exam.txt" target="_blank">www.soapnote.org/txt/digestive-system/abdominal-exam.txt</a>[/html][/conditional]
+
