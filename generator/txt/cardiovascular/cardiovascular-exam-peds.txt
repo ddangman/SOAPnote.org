@@ -1,0 +1,7 @@
+CARDIOVASCULAR: Normal S1 and S2. No murmurs. Rhythm is regular. Extremities are warm and well perfused. Capillary refill is less than 2 seconds. There is no peripheral edema.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 11, 2010; August 27, 2015
+permalink: <a href="http://www.soapnote.org/cardiovascular/cardiovascular-exam-peds/" target="_blank">www.soapnote.org/cardiovascular/cardiovascular-exam-peds/</a>
+markup link:  <a href="http://www.soapnote.org/txt/cardiovascular/cardiovascular-exam-peds.txt" target="_blank">www.soapnote.org/txt/cardiovascular/cardiovascular-exam-peds.txt</a>[/html][/conditional]

@@ -7,3 +7,9 @@ Room assignment needs: ***ICU/Private/Strict Isolation/Airbourne Isolation/Monit
 IV drips or other needs: ***
 Mode of transportation: ***Private car/Ground ambulance/Fixed wing***
 Insurance Information: ***Unknown/Medicare/Private Insurance ---/Medical Assistance ---/Managed Care ---***
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; August 27, 2015
+permalink: <a href="http://www.soapnote.org/general/direct-admission/" target="_blank">www.soapnote.org/general/direct-admission/</a>
+markup link:  <a href="http://www.soapnote.org/txt/general/direct-admission.txt" target="_blank">www.soapnote.org/txt/general/direct-admission.txt</a>[/html][/conditional]

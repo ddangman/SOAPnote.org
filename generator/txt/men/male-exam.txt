@@ -1,0 +1,9 @@
+GENITALIA: Genital exam revealed ***normal penis and testes/no scrotal mass/no tenderness/urethral discharge/no urethral discharge/penile lesion ---/varicocele/scrotal mass/scrotal tenderness/tender and swollen epididymis/scrotal edema***. 
+***no hernia/right inquinal hernia/left inquinal hernia/right femoral hernia/left femoral hernia***.
+Digital rectal exam ***not performed/unremarkable/prostate abnormal ---/reveals hemorrhoids/weak sphincter tone***
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; August 26, 2015
+permalink: <a href="http://www.soapnote.org/men/male-exam/" target="_blank">www.soapnote.org/men/male-exam/</a>
+markup link:  <a href="http://www.soapnote.org/txt/men/male-exam.txt" target="_blank">www.soapnote.org/txt/men/male-exam.txt</a>[/html][/conditional]

@@ -1,0 +1,25 @@
+[text default="Assault"]
+Onset [text] prior to evaluation
+Onset while: [text]
+Episode location: [text]
+Episode description: [text].
+Weapons involved: [text]
+
+Associated Injuries:
+[text]
+
+ROS
+[select value="no|YES"] <-- seizure
+[select value="no|YES"] <-- extremity weakness
+[select value="no|YES"] <-- headache
+[select value="no|YES"] <-- sensory changes (vision, hearing)
+[select value="no|YES"] <-- shortness or breath
+[select value="no|YES"] <-- chest pain
+[select value="no|YES"] <-- nausea/vomiting
+[select value="no|YES"] <-- incontinence of urine or stool
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  contributed by Dr. Scott Moses, creator/author of the <a href="http://www.fpnotebook.com" target="_blank">Family Practice Notebook</a>.
+posted by:  Mark Morgan, M.D.
+post/review dates:  November 24, 2010; August 26, 2015
+permalink: <a href="http://www.soapnote.org/injury/assault-history/" target="_blank">www.soapnote.org/injury/assault-history/</a>
+markup link:  <a href="http://www.soapnote.org/txt/injury/assault-history.txt" target="_blank">www.soapnote.org/txt/injury/assault-history.txt</a>[/html][/conditional]

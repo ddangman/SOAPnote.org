@@ -1,0 +1,11 @@
+BREASTS: 
+[text size=144 default="No chest deformity, asymmetry. Normal contours. No nodules, masses, tenderness, or axillary adenopathy. No nipple discharge."][html]
+<small><font color="green"><i>Enter abnormal details below...</small></font></i>[/html]
+[select value="|Left side:|Right side:"] [checkbox value="dimpling|mastectomy|fibrocystic changes|breast tenderness|muscle tenderness|dominant mass|nipple discharge|axillary adenopathy"] [text]
+[select value="|Left side:|Right side:"] [checkbox value="dimpling|mastectomy|fibrocystic changes|breast tenderness|muscle tenderness|dominant mass|nipple discharge|axillary adenopathy"] [text]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; August 27, 2015
+permalink: <a href="http://www.soapnote.org/women/breast-exam/" target="_blank">www.soapnote.org/women/breast-exam/</a>
+markup link:  <a href="http://www.soapnote.org/txt/women/breast-exam.txt" target="_blank">www.soapnote.org/txt/women/breast-exam.txt</a>[/html][/conditional]

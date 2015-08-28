@@ -1,6 +1,4 @@
-Differential Diagnosis for Specific Signs or Symptoms[html]
-<strong>References:</strong>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21248608" target="_blank">Ely JW, Graber ML, Croskerry P. Checklists to reduce diagnostic errors. Acad Med. 2011 Mar;86(3):307-13. </a>[/html]
+Differential Diagnosis for Specific Signs or Symptoms
 Signs or Symptoms --> [select name="Q1" value="--CHOOSE--|Abdominal and pelvic pain|Abnormal uterine bleeding|Back pain|Chest pain|Cough|Cough, dyspnea (infant, newborn)|Crying infant (Inconsolable)|Delirium|Dementia, memory loss|Diarrhea|Dysphagia|Dyspnea, tachypnea|Ear pain, otalgia|Edema, leg|Facial flushing|Facial pain|Fever (acute, uncertain source)|Flank pain|Genital skin lesion, genital ulcer|Headache|Hearing loss (deafness)|Hematuria|Hypotension, shock|Leg pain, bone pain, extremity pain|Limp in child|Lymphadenopathy|Mental status, acute change (coma, lethargy)|Muscle cramps|Nausea, vomiting|Numbness, sensory loss|Pruritus|Rash, generalized|Red eye|Scrotal pain|Seizure|Shoulder pain|Sinus tachycardia|Syncope|Tinnitus|Tremor|Urinary symptoms (dysuria, frequency, urgency)|Vertigo|Weakness, fatigue, malaise, vague symptoms|Weight loss"]
 [conditional field="Q1" condition="(Q1).isNot('--CHOOSE--')"]
 DIFFERENTIAL DIAGNOSIS[/conditional][conditional field="Q1" condition="(Q1).is('Abdominal and pelvic pain')"]
@@ -869,3 +867,9 @@ Inflammatory bowel disease[html]<small> (<i>Search:</i>  <a href="http://www.goo
 [conditional field="Q1" condition="(Q1).isNot('--CHOOSE--')"]
 (♠) <-- must-not-miss diagnoses
 (*) <-- commonly missed diagnoses[/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/21248608" target="_blank">Ely JW, Graber ML, Croskerry P. Checklists to reduce diagnostic errors. Acad Med. 2011 Mar;86(3):307-13. </a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  May 9, 2015; August 27, 2015
+permalink: <a href="http://www.soapnote.org/general/differential-diagnosis/" target="_blank">www.soapnote.org/general/differential-diagnosis/</a>
+markup link:  <a href="http://www.soapnote.org/txt/general/differential-diagnosis.txt" target="_blank">www.soapnote.org/txt/general/differential-diagnosis.txt</a>[/html][/conditional]

@@ -1,0 +1,18 @@
+[textarea default="Ears: no trouble hearing/dizziness/balance problems."]
+[textarea default="Eyes: no blurring/double vision/spots."]
+[textarea default="Throat: no pain/trouble swallowing."]
+[textarea default="Neck: no painful nodes."]
+[textarea default="Thyroid: no tremor/palpitations/anxiety/heat or cold intolerance/unusual fatigue."]
+[textarea default="Chest: no cough/sputum/SOB/chest pain."]
+[textarea default="CVS: no CP/heaviness/jaw or arm pain/palpitations/leg pain with exercise/edema."]
+[textarea default="GI: no constipation/diarrhea/blood in stool/melena."]
+[textarea default="GU: no dysuria/frequency/blood in urine/incontinence."]
+[textarea default="Gyne: no vaginal pain/discharge/trouble with intercourse."]
+[textarea default="MS: no pain/swelling in muscles or joints."]
+[textarea default="Neuro: no HA."]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; August 28, 2015
+permalink: <a href="http://www.soapnote.org/women/female-ros/" target="_blank">www.soapnote.org/women/female-ros/</a>
+markup link:  <a href="http://www.soapnote.org/txt/women/female-ros.txt" target="_blank">www.soapnote.org/txt/women/female-ros.txt</a>[/html][/conditional]

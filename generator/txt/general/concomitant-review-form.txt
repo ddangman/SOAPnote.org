@@ -1,4 +1,4 @@
-[text default="user_organization"][comment memo="organization"] ER Provider Concomitant Review Form
+[text default="Organization"] ER Provider Concomitant Review Form
 Visit Date:  [date name="visit_date"]
 Chart #: [text]
 ER Provider: [text]
@@ -31,3 +31,9 @@ Provider Documentation:  [checkbox name="provider_documentation" value="No issue
 Recommendation:  [select name="recommendation" value="No further action required|Refer to individual provider/physician with suggestions for improvement|Refer to Clinical Director|Referral to Medical Executive Committee"]
 Physician Reviewer: [text]
 Review Date: [date name="review_date"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  November 16, 2012; August 27, 2015
+permalink: <a href="http://www.soapnote.org/general/concomitant-review-form/" target="_blank">www.soapnote.org/general/concomitant-review-form/</a>
+markup link:  <a href="http://www.soapnote.org/txt/general/concomitant-review-form.txt" target="_blank">www.soapnote.org/txt/general/concomitant-review-form.txt</a>[/html][/conditional]

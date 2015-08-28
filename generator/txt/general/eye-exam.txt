@@ -1,6 +1,0 @@
-Eyes: ***Orbits, eyelids, conjunctivae and sclera are normal. Pupils are equal, round, reactive to light with extraocular movements intact. Vision is grossly intact, and funduscopic examination is unremarkable.***
-external: brows, lids, and lashes ***intact/absent***
-conjunctiva: ***pale/injected/mattery discharge/purulent discharge/foreign body visualized and removed/corneal abrasion visualized with fluorescein staining***
-visual acuity: near (to small print) ***normal/impaired***, far ***/20 OS, ***/20 OD, ***/20 OU
-funduscopic: ***macula present/hemorrhage/AV nicking/optic disc shows cup disc ratio of .3***
-other abnormalities: ***strabismus/nystagmus/blepharitis/chalazion/hordeolum/subconjuntival hemorhage/arcus senilis/lenicular opacity/cells in anterior chamber***

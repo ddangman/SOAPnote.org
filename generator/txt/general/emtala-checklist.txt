@@ -1,6 +1,4 @@
 Emergency Medical Condition Checklist[html]
-<a href="http://www.law.cornell.edu/uscode/text/42/1395dd">US Code EMTALA text</a>
-<a href="http://www.fpnotebook.com/Manage/Legal/RskMngmnt.htm">FP Notebook Risk Management</a>
 <strong>Note:  This checklist is for chart review purposes only.</strong>  Patient care should not be delayed to use this resource.[/html]
 A medical condition manifesting itself by acute symptoms of sufficient severity (including severe pain) such that the absence of immediate medical attention could reasonably be expected to result in—
 [select name="Q1" value="YES=1|NO=0"] <--   (i) placing the health of the individual (or, with respect to a pregnant woman, the health of the woman or her unborn child) in serious jeopardy,  
@@ -11,3 +9,9 @@ A medical condition manifesting itself by acute symptoms of sufficient severity 
 [select name="Q5" value="YES=1|NO=0"] <--  (ii) that transfer may pose a threat to the health or safety of the woman or the unborn child.
 
 RESULT --> [calc memo="interpretation" value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5);score>0?'An Emergency Medical Condition is Present':'An Emergency Medical Condition May Not be Present'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.law.cornell.edu/uscode/text/42/1395dd" target="_blank">US Code EMTALA text</a>, <a href="http://www.fpnotebook.com/Manage/Legal/RskMngmnt.htm" target="_blank">FP Notebook Risk Management</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  March 3, 2014; August 27, 2015
+permalink: <a href="http://www.soapnote.org/general/emtala-checklist/" target="_blank">www.soapnote.org/general/emtala-checklist/</a>
+markup link:  <a href="http://www.soapnote.org/txt/general/emtala-checklist.txt" target="_blank">www.soapnote.org/txt/general/emtala-checklist.txt</a>[/html][/conditional]

@@ -1,5 +1,0 @@
-BREASTS: 
-[text size=144 default="No chest deformity, asymmetry. Normal contours. No nodules, masses, tenderness, or axillary adenopathy. No nipple discharge."][html]
-<small><font color="green"><i>Enter abnormal details below...</small></font></i>[/html]
-[select value="|Left side:|Right side:"] [checkbox value="dimpling|mastectomy|fibrocystic changes|breast tenderness|muscle tenderness|dominant mass|nipple discharge|axillary adenopathy"] [text]
-[select value="|Left side:|Right side:"] [checkbox value="dimpling|mastectomy|fibrocystic changes|breast tenderness|muscle tenderness|dominant mass|nipple discharge|axillary adenopathy"] [text]

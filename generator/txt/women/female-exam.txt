@@ -9,3 +9,9 @@ ABDOMEN: Soft, nontender without masses or hepatosplenomegaly. Bowel sounds are 
 PELVIC: Normally developed genitalia with no external lesions or eruptions. Vagina and cervix show no lesions, inflammation, discharge or tenderness. No cystocele.
 EXTREMITIES: no deformities or significant joint findings. No edema. Peripheral pulses intact. No varicosities.
 SKIN: normal.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; August 28, 2015
+permalink: <a href="http://www.soapnote.org/women/female-exam/" target="_blank">www.soapnote.org/women/female-exam/</a>
+markup link:  <a href="http://www.soapnote.org/txt/women/female-exam.txt" target="_blank">www.soapnote.org/txt/women/female-exam.txt</a>[/html][/conditional]
