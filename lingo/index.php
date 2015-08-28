@@ -1,5 +1,5 @@
 <?php 
- include('../main-header.php');
+ include('../lib/main-header.php');
 ?>
 <div id="container" class="container">
 <?php 

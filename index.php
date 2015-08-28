@@ -1,5 +1,5 @@
 <?php 
-include('main-header.php');
+include('lib/main-header.php');
 ?>
 <div class="container">
 </div>
