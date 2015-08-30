@@ -1,0 +1,24 @@
+4 Year Prognostic Index
+Demographics
+[select name="Q1" value="60 to 64 (1 point)=1|65 to 69 (2 points)=2|70 to 74 (3 points)=3|75 to 79 (4 points)=4|80 to 84 (5 points)=5|85 and over (7 points)=7"] <-- Age (years)
+[select name="Q2" value="Female (0 points)=0|Male (2 points)=2"] <-- Gender
+[select name="Q3" value="No (0 points)=0|Yes (1 point)=1"] <-- Diabetes
+Comorbidities and behaviors
+[select name="Q4" value="No (0 points)=0|Yes (2 points)=2"] <-- Cancer (other than minor skin cancer)
+[select name="Q5" value="No (0 points)=0|Yes (2 points)=2"] <-- Chronic lung disease (disease limits activities or patient requires oxygen)
+[select name="Q6" value="No (0 points)=0|Yes (2 points)=2"] <-- Heart failure
+[select name="Q7" value="No (0 points)=0|Yes (1 point)=1"] <-- Body mass index < 25 kg/m2
+[select name="Q8" value="No (0 points)=0|Yes (2 points)=2"] <-- Current smoker
+Functional measures
+[select name="Q9" value="No (0 points)=0|Yes (2 points)=2"] <-- Because of a health or memory problem do you have any difficulty with bathing?
+[select name="Q10" value="No (0 points)=0|Yes (2 points)=2"] <-- Because of a health or memory problem do you have any difficulty with managing finances?
+[select name="Q11" value="No (0 points)=0|Yes (2 points)=2"] <-- Because of a health or memory problem do you have any difficulty with walking several blocks
+[select name="Q12" value="No (0 points)=0|Yes (1 point)=1"] <-- Because of a health or memory problem do you have any difficulty with pushing/pulling heavy objects?
+Score --> [calc memo="Score" value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10)+(Q11)+(Q12)"] out of 27 points
+Interpretation --> [calc memo="Interpretation" value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10)+(Q11)+(Q12);score>13?'64%':score>9?'42%':score>5?'15%':'<4%'"] 4-year mortality risk
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16478903" target="_blank">Lee SJ, Lindquist K, Segal MR, Covinsky KE. Development and validation of a prognostic index for 4-year mortality in older adults. JAMA 2006;295:805.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/16939186" target="_blank">Predicting Four-Year Mortality Risk in Older Adults</a>, Am Fam Physician. 2006 Aug 15;74(4):633-634.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  June 16, 2013; August 30, 2015
+permalink: <a href="http://www.soapnote.org/elder-care/4-year-prognostic-index/" target="_blank">www.soapnote.org/elder-care/4-year-prognostic-index/</a>
+markup link:  <a href="http://www.soapnote.org/txt/elder-care/4-year-prognostic-index.txt" target="_blank">www.soapnote.org/txt/elder-care/4-year-prognostic-index.txt</a>[/html][/conditional]

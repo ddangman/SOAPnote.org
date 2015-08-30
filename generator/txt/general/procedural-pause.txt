@@ -1,2 +1,7 @@
-PROCEDURAL PAUSE
-Procedural pause conducted to verify: correct patient identity, procedure to be performed and as applicable, correct side and site, correct patient position, and availability of implants, special equipment or special requirements.
+[textarea default="Procedural pause conducted to verify: correct patient identity, procedure to be performed and as applicable, correct side and site, correct patient position, and availability of implants, special equipment or special requirements."]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; August 29, 2015
+permalink: <a href="http://www.soapnote.org/general/procedural-pause/" target="_blank">www.soapnote.org/general/procedural-pause/</a>
+markup link:  <a href="http://www.soapnote.org/txt/general/procedural-pause.txt" target="_blank">www.soapnote.org/txt/general/procedural-pause.txt</a>[/html][/conditional]

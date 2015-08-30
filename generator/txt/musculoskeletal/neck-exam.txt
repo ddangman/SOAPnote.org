@@ -1,0 +1,11 @@
+[textarea default="NECK: Neck and thyroid were examined showing ***anterior cervical lymphadenopathy/posterior cervical lymphadenopathy/neck tenderness/diffuse enlargement of the thyroid/neck rigidity/TMJ tenderness***."]
+[textarea default="musculoskeletal findings: Palpation of neck showed ***pain/no pain*** in the ***paraspinals/midline pain over the spinous processes/trapezial ridge/levator scapula/rhomboids*** on the ***left side/right side***."]
+[textarea default="ROM was ***normal/fair/decreased/moderately decreased/markedly decreased*** with ***no pain with lateral bending/pain with lateral bending*** to ***either side/left side/right side*** and ***pain/no pain/radicular pain down same side/radicular pain down both sides*** on forward flexion. "]
+[textarea default="Exam of extension showed ***limitation of ROM/no limitation of extension ROM/pain in paraspinal neck area/no pain/radicular pain down same side***."]
+[textarea default="Axial load test reveals ***no pain/pain/paraspinal discomfort mild on same side/radicular pain down the arm on same side/no radicular pain down the arm***."]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  November 24, 2010; August 28, 2015
+permalink: <a href="http://www.soapnote.org/musculoskeletal/neck-exam/" target="_blank">www.soapnote.org/musculoskeletal/neck-exam/</a>
+markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/neck-exam.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/neck-exam.txt</a>[/html][/conditional]

@@ -1,0 +1,18 @@
+Cognitive Problems History
+[select name="Q1" value="no|YES"] <-- Changes in memory (is the patient misplacing things more, using notes and reminders more, repeating questions, having trouble keeping track of dates and appointments?)[conditional field="Q1" condition="(Q1).is('YES')"]
+Details --> [textarea][/conditional]
+
+[select name="Q2" value="no|YES"] <-- Changes in language (word-finding difficulties?)[conditional field="Q2" condition="(Q2).is('YES')"]
+Details --> [textarea][/conditional]
+
+[select name="Q3" value="no|YES"] <-- Changes in visuospatial function (new driving difficulties, including being slow to identify roadway hazards, late to apply brakes, or difficulty staying in lane?)[conditional field="Q3" condition="(Q3).is('YES')"]
+Details --> [textarea][/conditional]
+
+[select name="Q4" value="no|YES"] <-- Changes in attention/executive function (easily distracted, new difficulties preparing meals or using household appliances, new difficulty writing checks, new safety concerns from family members?)[conditional field="Q4" condition="(Q4).is('YES')"]
+Details --> [textarea][/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  January 12, 2014; August 30, 2015
+permalink: <a href="http://www.soapnote.org/elder-care/cognitive-problems-history/" target="_blank">www.soapnote.org/elder-care/cognitive-problems-history/</a>
+markup link:  <a href="http://www.soapnote.org/txt/elder-care/cognitive-problems-history.txt" target="_blank">www.soapnote.org/txt/elder-care/cognitive-problems-history.txt</a>[/html][/conditional]

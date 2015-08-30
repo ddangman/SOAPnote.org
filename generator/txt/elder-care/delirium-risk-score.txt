@@ -1,0 +1,12 @@
+Delirium Predictive Risk Score
+[text name="bun"] <-- BUN (mg/dL)
+[text name="creatinine"] <-- Creatinine (mg/dL)
+[text name="barthel"] <-- Barthel Index [html]<a href="http://www.soapnote.org/elder-care/barthel-adl/" target="_blank">go to calculator</a>[/html]
+Score --> [calc memo="number" value="score1=((5.5*(bun)/(creatinine))-(4*(barthel))).toFixed(2)"]
+Interpretation --> [calc memo="result" value="score2=(5.5*(bun)/(creatinine))-(4*(barthel));score2>240?'High risk for development of delirium, 45 percent':'Not at high risk for development of delirium'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/24064236" target="_blank">Carrasco MP, Villarroel L, Andrade M, Calderón J, González M. Development and validation of a delirium predictive score in older people. Age Ageing 2014;43(3):346-351.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  August 9, 2014; August 30, 2015
+permalink: <a href="http://www.soapnote.org/elder-care/delirium-risk-score/" target="_blank">www.soapnote.org/elder-care/delirium-risk-score/</a>
+markup link:  <a href="http://www.soapnote.org/txt/elder-care/delirium-risk-score.txt" target="_blank">www.soapnote.org/txt/elder-care/delirium-risk-score.txt</a>[/html][/conditional]

@@ -1,5 +1,4 @@
-Health Risk Appraisal for Males & Females 35 Years or Older[html]
-Reference: <a href="http://www.amazon.com/gp/product/1846686202/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1846686202&linkCode=as2&tag=soapnote0f-20">Blastland M, Spiegelhalter D.  The Norm Chronicles:  Stories and Numbers about Danger.  London:  Profile Books LTD; 2013.</a>  The authors of that reference researched different healthy and risky behaviors and applied the hazard ratios from supporting studies to data tables from the <a href="http://www.ons.gov.uk/">United Kingdom Office of National Statistics.</a>[/html]
+Health Risk Appraisal for Males & Females 35 Years or Older
 Assumptions are life expectancy of a man aged 22 in the UK is currently about 79, for a woman it is about 83.  This calculator is intended only for fun and is not a comprehensive list of ALL health factors.  Be advised that entering extreme values may produce absurd results.
 
 [select name="Gender" value="Female|Male"] <-- Gender
@@ -121,3 +120,9 @@ OVERALL
 Aging today --> [calc memo="---" value="scoreAgingTodayM=(24-(scoreStatinTodayM)-(scoreCoffeeTodayM)-(scoreMeatTodayM)-(scoreAlcoholTodayM)-(scoreCigTodayM)-(scoreExerciseTodayM)-(scoreTeleTodayM)-(scoreVegTodayM)).toFixed(2)"] Hours (24 is average, the less the better)
 Today's aging rate --> [calc memo="---" value="scoreAgeRateM=((24-(scoreStatinTodayM)-(scoreCoffeeTodayM)-(scoreMeatTodayM)-(scoreAlcoholTodayM)-(scoreCigTodayM)-(scoreExerciseTodayM)-(scoreTeleTodayM)-(scoreVegTodayM))/24).toFixed(2)"] (1 is average, the less the better)
 Longevity prediction --> [calc memo="---" value="scoreLongM=(79+(((TodayCigM)*(YearCigM)*(-0.25))+((BMIM)*(YearBMIM)*(-1.5))+((TodayTeleM)*(-0.5)*(YearTeleM))+((TodayExerciseM)*(YearExerciseM))+((TodayAlcoholM)*(YearAlcoholM))+((TodayMeatM)*(YearMeatM))+((TodayVegM)*(YearVegM))+((TodayCoffeeM)*(YearCoffeeM))+((TodayStatinM)*(YearStatinM)))/24).toFixed(2)"] years[/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.amazon.com/gp/product/1846686202/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1846686202&linkCode=as2&tag=soapnote0f-20" target="_blank">Blastland M, Spiegelhalter D.  The Norm Chronicles:  Stories and Numbers about Danger.  London:  Profile Books LTD; 2013.</a>  The authors of that reference researched different healthy and risky behaviors and applied the hazard ratios from supporting studies to data tables from the <a href="http://www.ons.gov.uk/">United Kingdom Office of National Statistics.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  October 20, 2013; August 28, 2015
+permalink: <a href="http://www.soapnote.org/general/health-risk/" target="_blank">www.soapnote.org/general/health-risk/</a>
+markup link:  <a href="http://www.soapnote.org/txt/general/health-risk.txt" target="_blank">www.soapnote.org/txt/general/health-risk.txt</a>[/html][/conditional]

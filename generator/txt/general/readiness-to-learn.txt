@@ -3,3 +3,9 @@ Barriers assessed: ***cultural/religious or spiritual/motivational/physical or c
 Barriers present: ***none/cultural/religious or spiritual/motivational/physical or cognitive/language/emotional***
 Learns best by ***reading/seeing/listening/doing***
 ***Patient/Parent*** agrees with this plan and verbalizes understanding.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; August 29, 2015
+permalink: <a href="http://www.soapnote.org/general/readiness-to-learn/" target="_blank">www.soapnote.org/general/readiness-to-learn/</a>
+markup link:  <a href="http://www.soapnote.org/txt/general/readiness-to-learn.txt" target="_blank">www.soapnote.org/txt/general/readiness-to-learn.txt</a>[/html][/conditional]

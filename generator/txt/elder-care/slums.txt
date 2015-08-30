@@ -1,0 +1,35 @@
+Saint Louis University Mental Status (SLUMS) Examination
+1. [select name="DayOfWeek" value="Correct (1 point)=1|Incorrect (0 points)=0"] <-- What day of the week is it?
+2. [select name="Year" value="Correct (1 point)=1|Incorrect (0 points)=0"] <-- What is the year?
+3. [select name="State" value="Correct (1 point)=1|Incorrect (0 points)=0"] <-- What state are we in?
+4. Please remember these five objects. I will ask you what they are later: apple, pen, tie, house, car.
+5. You have $100 and you go to the store and buy a dozen apples for $3 and a tricycle for $20.
+   [select name="Spend" value="Correct (1 point)=1|Incorrect (0 points)=0"] <-- How much did you spend?
+   [select name="Left" value="Correct (2 points)=2|Incorrect (0 points)=0"] <-- How much do you have left?
+6. [select name="Animals" value="0-4 animals (0 points)=0|5-9 animals (1 point)=1|10-14 animals (2 points)=2|15+ animals (3 points)=3"] <-- Please name as many animals as you can in one minute.
+7. [select name="Objects" value="1 object (1 point)=1|2 objects (2 points)=2|3 objects (3 points)=3|4 objects (4 points)=4|5 objects (5 points)=5"] <-- What were the five objects I asked you to remember?
+8. I am going to say a series of numbers and I would like you to give them to me backwards. For example, if I say 42, you would say 24.
+   [select name="Backwards1" value="No points"] <-- 87
+   [select name="Backwards2" value="Correct (1 point)=1|Incorrect (0 points)=0"] <-- 649
+   [select name="Backwards3" value="Correct (1 point)=1|Incorrect (0 points)=0"] <-- 8537
+9. (Draw circle.) This circle represents a clock face. Please put in the hour markers and the time at ten minutes to eleven o'clock.
+   [select name="Hour" value="Correct (2 points)=2|Incorrect (0 points)=0"] <-- Hour marker correct?
+   [select name="Time" value="Correct (2 points)=2|Incorrect (0 points)=0"] <-- Correct time?
+10. (Show a triangle, a square and a rectangle.) 
+   [select name="XTriangle" value="Correct (1 point)=1|Incorrect (0 points)=0"] <-- Please place an X in the triangle.
+   [select name="Largest" value="Correct (1 point)=1|Incorrect (0 points)=0"] <-- Which of those objects is the largest?
+11. I am going to tell you a story. Please listen carefully because afterward, I'm going to ask you some questions about it.
+"Jill was a very successful stockbroker. She made a lot of money in the stock market. She then met Jack, a devastatingly handsome man. She married him and had three children. They lived in Chicago. She then stopped working and stayed at home to bring up her children. When they were teenagers, she went back to work. She and Jack lived happily ever after.  "
+   [select name="FemaleName" value="Correct (2 points)=2|Incorrect (0 points)=0"] <-- What was the female's name?
+   [select name="BackToWork" value="Correct (2 points)=2|Incorrect (0 points)=0"] <-- When did she go back to work?
+   [select name="WorkDone" value="Correct (2 points)=2|Incorrect (0 points)=0"] <-- What work did she do?
+   [select name="WhatState" value="Correct (2 points)=2|Incorrect (0 points)=0"] <-- What state did she live in?
+12. [select name="Education" value="High School or above|Less than High School"] <-- Education?
+SCORE:  [conditional field="Education" condition="(Education).is('High School or above')"][calc value="score=(WhatState)+(WorkDone)+(BackToWork)+(FemaleName)+(Largest)+(XTriangle)+(Time)+(Hour)+(Backwards2)+(Backwards3)+(Objects)+(Animals)+(Left)+(Spend)+(State)+(Year)+(DayOfWeek)" memo="score"]/30  [calc value="score=(WhatState)+(WorkDone)+(BackToWork)+(FemaleName)+(Largest)+(XTriangle)+(Time)+(Hour)+(Backwards2)+(Backwards3)+(Objects)+(Animals)+(Left)+(Spend)+(State)+(Year)+(DayOfWeek);score>26?'Normal':score>20?'Mild neurocognitive disorder':'Dementia'" memo="interpretation"][/conditional][conditional field="Education" condition="(Education).is('Less than High School')"][calc value="score=(WhatState)+(WorkDone)+(BackToWork)+(FemaleName)+(Largest)+(XTriangle)+(Time)+(Hour)+(Backwards2)+(Backwards3)+(Objects)+(Animals)+(Left)+(Spend)+(State)+(Year)+(DayOfWeek)" memo="score"]/30  [calc value="score=(WhatState)+(WorkDone)+(BackToWork)+(FemaleName)+(Largest)+(XTriangle)+(Time)+(Hour)+(Backwards2)+(Backwards3)+(Objects)+(Animals)+(Left)+(Spend)+(State)+(Year)+(DayOfWeek);score>24?'Normal':score>19?'Mild neurocognitive disorder':'Dementia'" memo="interpretation"][/conditional]  
+[comment memo="note:  maximum score is 30.  27 and above is normal for high school educated adults.  25 and above is normal for those with less education."]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/17068312" target="_blank">Tariq (2006) Am J Geriatr Psychiatry 14:900-10</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  July 5, 2013; August 30, 2015
+permalink: <a href="http://www.soapnote.org/elder-care/slums/" target="_blank">www.soapnote.org/elder-care/slums/</a>
+markup link:  <a href="http://www.soapnote.org/txt/elder-care/slums.txt" target="_blank">www.soapnote.org/txt/elder-care/slums.txt</a>[/html][/conditional]

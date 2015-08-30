@@ -27,3 +27,9 @@ ROS
 [select value="no|YES"] <--  chest pain
 [select value="no|YES"] <--  nausea/vomiting
 [select value="no|YES"] <--  incontinence of urine or stool
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  November 24, 2010; August 28, 2015
+permalink: <a href="http://www.soapnote.org/injury/mva-hx/" target="_blank">www.soapnote.org/injury/mva-hx/</a>
+markup link:  <a href="http://www.soapnote.org/txt/injury/mva-hx.txt" target="_blank">www.soapnote.org/txt/injury/mva-hx.txt</a>[/html][/conditional]

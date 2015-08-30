@@ -1,0 +1,12 @@
+CAM-S Confusion Assessment Method
+[select name="Q1" value="absent (0)=0|present (1)=1"] <-- Acute onset of symptom fluctuation
+[select name="Q2" value="absent (0)=0|mild (1)=1|marked (2)=2"] <-- Inattention
+[select name="Q3" value="absent (0)=0|mild (1)=1|marked (2)=2"] <-- Disorganized thinking
+[select name="Q4" value="absent (0)=0|mild (1)=1|marked (2)=2"] <-- Altered level of consciousness
+Score --> [calc memo="number" value="score1=(Q1)+(Q2)+(Q3)+(Q4)"] / 7 (higher scores are predictive of increasing length of stay as well as the relative risk of death or nursing home placement within 90 days)
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/24733193" target="_blank">Inouye SK, Kosar CM, Tommet D, Schmitt EM, Puelle MR, Saczynski JS, Marcantonio ER, Jones RN. The CAM-S: development and validation of a new scoring system for delirium severity in 2 cohorts. Ann Intern Med. 2014 Apr 15;160(8):526-33.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  August 19, 2014; August 30, 2015
+permalink: <a href="http://www.soapnote.org/elder-care/confusion-assessment-method/" target="_blank">www.soapnote.org/elder-care/confusion-assessment-method/</a>
+markup link:  <a href="http://www.soapnote.org/txt/elder-care/confusion-assessment-method.txt" target="_blank">www.soapnote.org/txt/elder-care/confusion-assessment-method.txt</a>[/html][/conditional]

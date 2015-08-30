@@ -36,3 +36,9 @@ OUTPATIENT PROVIDER CHART REVIEW TOOL
 [select name="Q16"  value="yes|no|uncertain|not applicable"] <-- 16.  Follow up visit recommendation is documented and appropriate[conditional field="Q16" condition="(Q16).is('no')||(Q16).is('uncertain')"]
   COMMENT:  [text][/conditional]
 OVERALL COMMENTS: [text size=100]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  August 17, 2014; August 29, 2015
+permalink: <a href="http://www.soapnote.org/general/outpatient-chart-review/" target="_blank">www.soapnote.org/general/outpatient-chart-review/</a>
+markup link:  <a href="http://www.soapnote.org/txt/general/outpatient-chart-review.txt" target="_blank">www.soapnote.org/txt/general/outpatient-chart-review.txt</a>[/html][/conditional]

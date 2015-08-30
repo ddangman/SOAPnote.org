@@ -1,0 +1,21 @@
+The Zarit Caregiver Burden Interview
+[select name="Q1" value="Never (0 points)=0|Rarely (1 point)=1|Sometimes (2 points)=2|Quite Frequently (3 points)=3|Nearly Always (4 points)=4"] <-- Do you feel that you don't have enough time for yourself because of the time you spend with the person for whom you are providing care?
+[select name="Q2" value="Never (0 points)=0|Rarely (1 point)=1|Sometimes (2 points)=2|Quite Frequently (3 points)=3|Nearly Always (4 points)=4"] <--Do you feel stressed between caring for this person and trying to meet other responsibilities (work, family)?
+[select name="Q3" value="Never (0 points)=0|Rarely (1 point)=1|Sometimes (2 points)=2|Quite Frequently (3 points)=3|Nearly Always (4 points)=4"] <--Do you feel angry when you are around this person?
+[select name="Q4" value="Never (0 points)=0|Rarely (1 point)=1|Sometimes (2 points)=2|Quite Frequently (3 points)=3|Nearly Always (4 points)=4"] <--Do you feel that this person currently affects your relationships with family members or friends in a negative way?
+[select name="Q5" value="Never (0 points)=0|Rarely (1 point)=1|Sometimes (2 points)=2|Quite Frequently (3 points)=3|Nearly Always (4 points)=4"] <--Do you feel strained when you are around this person?
+[select name="Q6" value="Never (0 points)=0|Rarely (1 point)=1|Sometimes (2 points)=2|Quite Frequently (3 points)=3|Nearly Always (4 points)=4"] <--Do you feel that your health has suffered because of your involvement with this person?
+[select name="Q7" value="Never (0 points)=0|Rarely (1 point)=1|Sometimes (2 points)=2|Quite Frequently (3 points)=3|Nearly Always (4 points)=4"] <--Do you feel that you don't have as much privacy as you would like because of this person?
+[select name="Q8" value="Never (0 points)=0|Rarely (1 point)=1|Sometimes (2 points)=2|Quite Frequently (3 points)=3|Nearly Always (4 points)=4"] <--Do you feel that your social life has suffered because you are caring for this person?
+[select name="Q9" value="Never (0 points)=0|Rarely (1 point)=1|Sometimes (2 points)=2|Quite Frequently (3 points)=3|Nearly Always (4 points)=4"] <--Do you feel that you have lost control of your life since this person's illness began?
+[select name="Q10" value="Never (0 points)=0|Rarely (1 point)=1|Sometimes (2 points)=2|Quite Frequently (3 points)=3|Nearly Always (4 points)=4"] <--Do you feel uncertain about what to do about this person?
+[select name="Q11" value="Never (0 points)=0|Rarely (1 point)=1|Sometimes (2 points)=2|Quite Frequently (3 points)=3|Nearly Always (4 points)=4"] <--Do you feel you should be doing more for this person?
+[select name="Q12" value="Never (0 points)=0|Rarely (1 point)=1|Sometimes (2 points)=2|Quite Frequently (3 points)=3|Nearly Always (4 points)=4"] <--Do you feel you could do a better job in caring for this person?
+
+Total Score --> [calc memo="number" value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10)+(Q11)+(Q12)"] / 48 (higher scores correlate with higher levels of burden)
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/11574710" target="_blank">Bédard M, Molloy DW, Squire L, Dubois S, Lever JA, O'Donnell M. The Zarit Burden Interview: a new short version and screening version. Gerontologist. 2001;41(5):657.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  October 6, 2014; August 30, 2015
+permalink: <a href="http://www.soapnote.org/elder-care/zarit-caregiver-burden/" target="_blank">www.soapnote.org/elder-care/zarit-caregiver-burden/</a>
+markup link:  <a href="http://www.soapnote.org/txt/elder-care/zarit-caregiver-burden.txt" target="_blank">www.soapnote.org/txt/elder-care/zarit-caregiver-burden.txt</a>[/html][/conditional]

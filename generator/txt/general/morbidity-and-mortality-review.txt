@@ -14,3 +14,9 @@ List three learning points from this case:
 [text default="point #3" size=140]
 ************************************
 [checkbox memo="check box if you need more space for notes." name="notes" value=" "] [conditional field="notes" condition="(notes).is(' ')"] [textarea default="Additional space for notes"][/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  March 6, 2013; August 28, 2015
+permalink: <a href="http://www.soapnote.org/general/morbidity-and-mortality-review/" target="_blank">www.soapnote.org/general/morbidity-and-mortality-review/</a>
+markup link:  <a href="http://www.soapnote.org/txt/general/morbidity-and-mortality-review.txt" target="_blank">www.soapnote.org/txt/general/morbidity-and-mortality-review.txt</a>[/html][/conditional]

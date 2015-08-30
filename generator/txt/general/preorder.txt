@@ -1,1 +1,8 @@
-Preorders for general medical examination as follows: ***none/mammogram to schedule just after appt and results per mail from radiology/PSA/AAA US screen of retroperitoneum/Colonoscopy with Moviprep kit/Colonography/lipid profile/ALT/glucose/hemoglobin A1C/microalbuminuria/eye exam/eye exam with diagnosis of diabetes to check for diabetic retinopathy/thyroid cascade/TSH/CBC/CBC with diff/creatinine/BUN/potassium/sodium/Urinalysis/urine microalbumin***
+Preorders for general medical examination as follows: 
+[checkbox value="none|mammogram to schedule just after appt and results per mail from radiology|PSA|AAA US screen of retroperitoneum|Colonoscopy with Moviprep kit|Colonography|lipid profile|ALT|glucose|hemoglobin A1C|microalbuminuria|eye exam|eye exam with diagnosis of diabetes to check for diabetic retinopathy|thyroid cascade|TSH|CBC|CBC with diff|creatinine|BUN|potassium|sodium|Urinalysis|urine microalbumin"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; August 29, 2015
+permalink: <a href="http://www.soapnote.org/general/preorder/" target="_blank">www.soapnote.org/general/preorder/</a>
+markup link:  <a href="http://www.soapnote.org/txt/general/preorder.txt" target="_blank">www.soapnote.org/txt/general/preorder.txt</a>[/html][/conditional]

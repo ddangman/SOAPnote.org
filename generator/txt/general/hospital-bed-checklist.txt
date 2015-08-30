@@ -9,3 +9,9 @@ Hospital Bed Checklist
 [text] <-- Diagnosis codes related to needing the hospital bed [html]<a href="https://www.google.com/cse/publicurl?cx=005538851919056736266:l5r0_wj-tnm" target="_blank">Search icd9cm.chrisendres.com</a>
 [/html]
 [text] <-- Length of need
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  October 10, 2014; August 28, 2015
+permalink: <a href="http://www.soapnote.org/general/hospital-bed-checklist/" target="_blank">www.soapnote.org/general/hospital-bed-checklist/</a>
+markup link:  <a href="http://www.soapnote.org/txt/general/hospital-bed-checklist.txt" target="_blank">www.soapnote.org/txt/general/hospital-bed-checklist.txt</a>[/html][/conditional]

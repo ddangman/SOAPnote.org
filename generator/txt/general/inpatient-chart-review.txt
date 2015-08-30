@@ -31,3 +31,9 @@ INPATIENT PROVIDER CHART REVIEW TOOL
 [select name="Q14"  value="yes|no|uncertain|not applicable"] <-- 14.  Discharge summary completed[conditional field="Q14" condition="(Q14).is('no')||(Q14).is('uncertain')"]
   COMMENT:  [text][/conditional]
 OVERALL COMMENTS: [text size=100]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  August 17, 2014; August 28, 2015
+permalink: <a href="http://www.soapnote.org/general/inpatient-chart-review/" target="_blank">www.soapnote.org/general/inpatient-chart-review/</a>
+markup link:  <a href="http://www.soapnote.org/txt/general/inpatient-chart-review.txt" target="_blank">www.soapnote.org/txt/general/inpatient-chart-review.txt</a>[/html][/conditional]
