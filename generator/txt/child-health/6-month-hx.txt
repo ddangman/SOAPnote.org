@@ -1,5 +1,5 @@
 [html]6 Month History
-[/html]Has done well over the past two months. Nutrition includes ***nursing/--- formula*** plus solids. Growth is normal. Speech includes squealing, cooing, and some repetitive sounds. No concerns regarding hearing. Motor skills include rolling, sitting, and transferring with both hands. Looks for object. Toes to mouth. No problems with urine or stool. No significant sleep issues. All other systems are negative.
+[/html][textarea default="Has done well over the past two months. Nutrition includes ***nursing/--- formula*** plus solids. Growth is normal. Speech includes squealing, cooing, and some repetitive sounds. No concerns regarding hearing. Motor skills include rolling, sitting, and transferring with both hands. Looks for object. Toes to mouth. No problems with urine or stool. No significant sleep issues. All other systems are negative."]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  none
 posted by:  Mark Morgan, M.D.

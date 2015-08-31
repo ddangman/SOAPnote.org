@@ -1,5 +1,5 @@
 [html]4 Month History
-[/html]Has done well over the past two months. Nutrition includes ***nursing/--- formula***. Growth is normal. Speech includes squealing and cooing. No concerns regarding hearing. Responsive. Smiling. Reaches for objects. Hands to midline/mouth. Head up prone. Pivots while on stomach. No problems with urine or stool. Usual sleep pattern. All other systems are negative.
+[/html][textarea default="Has done well over the past two months. Nutrition includes ***nursing/--- formula***. Growth is normal. Speech includes squealing and cooing. No concerns regarding hearing. Responsive. Smiling. Reaches for objects. Hands to midline/mouth. Head up prone. Pivots while on stomach. No problems with urine or stool. Usual sleep pattern. All other systems are negative."]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  none
 posted by:  Mark Morgan, M.D.

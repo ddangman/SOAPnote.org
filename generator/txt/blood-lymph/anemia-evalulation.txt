@@ -1,9 +1,4 @@
-Anemia Evaluation[html]
-2015-01-20
-References: 
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16007898" target="_blank">Tefferi A, Hanson CA, Inwards DJ. How to interpret and pursue an abnormal complete blood cell count in adults. Mayo Clin Proc. 2005 Jul;80(7):923-36.</a>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/19202968" target="_blank">Kaferle J, Strzoda CE. Evaluation of macrocytosis. Am Fam Physician. 2009 Feb 1;79(3):203-8.</a>
-[/html]
+Anemia Evaluation
 [select name="Q1" value=" |A|B|C"] <-- Select the proper classification.
 A: Microcytic (MCV < 80 fL)
 B: Normocytic (MCV 80 - 100 fL)
@@ -131,4 +126,10 @@ Consider MYELODYSPLASTIC SYNDROME.
 Peripheral blood smear clues may include dimorphic RBCs, pseudo Pelger-Huet anomaly cells, oval macrocytes.
 CBC clues may include increased RDW. 
 Consult hematologist.
-Note: Other conditions are possible, including LIVER DISEASE, ALCOHOL CONSUMPTION, HYPOTHYROIDISM, and marked reticulocytosis from HEMOLYSIS. [/conditional]	
+Note: Other conditions are possible, including LIVER DISEASE, ALCOHOL CONSUMPTION, HYPOTHYROIDISM, and marked reticulocytosis from HEMOLYSIS. [/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16007898" target="_blank">Tefferi A, Hanson CA, Inwards DJ. How to interpret and pursue an abnormal complete blood cell count in adults. Mayo Clin Proc. 2005 Jul;80(7):923-36.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/19202968" target="_blank">Kaferle J, Strzoda CE. Evaluation of macrocytosis. Am Fam Physician. 2009 Feb 1;79(3):203-8.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  January 20, 2015; August 31, 2015
+permalink: <a href="http://www.soapnote.org/blood-lymph/anemia-evalulation/" target="_blank">www.soapnote.org/blood-lymph/anemia-evalulation/</a>
+markup link:  <a href="http://www.soapnote.org/txt/blood-lymph/anemia-evalulation.txt" target="_blank">www.soapnote.org/txt/blood-lymph/anemia-evalulation.txt</a>[/html][/conditional]	

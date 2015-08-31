@@ -1,0 +1,14 @@
+[html]Contraception Management Visit
+[/html]HISTORY:  
+[textarea default="Patient requests contraception.  She is not currently taking any birth control."]
+LMP:  [date]
+Tobacco Use:  [select value="no|yes"]
+EXAM:  
+[textarea default="Vital Signs Within Normal Limits.&#13;&#10;GENERAL: Well Developed and Well Nourished Female, Alert and oriented x 3, in no distress."]
+ASSESSMENT/PLAN:
+[textarea default="discussed contraceptive means available including IUD, nuvaring, combination oral contraceptives, and implanon.&#13;&#10;She wishes to proceed with ***.&#13;&#10;Urine HCG obtained and is ***NEGATIVE***&#13;&#10;Benefits and risks discussed with patient."]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+post/review dates:  October 14, 2013; August 31, 2015
+permalink: <a href="http://www.soapnote.org/women/contraceptive-management/" target="_blank">www.soapnote.org/women/contraceptive-management/</a>
+markup link:  <a href="http://www.soapnote.org/txt/women/contraceptive-management.txt" target="_blank">www.soapnote.org/txt/women/contraceptive-management.txt</a>[/html][/conditional]

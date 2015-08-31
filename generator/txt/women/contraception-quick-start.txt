@@ -1,0 +1,26 @@
+Contraception Quick Start Algorithm
+[select name="Q1" value="choose below|Less than or equal to 5 days ago|More than 5 days ago"] <-- First day of last menstrual period?[conditional field="Q1" condition="(Q1).is('Less than or equal to 5 days ago')"]
+Plan --> Start method today[/conditional][conditional field="Q1" condition="(Q1).is('More than 5 days ago')"]
+[select name="Q2" value="choose below|None|Less than or equal to 5 days ago|More than 5 days ago|Both less than and more than 5 days ago"] <-- Unprotected sex since last menstrual period?[/conditional][conditional field="Q1|Q2" condition="(Q1).is('More than 5 days ago')&&(Q2).is('None')"]
+Plan --> Start pill/patch/ring/injection today, use back-up method 1st week [/conditional][conditional field="Q1|Q2" condition="(Q1).is('More than 5 days ago')&&((Q2).is('Less than or equal to 5 days ago')||(Q2).is('More than 5 days ago')||(Q2).is('Both less than and more than 5 days ago'))"]
+[select name="Q3" value="choose below|Negative|POSITIVE"] <-- Urine pregnancy test result?[/conditional][conditional field="Q3" condition="(Q3).is('POSITIVE')"]
+Plan --> Provide options counseling[/conditional][conditional field="Q1|Q2|Q3" condition="(Q1).is('More than 5 days ago')&&(Q2).is('Less than or equal to 5 days ago')&&(Q3).is('Negative')"]
+Offer hormonal emergency contraception today [html]<a href="http://ec.princeton.edu/" target="_blank">more information</a>[/html][/conditional][conditional field="Q1|Q2|Q3" condition="(Q1).is('More than 5 days ago')&&(Q2).is('More than 5 days ago')&&(Q3).is('Negative')"]
+Advise that negative pregnancy test is not conclusive, but hormones will not harm embryo[/conditional][conditional field="Q1|Q2|Q3" condition="(Q1).is('More than 5 days ago')&&(Q2).is('Both less than and more than 5 days ago')&&(Q3).is('Negative')"]
+Offer hormonal emergency contraception today [html]<a href="http://ec.princeton.edu/" target="_blank">more information</a>[/html][/conditional][conditional field="Q1|Q2|Q3" condition="(Q1).is('More than 5 days ago')&&(Q2).isNot('None')&&(Q3).is('Negative')"]
+[select name="Q4" value="choose below|Yes|No"] <-- Patient wants to start new method now?[/conditional][conditional field="Q1|Q2|Q3|Q4" condition="(Q1).is('More than 5 days ago')&&((Q2).is('Less than or equal to 5 days ago')||(Q2).is('More than 5 days ago')||(Q2).is('Both less than and more than 5 days ago'))&&(Q3).is('Negative')&&(Q4).is('Yes')"]
+Plan -->
+Start pill/patch/ring/injection, use back up method 1st week
+Timing:  start new method TODAY even if taking emergency contraception today
+If repeat urine pregnancy test in 2 weeks is negative --> continue pill/patch/ring/injection[/conditional][conditional field="Q1|Q2|Q3|Q4" condition="(Q1).is('More than 5 days ago')&&((Q2).is('Less than or equal to 5 days ago')||(Q2).is('More than 5 days ago')||(Q2).is('Both less than and more than 5 days ago'))&&(Q3).is('Negative')&&(Q4).is('No')"]
+Plan -->
+Prescription for chosen method given
+Patient advised to use barrier method until next menses
+Start pill/patch/ring on 1st day of menses
+Return for injection within 5 days of menses[/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.reproductiveaccess.org/contraception/quickstart_algorithm.htm" target="_blank">Reproductive Health Access Project</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  September 26, 2014; August 31, 2015
+permalink: <a href="http://www.soapnote.org/women/contraception-quick-start/" target="_blank">www.soapnote.org/women/contraception-quick-start/</a>
+markup link:  <a href="http://www.soapnote.org/txt/women/contraception-quick-start.txt" target="_blank">www.soapnote.org/txt/women/contraception-quick-start.txt</a>[/html][/conditional]

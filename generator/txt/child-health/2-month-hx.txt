@@ -1,5 +1,5 @@
 [html]2 Month History
-[/html]Has done well over the past month. Nutrition includes ***nursing every 2-3 hours/--- formula every 2-3 hours***. Growth is normal. Alert to sights and sounds. Coos and smiles. Turns to sound. Holds object. Recognizes face. No concerns regarding hearing. No problems with urine or stool. Sleeps on back. Usual sleep pattern. All other systems are negative.
+[/html][textarea default="Has done well over the past month. Nutrition includes ***nursing every 2-3 hours/--- formula every 2-3 hours***. Growth is normal. Alert to sights and sounds. Coos and smiles. Turns to sound. Holds object. Recognizes face. No concerns regarding hearing. No problems with urine or stool. Sleeps on back. Usual sleep pattern. All other systems are negative."]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  none
 posted by:  Mark Morgan, M.D.

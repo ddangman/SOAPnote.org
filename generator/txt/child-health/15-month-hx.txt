@@ -1,5 +1,5 @@
 [html]15 Month History
-[/html]Has done well over the past few months. Nutrition includes table foods along with whole milk and occasional juice. Growth is normal. Speech includes a few words and conversational babble. No concerns regarding hearing. Motor skills include walking, running, using a spoon, scribbling. No problems with urine or stool. Temperament is moderate, for which parents use simple choice. No significant sleep issues. All other systems are negative.
+[/html][textarea default="Has done well over the past few months. Nutrition includes table foods along with whole milk and occasional juice. Growth is normal. Speech includes a few words and conversational babble. No concerns regarding hearing. Motor skills include walking, running, using a spoon, scribbling. No problems with urine or stool. Temperament is moderate, for which parents use simple choice. No significant sleep issues. All other systems are negative."]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  none
 posted by:  Mark Morgan, M.D.

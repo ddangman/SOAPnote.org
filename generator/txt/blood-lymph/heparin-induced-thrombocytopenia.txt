@@ -1,9 +1,13 @@
-Heparin Induced Thrombocytopenia Pre-Test Scoring System[html]
-2014-10-08
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16634744" target="_blank">Lo GK, Juhl D, Warkentin TE, Sigouin CS, Eichler P, Greinacher A. Evaluation of pretest clinical score (4 T's) for the diagnosis of heparin-induced thrombocytopenia in two clinical settings. J Thromb Haemost. 2006 Apr;4(4):759-65.</a>[/html]
+Heparin Induced Thrombocytopenia Pre-Test Scoring System
 1. Thrombocytopenia: [select name="Q1" value="0 points - Platelet Count decreased less than 30 percent from baseline with nadir less than 10,000=0|1 point - Platelet Count decreased 30-50 percent from baseline with nadir 10-20,000=1|2 points - Platelet Count decreased more than 50 percent from baseline with nadir greater than 20,000=2"]
 2. Timing after onset of current Heparin course: [select name="Q2" value="0 points - Onset within 4 days and no prior Heparin exposure before this episode=0|1 point - Probable onset days 5-10 (or less than 1 day if prior exposure Heparin 30-100 days ago)=1|2 points - Clear onset days 5-10 (or less than 1 day if prior exposure Heparin within last 30 days)=2"]
 3. Thrombosis: [select name="Q3" value="0 points - No thrombosis=0|1 point - Progressive, recurrent or suspected clot=1|2 points - Confirmed new clot, skin necrosis and systemic reaction=2"]
 4. Alternative causes of thrombocytopenia: [select name="Q4" value="0 points - Definite alternative cause of Thrombocytopenia=0|1 point - Possible alternative cause of Thrombocytopenia=1|2 points - No other alternative cause of Thrombocytopenia=2"]
 Score --> [calc memo="number" value="score1=(Q1)+(Q2)+(Q3)+(Q4)"]
 Interpretation --> [calc memo="result" value="score2=(Q1)+(Q2)+(Q3)+(Q4);score2>5?'High probability (greater than 80 percent risk) of Clinically Significant HIT':score2>3?'Intermediate probability of Clinically Significant HIT':'Low probability (less than 5 percent risk) of Clinically Significant HIT)'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16634744" target="_blank">Lo GK, Juhl D, Warkentin TE, Sigouin CS, Eichler P, Greinacher A. Evaluation of pretest clinical score (4 T's) for the diagnosis of heparin-induced thrombocytopenia in two clinical settings. J Thromb Haemost. 2006 Apr;4(4):759-65.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  October 8, 2014; August 31, 2015
+permalink: <a href="http://www.soapnote.org/blood-lymph/heparin-induced-thrombocytopenia/" target="_blank">www.soapnote.org/blood-lymph/heparin-induced-thrombocytopenia/</a>
+markup link:  <a href="http://www.soapnote.org/txt/blood-lymph/heparin-induced-thrombocytopenia.txt" target="_blank">www.soapnote.org/txt/blood-lymph/heparin-induced-thrombocytopenia.txt</a>[/html][/conditional]
