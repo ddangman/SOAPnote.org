@@ -1,0 +1,8 @@
+[html]1 Week History
+[/html]Has done well since hospital discharge. ***Nursing every 1-3 hours/---formula--- every 1-3 hours***. Growth is normal. Alert to sights and sounds. No problems with urine or stool. Quiets with comforting. Sleeps on back. All other systems are negative.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; August 30, 2015
+permalink: <a href="http://www.soapnote.org/child-health/1-week-hx/" target="_blank">www.soapnote.org/child-health/1-week-hx/</a>
+markup link:  <a href="http://www.soapnote.org/txt/child-health/1-week-hx.txt" target="_blank">www.soapnote.org/txt/child-health/1-week-hx.txt</a>[/html][/conditional]

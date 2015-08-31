@@ -1,4 +1,5 @@
-[textarea default="KNEE: On inspection ***contours of the joint are normal/the joint is hypertrophic/there are irregular bony prominences palpable at the joint margins/the knee is swollen with effusion/there is reduced ROM/there is normal ROM***."]
+[html]Knee Exam
+[/html][textarea default="KNEE: On inspection ***contours of the joint are normal/the joint is hypertrophic/there are irregular bony prominences palpable at the joint margins/the knee is swollen with effusion/there is reduced ROM/there is normal ROM***."]
 [textarea default="Muscle atrophy evident: ***yes/no***"]
 [textarea default="Pain on resisted extension: ***yes/no***"]
 [textarea default="Strength on extension against resistance: ***normal/decreased***"]

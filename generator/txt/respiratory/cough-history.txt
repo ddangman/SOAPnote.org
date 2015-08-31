@@ -1,4 +1,5 @@
-History provided by [text]
+[html]Cough History
+[/html]History provided by [text]
 The patient has had cough for [text] days.
 Cough [select value="has not been productive|has been productive"].
 Frequency is [select value="infrequent|intermittent|constant"].

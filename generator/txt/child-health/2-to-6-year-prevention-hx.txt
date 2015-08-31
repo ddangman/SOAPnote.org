@@ -1,0 +1,13 @@
+[html]2 to 6 Year Prevention History
+[/html]PREVENTION REVIEW
+This review was done when the child was *** years old
+The following should be done yearly: height, weight, visual screening.
+Injury prevention is as follows:
+Seatbelts: ***yes/no (PLEASE WEAR RESTRAINTS IN CAR)***
+Smoke detectors: ***yes/no (PLEASE INSTALL SMOKE DETECTORS)***&#013;&#010;Hot water temperature: ***yes/no (PLEASE HAVE TEMPERATURE OF WATER SET AT 120 DEGREES)***&#013;&#010;Bicycle helmet: ***yes/no (PLEASE WEAR BIKE HELMET)/does not ride bike***&#013;&#010;Storage of drugs, guns, matches and chemicals: ***yes/no (PLEASE MAKE SURE HOME SAFE FOR STORING GUNS, MATCHES, CHEMICALS, AND DRUGS)***&#013;&#010;Syrup of ipecac and poison control number which is 1-800-222-1222: ***yes/no (Please check)***&#013;&#010;Other risk factors reviewed:&#013;&#010;Passive smoke: ***not at risk/yes is at risk (We will help anyone in the family quit)***&#013;&#010;Exposure to lead (exposed to house older than 1950, occupation involving lead, or near a hazardous waste area): ***not at risk/screening done to be sure no risk/yes-your child is at risk for lead ingestion and needs screening***&#013;&#010;Exposure to tuberculosis (exposed to close contacts, recent immigrants, migrant workers, homeless shelters): ***no exposure/tuberculin test done and should be repeated yearly/yes (YOU ARE AT RISK FOR TB AND NEED A TUBERCULIN TEST YEARLY)***&#013;&#010;Hearing loss risk (serious childhood infections, birth weight below 1500 gm, meningitis, low Apgar score of 0-3): ***no risk/yes your child is at risk for hearing loss and should be checked yearly***&#013;&#010;Sunscreens: ***yes/no (YOU SHOULD HAVE CHILD WEAR SUNSCREENS 15 OR ABOVE)***&#013;&#010;Fluoride candidate: ***yes-discuss usage/not needed***&#013;&#010;Brushing teeth and dental care: ***yes/no (DENTAL CARE EMPHASIZED)***&#013;&#010;Family member knows CPR: ***yes/no (Training is available in the community)***
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; August 30, 2015
+permalink: <a href="http://www.soapnote.org/child-health/2-to-6-year-prevention-hx/" target="_blank">www.soapnote.org/child-health/2-to-6-year-prevention-hx/</a>
+markup link:  <a href="http://www.soapnote.org/txt/child-health/2-to-6-year-prevention-hx.txt" target="_blank">www.soapnote.org/txt/child-health/2-to-6-year-prevention-hx.txt</a>[/html][/conditional]

@@ -1,4 +1,5 @@
-[select value="less than 1 day|1 day|2 days|3 days|4 days|5 days|6 days|7 days|more than 1 week"] <-- duration
+[html]Gastroenteritis History
+[/html][select value="less than 1 day|1 day|2 days|3 days|4 days|5 days|6 days|7 days|more than 1 week"] <-- duration
 [select value="no|YES"] <-- nausea
 [select name="vomit" value="no|YES"] <-- vomiting[conditional field="vomit" condition="(vomit).is('YES')"]
 [select value="no|YES"] <-- post prandial vomiting

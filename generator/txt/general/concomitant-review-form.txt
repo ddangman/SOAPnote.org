@@ -1,4 +1,4 @@
-[text default="Organization"] ER Provider Concomitant Review Form
+ER Provider Concomitant Review Form
 Visit Date:  [date name="visit_date"]
 Chart #: [text]
 ER Provider: [text]

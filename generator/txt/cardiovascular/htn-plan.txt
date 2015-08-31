@@ -1,4 +1,4 @@
-#1 ***Hypertension/Elevated blood pressure***
+***Hypertension/Elevated blood pressure***
 Blood pressure noted.
 Goal BP is ***SBP<140, DBP<90/SBP<130, DBP<80***
 Patient ***is/is not*** at goal.

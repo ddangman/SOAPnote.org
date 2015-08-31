@@ -1,4 +1,4 @@
-#1 Rash
+Rash
 Patient has had *** days of ***rash/hives/skin lesions***. The findings have been ***generalized/localized to the ---***. It ***has/has not*** been worsening and is described as ***red/flat/bumpy/scaly/bruise-like/blisters/raised/crusted/flaking/draining/painful/pruritic***. Patient ***has had exposures/has not had specific exposures/environmental irritants/chemical irritants/medications/insects/spiders/excessive sunlight/others with similar symptoms***. There ***has not been/has been*** a fever. There ***have not been other systemic symptoms/typical URI symptoms/myalgias/arthralgias/joint swelling/sore throat/malaise/diarrhea/nausea and vomiting/headache/chills/urinary symptoms/dyspnea***. Patient has ***tried diphenhydramine/tried cortisone cream/tried soaks/not tried any treatment on their own*** with ***some relief/no relief***. Patient ***has not had a/has had a*** similar rash in the past. Patient ***is not/is*** diabetic.
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  none

@@ -1,4 +1,5 @@
-Eyes: ***Orbits, eyelids, conjunctivae and sclera are normal. Pupils are equal, round, reactive to light with extraocular movements intact. Vision is grossly intact, and funduscopic examination is unremarkable.***
+[html]Eye Exam
+[/html]Eyes: ***Orbits, eyelids, conjunctivae and sclera are normal. Pupils are equal, round, reactive to light with extraocular movements intact. Vision is grossly intact, and funduscopic examination is unremarkable.***
 external: brows, lids, and lashes ***intact/absent***
 conjunctiva: ***pale/injected/mattery discharge/purulent discharge/foreign body visualized and removed/corneal abrasion visualized with fluorescein staining***
 visual acuity: near (to small print) ***normal/impaired***, far ***/20 OS, ***/20 OD, ***/20 OU

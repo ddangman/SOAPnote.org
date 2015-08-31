@@ -1,4 +1,4 @@
-#1 Hyperlipidemia
+Hyperlipidemia
 Begin ***Statin***
 Pt will need a recheck lipids and ALT/AST in 12 weeks.  Goal lipid levels are as follows: Total cholesterol less than 170, triglycerides less than 150, HDL greater than 40, and an LDL less than 100. Will titrate statin therapy to obtain goal lipid levels.
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]

@@ -1,4 +1,5 @@
-Exam:
+[html]Diabetic Foot Ulcer Exam
+[/html]Exam:
 Appearance:  [textarea default="NO Claw toe.  INTACT midfoot arch.  NO abnormal bony prominences.  NO muscle wasting.  NORMAL distribution of weight when standing."]
 Vascular:  [textarea default="DP and PT pulses 2+, symmetric"]
 Sensation:  [textarea default="INTACT vibration, pressure, pinprick"]

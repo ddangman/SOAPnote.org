@@ -1,4 +1,4 @@
-#1 Skin lesion punch biopsy
+Skin lesion punch biopsy
 After obtaining informed consent, the area was prepped and draped in the usual fashion. Anesthesia was obtained with 1% lidocaine with epinephrine. A full thickness punch biopsy was obtained with a 4mm punch. Wound closed with two simple interrupted sutures of 4-0 Ethilon. Sutures out in 4 days. Wound care discussed. Specimen sent for dermatopathology.
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  none

@@ -1,4 +1,5 @@
-VITALS: Reviewed and normal/***
+[html]Cough Exam
+[/html]VITALS: Reviewed and normal/***
 GENERAL APPEARANCE: No acute distress
 EARS: 
 - Left Tympanic membranes intact/Bulging/Erythematous/Perforation present with purulent debris

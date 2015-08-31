@@ -1,4 +1,5 @@
-History:
+[html]Diabetic Foot Ulcer History
+[/html]History:
 Onset:  [textarea]
 Location:  [textarea]
 Duration of Diabetes Mellitus:  [text]

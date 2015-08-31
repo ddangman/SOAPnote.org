@@ -1,4 +1,5 @@
-[select name="Q1" value="choose|High|Normal|Low"] <-- Thyroid Stimulating Hormone (TSH)[conditional field="Q1" condition="(Q1).is('High')"]
+[html]Interpreting Thyroid Function Tests
+[/html][select name="Q1" value="choose|High|Normal|Low"] <-- Thyroid Stimulating Hormone (TSH)[conditional field="Q1" condition="(Q1).is('High')"]
 Differential Includes --> [select name="Q2" value="choose|Primary hypothyroidism|Subclinical hypothyroidism|TSH-mediated hyperthyroidism"][/conditional][conditional field="Q1" condition="(Q1).is('Normal')"]
 Differential Includes --> [select name="Q3" value="choose|Euthyroid|Euthyroid hyperthyroxinemia|Euthyroid hypothyroxinemia|Euthyroid - triiodothyronine therapy|Euthyroid - thyroid extract therapy|TSH-mediated hyperthyroidism|Central hypothyroidism"][/conditional][conditional field="Q1" condition="(Q1).is('Low')"]
 Differential Includes --> [select name="Q4" value="choose|Hyperthyroidism|Subclinical hyperthyroidism|Central hypothyroidism"][/conditional]

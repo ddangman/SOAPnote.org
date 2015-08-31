@@ -1,5 +1,5 @@
-Assessment/Plan:
-[text default="LEFT|RIGHT|BILATERAL Diabetic Foot Ulcer"
+[html]Diabetic Foot Ulcer Plan
+[/html][text default="LEFT|RIGHT|BILATERAL Diabetic Foot Ulcer"
 [select name="Q1" value="Wagner Grade 1 - Superficial|Wagner Grade 2 - Involves ligament/tendon/joint capsule/fascia WITHOUT Abscess/Osteomyelitis|Wagner Grade 3 - Deep Ulcer WITH Abscess/Osteomyelitis|Wagner Grade 4 - Gangrene to portion of midfoot|Wagner Grade 5 - Extensive gangrene"]
 [textarea default="ANTIBIOTICS"]
 [textarea default="EVALUATION:  ESR/CRP, CBC, X-ray, MRI"]

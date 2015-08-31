@@ -1,4 +1,4 @@
-#1 Eczema
+Eczema
 Triamcinolone cream, apply sparingly to affected ares 2-4 times daily as needed. Advised to avoid use on face, underarms, groin and that this is a medication not intended to be used every day but should be used to treat acute flares. Skin care and hydration discussed. RTC if worsening or for concerns.
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  none

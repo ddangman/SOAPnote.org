@@ -1,4 +1,5 @@
-***Age*** year-old ***male/female*** ***scheduled for/will be evaluated for*** ***procedure*** due to ***indication for procedure***.
+[html]Pre-Anesthesia Medical Examination History
+[/html]***Age*** year-old ***male/female*** ***scheduled for/will be evaluated for*** ***procedure*** due to ***indication for procedure***.
 ROS
 Patient denies ***lightheadedness/chest pain, chest pressure or chest discomfort/palpitations/shortness of breath/nausea/diaphoresis/wheezing/smoking*** during rest and/or exercise during the past six months. Positive symptoms include ***none/lightheadedness/chest pain, chest pressure or chest discomfort/palpitations/shortness of breath/nausea/diaphoresis/wheezing/smoking***
 Patient is capable of exertion such as ***climbing a flight of stairs/walking uphill/heavy housework/other*** without experiencing anginal symptoms.

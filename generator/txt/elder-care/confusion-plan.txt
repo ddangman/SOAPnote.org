@@ -1,4 +1,5 @@
-Acute management:
+[html]Confusion Plan
+[/html]Acute management:
 [checkbox name="acutetx" value="Intravenous Access|Oxygen Delivery|C-Spine immobilization (for suspected trauma)|Dextrose (Suspected Hypoglycemia, bedside Glucometer first if possible):  Adult: 50 ml of D50 IV, Child: 4 ml|kg D25 (0.5-1.0 g/kg) IV|Flumazenil (Suspected Benzo Overdose): Flumazenil 0.2 - 1.0 mg IV|Naloxone (Suspected Narcotic Overdose):  Adult: 2-4 mg IV, Child: 0.1 mg/kg IV|Thiamine (Suspected Wernicke's Encephalopathy):  Adult: 100 mg IV, Child: 10-25 mg IV|Monitoring and redirection as needed|Other"]
 [conditional field="acutetx" condition="(acutetx).is('Other')"][textarea default="detail 'Other' interventions"][/conditional]
 Evaluation:

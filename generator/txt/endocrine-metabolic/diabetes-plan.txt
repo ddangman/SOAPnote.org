@@ -1,4 +1,5 @@
-A1c:
+[html]Diabetes Plan
+[/html]A1c:
 -at least two times a year in patients who are meeting treatment goals (and who have stable glycemic control).
 -quarterly in patients whose therapy has changed or who are not meeting glycemic goals
 -for microvascular disease prevention and macrovascular risk reduction, the A1C goal for nonpregnant adults in general is less than 7%

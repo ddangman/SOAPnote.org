@@ -1,4 +1,5 @@
-GENERAL APPEARANCE: alert, in no acute distress. 
+[html]Female Exam
+[/html]GENERAL APPEARANCE: alert, in no acute distress. 
 HEAD: Normocephalic.
 HEENT: Conjunctiva normal. External auditory canals and tympanic membranes clear bilaterally, hearing grossly intact. No nasal discharge. Oral cavity and pharynx normal. Teeth and gingiva in fair condition.
 NECK: Supple, non-tender, no adenopathy, masses, or thyromegaly.

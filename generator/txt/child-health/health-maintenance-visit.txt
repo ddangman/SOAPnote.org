@@ -1,0 +1,407 @@
+[select name="Q1" value="1 week|2 month|4 month|6 month|9 month|12 month|15 month|2 year|3 year|4 year|5 year|6-10 year|11-14 year|15-18 year"] <-- Age
+[select name="Q2" value="female|male"] <-- Gender
+SUBJECTIVE/HISTORY:
+[conditional field="Q1" condition="(Q1).is('1 week')"]
+[text size=144 default="Has done well since hospital discharge. "]
+[text size=144 default="Growth is normal. "]
+[text size=144 default="Alert to sights and sounds. "]
+[text size=144 default="No problems with urine or stool. "]
+[text size=144 default="Quiets with comforting. "]
+[text size=144 default="Sleeps on back. "]
+[text size=144 default="Newborn screen pending/negative/***.  "]
+[text size=144 default="No tobacco exposure. "]
+[text size=144 default="All other systems are negative."][/conditional][conditional field="Q1" condition="(Q1).is('2 month')"]
+[text size=144 default="Has done well over the past month. "]
+[text size=144 default="Growth is normal. "]
+[text size=144 default="No concerns regarding hearing. "]
+[text size=144 default="No problems with urine or stool. "]
+[text size=144 default="Sleeps on back. "]
+[text size=144 default="Usual sleep pattern. "]
+[text size=144 default="No tobacco exposure. "]
+[text size=144 default="All other systems are negative."][/conditional][conditional field="Q1" condition="(Q1).is('4 month')"]
+[text size=144 default="Has done well over the past two months. "]
+[text size=144 default="Growth is normal. "]
+[text size=144 default="No concerns regarding hearing. "]
+[text size=144 default="No problems with urine or stool. "]
+[text size=144 default="Sleeps on back. "]
+[text size=144 default="Usual sleep pattern. "]
+[text size=144 default="No tobacco exposure. "]
+[text size=144 default="All other systems are negative."][/conditional][conditional field="Q1" condition="(Q1).is('6 month')"]
+[text size=144 default="Has done well over the past two months. "]
+[text size=144 default="Growth is normal. "]
+[text size=144 default="No concerns regarding hearing. "]
+[text size=144 default="No problems with urine or stool. "]
+[text size=144 default="No significant sleep issues. "]
+[text size=144 default="No previous immunization reactions.  "]
+[text size=144 default="No tobacco exposure. "]
+[text size=144 default="All other systems are negative."][/conditional][conditional field="Q1" condition="(Q1).is('9 month')"]
+[text size=144 default="Has done well over the past few months. "]
+[text size=144 default="Growth is normal. "]
+[text size=144 default="Speech includes repetitive sounds and conversational babble. "]
+[text size=144 default="No concerns regarding hearing. "]
+[text size=144 default="No problems with urine or stool. "]
+[text size=144 default="Some night awakening and stranger anxiety. "]
+[text size=144 default="No tobacco exposure. "]
+[text size=144 default="All other systems are negative."][/conditional][conditional field="Q1" condition="(Q1).is('12 month')"]
+[text size=144 default="Has done well over the past few months. "]
+[text size=144 default="Growth is normal. "]
+[text size=144 default="No concerns regarding hearing. "]
+[text size=144 default="No problems with urine or stool. "]
+[text size=144 default="No significant sleep issues. "]
+[text size=144 default="No tobacco exposure. "]
+[text size=144 default="All other systems are negative."][/conditional][conditional field="Q1" condition="(Q1).is('15 month')"]
+[text size=144 default="Has done well over the past few months. "]
+[text size=144 default="Nutrition includes table foods along with whole milk and occasional juice. "]
+[text size=144 default="Growth is normal. "]
+[text size=144 default="No concerns regarding hearing. "]
+[text size=144 default="No problems with urine or stool. "]
+[text size=144 default="No significant sleep issues. "]
+[text size=144 default="No tobacco exposure. "]
+[text size=144 default="All other systems are negative."][/conditional][conditional field="Q1" condition="(Q1).is('2 year')"]
+[text size=144 default="Has been generally healthy over the past few months. "]
+[text size=144 default="Nutrition includes milk and a variety of foods.  "]
+[text size=144 default="Vitamins/Fluoride.  "]
+[text size=144 default="Growth is normal. "]
+[text size=144 default="No concerns regarding hearing. "]
+[text size=144 default="No significant sleep issues. "]
+[text size=144 default="No significant reaction to previous immunizations. "]
+[text size=144 default="No lead risk/Not exposed to housing 1950 or older.  "]
+[text size=144 default="No TB risk/exposure to TB is unlikely.  "]
+[text size=144 default="Neither parent with cholesterol greater than 300.  "]
+[text size=144 default="No tobacco exposure. "]
+[text size=144 default="All other systems are negative."][/conditional][conditional field="Q1" condition="(Q1).is('3 year')"]
+[text size=144 default="Has been generally healthy over the past few months. "]
+[text size=144 default="Nutrition includes milk and a variety of foods.  "]
+[text size=144 default="Vitamins/Fluoride  "]
+[text size=144 default="Growth is normal. "]
+[text size=144 default="No significant sleep issues. "]
+[text size=144 default="No significant reaction to previous immunizations. "]
+[text size=144 default="No lead risk/Not exposed to housing 1950 or older.  No TB risk/exposure to TB is unlikely.  Neither parent with cholesterol greater than 300.  "]
+[text size=144 default="No tobacco exposure. "]
+[text size=144 default="All other systems are negative."][/conditional][conditional field="Q1" condition="(Q1).is('4 year')"]
+[text size=144 default="Has been generally healthy over the past year. "]
+[text size=144 default="Nutrition includes milk and a variety of foods. "]
+[text size=144 default="Growth is normal. "]
+[text size=144 default="No tobacco exposure. "]
+[text size=144 default="All other systems are negative."][/conditional][conditional field="Q1" condition="(Q1).is('5 year')"]
+[text size=144 default="Has been generally healthy over the past year. "]
+[text size=144 default="Nutrition includes milk and a variety of foods. "]
+[text size=144 default="Growth is normal. "]
+[text size=144 default="No concerns regarding school readiness. "]
+[text size=144 default="No previous reaction to immunizations.  "]
+[text size=144 default="No lead exposure risk.  "]
+[text size=144 default="No tobacco exposure. "]
+[text size=144 default="All other systems are negative."][/conditional][conditional field="Q1" condition="(Q1).is('6-10 year')"]
+[text size=144 default="Has been generally healthy over the past year. "]
+[text size=144 default="Nutrition includes a variety of foods and good milk intake. "]
+[text size=144 default="Growth is normal. "]
+[text size=144 default="Exercise is regular. "]
+[text size=144 default="No height/weight concerns. "]
+[text size=144 default="No school performance or social interaction concerns. "]
+[text size=144 default="No problems with urine or stool. "]
+[text size=144 default="Denies smoking. "]
+[text size=144 default="All other systems are negative."][/conditional][conditional field="Q1" condition="(Q1).is('11-14 year')"]
+[text size=144 default="Has been generally healthy over the past year. "]
+[text size=144 default="Nutrition includes a variety of foods and good milk intake. "]
+[text size=144 default="Growth is normal. "]
+[text size=144 default="Exercise is regular. "]
+[text size=144 default="No height/weight concerns. "]
+[text size=144 default="No school performance or social interaction concerns. "]
+[text size=144 default="No problems with urine or stool. "]
+[text size=144 default="Denies sexual activity, smoking, alcohol or other drug use. "]
+[text size=144 default="All other systems are negative."][/conditional][conditional field="Q1" condition="(Q1).is('15-18 year')"]
+[text size=144 default="Has been generally healthy over the past year. "]
+[text size=144 default="Nutrition includes a variety of foods and good milk intake. "]
+[text size=144 default="Growth is normal. "]
+[text size=144 default="Exercise is regular. "]
+[text size=144 default="No height/weight concerns. "]
+[text size=144 default="Education and work plans ***. "]
+[text size=144 default="Denies depression/anhedonia. "]
+[text size=144 default="No problems with urine or stool. "]
+[text size=144 default="Denies sexual activity, smoking, alcohol or other drug use. "]
+[text size=144 default="All other systems are negative."][/conditional][conditional field="Q1" condition="(Q1).is('1 week')||(Q1).is('2 month')||(Q1).is('4 month')||(Q1).is('6 month')||(Q1).is('9 month')||(Q1).is('12 month')"]
+
+NUTRITION
+[select value="normal|not applicable|NOT ON TRACK"] <-- Breast Feeding
+        0-2 months:  on demand, 10-12 feedings daily
+        2-4 months:  on demand, 10-12 feedings daily
+        4-6 months:  8-10 feedings daily
+        6-8 months:  6-8 feedings daily
+        8-10 months:  4-6 feedings daily
+        over 10 months:  may wean
+[select value="normal|not applicable|NOT ON TRACK"] <-- Iron-Fortified Formula
+        0-2 months:  6-8 feedings, 16-26 ounces daily.
+        2-4 months:  4-6 feedings, 26-32 ounces daily
+        4-6 months:  26-40 ounces daily
+        6-8 months:  24-32 ounces daily
+        8-10 months:  20-24 ounces daily
+        10-12 months:  16-24 ounces daily.  offer dairy products such as plain yogurt or mild cheese.
+        over 12 months:  2-3 cups 2% or whole milk.  NO MORE BOTTLES
+[select value="normal|NOT ON TRACK"] <-- Cereal
+        0-4 months:  none
+        4-6 months:  1-2 tablespoons twice daily, thin with breast milk or formula, start with rice cereal.
+        6-8 months:  ¼ to ½ cup baby cereal mixed with breast milk or formula
+        8-10 months:  ¼ to ½ cup cereals, toast, mashed potato, rice or noodles
+        10-12 months:  thicker cereal, increase serving size according to appetite
+        over 12 months:  4 servings per day
+[select value="normal|NOT ON TRACK"] <-- Vegetables
+        0-6 months:  none
+        6-8 months:  strained vegetables 3-4 Tbsp. twice daily.  start with green, then yellow type.
+        8-10 months:  may advance to junior strained vegetables or tender vegetables from the table.
+        10-12 months:  increase serving size according to appetite.
+        over 12 months:  2-3 small servings daily. Offer a variety.
+[select value="normal|NOT ON TRACK"] <-- Juices/Fruits
+        0-6 months:  none
+        6-8 months:  unsweetened juice from cup, vitamin C fortified, no more than1/2 cup daily.  begin with apple juice.  start with baby juice or dilute adult juice (half juice, half water).
+        8-10 months:  limit to 1/2 cup unsweetened juice daily. begin strained fruits 3-4 tbsp. twice daily.
+        10-12 months:  continue to limit to 1/2 cup unsweetened juice daily.  3-4 Tbsp. strained fruit per day. Soft pieces of ripe, raw, peeled fruit.
+        over 12 months:  2-3 small servings of fruit or juice daily. Offer a variety. Limit juice to 4 oz. daily.
+[select value="normal|NOT ON TRACK"] <-- Meats/Eggs/Protein
+        0-8 months:  none
+        8-10 months:  strained meat, baby egg yolk or hard cooked egg yolk, 1-2 Tbsp. daily.  well-cooked beans or peas.
+        10-12 months:  1-2 Tbsp. finely chopped meats once or twice daily.
+        over 12 months:  2 one ounce servings of protein foods such as meat, eggs, dried beans, peas.
+[select value="normal|NOT ON TRACK"] <-- Soda Pop
+        NEVER![/conditional][conditional field="Q1" condition="(Q1).is('1 week')||(Q1).is('2 month')||(Q1).is('4 month')||(Q1).is('6 month')||(Q1).is('9 month')||(Q1).is('12 month')||(Q1).is('15 month')||(Q1).is('2 year')||(Q1).is('3 year')||(Q1).is('4 year')"]
+
+DEVELOPMENT
+[select value="normal|NOT ON TRACK"] <-- Cognitive Milestones
+	3 to 5 months:  Attends to and reaches for objects
+	4 to 8 months:  Pulls string to secure a ring
+	8 to 15 months:  Imitates patting doll
+	12 months:  Follows 1-step command
+	14 to 20 months:  Finds hidden object
+	18 months:  Points to 1 body part
+	18-28 months:  Completes simple puzzles
+	24 months:  Follows 2-step command
+	30 months:  Points to 6 body parts
+[select value="normal|NOT ON TRACK"] <-- Language Milestones
+	1 ½ to 3 months:  Squeals
+	3 ½ to 8 months:  Turns to locate a rattle, voice
+	6 months:  Laughs, coos
+	9 to 13 months:  Says Mama or Dada (non-specific), babbles, single syllables
+	12 months:  Imitates vocalizations and sounds, Says one word
+	15 months:  Says 1-3 words
+	18 months:  Says 3-6 words
+	21 to 36 months:  Uses Plurals
+	24 months:  Combines two different words, names one picture
+        30 months:  Speech half understandable
+        36 to 48 months:  Speech all understandable, names four pictures and 1-4 colors
+[select value="normal|NOT ON TRACK"] <-- Social/Emotional Milestones
+	1 ½ to 4 months:  Smiles at others
+	4 to 9 months:  Seeks primary caregiver
+	8 to 15 months:  Stranger anxiety
+	9 to 12 months:  Waves bye-bye
+	10 to 15 months:  Displays 2 or more recognizable emotions
+	11 to 20 months:  Exploratory play by self
+	21 to 36 months:  Cooperative play in small groups
+[select value="normal|NOT ON TRACK"] <-- Gross Motor Milestones
+	2 to 4 ½ months:  Rolls over
+	5 to 8 months:  Sits without support
+	10 to 14 months:  Stands alone
+	14 to 20 months:  Walks up steps
+	30 to 44 months:  Balances on one foot
+[select value="normal|NOT ON TRACK"] <-- Fine Motor Milestones
+	2 ½ months to 4 months:  Grasps rattle
+	4 ½ to 7 months:  Transfers cube hand to hand
+	8 to 12 months:  Has neat pincer grasp
+	15 to 20 months:  Builds tower of four cubes
+	18 to 24 months:  Imitates vertical line
+	28 to 36 months:  Copies circle
+[select value="normal|NOT ON TRACK"] <-- Self Help Milestones
+	4 ½ to 8 months:  Feeds self crackers
+	10 to 14 months:  Drinks from cup
+	13 to 19 months:  Removes clothes
+	18 to 28 months:  Washes and dries hands
+	30 to 42 months:  Dresses without supervision[/conditional]
+
+OBJECTIVE/EXAMINATION:
+[conditional field="Q1|Q2" condition="(Q1).is('1 week')&&(Q2).is('male')"]
+[text size=144 default="Skin: Normal turgor and without lesions."]
+[text size=144 default="Eyes: Red reflex present bilaterally. Pupils equally round and reactive to light"]
+[text size=144 default="Head: Normocephalic with age appropriate fontanelles."]
+[text size=144 default="Peripheral Vessels: Normal pulses and perfusion."]
+[text size=144 default="Heart: Regular rate and rhythm; normal S1 and S2; no murmurs, gallops, or rubs."]
+[text size=144 default="Lungs: Unlabored respirations; symmetric chest expansion; clear breath sounds."]
+[text size=144 default="Abdomen: Soft, without organomegaly. Bowel sounds normal. Nontender without rebound. No masses palpable. No distention."]
+[text size=144 default="Genitalia: Normal male external genitalia. Testes descended bilaterally. No hernia present."]
+[text size=144 default="Spine: Straight with no lesions."]
+[text size=144 default="Joints: Hips with full range-of-motion; negative Barlow and Ortolani."]
+[text size=144 default="Extremities: No clubbing, cyanosis, or edema. Normal upper and lower extremities."]
+[text size=144 default="Mental Status: Alert and in no distress. Appropriate for age."]
+[text size=144 default="Neuro: Normal reflexes; normal tone; no focal deficits appreciated. Appropriate for age."][/conditional][conditional field="Q1|Q2" condition="(Q1).is('1 week')&&(Q2).is('female')"]
+[text size=144 default="Skin: Normal turgor and without lesions."]
+[text size=144 default="Eyes: Red reflex present bilaterally. Pupils equally round and reactive to light"]
+[text size=144 default="Head: Normocephalic with age appropriate fontanelles."]
+[text size=144 default="Peripheral Vessels: Normal pulses and perfusion."]
+[text size=144 default="Heart: Regular rate and rhythm; normal S1 and S2; no murmurs, gallops, or rubs."]
+[text size=144 default="Lungs: Unlabored respirations; symmetric chest expansion; clear breath sounds."]
+[text size=144 default="Abdomen: Soft, without organomegaly. Bowel sounds normal. Nontender without rebound. No masses palpable. No distention."]
+[text size=144 default="Genitalia: Normal female external genitalia. No hernia present."]
+[text size=144 default="Spine: Straight with no lesions."]
+[text size=144 default="Joints: Hips with full range-of-motion; negative Barlow and Ortolani."]
+[text size=144 default="Extremities: No clubbing, cyanosis, or edema. Normal upper and lower extremities."]
+[text size=144 default="Mental Status: Alert and in no distress. Appropriate for age."]
+[text size=144 default="Neuro: Normal reflexes; normal tone; no focal deficits appreciated. Appropriate for age."][/conditional][conditional field="Q1|Q2" condition="((Q1).is('2 month')||(Q1).is('4 month')||(Q1).is('6 month')||(Q1).is('9 month'))&&((Q2).is('male'))"]
+[text size=144 default="General: Child appears age appropriate. "]
+[text size=144 default="Vitals noted and stable."]
+[text size=144 default="Skin: Normal turgor and without lesions."]
+[text size=144 default="Head:  Normocephalic with age appropriate fontanelles."]
+[text size=144 default="Eyes: Conjunctivae noninjected; sclerae anicteric; lids without ptosis, edema, or erythema; extraocular movements intact; pupils equal, round, and reactive to light.  Red reflex present bilaterally."]
+[text size=144 default="ENT: TMs gray, sharp landmarks, mobile. Nose clear. Palate is complete. Dentition normal for age. Tonsils small and non-inflamed bilaterally."]
+[text size=144 default="Lymph Nodes: No significant lymphadenopathy."]
+[text size=144 default="Thyroid: No thyromegaly; trachea midline without masses."]
+[text size=144 default="Breasts: Without lesions or drainage."]
+[text size=144 default="Heart: Regular rate and rhythm; normal S1 and S2; no murmurs, gallops, or rubs."]
+[text size=144 default="Lungs: Unlabored respirations; symmetric chest expansion; clear breath sounds; no wheezes, crackles, rales, rhonchi, or retractions."]
+[text size=144 default="Abdomen: Soft, without organomegaly. Bowel sounds normal. Non-tender without rebound. No masses palpable. No distention."]
+[text size=144 default="Genitalia: Normal male external genitalia; testes descended bilaterally; no hernia."]
+[text size=144 default="Spine: Straight with no lesions."]
+[text size=144 default="Joints: Full range of motion about all joints."]
+[text size=144 default="Extremities:  Peripheral pulses are equal. There is no clubbing, cyanosis or edema of the extremities. Capillary refill is less than 2 seconds."]
+[text size=144 default="Gait: Normal and appropriate gait for age."]
+[text size=144 default="Mental Status: Alert and in no distress. Appropriate for age."]
+[text size=144 default="Neuro: Normal reflexes; normal tone; no focal deficits appreciated. Appropriate for age."][/conditional][conditional field="Q1|Q2" condition="((Q1).is('2 month')||(Q1).is('4 month')||(Q1).is('6 month')||(Q1).is('9 month'))&&((Q2).is('female'))"]
+[text size=144 default="General: Child appears age appropriate. Vitals noted and stable."]
+[text size=144 default="Skin: Normal turgor and without lesions."]
+[text size=144 default="Head:  Normocephalic with age appropriate fontanelles."]
+[text size=144 default="Eyes: Conjunctivae noninjected; sclerae anicteric; lids without ptosis, edema, or erythema; extraocular movements intact; pupils equal, round, and reactive to light.  Red reflex present bilaterally."]
+[text size=144 default="ENT: TMs gray, sharp landmarks, mobile. Nose clear. Palate is complete. Dentition normal for age. Tonsils small and non-inflamed bilaterally."]
+[text size=144 default="Lymph Nodes: No significant lymphadenopathy."]
+[text size=144 default="Thyroid: No thyromegaly; trachea midline without masses."]
+[text size=144 default="Breasts: Without lesions or drainage."]
+[text size=144 default="Heart: Regular rate and rhythm; normal S1 and S2; no murmurs, gallops, or rubs."]
+[text size=144 default="Lungs: Unlabored respirations; symmetric chest expansion; clear breath sounds; no wheezes, crackles, rales, rhonchi, or retractions."]
+[text size=144 default="Abdomen: Soft, without organomegaly. Bowel sounds normal. Non-tender without rebound. No masses palpable. No distention."]
+[text size=144 default="Genitalia: Normal female external genitalia."]
+[text size=144 default="Spine: Straight with no lesions."]
+[text size=144 Joints: Full range of motion about all joints."]
+[text size=144 default="Extremities:  Peripheral pulses are equal. There is no clubbing, cyanosis or edema of the extremities. Capillary refill is less than 2 seconds."]
+[text size=144 default="Gait: Normal and appropriate gait for age."]
+[text size=144 default="Mental Status: Alert and in no distress. Appropriate for age."]
+[text size=144 default="Neuro: Normal reflexes; normal tone; no focal deficits appreciated. Appropriate for age."][/conditional][conditional field="Q1|Q2" condition="((Q1).is('12 month')||(Q1).is('15 month')||(Q1).is('2 year')||(Q1).is('3 year')||(Q1).is('4 year'))&&((Q2).is('male'))"]
+[text size=144 default="General: Child appears age appropriate. Vitals noted and stable."]
+[text size=144 default="Skin: Normal turgor and without lesions."]
+[text size=144 default="Head:  Normocephalic."]
+[text size=144 default="Eyes: Conjunctivae noninjected; sclerae anicteric; lids without ptosis, edema, or erythema; extraocular movements intact; pupils equal, round, and reactive to light. Red reflex present bilaterally. Symmetric light reflex."]
+[text size=144 default="ENT: TMs gray, sharp landmarks, mobile. Nose clear. Palate is complete. Dentition normal for age. Tonsils small and non-inflamed bilaterally."]
+[text size=144 default="Lymph Nodes: No significant lymphadenopathy."]
+[text size=144 default="Thyroid: No thyromegaly; trachea midline without masses."]
+[text size=144 default="Breasts: Without lesions or drainage."]
+[text size=144 default="Heart: Regular rate and rhythm; normal S1 and S2; no murmurs, gallops, or rubs. "]
+[text size=144 default="Lungs: Unlabored respirations; symmetric chest expansion; clear breath sounds; no wheezes, crackles, rales, rhonchi, or retractions."]
+[text size=144 default="Abdomen: Soft, without organomegaly. Bowel sounds normal. Non-tender without rebound. No masses palpable. No distention."]
+[text size=144 default="Genitalia: Normal male external genitalia; testes descended bilaterally; no hernia."]
+[text size=144 default="Spine: Straight with no lesions."]
+[text size=144 default="Joints: Full range of motion about all joints."]
+[text size=144 default="Extremities:  Peripheral pulses are equal. There is no clubbing, cyanosis or edema of the extremities. Capillary refill is less than 2 seconds."]
+[text size=144 default="Gait: Normal and appropriate gait for age."]
+[text size=144 default="Mental Status: Alert and in no distress. Appropriate for age."]
+[text size=144 default="Neuro: Normal reflexes; normal tone; no focal deficits appreciated. Appropriate for age."][/conditional][conditional field="Q1|Q2" condition="((Q1).is('12 month')||(Q1).is('15 month')||(Q1).is('2 year')||(Q1).is('3 year')||(Q1).is('4 year'))&&((Q2).is('female'))"]
+[text size=144 default="General: Child appears age appropriate. Vitals noted and stable."]
+[text size=144 default="Skin: Normal turgor and without lesions."]
+[text size=144 default="Head:  Normocephalic."]
+[text size=144 default="Eyes: Conjunctivae noninjected; sclerae anicteric; lids without ptosis, edema, or erythema; extraocular movements intact; pupils equal, round, and reactive to light. Red reflex present bilaterally. Symmetric light reflex."]
+[text size=144 default="ENT: TMs gray, sharp landmarks, mobile. Nose clear. Palate is complete. Dentition normal for age. Tonsils small and non-inflamed bilaterally."]
+[text size=144 default="Lymph Nodes: No significant lymphadenopathy."]
+[text size=144 default="Thyroid: No thyromegaly; trachea midline without masses."]
+[text size=144 default="Breasts: Without lesions or drainage."]
+[text size=144 default="Heart: Regular rate and rhythm; normal S1 and S2; no murmurs, gallops, or rubs. "]
+[text size=144 default="Lungs: Unlabored respirations; symmetric chest expansion; clear breath sounds; no wheezes, crackles, rales, rhonchi, or retractions."]
+[text size=144 default="Abdomen: Soft, without organomegaly. Bowel sounds normal. Non-tender without rebound. No masses palpable. No distention."]
+[text size=144 default="Genitalia: Normal female external genitalia."]
+[text size=144 default="Spine: Straight with no lesions."]
+[text size=144 default="Joints: Full range of motion about all joints."]
+[text size=144 default="Extremities:  Peripheral pulses are equal. There is no clubbing, cyanosis or edema of the extremities. Capillary refill is less than 2 seconds."]
+[text size=144 default="Gait: Normal and appropriate gait for age."]
+[text size=144 default="Mental Status: Alert and in no distress. Appropriate for age."]
+[text size=144 default="Neuro: Normal reflexes; normal tone; no focal deficits appreciated. Appropriate for age."][/conditional][conditional field="Q1|Q2" condition="((Q1).is('5 year')||(Q1).is('6-10 year')||(Q1).is('11-14 year')||(Q1).is('15-18 year'))&&((Q2).is('male'))"]
+[text size=144 default="General: Child appears age appropriate. Vitals noted and stable."]
+[text size=144 default="Skin: Normal turgor and without lesions."]
+[text size=144 default="Head:  Normocephalic."]
+[text size=144 default="Eyes: Conjunctivae noninjected; sclerae anicteric; lids without ptosis, edema, or erythema; extraocular movements intact; pupils equal, round, and reactive to light. Symmetric light reflex, normal fundi."]
+[text size=144 default="ENT: TMs gray, sharp landmarks, mobile. Nose clear. Palate is complete. Dentition normal for age. Tonsils small and non-inflamed bilaterally."]
+[text size=144 default="Lymph Nodes: No significant lymphadenopathy."]
+[text size=144 default="Thyroid: No thyromegaly; trachea midline without masses."]
+[text size=144 default="Breasts: Without lesions or drainage."]
+[text size=144 default="Heart: Regular rate and rhythm; normal S1 and S2; no murmurs, gallops, or rubs. "]
+[text size=144 default="Lungs: Unlabored respirations; symmetric chest expansion; clear breath sounds; no wheezes, crackles, rales, rhonchi, or retractions."]
+[text size=144 default="Abdomen: Soft, without organomegaly. Bowel sounds normal. Non-tender without rebound. No masses palpable. No distention."]
+[text size=144 default="Genitalia: Normal male external genitalia; testes descended bilaterally; no hernia."]
+[text size=144 default="Spine: Straight with no lesions."]
+[text size=144 default="Joints: Full range of motion about all joints."]
+[text size=144 default="Extremities: Peripheral pulses are equal. There is no clubbing, cyanosis or edema of the extremities. Capillary refill is less than 2 seconds."]
+[text size=144 default="Gait: Normal and appropriate gait for age."]
+[text size=144 default="Mental Status: Alert, oriented, in no distress. Appropriate for age."]
+[text size=144 default="Neuro: Normal reflexes; normal tone; no focal deficits appreciated. Appropriate for age."][/conditional][conditional field="Q1|Q2" condition="((Q1).is('5 year')||(Q1).is('6-10 year')||(Q1).is('11-14 year')||(Q1).is('15-18 year'))&&((Q2).is('female'))"]
+[text size=144 default="General: Child appears age appropriate. Vitals noted and stable."]
+[text size=144 default="Skin: Normal turgor and without lesions."]
+[text size=144 default="Head:  Normocephalic."]
+[text size=144 default="Eyes: Conjunctivae noninjected; sclerae anicteric; lids without ptosis, edema, or erythema; extraocular movements intact; pupils equal, round, and reactive to light. Symmetric light reflex, normal fundi."]
+[text size=144 default="ENT: TMs gray, sharp landmarks, mobile. Nose clear. Palate is complete. Dentition normal for age. Tonsils small and non-inflamed bilaterally."]
+[text size=144 default="Lymph Nodes: No significant lymphadenopathy."]
+[text size=144 default="Thyroid: No thyromegaly; trachea midline without masses."]
+[text size=144 default="Breasts: Without lesions or drainage."]
+[text size=144 default="Heart: Regular rate and rhythm; normal S1 and S2; no murmurs, gallops, or rubs. "]
+[text size=144 default="Lungs: Unlabored respirations; symmetric chest expansion; clear breath sounds; no wheezes, crackles, rales, rhonchi, or retractions."]
+[text size=144 default="Abdomen: Soft, without organomegaly. Bowel sounds normal. Non-tender without rebound. No masses palpable. No distention."]
+[text size=144 default="Genitalia: Normal female external genitalia."]
+[text size=144 default="Spine: Straight with no lesions."]
+[text size=144 default="Joints: Full range of motion about all joints."]
+[text size=144 default="Extremities: Peripheral pulses are equal. There is no clubbing, cyanosis or edema of the extremities. Capillary refill less than 2 seconds."]
+[text size=144 default="Gait: Normal and appropriate gait for age."]
+[text size=144 default="Mental Status: Alert, oriented, in no distress. Appropriate for age."]
+[text size=144 default="Neuro: Normal reflexes; normal tone; no focal deficits appreciated. Appropriate for age."][/conditional]
+
+ASSESSMENT/PLAN:
+[conditional field="Q1" condition="(Q1).is('1 week')"]
+[textarea cols=144  default="#1 Normal growth and development.  Injury prevention and health promotion issues discussed.  Age specific guidance: infant should sleep on back, pets (keep separated from child), use of car restraints, do not leave near water or where child can fall, assure water heater temp. set less than 120 degrees and test fire alarms. "]
+[textarea cols=144  default="No immunizations/Hepatitis B given today. Side effects, risks, and benefits of immunizations discussed."]
+[textarea cols=144  default="Return to clinic at 2 months of age, or sooner if concerns arise.  Approved for all routine preventive medicine services, including immunizations.  Abuse/neglect, functional status, nutrition and pain assessed and no further evaluation is needed."][/conditional][conditional field="Q1" condition="(Q1).is('2 month')"]
+[textarea cols=144  default="#1 Normal growth and development.  Age specific guidance: infant should sleep on back, use car restraints, do not leave the child near water or where the child can fall, do not use walkers or small toys and burn prevention reviewed."]
+[textarea cols=144  default="Immunizations today: HBV-Hib, DTaP, and IPV (Hepatitis B-Haemophilus influenza, Diphtheria-Tetanus-acellular Pertussis and polio), PCV7 (Pneumococcal), Rota.  Side effects, risks, and benefits of immunizations discussed."]
+[textarea cols=144  default="Return to clinic at 4 months of age, or sooner if concerns arise. Approved for all routine preventive medicine services, including immunizations. Abuse/neglect, functional status, nutrition and pain assessed and no further evaluation is needed."][/conditional][conditional field="Q1" condition="(Q1).is('4 month')"]
+[textarea cols=144  default="#1 Normal growth and development.  Age specific guidance: use car restraints, do not leave near water or where the child can fall, do not use walkers or small toys, avoidance of plastic's suffocation and burn prevention reviewed. A/B Otic drops prescription and discussion about how to use as needed."]
+[textarea cols=144  default="Immunizations today: Hib, DTaP, and IPV (Hepatitis B- Haemophilus influenza, Diphtheria-Tetanus, acellular Pertussis and polio), PCV7 (Pneumococcal), Rotavirus.  Side effects, risks, and benefits of immunizations discussed."]
+[textarea cols=144  default="Return to clinic at 6 months of age, or sooner if concerns arise. Approved for all routine preventive medicine services, including immunizations. Abuse/neglect, functional status, nutrition and pain assessed and no further evaluation is needed."][/conditional][conditional field="Q1" condition="(Q1).is('6 month')"]
+[textarea cols=144  default="#1 Health Maintenance-Normal Growth and Development.  Age specific guidance:  use of car restraints, supervise around water or where the child can fall, use gates to block stairway, be careful of cords and plants, do not use walkers or allow with small objects, burn prevention reviewed. "]
+[textarea cols=144  default="Side effects, risks and benefits of immunizations.  Immunizations today:  DTaP (Diphtheria-Tetanus-acellular Pertussis)/HBV (hepatitis)/PCV7 (Pneumococcal)/ROTA (Rotavirus)"]
+[textarea cols=144  default="Return appointment: age nine months/age twelve months/age fifteen months or sooner if needed."][/conditional][conditional field="Q1" condition="(Q1).is('9 month')"]
+[textarea cols=144  default="#1 Normal growth and development.  Injury prevention and health promotion issues discussed."]
+[textarea cols=144  default="No immunizations given today/Immunizations given today.  Side effects, risks, and benefits of immunizations discussed."]
+[textarea cols=144  default="Return to clinic at 12 months of age, or sooner if concerns arise. Approved for all routine preventive medicine services, including immunizations.  Abuse/neglect, functional status, nutrition and pain assessed and no further evaluation is needed."][/conditional][conditional field="Q1" condition="(Q1).is('12 month')"]
+[textarea cols=144  default="#1 Normal growth and development.  Injury prevention and health promotion issues discussed."]
+[textarea cols=144  default="No immunizations given today/Immunizations given today.  Side effects, risks, and benefits of immunizations discussed."]
+[textarea cols=144  default="Return to clinic at 15 months of age, or sooner if concerns arise. Approved for all routine preventive medicine services, including immunizations.  Abuse/neglect, functional status, nutrition and pain assessed and no further evaluation is needed."][/conditional][conditional field="Q1" condition="(Q1).is('15 month')"]
+[textarea cols=144  default="#1 Health Maintenance-Normal Growth and Development.  Age specific guidance: choking, use of gates, caution around open water, falling, sunscreen if summer, smoke detectors, smoke free environment, lower crib mattress, check window guards, supervise near dogs and lawnmowers and streets and driveways, burn prevention, and tantrum information reviewed. Recommended to eat meals as family, allow toddler to feed self and drink from cup not bottle, 2 snacks low in sugar daily, avoid choke foods, don't put toddler to bed with bottle, brush teeth daily, fluoride discussed. Give individual attention, limit but enforce rules, allow no harm to self or things or others, delay toilet training."]
+[textarea cols=144  default="Poison prevention discussed -- Keep potential poisons out of sight and out of reach. Always reengage child-resistant closures immediately after using a pharmaceutical or consumer product. Never transfer a substance from its original container to an alternate one. Safely dispose of all unused medication and medication that is no longer needed. Do not refer to medicines as candy. Post the poison control center number near the telephone. The universal telephone number in the United States is 800-222-1222. Calls are routed to the local poison control center.  Tuberculosis Risk (Close contact with person with TB, live in area where TB is common, recent immigrant?): No/Yes, testing recommended"]
+[textarea cols=144  default="Side effects, risks and benefits of immunizations discussed.  Immunizations today: DTaP/Hib/PCV7/Influenza vaccine/HAV"]
+[textarea cols=144  default="Return appointment: age two years/age 18 month visit with doctor/age 18 month visit with nurse for immunizations or sooner if needed."][/conditional][conditional field="Q1" condition="(Q1).is('2 year')"]
+[textarea cols=144  default="#1 Normal growth and development.  Age specific guidance: Burn prevention, care near streets, caution around open water, use of car seats, transition from crib to bed, toilet training, night terrors and tantrum information reviewed."]
+[textarea cols=144  default="No immunizations given today/Influenza/Hepatitis A/Side effects, risks, and benefits of immunizations discussed."]
+[textarea cols=144  default="Return to clinic at 3 years of age, or sooner if concerns arise. Approved for all routine preventive medicine services, including immunizations.  Testing is/not indicated for TB (exposure to patient with TB, recent immigrant, area with high TB prevalence).  Testing is/not indicated for lead (house older than 1950).  Abuse/neglect, functional status, nutrition and pain assessed and no further evaluation is needed."][/conditional][conditional field="Q1" condition="(Q1).is('3 year')"]
+[textarea cols=144  default="#1 Normal growth and development.  Age specific guidance: Burn prevention, care near streets, caution around open water, use of car seats, transition from crib to bed, use of bike helmet, toilet training, night terrors and tantrum information reviewed."]
+[textarea cols=144  default="No immunizations given today/Immunizations given today/MMR (Measles-Mumps-Rubella)/Side effects, risks, and benefits of immunizations discussed."]
+[textarea cols=144  default="Vision screening: assessed/not assessed/child uncooperative.  Hearing screening: assessed/not assessed/child uncooperative.  Testing is/not indicated for TB (exposure to patient with TB, recent immigrant, area with high TB prevalence).  Testing is/not indicated for lead (house older than 1950).  "]
+[textarea cols=144  default="Return to clinic at 5 years of age, or sooner if concerns arise. Approved for all routine preventive medicine services, including immunizations. Abuse/neglect, functional status, nutrition and pain assessed and no further evaluation is needed."][/conditional][conditional field="Q1" condition="(Q1).is('4 year')"]
+[textarea cols=144  default="#1 Normal growth and development.  Injury prevention and health promotion issues discussed."]
+[textarea cols=144  default="No immunizations given today/Immunizations given today..  Side effects, risks, and benefits of immunizations discussed."]
+[textarea cols=144  default="Return to clinic in two years or sooner if concerns arise.  Approved for all routine preventive medicine services, including immunizations. Abuse/neglect, functional status, nutrition and pain assessed and no further evaluation is needed."][/conditional][conditional field="Q1" condition="(Q1).is('5 year')"]
+[textarea cols=144  default="#1 Health Maintenance-Normal Growth and Development.  Age specific guidance: Burn prevention (matches), care near streets, caution around open water, use of seatbelt information reviewed, self-esteem issues, limit television time, use of helmets when riding bike or scooter"]
+[textarea cols=144  default="Immunizations today: None/DTaP/MMRV/IPV/Flu/Hep A.  Side effects, risks and benefits of immunizations."]
+[textarea cols=144  default="Vision screening: assessed/not assessed/child uncooperative.  Hearing screening: assessed/not assessed/child uncooperative.  Return appointment: age 7 yrs/age 9 yrs or sooner if needed."][/conditional][conditional field="Q1" condition="(Q1).is('6-10 year')"]
+[textarea cols=144  default="#1 Normal growth and development.  Injury prevention and health promotion issues discussed."]
+[textarea cols=144  default="No immunizations given today/Immunizations given today.  Side effects, risks, and benefits of immunizations discussed."]
+[textarea cols=144  default="Return to clinic in 2 years or sooner if concerns arise. Approved for all routine preventive medicine services, including immunizations. Abuse/neglect, functional status, nutrition and pain assessed and no further evaluation is needed."][/conditional][conditional field="Q1" condition="(Q1).is('11-14 year')"]
+[textarea cols=144  default="#1 Normal growth and development.  Injury prevention and health promotion issues discussed."]
+[textarea cols=144  default="Immunizations given/No immunizations given today.  Side effects, risks, and benefits of immunizations discussed."]
+[textarea cols=144  default="Return to clinic in 2 years or sooner if concerns arise. Approved for all routine preventive medicine services, including immunizations. Abuse/neglect, functional status, nutrition and pain assessed and no further evaluation is needed."][/conditional][conditional field="Q1" condition="(Q1).is('15-18 year')"]
+[textarea cols=144  default="#1 Normal growth and development.  Injury prevention and health promotion issues discussed."]
+[textarea cols=144  default="Immunizations given.  Side effects, risks, and benefits of immunizations discussed/No immunizations given today."]
+[textarea cols=144  default="Return to clinic in 2 years or sooner if concerns arise. Approved for all routine preventive medicine services, including immunizations. Abuse/neglect, functional status, nutrition and pain assessed and no further evaluation is needed."][/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  March 1, 2015; August 30, 2015
+permalink: <a href="http://www.soapnote.org/child-health/health-maintenance-visit/" target="_blank">www.soapnote.org/child-health/health-maintenance-visit/</a>
+markup link:  <a href="http://www.soapnote.org/txt/child-health/health-maintenance-visit.txt" target="_blank">www.soapnote.org/txt/child-health/health-maintenance-visit.txt</a>[/html][/conditional]

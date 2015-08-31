@@ -1,4 +1,5 @@
-History provided by ***Self/Spouse/Child/Other***
+[html]Geriatric Comprehensive Assessment (History)
+[/html]History provided by ***Self/Spouse/Child/Other***
 Language: ***English/Spanish/Other***
 Marital History: ***Married/Widowed/Divorced/Single***
 Resident lives ***at home/at apartment/at skilled nursing home/at assisted living/with family member/at adult foster care***.

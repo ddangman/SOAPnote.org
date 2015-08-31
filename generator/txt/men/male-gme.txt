@@ -1,4 +1,5 @@
-[textarea default="GENERAL APPEARANCE: Well developed, well nourished and in no acute distress."]
+[html]MALE GENERAL EXAM
+[/html][textarea default="GENERAL APPEARANCE: Well developed, well nourished and in no acute distress."]
 [textarea default="HEAD: Normocephalic."]
 [textarea default="ENT: External auditory canals and tympanic membranes clear, hearing grossly intact. No nasal discharge. Oral cavity and pharynx normal. Teeth and gingiva in good general condition."]
 [textarea default="EYES: PERRL, EOMI. Fundi normal."]

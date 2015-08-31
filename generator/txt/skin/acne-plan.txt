@@ -1,4 +1,4 @@
-#1 Acne vulgaris
+Acne vulgaris
 Reviewed acne causes, descriptions and clinical course. Over-the-counter interventions and medications reviewed. Recommended typical hygiene measures including water-based facial products, washing regularly with mild soap, and refraining from picking and popping the pustules. Expectations of therapy discussed. Side effects, risks and benefits of medications discussed. Refill process reviewed. Given prescription for ***Input medication prescribed***.
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  none

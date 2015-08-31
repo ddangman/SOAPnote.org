@@ -1,4 +1,5 @@
-SKIN:  Patient has a ***generalized rash/rash localized to ---***.
+[html]Rash Exam
+[/html]SKIN:  Patient has a ***generalized rash/rash localized to ---***.
 Rash is ***erythematous/maculopapular/papular/macular/urticarial/purpuric/flaking/raised/excoriated/pustular/tender/nodular/bullous/crusting/vesicular***.
 There is ***no/serous/purulent/bloody*** drainage.
 There ***is no sign of secondary infection/is sign of secondary infection ---***
