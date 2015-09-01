@@ -1,0 +1,14 @@
+Adapted Centor Score for Streptococcal Pharyngitis
+[select name="Q1Fever" value="No (0 points)=0|YES (1 point)=1"] <-- History of or measured temperature greater than or equal to 100.4 F
+[select name="Q2Cough" value="Cough is present (0 points)=0|COUGH IS ABSENT (1 point)=1"] <-- Presence of coughing
+[select name="Q3Nodes" value="No (0 points)=0|YES (1 point)=1"] <-- Tender anterior cervical nodes
+[select name="Q4Tonsil" value="No (0 points)=0|YES (1 point)=1"] <-- Tonsillar swelling or exudates
+[select name="Q5Age" value="Less than 15 years (1 point)=1|15 to 45 years (0 points)=0|Over 45 years (-1 point)=-1"] <-- Age
+Score --> [calc value="score1=(Q1Fever)+(Q2Cough)+(Q3Nodes)+(Q4Tonsil)+(Q5Age)" memo="score"]
+Result –-> [calc memo="interpretation" value="score2=(Q1Fever)+(Q2Cough)+(Q3Nodes)+(Q4Tonsil)+(Q5Age);score2>3?'55% Strep throat - Antibiotic therapy recommended':score2>1?'29% Strep throat - Rapid test or delayed prescription recommended':'12% Strep throat - Symptomatic therapy only is recommended'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/0011033707">McIsaac WJ, Goel V, To T, Low DE. The validity of a sore throat score in family practice. CMAJ. 2000 Oct 3;163(7):811-5.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  September 19, 2014; September 1, 2015
+permalink: <a href="http://www.soapnote.org/ear-nose-throat/adapted-centor-score/" target="_blank">www.soapnote.org/ear-nose-throat/adapted-centor-score/</a>
+markup link:  <a href="http://www.soapnote.org/txt/ear-nose-throat/adapted-centor-score.txt" target="_blank">www.soapnote.org/txt/ear-nose-throat/adapted-centor-score.txt</a>[/html][/conditional]

@@ -1,0 +1,15 @@
+[html]Vaginitis Plan
+[/html][select value="Vaginitis|Bacterial vaginosis|Candida vaginitis|Gardnerella vaginitis|Trichomonas vaginitis|Herpes vaginitis|Cervicitis|PID"]
+Additional testing
+[checkbox value="pelvic ultrasound|CBC|pregnancy test|sed rate|none"]
+Treatment:
+[checkbox value="observe|over the counter antifungal preparation|diflucan orally|metronidazole orally|metronidazole vaginally|clindamycin vaginally|azithromycin orally|doxycycline orally|other treatment"]
+[text size=80]
+Education:
+[checkbox value="Follow up as needed|Follow up if worsening|Follow up in 1-2 weeks|Follow up for test of cure|Side effects/interactions of medications|Cautioned patient to consume no alcohol during course of treatment and including 72 hours after completion of treatment"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  February 18, 2014; September 1, 2015
+permalink: <a href="http://www.soapnote.org/women/vaginitis-plan/" target="_blank">www.soapnote.org/women/vaginitis-plan/</a>
+markup link:  <a href="http://www.soapnote.org/txt/women/vaginitis-plan.txt" target="_blank">www.soapnote.org/txt/women/vaginitis-plan.txt</a>[/html][/conditional]

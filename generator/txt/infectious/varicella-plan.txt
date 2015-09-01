@@ -1,0 +1,8 @@
+[html]Varicella Assessment/Plan
+[/html][textarea default="Primary varicella&#13;&#10;Treatment to include:&#13;&#10;***Observe/Admit to hospital/Stat ophthalmology referral***&#13;&#10;Hydroxyzine at bedtime for pruritis&#13;&#10;Oatmeal/Aveeno baths for pruritis&#13;&#10;Calamine Lotion for pruritis&#13;&#10;Apply antibiotic ointment to denuded lesions until scab forms to prevent superinfection&#13;&#10;Acetaminophen as needed for fever/aches&#13;&#10;Acyclovir/Famcyclovir/Valacyclovir&#13;&#10;Increase fluids. Observe for signs of cough, worsening fever, or any signs of ocular involvement. Discussed cautions in detail."]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; September 1, 2015
+permalink: <a href="http://www.soapnote.org/infectious/varicella-plan/" target="_blank">www.soapnote.org/infectious/varicella-plan/</a>
+markup link:  <a href="http://www.soapnote.org/txt/infectious/varicella-plan.txt" target="_blank">www.soapnote.org/txt/infectious/varicella-plan.txt</a>[/html][/conditional]

@@ -1,0 +1,8 @@
+[html]Vaccine Component Allergy Assessment
+[/html][textarea default="The following vaccine components were reviewed for allergic reactions: sulfa; mercury or thimerosal; gentamicin, neomycin, polymyxin, or streptomycin; aluminum or aluminum hydroxide; 2-phenoxyethanol; bee stings or history of hives or urticaria; eggs; gelatin, beef or chicken protein, soy, casien, lactose, phenol or formaldehyde; amphotericin B and chlortetracyclines. All responses were negative except for those as recorded in the electronic record."]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 15, 2010; September 1, 2015
+permalink: <a href="http://www.soapnote.org/infectious/vaccine-allergy-assessment/" target="_blank">www.soapnote.org/infectious/vaccine-allergy-assessment/</a>
+markup link:  <a href="http://www.soapnote.org/txt/infectious/vaccine-allergy-assessment.txt" target="_blank">www.soapnote.org/txt/infectious/vaccine-allergy-assessment.txt</a>[/html][/conditional]

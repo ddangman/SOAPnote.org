@@ -1,0 +1,8 @@
+[html]Initiating Contraception Plan
+[/html][textarea default="Desired Contraception&#13;Discussed contraceptive means available including IUD, nuvaring, combination oral contraceptives, and implanon. &#13;She wishes to proceed with IUD placement.&#13;She will start OCP/NuvaRing on the Sunday after her period starts.&#13;Nuvaring:  1 ring every 3 weeks, then off for 1 week for withdrawal bleeding.&#13;Oral contraceptive medication choices:&#13;Preparations:&#13;Good Initial Choices (Monophasic:  Ortho-Novum 1/35, Ovcon; Multiphasic: Ortho Novum 7/7/7, Tri-Norinyl, Tri-Levlen, Triphasil)&#13;Good Alternative Choices (Ethinyl Estradiol:  Levlen, Lo-Ovral, Nordette, Norinyl 1/35&#13;For Dysfunctional Uterine Bleeding (Demulen 1/35, Loestrin 1.5/30 or 1/20, Brevicon 0.5/35)&#13;For Dysmenorrhea (including endometriosis:  Loestrin 1.5/30 or 1/20, Desogen, Ortho-Cept, Demulen 1/35)&#13;For Polycystic Ovarian Disease:  Demulen 50, Ovcon 50&#13;For Acne:  Demulen 1/35, Modicon, Ortho-Cyclen, Ortho Tri-Cyclen"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 23, 2010; August 31, 2015
+permalink: <a href="http://www.soapnote.org/women/initiating-contraception-plan/" target="_blank">www.soapnote.org/women/initiating-contraception-plan/</a>
+markup link:  <a href="http://www.soapnote.org/txt/women/initiating-contraception-plan.txt" target="_blank">www.soapnote.org/txt/women/initiating-contraception-plan.txt</a>[/html][/conditional]

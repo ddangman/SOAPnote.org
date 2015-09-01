@@ -1,0 +1,22 @@
+[html]Influenza Assessment/Plan
+[/html]Assessment:
+[select value="Influenza|Influenza-like illness|Viral illness"]
+[textarea default="Plan:&#13;&#10;Acetaminophen&#13;&#10;Tessalon Perles 100 mg 1 tid prn cough&#13;&#10;Robitussin AC 1-2 teaspoons every 4-6 hours prn cough&#13;&#10;"][html]
+Anti-Viral Indications
+Ill >48 hours
+- Hospitalized or seriously ill
+Ill <48 hours
+- Children under age 2 years old (some guidelines use under age 5 years)
+- Elderly (over 65 years old)
+- Chronic medical conditions (e.g. COPD, Asthma)
+- Immunosuppressed patients
+- Obese patients with BMI>40
+- Pregnancy (despite Pregnancy category C due to higher risk of Influenza related morbidity
+[/html][checkbox memo="Choose Antiviral if Indicated" value="Zanamivir (Relenza)|Oseltamivir (Tamiflu)"]
+[textarea default="Discussed increased fluids, antipyretics, and rest. Typical natural history of disease discussed. Follow up if symptoms persist or worsen outside of discussed boundaries."]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.fpnotebook.com/id/virus/Inflnz.htm" target="_blank">see FP Notebook</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  September 11, 2013; September 1, 2015
+permalink: <a href="http://www.soapnote.org/infectious/influenza-plan/" target="_blank">www.soapnote.org/infectious/influenza-plan/</a>
+markup link:  <a href="http://www.soapnote.org/txt/infectious/influenza-plan.txt" target="_blank">www.soapnote.org/txt/infectious/influenza-plan.txt</a>[/html][/conditional]

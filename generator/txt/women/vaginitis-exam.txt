@@ -1,0 +1,12 @@
+[html]Vaginitis Exam
+[/html]General Appearance: [text size=100 default="well developed, well nourished female in no acute distress."]
+Abdomen: [text size=100 default="no mass, significant tenderness or organomegaly"]
+Pelvic: [text size=100 default="external genitalia is normal.  no discharge present."]
+[checkbox value="discharge is present|frothy discharge|white discharge|green discharge|clear discharge|inflamed vaginal side walls|inflamed cervix|odor is present|blood is present|wet prep/KOH performed|negative|wet prep/KOH with numerous white cells|wet prep/KOH with clue cells present|wet prep/KOH with hyphae present|wet prep/KOH with trichomonas present|Bimanual exam performed|normal|uterus normal size|uterus nontender|no cervical motion tenderness|adnexae nontender, no masses"]
+[text size=100]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  February 18, 2014; September 1, 2015
+permalink: <a href="http://www.soapnote.org/women/vaginitis-exam/" target="_blank">www.soapnote.org/women/vaginitis-exam/</a>
+markup link:  <a href="http://www.soapnote.org/txt/women/vaginitis-exam.txt" target="_blank">www.soapnote.org/txt/women/vaginitis-exam.txt</a>[/html][/conditional]

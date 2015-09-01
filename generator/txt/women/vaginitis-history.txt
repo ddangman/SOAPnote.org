@@ -1,0 +1,36 @@
+[html]Vaginitis History
+[/html][select value="1 day|2 days|3 days|4 days|5 days|6 days|1 week|more than 1 week"]  <-- Duration of symptoms
+Symptoms include:
+[select value="no|yes"] <-- perivaginal itching
+[select value="no|yes"] <-- vaginal irritation
+[select value="no|yes"] <-- dyspareunia
+[select value="no|yes"] <-- white vaginal discharge
+[select value="no|yes"] <-- cottage cheese like vaginal discharge
+[select value="no|yes"] <-- yellow/green vaginal discharge
+[select value="no|yes"] <-- frothy vaginal discharge
+[select value="no|yes"] <-- malodorous vaginal discharge
+[select value="no|yes"] <-- bloody vaginal discharge
+[select value="no|yes"] <-- fever
+[select value="no|yes"] <-- pelvic pain
+[select value="no|yes"] <-- dysuria
+[select value="no|yes"] <-- hematuria
+[select value="no|yes"] <-- urinary frequency
+
+[select value="no|yes"] <-- currently pregnant
+
+Relevant history
+[select value="no|yes"] <-- diabetes mellitus
+[select value="no|yes"] <-- candida vaginitis
+[select value="no|yes"] <-- bacterial vaginosis
+[select value="no|yes"] <-- Trichomonas vaginitis
+[select value="no|yes"] <-- atrophic vaginitis
+[select value="no|yes"] <-- STD
+[select value="no|yes"] <-- PID
+[select value="no|yes"] <-- new sexual partner
+[select value="no|yes"] <-- multiple sexual partners
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  February 18, 2014; September 1, 2015
+permalink: <a href="http://www.soapnote.org/women/vaginitis-history/" target="_blank">www.soapnote.org/women/vaginitis-history/</a>
+markup link:  <a href="http://www.soapnote.org/txt/women/vaginitis-history.txt" target="_blank">www.soapnote.org/txt/women/vaginitis-history.txt</a>[/html][/conditional]
