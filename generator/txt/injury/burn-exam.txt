@@ -1,0 +1,39 @@
+Burn
+Burn percentage for Adult (or child over age 9)
+Head (9%): [text] 
+Trunk (18%): [text] 
+Back (18%): [text]
+Arm-Left (9%): [text]
+Arm-Right (9%): [text]
+Leg-Left (18%): [text]
+Leg-Right (18%): [text]
+Genitalia (1%): [text]
+
+Burn percentage for Child (under age 9)
+Head (18% - ageUpTo9): [text] 
+Trunk (18%): [text] 
+Back (18%): [text]
+Arm-Left (9%): [text]
+Arm-Right (9%): [text]
+Leg-Left   (14% + 0.5 x ageUpTo9): [text]
+Leg-Right (14% + 0.5 x ageUpTo9): [text]
+
+Burn Locations by Severity
+Degree 1 (red):  [text] 
+Degree 2 (blisters):  [text]
+Degree 3 (white/waxy):  [text]
+
+Procedure:  [text]
+Cooling: [text]
+Debridement: [text]
+Topicals and Dressing: [text]
+
+Labs:
+CarboxyHemoglobin: [text]
+Arterial blood gas: [text]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  contributed by Dr. Scott Moses, creator/author of the <a href="http://www.fpnotebook.com" target="_blank">Family Practice Notebook</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  November 21, 2010; September 2, 2015
+permalink: <a href="http://www.soapnote.org/injury/burn-exam/" target="_blank">www.soapnote.org/injury/burn-exam/</a>
+markup link:  <a href="http://www.soapnote.org/txt/injury/burn-exam.txt" target="_blank">www.soapnote.org/txt/injury/burn-exam.txt</a>[/html][/conditional]

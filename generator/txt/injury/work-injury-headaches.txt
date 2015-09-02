@@ -1,0 +1,54 @@
+Date of Injury:
+Referring Physician:
+
+Reason for Consultation: Headache, dizziness.
+History of Present Illness:
+Complaints of headaches.  Patient states that onset of headaches were after industrial injury.  Headaches described as originating at posterior aspect of head, occipital, and progressing to bilateral parietal area. Intermittent in nature.  Denies any known precipitating factor other than injury sustained.  Relates association with nausea.  Denies any emesis.  Patient  relates progression of frequency and intensity of headaches.  Associated with; tingling, numbness, weakness of upper extremities.  Denies any visual aura, sensitivity to sound or light. Associated with dizziness. Intermittent in nature. Associated with nausea no emesis. Positional in nature. Denies prior history of headache disorders.  Denies family history of headaches, migraines.
+
+Past Medial History:
+Medical: Denies any chronic medical problems such as; Diabetes mellitus-II.  Hypertension. Coronary Artery Disease.
+Surgery:
+Medications: none on a regular basis.
+Allergy: No known drug allergies.
+Social Hx/Habits:
+Tobacco: None.
+Alcohol:  None.
+
+Review of Systems:
+CV:  Chest pain- not noted.   Shortness of breath- not noted.  Edema- not noted.  DOE- not noted. Orthopnea- not noted.
+GI:  Abdominal pain- not noted.  Nausea- not noted. Vomiting\diarrhea- not noted.   Melena or hematochezia- not noted.
+GU:  Urgency-not noted. Frequency- not noted.   Dysuria- not noted. Hematuria- not noted.  Incontinence- not noted.
+CNS: Headaches- no acute issues noted.  Dizziness- not noted.  Visual Changes- not noted.  Focal Weakness/Sensory Disturbances- noted.
+
+Review of Studies:  No laboratory data noted.
+
+Physical Examination:
+ENT:  NCAT. Tympanic membranes: within normal limits. External Canals: within normal limits.
+Oropharynx:  moist, no lesions, clear.  Eyes: PERRLA,  Conjunctiva: normal.
+Neck:  Supple, no adenopathy, no jvd,  no abnormal masses.  Carotid pulses normal bilateral.
+Chest:  Within normal limits.
+Cardiac:  RRR, no rubs, no gallops.
+Lungs:  Breath Sounds normal, no crackles, no wheezing,  no rhonchi.
+Abd:  Flat, soft, bowel sounds normal, no organomegaly, no tenderness.
+Extr: Warm, no edema.
+Skin:  No rashes, no significant lesions.
+Neuro: Alert and oriented times 3.  Appropriate in behavior.  Appropriate affect. Cranial Nerves: Grossly wnl.  Motor: 5/5 symmetrical UE and LE.  Sensory: Grossly wnl.
+DTR: 2/4 bil.   Balance: Grossly wnl.
+DIAGNOSES:
+Headache.  Onset  after industrial injury.  Patient describes a progression in frequency and intensity of headaches.  After reviewing available medical records and performing a history and physical examination of the patient today it is my professional medical opinion that the patient's headaches do have a significant industrial component.  Most probable muscle contraction type headaches, with component of cervical radiculopathy, myelopathy. In my professional opinion imaging of head is necessary to evaluate any other pathologic process such as neoplasm, hematomas, intracerebral bleeding, cerebral edema...
+Needs evaluation of renal function, electrolytes, liver enzymes, complete blood count, thyroid function tests.
+Ordered Labs: CMP, CBC, Lipids, UA, TSH.
+
+RECOMMENDATIONS:
+Ordered Labs:
+CMP, CBC, Lipids, UA, TSH. Free T4.  MRI Head/Brain
+
+REQUEST FOR AUTHORIZATION:
+CMP, CBC, Lipids, UA, TSH. Free T4.  MRI Head/Brain.
+FOLLOW UP: The patient will follow up in 4 weeks for clinical examination/reevaluation and further discussion of treatment and options.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  J Bordas
+post/review dates:  June 26, 2012; September 2, 2015
+permalink: <a href="http://www.soapnote.org/injury/work-injury-headaches/" target="_blank">www.soapnote.org/injury/work-injury-headaches/</a>
+markup link:  <a href="http://www.soapnote.org/txt/injury/work-injury-headaches.txt" target="_blank">www.soapnote.org/txt/injury/work-injury-headaches.txt</a>[/html][/conditional]

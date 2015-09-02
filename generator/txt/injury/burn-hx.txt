@@ -1,0 +1,34 @@
+Burn Injury
+Onset [text] prior to evaluation
+Onset while:  [text]
+Injury  at [text]
+
+Caused by: [text]
+Prior to injury, wound site covered with (e.g. clothing) [text]
+After the injury, prior to arrival, wound was treated with [text]
+
+Inhalation injury risks
+[select value="no|YES"] <-- smoke inhalation 
+[select value="no|YES"] <-- Loss of consciousness
+[select value="no|YES"] <-- shortness of breath
+[select value="no|YES"] <-- cough productive of soot
+
+Pitfall evaluation:
+[select value="no|YES"] <-- wound contamination
+[select value="no|YES"] <-- distal numbness
+[select value="no|YES"] <-- distal weakness
+[select value="no|YES"] <-- distal cold sensation, pallor, or cyanosis
+[select value="no|YES"] <-- fever
+[select value="no|YES"] <-- wound discharge
+[select value="no|YES"] <-- local redness
+
+Pertinent PMH:
+Last Tetanus vaccine: [text]
+[select value="no|YES"] <-- Diabetes Mellitus
+[select value="no|YES"] <-- Peripheral Vascular disease
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  contributed by Dr. Scott Moses, creator/author of the <a href="http://www.fpnotebook.com" target="_blank">Family Practice Notebook</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  November 21, 2010; September 2, 2015
+permalink: <a href="http://www.soapnote.org/injury/burn-hx/" target="_blank">www.soapnote.org/injury/burn-hx/</a>
+markup link:  <a href="http://www.soapnote.org/txt/injury/burn-hx.txt" target="_blank">www.soapnote.org/txt/injury/burn-hx.txt</a>[/html][/conditional]
