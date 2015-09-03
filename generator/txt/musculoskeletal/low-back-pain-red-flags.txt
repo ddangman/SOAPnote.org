@@ -1,0 +1,33 @@
+Low Back Pain Red Flags
+1. Risk factors for cancer (If all three of these risk factors for cancer are absent, studies suggest that cancer can be ruled out with 100% sensitivity)
+[select name="Q1" value="no|YES"] <-- Age 50 years old or older with a history of cancer
+[select name="Q2" value="no|YES"] <-- Unexplained weight loss
+[select name="Q3" value="no|YES"] <-- Failure to improve after four to six weeks of conservative low back pain therapy
+2. Risk factors for possible spinal infection
+[select name="Q4" value="no|YES"] <-- Intravenous drug use
+[select name="Q5" value="no|YES"] <-- Immunosuppression
+[select name="Q6" value="no|YES"] <-- Urinary infection
+[select name="Q7" value="no|YES"] <-- Fever above 38°C (100.4°F) for greater than 48 hours
+[select name="Q8" value="no|YES"] <-- History of tuberculosis or active tuberculosis
+3. Signs or symptoms of Cauda Equina Syndrome
+[select name="Q9" value="no|YES"] <-- New onset of urinary incontinence
+[select name="Q10" value="no|YES"] <-- Urinary retention (if no urinary retention, the likelihood of Cauda Equina Syndrome is less than 1 in 10,000)
+[select name="Q11" value="no|YES"] <-- Saddle anesthesia
+[select name="Q12" value="no|YES"] <-- Unilateral or bilateral sciatica
+[select name="Q13" value="no|YES"] <-- Sensory and motor deficits
+[select name="Q14" value="no|YES"] <-- Abnormal straight leg raising
+4. Increased risk factors for fragility fracture
+[select name="Q15" value="no|YES"] <-- Osteoporosis
+[select name="Q16" value="no|YES"] <-- History of steroid use
+[select name="Q17" value="no|YES"] <-- Immunosuppression
+[select name="Q18" value="no|YES"] <-- Serious accident or injury (fall from heights, blunt trauma, motor vehicle accident) – does not include twisting or lifting injury unless other risk factors are present (e.g., history of osteoporosis)
+[select name="Q19" value="no|YES"] <-- Clinical suspicion of ankylosing spondylitis [html]<a href="http://www.soapnote.org/musculoskeletal/spondyloarthropathy/">See Spondyloarthropathy Tool</a>[/html]   
+[select name="Q20" value="no|YES"] <-- Drug or alcohol abuse (increased incidence of osteomyelitis, trauma, fracture) 
+5. Increased incidence of clinically significant pathology
+[select name="Q21" value="no|YES"] <-- Unrelenting night pain or pain at rest
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="https://www.icsi.org/guidelines__more/catalog_guidelines_and_more/catalog_guidelines/catalog_musculoskeletal_guidelines/low_back_pain/" target="_blank">ICSI - Institute for Clinical Systems Improvement</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  August 23, 2014; September 3, 2015
+permalink: <a href="http://www.soapnote.org/musculoskeletal/low-back-pain-red-flags/" target="_blank">www.soapnote.org/musculoskeletal/low-back-pain-red-flags/</a>
+markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/low-back-pain-red-flags.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/low-back-pain-red-flags.txt</a>[/html][/conditional]

@@ -1,0 +1,31 @@
+FEAR AVOIDANCE BELIEFS QUESTIONNAIRE (FABQ)
+
+Name: [text] Date: [date]
+Here are some of the things which other patients have told us about their pain. For each statement please circle any number from 0 to 6 to say how much physical activities such as bending, lifting, walking or driving affect or would affect your back pain.
+
+[select name="Q1" value="completely disagree (0)=0|(1)=1|(2)=2|unsure (3)=3|(4)=4|(5)=5|completely agree (6)=6"] <-- 1. My pain was caused by physical activity
+[select name="Q2" value="completely disagree (0)=0|(1)=1|(2)=2|unsure (3)=3|(4)=4|(5)=5|completely agree (6)=6"] <-- 2. Physical activity makes my pain worse
+[select name="Q3" value="completely disagree (0)=0|(1)=1|(2)=2|unsure (3)=3|(4)=4|(5)=5|completely agree (6)=6"] <-- 3. Physical activity might harm my back
+[select name="Q4" value="completely disagree (0)=0|(1)=1|(2)=2|unsure (3)=3|(4)=4|(5)=5|completely agree (6)=6"] <-- 4. I should not do physical activities which (might) make my pain worse
+[select name="Q5" value="completely disagree (0)=0|(1)=1|(2)=2|unsure (3)=3|(4)=4|(5)=5|completely agree (6)=6"] <-- 5. I cannot do physical activities which (might) make my pain worse
+
+The following statements are about how your normal work affects or would affect your back pain.
+[select name="Q6" value="completely disagree (0)=0|(1)=1|(2)=2|unsure (3)=3|(4)=4|(5)=5|completely agree (6)=6"] <-- 6. My pain was caused by my work or by an accident at work
+[select name="Q7" value="completely disagree (0)=0|(1)=1|(2)=2|unsure (3)=3|(4)=4|(5)=5|completely agree (6)=6"] <-- 7. My work aggravated my pain
+[select name="Q8" value="completely disagree (0)=0|(1)=1|(2)=2|unsure (3)=3|(4)=4|(5)=5|completely agree (6)=6"] <-- 8. I have a claim for compensation for my pain
+[select name="Q9" value="completely disagree (0)=0|(1)=1|(2)=2|unsure (3)=3|(4)=4|(5)=5|completely agree (6)=6"] <-- 9. My work is too heavy for me
+[select name="Q10" value="completely disagree (0)=0|(1)=1|(2)=2|unsure (3)=3|(4)=4|(5)=5|completely agree (6)=6"] <-- 10. My work makes or would make my pain worse
+[select name="Q11" value="completely disagree (0)=0|(1)=1|(2)=2|unsure (3)=3|(4)=4|(5)=5|completely agree (6)=6"] <-- 11. My work might harm my back
+[select name="Q12" value="completely disagree (0)=0|(1)=1|(2)=2|unsure (3)=3|(4)=4|(5)=5|completely agree (6)=6"] <-- 12. I should not do my normal work with my present pain
+[select name="Q13" value="completely disagree (0)=0|(1)=1|(2)=2|unsure (3)=3|(4)=4|(5)=5|completely agree (6)=6"] <-- 13. I cannot do my normal work with my present pain
+[select name="Q14" value="completely disagree (0)=0|(1)=1|(2)=2|unsure (3)=3|(4)=4|(5)=5|completely agree (6)=6"] <-- 14. I cannot do my normal work until my pain is treated
+[select name="Q15" value="completely disagree (0)=0|(1)=1|(2)=2|unsure (3)=3|(4)=4|(5)=5|completely agree (6)=6"] <-- 15. I do not think that I will be back to my normal work within 3 months
+[select name="Q16" value="completely disagree (0)=0|(1)=1|(2)=2|unsure (3)=3|(4)=4|(5)=5|completely agree (6)=6"] <-- 16. I do not think that I will ever be able to go back to that work
+Physical Activity Subscale --> [calc memo="FABQPA" value="score=(Q2)+(Q3)+(Q4)+(Q5)"] out of 24 points
+Work Subscale –> [calc memo="FABQW" value="score=(Q6)+(Q7)+(Q9)+(Q10)+(Q11)+(Q12)+(Q14)+(Q15)+(Q16)"] out of 42 points.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/8455963" target="_blank">Waddell Pain. 1993 Feb;52(2):157-68.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  September 4, 2013; September 3, 2015
+permalink: <a href="http://www.soapnote.org/mental-health/fabq/" target="_blank">www.soapnote.org/mental-health/fabq/</a>
+markup link:  <a href="http://www.soapnote.org/txt/mental-health/fabq.txt" target="_blank">www.soapnote.org/txt/mental-health/fabq.txt</a>[/html][/conditional]

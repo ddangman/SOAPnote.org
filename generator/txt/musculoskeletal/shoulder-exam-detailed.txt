@@ -1,0 +1,32 @@
+http://www.soapnote.org/musculoskeletal/shoulder-exam-detailed/
+April 5, 2011
+drpadiyar
+Shoulder exam (detailed)
+[comment memo="Detailed shoulder exam (for New level 3 or established level 4)"]
+[select value="Casual|Well|Disheveled"] <– General appearance
+[select value="Male|Female"] <– Sex
+[select value="None|Mild|Moderate|Severe"] <– Distress level
+[select value="x4|x3|x2|x1|x0"] <– Alert and oriented
+Vital signs (pulse, respirations, and blood pressure) were taken and placed in the confidential medical chart.
+[select value="Left|Right"] <-- Shoulder side
+[select value="Deformity|Atrophy - mild|Atrophy - moderate|Atrophy - severe|Deformity and atrophy"] <– Deformity/Atrophy
+[select value="None|Diffusely|Specific Tenderness"] <-- Tenderness to palpation
+Range of Motion
+[text size="100" default="Range of motion (in degrees): Flexion:  ***, Extension:  ***, Abduction:  ***, Adduction:  ***, External Rotation:  ***, Internal Rotation:  ***. "]
+Motor Strength
+[text size="100" default="Motor strength: Supraspinatus (empty can): ***/5, External rotation: ***/5, Internal rotation: ***/5, Biceps: ***/5, Deltoid: ***/5.  "]
+[select value="Normal reflex and sensation|Abnormal reflex/Normal Sensation|Normal reflex/Abnormal sensation|Abnormal reflex and sensation"] <-- Neurological Exam
+Vascular examination
+[text size="100" default="Radial pulse was 2+.  No/Edema was present."]
+[select value="Negative|Apprehensive|Sulcus|Drawer"] <-- Stability test
+[select value="Negative|Neer|Hawkins|Neer and Hawkins"] <-- Impingement
+[select value="Normal|erythema|ecchymosis"] <-- Skin exam--inspection
+[select value="Normal|Subcutaneous tenderness"] <-- Skin exam--palpation subcutaneous
+Additional notes
+[text size="100"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]

@@ -1,0 +1,8 @@
+[html]Casting Assessment/Plan
+[/html][textarea default="***casting indication***&#13;&#10;Routine instructions were given to the patient to return if any signs of impaired circulation - persisting pain, swelling, color changes in fingers, loss of sensation in fingers, or pain under cast, to avoid ever putting anything under the cast, to use OTC analgesics for pain, keep cast clean and dry and covered with plastic whenever in a moist environment."]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 11, 2011; September 2, 2015
+permalink: <a href="http://www.soapnote.org/musculoskeletal/casting-plan/" target="_blank">www.soapnote.org/musculoskeletal/casting-plan/</a>
+markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/casting-plan.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/casting-plan.txt</a>[/html][/conditional]

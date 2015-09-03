@@ -1,0 +1,8 @@
+[html]Carpal Tunnel Exam
+[/html][textarea default="Examination of the hand showed intact skin bilaterally. Good pulses bilaterally. Good sensation bilaterally. Grip strength ***remained strong on R and L with repetition/weakened with repetition on R/weakened with repetition on L/weakened with repetition on both sides***. Apposition strength of thumb and 5th finger ***remained strong on R and L with repetition/weakened with repetition on R/weakened with repetition on L/weakened with repetition on both sides***. ***Two point discrimination was normal/Two point discrimination was decreased***. Tinel's test was ***positive on R and L/positive on R and negative on L/positive on L and negative on R/negative on both sides***. Direct compression test was ***positive on R and L/positive on R and negative on L/positive on L and negative on R/negative on both sides***. Phalen's test was ***positive on R and L/positive on R and negative on L/positive on L and negative on R/negative on both sides***."]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; September 2, 2015
+permalink: <a href="http://www.soapnote.org/musculoskeletal/carpal-tunnel-exam/" target="_blank">www.soapnote.org/musculoskeletal/carpal-tunnel-exam/</a>
+markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/carpal-tunnel-exam.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/carpal-tunnel-exam.txt</a>[/html][/conditional]

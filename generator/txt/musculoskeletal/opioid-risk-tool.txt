@@ -1,0 +1,42 @@
+Opioid Risk Tool[html]
+The Opioid Risk Tool (ORT) is an office-based assessment designed to predict which patients may develop aberrant, drug-related behaviors based on known risk factors associated with abuse or addiction. The ORT can either be self-administered by the patient at the initial clinic visit or completed by the physician as part of the patient interview.
+The ORT displayed excellent discrimination in predicting opioid abuse-related behaviors in a single-site study of 185 chronic-pain patients. Of the low-risk patients studied, 94% did not demonstrate any aberrant behavior, while in the  high-risk patients, 91% did display an aberrant behavior. Of the medium risk patients, only 28% showed any opioid-related aberrant behavior.[/html]
+1. Gender
+[select name="Q1" value="Male|Female"][conditional field="Q1" condition="(Q1).is('Male')"]
+2. Age
+[select name="Q4m" value="no=0|YES=1"]  <-- 16-45 Years old (1 point)
+3. Family history of substance abuse
+[select name="Q2m1" value="no=0|YES=3"] <-- Alcohol (3 points)
+[select name="Q2m2" value="no=0|YES=3"] <-- Illegal drugs (3 points)
+[select name="Q2m3" value="no=0|YES=4"] <-- Prescription drugs (4 points)
+4. Personal history of substance abuse
+[select name="Q3m1" value="no=0|YES=3"] <-- Alcohol (3 points)
+[select name="Q3m2" value="no=0|YES=4"] <-- Illegal drugs (4 points)
+[select name="Q3m3" value="no=0|YES=5"] <-- Prescription drugs (5 points)
+5. Psychological disease
+[select name="Q5m1" value="no=0|YES=2"] <-- ADHD/OCD/Schizophrenia/Bipolar (2 points)
+[select name="Q5m2" value="no=0|YES=1"] <-- Depression (1 point)
+Score --> [calc memo="Score" value="score1=(Q2m1)+(Q2m2)+(Q2m3)+(Q3m1)+(Q3m2)+(Q3m3)+(Q4m)+(Q5m1)+(Q5m2)"]
+Interpretation --> [calc memo="Interpretation" value="score2=(Q2m1)+(Q2m2)+(Q2m3)+(Q3m1)+(Q3m2)+(Q3m3)+(Q4m)+(Q5m1)+(Q5m2);score2>7?'High risk':score2>3?'Moderate risk':'Low risk'"][/conditional][conditional field="Q1" condition="(Q1).is('Female')"]
+2. Age
+[select name="Q4f" value="no=0|YES=1"]  <-- 16-45 Years old (1 point)
+3. Family history of substance abuse
+[select name="Q2f1" value="no=0|YES=1"] <-- Alcohol (1 points)
+[select name="Q2f2" value="no=0|YES=2"] <-- Illegal drugs (2 points)
+[select name="Q2f3" value="no=0|YES=4"] <-- Prescription drugs (4 points)
+4. Personal history of substance abuse
+[select name="Q3f1" value="no=0|YES=3"] <-- Alcohol (3 points)
+[select name="Q3f2" value="no=0|YES=4"] <-- Illegal drugs (4 points)
+[select name="Q3f3" value="no=0|YES=5"] <-- Prescription drugs (5 points)
+[select name="Q3f4" value="no=0|YES=3"] <-- Preadolescent sexual abuse (3 points)  
+5. Psychological disease
+[select name="Q5f1" value="no=0|YES=2"] <-- ADHD/OCD/Schizophrenia/Bipolar (2 points)
+[select name="Q5f2" value="no=0|YES=1"] <-- Depression (1 point)
+Score --> [calc memo="Score" value="score3=(Q2f1)+(Q2f2)+(Q2f3)+(Q3f1)+(Q3f2)+(Q3f3)+(Q3f4)+(Q4f)+(Q5f1)+(Q5f2)"]
+Interpretation --> [calc memo="Interpretation" value="score4=(Q2f1)+(Q2f2)+(Q2f3)+(Q3f1)+(Q3f2)+(Q3f3)+(Q3f4)+(Q4f)+(Q5f1)+(Q5f2);score4>7?'High risk':score4>3?'Moderate risk':'Low risk'"][/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16336480" target="_blank">Webster (2005) Pain Med 6(6): 432-42</a>
+posted by:  Jonathan Poon
+post/review dates:  December 17, 2011; September 3, 2015
+permalink: <a href="http://www.soapnote.org/musculoskeletal/opioid-risk-tool/" target="_blank">www.soapnote.org/musculoskeletal/opioid-risk-tool/</a>
+markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/opioid-risk-tool.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/opioid-risk-tool.txt</a>[/html][/conditional]

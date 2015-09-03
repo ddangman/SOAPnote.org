@@ -1,4 +1,4 @@
-[html]Pain History
+[html]Pain History - Pain Scales
 [/html][select value="Patient|Caregiver"] <-- Rater
 [select name="Q1" value="Numeric|FACES or Facial|FLACC"] <-- Pain Scale
 [conditional field="Q1" condition="(Q1).is('Numeric')"][text] out of 10[/conditional][conditional field="Q1" condition="(Q1).is('FACES or Facial')"][html]<a href="http://wongbakerfaces.org" target="_blank">FACES Scale Site</a>[/html][text] out of 10[/conditional][conditional field="Q1" condition="(Q1).is('FLACC')"][select name="FLACC1" value="No particular expression or smile (0 points)=0|Occasional grimace or frown, withdrawn, uninterested (1 point)=1|Frequent to constant quivering chin, clenched jaw (2 points)=2"] <-- Face

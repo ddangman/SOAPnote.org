@@ -1,0 +1,33 @@
+Lumbosacral Spine Examination (Detailed)
+[comment memo="Detailed back examination (for New level 3 or established level 4)"]
+[select value="Casual|Well|Disheveled"] <-- General appearance
+[select value="Male|Female"] <-- Sex
+[select value="None|Mild|Moderate|Severe"] <-- Distress level
+[select value="x4|x3|x2|x1|x0"] <-- Alert and oriented
+Vital signs (pulse, respirations, and blood pressure) were taken and placed in the confidential medical chart.  
+[select value="None|Hyperlordotic|Flattened"] <-- Lordosis
+[select value="No|Yes"] <-- Deformity
+Skin inspection
+[text size="100" default="There was *** erythema/ecchymosis present at ***."]
+Tenderness to palpation
+[text size="100" default="Upon palpation, there was *** tenderness over the ***."]
+Spasm/Guarding
+[text size="100" default="No Spasm/Guarding present at *** level."]
+Range of motion
+[text size="100" default="Range of motion (in degrees):  Flexion:  ***, Extension: ***, Side bend left: ***, Side bend right:  ***."]
+[select value="Negative|Positive|Contralateral Positive"] <-- Straight leg examination
+[select value="Normal strength|Deficit"] <-- Bilateral lower extremity strength
+[select value="Normal sensation|Abnormal sensation"] <-- Bilateral lower extremity sensation
+[select value="Normal reflexes|Abnormal reflexes"] <-- Bilateral lower extremity reflexes
+[select value="Normal|Abnormal"] <-- Bilateral lower extremity vascular exam
+[select value="Normal|Abnormal Heel Walk|Abnormal Toe Walk|Both abnormal"] <-- Heel and Toe walk
+[select value="Normal|Abnormal"] <-- Gait
+[select value="Normal sensation and tone|Abnormal sensation and/or tone"] <-- Pelvic/rectal exam
+Additional notes
+[text size="100"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  drpadiyar
+post/review dates:  April 12, 2011; September 2, 2015
+permalink: <a href="http://www.soapnote.org/musculoskeletal/lumbosacral-spine-examination-detailed/" target="_blank">www.soapnote.org/musculoskeletal/lumbosacral-spine-examination-detailed/</a>
+markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/lumbosacral-spine-examination-detailed.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/lumbosacral-spine-examination-detailed.txt</a>[/html][/conditional]

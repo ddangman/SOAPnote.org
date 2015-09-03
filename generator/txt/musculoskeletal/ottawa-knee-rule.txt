@@ -1,0 +1,13 @@
+Ottawa Knee Rule [comment memo="Note:  Does not apply to children."]
+[select value="false=0|TRUE=1" name="age"]  <-- Age 55 years or older.  
+[select value="false=0|TRUE=1" name="fibula"]  <-- Tenderness at the head of the fibula.  
+[select value="false=0|TRUE=1" name="patella"]  <-- Isolated tenderness of the patella (no bone tenderness of knee other than patella).  
+[select value="false=0|TRUE=1" name="flex"]  <-- Inability to flex knee to 90 degrees.  
+[select value="false=0|TRUE=1" name="walk"]  <-- Inability to bear weight for four steps both immediately and in the examination room regardless of limping.
+Result:  [calc value="score=(age)+(fibula)+(patella)+(flex)+(walk); score>0?'X-ray required':'X-ray not necessary'" memo="Interpretation"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.aafp.org/afp/2005/0315/p1169.html" target="_blank">Ebell, MH. Am Fam Physician. 2005 Mar 15;71(6):1169-1172.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/14734335" target="_blank">Bachmann LM, Haberzeth S, Steurer J, ter Riet G. The accuracy of the Ottawa knee rule to rule out knee fractures: a systematic review. Ann Intern Med. 2004;140:121–4.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/8060409" target="_blank">Seaberg DC, Jackson R. Clinical decision rule for knee radiographs. Am J Emerg Med. 1994;12:541–3.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  July 9, 2013; September 3, 2015
+permalink: <a href="http://www.soapnote.org/musculoskeletal/ottawa-knee-rule/" target="_blank">www.soapnote.org/musculoskeletal/ottawa-knee-rule/</a>
+markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/ottawa-knee-rule.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/ottawa-knee-rule.txt</a>[/html][/conditional]

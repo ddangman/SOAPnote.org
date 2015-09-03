@@ -1,0 +1,17 @@
+Gouty Arthritis Diagnostic Rule[html]
+Summary:  Diagnostic rule for gouty arthritis which doesn't require joint fluid analysis.
+[/html][select name="Q1" value="Female (0 points)=0|Male (2 points)=2"] <-- Gender
+[select name="Q2" value="No (0 points)=0|Yes (2 points)=2"] <-- Previous patient-reported arthritis attack
+[select name="Q3" value="No (0 points)=0|Yes (0.5 points)=0.5"] <-- Onset of pain within 1 day
+[select name="Q4" value="No (0 points)=0|Yes (1 point)=1"] <-- Joint redness
+[select name="Q5" value="No (0 points)=0|Yes (2.5 points)=2.5"] <-- 1st MTP joint involvement
+[select name="Q6" value="No (0 points)=0|Yes (1.5 points)=1.5"] <-- Hypertension or cardiovascular disease
+[select name="Q7" value="No (0 points)=0|Yes (3.5 points)=3.5"] <-- Serum uric acid level > 5.88 mg/dl (350 mmol/L)
+Score --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)" memo="score"]
+Interpretation --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7);score>7.9?'80.4%':score>4?'27.0%':'2.8%'" memo="prevalence"] prevalence of gout.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/20625017" target="_blank">Janssens (2010) Arch Intern Med 170:  1120-26.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  March 18, 2012; September 2, 2015
+permalink: <a href="http://www.soapnote.org/musculoskeletal/gout-rule/" target="_blank">www.soapnote.org/musculoskeletal/gout-rule/</a>
+markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/gout-rule.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/gout-rule.txt</a>[/html][/conditional]

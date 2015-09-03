@@ -1,0 +1,38 @@
+Testing for Inflammatory Arthritides
+[select name="Q1" value="no|YES"] <-- Suspicion of Cryoglobulinemia [html]<a href="http://www.google.com/search?q=site:www.nlm.nih.gov/medlineplus+cryoglobulinemia">more on cryoglobulinemia</a>[/html]
+[select name="Q2" value="no|YES"] <-- Suspicion of Dermatomyositis [html]<a href="http://www.google.com/search?q=site:www.nlm.nih.gov/medlineplus+dermatomyositis">more on dermatomyositis</a>[/html]
+[select name="Q3" value="no|YES"] <-- Suspicion of Gout [html]<a href="http://www.google.com/search?q=site:www.nlm.nih.gov/medlineplus+gout">more on gout</a>[/html]
+[select name="Q4" value="no|YES"] <-- Suspicion of Immune-Complex-Mediated Diseases (Serum Sickness) [html]<a href="http://www.google.com/search?q=site:www.nlm.nih.gov/medlineplus+serum+sickness">more on serum sicknessa</a>[/html]
+[select name="Q5" value="no|YES"] <-- Suspicion of Lyme Disease [html]<a href="http://www.google.com/search?q=site:www.nlm.nih.gov/medlineplus+lyme+disease">more on lyme disease</a>[/html]
+[select name="Q6" value="no|YES"] <-- Suspicion of Other Connective Tissue Diseases [html]<a href="http://www.google.com/search?q=site:www.nlm.nih.gov/medlineplus+connective+tissue+diseases">more on connective tissue diseases</a>[/html]
+[select name="Q7" value="no|YES"] <-- Suspicion of Polymyalgia Rheumatica [html]<a href="http://www.google.com/search?q=site:www.nlm.nih.gov/medlineplus+polymyalgia+rheumatica">more on polymyalgia rheumatica</a>[/html]
+[select name="Q8" value="no|YES"] <-- Suspicion of Polymyositis [html]<a href="http://www.google.com/search?q=site:www.nlm.nih.gov/medlineplus+polymyositis">more on polymyositis</a>[/html]
+[select name="Q9" value="no|YES"] <-- Suspicion of Rheumatic Fever [html]<a href="http://www.google.com/search?q=site:www.nlm.nih.gov/medlineplus+rheumatic+fever">more on rheumatic fever</a>[/html]
+[select name="Q10" value="no|YES"] <-- Suspicion of Rheumatoid Arthritis [html]<a href="http://www.soapnote.org/musculoskeletal/2010-ra-criteria/">more on rheumatoid arthritisa</a>[/html]
+[select name="Q11" value="no|YES"] <-- Suspicion of Sjogren Syndrome [html]<a href="http://www.google.com/search?q=site:www.nlm.nih.gov/medlineplus+sjogren+syndrome">more on Sjogren Syndrome</a>[/html]
+[select name="Q12" value="no|YES"] <-- Suspicion of Spondyloarthropathy [html]<a href="http://www.soapnote.org/musculoskeletal/spondyloarthropathy/">more on spondyloarthropathy</a>[/html]
+[select name="Q13" value="no|YES"] <-- Suspicion of Systemic Lupus Erythematosus (SLE) [html]<a href="http://www.soapnote.org/musculoskeletal/dx-sle/">more on Lupus</a>[/html]
+[select name="Q14" value="no|YES"] <-- Suspicion of Vasculitis (Pulmonary/Renal) [html]<a href="http://www.google.com/search?q=site:www.nlm.nih.gov/medlineplus+vasculitis">more on vasculitis</a>[/html]
+
+SUGGESTED SPECIAL TESTS --> [conditional field="Q1" condition="(Q1).is('YES')"]
+Cryoglobulins[/conditional][conditional field="Q1|Q6" condition="(Q1).is('YES')||(Q6).is('YES')"]
+Hepatitis Serology[/conditional][conditional field="Q2|Q6|Q8|Q11|Q13" condition="(Q2).is('YES')||(Q6).is('YES')||(Q8).is('YES')||(Q11).is('YES')||(Q13).is('YES')"]
+ANA[/conditional][conditional field="Q3" condition="(Q3).is('YES')"]
+Serum Uric Acid[/conditional][conditional field="Q4|Q13" condition="(Q4).is('YES')||(Q13).is('YES')"]
+Complement C3, C4[/conditional][conditional field="Q5" condition="(Q5).is('YES')"]
+Lyme Titer[/conditional][conditional field="Q7" condition="(Q7).is('YES')"]
+CRP
+ESR[/conditional][conditional field="Q9" condition="(Q9).is('YES')"]
+Anti-streptolysin (ASO)[/conditional][conditional field="Q10" condition="(Q10).is('YES')"]
+Rheumatoid Factor
+Anti-cyclic Citrullinated Peptide (anti-CCP) Antibodies[/conditional][conditional field="Q11|13" condition="(Q11).is('YES')||(Q13).is('YES')"]
+Antibodies to extractable nuclear antigen (anti-Sm, RNP, Ro, La)[/conditional][conditional field="Q12" condition="(Q12).is('YES')"]
+HLA-B27	
+Xray of Pelvis[/conditional][conditional field="Q14" condition="(Q14).is('YES')"]
+ANCA[/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/9455961" target="_blank">Lipsky P. Algorithms for the diagnosis and management of musculoskeletal complaints: A new tool for the primary-care provider. Am J Med. 1997 Dec 29;103(6A):1S-2S.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  March 27, 2014; September 3, 2015
+permalink: <a href="http://www.soapnote.org/musculoskeletal/arthritis-tests/" target="_blank">www.soapnote.org/musculoskeletal/arthritis-tests/</a>
+markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/arthritis-tests.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/arthritis-tests.txt</a>[/html][/conditional]

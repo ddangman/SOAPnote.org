@@ -1,0 +1,11 @@
+http://www.soapnote.org/musculoskeletal/plantar-fasciitis-plan/
+April 14, 2010
+Assessment:  [select value="Left|Right|Bilateral"] Plantar Fasciitis
+Plan:
+[checkbox value="Naprosyn 550 mg p.o. b.i.d. for 14 days|Motrin 400 mg p.o. t.i.d. for 14 days|Ice packs applied for 20 minutes or ice massage for 8-10 minutes three times a day|Patient educated on strengthening/strengthening program for plantar fasciitis|Handout given for strengthening program for the plantar fasciitis|Recommended shoe inserts to improve arch support|Follow up 1 month or sooner if worsens"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]

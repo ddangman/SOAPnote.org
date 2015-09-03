@@ -1,0 +1,37 @@
+November 21, 2010
+http://www.soapnote.org/musculoskeletal/upper-back-pain-history/
+Neck/Upper Back Pain/Injury 
+Onset [text] prior to evaluation
+Onset while:  [text]
+Injury at: [text]
+
+Associated Pain (0=none, 10=severe)
+Location: [text]
+Radiation: [text]
+Severity now (0-10): [text]
+Severity at worst (0-10): [text]
+Duration: [text]
+Characterized as [text].
+
+Relieved with [text]
+Worse with [text]
+[select value="no|YES"] <--  worse with cough or deep breathing
+
+Pitfall evaluation:
+[select value="no|YES"] <--  fever
+[select value="no|YES"] <--  chest pain
+[select value="no|YES"] <--  shortness of breath
+[select value="no|YES"] <--  extremity weakness
+[select value="no|YES"] <--  prior neck or back pain history with last episode 
+[select value="no|YES"] <--  intervertebral disc injury
+[select value="no|YES"] <--  spine surgery history
+[select value="no|YES"] <--  compression fracture or osteoporosis history
+[select value="no|YES"] <--  heart disease history
+[select value="no|YES"] <--  aortic dissection history or risk (hypertension)
+[select value="no|YES"] <--  peptic ulcer disease history
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
