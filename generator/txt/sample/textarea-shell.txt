@@ -1,5 +1,5 @@
 [html]Title
-[/html][textarea default="###&#13;&#10;###&#13;&#10;###"]
+[/html][textarea columns=108 rows=25 default="###&#13;&#10;###&#13;&#10;###"]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  <a href="***" target="_blank">***</a>
 posted by:  Mark Morgan, M.D.

@@ -1,0 +1,50 @@
+Acute Neurologic Changes
+Onset [text] prior to evaluation
+Onset while:  [text] 
+
+Key Symptoms
+[select value="no|YES"] <-- Weakness [text] 
+[select value="no|YES"] <-- Change in sensation [text] 
+[select value="no|YES"] <-- Facial droop [text] 
+[select value="no|YES"] <-- Altered speech [text] 
+[select value="no|YES"] <-- Altered swallowing [text] 
+[select value="no|YES"] <-- Difficulty standing [text] 
+[select value="no|YES"] <-- Vision change [text] 
+
+Associated Symptoms
+[select value="no|YES"] <-- Confusion 
+[select value="no|YES"] <-- Agitation 
+[select value="no|YES"] <-- Difficult to awaken
+[select value="no|YES"] <-- Complete Loss of Consciousness (lasted [text] ) 
+[select value="no|YES"] <-- Seizure 
+[select value="no|YES"] <-- Headache
+[select value="no|YES"] <-- Falls [text] 
+
+Pertinent ROS
+[select value="no|YES"] <-- fever
+[select value="no|YES"] <-- dizziness
+[select value="no|YES"] <-- chest pain
+[select value="no|YES"] <-- palpitations
+[select value="no|YES"] <-- shortness of breath
+[select value="no|YES"] <-- cough
+[select value="no|YES"] <-- nausea/vomiting
+[select value="no|YES"] <-- abdominal pain
+[select value="no|YES"] <-- dysuria
+[select value="no|YES"] <-- urinary frequency
+[select value="no|YES"] <-- rash
+
+Pertinent PMH:
+[select value="no|YES"] <-- Atrial Fibrillation
+[select value="no|YES"] <-- Cerebrovascular Accident or TIA
+[select value="no|YES"] <-- Dementia [text] 
+[select value="no|YES"] <-- Coronary Artery Disease
+[select value="no|YES"] <-- Diabetes Mellitus
+[select value="no|YES"] <-- Head Trauma
+[select value="no|YES"] <-- Serious CNS risks (e.g. active cancer, immunosuppression, HIV)
+[select value="no|YES"] <-- Migraine Headaches
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  contributed by Dr. Scott Moses, creator/author of the <a href="http://www.fpnotebook.com" target="_blank">Family Practice Notebook</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  November 17, 2010; September 4, 2015
+permalink: <a href="http://www.soapnote.org/neurological/acute-neuro-hx/" target="_blank">www.soapnote.org/neurological/acute-neuro-hx/</a>
+markup link:  <a href="http://www.soapnote.org/txt/neurological/acute-neuro-hx.txt" target="_blank">www.soapnote.org/txt/neurological/acute-neuro-hx.txt</a>[/html][/conditional]

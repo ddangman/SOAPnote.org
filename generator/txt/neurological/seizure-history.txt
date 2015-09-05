@@ -1,0 +1,48 @@
+[html]Seizure history
+[/html]The seizure episode happened [text] before this evaluation.
+Onset while [text].
+Episode location: [text]
+[select value="no|YES"] <-- Recurrence?
+Number of recurrences:  [text]
+Longest recurrence duration: [text]
+The last similar episode was [text]
+[select value="the episode|after the episode|neither the episode or after the episode"] <-- The patient remembers
+Preceding symptoms
+[select value="no|YES"] <-- lightheadedness
+[select value="no|YES"] <-- palpitations
+[select value="no|YES"] <-- chest pain
+[select value="no|YES"] <-- nausea or vomiting
+[select value="no|YES"] <-- headache
+[select value="no|YES"] <-- abdominal pain
+[select value="no|YES"] <-- visual changes
+[select value="a moment|a few minutes|more than a few minutes|an hour|hours|days"] <-- Preceding symptoms lasted
+Witnessed by [text]
+What was witnessed?
+[select value="no|YES"] <-- complete loss of consciousness [text]
+[select value="no|YES"] <-- confusion following the episode
+[select value="no|YES"] <-- urine incontinence
+[select value="no|YES"] <-- stool incontinence
+[select value="no|YES"] <-- apnea
+[select value="no|YES"] <-- pulselessness
+[select value="no|YES"] <-- low blood sugar
+[select value="no|YES"] <-- extremity weakness
+Past Medical History
+[select value="no|YES"] <-- Recent trauma [text]
+[select value="no|YES"] <-- Seizure history [text]
+[select value="no|YES"] <-- Diabetes Mellitus history [text]
+[select value="no|YES"] <-- Coronary Artery Disease history [text]
+[select value="no|YES"] <-- Cerebrovascular Accident history [text]
+[select value="no|YES"] <-- Serious CNS risks (e.g. active cancer, immunosuppression, HIV) [text]
+[select value="no|YES"] <-- Pregnancy [text]
+Exposures
+[select value="no|YES"] <-- Low blood sugar [text]
+[select value="no|YES"] <-- Last alcohol [text]
+[select value="no|YES"] <-- Drug abuse [text]
+[select value="no|YES"] <-- Seizure medications [text]
+Associated injuries include: [text]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  contributed by Dr. Scott Moses, creator/author of the <a href="http://www.fpnotebook.com" target="_blank">Family Practice Notebook</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  November 17, 2010; September 4, 2015
+permalink: <a href="http://www.soapnote.org/neurological/seizure-history/" target="_blank">www.soapnote.org/neurological/seizure-history/</a>
+markup link:  <a href="http://www.soapnote.org/txt/neurological/seizure-history.txt" target="_blank">www.soapnote.org/txt/neurological/seizure-history.txt</a>[/html][/conditional]

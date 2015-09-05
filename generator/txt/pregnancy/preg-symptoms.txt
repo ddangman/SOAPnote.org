@@ -1,0 +1,50 @@
+Pregnancy-Related Symptoms
+Onset [text] prior to evaluation
+Onset while:  [text]
+
+Associated Pain (0=none, 10=severe)
+Location: [text]
+Radiation: [text]
+Severity now (0-10): [text]
+Severity at worst (0-10): [text]
+Frequency: [text]  (is [text] regular)
+Duration: [text]
+Characterized as: [text]  (is [text] contraction-like)
+
+Pain modifiers
+Relieved with [text]
+Worse with [text]
+
+Pregnancy History:
+Gravida [text]
+Para [text]
+Ab: [text]
+LMP: [text]
+EDC: [text]  (determined by [text])
+Gestational Age: [text] 
+
+Specific Genitourinary Symptoms:
+[select value="no|YES"] <-- Leakage of fluid [text]
+[select value="no|YES"] <-- Vaginal Bleeding [text]
+[select value="no|YES"] <-- Vaginal Discharge [text]
+[select value="no|YES"] <-- Dysuria
+[select value="no|YES"] <-- Hematuria
+
+Associated Symptoms:
+[select value="no|YES"] <-- nausea
+[select value="no|YES"] <-- vomiting
+[select value="no|YES"] <-- headache
+[select value="no|YES"] <-- fever
+
+Pertinent PMH
+[select value="no|YES"] <-- Preterm Labor
+[select value="no|YES"] <-- Pregnancy Induced Hypertension (PIH)
+[select value="no|YES"] <-- Gestational Diabetes
+[select value="no|YES"] <-- STD
+[select value="no|YES"] <-- Urinary tract infections
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  contributed by Dr. Scott Moses, creator/author of the <a href="http://www.fpnotebook.com" target="_blank">Family Practice Notebook</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  November 17, 2010; September 5, 2015
+permalink: <a href="http://www.soapnote.org/pregnancy/preg-symptoms/" target="_blank">www.soapnote.org/pregnancy/preg-symptoms/</a>
+markup link:  <a href="http://www.soapnote.org/txt/pregnancy/preg-symptoms.txt" target="_blank">www.soapnote.org/txt/pregnancy/preg-symptoms.txt</a>[/html][/conditional]

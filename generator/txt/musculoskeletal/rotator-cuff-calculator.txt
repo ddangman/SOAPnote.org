@@ -1,16 +1,14 @@
-http://www.soapnote.org/musculoskeletal/rotator-cuff-calculator/
-May 9, 2010
 Clinical decision rule for rotator cuff tear probability.[html]
 <strong>Summary:</strong>  A decision tool to determine probability of rotator cuff tear.
-<strong>Reference:</strong><a href="http://www.aafp.org/afp/2005/0415/p1587.html" target="_blank">Am Fam Physician. 2005 Apr 15;71(8):1587-1588.</a>[/html]
+[/html]
 [select name="Q1" value="0 to 39=.39|40 to 59=.59|60 to 69=.69|70 and over=.7"] <-- Age
 [select name="Q2" value="False=0|TRUE=1"] <-- Supraspinatus weakness
 [select name="Q3" value="False=0|TRUE=1"] <-- External rotation weakness
 [select name="Q4" value="False=0|TRUE=1"] <-- Impingement
 Interpretation --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4);score>2.59?'98%':score>1.99?'64%':score>1.69?'76%':score>1.39?'45%':score>.99?'12%':'5%'" memo="Interpretation"] probability of rotator cuff tear.
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  <a href="http://www.aafp.org/afp/2005/0415/p1587.html" target="_blank">Am Fam Physician. 2005 Apr 15;71(8):1587-1588.</a>
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  May 9, 2010; September 3, 2015
+permalink: <a href="http://www.soapnote.org/musculoskeletal/rotator-cuff-calculator/" target="_blank">www.soapnote.org/musculoskeletal/rotator-cuff-calculator/</a>
+markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/rotator-cuff-calculator.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/rotator-cuff-calculator.txt</a>[/html][/conditional]

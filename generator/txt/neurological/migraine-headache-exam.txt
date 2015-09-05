@@ -1,0 +1,17 @@
+General Appearance: [checkbox value="alert|NAD|mildly uncomfortable|uncomfortable|photophobic"] [text]
+Eyes: [checkbox value="PERRLA|fundi normal|EOMI"] [text]
+HENT: [checkbox value="ears normal|pharynx normal"] [text]
+Neck: [checkbox value="supple|nuchal rigidity"] [text]
+Heart: [checkbox value="RR, normal S1 and S2, no murmur"] [text]
+Lungs: [checkbox value="clear|decreased breath sounds"] [text]
+Neuro:
+Cranial nerves: [checkbox value="normal|2-12 intact"] [text]
+Reflexes: [checkbox value="normal, symmetric|symmetric hyperreflexic DTRs|symmetric hyporeflexic DTRs|symmetrically decreased ankle reflexes|no Babinski"] [text]
+Strength: [checkbox value="normal and symmetric|decreased left upper extremity|decreased right upper extremity|decreased left lower extremity|decreased right lower extremity"] [text]
+Cerebellar function tests: [checkbox value="Romberg normal|finger to nose normal|tandem walking normal"] [text]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  September 6, 2013; September 4, 2015
+permalink: <a href="http://www.soapnote.org/neurological/migraine-headache-exam/" target="_blank">www.soapnote.org/neurological/migraine-headache-exam/</a>
+markup link:  <a href="http://www.soapnote.org/txt/neurological/migraine-headache-exam.txt" target="_blank">www.soapnote.org/txt/neurological/migraine-headache-exam.txt</a>[/html][/conditional]
