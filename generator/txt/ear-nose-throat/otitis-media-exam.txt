@@ -1,0 +1,21 @@
+VITALS: Reviewed and normal/***
+GENERAL: Alert, well nourished and well hydrated, in no distress.
+HEENT: Conjunctiva normal
+- Ears: Auditory canals normal/TM normal on R side/TM normal on L side/R TM bulging and erythematous/L TM bulging and erythematous/both TM's bulging and erythematous/immobile on insufflation/perforation present with purulent debris in external canal/perforation present without purulent debris in external canal
+- Nares clear rhinorrhea bilaterally
+- Oral exam without lesions/posterior pharynx non-erythematous/Tonsils with hypertrophy/exudate/erythema
+NECK: Supple/Shotty adenopathy anteriorly/Anterior cervical adenopathy/Posterior cervical adenopathy
+LUNGS: Clear to auscultation without wheezes, rales, or rhonchi. Good excursions. No dullness on percussion.
+HEART: RRR with normal S1, S2 without murmur, gallop, or rub.
+ABD: Soft, non-tender, without hepatosplenomegaly
+SKIN: No rash present
+
+March 13, 2012
+http://www.soapnote.org/ear-nose-throat/otitis-media-exam/
+
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]

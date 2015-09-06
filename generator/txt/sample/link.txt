@@ -1,0 +1,2 @@
+http://www.soapnote.org/sample/link/
+[link url="http://www.example.com" memo="this link won't go to the output"]

@@ -1,0 +1,25 @@
+April 1, 2010
+http://www.soapnote.org/child-health/fever-exam/
+General: The patient is alert and in ***no/mild/moderate/severe*** distress.
+Abdomen: ***Is normal/Nontender/Bowel sounds are present/Normal liver/Normal spleen/Is abnormal***
+ENT:
+Nose is ***normal/congested/not examined***.
+Mouth is ***moist/tacky/dry***.
+External examination of the ears: ***external examination of the ears/Normal/Abnormal/Not performed/Other***.
+Right tympanic membrane: ***Clear/Dull/Red/Fluid/Bulging/Distorted/Draining/Myringotomy tube present/Not performed***.
+Left tympanic membrane: ***Clear/Dull/Red/Fluid/Bulging/Distorted/Draining/Myringotomy tube present/Not performed***.
+Throat: ***Normal/Abnormal/Erythematous/Tonsils inflamed/Exudate present/Not performed***.
+Neck: ***Supple/Stiff/Kernig negative/Brudzinski negative/Not performed***.
+Eyes: ***Normal./Pupils equal, round, and reactive to light./Pupils are normal./Lids are normal./Conjunctivae are normal./No mattering.***
+Genitalia: ***Normal male./Normal female./Abnormal.***
+Head: Examination of the head ***is normal/reveals soft and flat fontanelles/reveals sunken fontanelles/reveals bulging fontanelles***.
+Heart: ***Normal/Normal heart sounds/Regular rate/Regular rhythm/No murmur/Abnormal***
+Lungs: ***Clear to auscultation and percussion/Reveals scattered rhonchi/Reveals scattered wheezes/Reveals decreased breath sounds***
+Lymph Nodes: Cervical adenopathy ***present on the left/present on the right/present bilaterally/not present***.
+Skin: ***Normal./Good turgor./Abnormal.***
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]

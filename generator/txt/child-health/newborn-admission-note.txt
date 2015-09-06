@@ -1,0 +1,44 @@
+http://www.soapnote.org/child-health/newborn-admission-note/
+April 1, 2010
+HISTORY OF PRESENT ILLNESS:
+#1 Newborn infant admission note
+***Was present at/Was not present at/Called to*** the ***spontaneous vaginal/C-section/vacuum assisted vaginal/forceps assisted vaginal/precipitous vaginal*** delivery of this ***gestational age*** infant ***female/male*** to a ***mom’s age*** year old G*** P*** now P***. Mother’s blood type ***. Mother’s Rubella status ***RI/RNI/R unknown***, ***HBV-/HBV+/HBV unknown***, ***HIV-/HIV+/HIV unknown***, ***GBS-/GBS+/GBS unknown***
+Pregnancy complications: ***uncomplicated/GBS positive/GBS Unknown/Hepatitis B surface antigen positive/< 37 weeks gestation/Meconium-stained amniotic fluid/PIH/Pre-eclampsia/Diabetes/Gestational diabetes/Multiple gestation/Breech presentation/Chorioamnionitis***
+Delivery complications: ***Uncomplicated/Breech presentation/Chorioamnionitis/Failure to progress/Meconium/Non-reassuring fetal heart rate tracings/Nuchal cord/Shoulder dystocia***
+Maternal medications prior to delivery included: ***Glyburide/opiods/betamethasone/antibiotics***
+At birth, the infant ***gave spontaneous breaths, cried, and was warmed, dried, and stimulated/was resuscitated***. Resuscitation measures included: ***Bulb suctioning and tactile stimulation/Blow by oxygen for *** minutes/Positive pressure ventilation for *** minutes/Chest compressions for *** minutes/Intubation/IV fluids/medications***.
+Apgar scores were *** at 1 minute, *** at 5 minutes.
+Labs drawn: ***CBC/Blood culture/Blood gas ***pH, pCO2, pO2, HCO, base excess***/blood glucose
+Imaging: ***Chest x-ray/Abdominal x-ray***
+EXAMINATION:
+Vitals: ***height/weight/head circumference/birth temperature***
+Skin: Normal turgor and without lesions.
+Head: Normocephalic with age appropriate fontanelles.
+ENT: Palate is complete.
+Eyes: Red reflex present bilaterally. Pupils equally round and reactive to light.
+Lymph Nodes: No significant lymphadenopathy.
+Thyroid: No thyromegaly; trachea midline without masses.
+Breasts: Without lesions or drainage.
+Peripheral Vessels: Normal pulses and perfusion.
+Heart: Regular rate and rhythm; normal S1 and S2; no murmurs, gallops, or rubs.
+Lungs: Unlabored respirations; symmetric chest expansion; clear breath sounds.
+Abdomen: Soft, without organomegaly. Bowel sounds normal. Nontender without rebound. No masses palpable. No distention.
+Genitalia: ***Normal male external genitalia; testes descended bilaterally; no hernia./Normal female external genitalia.***
+Tanner Stage: I.
+Spine: Straight with no lesions.
+Joints: Hips with full range-of-motion; negative Barlow and Ortolani.
+Extremities: No clubbing, cyanosis, or edema. Normal upper and lower extremities.
+Mental Status: Alert, oriented, in no distress. Appropriate for age.
+Neuro: Normal reflexes; normal tone; no focal deficits appreciated. Appropriate for age.
+ASSESSMENT/PLAN:
+#1 Newborn ***Premature/Term*** ***Female/Male***
+-Admit to Newborn Nursery for routine newborn cares
+-Hearing Screen, state newborn screen prior to discharge
+-Hepatitis B vaccine per nursing protocol
+-Feeds ad lib
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]

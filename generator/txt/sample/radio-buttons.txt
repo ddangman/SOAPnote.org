@@ -1,0 +1,2 @@
+http://www.soapnote.org/sample/radio-buttons/
+[radio name="job" value="Full Time|Part Time|Unemployed"]

@@ -1,0 +1,19 @@
+http://www.soapnote.org/child-health/croup-plan/
+April 11, 2010
+#1 ***Croup/Viral URI/Pharyngitis/Epiglottitis***
+Mild croup. No prescription medication use currently indicated
+croup brochure given and discussed
+racemic epinephrine per neb
+transferred to ***hospital/emergency room***
+Decadron IM
+Prelone
+symptomatic measures discussed
+advised to increase fluids, humidification, breathing cool air
+follow up if no improvement or symptoms worsen
+follow up in Emergency Room if any respiratory distress
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]

@@ -1,0 +1,7 @@
+http://www.soapnote.org/sample/calculation/
+[comment memo="This is a completely meaningless calculator"]
+favorite color [select name="color" value="red=0|brown=1|blue=2|green=3"]
+favorite movie [select name="movie" value="Popeye=0|Good Morning Vietnam=1|What Dreams May Come=2|The Fisher King=3"]
+favorite carbohydrate [select name="carb" value="lactose intolerant=0|pasta=1|rice=2|potatoes=3"]
+[calc value="(color)+(movie)+(carb)" memo="score"]
+[calc value="score=(color)+(movie)+(carb); score>8?'You almost ate enough fiber today':score>4?'You forgot to finish something important today':'You have no time for this'" memo="score interpretation"]

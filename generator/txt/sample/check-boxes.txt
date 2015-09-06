@@ -1,0 +1,2 @@
+http://www.soapnote.org/sample/check-boxes/
+[checkbox value="upper extremity|lower extremity|neck|back|knee"]

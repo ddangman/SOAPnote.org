@@ -1,0 +1,32 @@
+http://www.soapnote.org/ear-nose-throat/sore-throat-complete-note/
+April 1, 2010
+HISTORY OF PRESENT ILLNESS:
+Presenting for evaluation of sore throat. Symptoms have been present for *** days. Patient reports ***headache/fever/nausea/rash/cough/myalgias/malaise/swollen lymph nodes/no headache/no fever/no nausea/no cough***.
+***Cough is nonproductive and not associated with chest pain or shortness of breath/Cough is productive***.
+***Patient has been vomiting/Appetite has been decreased/No nausea or vomiting***.
+REVIEW OF SYSTEMS:
+All systems reviewed and negative except as noted per HPI.
+PHYSICAL EXAMINATION:
+General: Well developed, well nourished, age appropriate. Well groomed, interactive in no acute distress. Vitals reviewed and stable.
+Ears:
+Right ear: ***tympanic membrane is gray, non-bulging and freely mobile/tympanic membrane is erythematous, bulging and non-mobile/tympanic membrane is erythematous, but is non-bulging and is mobile/tympanic membrane is gray, with air-fluid levels behind it/tympanic membrane is perforated/tympanic membrane has a patent PE tube with no drainage/tympanic membrane has a patent PE tube with purulent drainage/external canal is erythematous/external canal is swollen/cerumen impaction/foreign body in ear canal***.
+Left ear: ***tympanic membrane is gray, non-bulging and freely mobile/tympanic membrane is erythematous, bulging and non-mobile/tympanic membrane is erythematous, but is non-bulging and is mobile/tympanic membrane is gray, with air-fluid levels behind it/tympanic membrane is perforated/tympanic membrane has a patent PE tube with no drainage/tympanic membrane has a patent PE tube with purulent drainage/external canal is erythematous/external canal is swollen/cerumen impaction/foreign body in ear canal***.
+Nose: ***nares patent bilaterally/pale, boggy anterior turbinates/epistaxis/rhinorrhea/purulent discharge/sinus tenderness/deviated nasal septum***
+Oral cavity and pharynx: ***lips, teeth, and gums are in good general condition/posterior oropharynx has no erythema, exudate, lesions, or cobblestoning/posterior oropharynx is erythematous without exudate or lesions/posterior oropharynx is erythematous with white exudate/posterior oropharynx has clear drainage and cobblestoning/tonsillar pillars are 1+/tonsillar pillars are 2+/tonsillar pillars are 3+/tonsillar pillars are covered with exudate/tonsils are cryptic/tonsils are surgically absent***
+Neck: ***anterior cervical lymphadenopathy/posterior cervical lymphadenopathy/submandibular lymphadenopathy/no lymphadenopathy/neck tenderness/diffuse enlargement of the thyroid/neck is supple/neck is rigid/TMJ tenderness***
+Lungs: ***clear to auscultation bilaterally/diminshed breath sounds --- lobe/rales in the --- lobe/rhonci in the --- lobe/inspiratory wheezing --- lobe/expiratory wheezing --- lobe/dullness to percussion --- lobe/e to a egophany changes --- lobe/decreased tactile fremitus --- lobe/good air movement/fair air movement/poor air movement/labored breathing***
+Cardiovascular: Normal S1 and S2. No murmurs. Rhythm is regular. There is no peripheral edema, cyanosis or pallor. Extremities are warm and well perfused, without clubbing, cyanosis or edema. Capillary refill is less than 2 seconds.
+Extremities: No palpable cords and there is no pain with palpation. Digits and nails are normal.
+ASSESSMENT/PLAN
+#1 Acute pharyngitis
+- We discussed symptomatic treatments, observation and encouraging fluid intake.
+- Tylenol as needed
+***Swab taken for GAS testing, if positive, treat with --- ***
+- Strep pharyngitis considered contagious until treated for 24 hours
+- Advised to recheck if not resolved in one week or sooner if worse in any way.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]

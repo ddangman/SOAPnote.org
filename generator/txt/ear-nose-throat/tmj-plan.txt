@@ -1,0 +1,18 @@
+#1 TMJ syndrome
+Patient encouraged not to overuse jaw, by not chewing gum, ice, apples, beef, and other hard foods.
+Advise following mechanically soft diet.
+Patient discouraged from clenching jaw or grinding teeth, and recommend referral to dental for a plastic mouthpiece or bite block if symptoms do not improve.
+Apply a heating pad set at low for 20 minutes, 4 to 8 times a day.
+Put a cloth-covered ice pack on your jaw for 20 minutes 4 to 8 times a day.
+NSAID use for the next two weeks. If symptoms worsen or do not resolve recommend steroid shot for Botox injections.
+May then also try Nortriptyline or Flexeril at hs to reduce bruxism.
+
+April 14, 2010
+http://www.soapnote.org/ear-nose-throat/tmj-plan/
+
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]

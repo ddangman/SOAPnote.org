@@ -1,0 +1,19 @@
+http://www.soapnote.org/child-health/croup-history/
+April 11, 2010
+History provided by ***mother/father/grandparent/daycare provider***
+Patient has had symptoms for *** days.
+Symptoms are ***cough/barky cough/stridor/dyspnea/irritability/decreased activity/poor feeding/emesis/nasal congestion***
+These symptoms are worse ***at night/during the day***
+Symptoms have been ***worsening/improving/stable/intermittent/waxing and waning***
+Patient ***has had/has not had*** respiratory distress, currently ***not in distress/in respiratory distress/anxious/dyspneic***
+There ***has/has not*** been exposure to others with similar symptoms.
+There ***has/has not*** been fever.
+Parents have tried ***steaming/cool air/OTC decongestants/bronchodilators/antihistamines/antipyretics*** with ***some relief/no relief***
+History ***of croup in the past/of hospitalization with similar symptoms/of similar symptoms/of asthma/of pneuomonia/of respiratory problems/of no similar problems/***
+Patient ***has/has not*** been seen for current illness. Patient ***has/has not*** been ***given steroids/given racemic epi neb/hospitalized***.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]

@@ -1,0 +1,18 @@
+http://www.soapnote.org/mental-health/insomnia-treatment-checklist/
+January 14, 2015
+A/P:  Insomnia[html]
+Reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/19178064" target="_blank">Harsora P, Kessmann J. Nonpharmacologic management of chronic insomnia. Am Fam Physician. 2009 Jan 15;79(2):125-30.</a>[/html][html]
+<strong>COGNITIVE THERAPIES</strong>[/html]
+[checkbox value="Discuss realistic expectations about sleep requirements.  "][checkbox value="Discuss consequences of insomnia.  "][html]
+<strong>SLEEP HYGIENE EDUCATION</strong>[/html]
+[checkbox value="Avoid the use of caffeine in the later hours of the day, limiting the amount of overall caffeine consumption.  "][checkbox value="Avoid heavy meals within two hours of bedtime.  "][checkbox value="Minimize intake of fluids after dinner to prevent frequent nighttime urination.  "][checkbox value="Avoid exercise for 90 minutes to four hours before sleep.  "][checkbox value="Ear-plugs can be used if noise is a problem.  "][checkbox value="Exposure to daytime light for at least 30 minutes in the morning.  "][html]
+<strong>STIMULUS CONTROL</strong>[/html]
+[checkbox value="Eliminate distractions and associate the bedroom only with sleep and sex. "][checkbox value="Reading and television watching should occur in a room other than the bedroom.  "][checkbox value="Go to bed only when tired and leave the room if not asleep within 15 to 20 minutes.  "][checkbox value="Avoid napping and should get out of bed at the same time each day.  "][html]
+<strong>RELAXATION THERAPIES</strong>[/html]
+[checkbox value="Autogenic training:  Imagine a peaceful environment and comforting body sensations, such as warmth and heaviness in the limbs, warmth in the upper abdomen, and coolness on the forehead.  "][checkbox value="Paced respirations:  Take a deep breath and hold for five seconds, repeat several times; focus on the sound of the breath.  "][checkbox value="Progressive muscle relaxation:  Tense and relax large muscle groups; usually begin with the feet and work your way up to the facial muscles.  "][checkbox value="Repetitive focus:  Focus on a word, sound, prayer, phrase, or muscle activity.  "]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]

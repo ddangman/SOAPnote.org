@@ -1,0 +1,39 @@
+http://www.soapnote.org/respiratory/asthma-control/
+March 25, 2012
+Classification of Asthma Control and Recommendations[html]
+SUMMARY
+This is for monitoring and improving control for patients <strong>currently taking long-term control medication</strong>.  For patients not taking long-term control medication, please see <a href="http://www.soapnote.org/?p=2466" target="_blank">this page</a>.
+REFERENCES
+<a href="http://www.nhlbi.nih.gov/guidelines/asthma/asthgdln.htm" target="_blank">NAEPP 2007 Guidelines</a>
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/20141095" target="_blank">Pollart (2009) Am Fam Physician 79:  761-7.</a>[/html]
+[select name="Age" value="5 to 11 years|12 years and above"] <-- Age
+[conditional field="Age" condition="(Age).is('5 to 11 years')"][select name="ImpSymp1" value="Up to 2 days per week, but not more than once on each day=1|More than 2 days per week or multiple times on up to 2 days per week=10|Throughout the day=100"] <-- Impairment - Symptoms
+[select name="ImpNA1" value="Up to 1 time per month=1|2 or more times per month=10|2 or more times per week=100"] <-- Impairment - Nighttime awakenings
+[select name="ImpSA1" value="Up to 2 days per week=1|More than 2 days per week=10|Several times per day=100"] <-- Impairment - Short-acting beta2-agonist use for symptom control (not prevention of exercise induced bronchospasm)
+[select name="ImpNorm1" value="None=1|Some limitation=10|Extremely limited=100"] <-- Impairment - Interference with normal activity
+[select name="ImpLF1" value="FEV1 more than 80% predicted, Peak Flow more than 80% personal best, FEV1 to FVC more than 80%=1|FEV1 60 to 80% predicted, Peak Flow 60 to 80% personal best, FEV1 to FVC 75 to 80%=10|FEV1 less than 60% predicted, Peak Flow less than 60% personal best, FEV1 to FVC less than 75%=100"] <-- Impairment - Lung Function
+[select name="Risk1" value="0 to 1 per year=1|2 or more per year=10"] <-- Risk - Exacerbations requiring oral systemic corticosteroids
+Recommendations --> [calc memo="Interpretation" value="score1=(ImpSymp1)+(ImpNA1)+(ImpSA1)+(ImpNorm1)+(ImpLF1)+(Risk1);score1>99?'Very Poorly Controlled Asthma:  Consider short course of oral systemic corticosteroids; step up one to two steps, and reevaluate in two weeks.':score1>9?'Not Well-Controlled Asthma:  Step up one step and reevaluate in two to six weeks.':'Well-Controlled Asthma:  Maintain current step; regular follow-up every one to six months to maintain control; consider step down if well controlled for at least three months.'"][html]
+<strong>Stepwise medication table for children 5-11 years</strong>
+<img src="http://www.soapnote.org/wp-content/uploads/2012/03/asthma-steps-kids.jpg" height="500" width="500" />
+Open image in new window <a href="http://www.soapnote.org/wp-content/uploads/2012/03/asthma-steps-kids.jpg" target="_blank">here</a>[/html]
+[/conditional][conditional field="Age" condition="(Age).is('12 years and above')"][select name="ImpSymp2" value="Up to 2 days per week=1|More than 2 days per week=10|Throughout the day=100"] <-- Impairment - Symptoms
+[select name="ImpNA2" value="Up to 2 times per month=1|1 to 3 times per week=10|4 or more times per week=100"] <-- Impairment - Nighttime awakenings
+[select name="ImpSA2" value="Up to 2 days per week=1|More than 2 days per week=10|Several times per day=100"] <-- Impairment - Short-acting beta2-agonist use for symptom control (not prevention of exercise induced bronchospasm)
+[select name="ImpNorm2" value="None=1|Some limitation=10|Extremely limited=100"] <-- Impairment - Interference with normal activity
+[select name="ImpLF2" value="FEV1 more than 80% predicted, Peak Flow more than 80% personal best=1|FEV1 60 to 80% predicted, Peak Flow 60 to 80% personal best=10|FEV1 less than 60% predicted, Peak Flow less than 60% personal best=100"] <-- Impairment - Lung Function
+[select name="ImpQ2" value="ATAQ of 0 OR ACQ less than or equal to 0.75 OR ACT greater than or equal to 20 OR  soapnote Generic equal to 0=1|ATAQ of 1 to 2 OR ACQ greater than or equal to 1.5 OR ACT of 16 to 19 OR soapnote Generic greater than or equal to 1=10|ATAQ of 3 to 4 OR ACT less than or equal to 15=100"] <-- Impairment - Questionnaires[html]
+The Generic (Unvalidated) Asthma Asthma Symptom Control Questionnaire is available at <a href="http://www.soapnote.org/respiratory/asthma-control-questions/" target="_blank">soapnote.org/respiratory/asthma-control-questions</a>.[/html]
+[select name="Risk2" value="0 to 1 per year=1|2 or more per year=10"] <-- Risk - Exacerbations requiring oral systemic corticosteroids
+Recommendations --> [calc memo="Interpretation" value="score2=(ImpSymp2)+(ImpNA2)+(ImpSA2)+(ImpNorm2)+(ImpLF2)+(ImpQ2)+(Risk2);score2>99?'Very Poorly Controlled Asthma:  Consider short course of oral systemic corticosteroids; step up one to two steps, and reevaluate in two weeks.':score2>9?'Not Well-Controlled Asthma:  Step up one step and reevaluate in two to six weeks.':'Well-Controlled Asthma:  Maintain current step; regular follow-up every one to six months to maintain control; consider step down if well controlled for at least three months.'"][html]
+<strong>Stepwise medication table for ages 12+ years</strong>
+<img src="http://www.soapnote.org/wp-content/uploads/2012/03/asthma-steps-adults.jpg" height="500" width="500" />
+Open image in new window <a href="http://www.soapnote.org/wp-content/uploads/2012/03/asthma-steps-adults.jpg" target="_blank">here</a>[/html]
+[/conditional]
+
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]

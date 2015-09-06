@@ -1,0 +1,9 @@
+http://www.soapnote.org/eye/stye-history/
+April 12, 2010
+Patient has noticed ***painful/swollen/erythematous/draining/pruritic*** ***right/left*** ***upper eyelid/lower eyelid***.  Symptoms have been present for ***duration***.  Symptoms are ***stable/worsening/improving***.  Vision ***is stated to be normal/is slightly blurred.  ***Has had a fever/Has not had a fever***.  ***Has/Has not*** had a past history of styes.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]

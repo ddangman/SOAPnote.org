@@ -1,0 +1,17 @@
+http://www.soapnote.org/respiratory/bap-65/
+April 7, 2013
+BAP-65 score for risk stratification in acute exacerbations of COPD
+[comment memo="Stratified risks are in-hospital mortality & mechanical ventilation requirement.  "][link url="http://www.ncbi.nlm.nih.gov/pubmed/21527510" memo="Shorr (2011) Chest 140:1177-1183"]
+Based on information available at initial hospital presentation...
+[select name="bun" value="NO=0|YES=1"] <-- BUN greater than or equal to 25 mg/dL?
+[select name="ms" value="NO=0|YES=10"] <-- Altered Mental Status (initial Glasgow Coma score < 14 or a designation by the physician of disorientation, stupor, or coma)?
+[select name="pulse" value="NO=0|YES=10"] <-- Pulse greater than or equal to 109 beats/minute?
+[select name="age" value="NO=0|YES=10"] <-- Age greater than 65 years?
+------------------------------------------------------------
+Interpretation: [calc value="score=(bun)+(ms)+(pulse)+(age); score>29?'Class V - 26.2 percent in-hospital mortality, 54.6 percent require mechanical ventilation':score>19?'Class IV - 12.7 percent in-hospital mortality, 30.1 percent require mechanical ventilation.':score>9?'Class III - 3.7 percent in-hospital mortality, 8.4 percent require mechanical ventilation.':score>0?'Class II - 1.4 percent in-hospital mortality, 2.2 percent require mechanical ventilation.':'Class I - 0.5 percent in-hospital mortality, 2.1 percent require mechanical ventilation.'" memo="score interpretation"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]

@@ -1,0 +1,15 @@
+http://www.soapnote.org/ear-nose-throat/otitis-media-plan/
+September 30, 2010
+Assessment:
+[select value="side|Left|Right|Bilateral"] [select value="diagnosis|otitis media|eustachian tube dysfunction|otalgia- etiology unclear|serous otitis media|myringitis"]
+Plan:
+Analgesia:  [select value="A/B Otic drops with oral over-the-counter analgesics as needed for pain|A/B Otic drops as needed for pain|Over the counter analgesics as needed for pain"]
+Antibiotics:  [select value="none are indicated|Amoxicillin 80-90 mg/kg divided three times daily for 7 days|Amoxicillin 250 mg twice daily for 5 days|Amoxicillin 500 mg twice daily for 5 days|Amoxicillin 1 gm bid for 5 days|Amoxicillin 200 mg twice daily for 10 days|Amoxicillin 250 mg twice daily x 10 days|Amoxicillin 400 mg twice daily for 10 days|Amoxicillin 500 mg twice daily for 10 days|Amoxicillin 1 gm twice daily for 10 days|Amoxicillin 125 mg three times daily x 10 days|Amoxicillin 250 mg three times daily x 10 days|Amoxicillin 500 mg three times daily x 10 days|Augmentin 500 mg bid x 10 days|Augmentin 875 mg bid x 10 days|Augmentin 400 mg bid x 10 days|Augmentin 200 mg bid x 10 days|Bactrim suspension (peds > 2 months) 8-10 mg/kg/d divided bid x 10 days|Bactrim DS 1 bid x 10 days|Biaxin (peds > 6 months) 15 mg/kg divided bid x 10 days|Biaxin 500 mg bid x 10 days|Vantin (peds > 2 months) 10 mg/kg divided bid x 10 days|Vantin 200 mg bid x 10 days|Zithromax 500 mg now then 250 mg qd x 4 days|Zithromax (peds > 6 months) 10 mg/kg now then 5 mg/kg qd x 4 days"]
+Follow up:  If not improving or if worsening instructed patient to [select value="call office|return to clinic|call or return to clinic"]
+Education:  [checkbox value="symptomatic measures|medication side effects|natural course"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]

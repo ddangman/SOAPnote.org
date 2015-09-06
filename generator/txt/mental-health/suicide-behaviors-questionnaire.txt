@@ -1,0 +1,17 @@
+http://www.soapnote.org/mental-health/suicide-behaviors-questionnaire/
+August 25, 2014
+SBQ-R Suicide Behaviors Questionnaire-Revised[html]
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/11785588" target="_blank">Osman A, Bagge CL, Gutierrez PM, Konick LC, Kopper BA, Barrios FX. The Suicidal Behaviors Questionnaire-Revised (SBQ-R): validation with clinical and nonclinical samples. Assessment. 2001 Dec;8(4):443-54.</a>[/html]
+[select name="Q1" value="Never=1|It was just a brief passing thought=2|I have had a plan at least once to kill myself but did not try to do it=3|I have had a plan at least once to kill myself and really wanted to die=3|I have attempted to kill myself, but did not want to die=4|I have attempted to kill myself, and really hoped to die=4"] <-- 1. Have you ever thought about or attempted to kill yourself?
+[select name="Q2" value="Never=1|Rarely (1 time)=2|Sometimes (2 times)=3|Often (3-4 times)=4|Very often (5 or more times)=5"] <-- 2. How often have you thought about killing yourself in the last year?
+[select name="Q3" value="No=1|Yes, at one time, but did not really want to die=2|Yes, at one time, and really wanted to die=2|Yes, more than once, but did not want to do it=3|Yes, more than once, and really wanted to do it=3"] <-- 3. Have you ever told someone that you were going to commit suicide, or that you might do it?
+[select name="Q4" value="Never=0|No chance at all=1|Rather unlikely=2|Unlikely=3|Likely=4|Rather likely=5|Very likely=6"] <-- 4. How likely is it that you will attempt suicide someday?
+Score --> [calc memo="number" value="score1=(Q1)+(Q2)+(Q3)+(Q4)"] / 18
+Interpretation --> [calc memo="risk" value="score2=(Q1)+(Q2)+(Q3)+(Q4);score2>7?'80% sensitive and 91% specific for at risk adult psychiatric inpatients':score2>6?'93% sensitive and 95% specific for at risk individual in the adult population':'below the score cut-off for at risk individual'"]
+
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]

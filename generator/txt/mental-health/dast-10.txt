@@ -1,0 +1,33 @@
+http://www.soapnote.org/mental-health/dast-10/
+August 9, 2014
+Drug Use Questionnaire (DAST - 10) 
+INSTRUCTIONS:  The following questions concern information about your possible involvement with drugs not including alcoholic beverages during the past 12 months.  Carefully read each statement and decide if you answer is "Yes" or "No".  Then, circle the appropriate response beside the queestion.
+
+In the statements "drug abuse" refers to (1) the use of prescribed or over the counter drugs may include:  cannabis (e.g. marijuana, hash), solvents, tranquilizers (e.g. Valium), barbiturates, cocaine, stimulants (e.g. speed), hallucinogens (e.g. LSD) or narcotics (e.g. heroin).  Remember that the questions do not include alcoholic beverages.
+
+Please answer every question.  If you have difficulty with a statement, then choose the respnse that is mostly right.
+
+These questions refer to the past 12 months.
+
+[select name="Q1" value="no=0|yes=1"] <-- 1.  Have you used drugs other than those required for medical reasons?
+[select name="Q2" value="no=0|yes=1"] <-- 2.  Do you abuse more than one drug at a time?
+[select name="Q3" value="no=1|yes=0"] <-- 3. Are you always able to stop using drugs when you want to?
+[select name="Q4" value="no=0|yes=1"] <-- 4. Have you had "blackouts" or "flashbacks" as a result of drug use?
+[select name="Q5" value="no=0|yes=1"] <-- 5.  Do you ever feel bad or guilty about your drug use?
+[select name="Q6" value="no=0|yes=1"] <-- 6.  Does your spouse (or parents ) ever complain about your involvement with drugs?
+[select name="Q7" value="no=0|yes=1"] <-- 7. Have you neglected your family because of your use of drugs?
+[select name="Q8" value="no=0|yes=1"] <-- 8.  Have you ever engaged in illegal activities in order to obtain drugs?
+[select name="Q9" value="no=0|yes=1"] <-- 9.  have you ever experienced withdrawal symptoms (felt sick) when you stopped taking drugs?
+[select name="Q10" value="no=0|yes=1"] <-- 10.  Have you had medical problems as a result of your drug use (e.g. memory loss, hepatitis, convulsions, bleeding, etc.)?
+
+Total Score --> [calc memo="number" value="score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10)"] / 10
+Interpretation -->  [calc memo="result" value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10);score2>8?'Severe':score2>5?'Substantial':score2>2?'Intermediate':score2>0?'Low':'None'"]
+
+Copyright 1982 by Harvey A Skinner, PhD and the Centre for Addiction and Mental Health, Toronto, Canada.  For clinical, noncommercial use only.
+
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]

@@ -1,0 +1,27 @@
+http://www.soapnote.org/ear-nose-throat/pharyngitis-history/
+June 11, 2010
+Pharyngitis
+Duration of symptoms in days [text]
+Pertinent positives
+[select value="no|YES"] <-- fever
+[select value="no|YES"] <-- malaise
+[select value="no|YES"] <-- swollen lymph nodes
+[select value="no|YES"] <-- cough
+[select value="no|YES"] <-- headache
+[select value="no|YES"] <-- rash
+[select value="good|adequate|poor"] <-- Intake pattern
+[select value="good|adequate|poor|constipation"] <-- Elimination pattern
+
+http://www.soapnote.org/ear-nose-throat/pharyngitis-history/
+April 1, 2010
+Patient has had *** days of ***sore throat/dysphonia/fever/cough/difficulty swallowing/nasal congestion/headache***.
+Patient has had no ***dysphonia/fever/cough/difficulty swallowing/nasal congestion/headache***.
+There ***are no known/have been*** recent exposures to Strep. The patient ***has not had/has had*** Strep pharyngitis in the past 30 days.
+Other history/symptoms:  ***nausea/vomiting/mild abdominal ache/diarrhea/rash/refusing to eat/refusing to drink/body aches/eye irritation/ear pain/facial pain/shortness of breath/arthralgias/myalgias/exposure to Mono***.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+

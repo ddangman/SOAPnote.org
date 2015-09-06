@@ -1,0 +1,5 @@
+http://www.soapnote.org/sample/conditional-comparison/
+[date default="today"]
+[text name="field1"]
+[text name="field2"]
+[conditional field="field1|field2" condition="(field1).isGreater(5)&&(field2).isNot(5)"]hidden text[/conditional]

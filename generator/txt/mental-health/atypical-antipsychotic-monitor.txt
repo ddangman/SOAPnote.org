@@ -1,0 +1,24 @@
+http://www.soapnote.org/mental-health/atypical-antipsychotic-monitor/
+January 11, 2015
+Metabolic monitoring for atypical antipsychotics[html]
+Reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/21804146" target="_blank">De Hert M, Vancampfort D, Correll CU, Mercken V, Peuskens J, Sweers K, van Winkel R, Mitchell AJ. Guidelines for screening and monitoring of cardiometabolic risk in schizophrenia: systematic evaluation. Br J Psychiatry. 2011 Aug;199(2):99-105.</a>
+<a href="http://www.nimh.nih.gov/health/publications/mental-health-medications/index.shtml#pub4" target="_blank">NIMH - Antipsychotic medications</a>[/html]
+Note:  more comprehensive or frequent monitoring may be needed if chronic medical conditions exist
+[select name="Q1" value="Baseline|6 weeks after starting drug treatment|12 weeks after starting drug treatment|Annual"] <-- Interval
+[conditional field="Q1" condition="(Q1).is('Baseline')||(Q1).is('Annual')"]Medical history
+Blood pressure
+Body mass index
+Waist circumference
+Fasting glucose level
+Fasting lipid levels
+Lifestyle counseling[/conditional][conditional field="Q1" condition="(Q1).is('6 weeks after starting drug treatment')||(Q1).is('12 weeks after starting drug treatment')"]Blood pressure
+Body mass index
+Fasting glucose level
+Fasting lipid levels
+Lifestyle counseling[/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]

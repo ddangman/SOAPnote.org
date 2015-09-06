@@ -1,0 +1,41 @@
+http://www.soapnote.org/respiratory/asthma-hx/
+October 15, 2014
+Asthma since age [text]
+The patient has experienced the following symptoms: [text default="coughing/wheezing/shortness of breath/chest tightness/sputum production/URI like symptoms/night time wakening/heartburn/sinusitis/no symptoms related to asthma"]
+The pattern of symptoms are [text default="perennial/seasonal/continual/episodic/nocturnal/exertional"]
+The onset of the symptoms started [text].
+[textarea default="Symptoms daily/worsening/with exertion/only at night/has been present daily/has continued to become worse/is present only on exertion/is present only at night/*** days of the past week/month"]
+Triggering agents and past year's events: [text default="URI/mold/mite/cockroach/animal dander/pollen/smoke/perfume/chemicals/exercise"]
+Exacerbating factors: [text default="occupational exposure/emotional changes/drugs/foods/changes in weather/endocrine changes"]
+Home environment
+The home is heated by [select value="forced air heat|wood burning stove|steam heat|electric heat"]
+The bedroom [select value="has been made dust free|has not been made dust free"]
+The family is made up of [select value="smokers|nonsmokers|at least one smoker"]
+The family has [select value="a dog|a cat|a pet that may cause asthma to be worse|no animals"] in the [select value="home|sleeping area"]
+There have been [text] hospitalizations, [text] ER visits, and about [text] outpatient visits during the past year.  The patient has required [select value="no intubation|intubation"] in the past.
+Current Management
+Peak flow meter [select value="is used correctly|is used, but needs to have more education|is not used"]
+Spacer [select value="is used correctly|is used, but needs to have more education|is not used"]
+Personal best peak flow was [text]
+Asthma Action Plan [select value="is needed|is used correctly|is used, but needs to have more education|is not used"]
+
+April 3, 2010
+Symptoms include ***wheezing/daytime cough/nighttime cough/cough with exercise/shortness of breath/chest tightness***
+*** nights per month
+*** days per month
+Triggers ***colds/irritants/allergies/exercise/weather changes***
+In the last year:  *** ER/UCC visit(s), *** hospitalization(s), *** oral steroid course(s), *** missed school day(s), *** missed parent work day(s)
+Barriers to taking medications:   ***side effects/refusal/social concerns***
+Inhaler use:   lasts approximately ***weeks***, ***does/does not*** use a spacer
+Peak flow meter:  range is ***
+Associated symptoms:  ***iitchy, red eyes/stuffy nose/sneezing/chronic sore throat/post-nasal drip/eczema/GE reflux***
+Associated symptoms are ***under/not under** good control.
+Exposures include ***smoke/pets/irritants/allergens***
+Previous testing and evaluations include ***pulmonary function tests/subspecialist visit(s)/allergy testing***
+
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]

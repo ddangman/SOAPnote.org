@@ -1,0 +1,18 @@
+http://www.soapnote.org/ear-nose-throat/strep-throat-decision-tool/
+August 12, 2011
+Modified Centor Score[html]
+This calculator applies the <a href="http://www.ncbi.nlm.nih.gov/pubmed/11033707">Centor criteria for pharyngitis</a>.
+AAFP article <a href="http://www.aafp.org/afp/2009/0301/p383.html">Choby (2009) Am Fam Physician 79:383-390</a>.[/html]
+[select name="Q1Fever" value="No (0 points)=0|YES (1 point)=1"] <-- History of fever or measured temperature > 100.4 degrees F
+[select name="Q2Cough" value="Cough is present (0 points)=0|COUGH IS ABSENT (1 point)=1"] <-- Presence of coughing
+[select name="Q3Nodes" value="No (0 points)=0|YES (1 point)=1"] <-- Tender anterior cervical nodes
+[select name="Q4Tonsil" value="No (0 points)=0|YES (1 point)=1"] <-- Tonsillar swelling or exudates
+[select name="Q5Age" value="< 15 years (1 point)=1|15 to 45 years (0 points)=0|> 45 years (-1 point)=-1"] <-- Age
+Score --> [calc value="score=(Q1Fever)+(Q2Cough)+(Q3Nodes)+(Q4Tonsil)+(Q5Age)" memo="score"]
+Interpretation -->  Risk of group A beta-hemolytic streptococcus is [calc value="score=(Q1Fever)+(Q2Cough)+(Q3Nodes)+(Q4Tonsil)+(Q5Age);score>3?'51 to 53%, consider empiric antibiotic treatment.':score>2?'28 to 35%, perform throat culture or rapid antigen detection testing and treat accordingly.':score>1?'11 to 17%, perform throat culture or rapid antigen detection testing and treat accordingly.':score>0?'5 to 10%, may forgo antibiotics OR may perform throat culture or rapid antigen detection testing and treat accordingly.':'1 to 2.5%, antibiotic treatment or further testing is not warranted.'" memo="Risk and Recommendation"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]

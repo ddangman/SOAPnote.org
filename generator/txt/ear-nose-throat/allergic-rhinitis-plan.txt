@@ -1,0 +1,16 @@
+http://www.soapnote.org/ear-nose-throat/allergic-rhinitis-plan/
+February 15, 2014
+#1 Allergic rhinitis
+[select value="Fexofenadine 60 mg twice a day|Fexofenadine 180 mg 1 tab daily|Loratidine 10 mg daily|Cetirizine 10 mg 1 tab daily|Over the counter antihistamines|Nasacort 2 sprays each nostril daily|Flonase 2 sprays each nostril daily|Beconase 2 sprays each nostril twice daily|Rhinocort 2 sprays each nostril twice daily"]
+[checkbox value="Reviewed with patient potential side effects/interactions of medication.  "][checkbox value="Samples given and a written prescription for three months supply if effective.  "][checkbox value="Discussed decreasing exposure to environmental allergies.  "][checkbox value="To follow up if no relief.  "]
+
+http://www.soapnote.org/ear-nose-throat/allergic-rhinitis-plan-2/
+April 11, 2010
+#1 Allergic rhinitis
+Discussed issues to decrease irritants/exposures, including hand washing, awareness of peak season, and time of day. ***Enter medication prescribed*** Side effects, risks, and benefits of medications discussed. Discussed over-the-counter medication options, risks, and benefits. Communicate back if symptoms are not well controlled.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="***" target="_blank">***</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  #DATETIME MMMM d, yyyy#
+permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
+markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
