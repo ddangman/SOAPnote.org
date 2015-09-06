@@ -1,4 +1,3 @@
-http://www.soapnote.org/sample/simple-computations/
 This calculator performs simple computations
 [text name="A"] <-- A (enter a number)
 [text name="B"] <-- B (enter a number)

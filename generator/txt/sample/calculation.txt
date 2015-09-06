@@ -1,4 +1,3 @@
-http://www.soapnote.org/sample/calculation/
 [comment memo="This is a completely meaningless calculator"]
 favorite color [select name="color" value="red=0|brown=1|blue=2|green=3"]
 favorite movie [select name="movie" value="Popeye=0|Good Morning Vietnam=1|What Dreams May Come=2|The Fisher King=3"]

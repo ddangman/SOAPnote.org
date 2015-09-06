@@ -1,4 +1,3 @@
-http://www.soapnote.org/sample/conditional-comparison/
 [date default="today"]
 [text name="field1"]
 [text name="field2"]

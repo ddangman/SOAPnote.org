@@ -1,4 +1,3 @@
-http://www.soapnote.org/sample/date-sample/
 Date 1: [date name="date1" default="08/12/2012"]
 Date 2: [date name="date2"]
 Date 3: [date]

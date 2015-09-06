@@ -1,4 +1,3 @@
-http://www.soapnote.org/sample/mark/
 [link memo="go to the mark" mark="mid-blah"]
 blah
 blah

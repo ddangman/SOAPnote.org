@@ -1,8 +1,2 @@
 Text Area with Linefeed
 [textarea default="This is line 1.&#13;&#10;This is line 2.&#13;&#10;This is line 3.&#13;&#10;&#13;&#10;&#13;&#10;This is the last line."]
-[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  none
-posted by:  Mark Morgan, M.D.
-post/review dates:  August 30, 2015
-permalink: <a href="http://www.soapnote.org/sample/textarea-with-linefeed/" target="_blank">www.soapnote.org/sample/textarea-with-linefeed/</a>
-markup link:  <a href="http://www.soapnote.org/txt/sample/textarea-with-linefeed.txt" target="_blank">www.soapnote.org/txt/sample/textarea-with-linefeed.txt</a>[/html][/conditional]

@@ -1,3 +1,2 @@
-http://www.soapnote.org/sample/conditional-sample/
 Employment type: [radio name="job" value="Full Time|Part Time|Unemployed"]
 [conditional field="job" condition="(job).is('Full Time')||(job).is('Part Time')"]Job title: [text name="job_title"][/conditional]

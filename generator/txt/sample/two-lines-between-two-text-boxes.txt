@@ -1,4 +1,3 @@
-http://www.soapnote.org/sample/two-lines-between-two-text-boxes/
 [text]
 [comment]
 [comment]

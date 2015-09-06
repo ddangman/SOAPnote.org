@@ -1,4 +1,3 @@
-http://www.soapnote.org/sample/exponent/
 [text memo="A" name="Anumber"]
 [text memo="B" name="Bnumber"]
 [calc value="test=(Math.pow((Anumber),(Bnumber))).toFixed(2)" memo="A raised to the power of B, with a precision of 2 decimal places"]

@@ -1,4 +1,3 @@
-http://www.soapnote.org/sample/natural-log/
 Enter a number ---> [text name="numby"]
 
 The number you entered was [var name="numby"]

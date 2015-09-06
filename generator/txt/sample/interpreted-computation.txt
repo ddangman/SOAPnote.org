@@ -1,4 +1,3 @@
-http://www.soapnote.org/sample/interpreted-computation/
 This calculator performs a simple computation then interprets the result
 [text name="A"] <-- A (enter a number)
 [text name="B"] <-- B (enter a number)

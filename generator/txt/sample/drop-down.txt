@@ -1,2 +1,1 @@
-http://www.soapnote.org/sample/drop-down/
 [select name="test" value="yes|no|maybe"]

@@ -1,4 +1,3 @@
-http://www.soapnote.org/sample/html/
 This text goes into the output
 [text default="this does, too"][html]
 <em>This italic text does not go into output.</em>
