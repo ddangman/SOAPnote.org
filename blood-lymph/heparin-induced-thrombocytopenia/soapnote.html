@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <h1 class="entry-title">heparin-induced-thrombocytopenia</h1>
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Heparin Induced Thrombocytopenia Pre-Test Scoring System<br>1. Thrombocytopenia: <select name="Q1"><option value="0 points - Platelet Count decreased less than 30 percent from baseline with nadir less than 10,000=0">0 points - Platelet Count decreased less than 30 percent from baseline with nadir less than 10,000</option><option value="1 point - Platelet Count decreased 30-50 percent from baseline with nadir 10-20,000=1">1 point - Platelet Count decreased 30-50 percent from baseline with nadir 10-20,000</option><option value="2 points - Platelet Count decreased more than 50 percent from baseline with nadir greater than 20,000=2">2 points - Platelet Count decreased more than 50 percent from baseline with nadir greater than 20,000</option></select><br>2. Timing after onset of current Heparin course: <select name="Q2"><option value="0 points - Onset within 4 days and no prior Heparin exposure before this episode=0">0 points - Onset within 4 days and no prior Heparin exposure before this episode</option><option value="1 point - Probable onset days 5-10 (or less than 1 day if prior exposure Heparin 30-100 days ago)=1">1 point - Probable onset days 5-10 (or less than 1 day if prior exposure Heparin 30-100 days ago)</option><option value="2 points - Clear onset days 5-10 (or less than 1 day if prior exposure Heparin within last 30 days)=2">2 points - Clear onset days 5-10 (or less than 1 day if prior exposure Heparin within last 30 days)</option></select><br>3. Thrombosis: <select name="Q3"><option value="0 points - No thrombosis=0">0 points - No thrombosis</option><option value="1 point - Progressive, recurrent or suspected clot=1">1 point - Progressive, recurrent or suspected clot</option><option value="2 points - Confirmed new clot, skin necrosis and systemic reaction=2">2 points - Confirmed new clot, skin necrosis and systemic reaction</option></select><br>4. Alternative causes of thrombocytopenia: <select name="Q4"><option value="0 points - Definite alternative cause of Thrombocytopenia=0">0 points - Definite alternative cause of Thrombocytopenia</option><option value="1 point - Possible alternative cause of Thrombocytopenia=1">1 point - Possible alternative cause of Thrombocytopenia</option><option value="2 points - No other alternative cause of Thrombocytopenia=2">2 points - No other alternative cause of Thrombocytopenia</option></select><br>Score --> <span class="calc">number<span class="calc_value">score1=(Q1)+(Q2)+(Q3)+(Q4)</span></span><br>Interpretation --> <span class="calc">result<span class="calc_value">score2=(Q1)+(Q2)+(Q3)+(Q4);score2>5?'High probability (greater than 80 percent risk) of Clinically Significant HIT':score2>3?'Intermediate probability of Clinically Significant HIT':'Low probability (less than 5 percent risk) of Clinically Significant HIT)'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ed9eb3a23f5" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16634744" target="_blank">Lo GK, Juhl D, Warkentin TE, Sigouin CS, Eichler P, Greinacher A. Evaluation of pretest clinical score (4 T's) for the diagnosis of heparin-induced thrombocytopenia in two clinical settings. J Thromb Haemost. 2006 Apr;4(4):759-65.</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  October 8, 2014; August 31, 2015<br>permalink: <a href="http://www.soapnote.org/blood-lymph/heparin-induced-thrombocytopenia/" target="_blank">www.soapnote.org/blood-lymph/heparin-induced-thrombocytopenia/</a><br>markup link:  <a href="http://www.soapnote.org/txt/blood-lymph/heparin-induced-thrombocytopenia.txt" target="_blank">www.soapnote.org/txt/blood-lymph/heparin-induced-thrombocytopenia.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_55ed9eb3a23f5"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="form.js"></script>
+</div>
+</div>
+</body>
+</html>

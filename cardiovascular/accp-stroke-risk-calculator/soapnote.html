@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <h1 class="entry-title">accp-stroke-risk-calculator</h1>
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>American College of Chest Physicians (ACCP) Stroke Risk<span class="exclude"><br><strong>Summary:</strong><br>The ACCP Stroke Risk Calculator is used to help decide whether or not to use anticoagulant. An approach to the decision of warfarin for oral anticoagulation for atrial fibrillation is suggested in <a href="http://www.aafp.org/afp/2005/0615/afp20050615p2348-f1.pdf" target="_blank">Am Fam Physician. 2005 Jun 15;71(12):2348-2350.</a><br>1) Use the <a href="http://www.soapnote.org/cardiovascular/chads2/" target="_blank">CHADS2 rule</a> as well as the <a href="http://www.soapnote.org/cardiovascular/accp-stroke-risk-calculator/" target="_blank">ACCP rule</a> to determine the risk of stroke.<br>2) If both these measures predict moderate risk of stroke, proceed to calculate the <a href="http://www.soapnote.org/cardiovascular/outpatient-bleeding-risk-index-obri/" target="_blank">Outpatient Bleeding Risk Index</a> and weigh the risks versus the benefits.</span><br><select name="Q1"><option value="No=0">No</option><option value="YES (High Risk)=10">YES (High Risk)</option></select> <-- History of Stroke or TIA<br><select name="Q2"><option value="No=0">No</option><option value="YES (High Risk)=10">YES (High Risk)</option></select> <-- Hypertension<br><select name="Q3"><option value="No=0">No</option><option value="YES (High Risk)=10">YES (High Risk)</option></select> <-- Heart failure<br><select name="Q4"><option value="Under 65=0">Under 65</option><option value="65 to 75 (Moderate Risk)=5">65 to 75 (Moderate Risk)</option><option value="Over 75 (High Risk)=10">Over 75 (High Risk)</option></select> <-- Age<br><select name="Q5"><option value="No=0">No</option><option value="YES (Moderate Risk)=5">YES (Moderate Risk)</option></select> <-- Diabetes mellitus<br><select name="Q6"><option value="No=0">No</option><option value="YES (Moderate Risk)=5">YES (Moderate Risk)</option></select> <-- Coronary artery disease<br>Interpretation --> <span class="calc">interpretation<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6);score>9?'3.0% annual stroke rate (High Risk - warfarin recommended)':score>4?'1.0% annual stroke rate (Moderate Risk - aspirin recommended)':'0.5% annual stroke rate (Low Risk - aspirin recommended)'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ed9f9b5ac3a" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.aafp.org/afp/2005/0615/p2348.html" target="_blank">Am Fam Physician. 2005 Jun 15;71(12):2348-2350. </a>, <a href="http://www.aafp.org/afp/2010/0315/p780.html" target="_blank">Am Fam Physician. 2010 Mar 15;81(6):780-782.</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  May 31, 2010; August 18, 2015<br>permalink: <a href="http://www.soapnote.org/cardiovascular/accp-stroke-risk-calculator/" target="_blank">www.soapnote.org/cardiovascular/accp-stroke-risk-calculator/</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/accp-stroke-risk-calculator.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/accp-stroke-risk-calculator.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_55ed9f9b5ac3a"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="form.js"></script>
+</div>
+</div>
+</body>
+</html>

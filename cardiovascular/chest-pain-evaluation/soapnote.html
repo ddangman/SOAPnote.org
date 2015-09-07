@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <h1 class="entry-title">chest-pain-evaluation</h1>
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Chest pain evaluation<span class="exclude"><br>Summary: This calculator is intended to help guide evaluation for chest pain in regards to the likelihood of non-cardiac causes.</span><br><select name="Q1"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Male 55 years or over/Female 65 or over<br><select name="Q2"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Known CAD or cerebrovascular disease<br><select name="Q3"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Pain not reproducible by palpation<br><select name="Q4"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Pain worse during exercise<br><select name="Q5"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Patient assumes pain is cardiogenic<br>Score --> <span class="calc">score<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)</span></span> out of 5.  Interpretation --> <span class="calc">interpretation<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5);score>3?'High (62.7%) risk, proceed with ACS evaluation.':score>1?'Moderate (12.1%) risk, obtain ECG and proceed with ACS or other evaluations as indicated.':'Low (0.6%) risk, if no other indication of cardiac cause, evaluate for non-cardiac causes.'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55eda05825e7e" class="hidden"><span class="exclude"><br>reference:  AAFP Point-of-Care Guide at <a href="http://www.aafp.org/afp/poc" target="_blank">>Ebell (2011) Am Fam Physician 83: 603-5</a>.<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  March 6, 2011; August 18, 2015<br>permalink: <a href="http://www.soapnote.org/cardiovascular/chest-pain-evaluation/" target="_blank">www.soapnote.org/cardiovascular/chest-pain-evaluation/</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/chest-pain-evaluation.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/chest-pain-evaluation.txt</a></span></span><br><br><br><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_55eda05825e7e"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="form.js"></script>
+</div>
+</div>
+</body>
+</html>

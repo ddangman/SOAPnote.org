@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <h1 class="entry-title">cardiac-chest-pain-decision-rule</h1>
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Bösner chest pain decision rule<br>.....................................................................................................<br>Factors:<br> <select name="agesex"><option value="yes (1 point)=1">yes (1 point)</option><option value="no (0 points)=0">no (0 points)</option></select> <-- Man 55 years or older OR Woman 65 years or older<br> <select name="vascular"><option value="yes (1 point)=1">yes (1 point)</option><option value="no (0 points)=0">no (0 points)</option></select>  <-- Known vascular disease (CAD, occlusive vascular disease, cerebrovascular disease)<br><select name="exercise"><option value="yes (1 point)=1">yes (1 point)</option><option value="no (0 points)=0">no (0 points)</option></select>  <-- Pain worse with exercise<br><select name="palpation"><option value="yes (1 point)=1">yes (1 point)</option><option value="no (0 points)=0">no (0 points)</option></select>  <-- Pain not elicited with palpation<br><select name="assume"><option value="yes (1 point)=1">yes (1 point)</option><option value="no (0 points)=0">no (0 points)</option></select> <-- Patient assumes pain is of cardiac origin<br>.....................................................................................................<br> Score --> <span class="calc">number<span class="calc_value">score1=(agesex)+(vascular)+(exercise)+(palpation)+(assume)</span></span> / 5<br>Interpretation --> <span class="calc">result<span class="calc_value">score=(agesex)+(vascular)+(exercise)+(palpation)+(assume); score>3?'Positive likelihood ratio: 4.52 and Negative likelihood ratio: 0.16':score>1?'Positive likelihood ratio: 1.83 and Negative likelihood ratio: 0.03':'Positive likelihood ratio: 4.52 and Negative likelihood ratio: 0.16'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ed9fadc57bb" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/20603345" target="_blank">Bösner (2010) CMAJ. 182:1298</a>, <a href="http://www.fpnotebook.com/Neuro/Exam/NhStrkScl.htm" target="_blank">FP Notebook page</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  February 3, 2013; August 18, 2015<br>permalink: <a href="http://www.soapnote.org/cardiovascular/cardiac-chest-pain-decision-rule/" target="_blank">www.soapnote.org/cardiovascular/cardiac-chest-pain-decision-rule/</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/cardiac-chest-pain-decision-rule.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/cardiac-chest-pain-decision-rule.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_55ed9fadc57bb"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="form.js"></script>
+</div>
+</div>
+</body>
+</html>
