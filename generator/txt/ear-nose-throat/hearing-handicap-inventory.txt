@@ -1,9 +1,4 @@
-http://www.soapnote.org/ear-nose-throat/hearing-handicap-inventory/
-March 25, 2012
-Hearing handicap inventory[html]
-<strong>Summary:</strong> Decision tool to assess impact of hearing loss.
-<strong>Reference:</strong> <a href="http://www.ncbi.nlm.nih.gov/pubmed/6626295" target="_blank">Ventry (1983) ASHA 25(7): 37-42.</a>
-<strong>Link:</strong> <a href="http://www.fpnotebook.com/ent/Exam/HrngHndcpInvntryFrThEldrly.htm" target="_blank">Family Practice Notebook Page</a>[/html]
+Hearing Handicap Inventory - Decision tool to assess impact of hearing loss.
 [select name="Q1" value="Yes: 4 points=4|Sometimes: 2 points=2|No: 0 points=0"] <-- Embarrassed when meeting new people due to hearing problem
 [select name="Q2" value="Yes: 4 points=4|Sometimes: 2 points=2|No: 0 points=0"] <-- Frustrated when speaking to family due to hearing problem
 [select name="Q3" value="Yes: 4 points=4|Sometimes: 2 points=2|No: 0 points=0"] <-- Difficulty hearing whispered voice
@@ -17,8 +12,8 @@ Hearing handicap inventory[html]
 Score --> [calc memo="Score" value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10)"] out of 40 points
 Interpretation --> [calc memo="Interpretation" value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10);score>25?'Severe hearing handicap likelihood (refer)':score>9?'Moderate hearing hadicap likelihood (refer)':'Low hearing handicap likelihood'"]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/6626295" target="_blank">Ventry (1983) ASHA 25(7): 37-42</a>, <a href="http://www.fpnotebook.com/ent/Exam/HrngHndcpInvntryFrThEldrly.htm" target="_blank">Family Practice Notebook Page</a>
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  March 25, 2012; September 6, 2015
+permalink: <a href="http://www.soapnote.org/ear-nose-throat/hearing-handicap-inventory/" target="_blank">www.soapnote.org/ear-nose-throat/hearing-handicap-inventory/</a>
+markup link:  <a href="http://www.soapnote.org/txt/ear-nose-throat/hearing-handicap-inventory.txt" target="_blank">www.soapnote.org/txt/ear-nose-throat/hearing-handicap-inventory.txt</a>[/html][/conditional]

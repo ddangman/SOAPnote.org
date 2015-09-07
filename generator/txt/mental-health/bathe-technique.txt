@@ -1,8 +1,4 @@
-http://www.soapnote.org/mental-health/bathe-technique/
-September 9, 2013
-[html]References: 
-<a href="http://www.amazon.com/gp/product/1846192889/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1846192889&linkCode=as2&tag=soapnote0f-20">The Fifteen Minute Hour: Therapeutic Talk in Primary Care</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=soapnote0f-20&l=as2&o=1&a=1846192889" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/9606304">McCulloch (1998) Am Fam Physician. 57:2131-4</a>
+[html]BATHE Technique
 [/html]PSYCHOSOCIAL HISTORY:
 Background:  [text size=100 default="What is going on in your life?"]
 Affect:  [text size=100 default="How do you feel about that?"]
@@ -10,8 +6,9 @@ Trouble:  [text size=100 default="What about this situation TROUBLES you?"]
 Handling:  [text size=100 default="How are you HANDLING that?"]
 Empathy:  [text size=100 default="That must be difficult for you."]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  <a href="http://www.amazon.com/gp/product/1846192889/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1846192889&linkCode=as2&tag=soapnote0f-20">The Fifteen Minute Hour: Therapeutic Talk in Primary Care</a>, 
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/9606304">McCulloch (1998) Am Fam Physician. 57:2131-4</a>
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  September 9, 2013; September 7, 2015
+permalink: <a href="http://www.soapnote.org/mental-health/bathe-technique/" target="_blank">www.soapnote.org/mental-health/bathe-technique/</a>
+markup link:  <a href="http://www.soapnote.org/txt/mental-health/bathe-technique.txt" target="_blank">www.soapnote.org/txt/mental-health/bathe-technique.txt</a>[/html][/conditional]

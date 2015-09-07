@@ -1,29 +1,8 @@
-http://www.soapnote.org/child-health/newborn-dismissal-summary/
-April 1, 2010
-#1 ***Normal newborn female/Normal newborn male/Premature newborn female/Premature newborn male***
-Time/Date of birth: ***
-Gestational age at birth: *** weeks
-Maternal age: *** years
-Mother's blood type: ***
-Pregnancy complications: ***Uncomplicated/GBS positive/GBS Unknown/Hepatitis B surface antigen positive/< 37 weeks gestation/Meconium-stained amniotic fluid/PIH/Pre-eclampsia/Diabetes/Gestational diabetes/Multiple gestation/Breech presentation/Chorioamnionitis***
-Birth length: *** cm.
-Birth weight: *** kg
-Head circumference: *** cm.
-Delivery type: ***Vaginal/C-section/Forceps/Vacuum***
-Apgar scores: *** at 1 minute; *** at 5 minutes.
-Neonatal Complications: ***None/Maternal GBS positive status, adequately treated during labor/Maternal GBS positive status, inadequately treated during labor/Maternal GBS unknown status/Maternal chorioamnionitis/Hypoglycemia/Jaundice/Feeding Concerns/Clavicular fracture
-Extended neonatal evaluation and treatment: ***
-Hearing Screen: ***
-Newborn Screen: Drawn
-Discharge Weight: xxx kg (down xx% from birth weight)
-Immunizations given: ***Hepatitis B vaccine/HBIG/None***
-Notable dismissal physical findings: ***
-If the patient develops a rectal temperature of 100.4 Fahrenheit or greater in the first two months of life, the patient needs to be seen immediately by a physician. Be sure to keep the car seat facing backwards until the infant is 20 lbs or 12 months old, whichever comes later. Please remember that all babies need to sleep on their backs at all times. If yellow discoloration, or jaundice, is noted to be spreading to below the chin, please contact your provider.
-Follow up with: Dr. *** on *** at ***.
-If you and your baby are dismissed and do not have a followup appointment set up, please call your doctor's clinic as soon as possible to schedule an appointment.
+[html]Newborn Dismissal Summary
+[/html][textarea columns=108 rows=25 default="***Normal newborn female/Normal newborn male/Premature newborn female/Premature newborn male***&#13;&#10;Time/Date of birth: ***&#13;&#10;Gestational age at birth: *** weeks&#13;&#10;Maternal age: *** years&#13;&#10;Mother's blood type: ***&#13;&#10;Pregnancy complications: ***Uncomplicated/GBS positive/GBS Unknown/Hepatitis B surface antigen positive/< 37 weeks gestation/Meconium-stained amniotic fluid/PIH/Pre-eclampsia/Diabetes/Gestational diabetes/Multiple gestation/Breech presentation/Chorioamnionitis***&#13;&#10;Birth length: *** cm.&#13;&#10;Birth weight: *** kg&#13;&#10;Head circumference: *** cm.&#13;&#10;Delivery type: ***Vaginal/C-section/Forceps/Vacuum***&#13;&#10;Apgar scores: *** at 1 minute; *** at 5 minutes.&#13;&#10;Neonatal Complications: ***None/Maternal GBS positive status, adequately treated during labor/Maternal GBS positive status, inadequately treated during labor/Maternal GBS unknown status/Maternal chorioamnionitis/Hypoglycemia/Jaundice/Feeding Concerns/Clavicular fracture&#13;&#10;Extended neonatal evaluation and treatment: ***&#13;&#10;Hearing Screen: ***&#13;&#10;Newborn Screen: Drawn&#13;&#10;Discharge Weight: xxx kg (down xx% from birth weight)&#13;&#10;Immunizations given: ***Hepatitis B vaccine/HBIG/None***&#13;&#10;Notable dismissal physical findings: ***&#13;&#10;If the patient develops a rectal temperature of 100.4 Fahrenheit or greater in the first two months of life, the patient needs to be seen immediately by a physician. Be sure to keep the car seat facing backwards until the infant is 20 lbs or 12 months old, whichever comes later. Please remember that all babies need to sleep on their backs at all times. If yellow discoloration, or jaundice, is noted to be spreading to below the chin, please contact your provider.&#13;&#10;Follow up with: Dr. *** on *** at ***.&#13;&#10;If you and your baby are dismissed and do not have a followup appointment set up, please call your doctor's clinic as soon as possible to schedule an appointment."]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  none
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  April 1, 2010; September 7, 2015
+permalink: <a href="http://www.soapnote.org/child-health/newborn-dismissal-summary/" target="_blank">www.soapnote.org/child-health/newborn-dismissal-summary/</a>
+markup link:  <a href="http://www.soapnote.org/txt/child-health/newborn-dismissal-summary.txt" target="_blank">www.soapnote.org/txt/child-health/newborn-dismissal-summary.txt</a>[/html][/conditional]

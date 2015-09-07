@@ -1,5 +1,3 @@
-http://www.soapnote.org/mental-health/audit/
-August 15, 2014
 The Alcohol Use Disorders Identification Test (AUDIT), developed in 1982 by the World Health Organization, is a simple way to screen and identify people at risk of alcohol  problems.
 [select name="Q1" value="(0) Never (Skip to Questions 9-10)=0|(1) Monthly or less=1|(2) 2 to 4 times a month=2|(3) 2 to 3 times a week=3|(4) 4 or more times a week=4"] <-- 1. How often do you have a drink containing alcohol?
 [select name="Q2" value="(0) 1 or 2=0|(1) 3 or 4=1|(2) 5 or 6=2|(3) 7, 8, or 9=3|(4) 10 or more=4"] <-- 2. How many drinks containing alcohol do you have on a typical day when you are drinking?
@@ -15,8 +13,8 @@ A total score of 8 or more indicates harmful drinking behavior.
 Total Score --> [calc memo="number" value="score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10)"]
 Interpretation --> [calc memo="result" value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10);score2>7?'Harmful drinking behavior':'Negative screen'"]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  <a href="http://www.who.int" target="_blank">World Health Organization</a>
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  August 15, 2014; September 7, 2015
+permalink: <a href="http://www.soapnote.org/mental-health/audit/" target="_blank">www.soapnote.org/mental-health/audit/</a>
+markup link:  <a href="http://www.soapnote.org/txt/mental-health/audit.txt" target="_blank">www.soapnote.org/txt/mental-health/audit.txt</a>[/html][/conditional]

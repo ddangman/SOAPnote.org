@@ -1,5 +1,3 @@
-http://www.soapnote.org/mental-health/short-alcohol-withdrawal-scale/
-January 1, 2014
 Short Alcohol Withdrawal Scale (SAWS)
 QUESTION:  How have you felt in the last 24 hours?
 [select name="QA" value="none (0 points)=0|mild (1 point)=1|moderate (2 points)=2|severe (3 points)=3"] <-- Anxious
@@ -14,11 +12,9 @@ QUESTION:  How have you felt in the last 24 hours?
 [select name="QJ" value="none (0 points)=0|mild (1 point)=1|moderate (2 points)=2|severe (3 points)=3"] <-- Sweating
 Score --> [calc memo="Score" value="scorenum=(QA)+(QB)+(QC)+(QD)+(QE)+(QF)+(QG)+(QH)+(QI)+(QJ)"] points.
 Interpretation --> [calc memo="Interpretation" value="score=(QA)+(QB)+(QC)+(QD)+(QE)+(QF)+(QG)+(QH)+(QI)+(QJ);score>11?'Moderate to severe withdrawal.':'Mild withdrawal.'"]
-[html]REFERENCE:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/20570824">Elholm B, Larsen K, Hornnes N, Zierau F, Becker U.  A psychometric validation of the Short Alcohol Withdrawal Scale (SAWS). Alcohol Alcohol. 2010;45(4):361-5.</a>[/html]
-
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/20570824" target="_blank">Elholm B, Larsen K, Hornnes N, Zierau F, Becker U.  A psychometric validation of the Short Alcohol Withdrawal Scale (SAWS). Alcohol Alcohol. 2010;45(4):361-5.</a>
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  January 1, 2014; September 7, 2015
+permalink: <a href="http://www.soapnote.org/mental-health/short-alcohol-withdrawal-scale/" target="_blank">www.soapnote.org/mental-health/short-alcohol-withdrawal-scale/</a>
+markup link:  <a href="http://www.soapnote.org/txt/mental-health/short-alcohol-withdrawal-scale.txt" target="_blank">www.soapnote.org/txt/mental-health/short-alcohol-withdrawal-scale.txt</a>[/html][/conditional]

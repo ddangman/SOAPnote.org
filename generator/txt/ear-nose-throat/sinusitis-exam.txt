@@ -1,14 +1,8 @@
-http://www.soapnote.org/ear-nose-throat/sinusitis-exam/
-April 1, 2010
-HEENT: Conjunctiva normal.  Auditory canals and TM's normal.  Nares ***mucopurulent rhinorrhea on L side/mucopurulent rhinorrhea on R side/mucopurulent rhinorrhea on both sides/no mucopurulent rhinorrhea***, tenderness on palpation over ***R maxillary sinus/L maxillary sinus/both maxillary sinuses/ethmoid sinuses/R frontal sinus/L frontal sinus/both frontal sinuses/none of the sinuses***.  Oral exam without lesions, posterior pharynx non-erythematous ***with purulent PND and lymphoid hypertrophy or cobblestoning/without purulent PND***
-NECK: Supple, shotty adenopathy anteriorly; no posterior nodes palpable.
-LUNGS: Clear to auscultation without wheezes, rales, or rhonchi. Good excursions. No dullness on percussion.
-COR: RRR with normal S1, S2 without murmur, gallop, or rub.
-ABD: Soft, non-tender, without hepatosplenomegaly
-SKIN: No rash present
+[html]Sinusitis Exam
+[/html][textarea columns=108 rows=25 default="HEENT: Conjunctiva normal.  Auditory canals and TM's normal.  Nares ***mucopurulent rhinorrhea on L side/mucopurulent rhinorrhea on R side/mucopurulent rhinorrhea on both sides/no mucopurulent rhinorrhea***, tenderness on palpation over ***R maxillary sinus/L maxillary sinus/both maxillary sinuses/ethmoid sinuses/R frontal sinus/L frontal sinus/both frontal sinuses/none of the sinuses***.  Oral exam without lesions, posterior pharynx non-erythematous ***with purulent PND and lymphoid hypertrophy or cobblestoning/without purulent PND***&#13;&#10;NECK: Supple, shotty adenopathy anteriorly; no posterior nodes palpable.&#13;&#10;LUNGS: Clear to auscultation without wheezes, rales, or rhonchi. Good excursions. No dullness on percussion.&#13;&#10;CARDIOVASCULAR: RRR with normal S1, S2 without murmur, gallop, or rub.&#13;&#10;ABDOMEN: Soft, non-tender, without hepatosplenomegaly&#13;&#10;SKIN: No rash present"]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  none
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  April 1, 2010; September 6, 2015
+permalink: <a href="http://www.soapnote.org/ear-nose-throat/sinusitis-exam/" target="_blank">www.soapnote.org/ear-nose-throat/sinusitis-exam/</a>
+markup link:  <a href="http://www.soapnote.org/txt/ear-nose-throat/sinusitis-exam.txt" target="_blank">www.soapnote.org/txt/ear-nose-throat/sinusitis-exam.txt</a>[/html][/conditional]

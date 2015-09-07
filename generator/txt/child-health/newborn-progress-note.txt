@@ -1,26 +1,8 @@
-April 1, 2010
-http://www.soapnote.org/child-health/newborn-progress-note/
-SUBJECTIVE: Day of life *** for this newborn. Born by ***vaginal/vacuum assisted vaginal/forceps assisted vaginal/C-section*** delivery at ***time and date*** at ***gestational age*** weeks to a ***mothers age*** year old G*** now P*** mother. Pregnancy was ***uncomplicated/complicated by ***
-Mother is blood type ***, Hepatitis B ***negative/positive/unknown***
-HIV ***negative/positive/unknown***, and was found to be GBS ***negative/positive/unknown***
-Baby is feeding well by ***breast/bottle/bottle and breast***
-No problems with urine or stooling pattern.
-OBJECTIVE: Skin: ***normal turgor and without lesions/Jaundice of face/Jaundice to nipple line/Jaundice to abdomen/Jaundice to thighs/Erythema toxicum***
-Head: Normocephalic with age-appropriate fontanelles.
-ENT: Normal appearing external ears. Nose clear. Palate is complete.
-CV: Regular rate and rhythm. Normal S1 and S2. No murmurs, gallops, or rubs. No peripheral cyanosis or edema
-Lungs: Unlabored respirations. Symmetric chest expansion. Clear breath sounds.
-Abdomen: Soft, without organomegaly. Bowel sounds normal. No masses palpable. No distention.
-Genitalia: ***Normal male external genitalia. Testes descended bilaterally./Normal female external genitalia.***
-Joints: Hips with full range of motion. Negative Barlow and Ortolani.
-ASSESSMENT/PLAN:
-#1 Newborn ***male/female***
--Continue normal newborn nursery cares and feeds ad lib
--Hearing screen, state newborn screen, prior to discharge
--Hepatitis B vaccine per nursing protocol
+[html]Newborn Progress Note
+[/html][textarea columns=108 rows=25 default="SUBJECTIVE: Day of life *** for this newborn. Born by ***vaginal/vacuum assisted vaginal/forceps assisted vaginal/C-section*** delivery at ***time and date*** at ***gestational age*** weeks to a ***mothers age*** year old G*** now P*** mother. Pregnancy was ***uncomplicated/complicated by ***&#13;&#10;Mother is blood type ***, Hepatitis B ***negative/positive/unknown***&#13;&#10;HIV ***negative/positive/unknown***, and was found to be GBS ***negative/positive/unknown***&#13;&#10;Baby is feeding well by ***breast/bottle/bottle and breast***&#13;&#10;No problems with urine or stooling pattern.&#13;&#10;OBJECTIVE: Skin: ***normal turgor and without lesions/Jaundice of face/Jaundice to nipple line/Jaundice to abdomen/Jaundice to thighs/Erythema toxicum***&#13;&#10;Head: Normocephalic with age-appropriate fontanelles.&#13;&#10;ENT: Normal appearing external ears. Nose clear. Palate is complete.&#13;&#10;CV: Regular rate and rhythm. Normal S1 and S2. No murmurs, gallops, or rubs. No peripheral cyanosis or edema&#13;&#10;Lungs: Unlabored respirations. Symmetric chest expansion. Clear breath sounds.&#13;&#10;Abdomen: Soft, without organomegaly. Bowel sounds normal. No masses palpable. No distention.&#13;&#10;Genitalia: ***Normal male external genitalia. Testes descended bilaterally./Normal female external genitalia.***&#13;&#10;Joints: Hips with full range of motion. Negative Barlow and Ortolani.&#13;&#10;ASSESSMENT/PLAN:&#13;&#10;#1 Newborn ***male/female***&#13;&#10;-Continue normal newborn nursery cares and feeds ad lib&#13;&#10;-Hearing screen, state newborn screen, prior to discharge&#13;&#10;-Hepatitis B vaccine per nursing protocol"]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  none
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  April 1, 2010; September 7, 2015
+permalink: <a href="http://www.soapnote.org/child-health/newborn-progress-note/" target="_blank">www.soapnote.org/child-health/newborn-progress-note/</a>
+markup link:  <a href="http://www.soapnote.org/txt/child-health/newborn-progress-note.txt" target="_blank">www.soapnote.org/txt/child-health/newborn-progress-note.txt</a>[/html][/conditional]

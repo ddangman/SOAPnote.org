@@ -1,7 +1,6 @@
-http://www.soapnote.org/mental-health/insomnia-treatment-checklist/
-January 14, 2015
-A/P:  Insomnia[html]
-Reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/19178064" target="_blank">Harsora P, Kessmann J. Nonpharmacologic management of chronic insomnia. Am Fam Physician. 2009 Jan 15;79(2):125-30.</a>[/html][html]
+[html]Insomnia Treatment Checklist
+[/html][textarea columns=108 rows=2 default="Assessment: Insomnia&#13;&#10;Plan: "]
+[textarea default="Assessment:  Insomnia"[html]
 <strong>COGNITIVE THERAPIES</strong>[/html]
 [checkbox value="Discuss realistic expectations about sleep requirements.  "][checkbox value="Discuss consequences of insomnia.  "][html]
 <strong>SLEEP HYGIENE EDUCATION</strong>[/html]
@@ -11,8 +10,8 @@ Reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/19178064" target="_blank
 <strong>RELAXATION THERAPIES</strong>[/html]
 [checkbox value="Autogenic training:  Imagine a peaceful environment and comforting body sensations, such as warmth and heaviness in the limbs, warmth in the upper abdomen, and coolness on the forehead.  "][checkbox value="Paced respirations:  Take a deep breath and hold for five seconds, repeat several times; focus on the sound of the breath.  "][checkbox value="Progressive muscle relaxation:  Tense and relax large muscle groups; usually begin with the feet and work your way up to the facial muscles.  "][checkbox value="Repetitive focus:  Focus on a word, sound, prayer, phrase, or muscle activity.  "]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/19178064" target="_blank">Harsora P, Kessmann J. Nonpharmacologic management of chronic insomnia. Am Fam Physician. 2009 Jan 15;79(2):125-30.</a>
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  January 14, 2015; September 7, 2015
+permalink: <a href="http://www.soapnote.org/mental-health/insomnia-treatment-checklist/" target="_blank">www.soapnote.org/mental-health/insomnia-treatment-checklist/</a>
+markup link:  <a href="http://www.soapnote.org/txt/mental-health/insomnia-treatment-checklist.txt" target="_blank">www.soapnote.org/txt/mental-health/insomnia-treatment-checklist.txt</a>[/html][/conditional]

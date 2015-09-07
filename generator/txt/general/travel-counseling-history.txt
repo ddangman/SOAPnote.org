@@ -1,4 +1,4 @@
-September 30, 2010 
+Travel Counseling History
 http://www.soapnote.org/general/travel-counseling-history/
 [select name="Q1" value="male|female"] <-- Gender[conditional field="Q1" condition="(Q1).is('female')"]
 [select value="no|YES"] <-- Pregnant
@@ -57,8 +57,8 @@ Has received these in the last 4 weeks?
 Motion sickness?
 [select value="no|YES"] <-- Is prone to motion sickness
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  none
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  September 30, 2010; September 7, 2015
+permalink: <a href="http://www.soapnote.org/general/travel-counseling-history/" target="_blank">www.soapnote.org/general/travel-counseling-history/</a>
+markup link:  <a href="http://www.soapnote.org/txt/general/travel-counseling-history.txt" target="_blank">www.soapnote.org/txt/general/travel-counseling-history.txt</a>[/html][/conditional]

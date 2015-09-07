@@ -18,21 +18,3 @@ posted by:  Mark Morgan, M.D.
 post/review dates:  April 28, 2010; August 21, 2015
 permalink: <a href="http://www.soapnote.org/respiratory/cough-history/" target="_blank">www.soapnote.org/respiratory/cough-history/</a>
 markup link:  <a href="http://www.soapnote.org/txt/respiratory/cough-history.txt" target="_blank">www.soapnote.org/txt/respiratory/cough-history.txt</a>[/html][/conditional]
-
-
-cough-history/
-April 28, 2010
-History provided by [text]
-The patient has had cough for [text] days.
-
-Cough [select value="has not been productive|has been productive"].
-Frequency is [select value="infrequent|intermittent|constant"].
-Severity is [select value="minimal|moderate|severe"].
-Fever [select value="is not present|is present"]
-Other characteristics include [checkbox value="sputum clear|sputum purulent|hemoptysis noted|harsh and barking quality|post-tussive emesis"].
-Over the counter medications/remedies that have been tried are [text].
-Patient has [select value="no known|known"] sick contacts at home, school, or work.
-Other symptoms: [checkbox value="sore throat|nasal congestion|earache|headache|myalgias"].
-Other clues: [checkbox value="seasonal allergies|gastroesophageal reflux (GERD)"].
-History of pulmonary problems:  [checkbox name="pulmhx" value="no respiratory problems|frequent pneumonia|frequent bronchitis|asthma|other"][conditional field="pulmhx" condition="(pulmhx).is('other')"][text size=72 memo="<--describe other"][/conditional].
-Tobacco:  [checkbox name="tobacco" value="Patient is not a smoker|Patient is a current or former smoker|Patient is exposed to second hand smoke"][conditional field="tobacco" condition="(tobacco).is('Patient is a current or former smoker')"] [text size=72 memo="<--smoking details (optional)"][/conditional].

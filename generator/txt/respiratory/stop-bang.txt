@@ -1,7 +1,4 @@
-http://www.soapnote.org/respiratory/stop-bang/
-September 13, 2014
-STOP-BANG Questionnaire for Obstructive Sleep Apnea[html]
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18431116" target="_blank">Chung F, Yegneswaran B, Liao P, Chung SA, Vairavanathan S, Islam S, Khajehdehi A, Shapiro CM. STOP questionnaire: a tool to screen patients for obstructive sleep apnea. Anesthesiology. 2008 May;108(5):812-21</a>[/html]
+STOP-BANG Questionnaire for Obstructive Sleep Apnea
 [select name="Q1" value="no=0|YES=1"] <-- 1. Do you SNORE loudly (louder than talking or loud enough to be heard through closed doors)?
 [select name="Q2" value="no=0|YES=1"] <-- 2. Do you often feel TIRED, fatigued, or sleepy during daytime?
 [select name="Q3" value="no=0|YES=1"] <-- 3. Has anyone OBSERVED you stop breathing during your sleep?
@@ -14,8 +11,8 @@ STOP-BANG Questionnaire for Obstructive Sleep Apnea[html]
 Score --> [calc memo="number" value="score0=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)"] / 8
 Interpretation --> [calc memo="result" value="score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8);score1>2?'High Risk for Obstructive Sleep Apnea':'Low Risk for Obstructive Sleep Apnea'"]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/18431116" target="_blank">Chung F, Yegneswaran B, Liao P, Chung SA, Vairavanathan S, Islam S, Khajehdehi A, Shapiro CM. STOP questionnaire: a tool to screen patients for obstructive sleep apnea. Anesthesiology. 2008 May;108(5):812-21</a>
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  September 13, 2014; September 7, 2015
+permalink: <a href="http://www.soapnote.org/respiratory/stop-bang/" target="_blank">www.soapnote.org/respiratory/stop-bang/</a>
+markup link:  <a href="http://www.soapnote.org/txt/respiratory/stop-bang.txt" target="_blank">www.soapnote.org/txt/respiratory/stop-bang.txt</a>[/html][/conditional]

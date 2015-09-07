@@ -1,6 +1,4 @@
-September 13, 2013
-http://www.soapnote.org/mental-health/adhd-criteria/
-DSM-IV Criteria for ADHD [html]<a href="http://www.fpnotebook.com/peds/neuro/AdhdDgns.htm">more at FP Notebook</a>[/html]
+DSM-IV Criteria for ADHD
 To make diagnosis, need to satisfy either Item 1 or Item 2.
 
 1. Six (or more) of the following symptoms of INATTENTION have persisted for at least six months to a degree that is maladaptive and inconsistent with developmental level:
@@ -34,8 +32,8 @@ Interpretation
 ADHD - Inattention --> [calc memo="interpretation" value="score=(Q11)+(Q12)+(Q13)+(Q14)+(Q15)+(Q16)+(Q17)+(Q18)+(Q19);score>5?'MEETS CRITERIA':'Does not meet criteria'"]
 ADHD - Hyperactivity/Impulsivity --> [calc memo="interpretation" value="score=(Q21)+(Q22)+(Q23)+(Q24)+(Q25)+(Q26)+(Q27)+(Q28)+(Q29);score>5?'MEETS CRITERIA':'Does not meet criteria'"]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  <a href="http://www.fpnotebook.com/peds/neuro/AdhdDgns.htm" target="_blank">FP Notebook</a>
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  September 13, 2013; September 6, 2015
+permalink: <a href="http://www.soapnote.org/mental-health/adhd-criteria/" target="_blank">www.soapnote.org/mental-health/adhd-criteria/</a>
+markup link:  <a href="http://www.soapnote.org/txt/mental-health/adhd-criteria.txt" target="_blank">www.soapnote.org/txt/mental-health/adhd-criteria.txt</a>[/html][/conditional]

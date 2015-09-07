@@ -1,6 +1,5 @@
-http://www.soapnote.org/ear-nose-throat/otitis-media-plan/
-September 30, 2010
-Assessment:
+[html]Otitis Media Assessment/Plan
+[/html]Assessment:
 [select value="side|Left|Right|Bilateral"] [select value="diagnosis|otitis media|eustachian tube dysfunction|otalgia- etiology unclear|serous otitis media|myringitis"]
 Plan:
 Analgesia:  [select value="A/B Otic drops with oral over-the-counter analgesics as needed for pain|A/B Otic drops as needed for pain|Over the counter analgesics as needed for pain"]
@@ -8,8 +7,8 @@ Antibiotics:  [select value="none are indicated|Amoxicillin 80-90 mg/kg divided 
 Follow up:  If not improving or if worsening instructed patient to [select value="call office|return to clinic|call or return to clinic"]
 Education:  [checkbox value="symptomatic measures|medication side effects|natural course"]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  none
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  September 30, 2010; September 6, 2015
+permalink: <a href="http://www.soapnote.org/ear-nose-throat/otitis-media-plan/" target="_blank">www.soapnote.org/ear-nose-throat/otitis-media-plan/</a>
+markup link:  <a href="http://www.soapnote.org/txt/ear-nose-throat/otitis-media-plan.txt" target="_blank">www.soapnote.org/txt/ear-nose-throat/otitis-media-plan.txt</a>[/html][/conditional]

@@ -1,19 +1,8 @@
-http://www.soapnote.org/eye/stye-plan/
-April 12, 2010
-#1 ***Stye OD/Stye OS/Chalazion OD/Chalazion OS*** ***right/left/bilateral*** ***upper lid/lower lid***
-Treatment:
-erythromycin ophthalmic ointment apply to affected eye tid until resolved
-gentamicin drops 2 drops affected eye qid until resolved
-gentamicin ointment apply tid to affected eye until resolved
-Sulamyd 10% drops 2 drops affected eye qid until resolved
-cephalexin 500 mg bid x 7 days
-cephalexin ***dose*** bid x 7 days
-warm compresses
-referral to Ophthalmology
-Follow up if symptoms not resolving or increasing. Follow up immediately if problems develop.
+[html]Stye Assessment/Plan
+[/html][textarea columns=108 rows=25 default="Assessment: ***Stye OD/Stye OS/Chalazion OD/Chalazion OS***&#13;&#10;***right/left/bilateral*** ***upper lid/lower lid***&#13;&#10;Treatment:&#13;&#10;erythromycin ophthalmic ointment apply to affected eye tid until resolved&#13;&#10;gentamicin drops 2 drops affected eye qid until resolved&#13;&#10;gentamicin ointment apply tid to affected eye until resolved&#13;&#10;Sulamyd 10% drops 2 drops affected eye qid until resolved&#13;&#10;cephalexin 500 mg bid x 7 days&#13;&#10;cephalexin ***dose*** bid x 7 days&#13;&#10;warm compresses&#13;&#10;referral to Ophthalmology&#13;&#10;Follow up if symptoms not resolving or increasing. Follow up immediately if problems develop."]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  none
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  April 12, 2010; September 6, 2015
+permalink: <a href="http://www.soapnote.org/eye/stye-plan/" target="_blank">www.soapnote.org/eye/stye-plan/</a>
+markup link:  <a href="http://www.soapnote.org/txt/eye/stye-plan.txt" target="_blank">www.soapnote.org/txt/eye/stye-plan.txt</a>[/html][/conditional]

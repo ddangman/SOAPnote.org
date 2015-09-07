@@ -1,12 +1,6 @@
-http://www.soapnote.org/respiratory/bode-index/
-March 13, 2012
 BODE Index for COPD Prognosis[html]
 <strong>Summary:</strong>
 The body-mass index, airflow obstruction, dyspnea, and exercise capacity (BODE) index in chronic obstructive pulmonary disease.
-<strong>References:</strong>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/14999112" target="_blank">Celli (2004) N Engl J Med 350(10): 1005-1012.</a>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/13823475" target="_blank">Fletcher (1959) Br Med J 2:257-66.</a>
-<strong>Link:</strong> <a href="http://www.fpnotebook.com/lung/exam/BdIndx.htm" target="_blank">FPNotebook page</a>[/html]
 [select name="Q1" value="More than 64% (0 points)=0|50-64% (1 point)=1|36-49% (2 points)=2|Less than 36% (3 points)=3"] <-- FEV1
 [select name="Q2" value="Walks >349 meters (0 points)=0|Walks 250-349 meters (1 point)=1|Walks 150-249 meters (2 points)=2|Walks <150 meters (3 points)=3"] <-- Six-Minute Walk Test[html]
 more on <a href="http://www.fpnotebook.com/Geri/Exam/SxMntWlkTst.htm" target="_top">Six-Minute Walk Test</a>.[/html]
@@ -22,8 +16,8 @@ more on <a href="http://www.fpnotebook.com/Lung/Exam/DyspnIndx.htm" target="_top
 Score --> [calc memo="score" value="score=(Q1)+(Q2)+(Q3)+(Q4)"] out of 10
 Higher scores indicate a greater risk of death.
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/14999112" target="_blank">Celli (2004) N Engl J Med 350(10): 1005-1012.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/13823475" target="_blank">Fletcher (1959) Br Med J 2:257-66.</a>, <a href="http://www.fpnotebook.com/lung/exam/BdIndx.htm" target="_blank">FPNotebook page</a>
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  March 13, 2012; September 7, 2015
+permalink: <a href="http://www.soapnote.org/respiratory/bode-index/" target="_blank">www.soapnote.org/respiratory/bode-index/</a>
+markup link:  <a href="http://www.soapnote.org/txt/respiratory/bode-index.txt" target="_blank">www.soapnote.org/txt/respiratory/bode-index.txt</a>[/html][/conditional]

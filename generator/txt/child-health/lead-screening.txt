@@ -1,5 +1,3 @@
-http://www.soapnote.org/child-health/lead-screening/
-April 1, 2010
 Routine blood lead screening:
 [select name="Q1" value="no|YES"] <-- moving from a foreign country within last 12 months
 [select name="Q2" value="no|YES"] <-- moving from a major metropolitan area within last 12 months
@@ -13,8 +11,8 @@ Routine blood lead screening:
 [select name="Q10" value="no|YES"] <-- playmate diagnosed with blood lead poisoning
 [select name="Q11" value="no|YES"] <-- living in or regularly visiting a building built before 1978 with recent repair, remodeling, or damage
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  none
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  April 1, 2010; September 7, 2015
+permalink: <a href="http://www.soapnote.org/child-health/lead-screening/" target="_blank">www.soapnote.org/child-health/lead-screening/</a>
+markup link:  <a href="http://www.soapnote.org/txt/child-health/lead-screening.txt" target="_blank">www.soapnote.org/txt/child-health/lead-screening.txt</a>[/html][/conditional]

@@ -1,7 +1,4 @@
-http://www.soapnote.org/urology/diagnosis-of-incontinence/
-April 17, 2013
 Diagnosis of Incontinence - Patients who report leaking urine in any amount over the past 3 months.
-[link url="http://www.aafp.org/afp/2013/0415/p543.html" memo="Khandelwhal (2013) Am Fam Physician 87:543"] [link url="http://www.ncbi.nlm.nih.gov/pubmed/16702587" memo="Brown (2006) Ann Intern Med 144:716"]
 1. During the past 3 months, did you leak urine? (check all that apply)
 [checkbox value="When you were performing some physical activity, such as coughing, sneezing, lifting, or exercising.|When you had the urge or the feeling that you needed to empty your bladder, but you could not get to the toilet fast enough.|Without physical activity and without a sense of urgency."]
 2. During the past 3 months, did you leak urine MOST often: 
@@ -9,8 +6,8 @@ Diagnosis of Incontinence - Patients who report leaking urine in any amount over
 ------------------------------------------------------------
 Interpretation: [calc value="score=(leak);score>3?'Mixed':score>2?'Other cause only or other cause predominant':score>1?'Urge only or urge predominant':'Stress only or stress predominant'" memo="score interpretation"]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  <a href="http://www.aafp.org/afp/2013/0415/p543.html" target="_blank">Khandelwhal (2013) Am Fam Physician 87:543</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/16702587" target="_blank">Brown (2006) Ann Intern Med 144:716</a>
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  April 17, 2013; September 7, 2015
+permalink: <a href="http://www.soapnote.org/women/diagnosis-of-incontinence/" target="_blank">www.soapnote.org/women/diagnosis-of-incontinence/</a>
+markup link:  <a href="http://www.soapnote.org/txt/women/diagnosis-of-incontinence.txt" target="_blank">www.soapnote.org/txt/women/diagnosis-of-incontinence.txt</a>[/html][/conditional]

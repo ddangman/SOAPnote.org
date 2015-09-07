@@ -1,9 +1,5 @@
-http://www.soapnote.org/mental-health/ptsd-screen/
-February 1, 2011
-Post Traumatic Stress Disorder (PTSD)[html]
-Summary: This is a calculator to screen for Post Traumatic Stress Disorder (PTSD).
-AAFP Point-of-Care Guide at <a href="http://www.aafp.org/afp/2007/1215/p1848.html">Ebell (2007) Am Fam Physician 76: 1848-9</a>.
-PDF article on the PC-PTSD Screening Tool at <a href="http://www.ptsd.va.gov/professional/articles/article-pdf/id26676.pdf">Prins (2004) Prim Care Psych 9: 9-14</a>.[/html]
+Post Traumatic Stress Disorder (PTSD) Screen[html]
+Summary: This is a calculator to screen for Post Traumatic Stress Disorder (PTSD).[/html]
 To use the PC-PTSD instrument, ask the patient, “In your life have you ever had any experience that was so frightening, horrible, or upsetting that in the past month you: (four question items below)
 ---------------------------------------------------------------------------
 [select name="Q1" value="no=0|YES=1"] <-- Have had nightmares about it or thought about it when you did not want to?
@@ -13,8 +9,8 @@ To use the PC-PTSD instrument, ask the patient, “In your life have you ever ha
 Result --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4);score>2?'positive screen for PTSD':'negative screen for PTSD'" memo="Interpretation"]
 
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  AAFP Point-of-Care Guide at <a href="http://www.aafp.org/afp/2007/1215/p1848.html" target="_blank">Ebell (2007) Am Fam Physician 76: 1848-9</a>, PDF article on the PC-PTSD Screening Tool at <a href="http://www.ptsd.va.gov/professional/articles/article-pdf/id26676.pdf" target="_blank">Prins (2004) Prim Care Psych 9: 9-14</a>.
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  February 1, 2011; September 7, 2015
+permalink: <a href="http://www.soapnote.org/mental-health/ptsd-screen/" target="_blank">www.soapnote.org/mental-health/ptsd-screen/</a>
+markup link:  <a href="http://www.soapnote.org/txt/mental-health/ptsd-screen.txt" target="_blank">www.soapnote.org/txt/mental-health/ptsd-screen.txt</a>[/html][/conditional]

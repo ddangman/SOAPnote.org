@@ -1,8 +1,5 @@
-http://www.soapnote.org/mental-health/multi-axial-assessment/
-March 14, 2012
 Multi-Axial Assessment[html]
-Summary: This is the documentation system for diagnosis of psychiatric illness.
-References: <a href="http://psychiatryonline.org/" target="_blank">Diagnostic and Statistical Manual of Mental Disorders</a>.[/html]
+Summary: This is the documentation system for diagnosis of psychiatric illness.[/html]
 
 Axis I: Psychiatric Illness
 [textarea default="Such as Major Depression, Anxiety Disorder, Obsessive Compulsive Disorder, or Bipolar Disorder"]
@@ -24,8 +21,8 @@ Highest GAF in the last year
 [select name="Q2" value="91-100: Higher level functioning in broad range of activities with good and control of typical life stressors|81-90: Other than mild psychiatric symptoms for common triggers, good level of functioning|71-80: Mild psychiatric symptoms with triggers and mild impact on functioning|61-70: Mild psychiatric symptoms with impact on functioning, but overall functioning is good and relationships are maintained|51-60: Moderate psychiatric symptoms with moderate impact on functioning|41-50: Serious symptoms and impaired functioning|31-40: Impaired reality and major Impairment|21-30: Delusions, hallucinations, or serious Impairment|11-20: Danger to self or others|1-10: Persistent danger to self or others"]
 
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  <a href="http://psychiatryonline.org/" target="_blank">Diagnostic and Statistical Manual of Mental Disorders</a>.
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  March 14, 2012; September 7, 2015
+permalink: <a href="http://www.soapnote.org/mental-health/multi-axial-assessment/" target="_blank">www.soapnote.org/mental-health/multi-axial-assessment/</a>
+markup link:  <a href="http://www.soapnote.org/txt/mental-health/multi-axial-assessment.txt" target="_blank">www.soapnote.org/txt/mental-health/multi-axial-assessment.txt</a>[/html][/conditional]

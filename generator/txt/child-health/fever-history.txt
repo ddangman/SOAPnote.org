@@ -1,15 +1,8 @@
-http://www.soapnote.org/child-health/fever-history/
-April 1, 2010
-History provided by ***mother/father/grandparent/patient***
-*** day history of fever. The fever has been as high as: ***. Taken ***rectally/axillary/by tympanic reading/orally***. There have ***not been/been*** localizing symptoms which would explain the fever. Specifically, no ***poor sleep/runny nose/cough/dyspnea/emesis/foul odor to the urine/diarrhea/apparent sore throat/ear complaints/rash/abdominal pain/dysuria/change in sensorium/headache***. Feeding/appetite ***has been normal/has not been normal***. Urine output ***has been adequate/has been inadequate***.
-The patient has ***no*** other family members with fever
-The patient has ***not*** been exposed to ill contacts at day care
-The patient has ***not*** been vaccinated recently
-There have been ***no*** known exposures
-The patient has ***no*** past history of febrile seizures
+[html]Fever History
+[/html][textarea columns=108 rows=25 default="History provided by ***mother/father/grandparent/patient***&#13;&#10;*** day history of fever. The fever has been as high as: ***. Taken ***rectally/axillary/by tympanic reading/orally***. There have ***not been/been*** localizing symptoms which would explain the fever. Specifically, no ***poor sleep/runny nose/cough/dyspnea/emesis/foul odor to the urine/diarrhea/apparent sore throat/ear complaints/rash/abdominal pain/dysuria/change in sensorium/headache***. Feeding/appetite ***has been normal/has not been normal***. Urine output ***has been adequate/has been inadequate***.&#13;&#10;The patient has ***no*** other family members with fever&#13;&#10;The patient has ***not*** been exposed to ill contacts at day care&#13;&#10;The patient has ***not*** been vaccinated recently&#13;&#10;There have been ***no*** known exposures&#13;&#10;The patient has ***no*** past history of febrile seizures"]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  none
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  April 1, 2010; September 7, 2015
+permalink: <a href="http://www.soapnote.org/child-health/fever-history/" target="_blank">www.soapnote.org/child-health/fever-history/</a>
+markup link:  <a href="http://www.soapnote.org/txt/child-health/fever-history.txt" target="_blank">www.soapnote.org/txt/child-health/fever-history.txt</a>[/html][/conditional]

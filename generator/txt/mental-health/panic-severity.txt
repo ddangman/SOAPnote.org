@@ -1,7 +1,4 @@
-http://www.soapnote.org/mental-health/panic-severity/
-May 14, 2015
-Severity Measure for Panic Disorder[html]
-<a href="http://www.psychiatry.org/file%20library/practice/dsm/dsm-5/severitymeasureforpanicdisorderadult.pdf" target="_blank">American Psychiatric Association (2013)</a>[/html]
+Severity Measure for Panic Disorder
 
 During the PAST 7 DAYS, I have...
 ￼
@@ -21,8 +18,8 @@ Average Total Score --> [calc value="((.1)*(score1)).toFixed(0)" memo="score"]
 Interpretation --> [calc value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10);score2>34?'EXTREME':score2>24?'SEVERE':score2>14?'MODERATE':score2>4?'MILD':'NONE'" memo="severity"]
 
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  <a href="http://www.psychiatry.org/file%20library/practice/dsm/dsm-5/severitymeasureforpanicdisorderadult.pdf" target="_blank">American Psychiatric Association (2013)</a>
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  May 14, 2015; September 7, 2015
+permalink: <a href="http://www.soapnote.org/mental-health/panic-severity/" target="_blank">www.soapnote.org/mental-health/panic-severity/</a>
+markup link:  <a href="http://www.soapnote.org/txt/mental-health/panic-severity.txt" target="_blank">www.soapnote.org/txt/mental-health/panic-severity.txt</a>[/html][/conditional]

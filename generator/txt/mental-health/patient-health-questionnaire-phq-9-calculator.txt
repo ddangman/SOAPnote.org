@@ -1,7 +1,4 @@
-http://www.soapnote.org/mental-health/patient-health-questionnaire-phq-9-calculator/
-June 5, 2010
-Patient Health Questionnaire PHQ-9[html]
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/11556941" target="_blank">Kroenke (2001) J Gen Intern Med 16:606-13.</a>[/html]
+Patient Health Questionnaire PHQ-9 - Depression Screen
 [select name="Q1" value="not at all (0 points)=0|several days (1 point)=1|more than half the days (2 points)=2|nearly every day (3 points)=3"] <-- #1 Little interest or pleasure in doing things over the last 2 weeks
 [select name="Q2" value="not at all (0 points)=0|several days (1 point)=1|more than half the days (2 points)=2|nearly every day (3 points)=3"] <-- #2 Feeling down, depressed or hopeless over the last 2 weeks
 [select name="Q3" value="not at all (0 points)=0|several days (1 point)=1|more than half the days (2 points)=2|nearly every day (3 points)=3"] <-- #3 Trouble falling or staying asleep, or sleeping too much over the last weeks
@@ -14,8 +11,8 @@ Patient Health Questionnaire PHQ-9[html]
 Score --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)" memo="score"] out of 27 points.  Interpretation --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9);score>20?'Severe':score>14?'Moderately Severe':score>9?'Mild':score>4?'Minimal Symptoms':'Asymptomatic'" memo="interpretation"]
 
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/11556941" target="_blank">Kroenke (2001) J Gen Intern Med 16:606-13.</a>
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  June 5, 2010; September 7, 2015
+permalink: <a href="http://www.soapnote.org/mental-health/patient-health-questionnaire-phq-9-calculator/" target="_blank">www.soapnote.org/mental-health/patient-health-questionnaire-phq-9-calculator/</a>
+markup link:  <a href="http://www.soapnote.org/txt/mental-health/patient-health-questionnaire-phq-9-calculator.txt" target="_blank">www.soapnote.org/txt/mental-health/patient-health-questionnaire-phq-9-calculator.txt</a>[/html][/conditional]

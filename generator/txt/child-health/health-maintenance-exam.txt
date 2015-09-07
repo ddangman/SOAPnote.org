@@ -1,28 +1,8 @@
-http://www.soapnote.org/child-health/health-maintenance-exam/
-April 1, 2010
-General: Appears age appropriate.
-Skin: Normal turgor and without lesions.
-Head: ***<1 yr - Normocephalic with age appropriate fontanelles./>1 yr - Normocephalic.***
-Eyes: Conjunctivae non-injected; sclerae anicteric; extraocular movements intact; pupils equal, round, and reactive to light. ***<1yr - Red reflex present bilaterally./1-4 yr - Red reflex present bilaterally. Symmetric light reflex./>5 yr - Symmetric light reflex, normal fundi.
-ENT: Tympanic membranes gray, sharp landmarks. Nose clear. Palate is complete. Tonsils non-inflamed bilaterally.
-Lymph Nodes: No significant lymphadenopathy.
-Thyroid: No thyromegaly; trachea midline without masses.
-Breasts: Without lesions or drainage.
-Peripheral Vessels: Normal pulses and perfusion.
-Heart: Regular rate and rhythm; normal S1 and S2; no murmurs, gallops, or rubs.
-Lungs: Unlabored respirations; symmetric chest expansion; clear breath sounds.
-Abdomen: Soft, without organomegaly. Bowel sounds normal. Nontender without rebound. No masses palpable. No distention.
-Genitalia: ***Normal male external genitalia; testes descended bilaterally; no hernia./Normal female external genitalia.***
-Tanner: Tanner stage ***I/II/III/IV/V***
-Spine: Straight with no lesions.
-Joints: <4 months - Hips with full range-of-motion; negative Barlow and Ortolani./>4 months - Full range-of-motion about all joints.
-Extremities: No clubbing, cyanosis, or edema. Normal upper and lower extremities.
-***Gait: Normal and appropriate gait for age.***
-Mental Status: Alert, oriented, in no distress. Appropriate for age.
-Neuro: Normal reflexes; normal tone; no focal deficits appreciated. Appropriate for age.
+[html]Health Maintenance Exam
+[/html][textarea columns=108 rows=25 default="General: Appears age appropriate.&#13;&#10;Skin: Normal turgor and without lesions.&#13;&#10;Head: ***<1 yr - Normocephalic with age appropriate fontanelles./>1 yr - Normocephalic.***&#13;&#10;Eyes: Conjunctivae non-injected; sclerae anicteric; extraocular movements intact; pupils equal, round, and reactive to light. ***<1yr - Red reflex present bilaterally./1-4 yr - Red reflex present bilaterally. Symmetric light reflex./>5 yr - Symmetric light reflex, normal fundi.&#13;&#10;ENT: Tympanic membranes gray, sharp landmarks. Nose clear. Palate is complete. Tonsils non-inflamed bilaterally.&#13;&#10;Lymph Nodes: No significant lymphadenopathy.&#13;&#10;Thyroid: No thyromegaly; trachea midline without masses.&#13;&#10;Breasts: Without lesions or drainage.&#13;&#10;Peripheral Vessels: Normal pulses and perfusion.&#13;&#10;Heart: Regular rate and rhythm; normal S1 and S2; no murmurs, gallops, or rubs.&#13;&#10;Lungs: Unlabored respirations; symmetric chest expansion; clear breath sounds.&#13;&#10;Abdomen: Soft, without organomegaly. Bowel sounds normal. Nontender without rebound. No masses palpable. No distention.&#13;&#10;Genitalia: ***Normal male external genitalia; testes descended bilaterally; no hernia./Normal female external genitalia.***&#13;&#10;Tanner: Tanner stage ***I/II/III/IV/V***&#13;&#10;Spine: Straight with no lesions.&#13;&#10;Joints: <4 months - Hips with full range-of-motion; negative Barlow and Ortolani./>4 months - Full range-of-motion about all joints.&#13;&#10;Extremities: No clubbing, cyanosis, or edema. Normal upper and lower extremities.&#13;&#10;***Gait: Normal and appropriate gait for age.***&#13;&#10;Mental Status: Alert, oriented, in no distress. Appropriate for age.&#13;&#10;Neuro: Normal reflexes; normal tone; no focal deficits appreciated. Appropriate for age."]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  none
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  April 1, 2010; September 7, 2015
+permalink: <a href="http://www.soapnote.org/child-health/health-maintenance-exam/" target="_blank">www.soapnote.org/child-health/health-maintenance-exam/</a>
+markup link:  <a href="http://www.soapnote.org/txt/child-health/health-maintenance-exam.txt" target="_blank">www.soapnote.org/txt/child-health/health-maintenance-exam.txt</a>[/html][/conditional]

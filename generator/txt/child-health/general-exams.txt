@@ -1,6 +1,5 @@
-http://www.soapnote.org/child-health/general-exams/
-November 26, 2010
-[select name="Q1" value="Newborn Male|Newborn Female|Male less than 1 Year|Female less than 1 Year|Male 1 to 4 Years|Female 1 to 4 Years|Male over 4 Years|Female over 4 Years|Sports Physical"]
+[html]General Pediatric Exams
+[/html][select name="Q1" value="Newborn Male|Newborn Female|Male less than 1 Year|Female less than 1 Year|Male 1 to 4 Years|Female 1 to 4 Years|Male over 4 Years|Female over 4 Years|Sports Physical"]
 [conditional field="Q1" condition="(Q1).is('Newborn Male')"]
 [textarea default="Skin: Normal turgor and without lesions."]
 [textarea default="Eyes: Red reflex present bilaterally. Pupils equally round and reactive to light"]
@@ -152,8 +151,8 @@ November 26, 2010
 [textarea default="MUSCULOSKELETAL: Examination shows no significant weakness or deformity of the musculoskeletal system. Can perform duck walk and heel-toe walk."]
 [textarea default="SKIN: Normal, without rash or lesion."][/conditional]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  none
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  November 26, 2010; September 7, 2015
+permalink: <a href="http://www.soapnote.org/child-health/general-exams/" target="_blank">www.soapnote.org/child-health/general-exams/</a>
+markup link:  <a href="http://www.soapnote.org/txt/child-health/general-exams.txt" target="_blank">www.soapnote.org/txt/child-health/general-exams.txt</a>[/html][/conditional]

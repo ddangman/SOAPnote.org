@@ -1,5 +1,3 @@
-http://www.soapnote.org/mental-health/dast-10/
-August 9, 2014
 Drug Use Questionnaire (DAST - 10) 
 INSTRUCTIONS:  The following questions concern information about your possible involvement with drugs not including alcoholic beverages during the past 12 months.  Carefully read each statement and decide if you answer is "Yes" or "No".  Then, circle the appropriate response beside the queestion.
 
@@ -23,11 +21,9 @@ These questions refer to the past 12 months.
 Total Score --> [calc memo="number" value="score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10)"] / 10
 Interpretation -->  [calc memo="result" value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10);score2>8?'Severe':score2>5?'Substantial':score2>2?'Intermediate':score2>0?'Low':'None'"]
 
-Copyright 1982 by Harvey A Skinner, PhD and the Centre for Addiction and Mental Health, Toronto, Canada.  For clinical, noncommercial use only.
-
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  1982 by Harvey A Skinner, PhD and the Centre for Addiction and Mental Health, Toronto, Canada.
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  August 9, 2014; September 7, 2015
+permalink: <a href="http://www.soapnote.org/mental-health/dast-10/" target="_blank">www.soapnote.org/mental-health/dast-10/</a>
+markup link:  <a href="http://www.soapnote.org/txt/mental-health/dast-10.txt" target="_blank">www.soapnote.org/txt/mental-health/dast-10.txt</a>[/html][/conditional]

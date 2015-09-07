@@ -1,7 +1,4 @@
-http://www.soapnote.org/mental-health/life-events-checklist/
-September 1, 2014
-LIFE EVENTS CHECKLIST (LEC)[html]
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/7712061" target="_blank">Blake DD, Weathers FW, Nagy LM, Kaloupek DG, Gusman FD, Charney DS, Keane TM. The development of a Clinician-Administered PTSD Scale. J Trauma Stress. 1995 Jan;8(1):75-90.</a>[/html]
+LIFE EVENTS CHECKLIST (LEC)
 Listed below are a number of difficult or stressful things that sometimes happen to people. For each event check one or more of the boxes to indicate that: (a) it happened to you personally, (b) you witnessed it happen to someone else, (c) you learned about it happening to someone close to you, (d) you’re not sure if it fits, or (e) it doesn’t apply to you. 
 Be sure to consider your entire life (growing up as well as adulthood) as you go through the list of events. 
 1. Natural disaster (for example, flood, hurricane, tornado, earthquake) --> [checkbox value="Event Happened to me|Witnessed it|Learned about it|Not Sure|Doesn’t apply"] 
@@ -22,8 +19,8 @@ Be sure to consider your entire life (growing up as well as adulthood) as you go
 16. Serious injury, harm, or death you caused to someone else --> [checkbox value="Event Happened to me|Witnessed it|Learned about it|Not Sure|Doesn’t apply"] 
 17. Any other very stressful event or experience --> [checkbox value="Event Happened to me|Witnessed it|Learned about it|Not Sure|Doesn’t apply"]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/7712061" target="_blank">Blake DD, Weathers FW, Nagy LM, Kaloupek DG, Gusman FD, Charney DS, Keane TM. The development of a Clinician-Administered PTSD Scale. J Trauma Stress. 1995 Jan;8(1):75-90.</a>
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  September 1, 2014; September 7, 2015
+permalink: <a href="http://www.soapnote.org/mental-health/life-events-checklist/" target="_blank">www.soapnote.org/mental-health/life-events-checklist/</a>
+markup link:  <a href="http://www.soapnote.org/txt/mental-health/life-events-checklist.txt" target="_blank">www.soapnote.org/txt/mental-health/life-events-checklist.txt</a>[/html][/conditional]

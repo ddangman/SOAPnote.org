@@ -1,8 +1,4 @@
-http://www.soapnote.org/respiratory/epworth-sleepiness-scale/
-June 1, 2010
-Epworth Sleepiness Scale[html]
-References: <a href="http://www.ncbi.nlm.nih.gov/pubmed/1798888">Johns (1991) Sleep 14(6): 540-5</a> & <a href="http://www.aafp.org/afp/2009/0301/p391.html">Pagel (2009) Am Fam Physician 79(5):391-396</a> 
-Links: <a href="http://www.fpnotebook.com/psych/exam/EpwrthSlpnsScl.htm">FP Notebook Page</a> [/html]
+Epworth Sleepiness Scale
 [select name="Q1" value="No chance (0 points)=0|Slight chance (1 point)=1|Moderate chance (2 points)=2|High chance (3 points)=3"] <-- Rate the chance you will doze off while you are sitting and reading
 [select name="Q2" value="No chance (0 points)=0|Slight chance (1 point)=1|Moderate chance (2 points)=2|High chance (3 points)=3"] <-- Rate the chance you will doze off while you are watching television
 [select name="Q3" value="No chance (0 points)=0|Slight chance (1 point)=1|Moderate chance (2 points)=2|High chance (3 points)=3"] <-- Rate the chance you will doze off while you are sitting inactive at a public place (e.g., in a theater, during a meeting)
@@ -13,8 +9,8 @@ Links: <a href="http://www.fpnotebook.com/psych/exam/EpwrthSlpnsScl.htm">FP Note
 [select name="Q8" value="No chance (0 points)=0|Slight chance (1 point)=1|Moderate chance (2 points)=2|High chance (3 points)=3"] <-- Rate the chance you will doze off while you are in a car while stopped for a few minutes in traffic
 [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)" memo="score"] out of 24 points --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8);score>15?'severe sleepiness - further evaluation recommended for significant daytime sleepiness':score>11?'moderate sleepiness - further evaluation recommended for significant daytime sleepiness':score>7?'mild sleepiness':'normal daytime alertness'" memo="interpretation"]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/1798888" target="_blank">Johns (1991) Sleep 14(6): 540-5</a>, <a href="http://www.aafp.org/afp/2009/0301/p391.html" target="_blank">Pagel (2009) Am Fam Physician 79(5):391-396</a>, <a href="http://www.fpnotebook.com/psych/exam/EpwrthSlpnsScl.htm" target="_blank">FP Notebook Page</a>
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  June 1, 2010; September 7, 2015
+permalink: <a href="http://www.soapnote.org/respiratory/epworth-sleepiness-scale/" target="_blank">www.soapnote.org/respiratory/epworth-sleepiness-scale/</a>
+markup link:  <a href="http://www.soapnote.org/txt/respiratory/epworth-sleepiness-scale.txt" target="_blank">www.soapnote.org/txt/respiratory/epworth-sleepiness-scale.txt</a>[/html][/conditional]

@@ -1,7 +1,5 @@
-http://www.soapnote.org/mental-health/stages-of-change/
-May 28, 2013
-[link url="http://www.ncbi.nlm.nih.gov/pubmed/6863699" memo="stages of change article"]
-Assessment:
+[html]Stages of Change Assessment
+[/html]Assessment:
 [select name="stage" value="Precontemplation|Contemplation|Preparation|Action|Maintenance|Relapse"]
 [conditional field="stage" condition="(stage).is('Precontemplation')"]No intention to change now or in the near future.  May not accept and/or be aware that there's a problem.[/conditional][conditional field="stage" condition="(stage).is('Contemplation')"]Thinking about changing but has not made a commitment to take action.[/conditional][conditional field="stage" condition="(stage).is('Preparation')"]Intends to take action in the next month.  May have made some small changes.[/conditional][conditional field="stage" condition="(stage).is('Action')"]Making change - modifying behavior, experiences, and/or the environment.[/conditional][conditional field="stage" condition="(stage).is('Maintenance')"]Working to prevent relapse and consolidate gains.[/conditional][conditional field="stage" condition="(stage).is('Relapse')"]Regression to an earlier stage.[/conditional]
 Plan:  [html]<em>Counseling techniques to move from one stage to the next (no skipping steps)</em>[/html]
@@ -11,8 +9,8 @@ Plan:  [html]<em>Counseling techniques to move from one stage to the next (no sk
 [text size=144]
 
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/6863699" target="_blank">Prochaska JO, DiClemente CC.J Consult Clin Psychol. 1983 Jun;51(3):390-5. Stages and processes of self-change of smoking: toward an integrative model of change.</a>
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  May 28, 2013; September 7, 2015
+permalink: <a href="http://www.soapnote.org/mental-health/stages-of-change/" target="_blank">www.soapnote.org/mental-health/stages-of-change/</a>
+markup link:  <a href="http://www.soapnote.org/txt/mental-health/stages-of-change.txt" target="_blank">www.soapnote.org/txt/mental-health/stages-of-change.txt</a>[/html][/conditional]

@@ -1,0 +1,1 @@
+[checkbox memo="Version A" name="A" value=""][conditional field="A" condition="(A).is('')"][textarea cols=108 rows=5 default=""][/conditional][checkbox memo="Version B" name="B" value=""][conditional field="B" condition="(B).is('')"][textarea cols=108 rows=5 default=""][/conditional]

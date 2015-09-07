@@ -1,6 +1,5 @@
-http://www.soapnote.org/ear-nose-throat/allergic-rhinitis-history/
-February 16, 2014
-[select value="less than 1 day|1 day|2 days|3 days|4 days|5 days|6 days|7 days|more than 1 week|more than 1 month"] <-- duration
+[html]Allergic Rhinitis History
+[/html][select value="less than 1 day|1 day|2 days|3 days|4 days|5 days|6 days|7 days|more than 1 week|more than 1 month"] <-- duration
 [select value="no|YES"] <-- nasal congestion
 [select value="no|YES"] <-- nasal discharge
 [select value="no|YES"] <-- sneezing
@@ -26,8 +25,8 @@ Past History
 [select value="no|YES"] <-- eczema
 [textarea]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  none
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  February 16, 2014; September 6, 2015
+permalink: <a href="http://www.soapnote.org/ear-nose-throat/allergic-rhinitis-history/" target="_blank">www.soapnote.org/ear-nose-throat/allergic-rhinitis-history/</a>
+markup link:  <a href="http://www.soapnote.org/txt/ear-nose-throat/allergic-rhinitis-history.txt" target="_blank">www.soapnote.org/txt/ear-nose-throat/allergic-rhinitis-history.txt</a>[/html][/conditional]

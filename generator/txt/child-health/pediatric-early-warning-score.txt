@@ -1,7 +1,4 @@
-http://www.soapnote.org/child-health/pediatric-early-warning-score/
-May 15, 2015
-Pediatric Early Warning Score[html]
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16990097" target="_blank">Duncan H, Hutchison J, Parshuram CS. The Pediatric Early Warning System score: a severity of illness score to predict urgent medical need in hospitalized children. J Crit Care. 2006 Sep;21(3):271-8.</a>[/html]
+Pediatric Early Warning Score
 
 [select name="Q1" value="A=3|B=2|C=1|D=0"] <-- Behavior
 A = Lethargic, Confused, OR Reduced pain response (3 points)
@@ -30,8 +27,8 @@ Recommendation --> [calc memo="result" value="score2=(Q1)+(Q2)+(Q3)+(Q4);score2>
 
 Note: Rapid response evaluation is indicated for parental concern regardless of above score
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16990097" target="_blank">Duncan H, Hutchison J, Parshuram CS. The Pediatric Early Warning System score: a severity of illness score to predict urgent medical need in hospitalized children. J Crit Care. 2006 Sep;21(3):271-8.</a>
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  May 15, 2015; September 7, 2015
+permalink: <a href="http://www.soapnote.org/child-health/pediatric-early-warning-score/" target="_blank">www.soapnote.org/child-health/pediatric-early-warning-score/</a>
+markup link:  <a href="http://www.soapnote.org/txt/child-health/pediatric-early-warning-score.txt" target="_blank">www.soapnote.org/txt/child-health/pediatric-early-warning-score.txt</a>[/html][/conditional]

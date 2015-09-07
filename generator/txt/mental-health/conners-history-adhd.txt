@@ -1,9 +1,8 @@
-http://www.soapnote.org/mental-health/conners-history-adhd/
-April 11, 2010
-The ***teacher/parent*** endorsed a T score of *** for Oppositional, a T score of *** for Cognitive Problems/Inattention, a T score of *** for Hyperactivity, and a T score of *** for Conners' ADHD Index.
+ADHD - Conners’ Index History
+[textarea columns=108 rows=25 default="The ***teacher/parent*** endorsed a T score of *** for Oppositional, a T score of *** for Cognitive Problems/Inattention, a T score of *** for Hyperactivity, and a T score of *** for Conners' ADHD Index."]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  none
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  April 11, 2010; September 6, 2015
+permalink: <a href="http://www.soapnote.org/mental-health/conners-history-adhd/" target="_blank">www.soapnote.org/mental-health/conners-history-adhd/</a>
+markup link:  <a href="http://www.soapnote.org/txt/mental-health/conners-history-adhd.txt" target="_blank">www.soapnote.org/txt/mental-health/conners-history-adhd.txt</a>[/html][/conditional]

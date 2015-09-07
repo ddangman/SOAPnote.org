@@ -1,10 +1,8 @@
-http://www.soapnote.org/child-health/fever-plan/
-April 1, 2010
-#1 Fever
-Observe for localizing symptoms and follow-up if these occur. Increase fluids. Treat fever with ***acetaminophen/ibuprofen/nothing at this time***. I have recommended follow-up if the fever is not responsive to treatment.
+[html]Fever Assessment/Plan
+[/html][textarea columns=108 rows=25 default="Assessment: Fever&#13;&#10;Plan:&#13;&#10;Observe for localizing symptoms and follow-up if these occur. Increase fluids. Treat fever with ***acetaminophen/ibuprofen/nothing at this time***. I have recommended follow-up if the fever is not responsive to treatment."]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  none
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  April 1, 2010; September 7, 2015
+permalink: <a href="http://www.soapnote.org/child-health/fever-plan/" target="_blank">www.soapnote.org/child-health/fever-plan/</a>
+markup link:  <a href="http://www.soapnote.org/txt/child-health/fever-plan.txt" target="_blank">www.soapnote.org/txt/child-health/fever-plan.txt</a>[/html][/conditional]

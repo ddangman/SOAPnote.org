@@ -1,6 +1,5 @@
-http://www.soapnote.org/respiratory/asthma-hx/
-October 15, 2014
-Asthma since age [text]
+[html]Asthma History
+[/html][checkbox memo="Version A" name="A" value=""][conditional field="A" condition="(A).is('')"][textarea cols=108 rows=5 default="Symptoms include ***wheezing/daytime cough/nighttime cough/cough with exercise/shortness of breath/chest tightness***&#13;&#10;*** nights per month&#13;&#10;*** days per month&#13;&#10;Triggers ***colds/irritants/allergies/exercise/weather changes***&#13;&#10;In the last year:  *** ER/UCC visit(s), *** hospitalization(s), *** oral steroid course(s), *** missed school day(s), *** missed parent work day(s)&#13;&#10;Barriers to taking medications:   ***side effects/refusal/social concerns***&#13;&#10;Inhaler use:   lasts approximately ***weeks***, ***does/does not*** use a spacer&#13;&#10;Peak flow meter:  range is ***&#13;&#10;Associated symptoms:  ***iitchy, red eyes/stuffy nose/sneezing/chronic sore throat/post-nasal drip/eczema/GE reflux***&#13;&#10;Associated symptoms are ***under/not under** good control.&#13;&#10;Exposures include ***smoke/pets/irritants/allergens***&#13;&#10;Previous testing and evaluations include ***pulmonary function tests/subspecialist visit(s)/allergy testing***"][/conditional][checkbox memo="Version B" name="B" value=""][conditional field="B" condition="(B).is('')"]Asthma since age [text]
 The patient has experienced the following symptoms: [text default="coughing/wheezing/shortness of breath/chest tightness/sputum production/URI like symptoms/night time wakening/heartburn/sinusitis/no symptoms related to asthma"]
 The pattern of symptoms are [text default="perennial/seasonal/continual/episodic/nocturnal/exertional"]
 The onset of the symptoms started [text].
@@ -17,25 +16,10 @@ Current Management
 Peak flow meter [select value="is used correctly|is used, but needs to have more education|is not used"]
 Spacer [select value="is used correctly|is used, but needs to have more education|is not used"]
 Personal best peak flow was [text]
-Asthma Action Plan [select value="is needed|is used correctly|is used, but needs to have more education|is not used"]
-
-April 3, 2010
-Symptoms include ***wheezing/daytime cough/nighttime cough/cough with exercise/shortness of breath/chest tightness***
-*** nights per month
-*** days per month
-Triggers ***colds/irritants/allergies/exercise/weather changes***
-In the last year:  *** ER/UCC visit(s), *** hospitalization(s), *** oral steroid course(s), *** missed school day(s), *** missed parent work day(s)
-Barriers to taking medications:   ***side effects/refusal/social concerns***
-Inhaler use:   lasts approximately ***weeks***, ***does/does not*** use a spacer
-Peak flow meter:  range is ***
-Associated symptoms:  ***iitchy, red eyes/stuffy nose/sneezing/chronic sore throat/post-nasal drip/eczema/GE reflux***
-Associated symptoms are ***under/not under** good control.
-Exposures include ***smoke/pets/irritants/allergens***
-Previous testing and evaluations include ***pulmonary function tests/subspecialist visit(s)/allergy testing***
-
+Asthma Action Plan [select value="is needed|is used correctly|is used, but needs to have more education|is not used"][textarea cols=108 rows=5 default=""][/conditional]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  none
 posted by:  Mark Morgan, M.D.
-post/review dates:  #DATETIME MMMM d, yyyy#
-permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+post/review dates:  April 3, 2010; October 15, 2014; September 7, 2015
+permalink: <a href="http://www.soapnote.org/respiratory/asthma-hx/" target="_blank">www.soapnote.org/respiratory/asthma-hx/</a>
+markup link:  <a href="http://www.soapnote.org/txt/respiratory/asthma-hx.txt" target="_blank">www.soapnote.org/txt/respiratory/asthma-hx.txt</a>[/html][/conditional]
