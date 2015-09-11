@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Nutritional Health Checklist<br><select name="Q1"><option value="false (0 points)=0">false (0 points)</option><option value="TRUE (2 points)=2">TRUE (2 points)</option></select> <-- 1. I have an illness or condition that made me change the kind or amount of food I eat.<br><select name="Q2"><option value="false (0 points)=0">false (0 points)</option><option value="TRUE (2 points)=2">TRUE (2 points)</option></select> <-- 2. I eat fewer than two meals per day.<br><select name="Q3"><option value="false (0 points)=0">false (0 points)</option><option value="TRUE (3 points)=3">TRUE (3 points)</option></select> <-- 3. I eat few fruits, vegetables, or milk products.<br><select name="Q4"><option value="false (0 points)=0">false (0 points)</option><option value="TRUE (2 points)=2">TRUE (2 points)</option></select> <-- 4. I have three or more drinks of beer, liquor, or wine almost every day.<br><select name="Q5"><option value="false (0 points)=0">false (0 points)</option><option value="TRUE (2 points)=2">TRUE (2 points)</option></select> <-- 5. I have tooth or mouth problems that make it hard for me to eat.<br><select name="Q6"><option value="false (0 points)=0">false (0 points)</option><option value="TRUE (4 points)=4">TRUE (4 points)</option></select> <-- 6. I don't always have enough money to buy the food I need.<br><select name="Q7"><option value="false (0 points)=0">false (0 points)</option><option value="TRUE (1 point)=1">TRUE (1 point)</option></select> <-- 7. I eat alone most of the time.<br><select name="Q8"><option value="false (0 points)=0">false (0 points)</option><option value="TRUE (1 point)=1">TRUE (1 point)</option></select> <-- 8. I take three or more different prescription or over-the-counter drugs per day.<br><select name="Q9"><option value="false (0 points)=0">false (0 points)</option><option value="TRUE (2 points)=2">TRUE (2 points)</option></select> <-- 9. Without wanting to, I have lost or gained 10 lb in the past six months.<br><select name="Q10"><option value="false (0 points)=0">false (0 points)</option><option value="TRUE (2 points)=2">TRUE (2 points)</option></select> <-- 10. I am not always physically able to shop, cook, or feed myself.<br>Score --> <span class="calc">score<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10)</span></span> out of 21 points<br>Interpretation --> <span class="calc">interpretation<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10);score>5?'High nutritional risk, may require immediate assistance to improve your nutritional status.':score>2?'Moderate nutritional risk.  Lifestyle and eating habit improvements needed.  Recheck your nutritional score in three months.':'Good nutrition. Recheck nutritional score in six months.'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55eea107b70da" class="hidden"><span class="exclude"><br>reference:  The Nutrition Health Checklist was developed for the Nutrition Screening Initiative, a project of the American Academy of Family Physicians, the American Dietetic Association and the National Council on Aging, Inc.<a href="http://www.aafp.org/afp/980301ap/edits.html"> Info at AAFP website</a>, AAFP Geriatric assessment article: <a href="http://www.aafp.org/afp/2011/0101/p48.html">Elsawy (2011) Am Fam Phys 83: 48-56</a>.<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  June 24, 2011; August 30, 2015<br>permalink: <a href="http://www.soapnote.org/elder-care/nutritional-checklist/" target="_blank">www.soapnote.org/elder-care/nutritional-checklist/</a><br>markup link:  <a href="http://www.soapnote.org/txt/elder-care/nutritional-checklist.txt" target="_blank">www.soapnote.org/txt/elder-care/nutritional-checklist.txt</a></span></span><br><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_55eea107b70da"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>

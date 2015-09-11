@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/><span class="exclude">Allergic Rhinitis Assessment/Plan<br></span><span class="checkbox" name="short"> <label><input type="checkbox" name="short" value="" /> </label></span><span class="memo exclude">Short Version</span><span name="conditional_55ee402a377a4" class="hidden"><textarea cols="108" rows="5" name="textarea_55ee402a37987">Assessment:  Allergic rhinitis&#13;&#10;Plan: Discussed issues to decrease irritants/exposures, including hand washing, awareness of peak season, and time of day. ***Enter medication prescribed*** Side effects, risks, and benefits of medications discussed. Discussed over-the-counter medication options, risks, and benefits. Communicate back if symptoms are not well controlled.</textarea></span><span class="checkbox" name="long"> <label><input type="checkbox" name="long" value="" /> </label></span><span class="memo exclude">Long Version</span><span name="conditional_55ee402a37ac7" class="hidden"><textarea cols="108" rows="1" name="textarea_55ee402a37c32">Assessment:  Allergic rhinitis</textarea><br>Plan: <span class="checkbox" name="checkbox_55ee402a37d70"> <label><input type="checkbox" name="checkbox_55ee402a37d70" value="Fexofenadine 60 mg twice a day" /> Fexofenadine 60 mg twice a day</label> <label><input type="checkbox" name="checkbox_55ee402a37d70" value="Fexofenadine 180 mg 1 tab daily" /> Fexofenadine 180 mg 1 tab daily</label> <label><input type="checkbox" name="checkbox_55ee402a37d70" value="Loratidine 10 mg daily" /> Loratidine 10 mg daily</label> <label><input type="checkbox" name="checkbox_55ee402a37d70" value="Cetirizine 10 mg 1 tab daily" /> Cetirizine 10 mg 1 tab daily</label> <label><input type="checkbox" name="checkbox_55ee402a37d70" value="Over the counter antihistamines" /> Over the counter antihistamines</label> <label><input type="checkbox" name="checkbox_55ee402a37d70" value="Nasacort 2 sprays each nostril daily" /> Nasacort 2 sprays each nostril daily</label> <label><input type="checkbox" name="checkbox_55ee402a37d70" value="Flonase 2 sprays each nostril daily" /> Flonase 2 sprays each nostril daily</label> <label><input type="checkbox" name="checkbox_55ee402a37d70" value="Beconase 2 sprays each nostril twice daily" /> Beconase 2 sprays each nostril twice daily</label> <label><input type="checkbox" name="checkbox_55ee402a37d70" value="Rhinocort 2 sprays each nostril twice daily" /> Rhinocort 2 sprays each nostril twice daily</label> <label><input type="checkbox" name="checkbox_55ee402a37d70" value="Reviewed with patient potential side effects/interactions of medication" /> Reviewed with patient potential side effects/interactions of medication</label> <label><input type="checkbox" name="checkbox_55ee402a37d70" value="Samples given and a written prescription for three months supply if effective" /> Samples given and a written prescription for three months supply if effective</label> <label><input type="checkbox" name="checkbox_55ee402a37d70" value="Discussed decreasing exposure to environmental allergies" /> Discussed decreasing exposure to environmental allergies</label> <label><input type="checkbox" name="checkbox_55ee402a37d70" value="To follow up if no relief" /> To follow up if no relief</label></span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ee402a37f3e" class="hidden"><span class="exclude"><br>reference:  none<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  April 11, 2010; February 15, 2014; September 6, 2015<br>permalink: <a href="http://www.soapnote.org/ear-nose-throat/allergic-rhinitis-plan/" target="_blank">www.soapnote.org/ear-nose-throat/allergic-rhinitis-plan/</a><br>markup link:  <a href="http://www.soapnote.org/txt/ear-nose-throat/allergic-rhinitis-plan.txt" target="_blank">www.soapnote.org/txt/ear-nose-throat/allergic-rhinitis-plan.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(short).is('')", show:"conditional_55ee402a377a4"});
+conditions[1].push({logic:"(long).is('')", show:"conditional_55ee402a37ac7"});
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_55ee402a37f3e"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="short"], select[name="short"], input[name="long"], select[name="long"], input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="short"], select[name="short"], input[name="long"], select[name="long"], input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>

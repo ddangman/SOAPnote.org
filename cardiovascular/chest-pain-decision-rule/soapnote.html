@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Diamond and Forrester Chest Pain Decision Rule <br>.....................................................................................................<br>Factors:<br> <select name="Q1"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Substernal chest pain<br> <select name="Q2"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Exertional chest pain<br> <select name="Q3"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Chest pain relieved with rest<br>Demographics:<br><select name="Q4"><option value="30 to 39=10">30 to 39</option><option value="40 to 49=20">40 to 49</option><option value="50 to 59=30">50 to 59</option><option value="60 to 69=40">60 to 69</option></select> <-- Age (years)<br><select name="Q5"><option value="Male=100">Male</option><option value="Female=0">Female</option></select> <-- Gender<br>.....................................................................................................<br> Result --> <span class="calc">classification<span class="calc_value">score1=(Q1)+(Q2)+(Q3);score1>2?'Typical angina':score1>1?'Atypical angina':score1>0?'Non-anginal chest pain':'No criteria present'</span></span><br>Interpretation --> <span class="calc">risk<span class="calc_value">score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5);score2>142?'94% likelihood (high)':score2>141?'72% likelihood (intermediate)':score2>140?'27% likelihood (intermediate)':score2>139?'Risk is low to very low':score2>132?'93% likelihood (high)':score2>131?'65% likelihood (intermediate)':score2>130?'20% likelihood (intermediate)':score2>129?'Risk is low to very low':score2>122?'87% likelihood (high)':score2>121?'51% likelihood (intermediate)':score2>120?'13% likelihood (intermediate)':score2>119?'Risk is low to very low':score2>112?'76% likelihood (intermediate)':score2>111?'34% likelihood (intermediate)':score2>110?'4% likelihood (low)':score2>109?'Risk is low to very low':score2>42?'86% likelihood (high)':score2>41?'51% likelihood (intermediate)':score2>40?'14% likelihood (intermediate)':score2>39?'Risk is low to very low':score2>32?'73% likelihood (intermediate)':score2>31?'31% likelihood (intermediate)':score2>30?'7% likelihood (low)':score2>29?'Risk is low to very low':score2>22?'55% likelihood (intermediate)':score2>21?'22% likelihood (low)':score2>20?'3% likelihood (low)':score2>19?'Risk is low to very low':score2>12?'26% likelihood (intermediate)':score2>11?'12% likelihood (low)':score2>10?'2% likelihood (low)':'Risk is low to very low'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55eda03d02515" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/440357" target="_blank">Diamond GA, Forrester JS. Analysis of probability as an aid in the clinical diagnosis of coronary-artery disease. N Engl J Med. 1979 Jun 14;300(24):1350-8.</a>, <a href="http://www.fpnotebook.com/cv/exam/DmndAndFrstrChstPnPrdctnRl.htm" target="_blank">FP Notebook page</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  October 8, 2014; August 18, 2015<br>permalink: <a href="http://www.soapnote.org/cardiovascular/chest-pain-decision-rule/" target="_blank">www.soapnote.org/cardiovascular/chest-pain-decision-rule/</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/chest-pain-decision-rule.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/chest-pain-decision-rule.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_55eda03d02515"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>

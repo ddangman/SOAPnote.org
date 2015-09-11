@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Cornell Scale for Depression in Dementia  <span class="memo exclude"> A screening tool for co-morbid depression in dementia patients</span><br><select name="anxiety"><option value="Unable to evaluate or Absent (0)=0">Unable to evaluate or Absent (0)</option><option value="Mild or Intermittent (1)=1">Mild or Intermittent (1)</option><option value="Severe (2)=2">Severe (2)</option></select> <-- 1. Mood-Related Signs: Anxiety (anxious expression, ruminations, worrying)<br><select name="sadness"><option value="Unable to evaluate or Absent (0)=0">Unable to evaluate or Absent (0)</option><option value="Mild or Intermittent (1)=1">Mild or Intermittent (1)</option><option value="Severe (2)=2">Severe (2)</option></select> <-- 2. Mood-Related Signs: Sadness (sad expression, sad voice, tearfulness)<br><select name="pleasant"><option value="Unable to evaluate or Absent (0)=0">Unable to evaluate or Absent (0)</option><option value="Mild or Intermittent (1)=1">Mild or Intermittent (1)</option><option value="Severe (2)=2">Severe (2)</option></select> <-- 3. Mood-Related Signs: Lack of reactivity to pleasant events<br><select name="irritable"><option value="Unable to evaluate or Absent (0)=0">Unable to evaluate or Absent (0)</option><option value="Mild or Intermittent (1)=1">Mild or Intermittent (1)</option><option value="Severe (2)=2">Severe (2)</option></select> <-- 4. Mood-Related Signs: Irritability (easily annoyed, short tempered)<br><select name="agitation"><option value="Unable to evaluate or Absent (0)=0">Unable to evaluate or Absent (0)</option><option value="Mild or Intermittent (1)=1">Mild or Intermittent (1)</option><option value="Severe (2)=2">Severe (2)</option></select> <-- 5. Behavioral Disturbance:  Agitation (restlessness, handwringing, hair pulling)<br><select name="retardation"><option value="Unable to evaluate or Absent (0)=0">Unable to evaluate or Absent (0)</option><option value="Mild or Intermittent (1)=1">Mild or Intermittent (1)</option><option value="Severe (2)=2">Severe (2)</option></select> <-- 6. Behavioral Disturbance:  Retardation (slow movement, slow speech, slow reactions)<br><select name="physical"><option value="Unable to evaluate or Absent (0)=0">Unable to evaluate or Absent (0)</option><option value="Mild or Intermittent (1)=1">Mild or Intermittent (1)</option><option value="Severe (2)=2">Severe (2)</option></select> <-- 7. Behavioral Disturbance:  Multiple physical complaints (score 0 if GI symptoms only)<br><select name="interest"><option value="Unable to evaluate or Absent (0)=0">Unable to evaluate or Absent (0)</option><option value="Mild or Intermittent (1)=1">Mild or Intermittent (1)</option><option value="Severe (2)=2">Severe (2)</option></select> <-- 8. Behavioral Disturbance:  Loss of interest (less involved in usual activities; score only if change occurred acutely, i.e., in less than one month)<br><select name="appetite"><option value="Unable to evaluate or Absent (0)=0">Unable to evaluate or Absent (0)</option><option value="Mild or Intermittent (1)=1">Mild or Intermittent (1)</option><option value="Severe (2)=2">Severe (2)</option></select> <-- 9. Physical Signs:  Appetite loss (eating less than usual)<br><select name="weightLoss"><option value="Unable to evaluate or Absent (0)=0">Unable to evaluate or Absent (0)</option><option value="Mild or Intermittent (1)=1">Mild or Intermittent (1)</option><option value="Severe (2)=2">Severe (2)</option></select> <-- 10. Physical Signs:  Weight Loss (score 2 if greater than 5 lb in one month)<br><select name="energy"><option value="Unable to evaluate or Absent (0)=0">Unable to evaluate or Absent (0)</option><option value="Mild or Intermittent (1)=1">Mild or Intermittent (1)</option><option value="Severe (2)=2">Severe (2)</option></select> <-- 11. Physical Signs:  Lack of energy (fatigues easily, unable to sustain activities; score only if change occurred acutely, i.e.,in less than one month)<br><select name="diurnal"><option value="Unable to evaluate or Absent (0)=0">Unable to evaluate or Absent (0)</option><option value="Mild or Intermittent (1)=1">Mild or Intermittent (1)</option><option value="Severe (2)=2">Severe (2)</option></select> <-- 12. Cyclic Functions:  Diurnal variation of mood symptoms worse in the morning<br><select name="fallAsleep"><option value="Unable to evaluate or Absent (0)=0">Unable to evaluate or Absent (0)</option><option value="Mild or Intermittent (1)=1">Mild or Intermittent (1)</option><option value="Severe (2)=2">Severe (2)</option></select> <-- 13. Cyclic Functions:  Difficulty falling asleep later than usual for this individual<br><select name="awakenMult"><option value="Unable to evaluate or Absent (0)=0">Unable to evaluate or Absent (0)</option><option value="Mild or Intermittent (1)=1">Mild or Intermittent (1)</option><option value="Severe (2)=2">Severe (2)</option></select> <-- 14. Cyclic Functions:  Multiple awakenings during sleep<br><select name="awakenEarly"><option value="Unable to evaluate or Absent (0)=0">Unable to evaluate or Absent (0)</option><option value="Mild or Intermittent (1)=1">Mild or Intermittent (1)</option><option value="Severe (2)=2">Severe (2)</option></select> <-- 15. Cyclic Functions:  Early morning awakening earlier than usual for this individual<br><select name="suicide"><option value="Unable to evaluate or Absent (0)=0">Unable to evaluate or Absent (0)</option><option value="Mild or Intermittent (1)=1">Mild or Intermittent (1)</option><option value="Severe (2)=2">Severe (2)</option></select> <-- 16. Ideational Disturbance:  Suicide (feels life is not work living, has suicidal wishes, or makes suicide attempt)<br><select name="esteem"><option value="Unable to evaluate or Absent (0)=0">Unable to evaluate or Absent (0)</option><option value="Mild or Intermittent (1)=1">Mild or Intermittent (1)</option><option value="Severe (2)=2">Severe (2)</option></select> <-- 17. Ideational Disturbance:  Poor self-esteem (self-blame, self-depreciation,feelings of failure)<br><select name="pessimism"><option value="Unable to evaluate or Absent (0)=0">Unable to evaluate or Absent (0)</option><option value="Mild or Intermittent (1)=1">Mild or Intermittent (1)</option><option value="Severe (2)=2">Severe (2)</option></select> <-- 18. Ideational Disturbance:  Pessimism (anticipation of the worst)<br><select name="delusion"><option value="Unable to evaluate or Absent (0)=0">Unable to evaluate or Absent (0)</option><option value="Mild or Intermittent (1)=1">Mild or Intermittent (1)</option><option value="Severe (2)=2">Severe (2)</option></select> <-- 19. Ideational Disturbance:  Mood-congruent delusions (delusions of poverty,illness, or loss)<br>Score: <span class="calc">score<span class="calc_value">score=(delusion)+(pessimism)+(esteem)+(suicide)+(awakenEarly)+(awakenMult)+(fallAsleep)+(diurnal)+(energy)+(weightLoss)+(appetite)+(interest)+(physical)+(retardation)+(agitation)+(irritable)+(pleasant)+(sadness)+(anxiety)</span></span> Interpretation:  <span class="calc">interpretation<span class="calc_value">score=(delusion)+(pessimism)+(esteem)+(suicide)+(awakenEarly)+(awakenMult)+(fallAsleep)+(diurnal)+(energy)+(weightLoss)+(appetite)+(interest)+(physical)+(retardation)+(agitation)+(irritable)+(pleasant)+(sadness)+(anxiety);score>7?'Suggestive of depression':'Depression unlikely/not detected'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ee59f333724" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/3337862" target="_blank">Cornell Scale for Depression in Dementia. Biological Psychiatry 1988;23(3):271-284</a>, <a href="https://www.icsi.org/_asset/fnhdm3/Depr-Interactive0512b.pdf" target="_blank">Institute for Clinical Systems Improvement. Major Depression in Adults in Primary Care</a>, <a href="http://www.aafp.org/afp/2002/0915/p1001.html" target="_blank">Screening for Depression Across the Lifespan: A Review of Measures for Use in Primary Care Settings, Am Fam Physician. 2002 Sep 15;66(6):1001-1009</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  June 16, 2010; August 30, 2015<br>permalink: <a href="http://www.soapnote.org/elder-care/cornell-scale-for-depression-in-dementia/" target="_blank">www.soapnote.org/elder-care/cornell-scale-for-depression-in-dementia/</a><br>markup link:  <a href="http://www.soapnote.org/txt/elder-care/cornell-scale-for-depression-in-dementia.txt" target="_blank">www.soapnote.org/txt/elder-care/cornell-scale-for-depression-in-dementia.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_55ee59f333724"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>

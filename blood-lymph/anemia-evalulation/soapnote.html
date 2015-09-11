@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Anemia Evaluation<br><select name="Q1"><option value=" "> </option><option value="A">A</option><option value="B">B</option><option value="C">C</option></select> <-- Select the proper classification.<br>A: Microcytic (MCV < 80 fL)<br>B: Normocytic (MCV 80 - 100 fL)<br>C: Macrocytic (MCV > 100 fL)<span name="conditional_55ed9dedcf273" class="hidden"><br><select name="QA1"><option value=" "> </option><option value="A">A</option><option value="B">B</option></select> <-- Select the ferritin level.<br>A: Low<br>B: Normal or Elevated</span><span name="conditional_55ed9dedcf433" class="hidden"><br><select name="QA2"><option value=" "> </option><option value="A">A</option><option value="B">B</option></select> <-- Select the chronicity of the microcytosis<br>A: New microcytosis<br>B: Old microcytosis</span><span name="conditional_55ed9dedcf5c7" class="hidden"><br><select name="QB1"><option value=" "> </option><option value="A">A</option><option value="B">B</option></select> <-- In regard to bleeding<br>A: History and/or stool evidence of bleeding<br>B: No history or stool evidence of bleeding</span><span name="conditional_55ed9dedcf746" class="hidden"><br><select name="QB2"><option value=" "> </option><option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option></select> <-- In regard to nutritional causes<br>A: Ferritin is low<br>B: B12 is low and/or homocysteine is high<br>C: B12 is low and/or homocysteine is high AND Ferritin is low<br>D: Ferritin, B12, and homocysteine are normal</span><span name="conditional_55ed9dedcf8b1" class="hidden"><br><select name="QB2B"><option value=" "> </option><option value="A">A</option><option value="B">B</option></select> <-- Select the methylmalonic acid (MMA) level<br>A: Methylmalonic Acid level is high<br>B: Methylmalonic Acid level is normal</span><span name="conditional_55ed9dedcfa3c" class="hidden"><br><select name="QB3"><option value=" "> </option><option value="A">A</option><option value="B">B</option></select> <-- In regard to renal function<br>A: Renal insufficiency is present<br>B: Renal function is normal</span><span name="conditional_55ed9dedcfbd8" class="hidden"><br><select name="QB4"><option value=" "> </option><option value="A">A</option><option value="B">B</option></select> <-- In regard to hemolysis<br>A: Low serum haptoglobin level is associated with increased LDH, indirect bilirubin, or reticulocyte count.<br>B: Serum haptoglobin, lactic dehydrogenase, indirect bilirubin, and reticulocyte count are all normal</span><span name="conditional_55ed9dedcfd9e" class="hidden"><br><select name="QB4A"><option value=" "> </option><option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option></select> <-- Select peripheral blood smear finding<br>A: Peripheral blood smear with spherocytes<br>B: Peripheral blood smear with schistocytes<br>C: Other abnormal findings<br>D: No abnormal findings </span><span name="conditional_55ed9dedcff4e" class="hidden"><br><select name="QB4A1"><option value=" "> </option><option value="A">A</option><option value="B">B</option></select> <-- Select Coombs Result<br>A: Coombs test positive<br>B: Coombs test negative<br></span><span name="conditional_55ed9dedd0106" class="hidden"><br><select name="QB4A1B"><option value=" "> </option><option value="A">A</option><option value="B">B</option></select> <-- Select Osmotic Fragility Test Result<br>A: Osmotic Fragility Test Positive<br>B: Osmotic Fragility Test Negative<br></span><span name="conditional_55ed9dedd0277" class="hidden"><br><select name="QB4AB1"><option value=" "> </option><option value="A">A</option><option value="B">B</option><option value="C">C</option></select> <-- Select Other Findings<br>A: Coagulation testing such as Prothrombin Time (aPT)/INR or Partial Thromboplastin Time (PTT) is Abnormal<br>B: Prosthetic Heart Valve or Other Valvular Abnormality is Present<br>C: Coagulation Testing is Normal and Heart Valve Problem is Not Suspected</span><span name="conditional_55ed9dedd040e" class="hidden"><br><select name="QC1"><option value=" "> </option><option value="A">A</option><option value="B">B</option></select> <-- Is patient taking any drugs with bone marrow toxicity?<br>A: Taking a drug such as hydroxyurea, zidovudine, or other marrow toxins <span class="exclude"><a href="http://www.fpnotebook.com/hemeonc/pharm/MdctnCsOfMcrcytcAnm.htm" target="_blank">see FPNotebook</a></span><br>B: Not on medication known to have marrow toxicity</span><span name="conditional_55ed9dedd05bf" class="hidden"><br><select name="QC1B"><option value=" "> </option><option value="A">A</option><option value="B">B</option></select> <-- Serum B12 and Homocysteine Levels<br>A: B12 is low and/or homocysteine is high<br>B: B12 and homocysteine are both normal</span><span name="conditional_55ed9dedd0746" class="hidden"><br><select name="QC1BA"><option value=" "> </option><option value="A">A</option><option value="B">B</option></select> <-- Select the methylmalonic acid (MMA) level<br>A: Methylmalonic Acid level is high<br>B: Methylmalonic Acid level is normal</span><span name="conditional_55ed9dedd08d5" class="hidden"><br><select name="QC1BB"><option value=" "> </option><option value="A">A</option><option value="B">B</option></select> <-- Select severity of macrocytosis<br>A: Marked Macrocytosis (MCV > 110 fL)<br>B: Mild Macrocytosis (MCV 100 - 110 fL)</span><br>----------------------------<br>INTERPRETATION<br>----------------------------<span name="conditional_55ed9dedd0a55" class="hidden"><br>Consider IRON DEFICIENCY ANEMIA<br>Peripheral blood smear clues may include anisocytosis, poikilocytosis, and elliptocytosis. <br>CBC clues may include increased RDW and thrombocytosis. </span><span name="conditional_55ed9dedd0b62" class="hidden"><br>Consider ANEMIA OF CHRONIC DISEASE<br>Peripheral blood smear clues may include unremarkable (usually), rouleaux formation, myelophthisis. <br>CBC clues may include normal RDW. <br>Usual causes of ANEMIA OF CHRONIC DISEASE may include Temporal arteritis, Rheumatoid arthritis, Chronic inflammation, or Chronic infection.<br>Unusual causes of ANEMIA OF CHRONIC DISEASE may include Hodgkin lymphoma, Renal cell carcinoma, Castleman disease, or Myelofibrosis. </span><span name="conditional_55ed9dedd0c78" class="hidden"><br>Consider THALASSEMIA<br>Peripheral blood smear clues may include polychromasia, target cells, and basophilic stippling. <br>CBC clues may include normal or elevated RBC count and normal or elevated RDW. <br>Obtain hemoglobin electrophoresis.<br>Consult hematologist. </span><span name="conditional_55ed9dedd0d88" class="hidden"><br>Consider ANEMIA DUE TO BLOOD LOSS<br>Peripheral blood smear clues may include polychromasia. <br>CBC clue is that it is usually unremarkable. <br>Identify/address causes of blood loss. </span><span name="conditional_55ed9dedd0ea3" class="hidden"><br>Consider IRON DEFICIENCY ANEMIA<br>Peripheral blood smear clues may include anisocytosis, poikilocytosis, and elliptocytosis. <br>CBC clues may include increased RDW and thrombocytosis. </span><span name="conditional_55ed9dedd0fc1" class="hidden"><br>Consider B12 DEFICIENCY ANEMIA<br>Peripheral blood smear clues may include anisocytosis and dimorphic RBCs. <br>CBC clues may include increased RDW. </span><span name="conditional_55ed9dedd10e5" class="hidden"><br>Consider FOLATE DEFICIENCY ANEMIA<br>Peripheral blood smear clues may include anisocytosis and dimorphic RBCs. <br>CBC clues may include increased RDW. </span><span name="conditional_55ed9dedd1202" class="hidden"><br>Consider ANEMIA OF RENAL DISEASE<br>CBC clues may include normal RDW. </span><span name="conditional_55ed9dedd1320" class="hidden"><br>Consider AUTOIMMUNE HEMOLYTIC ANEMIA <br>CBC clues may include normal or elevated RDW, thrombocytosis. <br>Consult hematologist. </span><span name="conditional_55ed9dedd1457" class="hidden"><br>Consider HEREDITARY SPHEROCYTOSIS<br>CBC clues may include normal or elevated RDW, thrombocytosis. <br>Consult hematologist. </span><span name="conditional_55ed9dedd1561" class="hidden"><br>Consider HEMOLYTIC ANEMIA <br>Consult hematologist. </span><span name="conditional_55ed9dedd1660" class="hidden"><br>Consider DISSEMINATED INTRAVASCULAR COAGULATION (DIC)<br>Consult hematologist. </span><span name="conditional_55ed9dedd178c" class="hidden"><br>Consider VALVULAR HEMOLYSIS<br>Urinary Hemosiderin Test may be helpful. <br>Consult specialist to identify/address valvular concerns as appropriate. </span><span name="conditional_55ed9dedd18b6" class="hidden"><br>Consider THROMBOTIC THROMBOCYTOPENIA/HEMOLYTIC UREMIC SYNDROME<br>CBC clues may include normal or elevated RDW, thrombocytopenia. <br>Consult hematologist. </span><span name="conditional_55ed9dedd19f2" class="hidden"><br>Consider HEMOLYTIC ANEMIA <br>Consult hematologist. </span><span name="conditional_55ed9dedd1ae4" class="hidden"><br>Consider DRUG-RELATED MACROCYTIC ANEMIA<br>Peripheral blood smear clues may include oval macrocytes.<br>CBC clues may include increased RDW and marked or mild macrocytosis. <br>Adjust/discontinue medication in collaboration with prescriber if possible/appropriate. </span><span name="conditional_55ed9dedd1bee" class="hidden"><br>Consider B12 DEFICIENCY ANEMIA<br>Peripheral blood smear clues may include oval macrocytes, hypersegmented neutrophils. <br>CBC clues may include increased RDW, marked or mild macrocytosis. </span><span name="conditional_55ed9dedd1d05" class="hidden"><br>Consider FOLATE DEFICIENCY ANEMIA<br>Peripheral blood smear clues may include oval macrocytes, hypersegmented neutrophils. <br>CBC clues may include increased RDW, marked or mild macrocytosis. </span><span name="conditional_55ed9dedd1e1f" class="hidden"><br>Consider MYELODYSPLASTIC SYNDROME or OTHER PRIMARY BONE MARROW DISORDER<br>Peripheral blood smear clues may include dimorphic RBCs, pseudo Pelger-Huet anomaly cells, oval macrocytes.<br>CBC clues may include increased RDW. <br>Consult hematologist. </span><span name="conditional_55ed9dedd1f39" class="hidden"><br>Consider MYELODYSPLASTIC SYNDROME.<br>Peripheral blood smear clues may include dimorphic RBCs, pseudo Pelger-Huet anomaly cells, oval macrocytes.<br>CBC clues may include increased RDW. <br>Consult hematologist.<br>Note: Other conditions are possible, including LIVER DISEASE, ALCOHOL CONSUMPTION, HYPOTHYROIDISM, and marked reticulocytosis from HEMOLYSIS. </span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ed9dedd20f7" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16007898" target="_blank">Tefferi A, Hanson CA, Inwards DJ. How to interpret and pursue an abnormal complete blood cell count in adults. Mayo Clin Proc. 2005 Jul;80(7):923-36.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/19202968" target="_blank">Kaferle J, Strzoda CE. Evaluation of macrocytosis. Am Fam Physician. 2009 Feb 1;79(3):203-8.</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  January 20, 2015; August 31, 2015<br>permalink: <a href="http://www.soapnote.org/blood-lymph/anemia-evalulation/" target="_blank">www.soapnote.org/blood-lymph/anemia-evalulation/</a><br>markup link:  <a href="http://www.soapnote.org/txt/blood-lymph/anemia-evalulation.txt" target="_blank">www.soapnote.org/txt/blood-lymph/anemia-evalulation.txt</a></span></span>	<input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(Q1).is('A')", show:"conditional_55ed9dedcf273"});
+conditions[1].push({logic:"(Q1).is('A')&&(QA1).is('B')", show:"conditional_55ed9dedcf433"});
+conditions[1].push({logic:"(Q1).is('B')", show:"conditional_55ed9dedcf5c7"});
+conditions[1].push({logic:"(Q1).is('B')", show:"conditional_55ed9dedcf746"});
+conditions[1].push({logic:"(Q1).is('B')&&((QB2).is('B')||(QB2).is('C'))", show:"conditional_55ed9dedcf8b1"});
+conditions[1].push({logic:"(Q1).is('B')", show:"conditional_55ed9dedcfa3c"});
+conditions[1].push({logic:"(Q1).is('B')", show:"conditional_55ed9dedcfbd8"});
+conditions[1].push({logic:"(Q1).is('B')&&(QB4).is('A')", show:"conditional_55ed9dedcfd9e"});
+conditions[1].push({logic:"(Q1).is('B')&&(QB4).is('A')&&(QB4A).is('A')", show:"conditional_55ed9dedcff4e"});
+conditions[1].push({logic:"(Q1).is('B')&&(QB4).is('A')&&(QB4A).is('A')&&(QB4A1).is('B')", show:"conditional_55ed9dedd0106"});
+conditions[1].push({logic:"(Q1).is('B')&&(QB4).is('A')&&(QB4A).is('B')", show:"conditional_55ed9dedd0277"});
+conditions[1].push({logic:"(Q1).is('C')", show:"conditional_55ed9dedd040e"});
+conditions[1].push({logic:"(Q1).is('C')&&(QC1).is('B')", show:"conditional_55ed9dedd05bf"});
+conditions[1].push({logic:"(Q1).is('C')&&(QC1).is('B')&&(QC1B).is('A')", show:"conditional_55ed9dedd0746"});
+conditions[1].push({logic:"(Q1).is('C')&&(QC1).is('B')&&(QC1B).is('B')", show:"conditional_55ed9dedd08d5"});
+conditions[1].push({logic:"(Q1).is('A')&&(QA1).is('A')", show:"conditional_55ed9dedd0a55"});
+conditions[1].push({logic:"(Q1).is('A')&&(QA1).is('B')&&(QA2).is('A')", show:"conditional_55ed9dedd0b62"});
+conditions[1].push({logic:"(Q1).is('A')&&(QA1).is('B')&&(QA2).is('B')", show:"conditional_55ed9dedd0c78"});
+conditions[1].push({logic:"(Q1).is('B')&&(QB1).is('A')", show:"conditional_55ed9dedd0d88"});
+conditions[1].push({logic:"(Q1).is('B')&&((QB2).is('A')||(QB2).is('C'))", show:"conditional_55ed9dedd0ea3"});
+conditions[1].push({logic:"(Q1).is('B')&&((QB2).is('B')||(QB2).is('C'))&&(QB2B).is('A')", show:"conditional_55ed9dedd0fc1"});
+conditions[1].push({logic:"(Q1).is('B')&&((QB2).is('B')||(QB2).is('C'))&&(QB2B).is('B')", show:"conditional_55ed9dedd10e5"});
+conditions[1].push({logic:"(Q1).is('B')&&(QB3).is('A')", show:"conditional_55ed9dedd1202"});
+conditions[1].push({logic:"(Q1).is('B')&&(QB4).is('A')&&(QB4A).is('A')&&(QB4A1).is('A')", show:"conditional_55ed9dedd1320"});
+conditions[1].push({logic:"(Q1).is('B')&&(QB4).is('A')&&(QB4A).is('A')&&(QB4A1).is('B')&&(QB4A1B).is('A')", show:"conditional_55ed9dedd1457"});
+conditions[1].push({logic:"(Q1).is('B')&&(QB4).is('A')&&(QB4A).is('A')&&(QB4A1).is('B')&&(QB4A1B).is('B')", show:"conditional_55ed9dedd1561"});
+conditions[1].push({logic:"(Q1).is('B')&&(QB4).is('A')&&(QB4A).is('B')&&(QB4AB1).is('A')", show:"conditional_55ed9dedd1660"});
+conditions[1].push({logic:"(Q1).is('B')&&(QB4).is('A')&&(QB4A).is('B')&&(QB4AB1).is('B')", show:"conditional_55ed9dedd178c"});
+conditions[1].push({logic:"(Q1).is('B')&&(QB4).is('A')&&(QB4A).is('B')&&(QB4AB1).is('C')", show:"conditional_55ed9dedd18b6"});
+conditions[1].push({logic:"(Q1).is('B')&&(QB4).is('A')&&(QB4A).is('C')", show:"conditional_55ed9dedd19f2"});
+conditions[1].push({logic:"(Q1).is('C')&&(QC1).is('A')", show:"conditional_55ed9dedd1ae4"});
+conditions[1].push({logic:"(Q1).is('C')&&(QC1).is('B')&&(QC1B).is('A')&&(QC1BA).is('A')", show:"conditional_55ed9dedd1bee"});
+conditions[1].push({logic:"(Q1).is('C')&&(QC1).is('B')&&(QC1B).is('A')&&(QC1BA).is('B')", show:"conditional_55ed9dedd1d05"});
+conditions[1].push({logic:"(Q1).is('C')&&(QC1).is('B')&&(QC1B).is('B')&&(QC1BB).is('A')", show:"conditional_55ed9dedd1e1f"});
+conditions[1].push({logic:"(Q1).is('C')&&(QC1).is('B')&&(QC1B).is('B')&&(QC1BB).is('B')", show:"conditional_55ed9dedd1f39"});
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_55ed9dedd20f7"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="Q1"], select[name="Q1"], input[name="QA1"], select[name="QA1"], input[name="QB1"], select[name="QB1"], input[name="QB2"], select[name="QB2"], input[name="QB3"], select[name="QB3"], input[name="QB4"], select[name="QB4"], input[name="QB4A"], select[name="QB4A"], input[name="QC1"], select[name="QC1"], input[name="QC1B"], select[name="QC1B"], input[name="QA2"], select[name="QA2"], input[name="QB2B"], select[name="QB2B"], input[name="QB4A1"], select[name="QB4A1"], input[name="QB4AB1"], select[name="QB4AB1"], input[name="QC1BA"], select[name="QC1BA"], input[name="QC1BB"], select[name="QC1BB"], input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="Q1"], select[name="Q1"], input[name="QA1"], select[name="QA1"], input[name="QB1"], select[name="QB1"], input[name="QB2"], select[name="QB2"], input[name="QB3"], select[name="QB3"], input[name="QB4"], select[name="QB4"], input[name="QB4A"], select[name="QB4A"], input[name="QC1"], select[name="QC1"], input[name="QC1B"], select[name="QC1B"], input[name="QA2"], select[name="QA2"], input[name="QB2B"], select[name="QB2B"], input[name="QB4A1"], select[name="QB4A1"], input[name="QB4AB1"], select[name="QB4AB1"], input[name="QC1BA"], select[name="QC1BA"], input[name="QC1BB"], select[name="QC1BB"], input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>

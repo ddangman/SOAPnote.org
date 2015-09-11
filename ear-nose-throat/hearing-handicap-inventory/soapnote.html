@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Hearing Handicap Inventory - Decision tool to assess impact of hearing loss.<br><select name="Q1"><option value="Yes: 4 points=4">Yes: 4 points</option><option value="Sometimes: 2 points=2">Sometimes: 2 points</option><option value="No: 0 points=0">No: 0 points</option></select> <-- Embarrassed when meeting new people due to hearing problem<br><select name="Q2"><option value="Yes: 4 points=4">Yes: 4 points</option><option value="Sometimes: 2 points=2">Sometimes: 2 points</option><option value="No: 0 points=0">No: 0 points</option></select> <-- Frustrated when speaking to family due to hearing problem<br><select name="Q3"><option value="Yes: 4 points=4">Yes: 4 points</option><option value="Sometimes: 2 points=2">Sometimes: 2 points</option><option value="No: 0 points=0">No: 0 points</option></select> <-- Difficulty hearing whispered voice<br><select name="Q4"><option value="Yes: 4 points=4">Yes: 4 points</option><option value="Sometimes: 2 points=2">Sometimes: 2 points</option><option value="No: 0 points=0">No: 0 points</option></select> <-- Feel impaired by hearing problem<br><select name="Q5"><option value="Yes: 4 points=4">Yes: 4 points</option><option value="Sometimes: 2 points=2">Sometimes: 2 points</option><option value="No: 0 points=0">No: 0 points</option></select> <-- Hearing interferes with visiting with family and friends<br><select name="Q6"><option value="Yes: 4 points=4">Yes: 4 points</option><option value="Sometimes: 2 points=2">Sometimes: 2 points</option><option value="No: 0 points=0">No: 0 points</option></select> <-- Attends religious services less often due to hearing problems<br><select name="Q7"><option value="Yes: 4 points=4">Yes: 4 points</option><option value="Sometimes: 2 points=2">Sometimes: 2 points</option><option value="No: 0 points=0">No: 0 points</option></select> <-- Hearing problem result in arguments with family<br><select name="Q8"><option value="Yes: 4 points=4">Yes: 4 points</option><option value="Sometimes: 2 points=2">Sometimes: 2 points</option><option value="No: 0 points=0">No: 0 points</option></select> <-- Hearing problem interferes with listening to television and radio<br><select name="Q9"><option value="Yes: 4 points=4">Yes: 4 points</option><option value="Sometimes: 2 points=2">Sometimes: 2 points</option><option value="No: 0 points=0">No: 0 points</option></select> <-- Hearing problem interferes with social life<br><select name="Q10"><option value="Yes: 4 points=4">Yes: 4 points</option><option value="Sometimes: 2 points=2">Sometimes: 2 points</option><option value="No: 0 points=0">No: 0 points</option></select> <-- Hearing problem interferes with communication in a restaurant<br>Score --> <span class="calc">Score<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10)</span></span> out of 40 points<br>Interpretation --> <span class="calc">Interpretation<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10);score>25?'Severe hearing handicap likelihood (refer)':score>9?'Moderate hearing hadicap likelihood (refer)':'Low hearing handicap likelihood'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ee406b0884d" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/6626295" target="_blank">Ventry (1983) ASHA 25(7): 37-42</a>, <a href="http://www.fpnotebook.com/ent/Exam/HrngHndcpInvntryFrThEldrly.htm" target="_blank">Family Practice Notebook Page</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  March 25, 2012; September 6, 2015<br>permalink: <a href="http://www.soapnote.org/ear-nose-throat/hearing-handicap-inventory/" target="_blank">www.soapnote.org/ear-nose-throat/hearing-handicap-inventory/</a><br>markup link:  <a href="http://www.soapnote.org/txt/ear-nose-throat/hearing-handicap-inventory.txt" target="_blank">www.soapnote.org/txt/ear-nose-throat/hearing-handicap-inventory.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_55ee406b0884d"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>

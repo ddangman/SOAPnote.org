@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Modified Hachinski Score  <span class="memo exclude">Calculates the likelihood dementia is due to vascular causes.</span><br>Findings:<br><select name="abrupt"><option value="false=0">false</option><option value="TRUE=2">TRUE</option></select> <-- Abrupt onset<br><select name="stepwise"><option value="false=0">false</option><option value="TRUE=1">TRUE</option></select> <-- Stepwise progression<br><select name="fluctuating"><option value="false=0">false</option><option value="TRUE=2">TRUE</option></select> <-- Fluctuating course<br><select name="nocturnal"><option value="false=0">false</option><option value="TRUE=1">TRUE</option></select> <-- Nocturnal confusion<br><select name="personality"><option value="false=0">false</option><option value="TRUE=2">TRUE</option></select> <-- Relative preservation of personality<br><select name="depression"><option value="false=0">false</option><option value="TRUE=1">TRUE</option></select> <-- Depression<br><select name="somatic"><option value="false=0">false</option><option value="TRUE=1">TRUE</option></select> <-- Somatic complaints<br><select name="emotional"><option value="false=0">false</option><option value="TRUE=1">TRUE</option></select> <-- Emotional incontinence<br><select name="hypertension"><option value="false=0">false</option><option value="TRUE=1">TRUE</option></select> <-- History of hypertension<br><select name="stroke"><option value="false=0">false</option><option value="TRUE=2">TRUE</option></select> <-- History of stroke<br><select name="neuroSigns"><option value="false=0">false</option><option value="TRUE=2">TRUE</option></select> <-- Focal neurologic signs<br><select name="neuroSymps"><option value="false=0">false</option><option value="TRUE=2">TRUE</option></select> <-- Focal neurologic symptoms<br>Score:  <span class="calc">Score<span class="calc_value">score=(abrupt)+(stepwise)+(fluctuating)+(nocturnal)+(personality)+(depression)+(somatic)+(emotional)+(hypertension)+(stroke)+(neuroSigns)+(neuroSymps)</span></span>/18  Interpretation:  <span class="calc">Interpretation<span class="calc_value">score=(abrupt)+(stepwise)+(fluctuating)+(nocturnal)+(personality)+(depression)+(somatic)+(emotional)+(hypertension)+(stroke)+(neuroSigns)+(neuroSymps);score>6?'Dementia likely due to vascular causes':score>4?'Inconclusive':'Dementia not likely due to vascular causes'</span></span><br><span class="memo exclude">References:  </span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55eea0f499f54" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/7396427" target="_blank">Rosen WG, Terry RD, Field PA, et al. Pathological verification of ischemic score in differentiation of dementias. Ann Neurol 1980;7:486–8.</a>, <a href="http://www.aafp.org/afp/2001/0215/p703.html" target="_blank">Early Diagnosis of Dementia, Am Fam Physician. 2001 Feb 15;63(4):703-714.</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  June 16, 2010; August 30, 2015<br>permalink: <a href="http://www.soapnote.org/elder-care/modified-hachinski-score-for-vascular-dementia/" target="_blank">www.soapnote.org/elder-care/modified-hachinski-score-for-vascular-dementia/</a><br>markup link:  <a href="http://www.soapnote.org/txt/elder-care/modified-hachinski-score-for-vascular-dementia.txt" target="_blank">www.soapnote.org/txt/elder-care/modified-hachinski-score-for-vascular-dementia.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_55eea0f499f54"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>

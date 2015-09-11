@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>GerdQ Calculator for Likelihood of Gastroesophageal Reflux Disease<span class="exclude"><br><strong>Summary:</strong> Calculates the likelihood of GERD being present given responses to 6 symptom-related questions.</span><br><select name="Q1"><option value="Zero (0 points)=0">Zero (0 points)</option><option value="One (1 point)=1">One (1 point)</option><option value="Two to Three (2 points)=2">Two to Three (2 points)</option><option value="Four to Seven (3 points)=3">Four to Seven (3 points)</option></select> <-- Days per week with burning feeling behind the breastbone (heartburn)?<br><select name="Q2"><option value="Zero (0 points)=0">Zero (0 points)</option><option value="One (1 point)=1">One (1 point)</option><option value="Two to Three (2 points)=2">Two to Three (2 points)</option><option value="Four to Seven (3 points)=3">Four to Seven (3 points)</option></select> <-- Days per week with stomach contents moving up to the throat or mouth (regurgitation)?<br><select name="Q3"><option value="Zero (3 points)=3">Zero (3 points)</option><option value="One (2 points)=2">One (2 points)</option><option value="Two to Three (1 point)=1">Two to Three (1 point)</option><option value="Four to Seven (0 points)=0">Four to Seven (0 points)</option></select> <-- Days per week with pain in the middle of the upper stomach area?<br><select name="Q4"><option value="Zero (3 points)=3">Zero (3 points)</option><option value="One (2 points)=2">One (2 points)</option><option value="Two to Three (1 point)=1">Two to Three (1 point)</option><option value="Four to Seven (0 points)=0">Four to Seven (0 points)</option></select> <-- Days per week with nausea? <br><select name="Q5"><option value="Zero (0 points)=0">Zero (0 points)</option><option value="One (1 point)=1">One (1 point)</option><option value="Two to Three (2 points)=2">Two to Three (2 points)</option><option value="Four to Seven (3 points)=3">Four to Seven (3 points)</option></select> <-- Days per week with trouble getting a good night's sleep because of heartburn or regurgitation?<br><select name="Q6"><option value="Zero (0 points)=0">Zero (0 points)</option><option value="One (1 point)=1">One (1 point)</option><option value="Two to Three (2 points)=2">Two to Three (2 points)</option><option value="Four to Seven (3 points)=3">Four to Seven (3 points)</option></select> <-- Days per week with the need for over-the-counter medicine for heartburn or regurgitation (such as Tums, Rolaids, Maalox, or other antacids), in addition to the medicine your doctor prescribed?<br>Score --> <span class="calc">score<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)</span></span> out of 18.  Interpretation --> <span class="calc">interpretation<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6);score>10?'89%':score>7?'79%':score>2?'50%':'0%'</span></span> likelihood of GERD.<br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ee3f0150425" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.aafp.org/afp/2010/0515/p1278.html" target="_blank">Am Fam Physician. 2010 May 15;81(10):1278-1280.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/19737151" target="_blank">Jones R, Junghard O, Dent J, et al. Development of the GerdQ, a tool for the diagnosis and management of gastrooesophageal reflux disease in primary care. Aliment Pharmacol Ther. 2009;30(10):1034</a>, <br>posted by:  Mark Morgan, M.D.<br>post/review dates:  October 4, 2010; August 25, 2015<br>permalink: <a href="http://www.soapnote.org/digestive-system/gerdq/" target="_blank">www.soapnote.org/digestive-system/gerdq/</a><br>markup link:  <a href="http://www.soapnote.org/txt/digestive-system/gerdq.txt" target="_blank">www.soapnote.org/txt/digestive-system/gerdq.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_55ee3f0150425"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>
