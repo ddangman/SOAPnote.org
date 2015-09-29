@@ -1,10 +1,5 @@
 [html]Eye Exam
-[/html]Eyes: ***Orbits, eyelids, conjunctivae and sclera are normal. Pupils are equal, round, reactive to light with extraocular movements intact. Vision is grossly intact, and funduscopic examination is unremarkable.***
-external: brows, lids, and lashes ***intact/absent***
-conjunctiva: ***pale/injected/mattery discharge/purulent discharge/foreign body visualized and removed/corneal abrasion visualized with fluorescein staining***
-visual acuity: near (to small print) ***normal/impaired***, far ***/20 OS, ***/20 OD, ***/20 OU
-funduscopic: ***macula present/hemorrhage/AV nicking/optic disc shows cup disc ratio of .3***
-other abnormalities: ***strabismus/nystagmus/blepharitis/chalazion/hordeolum/subconjuntival hemorhage/arcus senilis/lenicular opacity/cells in anterior chamber***
+[/html][textarea columns=108 rows=25 default="Eyes: ***Orbits, eyelids, conjunctivae and sclera are normal. Pupils are equal, round, reactive to light with extraocular movements intact. Vision is grossly intact, and funduscopic examination is unremarkable.***&#13;&#10;external: brows, lids, and lashes ***intact/absent***&#13;&#10;conjunctiva: ***pale/injected/mattery discharge/purulent discharge/foreign body visualized and removed/corneal abrasion visualized with fluorescein staining***&#13;&#10;visual acuity: near (to small print) ***normal/impaired***, far ***/20 OS, ***/20 OD, ***/20 OU&#13;&#10;funduscopic: ***macula present/hemorrhage/AV nicking/optic disc shows cup disc ratio of .3***&#13;&#10;other abnormalities: ***strabismus/nystagmus/blepharitis/chalazion/hordeolum/subconjuntival hemorhage/arcus senilis/lenicular opacity/cells in anterior chamber***"]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  none
 posted by:  Mark Morgan, M.D.

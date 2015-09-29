@@ -1,4 +1,5 @@
-GENERAL APPEARANCE: Patient is ***obese/overweight/cachectic/well developed and well nourished***. Appears ***acutely ill/chronically ill/uncomfortable/dehydrated*** in ***no distress/mild distress/moderate distress/significant distress***.
+[html]General Exam
+[/html][textarea columns=108 rows=25 default="GENERAL APPEARANCE: Patient is ***obese/overweight/cachectic/well developed and well nourished***. Appears ***acutely ill/chronically ill/uncomfortable/dehydrated*** in ***no distress/mild distress/moderate distress/significant distress***."]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  none
 posted by:  Mark Morgan, M.D.

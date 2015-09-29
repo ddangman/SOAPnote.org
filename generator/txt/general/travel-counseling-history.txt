@@ -1,5 +1,4 @@
 Travel Counseling History
-http://www.soapnote.org/general/travel-counseling-history/
 [select name="Q1" value="male|female"] <-- Gender[conditional field="Q1" condition="(Q1).is('female')"]
 [select value="no|YES"] <-- Pregnant
 [select value="no|YES"] <-- Trying to become pregnant in next 3 months[/conditional]

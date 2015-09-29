@@ -5,7 +5,7 @@ History provided by [select name="Q1" value="patient|mother|father|spouse|son|da
 [select value="When did the laceration occur?|Laceration occurred less than six hours ago.  |Laceration occurred less than 12 hours ago.  |Laceration occurred more than 12 hours ago.  |Laceration occurred one day ago.  |Laceration occurred more than one day ago.  "]
 [select value="Bleeding?|Bleeding has ceased.  |Bleeding is minimal.  |Bleeding was minimal.  |Bleeding continues.  |Bleeding is controlled.  |Bleeding is profuse.  "]
 Accompanying symptoms:  
-[checkbox value="no other symptoms.  |no loss of sensation related to the injury.  |full range of motion of involved body part.  |no symptoms of vascular compromise.  |loss of sensation distal to the injury.  "
+[checkbox value="no other symptoms|no loss of sensation related to the injury|full range of motion of involved body part|no symptoms of vascular compromise|loss of sensation distal to the injury"]
 Tetanus toxoid:  [select value="up to date|less than five years ago|between 5 - 10 years ago|greater than 10 years ago|unknown"]
 
 Objective:
