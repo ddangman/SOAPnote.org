@@ -1,8 +1,7 @@
-Pitted keratolysis
-This is a superficial infection of the top layers of the skin associated with various bacteria. The predisposing condition for this is hyperhidrosis of the soles of the feet. Aluminium chloride 20% to be applied every night at bedtime helps control the hyperhidrosis as well as erythromycin solution twice daily if possible to the affected areas of the feet. Knows to wear shoes that breath, use of Coolmax socks, changing the socks frequently, and gradually extending the times of use for the hyperhidrosis. Previously treated with oral Lamisil with 1 week of oral Keflex with minimal changes in rash. Has found some improvement in the maceration appearance spraying his feet with antiperspirant but the medications have had little effect.
+[textarea cols=108 rows=5 default="Pitted keratolysis&#13;&#10;This is a superficial infection of the top layers of the skin associated with various bacteria. The predisposing condition for this is hyperhidrosis of the soles of the feet. &#13;&#10;Aluminium chloride 20% to be applied every night at bedtime helps control the hyperhidrosis as well as erythromycin solution twice daily if possible to the affected areas of the feet. &#13;&#10;Knows to wear shoes that breath, use of Coolmax socks, changing the socks frequently, and gradually extending the times of use for the hyperhidrosis. &#13;&#10;Can consider trial of oral Lamisil with 1 week of oral Keflex."]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  none
 posted by:  Mark Morgan, M.D.
-post/review dates:  April 1, 2010; August 20, 2015
+post/review dates:  April 1, 2010; August 20, 2015; October 2, 2015
 permalink: <a href="http://www.soapnote.org/skin/pitted-keratolysis/" target="_blank">www.soapnote.org/skin/pitted-keratolysis/</a>
 markup link:  <a href="http://www.soapnote.org/txt/skin/pitted-keratolysis.txt" target="_blank">www.soapnote.org/txt/skin/pitted-keratolysis.txt</a>[/html][/conditional]

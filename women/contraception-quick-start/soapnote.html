@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <h1 class="entry-title">contraception-quick-start</h1>
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Contraception Quick Start Algorithm<br><select name="Q1"><option value="choose below">choose below</option><option value="Less than or equal to 5 days ago">Less than or equal to 5 days ago</option><option value="More than 5 days ago">More than 5 days ago</option></select> <-- First day of last menstrual period?<span name="conditional_560e02a99a908" class="hidden"><br>Plan --> Start method today</span><span name="conditional_560e02a99ab17" class="hidden"><br><select name="Q2"><option value="choose below">choose below</option><option value="None">None</option><option value="Less than or equal to 5 days ago">Less than or equal to 5 days ago</option><option value="More than 5 days ago">More than 5 days ago</option><option value="Both less than and more than 5 days ago">Both less than and more than 5 days ago</option></select> <-- Unprotected sex since last menstrual period?</span><span name="conditional_560e02a99ae81" class="hidden"><br>Plan --> Start pill/patch/ring/injection today, use back-up method 1st week</span><span name="conditional_560e02a99ed7f" class="hidden"><br><select name="Q3"><option value="choose below">choose below</option><option value="Negative">Negative</option><option value="POSITIVE">POSITIVE</option></select> <-- Urine pregnancy test result?</span><span name="conditional_560e02a99f039" class="hidden"><br>Plan --> Provide options counseling</span><span name="conditional_560e02a99f190" class="hidden"><br>Offer hormonal emergency contraception today <span class="exclude"><a href="http://ec.princeton.edu/" target="_blank">more information</a></span></span><span name="conditional_560e02a99f322" class="hidden"><br>Advise that negative pregnancy test is not conclusive, but hormones will not harm embryo</span><span name="conditional_560e02a99f46c" class="hidden"><br>Offer hormonal emergency contraception today <span class="exclude"><a href="http://ec.princeton.edu/" target="_blank">more information</a></span></span><span name="conditional_560e02a99f5d6" class="hidden"><br><select name="Q4"><option value="choose below">choose below</option><option value="Yes">Yes</option><option value="No">No</option></select> <-- Patient wants to start new method now?</span><span name="conditional_560e02a99f7f5" class="hidden"><br>Plan --><br>Start pill/patch/ring/injection, use back up method 1st week<br>Timing:  start new method TODAY even if taking emergency contraception today<br>If repeat urine pregnancy test in 2 weeks is negative --> continue pill/patch/ring/injection</span><span name="conditional_560e02a99f97b" class="hidden"><br>Plan --><br>Prescription for chosen method given<br>Patient advised to use barrier method until next menses<br>Start pill/patch/ring on 1st day of menses<br>Return for injection within 5 days of menses</span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_560e02a99faba" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.reproductiveaccess.org/contraception/quickstart_algorithm.htm" target="_blank">Reproductive Health Access Project</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  September 26, 2014; August 31, 2015<br>permalink: <a href="http://www.soapnote.org/women/contraception-quick-start/" target="_blank">www.soapnote.org/women/contraception-quick-start/</a><br>markup link:  <a href="http://www.soapnote.org/txt/women/contraception-quick-start.txt" target="_blank">www.soapnote.org/txt/women/contraception-quick-start.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(Q1).is('Less than or equal to 5 days ago')", show:"conditional_560e02a99a908"});
+conditions[1].push({logic:"(Q1).is('More than 5 days ago')", show:"conditional_560e02a99ab17"});
+conditions[1].push({logic:"(Q1).is('More than 5 days ago')&&(Q2).is('None')", show:"conditional_560e02a99ae81"});
+conditions[1].push({logic:"(Q1).is('More than 5 days ago')&&((Q2).is('Less than or equal to 5 days ago')||(Q2).is('More than 5 days ago')||(Q2).is('Both less than and more than 5 days ago'))", show:"conditional_560e02a99ed7f"});
+conditions[1].push({logic:"(Q3).is('POSITIVE')", show:"conditional_560e02a99f039"});
+conditions[1].push({logic:"(Q1).is('More than 5 days ago')&&(Q2).is('Less than or equal to 5 days ago')&&(Q3).is('Negative')", show:"conditional_560e02a99f190"});
+conditions[1].push({logic:"(Q1).is('More than 5 days ago')&&(Q2).is('More than 5 days ago')&&(Q3).is('Negative')", show:"conditional_560e02a99f322"});
+conditions[1].push({logic:"(Q1).is('More than 5 days ago')&&(Q2).is('Both less than and more than 5 days ago')&&(Q3).is('Negative')", show:"conditional_560e02a99f46c"});
+conditions[1].push({logic:"(Q1).is('More than 5 days ago')&&(Q2).isNot('None')&&(Q3).is('Negative')", show:"conditional_560e02a99f5d6"});
+conditions[1].push({logic:"(Q1).is('More than 5 days ago')&&((Q2).is('Less than or equal to 5 days ago')||(Q2).is('More than 5 days ago')||(Q2).is('Both less than and more than 5 days ago'))&&(Q3).is('Negative')&&(Q4).is('Yes')", show:"conditional_560e02a99f7f5"});
+conditions[1].push({logic:"(Q1).is('More than 5 days ago')&&((Q2).is('Less than or equal to 5 days ago')||(Q2).is('More than 5 days ago')||(Q2).is('Both less than and more than 5 days ago'))&&(Q3).is('Negative')&&(Q4).is('No')", show:"conditional_560e02a99f97b"});
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_560e02a99faba"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="Q1"], select[name="Q1"], input[name="Q2"], select[name="Q2"], input[name="Q3"], select[name="Q3"], input[name="Q4"], select[name="Q4"], input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="Q1"], select[name="Q1"], input[name="Q2"], select[name="Q2"], input[name="Q3"], select[name="Q3"], input[name="Q4"], select[name="Q4"], input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>

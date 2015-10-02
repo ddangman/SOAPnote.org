@@ -1,8 +1,7 @@
-Skin tag - shave excision
-Skin around skin tag was prepped with Betadine, draped with sterile towels, infiltrated w/Bupivicaine 0.5% ml to raise a wheal, and shave excised. Hemostasis achieved with Aluminum hydroxide 25% without difficulty. Bacitracin and bandaid applied. Tolerated well. Negligible blood loss. Skin tag discarded.
+[textarea cols=108 rows=5 default="Skin tag - shave excision&#13;&#10;Skin around skin tag was prepped with Betadine, draped with sterile towels, infiltrated w/Bupivicaine 0.5% ml to raise a wheal, and shave excised. &#13;&#10;Hemostasis achieved with Aluminum hydroxide 25% without difficulty. &#13;&#10;Bacitracin and bandaid applied. &#13;&#10;Tolerated well. Negligible blood loss. Skin tag discarded."]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  none
 posted by:  Mark Morgan, M.D.
-post/review dates:  April 10, 2010; August 20, 2015
+post/review dates:  April 10, 2010; August 20, 2015; October 2, 2015
 permalink: <a href="http://www.soapnote.org/skin/tag-shave-plan/" target="_blank">www.soapnote.org/skin/tag-shave-plan/</a>
 markup link:  <a href="http://www.soapnote.org/txt/skin/tag-shave-plan.txt" target="_blank">www.soapnote.org/txt/skin/tag-shave-plan.txt</a>[/html][/conditional]

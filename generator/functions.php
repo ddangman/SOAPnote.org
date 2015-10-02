@@ -482,13 +482,37 @@ function do_shortcode ($content) {
 
          foreach($matched[0] as $key => $item) {
                 $shortcodeName = $matched[2][$key];
-                $itemText = $matched[3][$key];
+                
+                if($shortcodeName != 'conditional')
+                        continue;
+                
+                $itemText = trim($matched[3][$key]);
                 $itemAtts = shortcode_parse_atts($itemText) ;
                 $itemFunc = $shortcode_tags[$shortcodeName];
-                $itemContent = $matched[5][$key];
+                $itemContent = trim($matched[5][$key]);
                 $itemHtml = call_user_func($itemFunc, $itemAtts,$itemContent);
                 
-                $content = str_replace($item,$itemHtml,$content);
+                if($shortcodeName == 'conditional') {
+                        file_put_contents('test.txt',$item,FILE_APPEND);
+                }
+                $content = str_replace(trim($item),$itemHtml,$content);
+                
+         }
+         
+          foreach($matched[0] as $key => $item) {
+                $shortcodeName = $matched[2][$key];
+                
+                if($shortcodeName == 'conditional')
+                        continue;
+                
+                $itemText = trim($matched[3][$key]);
+                $itemAtts = shortcode_parse_atts($itemText) ;
+                $itemFunc = $shortcode_tags[$shortcodeName];
+                $itemContent = trim($matched[5][$key]);
+                $itemHtml = call_user_func($itemFunc, $itemAtts,$itemContent);
+                
+                $content = str_replace(trim($item),$itemHtml,$content);
+                
          }
         
         return $content;

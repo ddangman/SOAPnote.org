@@ -4,6 +4,6 @@ Recheck if symptoms persist or worsen or if other systemic symptoms develop
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  none
 posted by:  Mark Morgan, M.D.
-post/review dates:  April 20, 2010; August 20, 2015
+post/review dates:  April 20, 2010; August 20, 2015; October 2, 2015
 permalink: <a href="http://www.soapnote.org/skin/rash-plan/" target="_blank">www.soapnote.org/skin/rash-plan/</a>
 markup link:  <a href="http://www.soapnote.org/txt/skin/rash-plan.txt" target="_blank">www.soapnote.org/txt/skin/rash-plan.txt</a>[/html][/conditional]

@@ -1,8 +1,7 @@
-Skin lesion punch biopsy
-After obtaining informed consent, the area was prepped and draped in the usual fashion. Anesthesia was obtained with 1% lidocaine with epinephrine. A full thickness punch biopsy was obtained with a 4mm punch. Wound closed with two simple interrupted sutures of 4-0 Ethilon. Sutures out in 4 days. Wound care discussed. Specimen sent for dermatopathology.
+[textarea cols=108 rows=5 default="Skin lesion punch biopsy&#13;&#10;After obtaining informed consent, the area was prepped and draped in the usual fashion. &#13;&#10;Anesthesia was obtained with 1% lidocaine with epinephrine. &#13;&#10;A full thickness punch biopsy was obtained with a 4mm punch. Wound closed with two simple interrupted sutures of 4-0 Ethilon. &#13;&#10;Sutures out in 4 days. Wound care discussed. &#13;&#10;Specimen sent for dermatopathology."]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  none
 posted by:  Mark Morgan, M.D.
-post/review dates:  April 10, 2010; August 20, 2015
+post/review dates:  April 10, 2010; August 20, 2015; October 2, 2015
 permalink: <a href="http://www.soapnote.org/skin/punch-plan/" target="_blank">www.soapnote.org/skin/punch-plan/</a>
 markup link:  <a href="http://www.soapnote.org/txt/skin/punch-plan.txt" target="_blank">www.soapnote.org/txt/skin/punch-plan.txt</a>[/html][/conditional]
