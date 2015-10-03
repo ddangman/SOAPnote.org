@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <h1 class="entry-title">knee-exam</h1>
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/><span class="exclude">Knee Exam<br></span><textarea cols="60" rows="5" name="textarea_560faf75eb1cd">KNEE: On inspection ***contours of the joint are normal/the joint is hypertrophic/there are irregular bony prominences palpable at the joint margins/the knee is swollen with effusion/there is reduced ROM/there is normal ROM***.</textarea><br><textarea cols="60" rows="5" name="textarea_560faf75eb558">Muscle atrophy evident: ***yes/no***</textarea><br><textarea cols="60" rows="5" name="textarea_560faf75eb629">Pain on resisted extension: ***yes/no***</textarea><br><textarea cols="60" rows="5" name="textarea_560faf75eb6db">Strength on extension against resistance: ***normal/decreased***</textarea><br><textarea cols="60" rows="5" name="textarea_560faf75eb789">Effusion (fluid wave check or patellar palpation): ***none/mild/moderate/large***</textarea><br><textarea cols="60" rows="5" name="textarea_560faf75eb82e">Patellar crepitus: ***none/present***</textarea><br><textarea cols="60" rows="5" name="textarea_560faf75eb8d8">Patellar pain: ***at medial patella undersurface/at lateral patella undersurface***</textarea><br><textarea cols="60" rows="5" name="textarea_560faf75eb98c">Joint line pain: ***none medially or laterally/medially but not laterally/laterally but not medially/both medially and laterally***</textarea><br><textarea cols="60" rows="5" name="textarea_560faf75eba58">Tendon pain: ***No pain with palpation of the patellar and quad tendons/Pain with palpation of the patellar tendon but not quadriceps tendon/Pain with palpation of the quadriceps tendon but not patellar tendon/Pain with palpation of the patellar and quad tendons***</textarea><br><textarea cols="60" rows="5" name="textarea_560faf75ebb1d">McMurray: ***negative for crepitus and pain/McMurray positive for medial crepitus and pain/positive for medial crepitus without pain/positive for lateral crepitus and pain/positive for lateral crepitus without pain***</textarea><br><textarea cols="60" rows="5" name="textarea_560faf75ebbdc">Bursal swelling or pain: ***No swelling or pain over the pes anserine bursa/pain with palpation over the pes anserine bursa/pain and swelling evident with palpation of the pes anserine bursa***.</textarea><br><textarea cols="60" rows="5" name="textarea_560faf75ebc82">ROM: ***normal/Flexion is limited/Extension is limited***</textarea><br><textarea cols="60" rows="5" name="textarea_560faf75ebd4d">Collateral ligament testing: ***shows no laxity or pain/shows medial collateral ligament pain without laxity/show lateral collateral ligament pain without laxity/shows medial collateral ligament pain and laxity/shows lateral collateral ligament pain and laxity***.</textarea><br><textarea cols="60" rows="5" name="textarea_560faf75ebe06">Anterior drawer test and Lachman: ***shows no anterior cruciate laxity/shows ACL laxity***</textarea><br><textarea cols="60" rows="5" name="textarea_560faf75ebeab">Posterior drawer: ***shows no laxity/shows PCL laxity***.</textarea><br><textarea cols="60" rows="5" name="textarea_560faf75ebf4e">Popliteal space: ***with/without mass or tenderness***.</textarea><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_560faf75eaf64" class="hidden"><span class="exclude"><br>reference:  none<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  April 1, 2010; August 28, 2015<br>permalink: <a href="http://www.soapnote.org/musculoskeletal/knee-exam/" target="_blank">www.soapnote.org/musculoskeletal/knee-exam/</a><br>markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/knee-exam.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/knee-exam.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_560faf75eaf64"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>

@@ -1,6 +1,6 @@
 [html]Insomnia Treatment Checklist
-[/html][textarea columns=108 rows=2 default="Assessment: Insomnia&#13;&#10;Plan: "]
-[textarea default="Assessment:  Insomnia"[html]
+[/html]Assessment: Insomnia
+Plan: [html]
 <strong>COGNITIVE THERAPIES</strong>[/html]
 [checkbox value="Discuss realistic expectations about sleep requirements.  "][checkbox value="Discuss consequences of insomnia.  "][html]
 <strong>SLEEP HYGIENE EDUCATION</strong>[/html]

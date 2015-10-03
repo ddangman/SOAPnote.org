@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <h1 class="entry-title">stages-of-change</h1>
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/><span class="exclude">Stages of Change Assessment<br></span>Assessment:<br><select name="stage"><option value="Precontemplation">Precontemplation</option><option value="Contemplation">Contemplation</option><option value="Preparation">Preparation</option><option value="Action">Action</option><option value="Maintenance">Maintenance</option><option value="Relapse">Relapse</option></select><br><span name="conditional_560fabe6aa4f8" class="hidden">No intention to change now or in the near future.  May not accept and/or be aware that there's a problem.</span><span name="conditional_560fabe6aa6d7" class="hidden">Thinking about changing but has not made a commitment to take action.</span><span name="conditional_560fabe6aa813" class="hidden">Intends to take action in the next month.  May have made some small changes.</span><span name="conditional_560fabe6aa957" class="hidden">Making change - modifying behavior, experiences, and/or the environment.</span><span name="conditional_560fabe6aaa79" class="hidden">Working to prevent relapse and consolidate gains.</span><span name="conditional_560fabe6aab95" class="hidden">Regression to an earlier stage.</span><br>Plan:  <span class="exclude"><em>Counseling techniques to move from one stage to the next (no skipping steps)</em></span><br><span class="checkbox" name="checkbox_560fabe6aaf0f"> <label><input type="checkbox" name="checkbox_560fabe6aaf0f" value="Pros and cons worksheet" /> Pros and cons worksheet</label></span><span class="memo exclude"> for quitting and continuing the behavior</span> <input type="text" value="" size="15" name="text_560fabe6aafac" /><br><span class="checkbox" name="checkbox_560fabe6ab055"> <label><input type="checkbox" name="checkbox_560fabe6ab055" value="Bibliotherapy" /> Bibliotherapy</label></span><span class="memo exclude"> recommending books for self-help</span> <input type="text" value="" size="15" name="text_560fabe6aafac" /><br><span class="checkbox" name="checkbox_560fabe6ab19d"> <label><input type="checkbox" name="checkbox_560fabe6ab19d" value="Values clarification" /> Values clarification</label></span><span class="memo exclude"> brainstorming, collecting, and prioritizing values, then determining how to achieve success towards those values</span> <input type="text" value="" size="15" name="text_560fabe6aafac" /><br><input type="text" value="" size="144" name="text_560fabe6ab2c5" /><br><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_560fabe6aacbb" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/6863699" target="_blank">Prochaska JO, DiClemente CC.J Consult Clin Psychol. 1983 Jun;51(3):390-5. Stages and processes of self-change of smoking: toward an integrative model of change.</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  May 28, 2013; September 7, 2015<br>permalink: <a href="http://www.soapnote.org/mental-health/stages-of-change/" target="_blank">www.soapnote.org/mental-health/stages-of-change/</a><br>markup link:  <a href="http://www.soapnote.org/txt/mental-health/stages-of-change.txt" target="_blank">www.soapnote.org/txt/mental-health/stages-of-change.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(stage).is('Precontemplation')", show:"conditional_560fabe6aa4f8"});
+conditions[1].push({logic:"(stage).is('Contemplation')", show:"conditional_560fabe6aa6d7"});
+conditions[1].push({logic:"(stage).is('Preparation')", show:"conditional_560fabe6aa813"});
+conditions[1].push({logic:"(stage).is('Action')", show:"conditional_560fabe6aa957"});
+conditions[1].push({logic:"(stage).is('Maintenance')", show:"conditional_560fabe6aaa79"});
+conditions[1].push({logic:"(stage).is('Relapse')", show:"conditional_560fabe6aab95"});
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_560fabe6aacbb"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="stage"], select[name="stage"], input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="stage"], select[name="stage"], input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>

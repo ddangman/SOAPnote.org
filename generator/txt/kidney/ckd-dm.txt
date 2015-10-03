@@ -1,6 +1,6 @@
 Chronic Kidney Disease in Diabetes Mellitus - Decision Tool[html]
 Summary:  This decision tool assists with management of patients with diabetic nephropathy (diabetes mellitus-related chronic kidney disease, stages III, IV, and V).  It is <strong>not</strong> intended to manage CKD patients on dialysis.
-<i>Note:  Detection of kidney disease should prompt a workup to determine the cause.  A recommended initial evaluation includes Complete Metabolic Panel, Urinalysis, Urine Albumin to Creatinine Ratio (UACR), Uric Acid, Phosphate, Complete Blood Count, ANA screen, Rheumatoid Factor, C3, C4, Hepatitis B sAg, Hepatitis C Ab, dilated retinal exam, and renal Ultrasound; if patient is over 40 years & UACR is positive then Serum and Urine Protein Electrophoreses, as well.</i>
+<i>Note:  Detection of kidney disease should prompt a workup to determine the cause.  A recommended initial evaluation includes Complete Metabolic Panel, Urinalysis, Urine Albumin to Creatinine Ratio (UACR), Uric Acid, Phosphate, Complete Blood Count, ANA screen, Rheumatoid Factor, C3, C4, Hepatitis B sAg, Hepatitis C Ab, dilated retinal exam, and renal Ultrasound; if patient is over 40 years & UACR is positive then Serum and Urine Protein Electrophoreses, as well.</i>[/html]
 Lab and objective findings:
 1. Estimated GFR --> [select name="Q1" value="GFR 30 - 59: CKD Stage III|GFR 15 - 29: CKD Stage IV|GFR 0 - 14: CKD Stage V"]  [comment memo="note:  Chronic Kidney Disease (CKD) is estimated Glomerular Filtration Rate (eGFR) < 60 ml/min or kidney damage for ≥ 3 months (e.g. urine sediment, abnormal imaging, or albuminuria (Urine Albumin to Creatinine Ratio (UACR) < 30mg/g = nl, 30-300 = micro, >300 = macro))"]
 2. Gender --> [select name="Q2" value="male|female"]
@@ -20,6 +20,6 @@ Recommendations:
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  Indian Health Service Guideline (2010) <a href="http://www.ihs.gov/MedicalPrograms/Diabetes/HomeDocs/Tools/Algorithms/DM_algorithm_CKD_508c.pdf" target="_blank">Type 2 Diabetes - Chronic Kidney Disease</a>.  FP notebook page:  <a href="http://www.fpnotebook.com/renal/Rheum/RnlOstdystrphy.htm" target="_blank">Renal Osteodystrophy</a>.[/html]
 posted by:  Mark Morgan, M.D.
-post/review dates:  August 18, 2013; September 3, 2015
+post/review dates:  August 18, 2013; September 3, 2015; October 3, 2015
 permalink: <a href="http://www.soapnote.org/kidney/ckd-dm/" target="_blank">www.soapnote.org/kidney/ckd-dm/</a>
 markup link:  <a href="http://www.soapnote.org/txt/kidney/ckd-dm.txt" target="_blank">www.soapnote.org/txt/kidney/ckd-dm.txt</a>[/html][/conditional]
