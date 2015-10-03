@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <h1 class="entry-title">curb-65-score</h1>
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>CURB-65/CRB-65 Score for Pneumonia<span class="exclude"><br>Decision rules to help determine outpatient vs. inpatient treatment for pneumonia. (It really helps to get the BUN!)"<br></span>Clinical Features:<br><select name="confusion"><option value="absent=0">absent</option><option value="present=1">present</option></select> <-- Confusion<br><select name="BUN"><option value="less than/equal to 19 mg per dL (6.8 mmol per L)=0">less than/equal to 19 mg per dL (6.8 mmol per L)</option><option value="greater 19 mg per dL (6.8 mmol per L)=1">greater 19 mg per dL (6.8 mmol per L)</option><option value="not obtained=10">not obtained</option></select> <-- Blood Urea Nitrogen<br><select name="respiration"><option value="less than 30 breaths per minute=0">less than 30 breaths per minute</option><option value="greater than/equal to 30 breaths per minute=1">greater than/equal to 30 breaths per minute</option></select> <-- Respiratory rate<br><select name="BP"><option value="systolic greater than/equal to 90 and diastolic greater than 60=0">systolic greater than/equal to 90 and diastolic greater than 60</option><option value="systolic less than 90 or diastolic less than/equal to 60=1">systolic less than 90 or diastolic less than/equal to 60</option></select> <-- Blood pressure<br><select name="age"><option value="less than 65=0">less than 65</option><option value="greater than/equal to 65=1">greater than/equal to 65</option></select> <-- Age<br>Result --> <span class="calc">score<span class="calc_value">score=(confusion)+(BUN)+(respiration)+(BP)+(age);score>13?'CRB-65 = 4: High risk of death; urgent hospitalization':score>12?'CRB-65 = 3: High risk of death; urgent hospitalization':score>11?'CRB-65 = 2: Increased risk of death; consider hospitalization':score>10?'CRB-65 = 1: Increased risk of death; consider hospitalization':score>9?'CRB-65 = 0: Very low risk of death; usually does not require hospitalization':score>4?'CURB-65 = 5: Severe pneumonia; hospitalize and consider admitting to intensive care':score>3?'CURB-65 = 4: Severe pneumonia; hospitalize and consider admitting to intensive care':score>2?'CURB-65 = 3: Severe pneumonia; hospitalize and consider admitting to intensive care':score>1?'CURB-65 = 2: Short inpatient hospitalization or closely-supervised outpatient treatment':score>0?'CURB-65 = 1: Low risk; consider home treatment':'CURB-65 = 0: Low risk; consider home treatment'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_560f5369eeb99" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.aafp.org/afp/2006/0415/p1425.html" target="_blank">Am Fam Physician. 2006 Apr 15;73(8):1425-1428</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  September 1, 2010; September 1, 2015<br>permalink: <a href="http://www.soapnote.org/infectious/curb-65-score/" target="_blank">www.soapnote.org/infectious/curb-65-score/</a><br>markup link:  <a href="http://www.soapnote.org/txt/infectious/curb-65-score.txt" target="_blank">www.soapnote.org/txt/infectious/curb-65-score.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_560f5369eeb99"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>

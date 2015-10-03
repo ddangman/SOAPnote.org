@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <h1 class="entry-title">travel-diarrhea-plan</h1>
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/><span class="exclude">Traveler's Diarrhea Assessment/Plan<br></span><textarea cols="60" rows="25" name="textarea_560f523c2c2fd">Traveler’s diarrhea counselling&#13;&#10;We talked about travelers diarrhea, and food and water precautions, drink bottled or boiled water and avoid any raw or uncooked foods. Pt will also make note to ensure that any milk products are pasteurized; and to avoid ice in drinks. Patient will avoid salads and other fresh vegetables and will eat fruits that are thick skinned and personally peel the fruit. Patient has been instructed to take plenty of fluids and take Imodium for mild diarrhea. For moderate diarrhea (more than 4/5 stools a day, feeling a little sick but no high fever or blood in stool, unable to participate in the planned activity) combination self-treatment was advised using an antibiotic together with Imodium. A three-day course of Levofloxacin, 500 mg, orally every 24 hours OR Cipro 500 mg twice daily OR Azithromycin 500 mg twice daily for 3 days (for quinolone allergy or travel to Thailand (quinolone resistant Campylobacter) should be completed. However, for severe diarrhea i.e. diarrhea that is associated with fever > 101F, or bloody stools, the patient was recommended to start the antibiotic alone for 3 days and not to take Imodium. In this situation, Imodium can be potentially harmful and therefore patients are advised not to take Imodium. The patient has been advised to see a local physician should severe or bloody diarrhea occur or if diarrhea continues despite antibiotic use since some severe or bloody diarrhea may be resistant to these antibiotics or be due to a parasite (E. histolytica) which requires treatment with a different antibiotic. We discussed the side effects, indications and contra-indications of Levofloxacin OR Ciprofloxacin OR Azithromycin. Sunscreen use was advised with Levofloxacin and even otherwise even if not taking the Levofloxacin. Patient was advised not to take the antibiotic once back in the U.S. and instead to see a physician if symptoms develop.</textarea><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_560f523c2bfa2" class="hidden"><span class="exclude"><br>reference:  none<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  April 12, 2010; September 7, 2015<br>permalink: <a href="http://www.soapnote.org/general/travel-diarrhea-plan/" target="_blank">www.soapnote.org/general/travel-diarrhea-plan/</a><br>markup link:  <a href="http://www.soapnote.org/txt/general/travel-diarrhea-plan.txt" target="_blank">www.soapnote.org/txt/general/travel-diarrhea-plan.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_560f523c2bfa2"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>

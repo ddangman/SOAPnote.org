@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <h1 class="entry-title">varicella-history</h1>
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/><span class="exclude">Varicella History<br></span><br><span class="checkbox" name="short"> <label><input type="checkbox" name="short" value="" /> </label></span><span class="memo exclude">Short Version</span><span name="conditional_560f5436cd8fd" class="hidden"><textarea cols="60" rows="5" name="textarea_560f5436cda86">History provided by ***mother/father/grandparent***&#13;&#10;The patient comes in with *** days of vesicular rash.  The rash is described as initially occurring as small water blisters with surrounding erythema. There ***has/has not*** been a known exposure to varicella virus.&#13;&#10;The patient ***has/has no*** accompanying pruritus, ***has/has no*** accompanying fever, ***has had/has not had*** a cough and ***has had/has not had*** ocular symptoms.</textarea></span><span class="checkbox" name="long"> <label><input type="checkbox" name="long" value="" /> </label></span><span class="memo exclude">Long Version</span><span name="conditional_560f5436ce01f" class="hidden"><br>Patient accompanied with <select name="select_560f5436ce23f"><option value="Mother">Mother</option><option value="Father">Father</option><option value="Grandparent">Grandparent</option><option value="Guardian">Guardian</option><option value="None">None</option></select><br><input type="text" value="" size="15" name="text_560f5436ce68b" /><span class="memo exclude">how many</span> days of vesicular rash<br><select name="Q2"><option value="Yes">Yes</option><option value="No">No</option></select> <-- Typical varicella rash (The rash is described as initially occurring as small water blisters with surrounding erythema.) <input type="text" value="" size="15" name="text_560f5436ce933" /><br><select name="Q3"><option value="Yes">Yes</option><option value="No">No</option></select> <-- Pruritis <input type="text" value="" size="15" name="text_560f5436ce933" /><br><select name="Q4"><option value="Yes">Yes</option><option value="No">No</option></select> <-- Fever <input type="text" value="" size="15" name="text_560f5436ce933" /><br><select name="Q5"><option value="Yes">Yes</option><option value="No">No</option></select> <-- Cough <input type="text" value="" size="15" name="text_560f5436ce933" /><br><select name="Q6"><option value="Yes">Yes</option><option value="No">No</option></select> <-- Ocular symptoms <input type="text" value="" size="15" name="text_560f5436ce933" /><br><textarea cols="108" rows="5" name="textarea_560f5436d10d8"></textarea><span class="memo exclude">other details</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_560f5436d22d5" class="hidden"><span class="exclude"><br>reference:  none<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  April 1, 2010; September 1, 2015<br>permalink: <a href="http://www.soapnote.org/infectious/varicella-history/" target="_blank">www.soapnote.org/infectious/varicella-history/</a><br>markup link:  <a href="http://www.soapnote.org/txt/infectious/varicella-history.txt" target="_blank">www.soapnote.org/txt/infectious/varicella-history.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(short).is('')", show:"conditional_560f5436cd8fd"});
+conditions[1].push({logic:"(long).is('')", show:"conditional_560f5436ce01f"});
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_560f5436d22d5"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="short"], select[name="short"], input[name="long"], select[name="long"], input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="short"], select[name="short"], input[name="long"], select[name="long"], input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>
