@@ -27,7 +27,7 @@
 
 </script>
 
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default">
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="#">SOAPnote.org</a>
@@ -45,8 +45,6 @@
 </nav>
 
 <div class="container">
-	<div class="jumbotron">
 		<h1>SOAPnote.org</h1>
-			<p>A project to improve clinical documentation</p>
-	</div>
+			<p>An open source Project to improve clinical documentation</p>
 </div>
