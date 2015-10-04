@@ -1,4 +1,4 @@
-Singh Risk Score for Angioplasty Complications[html]
+Singh Risk Score for Angioplasty Complications
 [select name="age" value="40 to 49 (1 point)=1|50 to 59 (2 points)=2|60 to 69 (3 points)=3|70 to 79 (4 points)=4|80 to 89 (5 points)=5|90 to 99 (6 points)=6"] <-- Age (years)
 [select name="shock" value="no=0|yes=5"] <-- Preprocedural shock (5 points)
 [select name="lma" value="no=0|yes=5"] <-- Left main coronary artery lesion (5 points)
