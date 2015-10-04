@@ -10,8 +10,8 @@ This is for monitoring and improving control for patients <strong>currently taki
 [select name="Risk1" value="0 to 1 per year=1|2 or more per year=10"] <-- Risk - Exacerbations requiring oral systemic corticosteroids
 Recommendations --> [calc memo="Interpretation" value="score1=(ImpSymp1)+(ImpNA1)+(ImpSA1)+(ImpNorm1)+(ImpLF1)+(Risk1);score1>99?'Very Poorly Controlled Asthma:  Consider short course of oral systemic corticosteroids; step up one to two steps, and reevaluate in two weeks.':score1>9?'Not Well-Controlled Asthma:  Step up one step and reevaluate in two to six weeks.':'Well-Controlled Asthma:  Maintain current step; regular follow-up every one to six months to maintain control; consider step down if well controlled for at least three months.'"][html]
 <strong>Stepwise medication table for children 5-11 years</strong>
-<img src="/respiratory/asthma-steps-kids.jpg" height="500" width="500" />
-Open image in new window <a href="/respiratory/asthma-steps-kids.jpg" target="_blank">here</a>[/html]
+<img src="/generator/txt/respiratory/asthma-steps-kids.jpg" height="500" width="500" />
+Open image in new window <a href="/generator/txt/respiratory/asthma-steps-kids.jpg" target="_blank">here</a>[/html]
 [/conditional][conditional field="Age" condition="(Age).is('12 years and above')"][select name="ImpSymp2" value="Up to 2 days per week=1|More than 2 days per week=10|Throughout the day=100"] <-- Impairment - Symptoms
 [select name="ImpNA2" value="Up to 2 times per month=1|1 to 3 times per week=10|4 or more times per week=100"] <-- Impairment - Nighttime awakenings
 [select name="ImpSA2" value="Up to 2 days per week=1|More than 2 days per week=10|Several times per day=100"] <-- Impairment - Short-acting beta2-agonist use for symptom control (not prevention of exercise induced bronchospasm)
@@ -22,8 +22,8 @@ The Generic (Unvalidated) Asthma Asthma Symptom Control Questionnaire is availab
 [select name="Risk2" value="0 to 1 per year=1|2 or more per year=10"] <-- Risk - Exacerbations requiring oral systemic corticosteroids
 Recommendations --> [calc memo="Interpretation" value="score2=(ImpSymp2)+(ImpNA2)+(ImpSA2)+(ImpNorm2)+(ImpLF2)+(ImpQ2)+(Risk2);score2>99?'Very Poorly Controlled Asthma:  Consider short course of oral systemic corticosteroids; step up one to two steps, and reevaluate in two weeks.':score2>9?'Not Well-Controlled Asthma:  Step up one step and reevaluate in two to six weeks.':'Well-Controlled Asthma:  Maintain current step; regular follow-up every one to six months to maintain control; consider step down if well controlled for at least three months.'"][html]
 <strong>Stepwise medication table for ages 12+ years</strong>
-<img src="/respiratory/asthma-steps-adults.jpg" height="500" width="500" />
-Open image in new window <a href="/respiratory/asthma-steps-adults.jpg" target="_blank">here</a>[/html]
+<img src="/generator/txt/respiratory/asthma-steps-adults.jpg" height="500" width="500" />
+Open image in new window <a href="/generator/txt/respiratory/asthma-steps-adults.jpg" target="_blank">here</a>[/html]
 [/conditional]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  <a href="http://www.nhlbi.nih.gov/guidelines/asthma/asthgdln.htm" target="_blank">NAEPP 2007 Guidelines</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/20141095" target="_blank">Pollart (2009) Am Fam Physician 79:  761-7.</a>

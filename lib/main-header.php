@@ -38,6 +38,7 @@
 				<li><a href="/special-search/">Search</a></li>
 				<li><a href="/generator/">Form Generator</a></li>
 				<li><a href="/lingo/">Lingo</a></li>
+				<li><a href="/goodies/">Goodies</a></li>
 				<li><a href="/help/">Help</a></li>
 			</ul>
 		</div>
@@ -46,5 +47,5 @@
 
 <div class="container">
 		<h1>SOAPnote.org</h1>
-			<p>An open source Project to improve clinical documentation</p>
+			<p>An open source project to improve clinical documentation</p>
 </div>

@@ -10,8 +10,8 @@ This is for patients <strong>not currently taking long-term control medication</
 [select name="Risk1" value="0 to 1 per year=1|2 or more per year=10"] <-- Risk - Exacerbations requiring oral systemic corticosteroids
 Interpretation --> [calc memo="Severity" value="score1=(ImpSymp1)+(ImpNA1)+(ImpSA1)+(ImpNorm1)+(ImpLF1)+(Risk1);score1>999?'Severe Persistent Asthma':score1>99?'Moderate Persistent Asthma':score1>9?'Mild Persistent Asthma':'Intermittent Asthma'"][html]
 <strong>Stepwise medication table for children 5-11 years</strong>
-<img src="/respiratory/asthma-steps-kids.jpg" height="500" width="500" />
-Open image in new window <a href="/respiratory/asthma-steps-kids.jpg" target="_blank">here</a>[/html][/conditional][conditional field="Age" condition="(Age).is('12 years and above')"][select name="ImpSymp2" value="Up to 2 days per week=1|More than 2 days per week, but not daily=10|Daily=100|Throughout the day=1000"] <-- Impairment - Symptoms
+<img src="/generator/txt/respiratory/asthma-steps-kids.jpg" height="500" width="500" />
+Open image in new window <a href="/generator/txt/respiratory/asthma-steps-kids.jpg" target="_blank">here</a>[/html][/conditional][conditional field="Age" condition="(Age).is('12 years and above')"][select name="ImpSymp2" value="Up to 2 days per week=1|More than 2 days per week, but not daily=10|Daily=100|Throughout the day=1000"] <-- Impairment - Symptoms
 [select name="ImpNA2" value="Up to 2 times per month=1|3 to 4 times per month=10|More than 1 time per week, but not nightly=100|Often 7 times per week=1000"] <-- Impairment - Nighttime awakenings
 [select name="ImpSA2" value="Up to 2 days per week=1|More than 2 days per week but not daily, and not more than 1 time on any day=10|Daily=100|Several times per day=1000"] <-- Impairment - Short-acting beta2-agonist use for symptom control (not prevention of exercise induced bronchospasm)
 [select name="ImpNorm2" value="None=1|Minor limitation=10|Some limitation=100|Extremely limited=1000"] <-- Impairment - Interference with normal activity
@@ -20,8 +20,8 @@ Open image in new window <a href="/respiratory/asthma-steps-kids.jpg" target="_b
 [select name="Risk2" value="0 to 1 per year=1|2 or more per year=10"] <-- Risk - Exacerbations requiring oral systemic corticosteroids
 Interpretation --> [calc memo="Severity" value="score2=(ImpSymp2)+(ImpNA2)+(ImpSA2)+(ImpNorm2)+(ImpLF2)+(Risk2);score2>999?'Severe Persistent Asthma':score2>99?'Moderate Persistent Asthma':score2>9?'Mild Persistent Asthma':'Intermittent Asthma'"][html]
 <strong>Stepwise medication table for ages 12+ years</strong>
-<img src="/respiratory/asthma-steps-adults.jpg" height="500" width="500" />
-Open image in new window <a href="/respiratory/asthma-steps-adults.jpg" target="_blank">here</a>[/html][/conditional]
+<img src="/generator/txt/respiratory/asthma-steps-adults.jpg" height="500" width="500" />
+Open image in new window <a href="/generator/txt/respiratory/asthma-steps-adults.jpg" target="_blank">here</a>[/html][/conditional]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  <a href="http://www.nhlbi.nih.gov/guidelines/asthma/asthgdln.htm" target="_blank">NAEPP 2007 Guidelines</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/20141095" target="_blank">Pollart (2009) Am Fam Physician 79:  761-7.</a>
 posted by:  Mark Morgan, M.D.
