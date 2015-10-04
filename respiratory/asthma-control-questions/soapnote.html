@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <h1 class="entry-title">asthma-control-questions</h1>
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Generic Asthma Control Calculator<span class="exclude"><br>SUMMARY: Free, unvalidated questionnaire that can be used in assessment of asthma symptom control.  The questions are from a 1995 NIH Asthma Pocket Guide referenced in the NAEPP guidelines below.<br>LINKS:<br><a href="http://www.soapnote.org/respiratory/asthma-severity/" target="_blank">Asthma Severity Decision Tool</a><br><a href="http://www.soapnote.org/respiratory/asthma-control/" target="_blank">Asthma Control Decision Tool</a><br></span><br><select name="Q1"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- 1. Has your asthma awakened you at night or early morning?<br><select name="Q2"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- 2. Have you needed more quick-relief bronchodilator medication (inhaled short-acting beta2-agonist) than usual? <br><select name="Q3"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- 3. Have you needed any urgent medical care for your asthma, such as unscheduled visits to your doctor, an urgent care clinic, or the emergency department? <br><select name="Q4"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- 4. Are you participating in your usual and desired activities?<br><select name="Q5"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- 5. If you are measuring your peak flow, has it been below your personal best?<br> <br>Score --> <span class="calc">number<span class="calc_value">score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)</span></span> out of 5 (0 = controlled, 1 to 5 = uncontrolled)<br>Interpretation --> <span class="calc">interpretation<span class="calc_value">score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5);score2>0?'Uncontrolled':'Controlled'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_56109ff689aeb" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.nhlbi.nih.gov/guidelines/asthma/asthgdln.htm" target="_blank">NAEPP 2007 Guidelines</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/20141095" target="_blank">Pollart (2009) Am Fam Physician 79:  761-7.</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  March 25, 2012; August 21, 2015<br>permalink: <a href="http://www.soapnote.org/respiratory/asthma-control-questions/" target="_blank">www.soapnote.org/respiratory/asthma-control-questions/</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/respiratory/asthma-control-questions.txt" target="_blank">www.soapnote.org/generator/txt/respiratory/asthma-control-questions.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<!-- it doesn't really copy (except chrome) and print isn't really needed
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+-->
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_56109ff689aeb"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>

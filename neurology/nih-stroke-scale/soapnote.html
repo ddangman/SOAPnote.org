@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <h1 class="entry-title">nih-stroke-scale</h1>
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>NIH Stroke Scale <br>.....................................................................................................<br>1a. Assess Level of Consciousness (Alert=0, Coma=3)<br><select name="conscious"><option value="Alert (0 points)=0">Alert (0 points)</option><option value="Not Alert; arousable by minor stimulation (1 point)=1">Not Alert; arousable by minor stimulation (1 point)</option><option value="Not alert; requires repeated stimulation to attend (2 points)=2">Not alert; requires repeated stimulation to attend (2 points)</option><option value="Not responsive or reflexive posturing only (3 points)=3">Not responsive or reflexive posturing only (3 points)</option></select><br><br>1b. Assess Orientation: Month, Age (1 point per bad answer)<br><select name="orientation"><option value="Answers both questions correctly (0 points)=0">Answers both questions correctly (0 points)</option><option value="Answers one question correctly (1 point)=1">Answers one question correctly (1 point)</option><option value="Answers neither question correctly (2 points)=2">Answers neither question correctly (2 points)</option></select><br><br>1c. Follow Commands: Open and close eyes, make fist and release (1 point per command NOT obeyed)<br><select name="commands"><option value="Performs both tasks correctly (0 points)=0">Performs both tasks correctly (0 points)</option><option value="Performs one task correctly (1 point)=1">Performs one task correctly (1 point)</option><option value="Performs neither task correctly (2 points)=2">Performs neither task correctly (2 points)</option></select><br><br>2. Follow my finger (Normal=0, Forced deviation=2)<br><select name="finger"><option value="Normal (0 points)=0">Normal (0 points)</option><option value="Partial gaze palsy (1 point)=1">Partial gaze palsy (1 point)</option><option value="Forced deviation (2 points)=2">Forced deviation (2 points)</option></select><br><br>3. Visual field (Normal=0, hemianopia=2, bilateral loss=3)<br><select name="visual"><option value="No visual loss (0 points)=0">No visual loss (0 points)</option><option value="Partial hemianopia (1 point)=1">Partial hemianopia (1 point)</option><option value="Complete hemianopia (2 points)=2">Complete hemianopia (2 points)</option><option value="Bilateral loss (3 points)=3">Bilateral loss (3 points)</option></select><br><br>4. Facial palsy:  Show teeth, Raise eyebrows, Squeeze eyes shut (Normal=0, Complete=3) <br><select name="face"><option value="Normal (0 points)=0">Normal (0 points)</option><option value="Minor paralysis (1 point)=1">Minor paralysis (1 point)</option><option value="Partial paralysis (2 points)=2">Partial paralysis (2 points)</option><option value="Complete paralysis (3 points)=3">Complete paralysis (3 points)</option></select><br><br>5a. Motor Strength Left Arm: Elevate to 90 degrees<br><select name="left_arm"><option value="No drift (0 points)=0">No drift (0 points)</option><option value="Drift (1 point)=1">Drift (1 point)</option><option value="Some effort against gravity (2 points)=2">Some effort against gravity (2 points)</option><option value="No effort against gravity (3 points)=3">No effort against gravity (3 points)</option><option value="No movement (4 points)=4">No movement (4 points)</option><option value="Amputation or joint fusion (0 points)=0">Amputation or joint fusion (0 points)</option></select><br><br>5b. Motor Strength Right Arm: Elevate to 90 degrees<br><select name="right_arm"><option value="No drift (0 points)=0">No drift (0 points)</option><option value="Drift (1 point)=1">Drift (1 point)</option><option value="Some effort against gravity (2 points)=2">Some effort against gravity (2 points)</option><option value="No effort against gravity (3 points)=3">No effort against gravity (3 points)</option><option value="No movement (4 points)=4">No movement (4 points)</option><option value="Amputation or joint fusion (0 points)=0">Amputation or joint fusion (0 points)</option></select><br><br>6a. Motor Strength Left Leg: Elevate to 30 degrees<br><select name="left_leg"><option value="No drift (0 points)=0">No drift (0 points)</option><option value="Drift (1 point)=1">Drift (1 point)</option><option value="Some effort against gravity (2 points)=2">Some effort against gravity (2 points)</option><option value="No effort against gravity (3 points)=3">No effort against gravity (3 points)</option><option value="No movement (4 points)=4">No movement (4 points)</option><option value="Amputation or joint fusion (0 points)=0">Amputation or joint fusion (0 points)</option></select><br><br>6b. Motor Strength Right Leg: Elevate to 30 degrees<br><select name="right_leg"><option value="No drift (0 points)=0">No drift (0 points)</option><option value="Drift (1 point)=1">Drift (1 point)</option><option value="Some effort against gravity (2 points)=2">Some effort against gravity (2 points)</option><option value="No effort against gravity (3 points)=3">No effort against gravity (3 points)</option><option value="No movement (4 points)=4">No movement (4 points)</option><option value="Amputation or joint fusion (0 points)=0">Amputation or joint fusion (0 points)</option></select><br><br>7. Coordination or limb ataxia: Finger-nose-finger, Heel-knee-shin (Absent=0, both limbs=2)<br><select name="ataxia"><option value="Absent (0 points)=0">Absent (0 points)</option><option value="Ataxia in one limb (1 point)=1">Ataxia in one limb (1 point)</option><option value="Ataxia in two limbs (2 points)=2">Ataxia in two limbs (2 points)</option></select><br><br>8. Sensory: Pin prick to face, arm, trunk, and legs, Compare sides (Normal=0, Severe loss=2)<br><select name="sensory"><option value="Normal (0 points)=0">Normal (0 points)</option><option value="Mild to moderate loss (1 point)=1">Mild to moderate loss (1 point)</option><option value="Severe to total loss (2 points)=2">Severe to total loss (2 points)</option></select><br><br>9. Language: Name items, Describe picture, Read sentences (No Aphasia=0, Mute=3)<br><select name="language"><option value="No aphasia (0 points)=0">No aphasia (0 points)</option><option value="Mild to moderate aphasia (1 point)=1">Mild to moderate aphasia (1 point)</option><option value="Severe aphasia (2 points)=2">Severe aphasia (2 points)</option><option value="Mute, global aphasia (3 points)=3">Mute, global aphasia (3 points)</option></select><br><br>10. Dysarthria: Speech clarity while reading word list (Normal=0, Nearly unintelligible=2)<br><select name="dysarthria"><option value="Normal (0 points)=0">Normal (0 points)</option><option value="Mild to moderate dysarthria (1 point)=1">Mild to moderate dysarthria (1 point)</option><option value="Severe dysarthria (2 points)=2">Severe dysarthria (2 points)</option><option value="Intubated or physical barrier (0 points)=0">Intubated or physical barrier (0 points)</option></select><br><br>11. Extinction and Inattention: Formerly called 'Neglect' (None=0, Complete=2)<br><select name="extinction"><option value="No abnormality (0 points)=0">No abnormality (0 points)</option><option value="Visual, tactile, auditory, spatial, or personal inattention in one sensory modality (1 point)=1">Visual, tactile, auditory, spatial, or personal inattention in one sensory modality (1 point)</option><option value="Profound hemi-inattention or extinction to more than one modality (2 points)=2">Profound hemi-inattention or extinction to more than one modality (2 points)</option></select><br><br>.....................................................................................................<br>Total score:  <span class="calc">score<span class="calc_value">(conscious)+(orientation)+(commands)+(finger)+(visual)+(face)+(left_arm)+(right_arm)+(left_leg)+(right_leg)+(ataxia)+(sensory)+(language)+(dysarthria)+(extinction)</span></span> (maximum=42)<br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_56109e760dd83" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/17431204" target="_blank">Adams (2007) Stroke. 38:1655</a>, <a href="http://www.fpnotebook.com/Neuro/Exam/NhStrkScl.htm" target="_blank">FP Notebook page</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  February 5, 2013; September 4, 2015<br>permalink: <a href="http://www.soapnote.org/neurological/nih-stroke-scale/" target="_blank">www.soapnote.org/neurological/nih-stroke-scale/</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/neurological/nih-stroke-scale.txt" target="_blank">www.soapnote.org/generator/txt/neurological/nih-stroke-scale.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<!-- it doesn't really copy (except chrome) and print isn't really needed
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+-->
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_56109e760dd83"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>

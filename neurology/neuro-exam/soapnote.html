@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <h1 class="entry-title">neuro-exam</h1>
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>NEUROLOGICAL: <br>Gait:  <select name="G1"><option value="steady coordinated gait">steady coordinated gait</option><option value="abnormal">abnormal</option></select><span name="conditional_56109e65b0666" class="hidden"><span class="checkbox" name="checkbox_56109e65b07b5"> <label><input type="checkbox" name="checkbox_56109e65b07b5" value="an unsteady uncoordinated gait" /> an unsteady uncoordinated gait</label> <label><input type="checkbox" name="checkbox_56109e65b07b5" value="a slow unsteady gait" /> a slow unsteady gait</label> <label><input type="checkbox" name="checkbox_56109e65b07b5" value="walks on heels and toes with out problems" /> walks on heels and toes with out problems</label> <label><input type="checkbox" name="checkbox_56109e65b07b5" value="has difficulty with walking" /> has difficulty with walking</label></span></span>  <input type="text" value="" size="15" name="text_56109e65b1fbf" /><br>Rhomberg:  <select name="select_56109e65b206e"><option value="negative">negative</option><option value="postive">postive</option></select>  <input type="text" value="" size="15" name="text_56109e65b1fbf" /><br>Rapid alternating movements:  <select name="select_56109e65b21b8"><option value="normal">normal</option><option value="abnormal">abnormal</option></select>  <input type="text" value="" size="15" name="text_56109e65b1fbf" /><br>Cranial nerves:  <select name="select_56109e65b22fc"><option value="II-XII intact">II-XII intact</option><option value="abnormal">abnormal</option></select>  <input type="text" value="" size="15" name="text_56109e65b1fbf" /><br>cranial nerves II-XII intact.<br>Sensation:  <select name="select_56109e65b244a"><option value="intact and symmetric at upper and lower extremities bilaterally">intact and symmetric at upper and lower extremities bilaterally</option><option value="abnormal">abnormal</option></select>  <input type="text" value="" size="15" name="text_56109e65b1fbf" /><br>Strength:  <select name="select_56109e65b244a"><option value="intact and symmetric at upper and lower extremities bilaterally">intact and symmetric at upper and lower extremities bilaterally</option><option value="abnormal">abnormal</option></select>  <input type="text" value="" size="15" name="text_56109e65b1fbf" /><br>Reflexes:<br><span class="checkbox" name="RB"> <label><input type="checkbox" name="RB" value="" /> </label></span><span class="memo exclude">Right Biceps</span><span name="conditional_56109e65b090f" class="hidden">Right Biceps:  <select name="select_56109e65b0a1c"><option value="2+ (normal).  ">2+ (normal).  </option><option value="0 (absent).  ">0 (absent).  </option><option value="1+ (hypoactive).  ">1+ (hypoactive).  </option><option value="2+ (normal).  ">2+ (normal).  </option><option value="3+ (hyperactive without clonus).  ">3+ (hyperactive without clonus).  </option><option value="4+ (hyperactive with clonus).  ">4+ (hyperactive with clonus).  </option></select></span><span class="checkbox" name="LB"> <label><input type="checkbox" name="LB" value="" /> </label></span><span class="memo exclude">Left Biceps</span><span name="conditional_56109e65b0b3f" class="hidden">Left Biceps:  <select name="select_56109e65b0c3e"><option value="2+ (normal).  ">2+ (normal).  </option><option value="0 (absent).  ">0 (absent).  </option><option value="1+ (hypoactive).  ">1+ (hypoactive).  </option><option value="2+ (normal).  ">2+ (normal).  </option><option value="3+ (hyperactive without clonus).  ">3+ (hyperactive without clonus).  </option><option value="4+ (hyperactive with clonus).  ">4+ (hyperactive with clonus).  </option></select></span><span class="checkbox" name="RT"> <label><input type="checkbox" name="RT" value="" /> </label></span><span class="memo exclude">Right Triceps</span><span name="conditional_56109e65b0d56" class="hidden">Right Triceps:  <select name="select_56109e65b0e50"><option value="2+ (normal).  ">2+ (normal).  </option><option value="0 (absent).  ">0 (absent).  </option><option value="1+ (hypoactive).  ">1+ (hypoactive).  </option><option value="2+ (normal).  ">2+ (normal).  </option><option value="3+ (hyperactive without clonus).  ">3+ (hyperactive without clonus).  </option><option value="4+ (hyperactive with clonus).  ">4+ (hyperactive with clonus).  </option></select></span><span class="checkbox" name="LT"> <label><input type="checkbox" name="LT" value="" /> </label></span><span class="memo exclude">Left Triceps</span><span name="conditional_56109e65b0f60" class="hidden">Left Triceps:  <select name="select_56109e65b105a"><option value="2+ (normal).  ">2+ (normal).  </option><option value="0 (absent).  ">0 (absent).  </option><option value="1+ (hypoactive).  ">1+ (hypoactive).  </option><option value="2+ (normal).  ">2+ (normal).  </option><option value="3+ (hyperactive without clonus).  ">3+ (hyperactive without clonus).  </option><option value="4+ (hyperactive with clonus).  ">4+ (hyperactive with clonus).  </option></select></span><span class="checkbox" name="RF"> <label><input type="checkbox" name="RF" value="" /> </label></span><span class="memo exclude">Right Forearm</span><span name="conditional_56109e65b116d" class="hidden">Right Forearm:  <select name="select_56109e65b1267"><option value="2+ (normal).  ">2+ (normal).  </option><option value="0 (absent).  ">0 (absent).  </option><option value="1+ (hypoactive).  ">1+ (hypoactive).  </option><option value="2+ (normal).  ">2+ (normal).  </option><option value="3+ (hyperactive without clonus).  ">3+ (hyperactive without clonus).  </option><option value="4+ (hyperactive with clonus).  ">4+ (hyperactive with clonus).  </option></select></span><span class="checkbox" name="LF"> <label><input type="checkbox" name="LF" value="" /> </label></span><span class="memo exclude">Left Forearm</span><span name="conditional_56109e65b1375" class="hidden">Left Forearm:  <select name="select_56109e65b146e"><option value="2+ (normal).  ">2+ (normal).  </option><option value="0 (absent).  ">0 (absent).  </option><option value="1+ (hypoactive).  ">1+ (hypoactive).  </option><option value="2+ (normal).  ">2+ (normal).  </option><option value="3+ (hyperactive without clonus).  ">3+ (hyperactive without clonus).  </option><option value="4+ (hyperactive with clonus).  ">4+ (hyperactive with clonus).  </option></select></span><span class="checkbox" name="RP"> <label><input type="checkbox" name="RP" value="" /> </label></span><span class="memo exclude">Right Patella</span><span name="conditional_56109e65b1580" class="hidden">Right Patella:  <select name="select_56109e65b16a6"><option value="2+ (normal).  ">2+ (normal).  </option><option value="0 (absent).  ">0 (absent).  </option><option value="1+ (hypoactive).  ">1+ (hypoactive).  </option><option value="2+ (normal).  ">2+ (normal).  </option><option value="3+ (hyperactive without clonus).  ">3+ (hyperactive without clonus).  </option><option value="4+ (hyperactive with clonus).  ">4+ (hyperactive with clonus).  </option></select></span><span class="checkbox" name="LP"> <label><input type="checkbox" name="LP" value="" /> </label></span><span class="memo exclude">Left Patella</span><span name="conditional_56109e65b17b8" class="hidden">Left Patella:  <select name="select_56109e65b18b6"><option value="2+ (normal).  ">2+ (normal).  </option><option value="0 (absent).  ">0 (absent).  </option><option value="1+ (hypoactive).  ">1+ (hypoactive).  </option><option value="2+ (normal).  ">2+ (normal).  </option><option value="3+ (hyperactive without clonus).  ">3+ (hyperactive without clonus).  </option><option value="4+ (hyperactive with clonus).  ">4+ (hyperactive with clonus).  </option></select></span><span class="checkbox" name="RA"> <label><input type="checkbox" name="RA" value="" /> </label></span><span class="memo exclude">Right Ankle</span><span name="conditional_56109e65b19c7" class="hidden">Right Ankle:  <select name="select_56109e65b1ac1"><option value="2+ (normal).  ">2+ (normal).  </option><option value="0 (absent).  ">0 (absent).  </option><option value="1+ (hypoactive).  ">1+ (hypoactive).  </option><option value="2+ (normal).  ">2+ (normal).  </option><option value="3+ (hyperactive without clonus).  ">3+ (hyperactive without clonus).  </option><option value="4+ (hyperactive with clonus).  ">4+ (hyperactive with clonus).  </option></select></span><span class="checkbox" name="LA"> <label><input type="checkbox" name="LA" value="" /> </label></span><span class="memo exclude">Left Ankle</span><span name="conditional_56109e65b1bcf" class="hidden">Left Ankle:  <select name="select_56109e65b1cca"><option value="2+ (normal).  ">2+ (normal).  </option><option value="0 (absent).  ">0 (absent).  </option><option value="1+ (hypoactive).  ">1+ (hypoactive).  </option><option value="2+ (normal).  ">2+ (normal).  </option><option value="3+ (hyperactive without clonus).  ">3+ (hyperactive without clonus).  </option><option value="4+ (hyperactive with clonus).  ">4+ (hyperactive with clonus).  </option></select></span><br>Babinski:  <select name="select_56109e65b206e"><option value="negative">negative</option><option value="postive">postive</option></select>  <input type="text" value="" size="15" name="text_56109e65b1fbf" /><br>The following other neurologic findings were found: <textarea cols="60" rows="5" name="textarea_56109e65b2c35">none</textarea><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_56109e65b1de2" class="hidden"><span class="exclude"><br>reference:  none<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  April 1, 2010; August 29, 2015<br>permalink: <a href="http://www.soapnote.org/neurological/neuro-exam/" target="_blank">www.soapnote.org/neurological/neuro-exam/</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/neurological/neuro-exam.txt" target="_blank">www.soapnote.org/generator/txt/neurological/neuro-exam.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<!-- it doesn't really copy (except chrome) and print isn't really needed
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+-->
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(G1).is('abnormal')", show:"conditional_56109e65b0666"});
+conditions[1].push({logic:"(RB).is('')", show:"conditional_56109e65b090f"});
+conditions[1].push({logic:"(LB).is('')", show:"conditional_56109e65b0b3f"});
+conditions[1].push({logic:"(RT).is('')", show:"conditional_56109e65b0d56"});
+conditions[1].push({logic:"(LT).is('')", show:"conditional_56109e65b0f60"});
+conditions[1].push({logic:"(RF).is('')", show:"conditional_56109e65b116d"});
+conditions[1].push({logic:"(LF).is('')", show:"conditional_56109e65b1375"});
+conditions[1].push({logic:"(RP).is('')", show:"conditional_56109e65b1580"});
+conditions[1].push({logic:"(LP).is('')", show:"conditional_56109e65b17b8"});
+conditions[1].push({logic:"(RA).is('')", show:"conditional_56109e65b19c7"});
+conditions[1].push({logic:"(LA).is('')", show:"conditional_56109e65b1bcf"});
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_56109e65b1de2"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="G1"], select[name="G1"], input[name="RB"], select[name="RB"], input[name="LB"], select[name="LB"], input[name="RT"], select[name="RT"], input[name="LT"], select[name="LT"], input[name="RF"], select[name="RF"], input[name="LF"], select[name="LF"], input[name="RP"], select[name="RP"], input[name="LP"], select[name="LP"], input[name="RA"], select[name="RA"], input[name="LA"], select[name="LA"], input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="G1"], select[name="G1"], input[name="RB"], select[name="RB"], input[name="LB"], select[name="LB"], input[name="RT"], select[name="RT"], input[name="LT"], select[name="LT"], input[name="RF"], select[name="RF"], input[name="LF"], select[name="LF"], input[name="RP"], select[name="RP"], input[name="LP"], select[name="LP"], input[name="RA"], select[name="RA"], input[name="LA"], select[name="LA"], input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>

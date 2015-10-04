@@ -1,7 +1,4 @@
-[textarea="LUNGS: Auscultation of the lungs revealed ***clear to auscultation/rhonchi/rales/expiratory wheezing/inspiratory wheezing/diminished breath sounds/labored breathing*** on ***the right side/the left side/both sides***."]
-[textarea="Air movement is ***good/fair/poor***. Rate is ***normal/tachypneic***."]
-[textarea="Percussion ***normal/with dullness at ---***."]
-[textarea="***e to a egophany changes at ---/decreased tactile fremitus at ---***."]
+[textarea columns=108 rows=25 default="LUNGS: Auscultation of the lungs revealed ***clear to auscultation/rhonchi/rales/expiratory wheezing/inspiratory wheezing/diminished breath sounds/labored breathing*** on ***the right side/the left side/both sides***.&#13;&#10;Air movement is ***good/fair/poor***. Rate is ***normal/tachypneic***.&#13;&#10;Percussion ***normal/with dullness at ---***.&#13;&#10;***e to a egophany changes at ---/decreased tactile fremitus at ---***."]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  none
 posted by:  Mark Morgan, M.D.

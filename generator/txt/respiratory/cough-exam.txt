@@ -1,17 +1,8 @@
 [html]Cough Exam
-[/html]VITALS: Reviewed and normal/***
-GENERAL APPEARANCE: No acute distress
-EARS: 
-- Left Tympanic membranes intact/Bulging/Erythematous/Perforation present with purulent debris
-- Right Tympanic membranes intact/Bulging/Erythematous/Perforation present with purulent debris
-THROAT: Normal/Erythematous/Tonsillar exudate/Inflamed Tonsils
-NECK
-- Cervical lymph nodes: Normal/Enlarged/Tender/Anterior adenopathy/Posterior adenopathy/Posterior and anterior adenopathy/On the left/On the right/Bilaterally
-LUNGS: Clear/Scattered rhonchi/Scattered wheezes/Decreased breath sounds
-HEART: No murmur/click, S3/S4
+[/html][textarea columns=108 rows=25 default="VITALS: Reviewed and normal/***&#13;&#10;GENERAL APPEARANCE: No acute distress&#13;&#10;EARS: &#13;&#10;- Left Tympanic membranes intact/Bulging/Erythematous/Perforation present with purulent debris&#13;&#10;- Right Tympanic membranes intact/Bulging/Erythematous/Perforation present with purulent debris&#13;&#10;THROAT: Normal/Erythematous/Tonsillar exudate/Inflamed Tonsils&#13;&#10;NECK&#13;&#10;- Cervical lymph nodes: Normal/Enlarged/Tender/Anterior adenopathy/Posterior adenopathy/Posterior and anterior adenopathy/On the left/On the right/Bilaterally&#13;&#10;LUNGS: Clear/Scattered rhonchi/Scattered wheezes/Decreased breath sounds&#13;&#10;HEART: No murmur/click, S3/S4"]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  none
 posted by:  Mark Morgan, M.D.
-post/review dates:  March 13, 2012; August 21, 2015
+post/review dates:  March 13, 2012; August 21, 2015; October 3, 2015
 permalink: <a href="http://www.soapnote.org/respiratory/cough-exam/" target="_blank">www.soapnote.org/respiratory/cough-exam/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/respiratory/cough-exam.txt" target="_blank">www.soapnote.org/generator/txt/respiratory/cough-exam.txt</a>[/html][/conditional]

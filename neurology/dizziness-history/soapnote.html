@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <h1 class="entry-title">dizziness-history</h1>
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/><span class="checkbox" name="short"> <label><input type="checkbox" name="short" value="" /> </label></span><span class="memo exclude">Short Version</span><span name="conditional_56109e126b99b" class="hidden"><textarea cols="60" rows="5" name="textarea_56109e126bb4b">Source of history: son|daughter|spouse|father|mother.  Patient has had dizziness for ***.  Other symptoms include lightheadedness|vertigo|sensation of motion|tinnitus|decreased hearing|nausea|vomiting|weakness.  Onset abruptly|insidiously.  Symptoms have waxed and waned|increased|decreased|been stable.  Associated symptoms include headache|palpitations|chest pain|anxiety.  Symptoms are affecting ability to work|activities of daily living.  Aggravating factors include movement|loud noises|activity|food|change in posture.  Alleviating factors include laying down|avoiding movement|OTC motion sickness treatment.  Patient has past history of similar symptoms|Meniere's disease|syncope|orthostasis|cerebrovascular disease|diabetes|CAD|cardiac arrhythmia.  </textarea></span><span class="checkbox" name="long"> <label><input type="checkbox" name="long" value="" /> </label></span><span class="memo exclude">Long Version</span><span name="conditional_56109e126bc84" class="hidden">Dizziness<br>The episode happened <input type="text" value="" size="15" name="text_56109e126c31b" /> before this evaluation<br>Onset while <input type="text" value="" size="15" name="text_56109e126c31b" />.<br>Episode location: <input type="text" value="" size="15" name="text_56109e126c31b" /><br>Episode description: <input type="text" value="" size="15" name="text_56109e126c31b" /><br>The last similar episode was <input type="text" value="" size="15" name="text_56109e126c31b" /><br>Key symptoms<br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- vertigo  <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- hearing loss <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- tinnitus <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- lightheadedness <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- ataxia or impaired balance <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- near-syncope <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- complete loss of consciousness <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- seizure activity <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- confusion <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- generalized weakness <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- palpitations <input type="text" value="" size="15" name="text_56109e126c31b" /><br>Associated symptoms:<br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- chest pain <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- dyspnea <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- nausea or vomiting <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- headache <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- visual changes <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- abdominal pain <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- bleeding (e.g. stool, urine, vagina) <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- low blood sugar <input type="text" value="" size="15" name="text_56109e126c31b" /><br>Past Medical History<br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- Recent upper respiratory infection <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- Recent trauma <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- Seizure history <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- Diabetes mellitus history <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- Coronary artery disease history <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- Cerebrovascular accident history <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- Gastrointestinal bleeding history <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- Other (e.g. pregnancy in women of child bearing age) <input type="text" value="" size="15" name="text_56109e126c31b" /><br>Cardiovascular risks reviewed<br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- Family history of Premature CAD or CVA (<55) <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- Tobacco use <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- Hyperlipidemia <input type="text" value="" size="15" name="text_56109e126c31b" /><br><select name="select_56109e126c62b"><option value="no">no</option><option value="YES">YES</option></select> <-- Hypertension</span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_56109e126ffc8" class="hidden"><span class="exclude"><br>reference:  Long Version contributed by Dr. Scott Moses, creator/author of the <a href="http://www.fpnotebook.com" target="_blank">Family Practice Notebook</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  November 20, 2010 ; September 4, 2015<br>permalink: <a href="http://www.soapnote.org/neurological/dizziness-history/" target="_blank">www.soapnote.org/neurological/dizziness-history/</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/neurological/dizziness-history.txt" target="_blank">www.soapnote.org/generator/txt/neurological/dizziness-history.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<!-- it doesn't really copy (except chrome) and print isn't really needed
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+-->
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(short).is('')", show:"conditional_56109e126b99b"});
+conditions[1].push({logic:"(long).is('')", show:"conditional_56109e126bc84"});
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_56109e126ffc8"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="short"], select[name="short"], input[name="long"], select[name="long"], input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="short"], select[name="short"], input[name="long"], select[name="long"], input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>
