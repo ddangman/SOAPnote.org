@@ -11,4 +11,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/22438350" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 16, 2014; September 1, 2015
 permalink: <a href="http://www.soapnote.org/ear-nose-throat/acute-bacterial-rhinosinusitis/" target="_blank">www.soapnote.org/ear-nose-throat/acute-bacterial-rhinosinusitis/</a>
-markup link:  <a href="http://www.soapnote.org/txt/ear-nose-throat/acute-bacterial-rhinosinusitis.txt" target="_blank">www.soapnote.org/txt/ear-nose-throat/acute-bacterial-rhinosinusitis.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/acute-bacterial-rhinosinusitis.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/acute-bacterial-rhinosinusitis.txt</a>[/html][/conditional]

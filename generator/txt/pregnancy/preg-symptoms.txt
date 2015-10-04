@@ -47,4 +47,4 @@ reference:  contributed by Dr. Scott Moses, creator/author of the <a href="http:
 posted by:  Mark Morgan, M.D.
 post/review dates:  November 17, 2010; September 5, 2015
 permalink: <a href="http://www.soapnote.org/pregnancy/preg-symptoms/" target="_blank">www.soapnote.org/pregnancy/preg-symptoms/</a>
-markup link:  <a href="http://www.soapnote.org/txt/pregnancy/preg-symptoms.txt" target="_blank">www.soapnote.org/txt/pregnancy/preg-symptoms.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/pregnancy/preg-symptoms.txt" target="_blank">www.soapnote.org/generator/txt/pregnancy/preg-symptoms.txt</a>[/html][/conditional]

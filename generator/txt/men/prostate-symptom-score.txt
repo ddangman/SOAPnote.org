@@ -13,4 +13,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/1279218" target="_blank"
 posted by:  Mark Morgan, M.D.
 post/review dates:  May 30, 2010; September 2, 2015
 permalink: <a href="http://www.soapnote.org/men/prostate-symptom-score/" target="_blank">www.soapnote.org/men/prostate-symptom-score/</a>
-markup link:  <a href="http://www.soapnote.org/txt/men/prostate-symptom-score.txt" target="_blank">www.soapnote.org/txt/men/prostate-symptom-score.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/men/prostate-symptom-score.txt" target="_blank">www.soapnote.org/generator/txt/men/prostate-symptom-score.txt</a>[/html][/conditional]

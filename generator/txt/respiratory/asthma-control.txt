@@ -30,4 +30,4 @@ reference:  <a href="http://www.nhlbi.nih.gov/guidelines/asthma/asthgdln.htm" ta
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 25, 2012; September 7, 2015
 permalink: <a href="http://www.soapnote.org/respiratory/asthma-control/" target="_blank">www.soapnote.org/respiratory/asthma-control/</a>
-markup link:  <a href="http://www.soapnote.org/txt/respiratory/asthma-control.txt" target="_blank">www.soapnote.org/txt/respiratory/asthma-control.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/respiratory/asthma-control.txt" target="_blank">www.soapnote.org/generator/txt/respiratory/asthma-control.txt</a>[/html][/conditional]

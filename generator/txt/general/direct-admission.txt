@@ -5,4 +5,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 1, 2010; August 27, 2015
 permalink: <a href="http://www.soapnote.org/general/direct-admission/" target="_blank">www.soapnote.org/general/direct-admission/</a>
-markup link:  <a href="http://www.soapnote.org/txt/general/direct-admission.txt" target="_blank">www.soapnote.org/txt/general/direct-admission.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/general/direct-admission.txt" target="_blank">www.soapnote.org/generator/txt/general/direct-admission.txt</a>[/html][/conditional]

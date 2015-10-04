@@ -19,4 +19,4 @@ reference:  This is an online version of a template by Stephen P. Merry, MD, MPH
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 1, 2010; August 30, 2015
 permalink: <a href="http://www.soapnote.org/elder-care/medicare-history/" target="_blank">www.soapnote.org/elder-care/medicare-history/</a>
-markup link:  <a href="http://www.soapnote.org/txt/elder-care/medicare-history.txt" target="_blank">www.soapnote.org/txt/elder-care/medicare-history.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/medicare-history.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/medicare-history.txt</a>[/html][/conditional]

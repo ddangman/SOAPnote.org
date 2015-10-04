@@ -4,4 +4,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 12, 2010; August 20, 2015
 permalink: <a href="http://www.soapnote.org/infectious/uri-plan/" target="_blank">www.soapnote.org/infectious/uri-plan/</a>
-markup link:  <a href="http://www.soapnote.org/txt/infectious/uri-plan.txt" target="_blank">www.soapnote.org/txt/infectious/uri-plan.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/infectious/uri-plan.txt" target="_blank">www.soapnote.org/generator/txt/infectious/uri-plan.txt</a>[/html][/conditional]

@@ -12,4 +12,4 @@ reference:  <a href="http://www.aafp.org/afp/2006/0415/p1425.html" target="_blan
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 1, 2010; September 1, 2015
 permalink: <a href="http://www.soapnote.org/infectious/curb-65-score/" target="_blank">www.soapnote.org/infectious/curb-65-score/</a>
-markup link:  <a href="http://www.soapnote.org/txt/infectious/curb-65-score.txt" target="_blank">www.soapnote.org/txt/infectious/curb-65-score.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/infectious/curb-65-score.txt" target="_blank">www.soapnote.org/generator/txt/infectious/curb-65-score.txt</a>[/html][/conditional]

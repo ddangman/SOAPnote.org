@@ -14,4 +14,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/14730421" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  February 19, 2014; August 31, 2015
 permalink: <a href="http://www.soapnote.org/women/osteoporosis-self-assessment-tool/" target="_blank">www.soapnote.org/women/osteoporosis-self-assessment-tool/</a>
-markup link:  <a href="http://www.soapnote.org/txt/women/osteoporosis-self-assessment-tool.txt" target="_blank">www.soapnote.org/txt/women/osteoporosis-self-assessment-tool.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/women/osteoporosis-self-assessment-tool.txt" target="_blank">www.soapnote.org/generator/txt/women/osteoporosis-self-assessment-tool.txt</a>[/html][/conditional]

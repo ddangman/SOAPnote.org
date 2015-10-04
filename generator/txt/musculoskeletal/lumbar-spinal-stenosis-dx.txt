@@ -16,4 +16,4 @@ reference:  <a href="http://www.aafp.org/afp/2009/1115/p1145.html" target="_blan
 posted by:  Mark Morgan, M.D.
 post/review dates:  November 22, 2010; September 2, 2015
 permalink: <a href="http://www.soapnote.org/musculoskeletal/lumbar-spinal-stenosis-dx/" target="_blank">www.soapnote.org/musculoskeletal/lumbar-spinal-stenosis-dx/</a>
-markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/lumbar-spinal-stenosis-dx.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/lumbar-spinal-stenosis-dx.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/lumbar-spinal-stenosis-dx.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/lumbar-spinal-stenosis-dx.txt</a>[/html][/conditional]

@@ -17,4 +17,4 @@ reference:  <a href="http://www.who.int" target="_blank">World Health Organizati
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 15, 2014; September 7, 2015
 permalink: <a href="http://www.soapnote.org/mental-health/audit/" target="_blank">www.soapnote.org/mental-health/audit/</a>
-markup link:  <a href="http://www.soapnote.org/txt/mental-health/audit.txt" target="_blank">www.soapnote.org/txt/mental-health/audit.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/audit.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/audit.txt</a>[/html][/conditional]

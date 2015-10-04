@@ -34,4 +34,4 @@ reference:  <a href="http://www.aafp.org/afp/2003/1201/p2179.html" title="Am Fam
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 20, 2013; September 2, 2015
 permalink: <a href="http://www.soapnote.org/musculoskeletal/dx-sle/" target="_blank">www.soapnote.org/musculoskeletal/dx-sle/</a>
-markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/dx-sle.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/dx-sle.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/dx-sle.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/dx-sle.txt</a>[/html][/conditional]

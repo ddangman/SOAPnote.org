@@ -51,4 +51,4 @@ reference:  none
 posted by:  J Bordas
 post/review dates:  June 26, 2012; September 2, 2015
 permalink: <a href="http://www.soapnote.org/injury/work-injury-headaches/" target="_blank">www.soapnote.org/injury/work-injury-headaches/</a>
-markup link:  <a href="http://www.soapnote.org/txt/injury/work-injury-headaches.txt" target="_blank">www.soapnote.org/txt/injury/work-injury-headaches.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/injury/work-injury-headaches.txt" target="_blank">www.soapnote.org/generator/txt/injury/work-injury-headaches.txt</a>[/html][/conditional]

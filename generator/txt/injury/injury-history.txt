@@ -14,4 +14,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  November 21, 2010; September 2, 2015
 permalink: <a href="http://www.soapnote.org/injury/injury-history/" target="_blank">www.soapnote.org/injury/injury-history/</a>
-markup link:  <a href="http://www.soapnote.org/txt/injury/injury-history.txt" target="_blank">www.soapnote.org/txt/injury/injury-history.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/injury/injury-history.txt" target="_blank">www.soapnote.org/generator/txt/injury/injury-history.txt</a>[/html][/conditional]

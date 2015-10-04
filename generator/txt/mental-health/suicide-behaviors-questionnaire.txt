@@ -11,4 +11,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/11785588" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 25, 2014; September 7, 2015
 permalink: <a href="http://www.soapnote.org/mental-health/suicide-behaviors-questionnaire/" target="_blank">www.soapnote.org/mental-health/suicide-behaviors-questionnaire/</a>
-markup link:  <a href="http://www.soapnote.org/txt/mental-health/suicide-behaviors-questionnaire.txt" target="_blank">www.soapnote.org/txt/mental-health/suicide-behaviors-questionnaire.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/suicide-behaviors-questionnaire.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/suicide-behaviors-questionnaire.txt</a>[/html][/conditional]

@@ -15,4 +15,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/11556941" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  June 5, 2010; September 7, 2015
 permalink: <a href="http://www.soapnote.org/mental-health/patient-health-questionnaire-phq-9-calculator/" target="_blank">www.soapnote.org/mental-health/patient-health-questionnaire-phq-9-calculator/</a>
-markup link:  <a href="http://www.soapnote.org/txt/mental-health/patient-health-questionnaire-phq-9-calculator.txt" target="_blank">www.soapnote.org/txt/mental-health/patient-health-questionnaire-phq-9-calculator.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/patient-health-questionnaire-phq-9-calculator.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/patient-health-questionnaire-phq-9-calculator.txt</a>[/html][/conditional]

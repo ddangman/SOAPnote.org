@@ -5,5 +5,5 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 18, 2015
 permalink: <a href="http://www.soapnote.org/skin/wart-plan/" target="_blank">www.soapnote.org/skin/wart-plan/</a>
-markup link:  <a href="http://www.soapnote.org/txt/skin/wart-plan.txt" target="_blank">www.soapnote.org/txt/skin/wart-plan.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/skin/wart-plan.txt" target="_blank">www.soapnote.org/generator/txt/skin/wart-plan.txt</a>[/html][/conditional]
 

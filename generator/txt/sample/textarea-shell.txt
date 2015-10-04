@@ -5,4 +5,4 @@ reference:  <a href="***" target="_blank">***</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  ^^^; #DATETIME MMMM d, yyyy#
 permalink: <a href="http://www.soapnote.org/*dir*/#BASENAME#/" target="_blank">www.soapnote.org/*dir*/#BASENAME#/</a>
-markup link:  <a href="http://www.soapnote.org/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/txt/*dir*/#FILENAME#</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/*dir*/#FILENAME#" target="_blank">www.soapnote.org/generator/txt/*dir*/#FILENAME#</a>[/html][/conditional]

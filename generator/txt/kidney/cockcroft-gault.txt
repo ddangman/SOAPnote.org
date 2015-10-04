@@ -11,4 +11,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/1244564" target="_blank"
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 10, 2013; September 3, 2015
 permalink: <a href="http://www.soapnote.org/kidney/cockcroft-gault/" target="_blank">www.soapnote.org/kidney/cockcroft-gault/</a>
-markup link:  <a href="http://www.soapnote.org/txt/kidney/cockcroft-gault.txt" target="_blank">www.soapnote.org/txt/kidney/cockcroft-gault.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/kidney/cockcroft-gault.txt" target="_blank">www.soapnote.org/generator/txt/kidney/cockcroft-gault.txt</a>[/html][/conditional]

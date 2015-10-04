@@ -44,4 +44,4 @@ reference:  Long Version contributed by Dr. Scott Moses, creator/author of the <
 posted by:  Mark Morgan, M.D.
 post/review dates:  November 20, 2010 ; September 4, 2015
 permalink: <a href="http://www.soapnote.org/neurological/dizziness-history/" target="_blank">www.soapnote.org/neurological/dizziness-history/</a>
-markup link:  <a href="http://www.soapnote.org/txt/neurological/dizziness-history.txt" target="_blank">www.soapnote.org/txt/neurological/dizziness-history.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/neurological/dizziness-history.txt" target="_blank">www.soapnote.org/generator/txt/neurological/dizziness-history.txt</a>[/html][/conditional]

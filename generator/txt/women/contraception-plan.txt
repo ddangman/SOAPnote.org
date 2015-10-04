@@ -5,4 +5,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 2, 2010; August 31, 2015
 permalink: <a href="http://www.soapnote.org/women/contraception-plan/" target="_blank">www.soapnote.org/women/contraception-plan/</a>
-markup link:  <a href="http://www.soapnote.org/txt/women/contraception-plan.txt" target="_blank">www.soapnote.org/txt/women/contraception-plan.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/women/contraception-plan.txt" target="_blank">www.soapnote.org/generator/txt/women/contraception-plan.txt</a>[/html][/conditional]

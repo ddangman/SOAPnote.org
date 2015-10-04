@@ -9,4 +9,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/18390575" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  October 6, 2014; August 24, 2015
 permalink: <a href="http://www.soapnote.org/digestive-system/bard/" target="_blank">www.soapnote.org/digestive-system/bard/</a>
-markup link:  <a href="http://www.soapnote.org/txt/digestive-system/bard.txt" target="_blank">www.soapnote.org/txt/digestive-system/bard.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/bard.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/bard.txt</a>[/html][/conditional]

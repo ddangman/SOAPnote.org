@@ -19,4 +19,4 @@ reference:  <a href="http://www.fpnotebook.com/id/virus/Inflnz.htm" target="_bla
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 11, 2013; September 1, 2015
 permalink: <a href="http://www.soapnote.org/infectious/influenza-plan/" target="_blank">www.soapnote.org/infectious/influenza-plan/</a>
-markup link:  <a href="http://www.soapnote.org/txt/infectious/influenza-plan.txt" target="_blank">www.soapnote.org/txt/infectious/influenza-plan.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/infectious/influenza-plan.txt" target="_blank">www.soapnote.org/generator/txt/infectious/influenza-plan.txt</a>[/html][/conditional]

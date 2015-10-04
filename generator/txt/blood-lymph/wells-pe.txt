@@ -13,4 +13,4 @@ reference:  <a href="http://www.aafp.org/afp/2004/0615/p2829.html" target="_blan
 posted by:  Mark Morgan, M.D.
 post/review dates:  July 9, 2012; August 31, 2015
 permalink: <a href="http://www.soapnote.org/blood-lymph/wells-pe/" target="_blank">www.soapnote.org/blood-lymph/wells-pe/</a>
-markup link:  <a href="http://www.soapnote.org/txt/blood-lymph/wells-pe.txt" target="_blank">www.soapnote.org/txt/blood-lymph/wells-pe.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/blood-lymph/wells-pe.txt" target="_blank">www.soapnote.org/generator/txt/blood-lymph/wells-pe.txt</a>[/html][/conditional]

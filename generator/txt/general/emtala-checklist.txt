@@ -14,4 +14,4 @@ reference:  <a href="http://www.law.cornell.edu/uscode/text/42/1395dd" target="_
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 3, 2014; August 27, 2015
 permalink: <a href="http://www.soapnote.org/general/emtala-checklist/" target="_blank">www.soapnote.org/general/emtala-checklist/</a>
-markup link:  <a href="http://www.soapnote.org/txt/general/emtala-checklist.txt" target="_blank">www.soapnote.org/txt/general/emtala-checklist.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/general/emtala-checklist.txt" target="_blank">www.soapnote.org/generator/txt/general/emtala-checklist.txt</a>[/html][/conditional]

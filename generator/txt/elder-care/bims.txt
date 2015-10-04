@@ -45,4 +45,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/22796362" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  January 16, 2015; August 30, 2015
 permalink: <a href="http://www.soapnote.org/elder-care/bims/" target="_blank">www.soapnote.org/elder-care/bims/</a>
-markup link:  <a href="http://www.soapnote.org/txt/elder-care/bims.txt" target="_blank">www.soapnote.org/txt/elder-care/bims.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/bims.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/bims.txt</a>[/html][/conditional]

@@ -59,4 +59,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/2594878">Jorm AF, Jacomb
 posted by:  Mark Morgan, M.D.
 post/review dates:  January 4, 2014; August 30, 2015
 permalink: <a href="http://www.soapnote.org/elder-care/iqcode/" target="_blank">www.soapnote.org/elder-care/iqcode/</a>
-markup link:  <a href="http://www.soapnote.org/txt/elder-care/iqcode.txt" target="_blank">www.soapnote.org/txt/elder-care/iqcode.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/iqcode.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/iqcode.txt</a>[/html][/conditional]

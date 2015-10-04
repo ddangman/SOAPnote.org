@@ -10,4 +10,4 @@ reference:  <a href="http://www.aafp.org/afp/2013/0415/p543.html" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 17, 2013; September 7, 2015
 permalink: <a href="http://www.soapnote.org/women/diagnosis-of-incontinence/" target="_blank">www.soapnote.org/women/diagnosis-of-incontinence/</a>
-markup link:  <a href="http://www.soapnote.org/txt/women/diagnosis-of-incontinence.txt" target="_blank">www.soapnote.org/txt/women/diagnosis-of-incontinence.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/women/diagnosis-of-incontinence.txt" target="_blank">www.soapnote.org/generator/txt/women/diagnosis-of-incontinence.txt</a>[/html][/conditional]

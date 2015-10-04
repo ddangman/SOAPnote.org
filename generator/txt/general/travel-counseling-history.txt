@@ -60,4 +60,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 30, 2010; September 7, 2015
 permalink: <a href="http://www.soapnote.org/general/travel-counseling-history/" target="_blank">www.soapnote.org/general/travel-counseling-history/</a>
-markup link:  <a href="http://www.soapnote.org/txt/general/travel-counseling-history.txt" target="_blank">www.soapnote.org/txt/general/travel-counseling-history.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/general/travel-counseling-history.txt" target="_blank">www.soapnote.org/generator/txt/general/travel-counseling-history.txt</a>[/html][/conditional]

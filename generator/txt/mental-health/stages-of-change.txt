@@ -13,4 +13,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/6863699" target="_blank"
 posted by:  Mark Morgan, M.D.
 post/review dates:  May 28, 2013; September 7, 2015
 permalink: <a href="http://www.soapnote.org/mental-health/stages-of-change/" target="_blank">www.soapnote.org/mental-health/stages-of-change/</a>
-markup link:  <a href="http://www.soapnote.org/txt/mental-health/stages-of-change.txt" target="_blank">www.soapnote.org/txt/mental-health/stages-of-change.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/stages-of-change.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/stages-of-change.txt</a>[/html][/conditional]

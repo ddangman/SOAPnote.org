@@ -38,4 +38,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/20461783" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  February 10, 2013; September 3, 2015
 permalink: <a href="http://www.soapnote.org/musculoskeletal/fibromyalgia-calculator/" target="_blank">www.soapnote.org/musculoskeletal/fibromyalgia-calculator/</a>
-markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/fibromyalgia-calculator.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/fibromyalgia-calculator.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/fibromyalgia-calculator.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/fibromyalgia-calculator.txt</a>[/html][/conditional]

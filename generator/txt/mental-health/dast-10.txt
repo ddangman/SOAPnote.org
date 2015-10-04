@@ -26,4 +26,4 @@ reference:  1982 by Harvey A Skinner, PhD and the Centre for Addiction and Menta
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 9, 2014; September 7, 2015
 permalink: <a href="http://www.soapnote.org/mental-health/dast-10/" target="_blank">www.soapnote.org/mental-health/dast-10/</a>
-markup link:  <a href="http://www.soapnote.org/txt/mental-health/dast-10.txt" target="_blank">www.soapnote.org/txt/mental-health/dast-10.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/dast-10.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/dast-10.txt</a>[/html][/conditional]

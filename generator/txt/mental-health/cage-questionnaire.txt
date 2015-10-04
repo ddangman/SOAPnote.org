@@ -9,4 +9,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/4416585" target="_blank"
 posted by:  Jonathan Poon
 post/review dates:  August 13, 2011; September 2, 2015
 permalink: <a href="http://www.soapnote.org/mental-health/cage-questionnaire/" target="_blank">www.soapnote.org/mental-health/cage-questionnaire/</a>
-markup link:  <a href="http://www.soapnote.org/txt/mental-health/cage-questionnaire.txt" target="_blank">www.soapnote.org/txt/mental-health/cage-questionnaire.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/cage-questionnaire.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/cage-questionnaire.txt</a>[/html][/conditional]

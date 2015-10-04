@@ -33,4 +33,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  October 13, 2014; August 28, 2015
 permalink: <a href="http://www.soapnote.org/general/fever-history/" target="_blank">www.soapnote.org/general/fever-history/</a>
-markup link:  <a href="http://www.soapnote.org/txt/general/fever-history.txt" target="_blank">www.soapnote.org/txt/general/fever-history.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/general/fever-history.txt" target="_blank">www.soapnote.org/generator/txt/general/fever-history.txt</a>[/html][/conditional]

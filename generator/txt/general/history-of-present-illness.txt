@@ -5,4 +5,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  October 13, 2013; August 28, 2015
 permalink: <a href="http://www.soapnote.org/general/history-of-present-illness/" target="_blank">www.soapnote.org/general/history-of-present-illness/</a>
-markup link:  <a href="http://www.soapnote.org/txt/general/history-of-present-illness.txt" target="_blank">www.soapnote.org/txt/general/history-of-present-illness.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/general/history-of-present-illness.txt" target="_blank">www.soapnote.org/generator/txt/general/history-of-present-illness.txt</a>[/html][/conditional]

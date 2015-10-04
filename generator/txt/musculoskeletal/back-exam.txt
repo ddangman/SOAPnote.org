@@ -13,4 +13,4 @@ reference:  Based on template by Stephen P. Merry, MD, MPH, Consultant, Departme
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 1, 2010; August 27, 2015
 permalink: <a href="http://www.soapnote.org/musculoskeletal/back-exam/" target="_blank">www.soapnote.org/musculoskeletal/back-exam/</a>
-markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/back-exam.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/back-exam.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/back-exam.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/back-exam.txt</a>[/html][/conditional]

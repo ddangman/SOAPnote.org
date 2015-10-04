@@ -15,4 +15,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16607684" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 19, 2014; August 25, 2015
 permalink: <a href="http://www.soapnote.org/digestive-system/mannheim-peritonitis-index/" target="_blank">www.soapnote.org/digestive-system/mannheim-peritonitis-index/</a>
-markup link:  <a href="http://www.soapnote.org/txt/digestive-system/mannheim-peritonitis-index.txt" target="_blank">www.soapnote.org/txt/digestive-system/mannheim-peritonitis-index.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/mannheim-peritonitis-index.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/mannheim-peritonitis-index.txt</a>[/html][/conditional]

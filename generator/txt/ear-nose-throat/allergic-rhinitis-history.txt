@@ -29,4 +29,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  February 16, 2014; September 6, 2015
 permalink: <a href="http://www.soapnote.org/ear-nose-throat/allergic-rhinitis-history/" target="_blank">www.soapnote.org/ear-nose-throat/allergic-rhinitis-history/</a>
-markup link:  <a href="http://www.soapnote.org/txt/ear-nose-throat/allergic-rhinitis-history.txt" target="_blank">www.soapnote.org/txt/ear-nose-throat/allergic-rhinitis-history.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/allergic-rhinitis-history.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/allergic-rhinitis-history.txt</a>[/html][/conditional]

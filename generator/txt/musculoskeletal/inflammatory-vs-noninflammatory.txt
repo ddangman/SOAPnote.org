@@ -28,4 +28,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/9455961" target="_blank"
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 24, 2014; September 3, 2015
 permalink: <a href="http://www.soapnote.org/musculoskeletal/inflammatory-vs-noninflammatory/" target="_blank">www.soapnote.org/musculoskeletal/inflammatory-vs-noninflammatory/</a>
-markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/inflammatory-vs-noninflammatory.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/inflammatory-vs-noninflammatory.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/inflammatory-vs-noninflammatory.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/inflammatory-vs-noninflammatory.txt</a>[/html][/conditional]

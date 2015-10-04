@@ -18,4 +18,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/11574710" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  October 6, 2014; August 30, 2015
 permalink: <a href="http://www.soapnote.org/elder-care/zarit-caregiver-burden/" target="_blank">www.soapnote.org/elder-care/zarit-caregiver-burden/</a>
-markup link:  <a href="http://www.soapnote.org/txt/elder-care/zarit-caregiver-burden.txt" target="_blank">www.soapnote.org/txt/elder-care/zarit-caregiver-burden.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/zarit-caregiver-burden.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/zarit-caregiver-burden.txt</a>[/html][/conditional]

@@ -20,4 +20,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16020800" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  July 10, 2012; August 21, 2015
 permalink: <a href="http://www.soapnote.org/respiratory/pesi/" target="_blank">www.soapnote.org/respiratory/pesi/</a>
-markup link:  <a href="http://www.soapnote.org/txt/respiratory/pesi.txt" target="_blank">www.soapnote.org/txt/respiratory/pesi.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/respiratory/pesi.txt" target="_blank">www.soapnote.org/generator/txt/respiratory/pesi.txt</a>[/html][/conditional]

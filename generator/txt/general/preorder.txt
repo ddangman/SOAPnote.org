@@ -5,4 +5,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 1, 2010; August 29, 2015
 permalink: <a href="http://www.soapnote.org/general/preorder/" target="_blank">www.soapnote.org/general/preorder/</a>
-markup link:  <a href="http://www.soapnote.org/txt/general/preorder.txt" target="_blank">www.soapnote.org/txt/general/preorder.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/general/preorder.txt" target="_blank">www.soapnote.org/generator/txt/general/preorder.txt</a>[/html][/conditional]

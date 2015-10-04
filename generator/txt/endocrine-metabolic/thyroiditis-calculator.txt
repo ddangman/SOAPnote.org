@@ -24,4 +24,4 @@ reference:  <a href="http://www.aafp.org/afp/2006/0515/p1769.html" target="_blan
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 23, 2014; August 23, 2015
 permalink: <a href="http://www.soapnote.org/endocrine-metabolic/thyroiditis-calculator/" target="_blank">www.soapnote.org/endocrine-metabolic/thyroiditis-calculator/</a>
-markup link:  <a href="http://www.soapnote.org/txt/endocrine-metabolic/thyroiditis-calculator.txt" target="_blank">www.soapnote.org/txt/endocrine-metabolic/thyroiditis-calculator.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/thyroiditis-calculator.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/thyroiditis-calculator.txt</a>[/html][/conditional]

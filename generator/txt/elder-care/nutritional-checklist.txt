@@ -16,4 +16,4 @@ reference:  The Nutrition Health Checklist was developed for the Nutrition Scree
 posted by:  Mark Morgan, M.D.
 post/review dates:  June 24, 2011; August 30, 2015
 permalink: <a href="http://www.soapnote.org/elder-care/nutritional-checklist/" target="_blank">www.soapnote.org/elder-care/nutritional-checklist/</a>
-markup link:  <a href="http://www.soapnote.org/txt/elder-care/nutritional-checklist.txt" target="_blank">www.soapnote.org/txt/elder-care/nutritional-checklist.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/nutritional-checklist.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/nutritional-checklist.txt</a>[/html][/conditional]

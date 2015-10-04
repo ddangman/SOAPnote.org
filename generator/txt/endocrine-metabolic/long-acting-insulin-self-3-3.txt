@@ -20,4 +20,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 9, 2013; August 23, 2015
 permalink: <a href="http://www.soapnote.org/endocrine-metabolic/long-acting-insulin-self-3-3/" target="_blank">www.soapnote.org/endocrine-metabolic/long-acting-insulin-self-3-3/</a>
-markup link:  <a href="http://www.soapnote.org/txt/endocrine-metabolic/long-acting-insulin-self-3-3.txt" target="_blank">www.soapnote.org/txt/endocrine-metabolic/long-acting-insulin-self-3-3.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/long-acting-insulin-self-3-3.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/long-acting-insulin-self-3-3.txt</a>[/html][/conditional]

@@ -12,4 +12,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/24114306" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 19, 2014; September 1, 2015
 permalink: <a href="http://www.soapnote.org/ear-nose-throat/feverpain/" target="_blank">www.soapnote.org/ear-nose-throat/feverpain/</a>
-markup link:  <a href="http://www.soapnote.org/txt/ear-nose-throat/feverpain.txt" target="_blank">www.soapnote.org/txt/ear-nose-throat/feverpain.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/feverpain.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/feverpain.txt</a>[/html][/conditional]

@@ -9,4 +9,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/20485003" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  May 11, 2015; August 24, 2015
 permalink: <a href="http://www.soapnote.org/digestive-system/diverticulitis-decision-rule/" target="_blank">www.soapnote.org/digestive-system/diverticulitis-decision-rule/</a>
-markup link:  <a href="http://www.soapnote.org/txt/digestive-system/diverticulitis-decision-rule.txt" target="_blank">www.soapnote.org/txt/digestive-system/diverticulitis-decision-rule.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/diverticulitis-decision-rule.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/diverticulitis-decision-rule.txt</a>[/html][/conditional]

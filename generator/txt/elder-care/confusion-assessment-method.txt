@@ -9,4 +9,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/24733193" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 19, 2014; August 30, 2015
 permalink: <a href="http://www.soapnote.org/elder-care/confusion-assessment-method/" target="_blank">www.soapnote.org/elder-care/confusion-assessment-method/</a>
-markup link:  <a href="http://www.soapnote.org/txt/elder-care/confusion-assessment-method.txt" target="_blank">www.soapnote.org/txt/elder-care/confusion-assessment-method.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/confusion-assessment-method.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/confusion-assessment-method.txt</a>[/html][/conditional]

@@ -21,4 +21,4 @@ reference:  <a href="http://www.aafp.org/afp/2002/0915/p1001.html" target="_blan
 posted by:  Mark Morgan, M.D.
 post/review dates:  June 16, 2010; August 30, 2015
 permalink: <a href="http://www.soapnote.org/elder-care/geriatric-depression-scale/" target="_blank">www.soapnote.org/elder-care/geriatric-depression-scale/</a>
-markup link:  <a href="http://www.soapnote.org/txt/elder-care/geriatric-depression-scale.txt" target="_blank">www.soapnote.org/txt/elder-care/geriatric-depression-scale.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/geriatric-depression-scale.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/geriatric-depression-scale.txt</a>[/html][/conditional]

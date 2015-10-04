@@ -11,4 +11,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/0011033707">McIsaac WJ, 
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 19, 2014; September 1, 2015
 permalink: <a href="http://www.soapnote.org/ear-nose-throat/adapted-centor-score/" target="_blank">www.soapnote.org/ear-nose-throat/adapted-centor-score/</a>
-markup link:  <a href="http://www.soapnote.org/txt/ear-nose-throat/adapted-centor-score.txt" target="_blank">www.soapnote.org/txt/ear-nose-throat/adapted-centor-score.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/adapted-centor-score.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/adapted-centor-score.txt</a>[/html][/conditional]

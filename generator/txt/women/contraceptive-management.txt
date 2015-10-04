@@ -11,4 +11,4 @@ ASSESSMENT/PLAN:
 reference:  none
 post/review dates:  October 14, 2013; August 31, 2015
 permalink: <a href="http://www.soapnote.org/women/contraceptive-management/" target="_blank">www.soapnote.org/women/contraceptive-management/</a>
-markup link:  <a href="http://www.soapnote.org/txt/women/contraceptive-management.txt" target="_blank">www.soapnote.org/txt/women/contraceptive-management.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/women/contraceptive-management.txt" target="_blank">www.soapnote.org/generator/txt/women/contraceptive-management.txt</a>[/html][/conditional]

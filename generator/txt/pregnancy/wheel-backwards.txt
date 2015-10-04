@@ -13,4 +13,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  October 6, 2013; September 5, 2015
 permalink: <a href="http://www.soapnote.org/pregnancy/wheel-backwards/" target="_blank">www.soapnote.org/pregnancy/wheel-backwards/</a>
-markup link:  <a href="http://www.soapnote.org/txt/pregnancy/wheel-backwards.txt" target="_blank">www.soapnote.org/txt/pregnancy/wheel-backwards.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/pregnancy/wheel-backwards.txt" target="_blank">www.soapnote.org/generator/txt/pregnancy/wheel-backwards.txt</a>[/html][/conditional]

@@ -19,4 +19,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 6, 2013; August 28, 2015
 permalink: <a href="http://www.soapnote.org/general/morbidity-and-mortality-review/" target="_blank">www.soapnote.org/general/morbidity-and-mortality-review/</a>
-markup link:  <a href="http://www.soapnote.org/txt/general/morbidity-and-mortality-review.txt" target="_blank">www.soapnote.org/txt/general/morbidity-and-mortality-review.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/general/morbidity-and-mortality-review.txt" target="_blank">www.soapnote.org/generator/txt/general/morbidity-and-mortality-review.txt</a>[/html][/conditional]

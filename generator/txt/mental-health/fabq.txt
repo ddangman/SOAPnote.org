@@ -28,4 +28,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/8455963" target="_blank"
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 4, 2013; September 3, 2015
 permalink: <a href="http://www.soapnote.org/mental-health/fabq/" target="_blank">www.soapnote.org/mental-health/fabq/</a>
-markup link:  <a href="http://www.soapnote.org/txt/mental-health/fabq.txt" target="_blank">www.soapnote.org/txt/mental-health/fabq.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/fabq.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/fabq.txt</a>[/html][/conditional]

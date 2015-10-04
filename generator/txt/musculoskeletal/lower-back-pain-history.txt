@@ -36,4 +36,4 @@ reference:  contributed by Dr. Scott Moses, creator/author of the <a href="http:
 posted by:  Mark Morgan, M.D.
 post/review dates:  November 21, 2010; September 3, 2015
 permalink: <a href="http://www.soapnote.org/musculoskeletal/lower-back-pain-history/" target="_blank">www.soapnote.org/musculoskeletal/lower-back-pain-history/</a>
-markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/lower-back-pain-history.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/lower-back-pain-history.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/lower-back-pain-history.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/lower-back-pain-history.txt</a>[/html][/conditional]

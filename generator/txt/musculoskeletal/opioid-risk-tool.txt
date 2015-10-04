@@ -39,4 +39,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16336480" target="_blank
 posted by:  Jonathan Poon
 post/review dates:  December 17, 2011; September 3, 2015
 permalink: <a href="http://www.soapnote.org/musculoskeletal/opioid-risk-tool/" target="_blank">www.soapnote.org/musculoskeletal/opioid-risk-tool/</a>
-markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/opioid-risk-tool.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/opioid-risk-tool.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/opioid-risk-tool.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/opioid-risk-tool.txt</a>[/html][/conditional]

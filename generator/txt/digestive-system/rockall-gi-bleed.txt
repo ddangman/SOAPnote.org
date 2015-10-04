@@ -25,4 +25,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/8675081" target="_blank"
 posted by:  Mark Morgan, M.D.
 post/review dates:  October 6, 2014; August 25, 2015
 permalink: <a href="http://www.soapnote.org/digestive-system/rockall-gi-bleed/" target="_blank">www.soapnote.org/digestive-system/rockall-gi-bleed/</a>
-markup link:  <a href="http://www.soapnote.org/txt/digestive-system/rockall-gi-bleed.txt" target="_blank">www.soapnote.org/txt/digestive-system/rockall-gi-bleed.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/rockall-gi-bleed.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/rockall-gi-bleed.txt</a>[/html][/conditional]

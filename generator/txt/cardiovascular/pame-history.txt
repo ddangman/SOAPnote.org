@@ -24,4 +24,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 12, 2010; August 29, 2015
 permalink: <a href="http://www.soapnote.org/cardiovascular/pame-history/" target="_blank">www.soapnote.org/cardiovascular/pame-history/</a>
-markup link:  <a href="http://www.soapnote.org/txt/cardiovascular/pame-history.txt" target="_blank">www.soapnote.org/txt/cardiovascular/pame-history.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/pame-history.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/pame-history.txt</a>[/html][/conditional]

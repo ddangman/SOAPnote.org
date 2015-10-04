@@ -7,5 +7,5 @@
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 25, 2015
 permalink: <a href="http://www.soapnote.org/digestive-system/abdominal-exam/" target="_blank">www.soapnote.org/digestive-system/abdominal-exam/</a>
-markup link:  <a href="http://www.soapnote.org/txt/digestive-system/abdominal-exam.txt" target="_blank">www.soapnote.org/txt/digestive-system/abdominal-exam.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/abdominal-exam.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/abdominal-exam.txt</a>[/html][/conditional]
 

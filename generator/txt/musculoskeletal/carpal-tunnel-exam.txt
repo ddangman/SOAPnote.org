@@ -5,4 +5,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 1, 2010; September 2, 2015
 permalink: <a href="http://www.soapnote.org/musculoskeletal/carpal-tunnel-exam/" target="_blank">www.soapnote.org/musculoskeletal/carpal-tunnel-exam/</a>
-markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/carpal-tunnel-exam.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/carpal-tunnel-exam.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/carpal-tunnel-exam.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/carpal-tunnel-exam.txt</a>[/html][/conditional]

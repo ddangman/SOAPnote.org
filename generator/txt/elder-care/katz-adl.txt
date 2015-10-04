@@ -13,4 +13,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/5420677">Katz (1970) Ger
 posted by:  Mark Morgan, M.D.
 post/review dates:  June 24, 2011; August 30, 2015
 permalink: <a href="http://www.soapnote.org/elder-care/katz-adl/" target="_blank">www.soapnote.org/elder-care/katz-adl/</a>
-markup link:  <a href="http://www.soapnote.org/txt/elder-care/katz-adl.txt" target="_blank">www.soapnote.org/txt/elder-care/katz-adl.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/katz-adl.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/katz-adl.txt</a>[/html][/conditional]

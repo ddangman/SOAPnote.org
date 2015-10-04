@@ -11,4 +11,4 @@ reference:  <a href="http://www.amazon.com/gp/product/1846192889/ref=as_li_qf_sp
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 9, 2013; September 7, 2015
 permalink: <a href="http://www.soapnote.org/mental-health/bathe-technique/" target="_blank">www.soapnote.org/mental-health/bathe-technique/</a>
-markup link:  <a href="http://www.soapnote.org/txt/mental-health/bathe-technique.txt" target="_blank">www.soapnote.org/txt/mental-health/bathe-technique.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/bathe-technique.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/bathe-technique.txt</a>[/html][/conditional]

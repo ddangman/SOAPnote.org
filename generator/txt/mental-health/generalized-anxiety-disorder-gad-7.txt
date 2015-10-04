@@ -14,4 +14,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16717171" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  May 30, 2010; September 7, 2015
 permalink: <a href="http://www.soapnote.org/mental-health/generalized-anxiety-disorder-gad-7/" target="_blank">www.soapnote.org/mental-health/generalized-anxiety-disorder-gad-7/</a>
-markup link:  <a href="http://www.soapnote.org/txt/mental-health/generalized-anxiety-disorder-gad-7.txt" target="_blank">www.soapnote.org/txt/mental-health/generalized-anxiety-disorder-gad-7.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/generalized-anxiety-disorder-gad-7.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/generalized-anxiety-disorder-gad-7.txt</a>[/html][/conditional]

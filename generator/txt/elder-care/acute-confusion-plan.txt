@@ -11,4 +11,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 12, 2010; August 30, 2015
 permalink: <a href="http://www.soapnote.org/elder-care/acute-confusion-plan/" target="_blank">www.soapnote.org/elder-care/acute-confusion-plan/</a>
-markup link:  <a href="http://www.soapnote.org/txt/elder-care/acute-confusion-plan.txt" target="_blank">www.soapnote.org/txt/elder-care/acute-confusion-plan.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/acute-confusion-plan.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/acute-confusion-plan.txt</a>[/html][/conditional]

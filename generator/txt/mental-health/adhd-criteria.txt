@@ -36,4 +36,4 @@ reference:  <a href="http://www.fpnotebook.com/peds/neuro/AdhdDgns.htm" target="
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 13, 2013; September 6, 2015
 permalink: <a href="http://www.soapnote.org/mental-health/adhd-criteria/" target="_blank">www.soapnote.org/mental-health/adhd-criteria/</a>
-markup link:  <a href="http://www.soapnote.org/txt/mental-health/adhd-criteria.txt" target="_blank">www.soapnote.org/txt/mental-health/adhd-criteria.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/adhd-criteria.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/adhd-criteria.txt</a>[/html][/conditional]

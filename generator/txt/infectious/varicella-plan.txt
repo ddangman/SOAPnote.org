@@ -5,4 +5,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 1, 2010; September 1, 2015
 permalink: <a href="http://www.soapnote.org/infectious/varicella-plan/" target="_blank">www.soapnote.org/infectious/varicella-plan/</a>
-markup link:  <a href="http://www.soapnote.org/txt/infectious/varicella-plan.txt" target="_blank">www.soapnote.org/txt/infectious/varicella-plan.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/infectious/varicella-plan.txt" target="_blank">www.soapnote.org/generator/txt/infectious/varicella-plan.txt</a>[/html][/conditional]

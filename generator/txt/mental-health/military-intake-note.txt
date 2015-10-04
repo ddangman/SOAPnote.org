@@ -56,4 +56,4 @@ reference:  none
 posted by:  RUKnight
 post/review dates:  June 28, 2012; September 7, 2015
 permalink: <a href="http://www.soapnote.org/mental-health/military-intake-note/" target="_blank">www.soapnote.org/mental-health/military-intake-note/</a>
-markup link:  <a href="http://www.soapnote.org/txt/mental-health/military-intake-note.txt" target="_blank">www.soapnote.org/txt/mental-health/military-intake-note.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/military-intake-note.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/military-intake-note.txt</a>[/html][/conditional]

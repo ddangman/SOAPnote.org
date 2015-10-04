@@ -24,4 +24,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  February 16, 2014; August 25, 2015
 permalink: <a href="http://www.soapnote.org/digestive-system/gastroenteritis-history-2/" target="_blank">www.soapnote.org/digestive-system/gastroenteritis-history-2/</a>
-markup link:  <a href="http://www.soapnote.org/txt/digestive-system/gastroenteritis-history-2.txt" target="_blank">www.soapnote.org/txt/digestive-system/gastroenteritis-history-2.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/gastroenteritis-history-2.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/gastroenteritis-history-2.txt</a>[/html][/conditional]

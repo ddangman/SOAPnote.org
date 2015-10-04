@@ -32,4 +32,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/8995086" target="_blank"
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 25, 2012; August 21, 2015
 permalink: <a href="http://www.soapnote.org/respiratory/pneumonia-severity-index/" target="_blank">www.soapnote.org/respiratory/pneumonia-severity-index/</a>
-markup link:  <a href="http://www.soapnote.org/txt/respiratory/pneumonia-severity-index.txt" target="_blank">www.soapnote.org/txt/respiratory/pneumonia-severity-index.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/respiratory/pneumonia-severity-index.txt" target="_blank">www.soapnote.org/generator/txt/respiratory/pneumonia-severity-index.txt</a>[/html][/conditional]

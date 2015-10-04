@@ -7,4 +7,4 @@ reference:  <a href="http://www.reproductiveaccess.org/fact_sheets/switching_bc.
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 28, 2014; August 31, 2015
 permalink: <a href="http://www.soapnote.org/women/switch-birth-control/" target="_blank">www.soapnote.org/women/switch-birth-control/</a>
-markup link:  <a href="http://www.soapnote.org/txt/women/switch-birth-control.txt" target="_blank">www.soapnote.org/txt/women/switch-birth-control.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/women/switch-birth-control.txt" target="_blank">www.soapnote.org/generator/txt/women/switch-birth-control.txt</a>[/html][/conditional]

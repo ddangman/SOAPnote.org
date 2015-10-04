@@ -23,4 +23,4 @@ reference:  <a href="http://www.reproductiveaccess.org/contraception/quickstart_
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 26, 2014; August 31, 2015
 permalink: <a href="http://www.soapnote.org/women/contraception-quick-start/" target="_blank">www.soapnote.org/women/contraception-quick-start/</a>
-markup link:  <a href="http://www.soapnote.org/txt/women/contraception-quick-start.txt" target="_blank">www.soapnote.org/txt/women/contraception-quick-start.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/women/contraception-quick-start.txt" target="_blank">www.soapnote.org/generator/txt/women/contraception-quick-start.txt</a>[/html][/conditional]

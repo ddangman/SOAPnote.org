@@ -17,4 +17,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/21804146" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  January 11, 2015; September 7, 2015
 permalink: <a href="http://www.soapnote.org/mental-health/atypical-antipsychotic-monitor/" target="_blank">www.soapnote.org/mental-health/atypical-antipsychotic-monitor/</a>
-markup link:  <a href="http://www.soapnote.org/txt/mental-health/atypical-antipsychotic-monitor.txt" target="_blank">www.soapnote.org/txt/mental-health/atypical-antipsychotic-monitor.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/atypical-antipsychotic-monitor.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/atypical-antipsychotic-monitor.txt</a>[/html][/conditional]

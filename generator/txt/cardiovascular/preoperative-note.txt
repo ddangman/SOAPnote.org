@@ -54,4 +54,4 @@ reference:  none
 posted by:  J Bordas
 post/review dates:  May 11, 2013; September 2, 2015
 permalink: <a href="http://www.soapnote.org/cardiovascular/preoperative-note/" target="_blank">www.soapnote.org/cardiovascular/preoperative-note/</a>
-markup link:  <a href="http://www.soapnote.org/txt/cardiovascular/preoperative-note.txt" target="_blank">www.soapnote.org/txt/cardiovascular/preoperative-note.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/preoperative-note.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/preoperative-note.txt</a>[/html][/conditional]

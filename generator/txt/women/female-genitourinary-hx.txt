@@ -58,4 +58,4 @@ reference:  contributed by Dr. Scott Moses, creator/author of the <a href="http:
 posted by:  Mark Morgan, M.D.
 post/review dates:  November 24, 2010; August 31, 2015
 permalink: <a href="http://www.soapnote.org/women/female-genitourinary-hx/" target="_blank">www.soapnote.org/women/female-genitourinary-hx/</a>
-markup link:  <a href="http://www.soapnote.org/txt/women/female-genitourinary-hx.txt" target="_blank">www.soapnote.org/txt/women/female-genitourinary-hx.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/women/female-genitourinary-hx.txt" target="_blank">www.soapnote.org/generator/txt/women/female-genitourinary-hx.txt</a>[/html][/conditional]

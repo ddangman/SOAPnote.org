@@ -12,4 +12,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  February 18, 2014; September 1, 2015
 permalink: <a href="http://www.soapnote.org/women/vaginitis-plan/" target="_blank">www.soapnote.org/women/vaginitis-plan/</a>
-markup link:  <a href="http://www.soapnote.org/txt/women/vaginitis-plan.txt" target="_blank">www.soapnote.org/txt/women/vaginitis-plan.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/women/vaginitis-plan.txt" target="_blank">www.soapnote.org/generator/txt/women/vaginitis-plan.txt</a>[/html][/conditional]

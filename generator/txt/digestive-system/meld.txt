@@ -23,4 +23,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/12512033" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  June 8, 2011; August 25, 2015
 permalink: <a href="http://www.soapnote.org/digestive-system/meld/" target="_blank">www.soapnote.org/digestive-system/meld/</a>
-markup link:  <a href="http://www.soapnote.org/txt/digestive-system/meld.txt" target="_blank">www.soapnote.org/txt/digestive-system/meld.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/meld.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/meld.txt</a>[/html][/conditional]

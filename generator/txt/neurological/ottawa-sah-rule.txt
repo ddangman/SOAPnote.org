@@ -20,4 +20,4 @@ reference:  <a href="http://jama.jamanetwork.com/article.aspx?articleid=1741823#
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 26, 2013; September 4, 2015
 permalink: <a href="http://www.soapnote.org/neurological/ottawa-sah-rule/" target="_blank">www.soapnote.org/neurological/ottawa-sah-rule/</a>
-markup link:  <a href="http://www.soapnote.org/txt/neurological/ottawa-sah-rule.txt" target="_blank">www.soapnote.org/txt/neurological/ottawa-sah-rule.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/neurological/ottawa-sah-rule.txt" target="_blank">www.soapnote.org/generator/txt/neurological/ottawa-sah-rule.txt</a>[/html][/conditional]

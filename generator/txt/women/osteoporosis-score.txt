@@ -15,4 +15,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/10179905" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 12, 2012; August 31, 2015
 permalink: <a href="http://www.soapnote.org/women/osteoporosis-score/" target="_blank">www.soapnote.org/women/osteoporosis-score/</a>
-markup link:  <a href="http://www.soapnote.org/txt/women/osteoporosis-score.txt" target="_blank">www.soapnote.org/txt/women/osteoporosis-score.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/women/osteoporosis-score.txt" target="_blank">www.soapnote.org/generator/txt/women/osteoporosis-score.txt</a>[/html][/conditional]

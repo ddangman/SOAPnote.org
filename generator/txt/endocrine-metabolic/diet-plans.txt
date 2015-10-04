@@ -7,4 +7,4 @@ posted by:  Mark Morgan, M.D.
 post/review dates:  August 18, 2015
 notes:  none
 permalink: <a href="http://www.soapnote.org/nutrition/diet-plans/" target="_blank">www.soapnote.org/nutrition/diet-plans/</a>
-markup link:  <a href="http://www.soapnote.org/txt/nutrition/diet-plans.txt" target="_blank">www.soapnote.org/txt/nutrition/diet-plans.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/nutrition/diet-plans.txt" target="_blank">www.soapnote.org/generator/txt/nutrition/diet-plans.txt</a>[/html][/conditional]

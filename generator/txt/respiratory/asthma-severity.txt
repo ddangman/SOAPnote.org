@@ -27,4 +27,4 @@ reference:  <a href="http://www.nhlbi.nih.gov/guidelines/asthma/asthgdln.htm" ta
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 24, 2012; September 7, 2015
 permalink: <a href="http://www.soapnote.org/respiratory/asthma-severity/" target="_blank">www.soapnote.org/respiratory/asthma-severity/</a>
-markup link:  <a href="http://www.soapnote.org/txt/respiratory/asthma-severity.txt" target="_blank">www.soapnote.org/txt/respiratory/asthma-severity.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/respiratory/asthma-severity.txt" target="_blank">www.soapnote.org/generator/txt/respiratory/asthma-severity.txt</a>[/html][/conditional]

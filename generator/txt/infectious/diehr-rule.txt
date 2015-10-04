@@ -13,4 +13,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/6699126" target="_blank"
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 18, 2012; September 1, 2015
 permalink: <a href="http://www.soapnote.org/infectious/diehr-rule/" target="_blank">www.soapnote.org/infectious/diehr-rule/</a>
-markup link:  <a href="http://www.soapnote.org/txt/infectious/diehr-rule.txt" target="_blank">www.soapnote.org/txt/infectious/diehr-rule.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/infectious/diehr-rule.txt" target="_blank">www.soapnote.org/generator/txt/infectious/diehr-rule.txt</a>[/html][/conditional]

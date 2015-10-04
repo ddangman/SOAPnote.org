@@ -5,5 +5,5 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  February 13, 2011; August 31, 2015
 permalink: <a href="http://www.soapnote.org/women/emergency-contraception-plan/" target="_blank">www.soapnote.org/women/emergency-contraception-plan/</a>
-markup link:  <a href="http://www.soapnote.org/txt/women/emergency-contraception-plan.txt" target="_blank">www.soapnote.org/txt/women/emergency-contraception-plan.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/women/emergency-contraception-plan.txt" target="_blank">www.soapnote.org/generator/txt/women/emergency-contraception-plan.txt</a>[/html][/conditional]
 

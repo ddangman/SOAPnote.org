@@ -13,4 +13,4 @@ reference:  AAFP Point-of-Care Guide at <a href="http://www.aafp.org/afp/2007/12
 posted by:  Mark Morgan, M.D.
 post/review dates:  February 1, 2011; September 7, 2015
 permalink: <a href="http://www.soapnote.org/mental-health/ptsd-screen/" target="_blank">www.soapnote.org/mental-health/ptsd-screen/</a>
-markup link:  <a href="http://www.soapnote.org/txt/mental-health/ptsd-screen.txt" target="_blank">www.soapnote.org/txt/mental-health/ptsd-screen.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/ptsd-screen.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/ptsd-screen.txt</a>[/html][/conditional]

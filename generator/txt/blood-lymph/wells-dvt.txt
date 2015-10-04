@@ -14,4 +14,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/9428249" target="_blank"
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 31, 2010; August 31, 2015
 permalink: <a href="http://www.soapnote.org/blood-lymph/wells-dvt/" target="_blank">www.soapnote.org/blood-lymph/wells-dvt/</a>
-markup link:  <a href="http://www.soapnote.org/txt/blood-lymph/wells-dvt.txt" target="_blank">www.soapnote.org/txt/blood-lymph/wells-dvt.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/blood-lymph/wells-dvt.txt" target="_blank">www.soapnote.org/generator/txt/blood-lymph/wells-dvt.txt</a>[/html][/conditional]

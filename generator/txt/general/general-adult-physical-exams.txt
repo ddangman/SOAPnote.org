@@ -24,4 +24,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  November 26, 2010; August 26, 2015
 permalink: <a href="http://www.soapnote.org/general/general-adult-physical-exams/" target="_blank">www.soapnote.org/general/general-adult-physical-exams/</a>
-markup link:  <a href="http://www.soapnote.org/txt/general/general-adult-physical-exams.txt" target="_blank">www.soapnote.org/txt/general/general-adult-physical-exams.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/general/general-adult-physical-exams.txt" target="_blank">www.soapnote.org/generator/txt/general/general-adult-physical-exams.txt</a>[/html][/conditional]

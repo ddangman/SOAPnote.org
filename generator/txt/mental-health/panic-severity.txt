@@ -22,4 +22,4 @@ reference:  <a href="http://www.psychiatry.org/file%20library/practice/dsm/dsm-5
 posted by:  Mark Morgan, M.D.
 post/review dates:  May 14, 2015; September 7, 2015
 permalink: <a href="http://www.soapnote.org/mental-health/panic-severity/" target="_blank">www.soapnote.org/mental-health/panic-severity/</a>
-markup link:  <a href="http://www.soapnote.org/txt/mental-health/panic-severity.txt" target="_blank">www.soapnote.org/txt/mental-health/panic-severity.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/panic-severity.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/panic-severity.txt</a>[/html][/conditional]

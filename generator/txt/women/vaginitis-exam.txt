@@ -9,4 +9,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  February 18, 2014; September 1, 2015
 permalink: <a href="http://www.soapnote.org/women/vaginitis-exam/" target="_blank">www.soapnote.org/women/vaginitis-exam/</a>
-markup link:  <a href="http://www.soapnote.org/txt/women/vaginitis-exam.txt" target="_blank">www.soapnote.org/txt/women/vaginitis-exam.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/women/vaginitis-exam.txt" target="_blank">www.soapnote.org/generator/txt/women/vaginitis-exam.txt</a>[/html][/conditional]

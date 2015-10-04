@@ -36,4 +36,4 @@ reference:  <a href="http://www.fpnotebook.com/Surgery/DER/WndRpr.htm" target="_
 posted by:  Mark Morgan, M.D.
 post/review dates:  November 21, 2010; September 2, 2015
 permalink: <a href="http://www.soapnote.org/injury/laceration-note/" target="_blank">www.soapnote.org/injury/laceration-note/</a>
-markup link:  <a href="http://www.soapnote.org/txt/injury/laceration-note.txt" target="_blank">www.soapnote.org/txt/injury/laceration-note.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/injury/laceration-note.txt" target="_blank">www.soapnote.org/generator/txt/injury/laceration-note.txt</a>[/html][/conditional]

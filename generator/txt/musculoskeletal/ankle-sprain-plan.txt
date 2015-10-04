@@ -16,4 +16,4 @@ reference:  <a href="http://www.aafp.org/afp/2006/1115/p1714.html" target="_blan
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 14, 2010; September 2, 2015
 permalink: <a href="http://www.soapnote.org/musculoskeletal/ankle-sprain-plan/" target="_blank">www.soapnote.org/musculoskeletal/ankle-sprain-plan/</a>
-markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/ankle-sprain-plan.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/ankle-sprain-plan.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/ankle-sprain-plan.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/ankle-sprain-plan.txt</a>[/html][/conditional]

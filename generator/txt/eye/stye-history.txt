@@ -5,4 +5,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 12, 2010; September 6, 2015
 permalink: <a href="http://www.soapnote.org/eye/stye-history/" target="_blank">www.soapnote.org/eye/stye-history/</a>
-markup link:  <a href="http://www.soapnote.org/txt/eye/stye-history.txt" target="_blank">www.soapnote.org/txt/eye/stye-history.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/eye/stye-history.txt" target="_blank">www.soapnote.org/generator/txt/eye/stye-history.txt</a>[/html][/conditional]

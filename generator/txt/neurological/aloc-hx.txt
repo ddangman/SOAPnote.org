@@ -47,4 +47,4 @@ reference:  contributed by Dr. Scott Moses, creator/author of the <a href="http:
 posted by:  Mark Morgan, M.D.
 post/review dates:  November 24, 2010; September 4, 2015
 permalink: <a href="http://www.soapnote.org/neurological/aloc-hx/" target="_blank">www.soapnote.org/neurological/aloc-hx/</a>
-markup link:  <a href="http://www.soapnote.org/txt/neurological/aloc-hx.txt" target="_blank">www.soapnote.org/txt/neurological/aloc-hx.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/neurological/aloc-hx.txt" target="_blank">www.soapnote.org/generator/txt/neurological/aloc-hx.txt</a>[/html][/conditional]

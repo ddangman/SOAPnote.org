@@ -25,4 +25,4 @@ reference:  <a href="http://www.nhlbi.nih.gov/guidelines/cholesterol/index.htm" 
 posted by:  Mark Morgan, M.D.
 post/review dates:  December 26, 2010; August 23, 2015
 permalink: <a href="http://www.soapnote.org/cardiovascular/framingham/" target="_blank">www.soapnote.org/cardiovascular/framingham/</a>
-markup link:  <a href="http://www.soapnote.org/txt/cardiovascular/framingham.txt" target="_blank">www.soapnote.org/txt/cardiovascular/framingham.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/framingham.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/framingham.txt</a>[/html][/conditional]

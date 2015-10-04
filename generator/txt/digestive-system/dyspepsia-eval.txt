@@ -22,4 +22,4 @@ reference:  AAFP article entitled "Update on the Evaluation and Management of Fu
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 6, 2011; August 25, 2015
 permalink: <a href="http://www.soapnote.org/digestive-system/dyspepsia-eval/" target="_blank">www.soapnote.org/digestive-system/dyspepsia-eval/</a>
-markup link:  <a href="http://www.soapnote.org/txt/digestive-system/dyspepsia-eval.txt" target="_blank">www.soapnote.org/txt/digestive-system/dyspepsia-eval.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/dyspepsia-eval.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/dyspepsia-eval.txt</a>[/html][/conditional]

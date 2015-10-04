@@ -5,4 +5,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 12, 2010; September 4, 2015
 permalink: <a href="http://www.soapnote.org/neurological/peripheral-neuropathy-plan/" target="_blank">www.soapnote.org/neurological/peripheral-neuropathy-plan/</a>
-markup link:  <a href="http://www.soapnote.org/txt/neurological/peripheral-neuropathy-plan.txt" target="_blank">www.soapnote.org/txt/neurological/peripheral-neuropathy-plan.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/neurological/peripheral-neuropathy-plan.txt" target="_blank">www.soapnote.org/generator/txt/neurological/peripheral-neuropathy-plan.txt</a>[/html][/conditional]

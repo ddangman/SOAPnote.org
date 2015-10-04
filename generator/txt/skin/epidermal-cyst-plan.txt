@@ -4,4 +4,4 @@ reference:  <a href="http://www.aafp.org/afp/2002/0401/p1409.html" target="_blan
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 10, 2010; August 20, 2015; October 2, 2015
 permalink: <a href="http://www.soapnote.org/skin/epidermal-cyst-plan/" target="_blank">www.soapnote.org/skin/epidermal-cyst-plan/</a>
-markup link:  <a href="http://www.soapnote.org/txt/skin/epidermal-cyst-plan.txt" target="_blank">www.soapnote.org/txt/skin/epidermal-cyst-plan.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/skin/epidermal-cyst-plan.txt" target="_blank">www.soapnote.org/generator/txt/skin/epidermal-cyst-plan.txt</a>[/html][/conditional]

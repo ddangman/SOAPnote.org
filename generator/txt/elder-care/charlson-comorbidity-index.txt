@@ -26,4 +26,4 @@ reference:  <a href="http://www.fpnotebook.com/prevent/Exam/ChrlsnCmrbdtyIndx.ht
 posted by:  Mark Morgan, M.D.
 post/review dates:  June 16, 2010; August 30, 2015
 permalink: <a href="http://www.soapnote.org/elder-care/charlson-comorbidity-index/" target="_blank">www.soapnote.org/elder-care/charlson-comorbidity-index/</a>
-markup link:  <a href="http://www.soapnote.org/txt/elder-care/charlson-comorbidity-index.txt" target="_blank">www.soapnote.org/txt/elder-care/charlson-comorbidity-index.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/charlson-comorbidity-index.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/charlson-comorbidity-index.txt</a>[/html][/conditional]

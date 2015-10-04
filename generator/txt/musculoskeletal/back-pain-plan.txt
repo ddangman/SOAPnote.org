@@ -9,4 +9,4 @@ reference:  <a href="***" target="_blank">***</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 14, 2010; September 2, 2015
 permalink: <a href="http://www.soapnote.org/musculoskeletal/back-pain-plan/" target="_blank">www.soapnote.org/musculoskeletal/back-pain-plan/</a>
-markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/back-pain-plan.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/back-pain-plan.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/back-pain-plan.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/back-pain-plan.txt</a>[/html][/conditional]

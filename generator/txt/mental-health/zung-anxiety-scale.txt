@@ -31,4 +31,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/5172928" target="_blank"
 posted by:  Mark Morgan, M.D.
 post/review dates:  February 24, 2014; September 7, 2015
 permalink: <a href="http://www.soapnote.org/mental-health/zung-anxiety-scale/" target="_blank">www.soapnote.org/mental-health/zung-anxiety-scale/</a>
-markup link:  <a href="http://www.soapnote.org/txt/mental-health/zung-anxiety-scale.txt" target="_blank">www.soapnote.org/txt/mental-health/zung-anxiety-scale.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/zung-anxiety-scale.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/zung-anxiety-scale.txt</a>[/html][/conditional]

@@ -4,4 +4,4 @@ reference:  <a href="http://www.cdc.gov/parasites/scabies/gen_info/faqs.html" ta
 posted by:  Mark Morgan, M.D.
 post/review dates:  February 20, 2011; August 20, 2015; October 2, 2015
 permalink: <a href="http://www.soapnote.org/skin/scabies-plan/" target="_blank">www.soapnote.org/skin/scabies-plan/</a>
-markup link:  <a href="http://www.soapnote.org/txt/skin/scabies-plan.txt" target="_blank">www.soapnote.org/txt/skin/scabies-plan.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/skin/scabies-plan.txt" target="_blank">www.soapnote.org/generator/txt/skin/scabies-plan.txt</a>[/html][/conditional]

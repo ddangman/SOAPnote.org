@@ -338,4 +338,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 1, 2010; August 30, 2015
 permalink: <a href="http://www.soapnote.org/child-health/maintenance/" target="_blank">www.soapnote.org/child-health/maintenance/</a>
-markup link:  <a href="http://www.soapnote.org/txt/child-health/maintenance.txt" target="_blank">www.soapnote.org/txt/child-health/maintenance.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/child-health/maintenance.txt" target="_blank">www.soapnote.org/generator/txt/child-health/maintenance.txt</a>[/html][/conditional]

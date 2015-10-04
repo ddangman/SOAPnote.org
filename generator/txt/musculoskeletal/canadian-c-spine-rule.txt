@@ -24,4 +24,4 @@ reference:   <a href="http://www.aafp.org/afp/2006/0515/p1787.html" target="_bla
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 13, 2013; September 2, 2015
 permalink: <a href="http://www.soapnote.org/musculoskeletal/canadian-c-spine-rule/" target="_blank">www.soapnote.org/musculoskeletal/canadian-c-spine-rule/</a>
-markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/canadian-c-spine-rule.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/canadian-c-spine-rule.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/canadian-c-spine-rule.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/canadian-c-spine-rule.txt</a>[/html][/conditional]

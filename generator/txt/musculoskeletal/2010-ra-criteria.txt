@@ -24,4 +24,4 @@ reference:  From the <a href="http://www.ncbi.nlm.nih.gov/pubmed/20699241">2010 
 posted by:  Mark Morgan, M.D.
 post/review dates:  February 20, 2012; September 3, 2015
 permalink: <a href="http://www.soapnote.org/musculoskeletal/2010-ra-criteria/" target="_blank">www.soapnote.org/musculoskeletal/2010-ra-criteria/</a>
-markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/2010-ra-criteria.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/2010-ra-criteria.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/2010-ra-criteria.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/2010-ra-criteria.txt</a>[/html][/conditional]

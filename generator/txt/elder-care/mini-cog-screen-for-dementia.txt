@@ -10,4 +10,4 @@ reference:  <a href="http://www.aafp.org/afp/2009/0315/p497.html" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  June 16, 2010; August 30, 2015
 permalink: <a href="http://www.soapnote.org/elder-care/mini-cog-screen-for-dementia/" target="_blank">www.soapnote.org/elder-care/mini-cog-screen-for-dementia/</a>
-markup link:  <a href="http://www.soapnote.org/txt/elder-care/mini-cog-screen-for-dementia.txt" target="_blank">www.soapnote.org/txt/elder-care/mini-cog-screen-for-dementia.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/mini-cog-screen-for-dementia.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/mini-cog-screen-for-dementia.txt</a>[/html][/conditional]

@@ -12,4 +12,4 @@ reference:  <a href="https://en.wikipedia.org/wiki/FLACC_scale" target="_blank">
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 11, 2010; August 29, 2015
 permalink: <a href="http://www.soapnote.org/general/pain-history/" target="_blank">www.soapnote.org/general/pain-history/</a>
-markup link:  <a href="http://www.soapnote.org/txt/general/pain-history.txt" target="_blank">www.soapnote.org/txt/general/pain-history.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/general/pain-history.txt" target="_blank">www.soapnote.org/generator/txt/general/pain-history.txt</a>[/html][/conditional]

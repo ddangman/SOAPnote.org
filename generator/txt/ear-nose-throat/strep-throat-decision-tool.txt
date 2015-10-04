@@ -11,4 +11,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/11033707">Centor criteri
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 12, 2011; September 6, 2015
 permalink: <a href="http://www.soapnote.org/ear-nose-throat/strep-throat-decision-tool/" target="_blank">www.soapnote.org/ear-nose-throat/strep-throat-decision-tool/</a>
-markup link:  <a href="http://www.soapnote.org/txt/ear-nose-throat/strep-throat-decision-tool.txt" target="_blank">www.soapnote.org/txt/ear-nose-throat/strep-throat-decision-tool.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/strep-throat-decision-tool.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/strep-throat-decision-tool.txt</a>[/html][/conditional]

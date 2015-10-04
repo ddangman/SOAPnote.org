@@ -13,4 +13,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/10637462" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 11, 2012; September 2, 2015
 permalink: <a href="http://www.soapnote.org/men/erectile-function/" target="_blank">www.soapnote.org/men/erectile-function/</a>
-markup link:  <a href="http://www.soapnote.org/txt/men/erectile-function.txt" target="_blank">www.soapnote.org/txt/men/erectile-function.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/men/erectile-function.txt" target="_blank">www.soapnote.org/generator/txt/men/erectile-function.txt</a>[/html][/conditional]

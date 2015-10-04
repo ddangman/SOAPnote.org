@@ -43,4 +43,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  January 2, 2013; September 3, 2015
 permalink: <a href="http://www.soapnote.org/musculoskeletal/hammertoe-procedure/" target="_blank">www.soapnote.org/musculoskeletal/hammertoe-procedure/</a>
-markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/hammertoe-procedure.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/hammertoe-procedure.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/hammertoe-procedure.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/hammertoe-procedure.txt</a>[/html][/conditional]

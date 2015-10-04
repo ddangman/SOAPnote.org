@@ -16,4 +16,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/6626295" target="_blank"
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 25, 2012; September 6, 2015
 permalink: <a href="http://www.soapnote.org/ear-nose-throat/hearing-handicap-inventory/" target="_blank">www.soapnote.org/ear-nose-throat/hearing-handicap-inventory/</a>
-markup link:  <a href="http://www.soapnote.org/txt/ear-nose-throat/hearing-handicap-inventory.txt" target="_blank">www.soapnote.org/txt/ear-nose-throat/hearing-handicap-inventory.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/hearing-handicap-inventory.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/hearing-handicap-inventory.txt</a>[/html][/conditional]

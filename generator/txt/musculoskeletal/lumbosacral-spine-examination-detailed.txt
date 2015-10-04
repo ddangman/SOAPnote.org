@@ -30,4 +30,4 @@ reference:  none
 posted by:  drpadiyar
 post/review dates:  April 12, 2011; September 2, 2015
 permalink: <a href="http://www.soapnote.org/musculoskeletal/lumbosacral-spine-examination-detailed/" target="_blank">www.soapnote.org/musculoskeletal/lumbosacral-spine-examination-detailed/</a>
-markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/lumbosacral-spine-examination-detailed.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/lumbosacral-spine-examination-detailed.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/lumbosacral-spine-examination-detailed.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/lumbosacral-spine-examination-detailed.txt</a>[/html][/conditional]

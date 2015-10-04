@@ -12,4 +12,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/21527510" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 7, 2013; September 7, 2015
 permalink: <a href="http://www.soapnote.org/respiratory/bap-65/" target="_blank">www.soapnote.org/respiratory/bap-65/</a>
-markup link:  <a href="http://www.soapnote.org/txt/respiratory/bap-65.txt" target="_blank">www.soapnote.org/txt/respiratory/bap-65.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/respiratory/bap-65.txt" target="_blank">www.soapnote.org/generator/txt/respiratory/bap-65.txt</a>[/html][/conditional]

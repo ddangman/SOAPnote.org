@@ -31,4 +31,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/9455961" target="_blank"
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 26, 2014; September 3, 2015
 permalink: <a href="http://www.soapnote.org/musculoskeletal/spondyloarthropathy/" target="_blank">www.soapnote.org/musculoskeletal/spondyloarthropathy/</a>
-markup link:  <a href="http://www.soapnote.org/txt/musculoskeletal/spondyloarthropathy.txt" target="_blank">www.soapnote.org/txt/musculoskeletal/spondyloarthropathy.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/spondyloarthropathy.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/spondyloarthropathy.txt</a>[/html][/conditional]

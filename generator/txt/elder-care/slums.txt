@@ -32,4 +32,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/17068312" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  July 5, 2013; August 30, 2015
 permalink: <a href="http://www.soapnote.org/elder-care/slums/" target="_blank">www.soapnote.org/elder-care/slums/</a>
-markup link:  <a href="http://www.soapnote.org/txt/elder-care/slums.txt" target="_blank">www.soapnote.org/txt/elder-care/slums.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/slums.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/slums.txt</a>[/html][/conditional]

@@ -7,4 +7,4 @@ reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 1, 2010; August 28, 2015
 permalink: <a href="http://www.soapnote.org/respiratory/lung-exam/" target="_blank">www.soapnote.org/respiratory/lung-exam/</a>
-markup link:  <a href="http://www.soapnote.org/txt/respiratory/lung-exam.txt" target="_blank">www.soapnote.org/txt/respiratory/lung-exam.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/respiratory/lung-exam.txt" target="_blank">www.soapnote.org/generator/txt/respiratory/lung-exam.txt</a>[/html][/conditional]

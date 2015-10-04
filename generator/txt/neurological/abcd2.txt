@@ -13,4 +13,4 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/17258668" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 26, 2013; September 3, 2015
 permalink: <a href="http://www.soapnote.org/neurological/abcd2/" target="_blank">www.soapnote.org/neurological/abcd2/</a>
-markup link:  <a href="http://www.soapnote.org/txt/neurological/abcd2.txt" target="_blank">www.soapnote.org/txt/neurological/abcd2.txt</a>[/html][/conditional]
+markup link:  <a href="http://www.soapnote.org/generator/txt/neurological/abcd2.txt" target="_blank">www.soapnote.org/generator/txt/neurological/abcd2.txt</a>[/html][/conditional]
