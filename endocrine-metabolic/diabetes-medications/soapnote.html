@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <h1 class="entry-title">diabetes-medications</h1>
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Diabetes medication decision tool<span class="exclude"><br>This decision tool is intended to help select medications for diabetes on the basis of liver and renal function/impairment.</span><br>Step 1: Select serum creatinine level<br><select name="Q1"><option value="less than 1.4 mg/dL for women OR less than 1.5 mg/dL for men=1">less than 1.4 mg/dL for women OR less than 1.5 mg/dL for men</option><option value="1.4-2.0 mg/dL for women OR 1.5-2.0 mg/dL for men=2">1.4-2.0 mg/dL for women OR 1.5-2.0 mg/dL for men</option><option value="greater than 2.0 mg/dL=3">greater than 2.0 mg/dL</option></select><br><br>Step 2: Select ALT or Child-Pugh score <span class="exclude"><a href="http://www.soapnote.org/digestive-system/child-pugh-score/" target="_blank">http://www.soapnote.org/digestive-system/child-pugh-score/</a></span><br><select name="Q2"><option value="ALT less than 2.5 times ULN or Child Pugh 5-6=10">ALT less than 2.5 times ULN or Child Pugh 5-6</option><option value="ALT greater than or equal to 2.5 times ULN or Child Pugh 7-9=100">ALT greater than or equal to 2.5 times ULN or Child Pugh 7-9</option><option value="Child-Pugh greater than 9=1000">Child-Pugh greater than 9</option></select><br><br>RESULT --> <span class="calc">recommendation<span class="calc_value">score=(Q1)*(Q2);score>999?'severe liver impairment and any level of renal function.  insulin only. ':score>299?'moderate liver impairment and serum creatinine more than 2. DPP-4 inhibitor at renal dose, meglinitide with caution, consider insulin. ':score>199?'moderate liver and renal impairment. DPP-4 inhibitor at renal dose, meglinitide and alpha-glucosidase inhibitor with caution. ':score>99?'moderate liver and mild or no renal impairment. DPP-4 inhibitor, meglinitide and alpha-glucosidase inhibitor with caution. ':score>29?'mild or no liver impairment and serum creatinine more than 2. DPP-4 inhibitor at renal dose, meglinitide, or thiazolidinedione. ':score>19?'mild or no liver and moderate renal impairment. DPP-4 inhibitor at renal dose, sulfonylurea, meglinitide, thiazolidinedione, or alpha-glucosidase inhibitor. ':'mild or no liver or renal impairment. metformin, sulfonylurea, DPP-4 inhibitor, meglinitide, thiazolidinedione, or alpha-glucosidase inhibitor.'</span></span><br><br><span class="exclude"><strong>Medication Notes</strong><br><strong><em>Metformin</em></strong><br>expected HbA1c reduction: 1-2%; cost: $55/month<br>May help weight loss<br>May improve dyslipidemia<br>Allows flexible meal schedule<br>Low cost (approximately < $75/month)<br>Less hypoglycemic episodes<br>Contraindicated for congestive heart failure<br>Contraindicated for age > 80<br><br><strong><em>Sulfonylurea</em></strong><br>Glyburide, Glipizide, Glimepiride<br>expected HbA1c reduction: 1-2%; cost: $18/month (glyburide), $15.90/month (glipizide), $10.20/month (glimeperide)<br>Low cost (approximately < $75/month)<br><br><strong><em>Thiazolidinedione</em></strong><br>Pioglitazone<br>expected HbA1c reduction: 1-2%; cost: $132.30/month<br>May improve dyslipidemia<br>Contraindicated for congestive heart failure<br>May exacerbate peripheral edema<br><br><strong><em>DPP-4 Inhibitor</em></strong><br>Sitagliptan<br>expected HbA1c reduction: ~1%, cost: $180.60/month<br>Allows flexible meal schedule<br>Less hypoglycemic episodes<br><br><strong><em>Alpha-glucosidase Inhibitor</em></strong><br>Acarbose, Miglitol<br>expected HbA1c reduction: 0.5-1%, cost: $92.70/month (acarbose), $89.10/month (miglitol)<br><br><strong><em>Meglitinide</em></strong><br>Repaglinide, Nateglinide<br>expected HbA1c reduction: 1-2%, cost: $143.10/month (repaglinide), $138.60/month (nateglinide)<br>Allows flexible meal schedule<br><br><strong><em>Insulin</em></strong><br>expected HbA1c reduction: to less than 7%, cost: ~$90/month (rapid acting), ~$46/month (regular), $47/month (intermediate acting), ~$91/month (long acting)</span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_56111d3ec9f63" class="hidden"><span class="exclude"><br>reference:  From the International Diabetes Center's Staged Diabetes Management Recommendations, 4th Edition.  Cost information: Treatment Guidelines from The Medical Letter • Vol. 6 (Issue 71) • July 2008.<br>HbA1c reduction information: Staged Diabetes Management • 4th Edition • 2007.<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  August 24, 2010; August 21, 2015<br>permalink: <a href="http://www.soapnote.org/endocrine-metabolic/diabetes-medications/" target="_blank">www.soapnote.org/endocrine-metabolic/diabetes-medications/</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/diabetes-medications.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/diabetes-medications.txt</a></span></span><br><br><br><br><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<!-- it doesn't really copy (except chrome) and print isn't really needed
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+-->
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_56111d3ec9f63"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>

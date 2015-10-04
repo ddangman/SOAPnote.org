@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <h1 class="entry-title">dm-history</h1>
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/><span class="exclude">Diabetes Mellitus History<br></span>Diabetes mellitus <select name="select_56111dbccdff1"><option value="Type 2">Type 2</option><option value="Type 1">Type 1</option></select>, diagnosed in <input type="text" value="yyyy" size="15" name="text_56111dbcce0a5" /><br><br>In reviewing the history, the patient is followed <select name="provider"><option value="by a primary care physician">by a primary care physician</option><option value="by the diabetes clinic">by the diabetes clinic</option><option value="by primary care physician and diabetes clinic">by primary care physician and diabetes clinic</option><option value="by the family medicine team">by the family medicine team</option><option value="other">other</option></select><span name="conditional_56111dbccc234" class="hidden"><input type="text" value="other provider" size="30" name="text_56111dbccc361" /></span>.<br><br>In the past year the patient has had the following diabetic visits: <select name="select_56111dbcce1ed"><option value="no">no</option><option value="one">one</option><option value="two">two</option><option value="three">three</option><option value="four">four</option><option value="five">five</option><option value="more than five">more than five</option></select> visits in the hospital, <select name="select_56111dbcce1ed"><option value="no">no</option><option value="one">one</option><option value="two">two</option><option value="three">three</option><option value="four">four</option><option value="five">five</option><option value="more than five">more than five</option></select> visits to the ER, and <select name="select_56111dbcce1ed"><option value="no">no</option><option value="one">one</option><option value="two">two</option><option value="three">three</option><option value="four">four</option><option value="five">five</option><option value="more than five">more than five</option></select> outpatient visits.<br><br>The patient <select name="select_56111dbcce456"><option value="is following an optimal diet">is following an optimal diet</option><option value="is having difficulties following the diet">is having difficulties following the diet</option><option value="is not following a diet">is not following a diet</option><option value="would like further education on their diet">would like further education on their diet</option></select>.  The patient has <select name="diet_concerns"><option value="no">no</option><option value="some">some</option></select> specific concerns about diet. <span name="conditional_56111dbccc498" class="hidden"><textarea cols="60" rows="5" name="textarea_56111dbccc58f">specific diet concern details...</textarea></span>.<br><br>The patient routinely exercises <select name="select_56111dbcce596"><option value="never">never</option><option value="once a week">once a week</option><option value="2 times a week">2 times a week</option><option value="3 times a week">3 times a week</option><option value="4 times a week">4 times a week</option><option value="5 times a week">5 times a week</option><option value="6 times a week">6 times a week</option><option value="7 times a week">7 times a week</option></select>.  The type of exercise is <input type="text" value="" size="50" name="text_56111dbcce65e" />.  Overall, the patient is exercising <select name="select_56111dbcce708"><option value="approximately">approximately</option><option value="more than">more than</option><option value="less than">less than</option></select> 150 minutes per week.<br><br>The patient has a history of the following diabetes complications:<br><select name="DKA"><option value="NO">NO</option><option value="YES">YES</option></select> <-- Diabetic ketoacidosis <span name="conditional_56111dbccc6a9" class="hidden"><input type="text" value="diabetic ketoacidosis details" size="140" name="text_56111dbccc7b1" /></span><br><select name="HHS"><option value="NO">NO</option><option value="YES">YES</option></select> <-- Hyperosmolar hyperglycemic state <span name="conditional_56111dbccc8ad" class="hidden"><input type="text" value="hyperosmolar hyperglycemic state details" size="140" name="text_56111dbccc99d" /></span><br><select name="hypoglycemia"><option value="NO">NO</option><option value="YES">YES</option></select> <-- Hypoglycemic episodes <span name="conditional_56111dbccca97" class="hidden"><input type="text" value="hypoglycemic episode details" size="140" name="text_56111dbcccb84" /></span><br><select name="eye"><option value="NO">NO</option><option value="YES">YES</option></select> <-- Eye complications <span name="conditional_56111dbcccc8b" class="hidden"><input type="text" value="eye complication details" size="140" name="text_56111dbcccd76" /></span><br><select name="kidney"><option value="NO">NO</option><option value="YES">YES</option></select> <-- Nephropathy <span name="conditional_56111dbccce69" class="hidden"><input type="text" value="nephropathy details" size="140" name="text_56111dbcccf54" /></span><br><select name="neuro"><option value="NO">NO</option><option value="YES">YES</option></select> <-- Neuropathy <span name="conditional_56111dbccd046" class="hidden"><input type="text" value="neuropathy details" size="140" name="text_56111dbccd131" /></span><br><select name="OB"><option value="NO">NO</option><option value="YES">YES</option><option value="N/A">N/A</option></select> <-- Obstetric complications <span name="conditional_56111dbccd222" class="hidden"><input type="text" value="obstetric complication details" size="140" name="text_56111dbccd312" /></span><br><br>The following prevention program has been set up and includes: <br><span class="checkbox" name="checkbox_56111dbcceab3"> <label><input type="checkbox" name="checkbox_56111dbcceab3" value="one time Pneumovax" /> one time Pneumovax</label> <label><input type="checkbox" name="checkbox_56111dbcceab3" value="yearly vaccination with Influenza" /> yearly vaccination with Influenza</label> <label><input type="checkbox" name="checkbox_56111dbcceab3" value="foot care instruction" /> foot care instruction</label> <label><input type="checkbox" name="checkbox_56111dbcceab3" value="preconception counseling" /> preconception counseling</label></span><br><br>MONITORING:<br>The patient performs monitoring of blood glucose <select name="select_56111dbcceba5"><option value="once a day">once a day</option><option value="twice a day">twice a day</option><option value="three times a day">three times a day</option><option value="four times a day">four times a day</option><option value="once a week">once a week</option><option value="twice a week">twice a week</option><option value="three times a week">three times a week</option><option value="at no specific times">at no specific times</option><option value="at clinic visits">at clinic visits</option></select>.<br>The patient's goals for diabetes control are:<br><span class="checkbox" name="checkbox_56111dbccec76"> <label><input type="checkbox" name="checkbox_56111dbccec76" value="MORNING (FASTING) BLOOD SUGAR LESS THAN 130.  " /> MORNING (FASTING) BLOOD SUGAR LESS THAN 130.  </label></span><br><span class="checkbox" name="checkbox_56111dbcced22"> <label><input type="checkbox" name="checkbox_56111dbcced22" value="BLOOD SUGAR PRIOR TO MEALS OF 80-120.  " /> BLOOD SUGAR PRIOR TO MEALS OF 80-120.  </label></span><br><span class="checkbox" name="checkbox_56111dbccedce"> <label><input type="checkbox" name="checkbox_56111dbccedce" value="BEDTIME BLOOD SUGAR LESS THAN 120.  " /> BEDTIME BLOOD SUGAR LESS THAN 120.  </label></span><br><span class="checkbox" name="checkbox_56111dbccee7e"> <label><input type="checkbox" name="checkbox_56111dbccee7e" value="HEMOGLOBIN A1C LESS THAN 7 WITHOUT SIGNIFICANT SYMPTOMS.  " /> HEMOGLOBIN A1C LESS THAN 7 WITHOUT SIGNIFICANT SYMPTOMS.  </label></span><br><span class="checkbox" name="checkbox_56111dbccef27"> <label><input type="checkbox" name="checkbox_56111dbccef27" value="HEMOGLOBIN A1C LESS THAN 8.  " /> HEMOGLOBIN A1C LESS THAN 8.  </label></span><br><span class="checkbox" name="control"> <label><input type="checkbox" name="control" value="Other: " /> Other: </label></span> <span name="conditional_56111dbccd40a" class="hidden"><input type="text" value="diabetes control details" size="140" name="text_56111dbccd4f5" /></span>.<br><br>INSULIN<br>The patient <select name="insulin"><option value="does not use insulin">does not use insulin</option><option value="uses long-acting insulin only">uses long-acting insulin only</option><option value="uses short-acting insulin only">uses short-acting insulin only</option><option value="uses long- and short-acting insulins">uses long- and short-acting insulins</option></select>.<br><span name="conditional_56111dbccd5fe" class="hidden"><span class="checkbox" name="checkbox_56111dbccd6e5"> <label><input type="checkbox" name="checkbox_56111dbccd6e5" value="The patient does not adjust insulin.  " /> The patient does not adjust insulin.  </label></span></span><br><span name="conditional_56111dbccd7f5" class="hidden"><span class="checkbox" name="checkbox_56111dbccd8e0"> <label><input type="checkbox" name="checkbox_56111dbccd8e0" value="The patient adjusts short-acting insulin based on glucose checks before meals.  " /> The patient adjusts short-acting insulin based on glucose checks before meals.  </label></span></span><br><span name="conditional_56111dbccd9ec" class="hidden"><span class="checkbox" name="checkbox_56111dbccdad4"> <label><input type="checkbox" name="checkbox_56111dbccdad4" value="The patient adjusts short-acting insulin based on carbohydrate counting.  " /> The patient adjusts short-acting insulin based on carbohydrate counting.  </label></span></span><br><span name="conditional_56111dbccdbf9" class="hidden"><span class="checkbox" name="checkbox_56111dbccdcf3"> <label><input type="checkbox" name="checkbox_56111dbccdcf3" value="The patient adjusts long-acting insulin based on fasting glucose trend. " /> The patient adjusts long-acting insulin based on fasting glucose trend. </label></span>  <a href="http://www.soapnote.org/endocrine-metabolic/long-acting-insulin-self-adjustment/" target="_blank" class="link exclude">3 by 3 long-acting insulin adjustment instruction for patients</a></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_56111dbccde5d" class="hidden"><span class="exclude"><br>reference:  none<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  March 9, 2013; August 21, 2015<br>permalink: <a href="http://www.soapnote.org/endocrine-metabolic/dm-history/" target="_blank">www.soapnote.org/endocrine-metabolic/dm-history/</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/dm-history.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/dm-history.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<!-- it doesn't really copy (except chrome) and print isn't really needed
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+-->
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(provider).is('other')", show:"conditional_56111dbccc234"});
+conditions[1].push({logic:"(diet_concerns).is('some')", show:"conditional_56111dbccc498"});
+conditions[1].push({logic:"(DKA).is('YES')", show:"conditional_56111dbccc6a9"});
+conditions[1].push({logic:"(HHS).is('YES')", show:"conditional_56111dbccc8ad"});
+conditions[1].push({logic:"(hypoglycemia).is('YES')", show:"conditional_56111dbccca97"});
+conditions[1].push({logic:"(eye).is('YES')", show:"conditional_56111dbcccc8b"});
+conditions[1].push({logic:"(kidney).is('YES')", show:"conditional_56111dbccce69"});
+conditions[1].push({logic:"(neuro).is('YES')", show:"conditional_56111dbccd046"});
+conditions[1].push({logic:"(OB).is('YES')", show:"conditional_56111dbccd222"});
+conditions[1].push({logic:"(control).is('Other: ')", show:"conditional_56111dbccd40a"});
+conditions[1].push({logic:"(insulin).is('uses long-acting insulin only')||(insulin).is('uses short-acting insulin only')||(insulin).is('uses long- and short-acting insulins')", show:"conditional_56111dbccd5fe"});
+conditions[1].push({logic:"(insulin).is('uses short-acting insulin only')||(insulin).is('uses long- and short-acting insulins')", show:"conditional_56111dbccd7f5"});
+conditions[1].push({logic:"(insulin).is('uses short-acting insulin only')||(insulin).is('uses long- and short-acting insulins')", show:"conditional_56111dbccd9ec"});
+conditions[1].push({logic:"(insulin).is('uses long-acting insulin only')||(insulin).is('uses long- and short-acting insulins')", show:"conditional_56111dbccdbf9"});
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_56111dbccde5d"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="provider"], select[name="provider"], input[name="diet_concerns"], select[name="diet_concerns"], input[name="DKA"], select[name="DKA"], input[name="HHS"], select[name="HHS"], input[name="hypoglycemia"], select[name="hypoglycemia"], input[name="eye"], select[name="eye"], input[name="kidney"], select[name="kidney"], input[name="neuro"], select[name="neuro"], input[name="OB"], select[name="OB"], input[name="control"], select[name="control"], input[name="insulin"], select[name="insulin"], input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="provider"], select[name="provider"], input[name="diet_concerns"], select[name="diet_concerns"], input[name="DKA"], select[name="DKA"], input[name="HHS"], select[name="HHS"], input[name="hypoglycemia"], select[name="hypoglycemia"], input[name="eye"], select[name="eye"], input[name="kidney"], select[name="kidney"], input[name="neuro"], select[name="neuro"], input[name="OB"], select[name="OB"], input[name="control"], select[name="control"], input[name="insulin"], select[name="insulin"], input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>

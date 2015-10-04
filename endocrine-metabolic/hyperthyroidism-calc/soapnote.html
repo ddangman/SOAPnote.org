@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <h1 class="entry-title">hyperthyroidism-calc</h1>
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Subclinical Hyperthyroidism Calculator<span class="exclude"><br><strong>Summary:</strong> How to proceed once you've detected a low TSH level.</span><br>Thyroid Stimulating Hormone (TSH) is LOW.<br>Obtain Free Triiodothyronine (T3) and Free Thyroxine (T4) levels <-- <select name="Q1"><option value="choose below...=0">choose below...</option><option value="T3 and T4 levels are both normal=1">T3 and T4 levels are both normal</option><option value="free T3 is high and free T4 is normal=2">free T3 is high and free T4 is normal</option><option value="both T3 and T4 are high=3">both T3 and T4 are high</option></select><span name="conditional_56111df02914d" class="hidden"><br>Obtain radioactive iodine thyroid scan and uptake test <-- <select name="Q2"><option value="choose below...=0">choose below...</option><option value="Increased or normal uptake - localized distribution=10">Increased or normal uptake - localized distribution</option><option value="Increased or normal uptake - diffuse distribution=20">Increased or normal uptake - diffuse distribution</option><option value="Decreased uptake=30">Decreased uptake</option></select></span><span name="conditional_56111df02939d" class="hidden"><br>Get thyroglobulin level <-- <select name="Q3"><option value="choose below...=0">choose below...</option><option value="Thyroglobulin level increased=100">Thyroglobulin level increased</option><option value="Thyroglobulin level decreased=200">Thyroglobulin level decreased</option></select></span><span name="conditional_56111df02957b" class="hidden"><br>DIAGNOSIS --> T3 thyrotoxicosis.  <br>RECOMMENDATION --> TSH, T3, and T4 should be rechecked after 2 to 4 months - to assess if low TSH has persisted and also whether T3 and T4 have become overtly elevated.</span><span name="conditional_56111df0296b6" class="hidden"><br>DIAGNOSIS --> overt hyperthyroidism.</span><span name="conditional_56111df0297f7" class="hidden"><br>DIAGNOSIS --> subclinical hyperthyroidism - toxic nodular or multinodular goiter.  <br>RECOMMENDATION --> TSH, T3, and T4 should be rechecked after 2 to 4 months - to assess if low TSH has persisted and also whether T3 and T4 have become overtly elevated.</span><span name="conditional_56111df02993b" class="hidden"><br>DIAGNOSIS --> subclinical hyperthyroidism - Graves disease.<br>RECOMMENDATION --> TSH, T3, and T4 should be rechecked after 2 to 4 months - to assess if low TSH has persisted and also whether T3 and T4 have become overtly elevated.</span><span name="conditional_56111df029a79" class="hidden"><br>DIAGNOSIS --> subclinical hyperthyroidism - subacute thyroiditis.<br>RECOMMENDATION --> TSH, T3, and T4 should be rechecked after 2 to 4 months - to assess if low TSH has persisted and also whether T3 and T4 have become overtly elevated.</span><span name="conditional_56111df029bc0" class="hidden"><br>DIAGNOSIS --> exogenous thyroid hormone.</span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_56111df029cf5" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.aafp.org/afp/2011/0415/p933.html" target="_blank">Am Fam Physician. 2011 Apr 15;83(8):933-938. </a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  February 25, 2012; August 23, 2015<br>permalink: <a href="http://www.soapnote.org/endocrine-metabolic/hyperthyroidism-calc/" target="_blank">www.soapnote.org/endocrine-metabolic/hyperthyroidism-calc/</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/hyperthyroidism-calc.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/hyperthyroidism-calc.txt</a></span></span><br><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<!-- it doesn't really copy (except chrome) and print isn't really needed
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+-->
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(Q1).is('T3 and T4 levels are both normal=1')", show:"conditional_56111df02914d"});
+conditions[1].push({logic:"(Q1).is('T3 and T4 levels are both normal=1')&&(Q2).is('Decreased uptake=30')", show:"conditional_56111df02939d"});
+conditions[1].push({logic:"(Q1).is('free T3 is high and free T4 is normal=2')", show:"conditional_56111df02957b"});
+conditions[1].push({logic:"(Q1).is('both T3 and T4 are high=3')", show:"conditional_56111df0296b6"});
+conditions[1].push({logic:"(Q1).is('T3 and T4 levels are both normal=1')&&(Q2).is('Increased or normal uptake - localized distribution=10')", show:"conditional_56111df0297f7"});
+conditions[1].push({logic:"(Q1).is('T3 and T4 levels are both normal=1')&&(Q2).is('Increased or normal uptake - diffuse distribution=20')", show:"conditional_56111df02993b"});
+conditions[1].push({logic:"(Q1).is('T3 and T4 levels are both normal=1')&&(Q2).is('Decreased uptake=30')&&(Q3).is('Thyroglobulin level increased=100')", show:"conditional_56111df029a79"});
+conditions[1].push({logic:"(Q1).is('T3 and T4 levels are both normal=1')&&(Q2).is('Decreased uptake=30')&&(Q3).is('Thyroglobulin level decreased=200')", show:"conditional_56111df029bc0"});
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_56111df029cf5"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="Q1"], select[name="Q1"], input[name="Q2"], select[name="Q2"], input[name="Q3"], select[name="Q3"], input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="Q1"], select[name="Q1"], input[name="Q2"], select[name="Q2"], input[name="Q3"], select[name="Q3"], input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>
