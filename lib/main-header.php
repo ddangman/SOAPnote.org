@@ -39,6 +39,7 @@
 				<li><a href="/generator/">Form Generator</a></li>
 				<li><a href="/lingo/">Lingo</a></li>
 				<li><a href="/goodies/">Goodies</a></li>
+				<li><a href="https://play.google.com/store/apps/details?id=org.soapnote.app">App</a></li>
 				<li><a href="/help/">Help</a></li>
 			</ul>
 		</div>
