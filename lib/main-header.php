@@ -30,7 +30,7 @@
 <nav class="navbar navbar-default">
 	<div class="container-fluid">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="#">SOAPnote.org</a>
+			<a class="navbar-brand" href="/">SOAPnote.org</a>
 		</div>
 		<div>
 			<ul class="nav navbar-nav">
@@ -47,5 +47,5 @@
 
 <div class="container">
 		<h1>SOAPnote.org</h1>
-			<p>An open source project to improve clinical documentation</p>
+			<p>An open-source project to improve clinical documentation</p>
 </div>

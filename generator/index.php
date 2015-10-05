@@ -30,7 +30,7 @@ preg_match_all("/$regex/is",$content,$matched);
 ?>
 <!DOCTYPE html>
 <body>
-        <h1>Form generator</h1>
+        <h3>Form generator</h3>
         
         <div class="panel panel-default">
                 <div class="panel-heading">

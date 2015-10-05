@@ -24,7 +24,7 @@ function getHtml($url, $zipFilePath) {
 
 		//$dir = dirname(__FILE__);
 		$content = file_get_contents ($urlEmbbed);
-		$content = preg_replace('/<div class="client_browse">.*?<h1 class="entry-title">/s', '<h1 class="entry-title">', $content);
+		$content = preg_replace('/<div class="client_browse">.*?<!-- <h1 class="entry-title">/s', '<!-- <h1 class="entry-title">', $content);
 
 		preg_match_all('/<link.*?href="(.*?.css)".*?>/s', $content, $matches);
 		if (count($matches) > 1) {
@@ -32,7 +32,7 @@ function getHtml($url, $zipFilePath) {
 			$fileName = substr($matches[1][0], strrpos($matches[1][0], '/')+1);
 			if ($fileName == 'style.css') {
 				$content = file_get_contents ($urlEmbbed);
-				$content = preg_replace('/<div class="client_browse">.*?<h1 class="entry-title">/s', '<h1 class="entry-title">', $content);
+				$content = preg_replace('/<div class="client_browse">.*?<!-- <h1 class="entry-title">/s', '<!-- <h1 class="entry-title">', $content);
 				preg_match_all('/<link.*?href="(.*?.css)".*?>/s', $content, $matches);
 				if (count($matches) > 1) {
 					$fileName = trim($matches[1][0], '/');

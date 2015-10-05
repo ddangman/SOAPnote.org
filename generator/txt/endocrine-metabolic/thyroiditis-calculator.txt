@@ -1,6 +1,5 @@
 Thyroiditis Decision Tool[html]
 <strong>Summary:</strong> How to proceed when thyroiditis is suspected.[/html]
-<strong>Reference:</strong> [/html]
 [select name="Q1" value="choose below...=-1|No=0|Yes=1"] <-- Thyroid Pain[conditional field="Q1" condition="(Q1).is('No=0')"]
 [select name="Q2" value="choose below...=-1|No=0|Yes=10"] <-- Taking amiodarone, interferon alfa, interleukin-2, or kinase inhibitor[/conditional][conditional field="Q1|Q2" condition="(Q1).is('No=0')&&(Q2).is('No=0')"]
 [select name="Q3" value="choose below...=-1|Low=0|High=100"] <-- TSH[/conditional][conditional field="Q1|Q2" condition="(Q1).is('No=0')&&(Q2).is('Yes=10')"]
