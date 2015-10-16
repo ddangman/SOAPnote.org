@@ -36,7 +36,7 @@
 			<ul class="nav navbar-nav">
 				<li><a href="/generator/">Form Generator</a></li>
 				<li><a href="/lingo/">Lingo</a></li>
-				<li><a href="/goodies/">Open Source</a></li>
+				<li><a href="/goodness/">Goodness</a></li>
 				<li><a href="/help/">Help</a></li>
 			</ul>
 		</div>

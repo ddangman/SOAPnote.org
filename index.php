@@ -1,7 +1,6 @@
 <?php 
 include('lib/main-header.php');
 ?>
-<div class="container">
 <script>
   (function() {
     var cx = '005538851919056736266:haf16mzpwdo';
