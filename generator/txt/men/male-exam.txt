@@ -4,5 +4,5 @@
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 1, 2010; August 26, 2015; October 3, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/men/male-exam/" target="_blank">www.soapnote.org/men/male-exam/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/men/male-exam.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/men/male-exam.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/men/male-exam.txt" target="_blank">www.soapnote.org/generator/txt/men/male-exam.txt</a>[/html][/conditional]

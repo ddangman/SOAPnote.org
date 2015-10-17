@@ -53,5 +53,5 @@ No contraindication to surgery based on present laboratory data.
 reference:  none
 posted by:  J Bordas
 post/review dates:  May 11, 2013; September 2, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/preoperative-note/" target="_blank">www.soapnote.org/cardiovascular/preoperative-note/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/preoperative-note.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/preoperative-note.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/preoperative-note.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/preoperative-note.txt</a>[/html][/conditional]

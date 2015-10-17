@@ -16,5 +16,5 @@ Interpretation --> [calc memo="result" value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q
 reference:  <a href="http://www.who.int" target="_blank">World Health Organization</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 15, 2014; September 7, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/mental-health/audit/" target="_blank">www.soapnote.org/mental-health/audit/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/audit.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/audit.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/audit.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/audit.txt</a>[/html][/conditional]

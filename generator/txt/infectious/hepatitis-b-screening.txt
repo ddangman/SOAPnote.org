@@ -31,5 +31,5 @@ You may wish to proceed to evaluation and treatment of Chronic Hepatitis B.  Thi
 reference:  AFP article on diagnosis and treatment of hepatitis B: <a href="http://www.aafp.org/afp/2010/0415/p965.html">Wilkins (2010) Am Fam Phys 81: 965-72</a>; CDC <a href="http://www.cdc.gov/hepatitis/HBV/index.htm">Hepatitis B page</a> and <a href="http://www.cdc.gov/hepatitis/HBV/PDFs/SerologicChartv8.pdf">serology chart</a>; American Association for Study of Liver Diseases (AASLD) <a href="http://www.aasld.org/practiceguidelines/Pages/default.aspx">Hepatitis B Guidelines</a>.
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 11, 2011; September 1, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/infectious/hepatitis-b-screening/" target="_blank">www.soapnote.org/infectious/hepatitis-b-screening/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/infectious/hepatitis-b-screening.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/infectious/hepatitis-b-screening.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/infectious/hepatitis-b-screening.txt" target="_blank">www.soapnote.org/generator/txt/infectious/hepatitis-b-screening.txt</a>[/html][/conditional]

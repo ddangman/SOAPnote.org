@@ -14,5 +14,5 @@ Routine blood lead screening:
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 1, 2010; September 7, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/child-health/lead-screening/" target="_blank">www.soapnote.org/child-health/lead-screening/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/lead-screening.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/lead-screening.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/child-health/lead-screening.txt" target="_blank">www.soapnote.org/generator/txt/child-health/lead-screening.txt</a>[/html][/conditional]

@@ -3,5 +3,5 @@
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 10, 2010; August 20, 2015; October 2, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/skin/shave-plan/" target="_blank">www.soapnote.org/skin/shave-plan/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/skin/shave-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/skin/shave-plan.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/skin/shave-plan.txt" target="_blank">www.soapnote.org/generator/txt/skin/shave-plan.txt</a>[/html][/conditional]

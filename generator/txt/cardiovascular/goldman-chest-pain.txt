@@ -21,5 +21,5 @@ Interpretation (with risk of major cardiac event in subsequent 30 days):  [calc 
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/8618604" target="_blank">Goldman (1996) N Engl J Med 334:1498</a>, <a href="http://www.fpnotebook.com/cv/exam/GldmnCrtrFrIcChstPnAdmsn.htm" target="_blank">FP Notebook page</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  February 7, 2013; August 19, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/goldman-chest-pain/" target="_blank">www.soapnote.org/cardiovascular/goldman-chest-pain/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/goldman-chest-pain.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/goldman-chest-pain.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/goldman-chest-pain.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/goldman-chest-pain.txt</a>[/html][/conditional]

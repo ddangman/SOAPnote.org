@@ -18,5 +18,5 @@ If ST-Elevation Myocardial Infarction
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/17032691" target="_blank">Fox KA, Dabbous OH, Goldberg RJ, Pieper KS, Eagle KA, Van de Werf F, Avezum A, Goodman SG, Flather MD, Anderson FA Jr, Granger CB. Prediction of risk of death and myocardial infarction in the six months after presentation with acute coronary syndrome: prospective multinational observational study (GRACE). BMJ. 2006 Nov 25;333(7578):1091. </a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 22, 2014; August 19, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/grace-mortality-score/" target="_blank">www.soapnote.org/cardiovascular/grace-mortality-score/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/grace-mortality-score.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/grace-mortality-score.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/grace-mortality-score.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/grace-mortality-score.txt</a>[/html][/conditional]

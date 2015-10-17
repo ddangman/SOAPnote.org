@@ -10,7 +10,7 @@ Score --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)" memo="score"] out of 5.  
 reference:  AAFP Point-of-Care Guide at <a href="http://www.aafp.org/afp/poc" target="_blank">>Ebell (2011) Am Fam Physician 83: 603-5</a>.
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 6, 2011; August 18, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/chest-pain-evaluation/" target="_blank">www.soapnote.org/cardiovascular/chest-pain-evaluation/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/chest-pain-evaluation.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/chest-pain-evaluation.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/chest-pain-evaluation.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/chest-pain-evaluation.txt</a>[/html][/conditional]
 
 

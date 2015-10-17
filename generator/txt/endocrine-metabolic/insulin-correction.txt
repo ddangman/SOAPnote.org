@@ -12,5 +12,5 @@ The suggested correction dose of [var name="Insulin_Type"] insulin:  [calc value
 reference:  The “Rule of 1500″ and “Rule of 1700″ which this is based on were developed by Dr. Paul C. Davidson at the Diabetes Center in Atlanta.  <a href="http://www.ncbi.nlm.nih.gov/pubmed/21544273" target="_blank">Guthrie DW, Guthrie RA, Hinnen D, Childs BP. It’s time to abandon the sliding scale. J Fam Pract. 
 posted by:  Mark Morgan, M.D.
 post/review dates:  May 24, 2011; August 22, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/endocrine-metabolic/insulin-correction/" target="_blank">www.soapnote.org/endocrine-metabolic/insulin-correction/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/endocrine-metabolic/insulin-correction.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/endocrine-metabolic/insulin-correction.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/insulin-correction.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/insulin-correction.txt</a>[/html][/conditional]

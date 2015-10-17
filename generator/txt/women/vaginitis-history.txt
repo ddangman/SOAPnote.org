@@ -32,5 +32,5 @@ Relevant history
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  February 18, 2014; September 1, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/women/vaginitis-history/" target="_blank">www.soapnote.org/women/vaginitis-history/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/women/vaginitis-history.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/women/vaginitis-history.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/women/vaginitis-history.txt" target="_blank">www.soapnote.org/generator/txt/women/vaginitis-history.txt</a>[/html][/conditional]

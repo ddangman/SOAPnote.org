@@ -10,5 +10,5 @@ Interpretation -->  Risk of group A beta-hemolytic streptococcus is [calc value=
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/11033707">Centor criteria for pharyngitis</a>, AAFP article <a href="http://www.aafp.org/afp/2009/0301/p383.html">Choby (2009) Am Fam Physician 79:383-390</a>.
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 12, 2011; September 6, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/ear-nose-throat/strep-throat-decision-tool/" target="_blank">www.soapnote.org/ear-nose-throat/strep-throat-decision-tool/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/strep-throat-decision-tool.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/strep-throat-decision-tool.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/strep-throat-decision-tool.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/strep-throat-decision-tool.txt</a>[/html][/conditional]

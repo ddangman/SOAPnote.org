@@ -4,5 +4,5 @@
 reference:  <a href="http://www.aafp.org/afp/2003/0315/p1271.html" target="_blank">Tallia (2003) Am Fam Physician 67(6):1271-8</a>, <a href="http://www.aafp.org/afp/2002/1015/p1497.html" target="_blank">Zuber (2002) Am Fam Physician 66(8):1497-1501</a>, <a href="http://www.fpnotebook.com/Rheum/Procedure/JntInjctn.htm" target="_blank">FP Notebook</a>.
 posted by:  Mark Morgan, M.D.
 post/review dates:  November 22, 2010; September 3, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/musculoskeletal/large-joint-injection/" target="_blank">www.soapnote.org/musculoskeletal/large-joint-injection/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/large-joint-injection.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/large-joint-injection.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/large-joint-injection.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/large-joint-injection.txt</a>[/html][/conditional]

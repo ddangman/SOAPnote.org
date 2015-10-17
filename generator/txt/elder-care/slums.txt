@@ -31,5 +31,5 @@ SCORE:  [conditional field="Education" condition="(Education).is('High School or
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/17068312" target="_blank">Tariq (2006) Am J Geriatr Psychiatry 14:900-10</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  July 5, 2013; August 30, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/elder-care/slums/" target="_blank">www.soapnote.org/elder-care/slums/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/slums.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/slums.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/slums.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/slums.txt</a>[/html][/conditional]

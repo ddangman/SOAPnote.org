@@ -22,5 +22,5 @@ Return for injection within 5 days of menses[/conditional]
 reference:  <a href="http://www.reproductiveaccess.org/contraception/quickstart_algorithm.htm" target="_blank">Reproductive Health Access Project</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 26, 2014; August 31, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/women/contraception-quick-start/" target="_blank">www.soapnote.org/women/contraception-quick-start/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/women/contraception-quick-start.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/women/contraception-quick-start.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/women/contraception-quick-start.txt" target="_blank">www.soapnote.org/generator/txt/women/contraception-quick-start.txt</a>[/html][/conditional]

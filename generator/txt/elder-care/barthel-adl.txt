@@ -56,5 +56,5 @@ Interpretation Lower scores indicate increased disability. If used to measure im
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/3403500" target="_blank">Collin C, Wade DT, Davies S, Horne V. The Barthel ADL Index: a reliability study. Int Disabil Stud. 1988;10(2):61-63. </a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/14258950" target="_blank">Mahoney FI, Barthel DW. Functional evaluation: the Barthel Index. Md State Med J. 1965;14:61-65. </a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/3042746" target="_blank">Wade DT, Collin C. The Barthel ADL Index: a standard measure of physical disability? Int Disabil Stud. 1988;10(2):64-67. </a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 9, 2014; August 30, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/elder-care/barthel-adl/" target="_blank">www.soapnote.org/elder-care/barthel-adl/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/barthel-adl.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/barthel-adl.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/barthel-adl.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/barthel-adl.txt</a>[/html][/conditional]

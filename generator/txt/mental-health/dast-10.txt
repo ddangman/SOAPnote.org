@@ -25,5 +25,5 @@ Interpretation -->  [calc memo="result" value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(
 reference:  1982 by Harvey A Skinner, PhD and the Centre for Addiction and Mental Health, Toronto, Canada.
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 9, 2014; September 7, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/mental-health/dast-10/" target="_blank">www.soapnote.org/mental-health/dast-10/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/dast-10.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/dast-10.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/dast-10.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/dast-10.txt</a>[/html][/conditional]

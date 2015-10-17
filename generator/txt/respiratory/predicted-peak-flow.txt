@@ -12,5 +12,5 @@ Predicted Average Peak Expiratory Flow --> [calc memo="result" value="score3=(Q5
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/480008" target="_blank">Polgar, G. (1979). Pulmonary function tests in children. The Journal of pediatrics, 95(1), 168-170.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/2497892" target="_blank">Nunn AJ, Gregg I. New regression equations for predicting peak expiratory flow in adults. BMJ. 1989 Apr 22;298(6680):1068-70.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  January 14, 2015; August 21, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/respiratory/predicted-peak-flow/" target="_blank">www.soapnote.org/respiratory/predicted-peak-flow/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/respiratory/predicted-peak-flow.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/respiratory/predicted-peak-flow.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/respiratory/predicted-peak-flow.txt" target="_blank">www.soapnote.org/generator/txt/respiratory/predicted-peak-flow.txt</a>[/html][/conditional]

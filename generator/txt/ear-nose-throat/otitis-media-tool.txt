@@ -20,5 +20,5 @@ reference:  This decision tool applies the American Academy of Pediatrics Guidel
 A similar paper-based encounter tool is available at <a href="http://www.aafp.org/afp/2004/0615/p2896.html">Ebell (2004) Am Fam Physician 69: 2896-98 </a>.
 posted by:  Mark Morgan, M.D.
 post/review dates:  January 13, 2011; September 6, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/ear-nose-throat/otitis-media-tool/" target="_blank">www.soapnote.org/ear-nose-throat/otitis-media-tool/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/otitis-media-tool.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/otitis-media-tool.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/otitis-media-tool.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/otitis-media-tool.txt</a>[/html][/conditional]

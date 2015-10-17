@@ -4,5 +4,5 @@ Gastroenteritis
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 12, 2010; August 25, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/digestive-system/gastroenteritis-plan/" target="_blank">www.soapnote.org/digestive-system/gastroenteritis-plan/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/digestive-system/gastroenteritis-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/digestive-system/gastroenteritis-plan.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/gastroenteritis-plan.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/gastroenteritis-plan.txt</a>[/html][/conditional]

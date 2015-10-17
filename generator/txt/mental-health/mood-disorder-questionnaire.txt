@@ -21,5 +21,5 @@ Interpretation --> [calc memo="result" value="score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/12505821" target="_blank">Hirschfeld RM, Holzer C, Calabrese JR, Weissman M, Reed M, Davies M, Frye MA, Keck P, McElroy S, Lewis L, Tierce J, Wagner KD, Hazard E. Validity of the mood disorder questionnaire: a general population study. Am J Psychiatry. 2003 Jan;160(1):178-80.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 25, 2014; September 7, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/mental-health/mood-disorder-questionnaire/" target="_blank">www.soapnote.org/mental-health/mood-disorder-questionnaire/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/mood-disorder-questionnaire.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/mood-disorder-questionnaire.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/mood-disorder-questionnaire.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/mood-disorder-questionnaire.txt</a>[/html][/conditional]

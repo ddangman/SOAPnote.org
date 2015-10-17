@@ -15,5 +15,5 @@ Interpretation --> [calc memo="interpretation" value="score=(Q1)+(Q2)+(Q3)+(Q4)+
 reference:  The Nutrition Health Checklist was developed for the Nutrition Screening Initiative, a project of the American Academy of Family Physicians, the American Dietetic Association and the National Council on Aging, Inc.<a href="http://www.aafp.org/afp/980301ap/edits.html"> Info at AAFP website</a>, AAFP Geriatric assessment article: <a href="http://www.aafp.org/afp/2011/0101/p48.html">Elsawy (2011) Am Fam Phys 83: 48-56</a>.
 posted by:  Mark Morgan, M.D.
 post/review dates:  June 24, 2011; August 30, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/elder-care/nutritional-checklist/" target="_blank">www.soapnote.org/elder-care/nutritional-checklist/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/nutritional-checklist.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/nutritional-checklist.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/nutritional-checklist.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/nutritional-checklist.txt</a>[/html][/conditional]

@@ -19,5 +19,5 @@ Higher scores indicate a greater risk of death.
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/14999112" target="_blank">Celli (2004) N Engl J Med 350(10): 1005-1012.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/13823475" target="_blank">Fletcher (1959) Br Med J 2:257-66.</a>, <a href="http://www.fpnotebook.com/lung/exam/BdIndx.htm" target="_blank">FPNotebook page</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 13, 2012; September 7, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/respiratory/bode-index/" target="_blank">www.soapnote.org/respiratory/bode-index/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/respiratory/bode-index.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/respiratory/bode-index.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/respiratory/bode-index.txt" target="_blank">www.soapnote.org/generator/txt/respiratory/bode-index.txt</a>[/html][/conditional]

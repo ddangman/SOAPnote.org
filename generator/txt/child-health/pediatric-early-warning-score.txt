@@ -30,5 +30,5 @@ Note: Rapid response evaluation is indicated for parental concern regardless of 
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16990097" target="_blank">Duncan H, Hutchison J, Parshuram CS. The Pediatric Early Warning System score: a severity of illness score to predict urgent medical need in hospitalized children. J Crit Care. 2006 Sep;21(3):271-8.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  May 15, 2015; September 7, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/child-health/pediatric-early-warning-score/" target="_blank">www.soapnote.org/child-health/pediatric-early-warning-score/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/pediatric-early-warning-score.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/pediatric-early-warning-score.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/child-health/pediatric-early-warning-score.txt" target="_blank">www.soapnote.org/generator/txt/child-health/pediatric-early-warning-score.txt</a>[/html][/conditional]

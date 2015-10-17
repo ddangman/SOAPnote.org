@@ -9,5 +9,5 @@ Score:  [calc value="score=(step2)+(step3)" memo="x"]/5  Interpretation:  [calc 
 reference:  <a href="http://www.aafp.org/afp/2009/0315/p497.html" target="_blank">Am Fam Physician. 2009 Mar 15;79(6):497-500.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  June 16, 2010; August 30, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/elder-care/mini-cog-screen-for-dementia/" target="_blank">www.soapnote.org/elder-care/mini-cog-screen-for-dementia/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/mini-cog-screen-for-dementia.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/mini-cog-screen-for-dementia.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/mini-cog-screen-for-dementia.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/mini-cog-screen-for-dementia.txt</a>[/html][/conditional]

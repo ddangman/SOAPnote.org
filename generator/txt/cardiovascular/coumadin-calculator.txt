@@ -21,5 +21,5 @@ Adjustment selected:
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/11157641" target="_blank">Ansell (2001) Chest 119: 22S-38S</a>, <a href="http://www.med.umich.edu/cvc/prof/anticoag/dose.htm" target="_blank">University of Michigan Anticoagulation Management Service warfarin adjustment protocol</a>, <a href="http://www.aafp.org/afp/2005/0515/p1979.html" target="_blank">Ebell (2005) Am Fam Physician 71: 1979-82</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  January 15, 2011; August 18, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/coumadin-calculator/" target="_blank">www.soapnote.org/cardiovascular/coumadin-calculator/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/coumadin-calculator.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/coumadin-calculator.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/coumadin-calculator.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/coumadin-calculator.txt</a>[/html][/conditional]

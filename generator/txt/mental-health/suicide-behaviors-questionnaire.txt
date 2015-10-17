@@ -10,5 +10,5 @@ Interpretation --> [calc memo="risk" value="score2=(Q1)+(Q2)+(Q3)+(Q4);score2>7?
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/11785588" target="_blank">Osman A, Bagge CL, Gutierrez PM, Konick LC, Kopper BA, Barrios FX. The Suicidal Behaviors Questionnaire-Revised (SBQ-R): validation with clinical and nonclinical samples. Assessment. 2001 Dec;8(4):443-54.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 25, 2014; September 7, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/mental-health/suicide-behaviors-questionnaire/" target="_blank">www.soapnote.org/mental-health/suicide-behaviors-questionnaire/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/suicide-behaviors-questionnaire.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/suicide-behaviors-questionnaire.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/suicide-behaviors-questionnaire.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/suicide-behaviors-questionnaire.txt</a>[/html][/conditional]

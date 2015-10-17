@@ -24,5 +24,5 @@ Interpretation --> [calc memo="number" value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5);sc
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/8675081" target="_blank">Rockall TA, Logan RF, Devlin HB, Northfield TC. Risk assessment after acute upper gastrointestinal haemorrhage. Gut. 1996 Mar;38(3):316-21.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  October 6, 2014; August 25, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/digestive-system/rockall-gi-bleed/" target="_blank">www.soapnote.org/digestive-system/rockall-gi-bleed/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/digestive-system/rockall-gi-bleed.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/digestive-system/rockall-gi-bleed.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/rockall-gi-bleed.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/rockall-gi-bleed.txt</a>[/html][/conditional]

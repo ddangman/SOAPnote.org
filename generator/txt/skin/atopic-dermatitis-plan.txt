@@ -4,5 +4,5 @@ Atopic dermatitis
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  January 11, 2014; August 20, 2015; October 2, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/skin/atopic-dermatitis-plan/" target="_blank">www.soapnote.org/skin/atopic-dermatitis-plan/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/skin/atopic-dermatitis-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/skin/atopic-dermatitis-plan.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/skin/atopic-dermatitis-plan.txt" target="_blank">www.soapnote.org/generator/txt/skin/atopic-dermatitis-plan.txt</a>[/html][/conditional]

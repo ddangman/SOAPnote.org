@@ -10,5 +10,5 @@ Based on estimated GFR of [calc value="score1=score.toFixed(2)" memo="GFR"] mL/m
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/1244564" target="_blank">Cockcroft DW, Gault MH: Prediction of creatinine clearance from serum creatinine. Nephron 16: 31–41, 1976</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 10, 2013; September 3, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/kidney/cockcroft-gault/" target="_blank">www.soapnote.org/kidney/cockcroft-gault/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/kidney/cockcroft-gault.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/kidney/cockcroft-gault.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/kidney/cockcroft-gault.txt" target="_blank">www.soapnote.org/generator/txt/kidney/cockcroft-gault.txt</a>[/html][/conditional]

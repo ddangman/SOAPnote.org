@@ -24,5 +24,5 @@ ATP III evaluation [html]
 reference:  <a href="http://www.nhlbi.nih.gov/guidelines/cholesterol/index.htm" target="_blank">ATP III Guidelines</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  December 26, 2010; August 23, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/framingham/" target="_blank">www.soapnote.org/cardiovascular/framingham/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/framingham.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/framingham.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/framingham.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/framingham.txt</a>[/html][/conditional]

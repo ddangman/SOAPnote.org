@@ -8,5 +8,5 @@ Findings --> [conditional field="Q1|Q2|Q3|Q4" condition="(Q1).is('High')&&(Q2).i
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  January 13, 2015; August 23, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/endocrine-metabolic/thyroid-function-tests/" target="_blank">www.soapnote.org/endocrine-metabolic/thyroid-function-tests/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/endocrine-metabolic/thyroid-function-tests.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/endocrine-metabolic/thyroid-function-tests.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/thyroid-function-tests.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/thyroid-function-tests.txt</a>[/html][/conditional]

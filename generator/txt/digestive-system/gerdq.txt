@@ -11,5 +11,5 @@ Score --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)" memo="score"] out of
 reference:  <a href="http://www.aafp.org/afp/2010/0515/p1278.html" target="_blank">Am Fam Physician. 2010 May 15;81(10):1278-1280.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/19737151" target="_blank">Jones R, Junghard O, Dent J, et al. Development of the GerdQ, a tool for the diagnosis and management of gastrooesophageal reflux disease in primary care. Aliment Pharmacol Ther. 2009;30(10):1034</a>, 
 posted by:  Mark Morgan, M.D.
 post/review dates:  October 4, 2010; August 25, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/digestive-system/gerdq/" target="_blank">www.soapnote.org/digestive-system/gerdq/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/digestive-system/gerdq.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/digestive-system/gerdq.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/gerdq.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/gerdq.txt</a>[/html][/conditional]

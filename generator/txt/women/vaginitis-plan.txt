@@ -11,5 +11,5 @@ Education:
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  February 18, 2014; September 1, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/women/vaginitis-plan/" target="_blank">www.soapnote.org/women/vaginitis-plan/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/women/vaginitis-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/women/vaginitis-plan.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/women/vaginitis-plan.txt" target="_blank">www.soapnote.org/generator/txt/women/vaginitis-plan.txt</a>[/html][/conditional]

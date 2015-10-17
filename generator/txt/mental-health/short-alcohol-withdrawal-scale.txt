@@ -16,5 +16,5 @@ Interpretation --> [calc memo="Interpretation" value="score=(QA)+(QB)+(QC)+(QD)+
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/20570824" target="_blank">Elholm B, Larsen K, Hornnes N, Zierau F, Becker U.  A psychometric validation of the Short Alcohol Withdrawal Scale (SAWS). Alcohol Alcohol. 2010;45(4):361-5.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  January 1, 2014; September 7, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/mental-health/short-alcohol-withdrawal-scale/" target="_blank">www.soapnote.org/mental-health/short-alcohol-withdrawal-scale/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/short-alcohol-withdrawal-scale.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/short-alcohol-withdrawal-scale.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/short-alcohol-withdrawal-scale.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/short-alcohol-withdrawal-scale.txt</a>[/html][/conditional]

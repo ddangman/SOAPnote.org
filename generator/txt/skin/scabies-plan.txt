@@ -3,5 +3,5 @@
 reference:  <a href="http://www.cdc.gov/parasites/scabies/gen_info/faqs.html" target="_blank">CDC scabies page</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  February 20, 2011; August 20, 2015; October 2, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/skin/scabies-plan/" target="_blank">www.soapnote.org/skin/scabies-plan/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/skin/scabies-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/skin/scabies-plan.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/skin/scabies-plan.txt" target="_blank">www.soapnote.org/generator/txt/skin/scabies-plan.txt</a>[/html][/conditional]

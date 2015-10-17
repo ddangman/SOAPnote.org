@@ -13,5 +13,5 @@ Interpretation --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7);score>7
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/20625017" target="_blank">Janssens (2010) Arch Intern Med 170:  1120-26.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 18, 2012; September 2, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/musculoskeletal/gout-rule/" target="_blank">www.soapnote.org/musculoskeletal/gout-rule/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/gout-rule.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/gout-rule.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/gout-rule.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/gout-rule.txt</a>[/html][/conditional]

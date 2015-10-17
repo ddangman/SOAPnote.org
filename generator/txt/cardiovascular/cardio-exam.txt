@@ -4,5 +4,5 @@
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 19, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/cardio-exam/" target="_blank">http://www.soapnote.org/cardiovascular/cardio-exam/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/cardio-exam/" target="_blank">http://www.soapnote.org/cardiovascular/cardio-exam.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/cardio-exam/" target="_blank">http://www.soapnote.org/generator/txt/cardiovascular/cardio-exam/</a>[/html][/conditional]

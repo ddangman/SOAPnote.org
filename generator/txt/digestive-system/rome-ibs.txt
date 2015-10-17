@@ -16,5 +16,5 @@ score>112112?'Mixed Irritable Bowel Syndrome (IBS - M)':score>112111?'Does not m
 reference:  Rome III (2006) Criteria for Irritable Bowel Syndrome at <a href="http://www.theromefoundation.org/criteria/" target="_blank">The Rome Foundation</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 25, 2013; August 25, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/digestive-system/rome-ibs/" target="_blank">www.soapnote.org/digestive-system/rome-ibs/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/digestive-system/rome-ibs.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/digestive-system/rome-ibs.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/rome-ibs.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/rome-ibs.txt</a>[/html][/conditional]

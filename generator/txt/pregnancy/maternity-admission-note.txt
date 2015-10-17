@@ -6,5 +6,5 @@
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 1, 2010; September 4, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/pregnancy/maternity-admission-note/" target="_blank">www.soapnote.org/pregnancy/maternity-admission-note/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/pregnancy/maternity-admission-note.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/pregnancy/maternity-admission-note.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/pregnancy/maternity-admission-note.txt" target="_blank">www.soapnote.org/generator/txt/pregnancy/maternity-admission-note.txt</a>[/html][/conditional]

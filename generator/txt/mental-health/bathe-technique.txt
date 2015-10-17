@@ -10,5 +10,5 @@ reference:  <a href="http://www.amazon.com/gp/product/1846192889/ref=as_li_qf_sp
 <a href="http://www.ncbi.nlm.nih.gov/pubmed/9606304">McCulloch (1998) Am Fam Physician. 57:2131-4</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 9, 2013; September 7, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/mental-health/bathe-technique/" target="_blank">www.soapnote.org/mental-health/bathe-technique/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/bathe-technique.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/bathe-technique.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/bathe-technique.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/bathe-technique.txt</a>[/html][/conditional]

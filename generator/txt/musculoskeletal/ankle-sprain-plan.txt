@@ -15,5 +15,5 @@ Plan:
 reference:  <a href="http://www.aafp.org/afp/2006/1115/p1714.html" target="_blank">Ivins (2006) Am Fam Physician. 74:1714-1720</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 14, 2010; September 2, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/musculoskeletal/ankle-sprain-plan/" target="_blank">www.soapnote.org/musculoskeletal/ankle-sprain-plan/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/ankle-sprain-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/ankle-sprain-plan.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/ankle-sprain-plan.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/ankle-sprain-plan.txt</a>[/html][/conditional]

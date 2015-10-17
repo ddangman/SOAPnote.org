@@ -16,5 +16,5 @@ Interpretation: [calc value="score=(age)+(HR)+(O2)+(prior)+(trauma)+(hemoptysis)
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/15304025" target="_blank">Kline (2004) J Thromb Haemost. 2:1247-55.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  July 10, 2012; August 21, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/blood-lymph/perc/" target="_blank">www.soapnote.org/blood-lymph/perc/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/blood-lymph/perc.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/blood-lymph/perc.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/blood-lymph/perc.txt" target="_blank">www.soapnote.org/generator/txt/blood-lymph/perc.txt</a>[/html][/conditional]

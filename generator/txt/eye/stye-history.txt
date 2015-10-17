@@ -4,5 +4,5 @@
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 12, 2010; September 6, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/eye/stye-history/" target="_blank">www.soapnote.org/eye/stye-history/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/eye/stye-history.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/eye/stye-history.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/eye/stye-history.txt" target="_blank">www.soapnote.org/generator/txt/eye/stye-history.txt</a>[/html][/conditional]

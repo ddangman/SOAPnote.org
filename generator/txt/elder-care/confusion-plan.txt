@@ -15,5 +15,5 @@ Diagnostic evaluation:  [checkbox value="point of care glucose|urinalysis|CBC|Ch
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 22, 2010; August 30, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/elder-care/confusion-plan/" target="_blank">www.soapnote.org/elder-care/confusion-plan/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/confusion-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/confusion-plan.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/confusion-plan.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/confusion-plan.txt</a>[/html][/conditional]

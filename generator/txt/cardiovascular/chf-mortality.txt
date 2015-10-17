@@ -18,5 +18,5 @@ Patient History
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/14625335" target="_blank">Lee (2003) JAMA 290:  2581-7.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/17477106" target="_blank">Ebell (2007) Am Fam Physician 75:  1231-3.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 25, 2013; August 18, 2015
-permalink:  <a href="http://www.soapnote.org/cardiovascular/chf-mortality/" target="_blank">www.soapnote.org/cardiovascular/chf-mortality/</a>
+permalink:  <a href="http://www.soapnote.org/cardiovascular/chf-mortality.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/chf-mortality.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/chf-mortality.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/chf-mortality.txt</a>[/html][/conditional]

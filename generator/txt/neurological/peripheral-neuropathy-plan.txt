@@ -4,5 +4,5 @@
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 12, 2010; September 4, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/neurological/peripheral-neuropathy-plan/" target="_blank">www.soapnote.org/neurological/peripheral-neuropathy-plan/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/neurological/peripheral-neuropathy-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/neurological/peripheral-neuropathy-plan.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/neurological/peripheral-neuropathy-plan.txt" target="_blank">www.soapnote.org/generator/txt/neurological/peripheral-neuropathy-plan.txt</a>[/html][/conditional]

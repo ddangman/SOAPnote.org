@@ -20,5 +20,5 @@ Score:  [calc value="score=(satisfied)+(dropped)+(empty)+(bored)+(spirits)+(afra
 reference:  <a href="http://www.aafp.org/afp/2002/0915/p1001.html" target="_blank">Screening for Depression Across the Lifespan: A Review of Measures for Use in Primary Care Settings, Am Fam Physician. 2002 Sep 15;66(6):1001-1009</a>, <a href="http://www.aafp.org/afp/2004/0715/p343.html" target="_blank">Geriatric Failure to Thrive, Am Fam Physician. 2004 Jul 15;70(2):343-350</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  June 16, 2010; August 30, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/elder-care/geriatric-depression-scale/" target="_blank">www.soapnote.org/elder-care/geriatric-depression-scale/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/geriatric-depression-scale.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/geriatric-depression-scale.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/geriatric-depression-scale.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/geriatric-depression-scale.txt</a>[/html][/conditional]

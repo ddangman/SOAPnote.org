@@ -14,5 +14,5 @@ Score --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)" memo=
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/11556941" target="_blank">Kroenke (2001) J Gen Intern Med 16:606-13.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  June 5, 2010; September 7, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/mental-health/patient-health-questionnaire-phq-9-calculator/" target="_blank">www.soapnote.org/mental-health/patient-health-questionnaire-phq-9-calculator/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/patient-health-questionnaire-phq-9-calculator.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/patient-health-questionnaire-phq-9-calculator.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/patient-health-questionnaire-phq-9-calculator.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/patient-health-questionnaire-phq-9-calculator.txt</a>[/html][/conditional]

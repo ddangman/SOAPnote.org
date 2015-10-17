@@ -44,5 +44,5 @@ INTERPRETATION --> [calc value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7);score2
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/22796362" target="_blank">Saliba D, Buchanan J, Edelen MO, Streim J, Ouslander J, Berlowitz D, Chodosh J. MDS 3.0: brief interview for mental status. J Am Med Dir Assoc. 2012 Sep;13(7):611-7.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  January 16, 2015; August 30, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/elder-care/bims/" target="_blank">www.soapnote.org/elder-care/bims/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/bims.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/bims.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/bims.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/bims.txt</a>[/html][/conditional]

@@ -35,5 +35,5 @@ ADHD - Hyperactivity/Impulsivity --> [calc memo="interpretation" value="score=(Q
 reference:  <a href="http://www.fpnotebook.com/peds/neuro/AdhdDgns.htm" target="_blank">FP Notebook</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 13, 2013; September 6, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/mental-health/adhd-criteria/" target="_blank">www.soapnote.org/mental-health/adhd-criteria/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/adhd-criteria.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/adhd-criteria.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/adhd-criteria.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/adhd-criteria.txt</a>[/html][/conditional]

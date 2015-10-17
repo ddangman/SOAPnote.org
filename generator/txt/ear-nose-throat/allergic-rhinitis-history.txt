@@ -28,5 +28,5 @@ Past History
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  February 16, 2014; September 6, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/ear-nose-throat/allergic-rhinitis-history/" target="_blank">www.soapnote.org/ear-nose-throat/allergic-rhinitis-history/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/allergic-rhinitis-history.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/allergic-rhinitis-history.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/allergic-rhinitis-history.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/allergic-rhinitis-history.txt</a>[/html][/conditional]

@@ -13,5 +13,5 @@ Characterized as [text].
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  November 21, 2010; September 2, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/injury/injury-history/" target="_blank">www.soapnote.org/injury/injury-history/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/injury/injury-history.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/injury/injury-history.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/injury/injury-history.txt" target="_blank">www.soapnote.org/generator/txt/injury/injury-history.txt</a>[/html][/conditional]

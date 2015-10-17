@@ -52,5 +52,5 @@ Pitfalls:
 reference:  contributed by Dr. Scott Moses, creator/author of the <a href="http://www.fpnotebook.com" target="_blank">Family Practice Notebook</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  November 24, 2010; August 25, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/digestive-system/gastroenteritis-history/" target="_blank">www.soapnote.org/digestive-system/gastroenteritis-history/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/digestive-system/gastroenteritis-history.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/digestive-system/gastroenteritis-history.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/gastroenteritis-history.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/gastroenteritis-history.txt</a>[/html][/conditional]

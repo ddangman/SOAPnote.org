@@ -12,5 +12,5 @@ Plan:  [html]<em>Counseling techniques to move from one stage to the next (no sk
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/6863699" target="_blank">Prochaska JO, DiClemente CC.J Consult Clin Psychol. 1983 Jun;51(3):390-5. Stages and processes of self-change of smoking: toward an integrative model of change.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  May 28, 2013; September 7, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/mental-health/stages-of-change/" target="_blank">www.soapnote.org/mental-health/stages-of-change/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/stages-of-change.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/stages-of-change.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/stages-of-change.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/stages-of-change.txt</a>[/html][/conditional]

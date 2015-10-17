@@ -8,5 +8,5 @@ Plan:
 reference:  <a href="***" target="_blank">***</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 14, 2010; September 2, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/musculoskeletal/back-pain-plan/" target="_blank">www.soapnote.org/musculoskeletal/back-pain-plan/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/back-pain-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/back-pain-plan.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/back-pain-plan.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/back-pain-plan.txt</a>[/html][/conditional]

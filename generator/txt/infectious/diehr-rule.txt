@@ -12,5 +12,5 @@ Probability of Pneumonia:  [calc value="score=(rhinorrhea)+(throat)+(myalgia)+(s
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/6699126" target="_blank">Diehr (1984) J Chronic Dis 37:215-25</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/16342831" target="_blank">Cayley (2005) Am Fam Physician 72:2012-21</a>, <a href="http://www.fpnotebook.com/lung/exam/DhrRlTDgnsPnmn.htm" target="_blank">FP Notebook page</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 18, 2012; September 1, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/infectious/diehr-rule/" target="_blank">www.soapnote.org/infectious/diehr-rule/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/infectious/diehr-rule.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/infectious/diehr-rule.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/infectious/diehr-rule.txt" target="_blank">www.soapnote.org/generator/txt/infectious/diehr-rule.txt</a>[/html][/conditional]

@@ -4,5 +4,5 @@ ADHD - Conners’ Index History
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 11, 2010; September 6, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/mental-health/conners-history-adhd/" target="_blank">www.soapnote.org/mental-health/conners-history-adhd/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/conners-history-adhd.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/conners-history-adhd.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/conners-history-adhd.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/conners-history-adhd.txt</a>[/html][/conditional]

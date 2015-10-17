@@ -14,5 +14,5 @@ The following other neurologic findings were found: [textarea default="none"]
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 1, 2010; August 29, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/neurological/neuro-exam/" target="_blank">www.soapnote.org/neurological/neuro-exam/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/neurological/neuro-exam.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/neurological/neuro-exam.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/neurological/neuro-exam.txt" target="_blank">www.soapnote.org/generator/txt/neurological/neuro-exam.txt</a>[/html][/conditional]

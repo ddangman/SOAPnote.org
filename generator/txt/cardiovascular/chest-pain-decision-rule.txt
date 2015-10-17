@@ -14,5 +14,5 @@ Interpretation --> [calc value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5);score2>142?'94% 
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/440357" target="_blank">Diamond GA, Forrester JS. Analysis of probability as an aid in the clinical diagnosis of coronary-artery disease. N Engl J Med. 1979 Jun 14;300(24):1350-8.</a>, <a href="http://www.fpnotebook.com/cv/exam/DmndAndFrstrChstPnPrdctnRl.htm" target="_blank">FP Notebook page</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  October 8, 2014; August 18, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/chest-pain-decision-rule/" target="_blank">www.soapnote.org/cardiovascular/chest-pain-decision-rule/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/chest-pain-decision-rule.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/chest-pain-decision-rule.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/chest-pain-decision-rule.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/chest-pain-decision-rule.txt</a>[/html][/conditional]

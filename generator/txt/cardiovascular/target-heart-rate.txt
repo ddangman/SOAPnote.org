@@ -8,5 +8,5 @@ Vigorous-Intensity --> [calc memo="low" value="score4=((.7)*(score1)).toFixed(0)
 reference:  <a href="http://www.cdc.gov/physicalactivity/everyone/measuring/heartrate.html" target="_blank">CDC Physical Activity Page</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 24, 2014; August 20, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/target-heart-rate/" target="_blank">www.soapnote.org/cardiovascular/target-heart-rate/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/target-heart-rate.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/target-heart-rate.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/target-heart-rate.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/target-heart-rate.txt</a>[/html][/conditional]

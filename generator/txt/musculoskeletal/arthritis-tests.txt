@@ -34,5 +34,5 @@ ANCA[/conditional]
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/9455961" target="_blank">Lipsky P. Algorithms for the diagnosis and management of musculoskeletal complaints: A new tool for the primary-care provider. Am J Med. 1997 Dec 29;103(6A):1S-2S.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 27, 2014; September 3, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/musculoskeletal/arthritis-tests/" target="_blank">www.soapnote.org/musculoskeletal/arthritis-tests/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/arthritis-tests.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/arthritis-tests.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/arthritis-tests.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/arthritis-tests.txt</a>[/html][/conditional]

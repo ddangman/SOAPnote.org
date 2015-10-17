@@ -10,5 +10,5 @@ Interpretation --> [calc memo="result" value="score2=(cog)+(bun)+(ill)+(eye);sco
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/17620535" target="_blank">Inouye SK, Zhang Y, Jones RN, Kiely DK, Yang F, Marcantonio ER.  Risk factors for delirium at discharge: development and validation of a predictive model.  Arch Intern Med. 2007 Jul 9;167(13):1406-13.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 9, 2014; August 30, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/elder-care/delirium-predictive-model/" target="_blank">www.soapnote.org/elder-care/delirium-predictive-model/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/delirium-predictive-model.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/delirium-predictive-model.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/delirium-predictive-model.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/delirium-predictive-model.txt</a>[/html][/conditional]

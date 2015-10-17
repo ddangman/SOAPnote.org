@@ -18,5 +18,5 @@ Conditions that place the patient at increased risk for disease:  ***
 reference:  This is an online version of a template by Stephen P. Merry, MD, MPH, Consultant, Department of Family Medicine, Mayo Clinic, Rochester, Minnesota
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 1, 2010; August 30, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/elder-care/medicare-history/" target="_blank">www.soapnote.org/elder-care/medicare-history/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/medicare-history.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/medicare-history.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/medicare-history.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/medicare-history.txt</a>[/html][/conditional]

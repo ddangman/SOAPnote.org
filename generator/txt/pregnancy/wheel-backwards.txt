@@ -12,5 +12,5 @@ Today, the patient is [calc value="score=(EDC)-(TD);score>728?'40 weeks 1 day':s
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  October 6, 2013; September 5, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/pregnancy/wheel-backwards/" target="_blank">www.soapnote.org/pregnancy/wheel-backwards/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/pregnancy/wheel-backwards.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/pregnancy/wheel-backwards.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/pregnancy/wheel-backwards.txt" target="_blank">www.soapnote.org/generator/txt/pregnancy/wheel-backwards.txt</a>[/html][/conditional]

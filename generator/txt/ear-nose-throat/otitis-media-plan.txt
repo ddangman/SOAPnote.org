@@ -10,5 +10,5 @@ Education:  [checkbox value="symptomatic measures|medication side effects|natura
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 30, 2010; September 6, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/ear-nose-throat/otitis-media-plan/" target="_blank">www.soapnote.org/ear-nose-throat/otitis-media-plan/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/otitis-media-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/otitis-media-plan.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/otitis-media-plan.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/otitis-media-plan.txt</a>[/html][/conditional]
