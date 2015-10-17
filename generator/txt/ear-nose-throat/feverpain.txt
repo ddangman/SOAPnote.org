@@ -11,5 +11,5 @@ Result -->; [calc memo="interpretation" value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5);s
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/24114306" target="_blank">Little P, Hobbs FD, Moore M, Mant D, Williamson I, McNulty C, Cheng YE, Leydon G, McManus R, Kelly J, Barnett J, Glasziou P, Mullee M; PRISM investigators. Clinical score and rapid antigen detection test to guide antibiotic use for sore throats: randomised controlled trial of PRISM (primary care streptococcal management). BMJ. 2013 Oct 10;347:f5806.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 19, 2014; September 1, 2015
-permalink: <a href="http://www.soapnote.org/ear-nose-throat/feverpain/" target="_blank">www.soapnote.org/ear-nose-throat/feverpain/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/ear-nose-throat/feverpain/" target="_blank">www.soapnote.org/ear-nose-throat/feverpain/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/feverpain.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/feverpain.txt</a>[/html][/conditional]

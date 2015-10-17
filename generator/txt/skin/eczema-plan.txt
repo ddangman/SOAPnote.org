@@ -3,5 +3,5 @@
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 31, 2010; August 20, 2015; October 2, 2015
-permalink: <a href="http://www.soapnote.org/skin/eczema-plan/" target="_blank">www.soapnote.org/skin/eczema-plan/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/skin/eczema-plan/" target="_blank">www.soapnote.org/skin/eczema-plan/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/skin/eczema-plan.txt" target="_blank">www.soapnote.org/generator/txt/skin/eczema-plan.txt</a>[/html][/conditional]

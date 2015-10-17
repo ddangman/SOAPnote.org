@@ -23,5 +23,5 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16706261" target="_blank
 posted by:  Mark Morgan, M.D.
 post/review dates:  October 4, 2010, August 18, 2015
 notes:  none
-permalink: <a href="http://www.soapnote.org/cardiovascular/dm-cardiac-risk/" target="_blank">www.soapnote.org/cardiovascular/dm-cardiac-risk/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/dm-cardiac-risk/" target="_blank">www.soapnote.org/cardiovascular/dm-cardiac-risk/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/dm-cardiac-risk.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/dm-cardiac-risk.txt</a>[/html][/conditional]

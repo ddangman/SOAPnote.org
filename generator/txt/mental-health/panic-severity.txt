@@ -21,5 +21,5 @@ Interpretation --> [calc value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(
 reference:  <a href="http://www.psychiatry.org/file%20library/practice/dsm/dsm-5/severitymeasureforpanicdisorderadult.pdf" target="_blank">American Psychiatric Association (2013)</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  May 14, 2015; September 7, 2015
-permalink: <a href="http://www.soapnote.org/mental-health/panic-severity/" target="_blank">www.soapnote.org/mental-health/panic-severity/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/mental-health/panic-severity/" target="_blank">www.soapnote.org/mental-health/panic-severity/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/panic-severity.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/panic-severity.txt</a>[/html][/conditional]

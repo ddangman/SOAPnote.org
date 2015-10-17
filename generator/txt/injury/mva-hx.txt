@@ -31,5 +31,5 @@ ROS
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  November 24, 2010; August 28, 2015
-permalink: <a href="http://www.soapnote.org/injury/mva-hx/" target="_blank">www.soapnote.org/injury/mva-hx/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/injury/mva-hx/" target="_blank">www.soapnote.org/injury/mva-hx/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/injury/mva-hx.txt" target="_blank">www.soapnote.org/generator/txt/injury/mva-hx.txt</a>[/html][/conditional]

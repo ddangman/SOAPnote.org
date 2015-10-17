@@ -53,7 +53,7 @@ reference:  From the International Diabetes Center's Staged Diabetes Management 
 HbA1c reduction information: Staged Diabetes Management • 4th Edition • 2007.
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 24, 2010; August 21, 2015
-permalink: <a href="http://www.soapnote.org/endocrine-metabolic/diabetes-medications/" target="_blank">www.soapnote.org/endocrine-metabolic/diabetes-medications/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/endocrine-metabolic/diabetes-medications/" target="_blank">www.soapnote.org/endocrine-metabolic/diabetes-medications/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/diabetes-medications.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/diabetes-medications.txt</a>[/html][/conditional]
 
 

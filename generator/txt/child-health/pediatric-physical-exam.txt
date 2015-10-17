@@ -16,5 +16,5 @@
 reference:  This is an online version of a template by Stephen P. Merry, MD, MPH, Consultant, Department of Family Medicine, Mayo Clinic, Rochester, Minnesota
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 1, 2010; August 30, 2015
-permalink: <a href="http://www.soapnote.org/child-health/pediatric-physical-exam/" target="_blank">www.soapnote.org/child-health/pediatric-physical-exam/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/child-health/pediatric-physical-exam/" target="_blank">www.soapnote.org/child-health/pediatric-physical-exam/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/child-health/pediatric-physical-exam.txt" target="_blank">www.soapnote.org/generator/txt/child-health/pediatric-physical-exam.txt</a>[/html][/conditional]

@@ -27,5 +27,5 @@ Lifestyle:
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 11, 2010; August 21, 2015
-permalink: <a href="http://www.soapnote.org/endocrine-metabolic/diabetes-plan/" target="_blank">www.soapnote.org/endocrine-metabolic/diabetes-plan/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/endocrine-metabolic/diabetes-plan/" target="_blank">www.soapnote.org/endocrine-metabolic/diabetes-plan/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/diabetes-plan.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/diabetes-plan.txt</a>[/html][/conditional]

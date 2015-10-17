@@ -15,5 +15,5 @@ Interpretation --> [calc memo="result" value="score2=(age)+(bmi)+(sex)+(sepsis)+
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/24091567" target="_blank"> Pannucci CJ, Laird S, Dimick JB, Campbell DA, Henke PK. A validated risk model to predict 90-day VTE events in postsurgical patients. Chest. 2014 Mar 1;145(3):567-73.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 8, 2014; August 31, 2015
-permalink: <a href="http://www.soapnote.org/blood-lymph/vte-risk-after-surgery/" target="_blank">www.soapnote.org/blood-lymph/vte-risk-after-surgery/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/blood-lymph/vte-risk-after-surgery/" target="_blank">www.soapnote.org/blood-lymph/vte-risk-after-surgery/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/blood-lymph/vte-risk-after-surgery.txt" target="_blank">www.soapnote.org/generator/txt/blood-lymph/vte-risk-after-surgery.txt</a>[/html][/conditional]

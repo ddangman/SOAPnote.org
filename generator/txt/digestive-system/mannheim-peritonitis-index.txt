@@ -14,5 +14,5 @@ Interpretation --> [calc memo="result" value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16607684" target="_blank">Biondo S, Ramos E, Fraccalvieri D, Kreisler E, Ragué JM, Jaurrieta E. Comparative study of left colonic Peritonitis Severity Score and Mannheim Peritonitis Index. Br J Surg. 2006 May;93(5):616-22.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 19, 2014; August 25, 2015
-permalink: <a href="http://www.soapnote.org/digestive-system/mannheim-peritonitis-index/" target="_blank">www.soapnote.org/digestive-system/mannheim-peritonitis-index/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/digestive-system/mannheim-peritonitis-index/" target="_blank">www.soapnote.org/digestive-system/mannheim-peritonitis-index/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/mannheim-peritonitis-index.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/mannheim-peritonitis-index.txt</a>[/html][/conditional]

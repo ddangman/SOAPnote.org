@@ -12,5 +12,5 @@ Score: [calc value="score=(DVT)+(Alternative)+(Rate)+(Immobilization)+(Previous)
 reference:  <a href="http://www.aafp.org/afp/2004/0615/p2829.html" target="_blank">Ramzi (2004) Am Fam Physician 69:2829-36</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  July 9, 2012; August 31, 2015
-permalink: <a href="http://www.soapnote.org/blood-lymph/wells-pe/" target="_blank">www.soapnote.org/blood-lymph/wells-pe/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/blood-lymph/wells-pe/" target="_blank">www.soapnote.org/blood-lymph/wells-pe/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/blood-lymph/wells-pe.txt" target="_blank">www.soapnote.org/generator/txt/blood-lymph/wells-pe.txt</a>[/html][/conditional]

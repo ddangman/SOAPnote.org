@@ -18,5 +18,5 @@ List three learning points from this case:
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 6, 2013; August 28, 2015
-permalink: <a href="http://www.soapnote.org/general/morbidity-and-mortality-review/" target="_blank">www.soapnote.org/general/morbidity-and-mortality-review/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/general/morbidity-and-mortality-review/" target="_blank">www.soapnote.org/general/morbidity-and-mortality-review/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/general/morbidity-and-mortality-review.txt" target="_blank">www.soapnote.org/generator/txt/general/morbidity-and-mortality-review.txt</a>[/html][/conditional]

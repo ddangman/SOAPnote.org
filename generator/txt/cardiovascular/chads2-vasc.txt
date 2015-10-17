@@ -12,6 +12,6 @@ Result --> [calc memo="interpretation" value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/19762550">Lip GY, Nieuwlaat R, Pisters R, Lane DA, Crijns HJ. Refining clinical risk stratification for predicting stroke and thromboembolism in atrial fibrillation using a novel risk factor-based approach: the euro heart survey on atrial fibrillation. Chest. 2010 Feb;137(2):263-72.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/22891166">Lane DA, Lip GY. Use of the CHA(2)DS(2)-VASc and HAS-BLED scores to aid decision making for thromboprophylaxis in nonvalvular atrial fibrillation. Circulation. 2012 Aug 14;126(7):860-5.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 19, 2014; August 18, 2015
-permalink: <a href="http://www.soapnote.org/cardiovascular/chads2-vasc/" target="_blank">www.soapnote.org/cardiovascular/chads2-vasc/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/chads2-vasc/" target="_blank">www.soapnote.org/cardiovascular/chads2-vasc/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/chads2-vasc.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/chads2-vasc.txt</a>[/html][/conditional]
 

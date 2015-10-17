@@ -8,5 +8,5 @@ Surveillance --> [calc value="score3=(Q1);score3>5.4?'Surgical consultation for 
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16545667" target="_blank">Hirsch AT et al. ACC/AHA 2005 guidelines for the management of patients with peripheral arterial disease. J Am Coll Cardiol. 2006 Mar 21;47(6):1239-312.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  May 14, 2015; August 18, 2015
-permalink: <a href="http://www.soapnote.org/cardiovascular/aaa-prognosis-surveillance/" target="_blank">www.soapnote.org/cardiovascular/aaa-prognosis-surveillance/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/aaa-prognosis-surveillance/" target="_blank">www.soapnote.org/cardiovascular/aaa-prognosis-surveillance/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/aaa-prognosis-surveillance.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/aaa-prognosis-surveillance.txt</a>[/html][/conditional]

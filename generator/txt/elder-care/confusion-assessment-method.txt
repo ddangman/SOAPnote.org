@@ -8,5 +8,5 @@ Score --> [calc memo="number" value="score1=(Q1)+(Q2)+(Q3)+(Q4)"] / 7 (higher sc
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/24733193" target="_blank">Inouye SK, Kosar CM, Tommet D, Schmitt EM, Puelle MR, Saczynski JS, Marcantonio ER, Jones RN. The CAM-S: development and validation of a new scoring system for delirium severity in 2 cohorts. Ann Intern Med. 2014 Apr 15;160(8):526-33.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 19, 2014; August 30, 2015
-permalink: <a href="http://www.soapnote.org/elder-care/confusion-assessment-method/" target="_blank">www.soapnote.org/elder-care/confusion-assessment-method/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/elder-care/confusion-assessment-method/" target="_blank">www.soapnote.org/elder-care/confusion-assessment-method/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/confusion-assessment-method.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/confusion-assessment-method.txt</a>[/html][/conditional]

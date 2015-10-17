@@ -26,5 +26,5 @@ RESULT --> [calc memo="interpretation" value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/7069156" target="_blank">Pfeffer RI, Kurosaki TT, Harrah CH Jr, Chance JM, Filos S. Measurement of functional activities in older adults in the community. J Gerontol. 1982 May;37(3):323-9.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/20592580" target="_blank">Teng E, Becker BW, Woo E, Knopman DS, Cummings JL, Lu PH. Utility of the Functional Activities Questionnaire for Distinguishing Mild Cognitive Impairment from Very Mild Alzheimer’s Disease. Alzheimer disease and associated disorders 2010;24(4):348-353.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  January 12, 2015; August 30, 2015
-permalink: <a href="http://www.soapnote.org/elder-care/functional-activities-questionnaire/" target="_blank">www.soapnote.org/elder-care/functional-activities-questionnaire/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/elder-care/functional-activities-questionnaire/" target="_blank">www.soapnote.org/elder-care/functional-activities-questionnaire/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/functional-activities-questionnaire.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/functional-activities-questionnaire.txt</a>[/html][/conditional]

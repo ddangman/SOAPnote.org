@@ -16,5 +16,5 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/8433468">Stiell (1993) J
 article with details is at <a href="http://www.aafp.org/afp/2004/1015/p1535.html">Ebell (2004) 70:1535-1536</a> and <a href="http://www.aafp.org/afp/2004/1015/afp20041015p1535_f1.gif"> encounter form with illustration</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 8, 2013; September 3, 2015
-permalink: <a href="http://www.soapnote.org/musculoskeletal/ottawa-ankle-and-foot-rules/" target="_blank">www.soapnote.org/musculoskeletal/ottawa-ankle-and-foot-rules/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/musculoskeletal/ottawa-ankle-and-foot-rules/" target="_blank">www.soapnote.org/musculoskeletal/ottawa-ankle-and-foot-rules/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/ottawa-ankle-and-foot-rules.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/ottawa-ankle-and-foot-rules.txt</a>[/html][/conditional]

@@ -8,5 +8,5 @@
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 1, 2010; August 27, 2015
-permalink: <a href="http://www.soapnote.org/women/breast-exam/" target="_blank">www.soapnote.org/women/breast-exam/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/women/breast-exam/" target="_blank">www.soapnote.org/women/breast-exam/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/women/breast-exam.txt" target="_blank">www.soapnote.org/generator/txt/women/breast-exam.txt</a>[/html][/conditional]

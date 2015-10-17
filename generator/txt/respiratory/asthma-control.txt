@@ -29,5 +29,5 @@ Open image in new window <a href="/generator/txt/respiratory/asthma-steps-adults
 reference:  <a href="http://www.nhlbi.nih.gov/guidelines/asthma/asthgdln.htm" target="_blank">NAEPP 2007 Guidelines</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/20141095" target="_blank">Pollart (2009) Am Fam Physician 79:  761-7.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 25, 2012; September 7, 2015
-permalink: <a href="http://www.soapnote.org/respiratory/asthma-control/" target="_blank">www.soapnote.org/respiratory/asthma-control/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/respiratory/asthma-control/" target="_blank">www.soapnote.org/respiratory/asthma-control/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/respiratory/asthma-control.txt" target="_blank">www.soapnote.org/generator/txt/respiratory/asthma-control.txt</a>[/html][/conditional]

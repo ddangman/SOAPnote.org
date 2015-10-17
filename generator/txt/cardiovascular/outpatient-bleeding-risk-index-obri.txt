@@ -12,5 +12,5 @@ Interpretation (percent of cases with major bleeding at 1 year) --> [calc value=
 reference:  <a href="http://www.aafp.org/afp/2005/0615/p2348.html" target="_blank">Am Fam Physician. 2005 Jun 15;71(12):2348-2350. </a>, <a href="http://www.aafp.org/afp/2010/0315/p780.html" target="_blank">Am Fam Physician. 2010 Mar 15;81(6):780-782.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  May 31, 2010; August 20, 2015
-permalink: <a href="http://www.soapnote.org/cardiovascular/outpatient-bleeding-risk-index-obri/" target="_blank">www.soapnote.org/cardiovascular/outpatient-bleeding-risk-index-obri/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/outpatient-bleeding-risk-index-obri/" target="_blank">www.soapnote.org/cardiovascular/outpatient-bleeding-risk-index-obri/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/outpatient-bleeding-risk-index-obri.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/outpatient-bleeding-risk-index-obri.txt</a>[/html][/conditional]

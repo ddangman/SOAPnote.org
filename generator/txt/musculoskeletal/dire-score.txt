@@ -42,5 +42,5 @@ Interpretation --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7);score>1
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16942953" target="_blank">Belgrade (2006) J Pain 7:671-81.  </a>, <a href="http://www.fpnotebook.com/rheum/exam/DrScr.htm" target="_blank">FPNotebook page</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 10, 2012; September 2, 2015
-permalink: <a href="http://www.soapnote.org/musculoskeletal/dire-score/" target="_blank">www.soapnote.org/musculoskeletal/dire-score/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/musculoskeletal/dire-score/" target="_blank">www.soapnote.org/musculoskeletal/dire-score/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/dire-score.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/dire-score.txt</a>[/html][/conditional]

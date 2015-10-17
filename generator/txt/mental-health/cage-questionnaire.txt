@@ -8,5 +8,5 @@ Score --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)" memo="score"] out of 4.  Inter
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/4416585" target="_blank">Mayfield (1974) Am J Psychiatry. 131:1121-3.</a>
 posted by:  Jonathan Poon
 post/review dates:  August 13, 2011; September 2, 2015
-permalink: <a href="http://www.soapnote.org/mental-health/cage-questionnaire/" target="_blank">www.soapnote.org/mental-health/cage-questionnaire/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/mental-health/cage-questionnaire/" target="_blank">www.soapnote.org/mental-health/cage-questionnaire/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/cage-questionnaire.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/cage-questionnaire.txt</a>[/html][/conditional]

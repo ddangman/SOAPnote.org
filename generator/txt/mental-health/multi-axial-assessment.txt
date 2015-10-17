@@ -24,5 +24,5 @@ Highest GAF in the last year
 reference:  <a href="http://psychiatryonline.org/" target="_blank">Diagnostic and Statistical Manual of Mental Disorders</a>.
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 14, 2012; September 7, 2015
-permalink: <a href="http://www.soapnote.org/mental-health/multi-axial-assessment/" target="_blank">www.soapnote.org/mental-health/multi-axial-assessment/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/mental-health/multi-axial-assessment/" target="_blank">www.soapnote.org/mental-health/multi-axial-assessment/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/multi-axial-assessment.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/multi-axial-assessment.txt</a>[/html][/conditional]

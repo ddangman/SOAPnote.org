@@ -58,5 +58,5 @@ Interpretation –> [calc value="score5=(((Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/2594878">Jorm AF, Jacomb PA. The Informant Questionnaire on Cognitive Decline in the Elderly (IQCODE): socio-demographic correlates, reliability, validity and some norms. Psychol Med. 1989;19:1015–22.</a>, <a href="http://www.alz.org/professionals_and_researchers_professional_care_providers.asp">Alzheimer's Association</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  January 4, 2014; August 30, 2015
-permalink: <a href="http://www.soapnote.org/elder-care/iqcode/" target="_blank">www.soapnote.org/elder-care/iqcode/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/elder-care/iqcode/" target="_blank">www.soapnote.org/elder-care/iqcode/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/iqcode.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/iqcode.txt</a>[/html][/conditional]

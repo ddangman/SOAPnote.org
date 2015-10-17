@@ -30,5 +30,5 @@ INTERPRETATION --> [conditional field="Q1" condition="(Q1).is('No')"]Unlikely to
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/9455961" target="_blank">Lipsky P. Algorithms for the diagnosis and management of musculoskeletal complaints: A new tool for the primary-care provider. Am J Med. 1997 Dec 29;103(6A):1S-2S.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 26, 2014; September 3, 2015
-permalink: <a href="http://www.soapnote.org/musculoskeletal/spondyloarthropathy/" target="_blank">www.soapnote.org/musculoskeletal/spondyloarthropathy/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/musculoskeletal/spondyloarthropathy/" target="_blank">www.soapnote.org/musculoskeletal/spondyloarthropathy/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/spondyloarthropathy.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/spondyloarthropathy.txt</a>[/html][/conditional]

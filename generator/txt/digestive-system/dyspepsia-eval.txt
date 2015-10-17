@@ -21,5 +21,5 @@ Interpretation --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q
 reference:  AAFP article entitled "Update on the Evaluation and Management of Functional Dyspepsia" at <a href="http://www.aafp.org/afp/2011/0301/p547.html" target="_blank">Loyd (2011) Am Fam Physician 83: 547-52</a>, Rome III (2006) Criteria for Functional Dyspepsia at <a href="http://www.theromefoundation.org/criteria/" target="_blank">The Rome Foundation</a>.
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 6, 2011; August 25, 2015
-permalink: <a href="http://www.soapnote.org/digestive-system/dyspepsia-eval/" target="_blank">www.soapnote.org/digestive-system/dyspepsia-eval/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/digestive-system/dyspepsia-eval/" target="_blank">www.soapnote.org/digestive-system/dyspepsia-eval/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/dyspepsia-eval.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/dyspepsia-eval.txt</a>[/html][/conditional]

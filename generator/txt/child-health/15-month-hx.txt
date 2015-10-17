@@ -4,5 +4,5 @@
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 1, 2010; August 30, 2015
-permalink: <a href="http://www.soapnote.org/child-health/15-month-hx/" target="_blank">www.soapnote.org/child-health/15-month-hx/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/child-health/15-month-hx/" target="_blank">www.soapnote.org/child-health/15-month-hx/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/child-health/15-month-hx.txt" target="_blank">www.soapnote.org/generator/txt/child-health/15-month-hx.txt</a>[/html][/conditional]

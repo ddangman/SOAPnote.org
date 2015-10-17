@@ -12,5 +12,5 @@ Interpretation --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5);score>5?'8.1% ris
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/17258668" target="_blank">Johnston (2007) Lancet 369: 283-92.  </a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 26, 2013; September 3, 2015
-permalink: <a href="http://www.soapnote.org/neurological/abcd2/" target="_blank">www.soapnote.org/neurological/abcd2/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/neurological/abcd2/" target="_blank">www.soapnote.org/neurological/abcd2/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/neurological/abcd2.txt" target="_blank">www.soapnote.org/generator/txt/neurological/abcd2.txt</a>[/html][/conditional]

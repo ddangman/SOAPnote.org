@@ -13,5 +13,5 @@ Score: [calc value="(age)+(prior_myocardial_infarction)+(unstable_angina)+(angin
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/3772593" target="_blank">Detsky (1986) J Gen Intern Med 1:213</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  November 12, 2012; August 18, 2015
-permalink: <a href="http://www.soapnote.org/cardiovascular/detskys-risk-index/" target="_blank">www.soapnote.org/cardiovascular/detskys-risk-index/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/detskys-risk-index/" target="_blank">www.soapnote.org/cardiovascular/detskys-risk-index/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/detskys-risk-index.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/detskys-risk-index.txt</a>[/html][/conditional]

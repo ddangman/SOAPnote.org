@@ -14,5 +14,5 @@ Details --> [textarea][/conditional]
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  January 12, 2014; August 30, 2015
-permalink: <a href="http://www.soapnote.org/elder-care/cognitive-problems-history/" target="_blank">www.soapnote.org/elder-care/cognitive-problems-history/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/elder-care/cognitive-problems-history/" target="_blank">www.soapnote.org/elder-care/cognitive-problems-history/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/cognitive-problems-history.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/cognitive-problems-history.txt</a>[/html][/conditional]

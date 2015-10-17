@@ -15,5 +15,5 @@ Score --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)" memo="Score"] o
 reference:  <a href="http://www.aafp.org/afp/2009/1115/p1145.html" target="_blank">Ebell (2009) Am Fam Phys 80(10):1145-7</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  November 22, 2010; September 2, 2015
-permalink: <a href="http://www.soapnote.org/musculoskeletal/lumbar-spinal-stenosis-dx/" target="_blank">www.soapnote.org/musculoskeletal/lumbar-spinal-stenosis-dx/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/musculoskeletal/lumbar-spinal-stenosis-dx/" target="_blank">www.soapnote.org/musculoskeletal/lumbar-spinal-stenosis-dx/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/lumbar-spinal-stenosis-dx.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/lumbar-spinal-stenosis-dx.txt</a>[/html][/conditional]

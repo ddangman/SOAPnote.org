@@ -17,5 +17,5 @@ Total Score --> [calc memo="number" value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/11574710" target="_blank">Bédard M, Molloy DW, Squire L, Dubois S, Lever JA, O'Donnell M. The Zarit Burden Interview: a new short version and screening version. Gerontologist. 2001;41(5):657.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  October 6, 2014; August 30, 2015
-permalink: <a href="http://www.soapnote.org/elder-care/zarit-caregiver-burden/" target="_blank">www.soapnote.org/elder-care/zarit-caregiver-burden/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/elder-care/zarit-caregiver-burden/" target="_blank">www.soapnote.org/elder-care/zarit-caregiver-burden/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/zarit-caregiver-burden.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/zarit-caregiver-burden.txt</a>[/html][/conditional]

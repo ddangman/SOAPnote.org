@@ -41,5 +41,5 @@ The patient [select name="insulin" value="does not use insulin|uses long-acting 
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 9, 2013; August 21, 2015
-permalink: <a href="http://www.soapnote.org/endocrine-metabolic/dm-history/" target="_blank">www.soapnote.org/endocrine-metabolic/dm-history/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/endocrine-metabolic/dm-history/" target="_blank">www.soapnote.org/endocrine-metabolic/dm-history/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/dm-history.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/dm-history.txt</a>[/html][/conditional]

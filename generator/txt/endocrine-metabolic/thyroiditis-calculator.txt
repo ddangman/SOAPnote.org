@@ -22,5 +22,5 @@ DIAGNOSIS --> Subacute thyroiditis[/conditional]
 reference:  <a href="http://www.aafp.org/afp/2006/0515/p1769.html" target="_blank">Am Fam Physician. 2006 May 15;73(10):1769-1776. </a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 23, 2014; August 23, 2015
-permalink: <a href="http://www.soapnote.org/endocrine-metabolic/thyroiditis-calculator/" target="_blank">www.soapnote.org/endocrine-metabolic/thyroiditis-calculator/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/endocrine-metabolic/thyroiditis-calculator/" target="_blank">www.soapnote.org/endocrine-metabolic/thyroiditis-calculator/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/thyroiditis-calculator.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/thyroiditis-calculator.txt</a>[/html][/conditional]

@@ -13,5 +13,5 @@ Plan: [html]
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/19178064" target="_blank">Harsora P, Kessmann J. Nonpharmacologic management of chronic insomnia. Am Fam Physician. 2009 Jan 15;79(2):125-30.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  January 14, 2015; September 7, 2015
-permalink: <a href="http://www.soapnote.org/mental-health/insomnia-treatment-checklist/" target="_blank">www.soapnote.org/mental-health/insomnia-treatment-checklist/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/mental-health/insomnia-treatment-checklist/" target="_blank">www.soapnote.org/mental-health/insomnia-treatment-checklist/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/insomnia-treatment-checklist.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/insomnia-treatment-checklist.txt</a>[/html][/conditional]

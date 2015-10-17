@@ -44,5 +44,5 @@ Interpretation --> [calc memo="Result" value="score2=(Q1b)+(Q2b)+(Q3b)+(Q4b)+(Q5
 reference:  AAFP Office Management of Obesity article:  <a href="http://www.aafp.org/afp/2010/0615/p1449.html" target="_blank">Goutham (2010) Am Fam Phys 81: 1449-55</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 11, 2011; August 23, 2015
-permalink: <a href="http://www.soapnote.org/endocrine-metabolic/weight-management-checklist/" target="_blank">www.soapnote.org/endocrine-metabolic/weight-management-checklist/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/endocrine-metabolic/weight-management-checklist/" target="_blank">www.soapnote.org/endocrine-metabolic/weight-management-checklist/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/weight-management-checklist.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/weight-management-checklist.txt</a>[/html][/conditional]

@@ -47,5 +47,5 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/15841682" target="_blank
 <a href="http://www.aafp.org/afp/2012/0501/p890.html" target="_blank">Post RE, Kurlansik SL. Diagnosis and Management of Attention-Deficit/Hyperactivity Disorder in Adults. Am Fam Phys. 2012 May 1;85(9):890-896.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  January 5, 2014; September 6, 2015
-permalink: <a href="http://www.soapnote.org/mental-health/asrs-adhd/" target="_blank">www.soapnote.org/mental-health/asrs-adhd/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/mental-health/asrs-adhd/" target="_blank">www.soapnote.org/mental-health/asrs-adhd/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/asrs-adhd.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/asrs-adhd.txt</a>[/html][/conditional]

@@ -12,5 +12,5 @@ Summary:  A decision tool to help determine severity of lower urinary tract symp
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/1279218" target="_blank">Barry, MJ, Fowler, FJ Jr, O'Leary, MP, et al. The American Urological Association Symptom Index for Benign Prostatic Hyperplasia. J Urol 1992; 148:1549-57</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  May 30, 2010; September 2, 2015
-permalink: <a href="http://www.soapnote.org/men/prostate-symptom-score/" target="_blank">www.soapnote.org/men/prostate-symptom-score/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/men/prostate-symptom-score/" target="_blank">www.soapnote.org/men/prostate-symptom-score/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/men/prostate-symptom-score.txt" target="_blank">www.soapnote.org/generator/txt/men/prostate-symptom-score.txt</a>[/html][/conditional]

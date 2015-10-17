@@ -4,5 +4,5 @@
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 1, 2010; September 5, 2015
-permalink: <a href="http://www.soapnote.org/pregnancy/nursing-prenatal-visit/" target="_blank">www.soapnote.org/pregnancy/nursing-prenatal-visit/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/pregnancy/nursing-prenatal-visit/" target="_blank">www.soapnote.org/pregnancy/nursing-prenatal-visit/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/pregnancy/nursing-prenatal-visit.txt" target="_blank">www.soapnote.org/generator/txt/pregnancy/nursing-prenatal-visit.txt</a>[/html][/conditional]

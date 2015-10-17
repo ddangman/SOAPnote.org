@@ -18,5 +18,5 @@ Score:  [calc value="score=(abrupt)+(stepwise)+(fluctuating)+(nocturnal)+(person
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/7396427" target="_blank">Rosen WG, Terry RD, Field PA, et al. Pathological verification of ischemic score in differentiation of dementias. Ann Neurol 1980;7:486–8.</a>, <a href="http://www.aafp.org/afp/2001/0215/p703.html" target="_blank">Early Diagnosis of Dementia, Am Fam Physician. 2001 Feb 15;63(4):703-714.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  June 16, 2010; August 30, 2015
-permalink: <a href="http://www.soapnote.org/elder-care/modified-hachinski-score-for-vascular-dementia/" target="_blank">www.soapnote.org/elder-care/modified-hachinski-score-for-vascular-dementia/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/elder-care/modified-hachinski-score-for-vascular-dementia/" target="_blank">www.soapnote.org/elder-care/modified-hachinski-score-for-vascular-dementia/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/modified-hachinski-score-for-vascular-dementia.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/modified-hachinski-score-for-vascular-dementia.txt</a>[/html][/conditional]

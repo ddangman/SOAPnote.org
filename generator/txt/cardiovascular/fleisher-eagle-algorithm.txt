@@ -13,5 +13,5 @@ Interpretation: [calc value="score=(ischemic)+(chf)+(riskysurg)+(diabetes)+(rena
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/11759647" target="_blank">Fleisher (2001) N Engl J Med 345:1677</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  February 24, 2013; August 19, 2015
-permalink: <a href="http://www.soapnote.org/cardiovascular/fleisher-eagle-algorithm/" target="_blank">www.soapnote.org/cardiovascular/fleisher-eagle-algorithm/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/fleisher-eagle-algorithm/" target="_blank">www.soapnote.org/cardiovascular/fleisher-eagle-algorithm/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/fleisher-eagle-algorithm.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/fleisher-eagle-algorithm.txt</a>[/html][/conditional]

@@ -8,5 +8,5 @@
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  June 19, 2012; August 21, 2015
-permalink: <a href="http://www.soapnote.org/endocrine-metabolic/diabetic-foot-ulcer-plan/" target="_blank">www.soapnote.org/endocrine-metabolic/diabetic-foot-ulcer-plan/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/endocrine-metabolic/diabetic-foot-ulcer-plan/" target="_blank">www.soapnote.org/endocrine-metabolic/diabetic-foot-ulcer-plan/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/diabetic-foot-ulcer-plan.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/diabetic-foot-ulcer-plan.txt</a>[/html][/conditional]

@@ -8,5 +8,5 @@ Weight gain >5 pounds: Call clinic nurse immediately
 reference:  <a href="http://www.fpnotebook.com/cv/chf/systlcdysfnctn.htm" target="_blank">FP Notebook Page</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 14, 2010; August 20, 2015
-permalink: <a href="http://www.soapnote.org/cardiovascular/loop-diuretic-sliding-scale-for-systolic-heart-failure/" target="_blank">www.soapnote.org/cardiovascular/loop-diuretic-sliding-scale-for-systolic-heart-failure/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/loop-diuretic-sliding-scale-for-systolic-heart-failure/" target="_blank">www.soapnote.org/cardiovascular/loop-diuretic-sliding-scale-for-systolic-heart-failure/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/loop-diuretic-sliding-scale-for-systolic-heart-failure.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/loop-diuretic-sliding-scale-for-systolic-heart-failure.txt</a>[/html][/conditional]

@@ -16,5 +16,5 @@ Tobacco:  [checkbox name="tobacco" value="Patient is not a smoker|Patient is a c
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 28, 2010; August 21, 2015
-permalink: <a href="http://www.soapnote.org/respiratory/cough-history/" target="_blank">www.soapnote.org/respiratory/cough-history/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/respiratory/cough-history/" target="_blank">www.soapnote.org/respiratory/cough-history/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/respiratory/cough-history.txt" target="_blank">www.soapnote.org/generator/txt/respiratory/cough-history.txt</a>[/html][/conditional]

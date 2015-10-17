@@ -12,5 +12,5 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/18415807" target="_blank
 Screening tool adapted from <a href="http://www.drive4copd.org/" target="_blank">Drive4COPD</a> campaign.
 posted by:  Jonathan Poon
 post/review dates:  December 15, 2011; August 21, 2015
-permalink: <a href="http://www.soapnote.org/respiratory/copd-screening-tool/" target="_blank">www.soapnote.org/respiratory/copd-screening-tool/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/respiratory/copd-screening-tool/" target="_blank">www.soapnote.org/respiratory/copd-screening-tool/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/respiratory/copd-screening-tool.txt" target="_blank">www.soapnote.org/generator/txt/respiratory/copd-screening-tool.txt</a>[/html][/conditional]

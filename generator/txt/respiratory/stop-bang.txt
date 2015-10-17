@@ -14,5 +14,5 @@ Interpretation --> [calc memo="result" value="score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/18431116" target="_blank">Chung F, Yegneswaran B, Liao P, Chung SA, Vairavanathan S, Islam S, Khajehdehi A, Shapiro CM. STOP questionnaire: a tool to screen patients for obstructive sleep apnea. Anesthesiology. 2008 May;108(5):812-21</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 13, 2014; September 7, 2015
-permalink: <a href="http://www.soapnote.org/respiratory/stop-bang/" target="_blank">www.soapnote.org/respiratory/stop-bang/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/respiratory/stop-bang/" target="_blank">www.soapnote.org/respiratory/stop-bang/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/respiratory/stop-bang.txt" target="_blank">www.soapnote.org/generator/txt/respiratory/stop-bang.txt</a>[/html][/conditional]

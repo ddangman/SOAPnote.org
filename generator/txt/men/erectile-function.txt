@@ -12,5 +12,5 @@ Interpretation --> [calc value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5);score2>21?'Norma
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/10637462" target="_blank">Rosen (1999) Int J Impot Res. 11:319-26</a>, <a href="http://www.fpnotebook.com/Uro/Exam/IntrntnlIndxOfErctlFnctnQstnr.htm" target="_blank">FPNotebook page</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 11, 2012; September 2, 2015
-permalink: <a href="http://www.soapnote.org/men/erectile-function/" target="_blank">www.soapnote.org/men/erectile-function/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/men/erectile-function/" target="_blank">www.soapnote.org/men/erectile-function/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/men/erectile-function.txt" target="_blank">www.soapnote.org/generator/txt/men/erectile-function.txt</a>[/html][/conditional]

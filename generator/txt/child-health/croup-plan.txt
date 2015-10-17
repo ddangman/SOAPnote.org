@@ -4,5 +4,5 @@
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 11, 2010; September 7, 2015
-permalink: <a href="http://www.soapnote.org/child-health/croup-plan/" target="_blank">www.soapnote.org/child-health/croup-plan/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/child-health/croup-plan/" target="_blank">www.soapnote.org/child-health/croup-plan/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/child-health/croup-plan.txt" target="_blank">www.soapnote.org/generator/txt/child-health/croup-plan.txt</a>[/html][/conditional]

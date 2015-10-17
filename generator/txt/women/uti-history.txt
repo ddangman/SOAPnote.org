@@ -26,5 +26,5 @@ Pertinent risk factors:
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 6, 2013; September 1, 2015
-permalink: <a href="http://www.soapnote.org/women/uti-history/" target="_blank">www.soapnote.org/women/uti-history/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/women/uti-history/" target="_blank">www.soapnote.org/women/uti-history/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/women/uti-history.txt" target="_blank">www.soapnote.org/generator/txt/women/uti-history.txt</a>[/html][/conditional]

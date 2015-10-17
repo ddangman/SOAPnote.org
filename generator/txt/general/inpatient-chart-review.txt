@@ -35,5 +35,5 @@ OVERALL COMMENTS: [text size=100]
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 17, 2014; August 28, 2015
-permalink: <a href="http://www.soapnote.org/general/inpatient-chart-review/" target="_blank">www.soapnote.org/general/inpatient-chart-review/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/general/inpatient-chart-review/" target="_blank">www.soapnote.org/general/inpatient-chart-review/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/general/inpatient-chart-review.txt" target="_blank">www.soapnote.org/generator/txt/general/inpatient-chart-review.txt</a>[/html][/conditional]

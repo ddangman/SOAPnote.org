@@ -12,5 +12,5 @@ Today, the patient is [calc value="score=(TD)-(LMP);score>294?'Does not COMPUTE.
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 5, 2012; September 5, 2015
-permalink: <a href="http://www.soapnote.org/pregnancy/wheel/" target="_blank">www.soapnote.org/pregnancy/wheel/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/pregnancy/wheel/" target="_blank">www.soapnote.org/pregnancy/wheel/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/pregnancy/wheel.txt" target="_blank">www.soapnote.org/generator/txt/pregnancy/wheel.txt</a>[/html][/conditional]

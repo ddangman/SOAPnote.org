@@ -22,5 +22,5 @@ Be sure to consider your entire life (growing up as well as adulthood) as you go
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/7712061" target="_blank">Blake DD, Weathers FW, Nagy LM, Kaloupek DG, Gusman FD, Charney DS, Keane TM. The development of a Clinician-Administered PTSD Scale. J Trauma Stress. 1995 Jan;8(1):75-90.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 1, 2014; September 7, 2015
-permalink: <a href="http://www.soapnote.org/mental-health/life-events-checklist/" target="_blank">www.soapnote.org/mental-health/life-events-checklist/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/mental-health/life-events-checklist/" target="_blank">www.soapnote.org/mental-health/life-events-checklist/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/life-events-checklist.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/life-events-checklist.txt</a>[/html][/conditional]

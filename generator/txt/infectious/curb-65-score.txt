@@ -11,5 +11,5 @@ Result --> [calc value="score=(confusion)+(BUN)+(respiration)+(BP)+(age);score>1
 reference:  <a href="http://www.aafp.org/afp/2006/0415/p1425.html" target="_blank">Am Fam Physician. 2006 Apr 15;73(8):1425-1428</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 1, 2010; September 1, 2015
-permalink: <a href="http://www.soapnote.org/infectious/curb-65-score/" target="_blank">www.soapnote.org/infectious/curb-65-score/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/infectious/curb-65-score/" target="_blank">www.soapnote.org/infectious/curb-65-score/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/infectious/curb-65-score.txt" target="_blank">www.soapnote.org/generator/txt/infectious/curb-65-score.txt</a>[/html][/conditional]

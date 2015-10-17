@@ -12,5 +12,5 @@ Score --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)" memo="score"] out of
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/5420677">Katz (1970) Gerontology 10: 20-30</a>, AAFP Geriatric assessment article: <a href="http://www.aafp.org/afp/2011/0101/p48.html">Elsawy (2011) Am Fam Phys 83: 48-56</a>.
 posted by:  Mark Morgan, M.D.
 post/review dates:  June 24, 2011; August 30, 2015
-permalink: <a href="http://www.soapnote.org/elder-care/katz-adl/" target="_blank">www.soapnote.org/elder-care/katz-adl/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/elder-care/katz-adl/" target="_blank">www.soapnote.org/elder-care/katz-adl/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/katz-adl.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/katz-adl.txt</a>[/html][/conditional]

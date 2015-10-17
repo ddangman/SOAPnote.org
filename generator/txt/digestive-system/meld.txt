@@ -22,5 +22,5 @@ Based on a MELD score of [calc value="score1=score.toFixed(0)" memo="score"][/co
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/12512033" target="_blank">Wiesner (2003) Gastroenterology 124: 91-96</a>, <a href="http://www.unos.org/docs/MELD_PELD_Calculator_Documentation.pdf" target="_blank">UNOS documentation</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  June 8, 2011; August 25, 2015
-permalink: <a href="http://www.soapnote.org/digestive-system/meld/" target="_blank">www.soapnote.org/digestive-system/meld/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/digestive-system/meld/" target="_blank">www.soapnote.org/digestive-system/meld/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/meld.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/meld.txt</a>[/html][/conditional]

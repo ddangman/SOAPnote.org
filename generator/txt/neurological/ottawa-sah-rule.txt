@@ -19,5 +19,5 @@ Interpretation --> [calc memo="Interpretation" value="score=(QA)+(QB)+(QC)+(QD)+
 reference:  <a href="http://jama.jamanetwork.com/article.aspx?articleid=1741823#.UkQq2izx9H0" target="_blank">Perry JJ, Stiell IG, Sivilotti MA, et al. Clinical Decision Rules to Rule Out Subarachnoid Hemorrhage for Acute Headache. JAMA. 2013;310(12):1248-1255.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 26, 2013; September 4, 2015
-permalink: <a href="http://www.soapnote.org/neurological/ottawa-sah-rule/" target="_blank">www.soapnote.org/neurological/ottawa-sah-rule/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/neurological/ottawa-sah-rule/" target="_blank">www.soapnote.org/neurological/ottawa-sah-rule/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/neurological/ottawa-sah-rule.txt" target="_blank">www.soapnote.org/generator/txt/neurological/ottawa-sah-rule.txt</a>[/html][/conditional]

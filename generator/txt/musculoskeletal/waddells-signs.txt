@@ -17,5 +17,5 @@ Interpretation --> [calc memo="result" value="score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5);sc
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/6446157" target="_blank">Waddell G, McCulloch JA, Kummel E, Venner RM. Nonorganic physical signs in low-back pain. Spine (Phila Pa 1976). 1980 Mar-Apr;5(2):117-25.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 24, 2014; September 3, 2015
-permalink: <a href="http://www.soapnote.org/musculoskeletal/waddells-signs/" target="_blank">www.soapnote.org/musculoskeletal/waddells-signs/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/musculoskeletal/waddells-signs/" target="_blank">www.soapnote.org/musculoskeletal/waddells-signs/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/waddells-signs.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/waddells-signs.txt</a>[/html][/conditional]

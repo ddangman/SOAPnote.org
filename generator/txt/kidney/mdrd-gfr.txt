@@ -11,5 +11,5 @@ Note:  GFR values greater than or equal to 60 mL/min/1.73 m2 should be reported 
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/10075613" target="_blank">Levey AS, Bosch JP, Lewis JB, Greene T, Rogers N, Roth D: A more accurate method to estimate glomerular filtration rate from serum creatinine: A new prediction equation. Modification of Diet in Renal Disease Study Group. Ann Intern Med 130: 461–470, 1999</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 10, 2013; September 3, 2015
-permalink: <a href="http://www.soapnote.org/kidney/mdrd-gfr/" target="_blank">www.soapnote.org/kidney/mdrd-gfr/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/kidney/mdrd-gfr/" target="_blank">www.soapnote.org/kidney/mdrd-gfr/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/kidney/mdrd-gfr.txt" target="_blank">www.soapnote.org/generator/txt/kidney/mdrd-gfr.txt</a>[/html][/conditional]

@@ -5,5 +5,5 @@ Plan: [checkbox value="Fexofenadine 60 mg twice a day|Fexofenadine 180 mg 1 tab 
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 11, 2010; February 15, 2014; September 6, 2015
-permalink: <a href="http://www.soapnote.org/ear-nose-throat/allergic-rhinitis-plan/" target="_blank">www.soapnote.org/ear-nose-throat/allergic-rhinitis-plan/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/ear-nose-throat/allergic-rhinitis-plan/" target="_blank">www.soapnote.org/ear-nose-throat/allergic-rhinitis-plan/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/allergic-rhinitis-plan.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/allergic-rhinitis-plan.txt</a>[/html][/conditional]

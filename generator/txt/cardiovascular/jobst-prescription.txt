@@ -6,5 +6,5 @@ A prescription is given for ***20-30 mm Hg Knee High Compression Stocking/20-30 
 reference:  Stephen Merry, M.D.
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 12, 2010
-permalink: <a href="http://www.soapnote.org/cardiovascular/jobst-prescription/" target="_blank">www.soapnote.org/cardiovascular/jobst-prescription/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/jobst-prescription/" target="_blank">www.soapnote.org/cardiovascular/jobst-prescription/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/jobst-prescription.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/jobst-prescription.txt</a>[/html][/conditional]

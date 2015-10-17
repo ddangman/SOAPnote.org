@@ -3,5 +3,5 @@
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 10, 2010; August 20, 2015; October 2, 2015
-permalink: <a href="http://www.soapnote.org/skin/punch-plan/" target="_blank">www.soapnote.org/skin/punch-plan/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/skin/punch-plan/" target="_blank">www.soapnote.org/skin/punch-plan/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/skin/punch-plan.txt" target="_blank">www.soapnote.org/generator/txt/skin/punch-plan.txt</a>[/html][/conditional]

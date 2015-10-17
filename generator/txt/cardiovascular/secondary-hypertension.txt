@@ -102,5 +102,5 @@ In the absence of other clinical clues, an initial workup for hypertension for o
 reference:  "Diagnosis of Secondary Hypertension: An Age-Based Approach" <a href="http://www.aafp.org/afp/2010/1215/p1471.html" target="_blank">Viera (2010) Am Fam Physician 82:1471-8</a>.
 posted by:  Mark Morgan, M.D.
 post/review dates:  December 24, 2010; August 18, 2015
-permalink: <a href="http://www.soapnote.org/cardiovascular/secondary-hypertension/" target="_blank">www.soapnote.org/cardiovascular/secondary-hypertension/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/secondary-hypertension/" target="_blank">www.soapnote.org/cardiovascular/secondary-hypertension/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/secondary-hypertension.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/secondary-hypertension.txt</a>[/html][/conditional]

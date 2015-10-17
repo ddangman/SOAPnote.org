@@ -16,5 +16,5 @@ Interpretation --> [calc memo="interpretation" value="score2=(Q1)+(Q2)+(Q3)+(Q4)
 reference:  <a href="http://www.nhlbi.nih.gov/guidelines/asthma/asthgdln.htm" target="_blank">NAEPP 2007 Guidelines</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/20141095" target="_blank">Pollart (2009) Am Fam Physician 79:  761-7.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  March 25, 2012; August 21, 2015
-permalink: <a href="http://www.soapnote.org/respiratory/asthma-control-questions/" target="_blank">www.soapnote.org/respiratory/asthma-control-questions/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/respiratory/asthma-control-questions/" target="_blank">www.soapnote.org/respiratory/asthma-control-questions/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/respiratory/asthma-control-questions.txt" target="_blank">www.soapnote.org/generator/txt/respiratory/asthma-control-questions.txt</a>[/html][/conditional]

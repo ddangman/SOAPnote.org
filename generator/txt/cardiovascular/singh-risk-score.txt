@@ -13,5 +13,5 @@ Interpretation --> [calc memo="result" value="score2=(age)+(shock)+(lma)+(renal)
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/12142101" target="_blank"> Singh M, Lennon RJ, Holmes DR, Bell MR, Rihal CS. Correlates of procedural complications and a simple integer risk score for percutaneous coronary intervention. J Am Coll Cardiol. 2002;40:387-393.</a>, <a href="http://www.aafp.org/fpm/2004/1100/p71.html" target="_blank">AFP article</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  February 19, 2014; August 20, 2015
-permalink: <a href="http://www.soapnote.org/cardiovascular/singh-risk-score/" target="_blank">www.soapnote.org/cardiovascular/singh-risk-score/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/singh-risk-score/" target="_blank">www.soapnote.org/cardiovascular/singh-risk-score/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/singh-risk-score.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/singh-risk-score.txt</a>[/html][/conditional]

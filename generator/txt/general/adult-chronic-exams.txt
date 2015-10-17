@@ -32,5 +32,5 @@
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  November 26, 2010; August 26, 2015
-permalink: <a href="http://www.soapnote.org/general/adult-chronic-exams/" target="_blank">www.soapnote.org/general/adult-chronic-exams/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/general/adult-chronic-exams/" target="_blank">www.soapnote.org/general/adult-chronic-exams/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/general/adult-chronic-exams.txt" target="_blank">www.soapnote.org/generator/txt/general/adult-chronic-exams.txt</a>[/html][/conditional]

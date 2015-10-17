@@ -16,5 +16,5 @@ Lifestyle counseling[/conditional]
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/21804146" target="_blank">De Hert M, Vancampfort D, Correll CU, Mercken V, Peuskens J, Sweers K, van Winkel R, Mitchell AJ. Guidelines for screening and monitoring of cardiometabolic risk in schizophrenia: systematic evaluation. Br J Psychiatry. 2011 Aug;199(2):99-105.</a>, <a href="http://www.nimh.nih.gov/health/publications/mental-health-medications/index.shtml#pub4" target="_blank">NIMH - Antipsychotic medications</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  January 11, 2015; September 7, 2015
-permalink: <a href="http://www.soapnote.org/mental-health/atypical-antipsychotic-monitor/" target="_blank">www.soapnote.org/mental-health/atypical-antipsychotic-monitor/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/mental-health/atypical-antipsychotic-monitor/" target="_blank">www.soapnote.org/mental-health/atypical-antipsychotic-monitor/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/atypical-antipsychotic-monitor.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/atypical-antipsychotic-monitor.txt</a>[/html][/conditional]

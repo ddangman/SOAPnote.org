@@ -9,5 +9,5 @@ Interpretation: [calc value="score=(leak);score>3?'Mixed':score>2?'Other cause o
 reference:  <a href="http://www.aafp.org/afp/2013/0415/p543.html" target="_blank">Khandelwhal (2013) Am Fam Physician 87:543</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/16702587" target="_blank">Brown (2006) Ann Intern Med 144:716</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 17, 2013; September 7, 2015
-permalink: <a href="http://www.soapnote.org/women/diagnosis-of-incontinence/" target="_blank">www.soapnote.org/women/diagnosis-of-incontinence/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/women/diagnosis-of-incontinence/" target="_blank">www.soapnote.org/women/diagnosis-of-incontinence/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/women/diagnosis-of-incontinence.txt" target="_blank">www.soapnote.org/generator/txt/women/diagnosis-of-incontinence.txt</a>[/html][/conditional]

@@ -8,5 +8,5 @@ Interpretation --> [calc memo="result" value="score2=(5.5*(bun)/(creatinine))-(4
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/24064236" target="_blank">Carrasco MP, Villarroel L, Andrade M, Calderón J, González M. Development and validation of a delirium predictive score in older people. Age Ageing 2014;43(3):346-351.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 9, 2014; August 30, 2015
-permalink: <a href="http://www.soapnote.org/elder-care/delirium-risk-score/" target="_blank">www.soapnote.org/elder-care/delirium-risk-score/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/elder-care/delirium-risk-score/" target="_blank">www.soapnote.org/elder-care/delirium-risk-score/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/delirium-risk-score.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/delirium-risk-score.txt</a>[/html][/conditional]

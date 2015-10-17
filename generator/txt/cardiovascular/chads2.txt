@@ -13,5 +13,5 @@ Interpretation --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5);score>2?'5.3% ann
 reference:  <a href="http://www.aafp.org/afp/2005/0615/p2348.html" target="_blank">Am Fam Physician. 2005 Jun 15;71(12):2348-2350. </a>, <a href="http://www.aafp.org/afp/2010/0315/p780.html" target="_blank">Am Fam Physician. 2010 Mar 15;81(6):780-782.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 12, 2013; August 18, 2015
-permalink: <a href="http://www.soapnote.org/cardiovascular/chads2/" target="_blank">www.soapnote.org/cardiovascular/chads2/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/chads2/" target="_blank">www.soapnote.org/cardiovascular/chads2/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/chads2.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/chads2.txt</a>[/html][/conditional]

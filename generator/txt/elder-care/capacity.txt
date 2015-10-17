@@ -22,5 +22,5 @@ reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/3200278" target="_blank"
 Appelbaum PS, Grisso T. Assessing patients capacities to consent to treatment. N Engl J Med. 1988 Dec 22;319(25):1635-8.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 28, 2014; August 30, 2015
-permalink: <a href="http://www.soapnote.org/elder-care/capacity/" target="_blank">www.soapnote.org/elder-care/capacity/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/elder-care/capacity/" target="_blank">www.soapnote.org/elder-care/capacity/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/capacity.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/capacity.txt</a>[/html][/conditional]

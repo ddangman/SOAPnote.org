@@ -10,5 +10,5 @@ Evaluation of <strong>Chronic Hepatitis B</strong> should include a thorough his
 reference:  AFP article on diagnosis and treatment of hepatitis B: <a href="http://www.aafp.org/afp/2010/0415/p965.html">Wilkins (2010) Am Fam Phys 81: 965-72</a>, American Association for Study of Liver Diseases (AASLD) <a href="http://www.aasld.org/practiceguidelines/Pages/default.aspx">Hepatitis B Guidelines</a>, Article with a slightly different algorithm <a href="http://www.ncbi.nlm.nih.gov/pubmed/18845489">Keefe (2008) Clin Gastroenterol Hepatol 12:1315-41</a>.
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 11, 2011; September 1, 2015
-permalink: <a href="http://www.soapnote.org/infectious/hepatitis-b-chronic/" target="_blank">www.soapnote.org/infectious/hepatitis-b-chronic/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/infectious/hepatitis-b-chronic/" target="_blank">www.soapnote.org/infectious/hepatitis-b-chronic/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/infectious/hepatitis-b-chronic.txt" target="_blank">www.soapnote.org/generator/txt/infectious/hepatitis-b-chronic.txt</a>[/html][/conditional]

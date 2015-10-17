@@ -4,5 +4,5 @@
 reference:  This is an online version of a template by Stephen P. Merry, MD, MPH, Consultant, Department of Family Medicine, Mayo Clinic, Rochester, Minnesota
 posted by:  Mark Morgan, M.D.
 post/review dates:  April 1, 2010; September 1, 2015
-permalink: <a href="http://www.soapnote.org/infectious/viral-infection-hx/" target="_blank">www.soapnote.org/infectious/viral-infection-hx/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/infectious/viral-infection-hx/" target="_blank">www.soapnote.org/infectious/viral-infection-hx/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/infectious/viral-infection-hx.txt" target="_blank">www.soapnote.org/generator/txt/infectious/viral-infection-hx.txt</a>[/html][/conditional]

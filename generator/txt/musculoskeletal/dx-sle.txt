@@ -33,5 +33,5 @@ Interpretation --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q
 reference:  <a href="http://www.aafp.org/afp/2003/1201/p2179.html" title="Am Fam Physician 2003;68:2179-86." target="_blank">Am Fam Physician 2003;68:2179-86.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 20, 2013; September 2, 2015
-permalink: <a href="http://www.soapnote.org/musculoskeletal/dx-sle/" target="_blank">www.soapnote.org/musculoskeletal/dx-sle/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/musculoskeletal/dx-sle/" target="_blank">www.soapnote.org/musculoskeletal/dx-sle/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/dx-sle.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/dx-sle.txt</a>[/html][/conditional]

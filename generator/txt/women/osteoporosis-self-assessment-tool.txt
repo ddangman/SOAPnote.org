@@ -13,5 +13,5 @@ Interpretation --> [calc memo="risk level" value="score2=((((weight)/(2.2))-(age
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/14730421" target="_blank"> Cadarette (2004) Osteoporos Int 15(5):361-366. </a>, <a href="http://fpnotebook.com/Rheum/Exam/OstprsSlfAssmntTl.htm" target="_blank">FPNotebook page</a>, 
 posted by:  Mark Morgan, M.D.
 post/review dates:  February 19, 2014; August 31, 2015
-permalink: <a href="http://www.soapnote.org/women/osteoporosis-self-assessment-tool/" target="_blank">www.soapnote.org/women/osteoporosis-self-assessment-tool/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/women/osteoporosis-self-assessment-tool/" target="_blank">www.soapnote.org/women/osteoporosis-self-assessment-tool/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/women/osteoporosis-self-assessment-tool.txt" target="_blank">www.soapnote.org/generator/txt/women/osteoporosis-self-assessment-tool.txt</a>[/html][/conditional]

@@ -32,5 +32,5 @@ E/M level for Established Patient Visit:  9921[calc value="score=((estHPI)+(estR
 reference:  <a href="http://www.aafp.org/fpm/2011/0900/p33.html" target="_blank">More on coding can be found at Family Practice Management - Hill (2011) Fam Pract Manag 18:33-38</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  July 3, 2013; August 28, 2015
-permalink: <a href="http://www.soapnote.org/general/e-m-established/" target="_blank">www.soapnote.org/general/e-m-established/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/general/e-m-established/" target="_blank">www.soapnote.org/general/e-m-established/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/general/e-m-established.txt" target="_blank">www.soapnote.org/generator/txt/general/e-m-established.txt</a>[/html][/conditional]

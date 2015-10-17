@@ -10,5 +10,5 @@ Result –-> [calc memo="interpretation" value="score2=(Q1Fever)+(Q2Cough)+(Q3No
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/0011033707">McIsaac WJ, Goel V, To T, Low DE. The validity of a sore throat score in family practice. CMAJ. 2000 Oct 3;163(7):811-5.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 19, 2014; September 1, 2015
-permalink: <a href="http://www.soapnote.org/ear-nose-throat/adapted-centor-score/" target="_blank">www.soapnote.org/ear-nose-throat/adapted-centor-score/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/ear-nose-throat/adapted-centor-score/" target="_blank">www.soapnote.org/ear-nose-throat/adapted-centor-score/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/adapted-centor-score.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/adapted-centor-score.txt</a>[/html][/conditional]

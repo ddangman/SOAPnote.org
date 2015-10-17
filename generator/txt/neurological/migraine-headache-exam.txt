@@ -13,5 +13,5 @@ Cerebellar function tests: [checkbox value="Romberg normal|finger to nose normal
 reference:  none
 posted by:  Mark Morgan, M.D.
 post/review dates:  September 6, 2013; September 4, 2015
-permalink: <a href="http://www.soapnote.org/neurological/migraine-headache-exam/" target="_blank">www.soapnote.org/neurological/migraine-headache-exam/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/neurological/migraine-headache-exam/" target="_blank">www.soapnote.org/neurological/migraine-headache-exam/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/neurological/migraine-headache-exam.txt" target="_blank">www.soapnote.org/generator/txt/neurological/migraine-headache-exam.txt</a>[/html][/conditional]

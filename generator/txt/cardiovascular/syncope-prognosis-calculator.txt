@@ -18,5 +18,5 @@ Interpretation --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q
 reference:  <a href="http://www.aafp.org/afp/2006/1015/p1367.html" target="_blank">Am Fam Physician. 2006 Oct 15;74(8):1367-1370</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/16631985" target="_blank">Quinn J, McDermott D, Stiell I, Kohn M, Wells G. Prospective validation of the San Francisco Syncope Rule to predict patients with serious outcomes. Ann Emerg Med. 2006;47:448–54</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  August 24, 2013; August 20, 2015
-permalink: <a href="http://www.soapnote.org/cardiovascular/syncope-prognosis-calculator/" target="_blank">www.soapnote.org/cardiovascular/syncope-prognosis-calculator/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/cardiovascular/syncope-prognosis-calculator/" target="_blank">www.soapnote.org/cardiovascular/syncope-prognosis-calculator/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/syncope-prognosis-calculator.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/syncope-prognosis-calculator.txt</a>[/html][/conditional]

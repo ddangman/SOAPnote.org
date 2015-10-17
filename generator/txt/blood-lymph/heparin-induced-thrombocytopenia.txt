@@ -9,5 +9,5 @@ Interpretation --> [calc memo="result" value="score2=(Q1)+(Q2)+(Q3)+(Q4);score2>
 reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16634744" target="_blank">Lo GK, Juhl D, Warkentin TE, Sigouin CS, Eichler P, Greinacher A. Evaluation of pretest clinical score (4 T's) for the diagnosis of heparin-induced thrombocytopenia in two clinical settings. J Thromb Haemost. 2006 Apr;4(4):759-65.</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  October 8, 2014; August 31, 2015
-permalink: <a href="http://www.soapnote.org/blood-lymph/heparin-induced-thrombocytopenia/" target="_blank">www.soapnote.org/blood-lymph/heparin-induced-thrombocytopenia/</a>
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/blood-lymph/heparin-induced-thrombocytopenia/" target="_blank">www.soapnote.org/blood-lymph/heparin-induced-thrombocytopenia/</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/blood-lymph/heparin-induced-thrombocytopenia.txt" target="_blank">www.soapnote.org/generator/txt/blood-lymph/heparin-induced-thrombocytopenia.txt</a>[/html][/conditional]
