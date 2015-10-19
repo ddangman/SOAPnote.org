@@ -1,29 +1,31 @@
 Charlson Comorbidity Index [comment memo="select findings below:"]
-[select name="Age" value="LESS THAN 40=0|41 TO 50=1|51 TO 60=2|61 TO 70=3|71 TO 80=4"] <-- Age
-[select name="MI" value="ABSENT=0|PRESENT=1"] <-- Myocardial Infarction
-[select name="CHF" value="ABSENT=0|PRESENT=1"] <-- Congestive Heart Failure
-[select name="PVD" value="ABSENT=0|PRESENT=1"] <-- Peripheral Vascular Disease
-[select name="CVD" value="ABSENT=0|PRESENT=1"] <-- Cerebrovascular Disease
-[select name="Hemiplegia" value="ABSENT=0|PRESENT=2"] <-- Hemiplegia
-[select name="Dementia" value="ABSENT=0|PRESENT=1"] <-- Dementia
-[select name="Pulmonary" value="ABSENT=0|PRESENT=1"] <-- Chronic Pulmonary Disease
-[select name="Tissue" value="ABSENT=0|PRESENT=1"] <-- Connective Tissue Disease
-[select name="Ulcer" value="ABSENT=0|PRESENT=1"] <-- Peptic Ulcer Disease
-[select name="Liver" value="ABSENT=0|MILD=1|MODERATE TO SEVERE=3"] <-- Liver Disease
-[select name="Diabetes" value="ABSENT=0|UNCOMPLICATED=1|END ORGAN DAMAGE=2"] <-- Diabetes Mellitus
-[select name="Renal" value="ABSENT=0|PRESENT=2"] <-- Moderate to Severe Renal Disease
-[select name="Tumor" value="ABSENT=0|PRESENT=2|METASTATIC=6"] <-- Tumor
-[select name="Leukemia" value="ABSENT=0|PRESENT=2"] <-- Leukemia
-[select name="Lymphoma" value="ABSENT=0|PRESENT=2"] <-- Malignant Lymphoma
-[select name="AIDS" value="ABSENT=0|PRESENT=6"] <-- AIDS
+[select name="Age" value="LESS THAN 50 (0 points)=0|51 TO 60 (1 point)=1|61 TO 70 (2 points)=2|71 TO 80 (2 points)=3|81 and above (4 points)=4"] <-- Age
+[select name="MI" value="ABSENT (0 points)=0|PRESENT (1 point)=1"] <-- Myocardial Infarction
+[select name="CHF" value="ABSENT (0 points)=0|PRESENT (1 point)=1"] <-- Congestive Heart Failure
+[select name="PVD" value="ABSENT (0 points)=0|PRESENT (1 point)=1"] <-- Peripheral Vascular Disease
+[select name="CVD" value="ABSENT (0 points)=0|PRESENT (1 point)=1"] <-- Cerebrovascular Disease
+[select name="Hemiplegia" value="ABSENT (0 points)=0|PRESENT (2 points)=2"] <-- Hemiplegia
+[select name="Dementia" value="ABSENT (0 points)=0|PRESENT (1 point)=1"] <-- Dementia
+[select name="Pulmonary" value="ABSENT (0 points)=0|PRESENT (1 point)=1"] <-- Chronic Pulmonary Disease
+[select name="Tissue" value="ABSENT (0 points)=0|PRESENT (1 point)=1"] <-- Connective Tissue Disease
+[select name="Ulcer" value="ABSENT (0 points)=0|PRESENT (1 point)=1"] <-- Peptic Ulcer Disease
+[select name="Liver" value="ABSENT (0 points)=0|MILD (1 point)=1|MODERATE TO SEVERE (3 points)=3"] <-- Liver Disease (Mild = cirrhosis without portal hypertension or chronic hepatitis; Moderate to Severe = cirrhosis with portal hypertension with or without variceal bleeding)
+[select name="Diabetes" value="ABSENT (0 points)=0|UNCOMPLICATED (1 point)=1|END ORGAN DAMAGE (2 points)=2"] <-- Diabetes Mellitus
+[select name="Renal" value="ABSENT (0 points)=0|PRESENT (2 points)=2"] <-- Moderate to Severe Renal Disease (creatinine > 3, dialysis, kidney transplant history, or uremia)
+[select name="Tumor" value="ABSENT (0 points)=0|PRESENT (2 points)=2|METASTATIC (6 points)=6"] <-- Tumor
+[select name="Leukemia" value="ABSENT (0 points)=0|PRESENT (2 points)=2"] <-- Leukemia
+[select name="Lymphoma" value="ABSENT (0 points)=0|PRESENT (2 points)=2"] <-- Malignant Lymphoma
+[select name="AIDS" value="ABSENT (0 points)=0|PRESENT (6 points)=6"] <-- AIDS
 --------------------------------------------------------
 Results:
+Score:  [calc value="score0=(Age)+(MI)+(CHF)+(PVD)+(CVD)+(Hemiplegia)+(Dementia)+(Pulmonary)+(Tissue)+(Ulcer)+(Liver)+(Diabetes)+(Renal)+(Tumor)+(Leukemia)+(Lymphoma)+(AIDS)" memo="number"]
+
 12 month mortality (does not utilize age and is based on 1996 article):  [calc value="score=(MI)+(CHF)+(PVD)+(CVD)+(Hemiplegia)+(Dementia)+(Pulmonary)+(Tissue)+(Ulcer)+(Liver)+(Diabetes)+(Renal)+(Tumor)+(Leukemia)+(Lymphoma)+(AIDS);score>6?'Extremely High (37.12 percent)':score>4?'Very High (32.55 percent)':score>2?'High (19.27 percent)':score>0?'Medium (10.14 percent)':'Low (3.05 percent)'" memo="score interpretation"] 
 
 10 year survival (utilizes age and is based on 1994 article): [calc value="score=(100*(Math.pow(.983,(Math.exp(((Age)+(MI)+(CHF)+(PVD)+(CVD)+(Hemiplegia)+(Dementia)+(Pulmonary)+(Tissue)+(Ulcer)+(Liver)+(Diabetes)+(Renal)+(Tumor)+(Leukemia)+(Lymphoma)+(AIDS))*0.9))))).toFixed(2)" memo="score interpretation"] percent
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
 reference:  <a href="http://www.fpnotebook.com/prevent/Exam/ChrlsnCmrbdtyIndx.htm" target="_blank">FP Notebook Page</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/3558716" target="_blank">Original article: Charlson (1987) J Chronic Dis 40: 373-83</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/8991959" target="_blank">A validation (used for 12 month mortality rate): D'Hoore (1996) J Clin Epidemiol 49:1429-33</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/7722560" target="_blank">A validation (used for 10 year survival rate): Charlson (1994) J Clin Epidemiol 47:1245-51</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/22412005" target="_blank">Huntley (2012) Ann Fam Med 10:134-41</a>
 posted by:  Mark Morgan, M.D.
-post/review dates:  June 16, 2010; August 30, 2015
+post/review dates:  June 16, 2010; August 30, 2015; October 19, 2015
 revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/charlson-comorbidity-index.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/charlson-comorbidity-index.txt</a>
 markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/charlson-comorbidity-index.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/charlson-comorbidity-index.txt</a>[/html][/conditional]
