@@ -30,8 +30,8 @@ preg_match_all("/$regex/is",$content,$matched);
 ?>
 <!DOCTYPE html>
 <body>
+	<div class="col-sm-9">
         <h3>Form generator</h3>
-        
         <div class="panel panel-default">
                 <div class="panel-heading">
                  <button id="open_btn" class="btn btn-primary">Open File</button>
@@ -121,5 +121,6 @@ preg_match_all("/$regex/is",$content,$matched);
         });
         
 </script>
+	</div>
 </body>
 </html>
