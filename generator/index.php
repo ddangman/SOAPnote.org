@@ -30,97 +30,107 @@ preg_match_all("/$regex/is",$content,$matched);
 ?>
 <!DOCTYPE html>
 <body>
-	<div class="col-sm-9">
-        <h3>Form generator</h3>
-        <div class="panel panel-default">
-                <div class="panel-heading">
-                 <button id="open_btn" class="btn btn-primary">Open File</button>
-                 <button id="save_btn" class="btn btn-primary">Save file</button>
-                 <button id="download_txt_btn" class="btn btn-primary" style="display:none">Download txt file</button>
-                </div>
-                <div class="panel-body">
-                <div class="form-group">
-                  <label >Form Title:</label>
-                  <input type="text" class="form-control" id="formTitle" name="formTitle" value="<?php echo $fileName ?>">
-                </div>
-                <div class="form-group">
-                <label >Form Content:</label>
-                <textarea name="content" id="content" class="form-control" rows=25><?php echo $content ?></textarea>
-                </div>
-                </div>
-                <div class="panel-footer" style="text-align:center">
-                        <button id="generate_btn" class="btn btn-primary">Generate Form</button>
-                        <button id="download_form" class="btn btn-primary" style="display:none">Download form</button>
-                </div>
-        </div>
-        
-        <div class="panel panel-default">
-                <div class="panel-heading">
-                 Form Display 
-                </div>
-                <div class="panel-body">
-                <iframe src="" id="iframeForm" style="width:100%; height:800px"></iframe>
-                </div>
-        </div>
-        
-</div>
+	<ul class="breadcrumb">
+		<li><a href="/">Home</a></li>
+		<li class="active">Form Generator</li>
+	</ul>
+	<?php 
+	 include('../lib/nav-pills.html');
+	?>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-9">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					 <button id="open_btn" class="btn btn-primary">Open File</button>
+					 <button id="save_btn" class="btn btn-primary">Save file</button>
+					 <button id="download_txt_btn" class="btn btn-primary" style="display:none">Download txt file</button>
+					</div>
+					<div class="panel-body">
+					<div class="form-group">
+					  <label >Form Title:</label>
+					  <input type="text" class="form-control" id="formTitle" name="formTitle" value="<?php echo $fileName ?>">
+					</div>
+					<div class="form-group">
+					<label >Form Content:</label>
+					<textarea name="content" id="content" class="form-control" rows=25><?php echo $content ?></textarea>
+					</div>
+					</div>
+					<div class="panel-footer" style="text-align:center">
+							<button id="generate_btn" class="btn btn-primary">Generate Form</button>
+							<button id="download_form" class="btn btn-primary" style="display:none">Download form</button>
+					</div>
+			</div>
+	
+			<div class="panel panel-default">
+					<div class="panel-heading">
+					 Form Display 
+					</div>
+					<div class="panel-body">
+					<iframe src="" id="iframeForm" style="width:100%; height:800px"></iframe>
+					</div>
+			</div>
+	
+	</div>
 
-<script type="text/javascript">
-        $(document).ready(function(){   
-                $("#open_btn").click(function() {
-                        $.FileDialog({
-                                 accept: "text/plain",
-                                 dropheight: 150,
-                                 multiple: false,
-                                 readAs : "Text"
-                        }).on('files.bs.filedialog', function(ev) {
-                                        var files_list = ev.files;
-                                        $('#content').val(files_list[0].content);
-                                        $('#formTitle').val(files_list[0].name.replace('.txt',''));
-                                        
-                                        
-                                });
-                });
-                
-                $("#download_txt_btn").click(function() { 
-                        window.open("<?php echo APP_URL ?>/downloadFile.php?type=txt", "_blank");
-                });
-                
-                $("#download_form").click(function() { 
-                        window.open("<?php echo APP_URL ?>/downloadFile.php?type=zip", "_blank");
-                });
-                
-                $("#generate_btn").click(function() { 
-                        $.post('<?php echo APP_URL ?>/ajax.php', {act: "generateForm",formTitle:$('#formTitle').val(), content: $('#content').val()}, function(result){
-                                if(result == '') {
-                                        alert('something wrong');
-                                } else {
-                                        $("#iframeForm").attr('src', result);
-                                        $("#download_form").show();
-                                }
-                        });
-                        
-                });
-                
-                $("#save_btn").click(function() { 
-                        $.post('<?php echo APP_URL ?>/ajax.php', {act: "saveFile", formTitle:$('#formTitle').val(), content: $('#content').val()}, function(result){
-                                if(result == '') {
-                                        alert('something wrong');
-                                } else {
-                                        $( "#download_txt_btn" ).trigger( "click" );
-                                }
-                        });
-                        return;
-                });
-                
-                <?php
-                if(!empty($content)) {
-                        echo '$( "#generate_btn" ).trigger( "click" );';
-                }
-                ?>
-        });
-        
-</script>
+	<script type="text/javascript">
+			$(document).ready(function(){   
+					$("#open_btn").click(function() {
+							$.FileDialog({
+									 accept: "text/plain",
+									 dropheight: 150,
+									 multiple: false,
+									 readAs : "Text"
+							}).on('files.bs.filedialog', function(ev) {
+											var files_list = ev.files;
+											$('#content').val(files_list[0].content);
+											$('#formTitle').val(files_list[0].name.replace('.txt',''));
+									
+									
+									});
+					});
+			
+					$("#download_txt_btn").click(function() { 
+							window.open("<?php echo APP_URL ?>/downloadFile.php?type=txt", "_blank");
+					});
+			
+					$("#download_form").click(function() { 
+							window.open("<?php echo APP_URL ?>/downloadFile.php?type=zip", "_blank");
+					});
+			
+					$("#generate_btn").click(function() { 
+							$.post('<?php echo APP_URL ?>/ajax.php', {act: "generateForm",formTitle:$('#formTitle').val(), content: $('#content').val()}, function(result){
+									if(result == '') {
+											alert('something wrong');
+									} else {
+											$("#iframeForm").attr('src', result);
+											$("#download_form").show();
+									}
+							});
+					
+					});
+			
+					$("#save_btn").click(function() { 
+							$.post('<?php echo APP_URL ?>/ajax.php', {act: "saveFile", formTitle:$('#formTitle').val(), content: $('#content').val()}, function(result){
+									if(result == '') {
+											alert('something wrong');
+									} else {
+											$( "#download_txt_btn" ).trigger( "click" );
+									}
+							});
+							return;
+					});
+			
+					<?php
+					if(!empty($content)) {
+							echo '$( "#generate_btn" ).trigger( "click" );';
+					}
+					?>
+			});
+	
+	</script>
+	</div>
+	</div>
 	</div>
 </body>
 </html>
