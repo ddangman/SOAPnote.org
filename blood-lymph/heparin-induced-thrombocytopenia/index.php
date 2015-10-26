@@ -7,7 +7,7 @@
   <li class="active">Heparin Induced Thrombocytopenia Pre-Test Scoring System</li>
 </ol>
 <?php 
- include('../lib/nav-pills.html');
+ include('../../lib/nav-pills.html');
 ?>
 <div id="container" class="container">
 <?php 

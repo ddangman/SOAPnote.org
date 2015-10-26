@@ -7,7 +7,7 @@
   <li class="active">Pulmonary Embolism Rule out Criteria – PERC Rule</li>
 </ol>
 <?php 
- include('../lib/nav-pills.html');
+ include('../../lib/nav-pills.html');
 ?>
 <div id="container" class="container">
 <?php 

@@ -7,7 +7,7 @@
   <li class="active">VTE risk after surgery</li>
 </ol>
 <?php 
- include('../lib/nav-pills.html');
+ include('../../lib/nav-pills.html');
 ?>
 <div id="container" class="container">
 <?php 
