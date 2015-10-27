@@ -43,9 +43,29 @@ preg_match_all("/$regex/is",$content,$matched);
 				<div class="panel panel-default">
 					<div class="panel-heading">
 					 <button id="open_btn" class="btn btn-primary">Open File</button>
+                                         <button id= "archive_btn" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Archived Files</button>
 					 <button id="save_btn" class="btn btn-primary">Save file</button>
 					 <button id="download_txt_btn" class="btn btn-primary" style="display:none">Download txt file</button>
+                                        
 					</div>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                          <div class="modal-dialog">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                <h4 class="modal-title" id="myModalLabel">Archived Files</h4>
+                                              </div>
+                                              <div class="modal-body">
+                                                  <iframe id="archived_file_frame" src="http://www.soapnote.org/generator/github/github.php" width="100%" height="380" frameborder="0" allowtransparency="true"></iframe>  
+                                              </div>
+                                            </div>
+                                            <!-- /.modal-content -->
+                                          </div>
+                                          <!-- /.modal-dialog -->
+                                        </div>
+                                        <!-- /.modal -->
 					<div class="panel-body">
 					<div class="form-group">
 					  <label >Form Title:</label>
