@@ -3,13 +3,12 @@
 ?>
 <ul class="breadcrumb">
     <li><a href="/">Home</a></li>
+  <li><a href="/categories/">Categories</a></li>
     <li class="active">Endocrine</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
+
 <div id="container" class="container">
-<ul>
+<ul class="nav nav-pills nav-stacked">
 					<li><a href="/endocrine-metabolic/bmi-calc/">Body Mass Index (BMI) Calculator</a></li>
 					<li><a href="/cardiovascular/dm-cardiac-risk/">Cardiac Risk in Diabetes Calculator (UKPDS)</a></li>
 					<li><a href="/endocrine-metabolic/diabetes-plan/">Diabetes Assessment/Plan</a></li>

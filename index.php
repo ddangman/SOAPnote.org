@@ -4,9 +4,6 @@ include('lib/main-header.php');
 <ul class="breadcrumb">
     <li class="active">Home</li>
 </ul>
-<?php 
- include('lib/nav-pills.html');
-?>
 <div class="container">
 	<div class="row">
 		<div class="col-sm-9">

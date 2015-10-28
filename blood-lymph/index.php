@@ -3,13 +3,11 @@
 ?>
 <ul class="breadcrumb">
     <li><a href="/">Home</a></li>
+  <li><a href="/categories/">Categories</a></li>
     <li class="active">Hematology and Oncology</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
 <div id="container" class="container">
-<ul>
+<ul class="nav nav-pills nav-stacked">
 					<li><a href="/blood-lymph/anemia-evalulation/">Anemia Evaluation</a></li>
 					<li><a href="/blood-lymph/heparin-induced-thrombocytopenia/">Heparin Induced Thrombocytopenia Pre-Test Scoring System</a></li>
 					<li><a href="/blood-lymph/perc/">Pulmonary Embolism Rule out Criteria – PERC Rule</a></li>

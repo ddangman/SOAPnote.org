@@ -34,9 +34,9 @@ preg_match_all("/$regex/is",$content,$matched);
 		<li><a href="/">Home</a></li>
 		<li class="active">Form Generator</li>
 	</ul>
-	<?php 
+	<!-- <?php 
 	 include('../lib/nav-pills.html');
-	?>
+	?> -->
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-9">

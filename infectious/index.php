@@ -3,13 +3,12 @@
 ?>
 <ul class="breadcrumb">
     <li><a href="/">Home</a></li>
+  <li><a href="/categories/">Categories</a></li>
     <li class="active">Infectious Disease</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
+
 <div id="container" class="container">
-<ul>
+<ul class="nav nav-pills nav-stacked">
 					<li><a href="/ear-nose-throat/acute-bacterial-rhinosinusitis/">Acute Bacterial Rhinosinusitis Decision Tool</a></li>
 					<li><a href="/infectious/curb-65-score/">CURB-65 Score for Pneumonia</a></li>
 					<li><a href="/infectious/diehr-rule/">Diehr Rule to Diagnose Pneumonia</a></li>

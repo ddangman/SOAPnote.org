@@ -3,13 +3,12 @@
 ?>
 <ul class="breadcrumb">
     <li><a href="/">Home</a></li>
+  <li><a href="/categories/">Categories</a></li>
     <li class="active">Otolaryngology</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
+
 <div id="container" class="container">
-<ul>
+<ul class="nav nav-pills nav-stacked">
 					<li><a href="/ear-nose-throat/acute-bacterial-rhinosinusitis/">Acute Bacterial Rhinosinusitis Decision Tool</a></li>
 					<li><a href="/ear-nose-throat/adapted-centor-score/">Adapted Centor Score for Strep Throat</a></li>
 					<li><a href="/ear-nose-throat/allergic-rhinitis-plan/">Allergic Rhinitis Assessment/Plan</a></li>

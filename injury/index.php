@@ -3,13 +3,12 @@
 ?>
 <ul class="breadcrumb">
     <li><a href="/">Home</a></li>
+  <li><a href="/categories/">Categories</a></li>
     <li class="active">Injury and Poisoning</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
+
 <div id="container" class="container">
-<ul>
+<ul class="nav nav-pills nav-stacked">
 					<li><a href="/injury/assault-history/">Assault History</a></li>
 					<li><a href="/injury/bite-wound-history/">Bite Wound History</a></li>
 					<li><a href="/injury/burn-exam/">Burn Exam</a></li>

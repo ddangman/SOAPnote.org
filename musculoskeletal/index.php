@@ -3,13 +3,12 @@
 ?>
 <ul class="breadcrumb">
     <li><a href="/">Home</a></li>
+  <li><a href="/categories/">Categories</a></li>
     <li class="active">Musculoskeletal</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
+
 <div id="container" class="container">
-<ul>
+<ul class="nav nav-pills nav-stacked">
 					<li><a href="/musculoskeletal/ottawa-ankle-and-foot-rules/">Ankle and Foot Rules - Ottawa</a></li>
 					<li><a href="/musculoskeletal/ankle-sprain-plan/">Ankle Sprain Assessment/Plan</a></li>
 					<li><a href="/musculoskeletal/inflammatory-vs-noninflammatory/">Arthritis Decision Tool #1 - Chronic Inflammatory Polyarthritis</a></li>

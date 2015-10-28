@@ -3,13 +3,12 @@
 ?>
 <ul class="breadcrumb">
     <li><a href="/">Home</a></li>
+  <li><a href="/categories/">Categories</a></li>
     <li class="active">Neurology</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
+
 <div id="container" class="container">
-<ul>
+<ul class="nav nav-pills nav-stacked">
 					<li><a href="/neurological/acute-neuro-hx/">Acute Neurological Change History</a></li>
 					<li><a href="/neurological/aloc-hx/">Altered Level of Consciousness History</a></li>
 					<li><a href="/neurological/dizziness-history/">Dizziness History</a></li>

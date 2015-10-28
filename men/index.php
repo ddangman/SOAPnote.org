@@ -3,13 +3,12 @@
 ?>
 <ul class="breadcrumb">
     <li><a href="/">Home</a></li>
+  <li><a href="/categories/">Categories</a></li>
     <li class="active">Men's Health</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
+
 <div id="container" class="container">
-<ul>
+<ul class="nav nav-pills nav-stacked">
 					<li><a href="/men/erectile-function/">Erectile Dysfunction - International Index of Erectile Function Questionnaire</a></li>
 					<li><a href="/men/male-exam/">Male Exam</a></li>
 					<li><a href="/men/male-gme/">Male General Medical Examination</a></li>

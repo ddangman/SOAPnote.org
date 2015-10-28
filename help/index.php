@@ -5,9 +5,7 @@
     <li><a href="/">Home</a></li>
     <li class="active">Help</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
+
 <div id="container" class="container">
 Please feel free to <a href="mailto:mark@soapnote.org">email us</a> if you have any questions or you would like to report a problem.
 </br>

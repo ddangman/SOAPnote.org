@@ -3,13 +3,12 @@
 ?>
 <ul class="breadcrumb">
     <li><a href="/">Home</a></li>
+  <li><a href="/categories/">Categories</a></li>
     <li class="active">Gynecology</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
+
 <div id="container" class="container">
-<ul>
+<ul class="nav nav-pills nav-stacked">
 					<li><a href="/women/breast-exam/">Breast Exam</a></li>
 					<li><a href="/women/contraception-plan/">Contraception Assessment/Plan</a></li>
 					<li><a href="/women/contraception-quick-start/">Contraception Quick Start Algorithm</a></li>

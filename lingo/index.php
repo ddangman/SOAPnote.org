@@ -5,9 +5,7 @@
     <li><a href="/">Home</a></li>
     <li class="active">SOAPnote Markup</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
+
 <div id="container" class="container-fluid">
 	<div class="row">
 		<div class="col-sm-3">
@@ -55,9 +53,9 @@
 			</li>
 			</ul>
 			</li>
-			</ul>
+			</ul>			
 		</div>
-		<div class="col-sm-6">
+		<div class="col-sm-9">
 			<h2><a name="getstarted"></a>Getting started making Soapnotes</h2>
 		To save you time, there are a few suggestions that I have before you dive in.
 		<ul>

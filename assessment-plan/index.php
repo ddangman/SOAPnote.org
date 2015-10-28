@@ -3,13 +3,12 @@
 ?>
 <ul class="breadcrumb">
     <li><a href="/">Home</a></li>
+  <li><a href="/categories/">Categories</a></li>
     <li class="active">Assessment/Plan Elements</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
+
 <div id="container" class="container">
-<ul>
+<ul class="nav nav-pills nav-stacked">
 					<li><a href="/child-health/1-week-plan/">1 Week Plan</a></li>
 					<li><a href="/child-health/2-month-plan/">2 Month Plan</a></li>
 					<li><a href="/child-health/4-month-plan/">4 Month Plan</a></li>

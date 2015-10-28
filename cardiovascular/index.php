@@ -3,13 +3,12 @@
 ?>
 <ul class="breadcrumb">
     <li><a href="/">Home</a></li>
+  <li><a href="/categories/">Categories</a></li>
     <li class="active">Cardiology</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
+
 <div id="container" class="container">
-<ul>
+<ul class="nav nav-pills nav-stacked">
 					<li><a href="/cardiovascular/aaa-prognosis-surveillance/">Abdominal Aortic Aneurysm Prognosis and Surveillance</a></li>
 					<li><a href="/cardiovascular/grace-mortality-score/">Acute Coronary Syndrome - GRACE Mortality Score</a></li>
 					<li><a href="/cardiovascular/rouan/">Acute Coronary Syndrome - Rouan Decision Rule for Myocardial Infarction</a></li>

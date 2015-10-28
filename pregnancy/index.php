@@ -3,13 +3,12 @@
 ?>
 <ul class="breadcrumb">
     <li><a href="/">Home</a></li>
+  <li><a href="/categories/">Categories</a></li>
     <li class="active">Obstetrics</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
+
 <div id="container" class="container">
-<ul>
+<ul class="nav nav-pills nav-stacked">
 					<li><a href="/pregnancy/fht-interpretation/">Fetal Heart Tracing Interpretation</a></li>
 					<li><a href="/pregnancy/maternity-admission-note/">Maternity Hospital Admission Note</a></li>
 					<li><a href="/pregnancy/maternity-dismissal-summary/">Maternity Hospital Dismissal Summary</a></li>

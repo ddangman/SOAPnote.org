@@ -3,13 +3,12 @@
 ?>
 <ul class="breadcrumb">
     <li><a href="/">Home</a></li>
+  <li><a href="/categories/">Categories</a></li>
     <li class="active">General</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
+
 <div id="container" class="container">
-<ul>
+<ul class="nav nav-pills nav-stacked">
 					<li><a href="/general/acute-adult-physical-exams/">Adult Acute Physical Exams</a></li>
 					<li><a href="/general/adult-chronic-exams/">Adult Chronic Disease Physical Exams</a></li>
 					<li><a href="/general/care-management/">Care Management Documentation</a></li>

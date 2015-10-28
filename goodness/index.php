@@ -5,9 +5,7 @@
     <li><a href="/">Home</a></li>
     <li class="active">Goodness</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
+
 <div id="container" class="container">
 There is a lot you can do here.  There's a huge amount of stuff here.  Do something good with it.  Help a patient with it.  That's why it's here.  That's why it has to be free and shared.
 </br>

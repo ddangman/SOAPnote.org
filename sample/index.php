@@ -3,13 +3,12 @@
 ?>
 <ul class="breadcrumb">
     <li><a href="/">Home</a></li>
+  <li><a href="/categories/">Categories</a></li>
     <li class="active">Samples/Snippets</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
+
 <div id="container" class="container">
-<ul>
+<ul class="nav nav-pills nav-stacked">
 					<li><a href="/sample/boilerplate/">Boilerplate Sample</a></li>
 					<li><a href="/sample/calculation/">Calculation Sample</a></li>
 					<li><a href="/sample/check-boxes/">Check Box Sample</a></li>

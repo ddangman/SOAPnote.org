@@ -3,13 +3,12 @@
 ?>
 <ul class="breadcrumb">
     <li><a href="/">Home</a></li>
+  <li><a href="/categories/">Categories</a></li>
     <li class="active">Pulmonology</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
+
 <div id="container" class="container">
-<ul>
+<ul class="nav nav-pills nav-stacked">
 					<li><a href="/respiratory/asthma-control/">Asthma Control Decision Tool</a></li>
 					<li><a href="/respiratory/asthma-hx/">Asthma History</a></li>
 					<li><a href="/respiratory/asthma-severity/">Asthma Severity Classification</a></li>

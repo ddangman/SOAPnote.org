@@ -3,13 +3,12 @@
 ?>
 <ul class="breadcrumb">
     <li><a href="/">Home</a></li>
+  <li><a href="/categories/">Categories</a></li>
     <li class="active">Psychiatry</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
+
 <div id="container" class="container">
-<ul>
+<ul class="nav nav-pills nav-stacked">
 					<li><a href="/mental-health/asrs-adhd/">ADHD: Adult Self-Report Scale</a></li>
 					<li><a href="/mental-health/conners-history-adhd/">ADHD: Connors' Index History</a></li>
 					<li><a href="/mental-health/adhd-criteria/">ADHD: DSM-IV Criteria for Attention Deficit Hyperactivity Disorder</a></li>

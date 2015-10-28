@@ -3,13 +3,12 @@
 ?>
 <ul class="breadcrumb">
     <li><a href="/">Home</a></li>
+  <li><a href="/categories/">Categories</a></li>
     <li class="active">Gastroenterology</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
+
 <div id="container" class="container">
-<ul>
+<ul class="nav nav-pills nav-stacked">
 					<li><a href="/digestive-system/abdominal-exam/">Abdominal Exam</a></li>
 					<li><a href="/digestive-system/abdominal-pain-history/">Abdominal Pain History</a></li>
 					<li><a href="/digestive-system/bard/">BARD Score for Advanced Fibrosis in Nonalcoholic Fatty Liver</a></li>

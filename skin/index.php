@@ -3,13 +3,12 @@
 ?>
 <ul class="breadcrumb">
     <li><a href="/">Home</a></li>
+  <li><a href="/categories/">Categories</a></li>
     <li class="active">Dermatology</li>
 </ul>
-<?php 
- include('../lib/nav-pills.html');
-?>
+
 <div id="container" class="container">
-<ul>
+<ul class="nav nav-pills nav-stacked">
 					<li><a href="/skin/acne-plan/">Acne Assessment/Plan</a></li>
 					<li><a href="/skin/atopic-dermatitis-plan/">Atopic Dermatitis Assessment/Plan</a></li>
 					<li><a href="/skin/eczema-plan/">Eczema Assessment/Plan</a></li>
