@@ -70,7 +70,7 @@
 		Aside from the ones below, there's a lot of other calculators and forms you can take a look at and shamelessly steal from, too.  Just go to "Markup View", "Duplicate" the form and make your changes. Easy!
 		<h3><a name="boilerplate"></a>Boilerplate</h3>
 		This is simply text entered into a form. Nothing interactive or customized here.
-		Here is a sample of <a href="/sample/sample-boilerplate/">boilerplate</a>.
+		Here is a sample of <a href="/sample/boilerplate/">boilerplate</a>.
 		<h3><a name="textbox"></a>Text Box</h3>
 		This displays a small text box for entry of a few words.
 		Code for this is: [text]
@@ -144,7 +144,6 @@
 		<em><strong><mark>This italic, bold, highlighted text also does not go into the output.</mark></strong></em>
 		<small>This small text does not go to output.</small>
 		<del>Finally, this deleted text does go to output either.</del>[/html]
-		Here are samples with <a href="http://www.soapnote.org/tag/html/" target="_blank">HTML markup</a>.
 		<h3><a name="mark"></a>Marks</h3>
 		A mark allows you to jump from one place in a form to another. A link is needed to send the user to a mark.
 		Code for this is: [mark]
@@ -208,7 +207,6 @@
 		Code for this is [conditional] and [/conditional]
 		Example 1:
 		[conditional field="xxx" condition="<em>condition to test</em>"] <em>any text to display if condition is true</em> [/conditional]
-		Here are samples with <a href="http://www.soapnote.org/tag/conditional/" target="_blank">conditions</a>.
 		<h4><a name="operators"></a>Using Operators</h4>
 		These are operators within an <strong>individual comparison</strong>
 		isLess
@@ -256,7 +254,7 @@
 		<em>(B)</em> refers to the name of the second [text] input field.
 		In between <em>(A)</em> and <em>(B)</em> is the operator (+, -, *, and /).
 		The result shows up in the result box after Submit is pressed.
-		Here are more sample <a href="http://www.soapnote.org/sample/sample-calculation/" target="_blank">calculators</a>.
+		Here are more sample <a href="http://www.soapnote.org/sample/calculation/" target="_blank">calculators</a>.
 		<h4><a name="interpretation"></a>Interpreted calculations</h4>
 		A sample with an interpreted computation is <a href="http://www.soapnote.org/sample/interpreted-computation/" target="_blank">here</a>.
 		This feature is valuable because it allows you to group ranges of results.

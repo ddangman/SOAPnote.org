@@ -24,6 +24,7 @@
 					<li><a href="/neurological/abcd2/">Stroke Risk - ABCD2 Score for CVA Risk after TIA</a></li>
 					<li><a href="/cardiovascular/accp-stroke-risk-calculator/">Stroke Risk - ACCP Stroke Risk Calculator</a></li>
 					<li><a href="/neurological/ottawa-sah-rule/">Subarachnoid Hemorrhage (SAH) - Ottawa Rule</a></li>				
-					<li><a href="www.soapnote.org/cardiovascular/oesil-risk-score/">Syncope - OESIL Risk Score for Syncope</a></li>				<li><a href="/cardiovascular/syncope-prognosis-calculator/">Syncope Prognosis Calculator</a></li>
+					<li><a href="/cardiovascular/oesil-risk-score/">Syncope - OESIL Risk Score for Syncope</a></li>			
+					<li><a href="/cardiovascular/syncope-prognosis-calculator/">Syncope Prognosis Calculator</a></li>
 					<li><a href="/cardiovascular/rose-risk-score/">Syncope - ROSE Risk Score for Syncope</a></li>		
 </ul></div>

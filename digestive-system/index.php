@@ -13,7 +13,7 @@
 					<li><a href="/digestive-system/abdominal-pain-history/">Abdominal Pain History</a></li>
 					<li><a href="/digestive-system/bard/">BARD Score for Advanced Fibrosis in Nonalcoholic Fatty Liver</a></li>
 					<li><a href="/digestive-system/child-pugh-score/">Child-Pugh Score for Liver Failure</a></li>
-					<li><a href="endocrine-metabolic/dietary-fiber-plan/">Dietary Fiber Plan (featuring Mary Jo's Delicious Snack Mix)</a></li>
+					<li><a href="/endocrine-metabolic/dietary-fiber-plan/">Dietary Fiber Plan (featuring Mary Jo's Delicious Snack Mix)</a></li>
 					<li><a href="/digestive-system/diverticulitis-decision-rule/">Diverticulitis Decision Rule</a></li>
 					<li><a href="/digestive-system/dyspepsia-eval/">Dyspepsia Evaluation Decision Tool</a></li>
 					<li><a href="/digestive-system/gastroenteritis-plan/">Gastroenteritis Assessment/Plan</a></li>

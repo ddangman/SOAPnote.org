@@ -115,7 +115,7 @@
 			<li><a href="/digestive-system/abdominal-pain-history/">Abdominal Pain History</a></li>
 			<li><a href="/digestive-system/bard/">BARD Score for Advanced Fibrosis in Nonalcoholic Fatty Liver</a></li>
 			<li><a href="/digestive-system/child-pugh-score/">Child-Pugh Score for Liver Failure</a></li>
-			<li><a href="endocrine-metabolic/dietary-fiber-plan/">Dietary Fiber Plan (featuring Mary Jo's Delicious Snack Mix)</a></li>
+			<li><a href="/endocrine-metabolic/dietary-fiber-plan/">Dietary Fiber Plan (featuring Mary Jo's Delicious Snack Mix)</a></li>
 			<li><a href="/digestive-system/diverticulitis-decision-rule/">Diverticulitis Decision Rule</a></li>
 			<li><a href="/digestive-system/dyspepsia-eval/">Dyspepsia Evaluation Decision Tool</a></li>
 			<li><a href="/digestive-system/gastroenteritis-plan/">Gastroenteritis Assessment/Plan</a></li>
@@ -176,7 +176,7 @@
 			<li role="separator" class="divider"></li>
 			<li><a href="/elder-care/4-year-prognostic-index">4 Year Prognostic Index</a></li>
 			<li><a href="/elder-care/barthel-adl/">Activities of Daily Living (Barthel Index)</a></li>
-			<li><a href="/elder-care/confucsion-assessment-method/">CAM-S Confusion Assessment Method</a></li>
+			<li><a href="/elder-care/confusion-assessment-method/">CAM-S Confusion Assessment Method</a></li>
 			<li><a href="/elder-care/charlson-comorbidity-index/">Charlson Comorbidity Index</a></li>
 			<li><a href="/elder-care/capacity/">Checklist for Capacity to Make Treatment Decisions</a></li>
 			<li><a href="/elder-care/cognitive-problems-history/">Cognitive Problems History</a></li>
@@ -193,7 +193,7 @@
 			<li><a href="/elder-care/geriatric-comprehensive-assessment-history/">Geriatric Comprehensive Assessment (History)</a></li>
 			<li><a href="/elder-care/geriatric-depression-scale/">Geriatric Depression Scale</a></li>
 			<li><a href="/elder-care/katz-adl/">Index of Independence in Activities of Daily Living Calculator (Katz)</a></li>
-			<li><a href="/elder-care/lawton-adl/">Instrumental Activities of Daily Living Calculator (Lawton)</a></li>
+			<li><a href="/elder-care/lawton-iadl/">Instrumental Activities of Daily Living Calculator (Lawton)</a></li>
 			<li><a href="/elder-care/bims/">Mental Status - Brief Interview for Mental Status (BIMS)</a></li>
 			<li><a href="/elder-care/slums/">Mental Status Examination - St Louis University Mental Status Examination (SLUMS)</a></li>
 			<li><a href="/elder-care/nutritional-checklist/">Nutritional Health Checklist</a></li>
@@ -355,7 +355,7 @@
 			<li><a href="/musculoskeletal/rotator-cuff-calculator/">Rotator Cuff Calculator</a></li>
 			<li><a href="/musculoskeletal/shoulder-exam/">Shoulder Exam</a></li>
 			<li><a href="/musculoskeletal/shoulder-exam-detailed/">Shoulder Exam (Detailed)</a></li>
-			<li><a href="musculoskeletal/dx-sle/">Systemic Lupus Erythematosus Diagnosis</a></li>
+			<li><a href="/musculoskeletal/dx-sle/">Systemic Lupus Erythematosus Diagnosis</a></li>
 			<li><a href="/musculoskeletal/upper-back-pain-history/">Upper Back Pain History</a></li>
 		</ul>
 	</li>
@@ -390,7 +390,8 @@
 			<li><a href="/neurological/abcd2/">Stroke Risk - ABCD2 Score for CVA Risk after TIA</a></li>
 			<li><a href="/cardiovascular/accp-stroke-risk-calculator/">Stroke Risk - ACCP Stroke Risk Calculator</a></li>
 			<li><a href="/neurological/ottawa-sah-rule/">Subarachnoid Hemorrhage (SAH) - Ottawa Rule</a></li>				
-			<li><a href="www.soapnote.org/cardiovascular/oesil-risk-score/">Syncope - OESIL Risk Score for Syncope</a></li>				<li><a href="/cardiovascular/syncope-prognosis-calculator/">Syncope Prognosis Calculator</a></li>
+			<li><a href="/cardiovascular/oesil-risk-score/">Syncope - OESIL Risk Score for Syncope</a></li>
+			<li><a href="/cardiovascular/syncope-prognosis-calculator/">Syncope Prognosis Calculator</a></li>
 			<li><a href="/cardiovascular/rose-risk-score/">Syncope - ROSE Risk Score for Syncope</a></li>		
 		</ul>
 	</li>
@@ -487,7 +488,7 @@
 			<li><a href="/child-health/6-to-10-year-plan/">6 to 10 Year Plan</a></li>
 			<li><a href="/child-health/11-to-14-year-hx/">11 to 14 Year History</a></li>
 			<li><a href="/child-health/11-to-18-year-plan/">11 to 18 Year Plan</a></li>
-			<li><a href="/child-health/15-to-18-year-history/">15 to 18 Year History</a></li>
+			<li><a href="/child-health/15-to-18-year-hx/">15 to 18 Year History</a></li>
 			<li><a href="/child-health/acute-exams/">Acute Physical Exams</a></li>
 			<li><a href="/mental-health/conners-history-adhd/">ADHD: Connors' Index History</a></li>
 			<li><a href="/mental-health/adhd-criteria/">ADHD: DSM-IV Criteria for Attention Deficit Hyperactivity Disorder</a></li>
@@ -574,7 +575,7 @@
 			<li><a href="/respiratory/pesi/">Pulmonary Embolism Severity Index</a></li>
 			<li><a href="/respiratory/epworth-sleepiness-scale/">Sleep Apnea - Epworth Sleepiness Scale</a></li>
 			<li><a href="/respiratory/stop-bang/">Sleep Apnea - STOP-BANG Questionnaire</a></li>
-			<li><a href="/infectious/uri-objective/">Upper Respiratory Infection (URI) Exam</a></li>
+			<li><a href="/infectious/uri-exam/">Upper Respiratory Infection (URI) Exam</a></li>
 			<li><a href="/infectious/uri-plan/">Upper Respiratory Infection Assessment/Plan</a></li>
 		</ul>
 	</li>
@@ -626,7 +627,7 @@
 			<li><a href="/child-health/5-year-hx/">5 Year History</a></li>
 			<li><a href="/child-health/6-to-10-year-hx/">6 to 10 Year History</a></li>
 			<li><a href="/child-health/11-to-14-year-hx/">11 to 14 Year History</a></li>
-			<li><a href="/child-health/15-to-18-year-history/">15 to 18 Year History</a></li>
+			<li><a href="/child-health/15-to-18-year-hx/">15 to 18 Year History</a></li>
 			<li><a href="/digestive-system/abdominal-pain-history/">Abdominal Pain History</a></li>
 			<li><a href="/neurological/aloc-hx/">Altered Level of Consciousness History</a></li>
 			<li><a href="/neurological/acute-neuro-hx/">Acute Neurological Change History</a></li>
@@ -774,7 +775,7 @@ target="_blank">Diabetes Assessment/Plan</a></li>
 			<li><a href="/skin/epidermal-cyst-plan/">Epidermal Cyst Minimal Excision Assessment/Plan</a></li>
 			<li><a href="/skin/excisional-plan/">Excisional Biopsy Assessment/Plan</a></li>
 			<li><a href="/child-health/fever-plan/">Fever Plan (Pediatric)</a></li>
-			<li><a href="/cardiovascular/gastric-bypass-plan/">Gastric Bypass Follow Up Assessment/Plan</a></li>
+			<li><a href="/endocrine-metabolic/gastric-bypass-plan/">Gastric Bypass Follow Up Assessment/Plan</a></li>
 			<li><a href="/digestive-system/gastroenteritis-plan/">Gastroenteritis Assessment/Plan</a></li>
 			<li><a href="/child-health/general-exams/">General Pediatric Physical Exams</a></li>
 			<li><a href="/cardiovascular/hyperlipidemia-plan/">Hyperlipidemia Assessment/Plan</a></li>

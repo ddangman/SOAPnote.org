@@ -61,7 +61,7 @@ concern:  obstructive sleep apnea
 Apneic events during sleep; daytime sleepiness; or snoring are signs/symptoms which may suggest obstructive sleep apnea.  
 Suggested work up:
 * sleep study or Epworth Sleepiness Scale with nighttime pulse oximetry.[html]
-A web calculator for the Epworth Sleepiness Scale is located <a href="http://www.soapnote.org/sleep/epworth-sleepiness-scale-calculator/">here</a>. [/html]
+A web calculator for the Epworth Sleepiness Scale is located <a href="http://www.soapnote.org/respiratory/epworth-sleepiness-scale/">here</a>. [/html]
 ⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒[/conditional][conditional field="Q21|Q22|Q23|Q24|Q25|Q26|Q27" condition="(Q21).is('YES')||(Q22).is('YES')||(Q23).is('YES')||(Q24).is('YES')||(Q25).is('YES')||(Q26).is('YES')||(Q27).is('YES')"]
 concern:  pheochromocytoma
 Flushing; headaches, labile blood pressures; orthostatic hypotension; palpitations; sweating; or syncope are signs/symptoms which could suggest pheochromocytoma.  

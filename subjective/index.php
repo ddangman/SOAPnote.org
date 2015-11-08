@@ -22,7 +22,7 @@
 					<li><a href="/child-health/5-year-hx/">5 Year History</a></li>
 					<li><a href="/child-health/6-to-10-year-hx/">6 to 10 Year History</a></li>
 					<li><a href="/child-health/11-to-14-year-hx/">11 to 14 Year History</a></li>
-					<li><a href="/child-health/15-to-18-year-history/">15 to 18 Year History</a></li>
+					<li><a href="/child-health/15-to-18-year-hx/">15 to 18 Year History</a></li>
 					<li><a href="/digestive-system/abdominal-pain-history/">Abdominal Pain History</a></li>
 					<li><a href="/neurological/aloc-hx/">Altered Level of Consciousness History</a></li>
 					<li><a href="/neurological/acute-neuro-hx/">Acute Neurological Change History</a></li>

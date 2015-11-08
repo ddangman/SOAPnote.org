@@ -5,7 +5,7 @@
 [textarea default="Exam of extension showed ***limitation of ROM/no limitation of extension ROM/pain in paraspinal neck area/no pain/radicular pain down same side***."]
 [textarea default="Axial load test reveals ***no pain/pain/paraspinal discomfort mild on same side/radicular pain down the arm on same side/no radicular pain down the arm***."]
 [html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  <a href="***" target="_blank">***</a>
+reference:  <a href="#" target="_blank">-</a>
 posted by:  Mark Morgan, M.D.
 post/review dates:  November 24, 2010; August 28, 2015
 revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/neck-exam.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/neck-exam.txt</a>

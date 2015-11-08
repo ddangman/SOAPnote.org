@@ -68,7 +68,7 @@ TOBACCO
 Today's Impact --> [calc memo="---" value="scoreCigTodayM=((TodayCigM)*(-0.25)).toFixed(2)"] Hours
 Longevity Impact --> [calc memo="---" value="scoreCigLifeM=((TodayCigM)*(YearCigM)*(-0.25)/(24)).toFixed(2)"] Years
 
-WEIGHT[html]<br /> <a href="http://www.soapnote.org/endocrine-metabolic/bmi-number-crunching/" target="_blank">BMI calculator</a>[/html]
+WEIGHT[html]<br /> <a href="http://www.soapnote.org/endocrine-metabolic/bmi-calc/" target="_blank">BMI calculator</a>[/html]
 [select name="BMIM" value="up to 27.4=0|27.5 to 32.4=1|32.5 to 37.4=2|37.5 to 42.4=3|42.5 to 47.4=4|47.5 to 52.4=5|52.5 to 57.4=6|57.5 to 62.4=7"] <-- BMI
 [text default=0 name="YearBMIM"] <-- Years at this weight/BMI
 Today's Impact --> [calc memo="---" value="scoreWeightTodayM=((BMIM)*(-1.5)).toFixed(2)"] Hours

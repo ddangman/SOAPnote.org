@@ -46,7 +46,7 @@
 					<li><a href="/skin/epidermal-cyst-plan/">Epidermal Cyst Minimal Excision Assessment/Plan</a></li>
 					<li><a href="/skin/excisional-plan/">Excisional Biopsy Assessment/Plan</a></li>
 					<li><a href="/child-health/fever-plan/">Fever Plan (Pediatric)</a></li>
-					<li><a href="/cardiovascular/gastric-bypass-plan/">Gastric Bypass Follow Up Assessment/Plan</a></li>
+					<li><a href="/endocrine-metabolic/gastric-bypass-plan/">Gastric Bypass Follow Up Assessment/Plan</a></li>
 					<li><a href="/digestive-system/gastroenteritis-plan/">Gastroenteritis Assessment/Plan</a></li>
 					<li><a href="/child-health/general-exams/">General Pediatric Physical Exams</a></li>
 					<li><a href="/cardiovascular/hyperlipidemia-plan/">Hyperlipidemia Assessment/Plan</a></li>

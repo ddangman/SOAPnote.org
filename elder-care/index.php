@@ -11,7 +11,7 @@
 <ul class="nav nav-pills nav-stacked">
 					<li><a href="/elder-care/4-year-prognostic-index">4 Year Prognostic Index</a></li>
 					<li><a href="/elder-care/barthel-adl/">Activities of Daily Living (Barthel Index)</a></li>
-					<li><a href="/elder-care/confucsion-assessment-method/">CAM-S Confusion Assessment Method</a></li>
+					<li><a href="/elder-care/confusion-assessment-method/">CAM-S Confusion Assessment Method</a></li>
 					<li><a href="/elder-care/charlson-comorbidity-index/">Charlson Comorbidity Index</a></li>
 					<li><a href="/elder-care/capacity/">Checklist for Capacity to Make Treatment Decisions</a></li>
 					<li><a href="/elder-care/cognitive-problems-history/">Cognitive Problems History</a></li>
@@ -28,7 +28,7 @@
 					<li><a href="/elder-care/geriatric-comprehensive-assessment-history/">Geriatric Comprehensive Assessment (History)</a></li>
 					<li><a href="/elder-care/geriatric-depression-scale/">Geriatric Depression Scale</a></li>
 					<li><a href="/elder-care/katz-adl/">Index of Independence in Activities of Daily Living Calculator (Katz)</a></li>
-					<li><a href="/elder-care/lawton-adl/">Instrumental Activities of Daily Living Calculator (Lawton)</a></li>
+					<li><a href="/elder-care/lawton-iadl/">Instrumental Activities of Daily Living Calculator (Lawton)</a></li>
 					<li><a href="/elder-care/bims/">Mental Status - Brief Interview for Mental Status (BIMS)</a></li>
 					<li><a href="/elder-care/slums/">Mental Status Examination - St Louis University Mental Status Examination (SLUMS)</a></li>
 					<li><a href="/elder-care/nutritional-checklist/">Nutritional Health Checklist</a></li>

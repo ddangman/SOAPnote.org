@@ -30,7 +30,7 @@
 					<li><a href="/respiratory/pesi/">Pulmonary Embolism Severity Index</a></li>
 					<li><a href="/respiratory/epworth-sleepiness-scale/">Sleep Apnea - Epworth Sleepiness Scale</a></li>
 					<li><a href="/respiratory/stop-bang/">Sleep Apnea - STOP-BANG Questionnaire</a></li>
-					<li><a href="/infectious/uri-objective/">Upper Respiratory Infection (URI) Exam</a></li>
+					<li><a href="/infectious/uri-exam/">Upper Respiratory Infection (URI) Exam</a></li>
 					<li><a href="/infectious/uri-plan/">Upper Respiratory Infection Assessment/Plan</a></li>
 </ul>
 </div>

@@ -35,7 +35,7 @@
 					<li><a href="/child-health/6-to-10-year-plan/">6 to 10 Year Plan</a></li>
 					<li><a href="/child-health/11-to-14-year-hx/">11 to 14 Year History</a></li>
 					<li><a href="/child-health/11-to-18-year-plan/">11 to 18 Year Plan</a></li>
-					<li><a href="/child-health/15-to-18-year-history/">15 to 18 Year History</a></li>
+					<li><a href="/child-health/15-to-18-year-hx/">15 to 18 Year History</a></li>
 					<li><a href="/child-health/acute-exams/">Acute Physical Exams</a></li>
 					<li><a href="/mental-health/conners-history-adhd/">ADHD: Connors' Index History</a></li>
 					<li><a href="/mental-health/adhd-criteria/">ADHD: DSM-IV Criteria for Attention Deficit Hyperactivity Disorder</a></li>
