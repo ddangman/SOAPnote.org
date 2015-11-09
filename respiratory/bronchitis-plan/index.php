@@ -4,8 +4,8 @@
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/categories/">Categories</a></li>
-  <li><a href="/general/">General</a></li>
-  <li class="active">Differential Diagnosis Tool</li>
+  <li><a href="/respiratory/">Pulmonology</a></li>
+  <li class="active">Bronchitis Plan</li>
 </ol>
 
 <div id="container" class="container">

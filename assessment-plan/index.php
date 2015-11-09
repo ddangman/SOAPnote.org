@@ -29,7 +29,7 @@
 					<li><a href="/respiratory/bronchitis-plan/">Bronchitis Assessment/Plan</a></li>
 					<li><a href="/musculoskeletal/casting-plan/">Casting Assessment/Plan</a></li>
 					<li><a href="/cardiovascular/jobst-prescription/">Compression (Jobst) Stockings Assessment/Plan</a></li>
-					<li><a href="/elder-care/confusion-assessment/">Confusion Assessment/Plan</a></li>
+					<li><a href="/elder-care/confusion-plan/">Confusion Assessment/Plan</a></li>
 					<li><a href="/elder-care/acute-confusion-plan/">Confusion, Acute Assessment/Plan</a></li>
 					<li><a href="/women/contraception-plan/">Contraception Assessment/Plan</a></li>
 					<li><a href="/women/initiating-contraception-plan/">(Initiating) Contraception Plan</a></li>

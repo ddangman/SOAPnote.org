@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    <script>
+        function copyToClipboard(element) {
+                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
+                $("#temp").val($(element).val()).select();
+                document.execCommand("copy");
+                $("#temp").remove();
+                alert('Result has been copied!');
+        }
+    </script>
+    </head>
+    <body>
+        <div id="container" class="embed_client">
+                <!-- <h1 class="entry-title">inpatient-chart-review.txt</h1> -->
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>INPATIENT PROVIDER CHART REVIEW TOOL<br><input type="text" value="chart #" size="15" name="text_5640851847de5" /> <-- Visit Identifier<br><input type="text" class="date " value="" size="10" name="date_5640851847e76" /> <-- Admission Date<br><input type="text" value="" size="15" name="text_5640851847f31" /> <-- Visit Provider<br><input type="text" value="" size="15" name="text_5640851847f31" /> <-- Reviewer<br><input type="text" class="date " value="" size="10" name="date_5640851847e76" /> <-- Review Date<br><input type="text" value="" size="15" name="text_5640851847f31" /> <-- 1.  Patient age<br><input type="text" value="" size="15" name="text_5640851847f31" /> <-- 2.  Primary admitting diagnosis<br><select name="Q3"><option value="yes">yes</option><option value="no">no</option><option value="uncertain">uncertain</option><option value="not applicable">not applicable</option></select> <-- 3.  Initial assessment and work up appropriate<span name="conditional_564085184662d" class="hidden"><br>  COMMENT:  <input type="text" value="" size="15" name="text_5640851846739" /></span><br><select name="Q4"><option value="yes">yes</option><option value="no">no</option><option value="uncertain">uncertain</option><option value="not applicable">not applicable</option></select> <-- 4.  Initial treatment plan appropriate<span name="conditional_5640851846871" class="hidden"><br>  COMMENT:  <input type="text" value="" size="15" name="text_5640851846954" /></span><br><select name="Q5"><option value="yes">yes</option><option value="no">no</option><option value="uncertain">uncertain</option><option value="not applicable">not applicable</option></select> <-- 5.  Medications (such as antibiotics) appropriate<span name="conditional_5640851846a55" class="hidden"><br>  COMMENT:  <input type="text" value="" size="15" name="text_5640851846b2e" /></span><br><select name="Q6"><option value="yes">yes</option><option value="no">no</option><option value="uncertain">uncertain</option><option value="not applicable">not applicable</option></select> <-- 6.  Admission labs, radiology, and special studies appropriately addressed<span name="conditional_5640851846c29" class="hidden"><br>  COMMENT:  <input type="text" value="" size="15" name="text_5640851846cfc" /></span><br><select name="Q7"><option value="yes">yes</option><option value="no">no</option><option value="uncertain">uncertain</option><option value="not applicable">not applicable</option></select> <-- 7.  Labs, radiology, and special studies ordered appropriately during the hospital stay<span name="conditional_5640851846df3" class="hidden"><br>  COMMENT:  <input type="text" value="" size="15" name="text_5640851846ec7" /></span><br><select name="Q8"><option value="yes">yes</option><option value="no">no</option><option value="uncertain">uncertain</option><option value="not applicable">not applicable</option></select> <-- 8.  Referrals appropriately ordered<span name="conditional_5640851846fd2" class="hidden"><br>  COMMENT:  <input type="text" value="" size="15" name="text_56408518470a7" /></span><br><select name="Q9"><option value="yes">yes</option><option value="no">no</option><option value="uncertain">uncertain</option><option value="not applicable">not applicable</option></select> <-- 9.  Each day’s progress documented appropriately<span name="conditional_56408518471a0" class="hidden"><br>  COMMENT:  <input type="text" value="" size="15" name="text_5640851847274" /></span><br><select name="Q10"><option value="yes">yes</option><option value="no">no</option><option value="uncertain">uncertain</option><option value="not applicable">not applicable</option></select> <-- 10.  Discharge planning appropriate<span name="conditional_564085184736e" class="hidden"><br>  COMMENT:  <input type="text" value="" size="15" name="text_5640851847444" /></span><br><select name="Q11"><option value="yes">yes</option><option value="no">no</option><option value="uncertain">uncertain</option><option value="not applicable">not applicable</option></select> <-- 11.  Length of stay appropriate<span name="conditional_564085184753d" class="hidden"><br>  COMMENT:  <input type="text" value="" size="15" name="text_5640851847614" /></span><br><select name="Q12"><option value="yes">yes</option><option value="no">no</option><option value="uncertain">uncertain</option><option value="not applicable">not applicable</option></select> <-- 12.  Admission appropriate for our facility<span name="conditional_564085184770b" class="hidden"><br>  COMMENT:  <input type="text" value="" size="15" name="text_56408518477e2" /></span><br><select name="Q13"><option value="yes">yes</option><option value="no">no</option><option value="uncertain">uncertain</option><option value="not applicable">not applicable</option></select> <-- 13.  Treatment provided within the scope of the provider’s granted privileges<span name="conditional_56408518478d8" class="hidden"><br>  COMMENT:  <input type="text" value="" size="15" name="text_56408518479af" /></span><br><select name="Q14"><option value="yes">yes</option><option value="no">no</option><option value="uncertain">uncertain</option><option value="not applicable">not applicable</option></select> <-- 14.  Discharge summary completed<span name="conditional_5640851847aa5" class="hidden"><br>  COMMENT:  <input type="text" value="" size="15" name="text_5640851847b7d" /></span><br>OVERALL COMMENTS: <input type="text" value="" size="100" name="text_564085184879b" /><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_5640851847c74" class="hidden"><span class="exclude"><br>reference:  none<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  August 17, 2014; August 28, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/general/inpatient-chart-review.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/general/inpatient-chart-review.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/general/inpatient-chart-review.txt" target="_blank">www.soapnote.org/generator/txt/general/inpatient-chart-review.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<!-- it doesn't really copy (except chrome) and print isn't really needed
+<div class="result_buttons">
+<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
+<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
+</div>
+-->
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(Q3).is('no')||(Q3).is('uncertain')", show:"conditional_564085184662d"});
+conditions[1].push({logic:"(Q4).is('no')||(Q4).is('uncertain')", show:"conditional_5640851846871"});
+conditions[1].push({logic:"(Q5).is('no')||(Q5).is('uncertain')", show:"conditional_5640851846a55"});
+conditions[1].push({logic:"(Q6).is('no')||(Q6).is('uncertain')", show:"conditional_5640851846c29"});
+conditions[1].push({logic:"(Q7).is('no')||(Q7).is('uncertain')", show:"conditional_5640851846df3"});
+conditions[1].push({logic:"(Q8).is('no')||(Q8).is('uncertain')", show:"conditional_5640851846fd2"});
+conditions[1].push({logic:"(Q9).is('no')||(Q9).is('uncertain')", show:"conditional_56408518471a0"});
+conditions[1].push({logic:"(Q10).is('no')||(Q10).is('uncertain')", show:"conditional_564085184736e"});
+conditions[1].push({logic:"(Q11).is('no')||(Q11).is('uncertain')", show:"conditional_564085184753d"});
+conditions[1].push({logic:"(Q12).is('no')||(Q12).is('uncertain')", show:"conditional_564085184770b"});
+conditions[1].push({logic:"(Q13).is('no')||(Q13).is('uncertain')", show:"conditional_56408518478d8"});
+conditions[1].push({logic:"(Q14).is('no')||(Q14).is('uncertain')", show:"conditional_5640851847aa5"});
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_5640851847c74"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="Q3"], select[name="Q3"], input[name="Q4"], select[name="Q4"], input[name="Q5"], select[name="Q5"], input[name="Q6"], select[name="Q6"], input[name="Q7"], select[name="Q7"], input[name="Q8"], select[name="Q8"], input[name="Q9"], select[name="Q9"], input[name="Q10"], select[name="Q10"], input[name="Q11"], select[name="Q11"], input[name="Q12"], select[name="Q12"], input[name="Q13"], select[name="Q13"], input[name="Q14"], select[name="Q14"], input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="Q3"], select[name="Q3"], input[name="Q4"], select[name="Q4"], input[name="Q5"], select[name="Q5"], input[name="Q6"], select[name="Q6"], input[name="Q7"], select[name="Q7"], input[name="Q8"], select[name="Q8"], input[name="Q9"], select[name="Q9"], input[name="Q10"], select[name="Q10"], input[name="Q11"], select[name="Q11"], input[name="Q12"], select[name="Q12"], input[name="Q13"], select[name="Q13"], input[name="Q14"], select[name="Q14"], input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+$(".print-button").click(function(){
+                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
+        });
+});
+</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>
