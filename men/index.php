@@ -15,3 +15,6 @@
 					<li><a href="/men/urinary-hx/">Male Genitourinary Symptoms History</a></li>
 					<li><a href="/men/prostate-symptom-score/">Prostate Symptom Score</a></li>
 </ul></div>
+<?php 
+ include('../lib/main-footer.php');
+?>

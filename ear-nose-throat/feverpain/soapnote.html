@@ -1,32 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>soapnote.org = calculators + decision tools + SOAP samples</title>
     <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
     <script type="text/javascript" src="../../lib/jquery.min.js"></script>
     <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
-    <script>
-        function copyToClipboard(element) {
-                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
-                $("#temp").val($(element).val()).select();
-                document.execCommand("copy");
-                $("#temp").remove();
-                alert('Result has been copied!');
-        }
-    </script>
     </head>
     <body>
 
         <div id="container" class="embed_client">
                 <div class="form-view-content ">
                         <form id="form_1" method="get" autocomplete="off">
-                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>FeverPAIN Score for Streptococcal Pharyngitis<br>Note: Applies to children older than 5 and adults.<br><select name="Q1"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Fever in previous 24 hours<br><select name="Q2"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Purulent tonsils<br><select name="Q3"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Attend rapidly (3 days or less)<br><select name="Q4"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Inflamed tonsils (severe)<br><select name="Q5"><option value="no=0">no</option><option value="YES=1">YES</option></select>  <-- No cough/coryza<br>Score --> <span class="calc">number<span class="calc_value">score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)</span></span> / 5<br>Result -->; <span class="calc">interpretation<span class="calc_value">score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5);score2&>3?'65% Strep throat - Antibiotic therapy recommended':score2>1?'40% Strep throat - Rapid test or delayed prescription recommended':'18% Strep throat - Symptomatic therapy only'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ee404e78fd9" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/24114306" target="_blank">Little P, Hobbs FD, Moore M, Mant D, Williamson I, McNulty C, Cheng YE, Leydon G, McManus R, Kelly J, Barnett J, Glasziou P, Mullee M; PRISM investigators. Clinical score and rapid antigen detection test to guide antibiotic use for sore throats: randomised controlled trial of PRISM (primary care streptococcal management). BMJ. 2013 Oct 10;347:f5806.</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  September 19, 2014; September 1, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/feverpain.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/feverpain.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/feverpain.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/feverpain.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+FeverPAIN Score for Streptococcal Pharyngitis<br>Note: Applies to children older than 5 and adults.<br><select name="Q1"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Fever in previous 24 hours<br><select name="Q2"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Purulent tonsils<br><select name="Q3"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Attend rapidly (3 days or less)<br><select name="Q4"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Inflamed tonsils (severe)<br><select name="Q5"><option value="no=0">no</option><option value="YES=1">YES</option></select>  <-- No cough/coryza<br>Score --> <span class="calc">number<span class="calc_value">score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)</span></span> / 5<br>Result -->; <span class="calc">interpretation<span class="calc_value">score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5);score2&>3?'65% Strep throat - Antibiotic therapy recommended':score2>1?'40% Strep throat - Rapid test or delayed prescription recommended':'18% Strep throat - Symptomatic therapy only'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ee404e78fd9" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/24114306" target="_blank">Little P, Hobbs FD, Moore M, Mant D, Williamson I, McNulty C, Cheng YE, Leydon G, McManus R, Kelly J, Barnett J, Glasziou P, Mullee M; PRISM investigators. Clinical score and rapid antigen detection test to guide antibiotic use for sore throats: randomised controlled trial of PRISM (primary care streptococcal management). BMJ. 2013 Oct 10;347:f5806.</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  September 19, 2014; September 1, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/feverpain.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/feverpain.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/feverpain.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/feverpain.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
 <div class="soapnote_result_container exclude">
 Result - Copy or Print this text:
-<div class="result_buttons">
-<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
-<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
-</div>
 <textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
 </div>
 </form>
@@ -62,15 +50,6 @@ jQuery(document).ready(function($) {
 				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
 			});
 			</script>
-
-<script type="text/javascript">
-
-jQuery(document).ready(function($){
-$(".print-button").click(function(){
-                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
-        });
-});
-</script>
 <script type="text/javascript" src="../../lib/form.js"></script>
 </div>
 </div>

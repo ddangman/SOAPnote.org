@@ -1,9 +1,0 @@
-This calculator performs simple computations
-[text name="A"] <-- A (enter a number)
-[text name="B"] <-- B (enter a number)
-
-A + B --> [calc value="score1=(A)+(B)" memo="addition"]
-A - B --> [calc value="score2=(A)-(B)" memo="subtraction"]
-A x B --> [calc value="score3=(A)*(B)" memo="multiplication"]
-A / B --> [calc value="score4=(A)/(B)" memo="division"]
-A raised to the power of B --> [calc value="score5=Math.pow((A),(B))" memo="exponent"]

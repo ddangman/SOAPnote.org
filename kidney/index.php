@@ -15,3 +15,6 @@
 					<li><a href="/kidney/mdrd-gfr/">GFR Calculator - MDRD</a></li>
 </ul>
 </div>
+<?php 
+ include('../lib/main-footer.php');
+?>

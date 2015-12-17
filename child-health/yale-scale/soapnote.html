@@ -1,32 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>soapnote.org = calculators + decision tools + SOAP samples</title>
     <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
     <script type="text/javascript" src="../../lib/jquery.min.js"></script>
     <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
-    <script>
-        function copyToClipboard(element) {
-                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
-                $("#temp").val($(element).val()).select();
-                document.execCommand("copy");
-                $("#temp").remove();
-                alert('Result has been copied!');
-        }
-    </script>
     </head>
     <body>
 
         <div id="container" class="embed_client">
                 <div class="form-view-content ">
                         <form id="form_1" method="get" autocomplete="off">
-                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Yale Observation Scale for children 3-36 months<span class="exclude"><br>For febrile children ages 3-36 months. Used to predict serious bacterial infection (SBI).<br></span><select name="Q1"><option value="Strong or No cry: 1 point=1">Strong or No cry: 1 point</option><option value="Whimper or Sob: 3 points=3">Whimper or Sob: 3 points</option><option value="Weak cry, Moan, or high pitched cry: 5 points=5">Weak cry, Moan, or high pitched cry: 5 points</option></select> <-- Quality of Cry<br><select name="Q2"><option value="Brief Cry or Content: 1 point=1">Brief Cry or Content: 1 point</option><option value="Cries off and on: 3 points=3">Cries off and on: 3 points</option><option value="Persistent cry: 5 points=5">Persistent cry: 5 points</option></select> <-- Reaction to parents<br><select name="Q3"><option value="Awakens quickly: 1 point=1">Awakens quickly: 1 point</option><option value="Difficult to awaken: 3 points=3">Difficult to awaken: 3 points</option><option value="No arousal or falls asleep: 5 points=5">No arousal or falls asleep: 5 points</option></select> <-- State variation<br><select name="Q4"><option value="Pink: 1 point=1">Pink: 1 point</option><option value="Acrocyanosis: 3 points=3">Acrocyanosis: 3 points</option><option value="Pale, Cyanotic, or Mottled: 5 points=5">Pale, Cyanotic, or Mottled: 5 points</option></select> <-- Color<br><select name="Q5"><option value="Eyes, skin, and mucus membranes moist: 1 point=1">Eyes, skin, and mucus membranes moist: 1 point</option><option value="Mouth slightly dry: 3 points=3">Mouth slightly dry: 3 points</option><option value="Mucus Membranes dry, eyes sunken: 5 points=5">Mucus Membranes dry, eyes sunken: 5 points</option></select> <-- Hydration<br><select name="Q6"><option value="Alert or Smiles: 1 point=1">Alert or Smiles: 1 point</option><option value="Alert or brief smile: 3 points=3">Alert or brief smile: 3 points</option><option value="No smile, anxious, or dull: 5 points=5">No smile, anxious, or dull: 5 points</option></select> <-- Social Response<br>Score --> <span class="calc">Score<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)</span></span> out of 30 points<br>Interpretation --> <span class="calc">Interpretation<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6);score>15?'92.3% incidence of serious illness':score>10?'26% incidence of serious illness':'2.7% incidence of serious illness'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55edf2a56dfbb" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/7133831" target="_blank">McCarthy (1982) Pediatrics 70:802-9.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/4022688" target="_blank">McCarthy (1985) Pediatrics 76:167-71.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/3540248" target="_blank">McCarthy (1987) J Pediatr 110:26-30.</a>, <a href="http://www.fpnotebook.com/ID/Exam/YlSclFrFbrlChld3T36Mnths.htm" target="_blank">FPNotebook page</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  March 15, 2012; September 1, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/yale-scale.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/yale-scale.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/child-health/yale-scale.txt" target="_blank">www.soapnote.org/generator/txt/child-health/yale-scale.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+Yale Observation Scale for children 3-36 months<span class="exclude"><br>For febrile children ages 3-36 months. Used to predict serious bacterial infection (SBI).<br></span><select name="Q1"><option value="Strong or No cry: 1 point=1">Strong or No cry: 1 point</option><option value="Whimper or Sob: 3 points=3">Whimper or Sob: 3 points</option><option value="Weak cry, Moan, or high pitched cry: 5 points=5">Weak cry, Moan, or high pitched cry: 5 points</option></select> <-- Quality of Cry<br><select name="Q2"><option value="Brief Cry or Content: 1 point=1">Brief Cry or Content: 1 point</option><option value="Cries off and on: 3 points=3">Cries off and on: 3 points</option><option value="Persistent cry: 5 points=5">Persistent cry: 5 points</option></select> <-- Reaction to parents<br><select name="Q3"><option value="Awakens quickly: 1 point=1">Awakens quickly: 1 point</option><option value="Difficult to awaken: 3 points=3">Difficult to awaken: 3 points</option><option value="No arousal or falls asleep: 5 points=5">No arousal or falls asleep: 5 points</option></select> <-- State variation<br><select name="Q4"><option value="Pink: 1 point=1">Pink: 1 point</option><option value="Acrocyanosis: 3 points=3">Acrocyanosis: 3 points</option><option value="Pale, Cyanotic, or Mottled: 5 points=5">Pale, Cyanotic, or Mottled: 5 points</option></select> <-- Color<br><select name="Q5"><option value="Eyes, skin, and mucus membranes moist: 1 point=1">Eyes, skin, and mucus membranes moist: 1 point</option><option value="Mouth slightly dry: 3 points=3">Mouth slightly dry: 3 points</option><option value="Mucus Membranes dry, eyes sunken: 5 points=5">Mucus Membranes dry, eyes sunken: 5 points</option></select> <-- Hydration<br><select name="Q6"><option value="Alert or Smiles: 1 point=1">Alert or Smiles: 1 point</option><option value="Alert or brief smile: 3 points=3">Alert or brief smile: 3 points</option><option value="No smile, anxious, or dull: 5 points=5">No smile, anxious, or dull: 5 points</option></select> <-- Social Response<br>Score --> <span class="calc">Score<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)</span></span> out of 30 points<br>Interpretation --> <span class="calc">Interpretation<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6);score>15?'92.3% incidence of serious illness':score>10?'26% incidence of serious illness':'2.7% incidence of serious illness'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55edf2a56dfbb" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/7133831" target="_blank">McCarthy (1982) Pediatrics 70:802-9.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/4022688" target="_blank">McCarthy (1985) Pediatrics 76:167-71.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/3540248" target="_blank">McCarthy (1987) J Pediatr 110:26-30.</a>, <a href="http://www.fpnotebook.com/ID/Exam/YlSclFrFbrlChld3T36Mnths.htm" target="_blank">FPNotebook page</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  March 15, 2012; September 1, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/yale-scale.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/yale-scale.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/child-health/yale-scale.txt" target="_blank">www.soapnote.org/generator/txt/child-health/yale-scale.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
 <div class="soapnote_result_container exclude">
 Result - Copy or Print this text:
-<div class="result_buttons">
-<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
-<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
-</div>
 <textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
 </div>
 </form>
@@ -62,15 +50,6 @@ jQuery(document).ready(function($) {
 				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
 			});
 			</script>
-
-<script type="text/javascript">
-
-jQuery(document).ready(function($){
-$(".print-button").click(function(){
-                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
-        });
-});
-</script>
 <script type="text/javascript" src="../../lib/form.js"></script>
 </div>
 </div>

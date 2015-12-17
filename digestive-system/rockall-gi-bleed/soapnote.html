@@ -1,32 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>soapnote.org = calculators + decision tools + SOAP samples</title>
     <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
     <script type="text/javascript" src="../../lib/jquery.min.js"></script>
     <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
-    <script>
-        function copyToClipboard(element) {
-                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
-                $("#temp").val($(element).val()).select();
-                document.execCommand("copy");
-                $("#temp").remove();
-                alert('Result has been copied!');
-        }
-    </script>
     </head>
     <body>
 
         <div id="container" class="embed_client">
                 <div class="form-view-content ">
                         <form id="form_1" method="get" autocomplete="off">
-                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Rockall Risk Score for GI Bleeding<br><select name="Q1"><option value="0">0</option><option value="1">1</option><option value="2">2</option></select> <-- Age<br>Score 0: Age less than 60 years<br>Score 1: Age 60 to 79 years<br>Score 2: Age 80 years or older<br><select name="Q2"><option value="0">0</option><option value="1">1</option><option value="2">2</option></select> <-- Shock symptoms<br>Score 0: Shock absent, normal Heart Rate and Blood Pressure<br>Score 1: Heart Rate 100 or higher<br>Score 2: Systolic Blood Pressure <100 mmHg (and Heart Rate 100 or higher)<br><select name="Q3"><option value="0">0</option><option value="2">2</option><option value="3">3</option></select> <-- Comorbidity<br>Score 0: None<br>Score 2: CHF, CAD or other major comorbidity<br>Score 3: Renal Failure, liver failure or metastatic cancer<br><select name="Q4"><option value="0">0</option><option value="1">1</option><option value="2">2</option></select> <-- Endoscopic diagnosis<br>Score 0: No lesion and no stigmata of recent Hemorrhage (or Mallory-Weiss tear)<br>Score 1: All other Upper Gastrointestinal Bleeding causes (except upper gastrointestinal cancer)<br>Score 2: Upper gastrointestinal tract cancer<br><select name="Q5"><option value="0">0</option><option value="3">3</option></select> <-- Stigmata of recent Gastrointestinal Bleeding<br>Score 0: No stigmata or dark spot only<br>Score 3: Blood in upper GI tract, adherent clot, visible vessel, or actively bleeding or spurting vessel<br>Score --> <span class="calc">number<span class="calc_value">score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)</span></span><br>Interpretation --> <span class="calc">number<span class="calc_value">score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5);score2>7?'Rebleeding rate: 41.8%, Mortality: 41.1%':score2>6?'Rebleeding rate: 43.8%, Mortality: 27%':score2>5?'Rebleeding rate: 32.9%, Mortality: 17.3%':score2>4?'Rebleeding rate: 24.1%, Mortality: 10.8%':score2>3?'Rebleeding rate: 14.1%, Mortality: 5.3%':score2>2?'Rebleeding rate: 11.2%, Mortality: 2.9%':'Rebleeding rate: 3.5 to 5.3%, Mortality: 0 to 0.2%'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ee3f5bb3e8e" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/8675081" target="_blank">Rockall TA, Logan RF, Devlin HB, Northfield TC. Risk assessment after acute upper gastrointestinal haemorrhage. Gut. 1996 Mar;38(3):316-21.</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  October 6, 2014; August 25, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/digestive-system/rockall-gi-bleed.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/digestive-system/rockall-gi-bleed.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/rockall-gi-bleed.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/rockall-gi-bleed.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+Rockall Risk Score for GI Bleeding<br><select name="Q1"><option value="0">0</option><option value="1">1</option><option value="2">2</option></select> <-- Age<br>Score 0: Age less than 60 years<br>Score 1: Age 60 to 79 years<br>Score 2: Age 80 years or older<br><select name="Q2"><option value="0">0</option><option value="1">1</option><option value="2">2</option></select> <-- Shock symptoms<br>Score 0: Shock absent, normal Heart Rate and Blood Pressure<br>Score 1: Heart Rate 100 or higher<br>Score 2: Systolic Blood Pressure <100 mmHg (and Heart Rate 100 or higher)<br><select name="Q3"><option value="0">0</option><option value="2">2</option><option value="3">3</option></select> <-- Comorbidity<br>Score 0: None<br>Score 2: CHF, CAD or other major comorbidity<br>Score 3: Renal Failure, liver failure or metastatic cancer<br><select name="Q4"><option value="0">0</option><option value="1">1</option><option value="2">2</option></select> <-- Endoscopic diagnosis<br>Score 0: No lesion and no stigmata of recent Hemorrhage (or Mallory-Weiss tear)<br>Score 1: All other Upper Gastrointestinal Bleeding causes (except upper gastrointestinal cancer)<br>Score 2: Upper gastrointestinal tract cancer<br><select name="Q5"><option value="0">0</option><option value="3">3</option></select> <-- Stigmata of recent Gastrointestinal Bleeding<br>Score 0: No stigmata or dark spot only<br>Score 3: Blood in upper GI tract, adherent clot, visible vessel, or actively bleeding or spurting vessel<br>Score --> <span class="calc">number<span class="calc_value">score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)</span></span><br>Interpretation --> <span class="calc">number<span class="calc_value">score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5);score2>7?'Rebleeding rate: 41.8%, Mortality: 41.1%':score2>6?'Rebleeding rate: 43.8%, Mortality: 27%':score2>5?'Rebleeding rate: 32.9%, Mortality: 17.3%':score2>4?'Rebleeding rate: 24.1%, Mortality: 10.8%':score2>3?'Rebleeding rate: 14.1%, Mortality: 5.3%':score2>2?'Rebleeding rate: 11.2%, Mortality: 2.9%':'Rebleeding rate: 3.5 to 5.3%, Mortality: 0 to 0.2%'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ee3f5bb3e8e" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/8675081" target="_blank">Rockall TA, Logan RF, Devlin HB, Northfield TC. Risk assessment after acute upper gastrointestinal haemorrhage. Gut. 1996 Mar;38(3):316-21.</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  October 6, 2014; August 25, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/digestive-system/rockall-gi-bleed.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/digestive-system/rockall-gi-bleed.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/rockall-gi-bleed.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/rockall-gi-bleed.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
 <div class="soapnote_result_container exclude">
 Result - Copy or Print this text:
-<div class="result_buttons">
-<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
-<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
-</div>
 <textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
 </div>
 </form>
@@ -62,15 +50,6 @@ jQuery(document).ready(function($) {
 				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
 			});
 			</script>
-
-<script type="text/javascript">
-
-jQuery(document).ready(function($){
-$(".print-button").click(function(){
-                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
-        });
-});
-</script>
 <script type="text/javascript" src="../../lib/form.js"></script>
 </div>
 </div>

@@ -1,8 +1,0 @@
-[html]Stye Assessment/Plan
-[/html][textarea columns=108 rows=25 default="Assessment: ***Stye OD/Stye OS/Chalazion OD/Chalazion OS***&#13;&#10;***right/left/bilateral*** ***upper lid/lower lid***&#13;&#10;Treatment:&#13;&#10;erythromycin ophthalmic ointment apply to affected eye tid until resolved&#13;&#10;gentamicin drops 2 drops affected eye qid until resolved&#13;&#10;gentamicin ointment apply tid to affected eye until resolved&#13;&#10;Sulamyd 10% drops 2 drops affected eye qid until resolved&#13;&#10;cephalexin 500 mg bid x 7 days&#13;&#10;cephalexin ***dose*** bid x 7 days&#13;&#10;warm compresses&#13;&#10;referral to Ophthalmology&#13;&#10;Follow up if symptoms not resolving or increasing. Follow up immediately if problems develop."]
-[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  none
-posted by:  Mark Morgan, M.D.
-post/review dates:  April 12, 2010; September 6, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/eye/stye-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/eye/stye-plan.txt</a>
-markup link:  <a href="http://www.soapnote.org/generator/txt/eye/stye-plan.txt" target="_blank">www.soapnote.org/generator/txt/eye/stye-plan.txt</a>[/html][/conditional]

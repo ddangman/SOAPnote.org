@@ -1,19 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>soapnote.org = calculators + decision tools + SOAP samples</title>
     <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
     <script type="text/javascript" src="../../lib/jquery.min.js"></script>
     <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
-    <script>
-        function copyToClipboard(element) {
-                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
-                $("#temp").val($(element).val()).select();
-                document.execCommand("copy");
-                $("#temp").remove();
-                alert('Result has been copied!');
-        }
-    </script>
     </head>
     <body>
 
@@ -21,13 +13,9 @@
                 <!-- <h1 class="entry-title">wart-plan</h1> -->
                 <div class="form-view-content ">
                         <form id="form_1" method="get" autocomplete="off">
-                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Wart<br><span class="checkbox" name="consent"> <label><input type="checkbox" name="consent" value="" /> </label></span><span class="memo exclude">Consent</span><span name="conditional_560e496870be3" class="hidden"><textarea cols="108" rows="5" name="textarea_560e496870d39">Consent:  Risks and benefits of therapy discussed with patient who voices understanding and agrees with planned care. No barriers to communication or understanding identified.  After obtaining informed consent, the patient's identity, procedure, and site were verified during a pause prior to proceeding with the minor surgical procedure as per universal protocol recommendations.  </textarea></span><span class="checkbox" name="shortprocedure"> <label><input type="checkbox" name="shortprocedure" value="" /> </label></span><span class="memo exclude">Procedure Short Version</span><span name="conditional_560e496870e77" class="hidden"><textarea cols="108" rows="5" name="textarea_560e496870fa8">Cryotherapy with liquid nitrogen, 3 treatments of 10 seconds each applied. Frost ring obtained.  </textarea></span><span class="checkbox" name="mediumprocedure"> <label><input type="checkbox" name="mediumprocedure" value="" /> </label></span><span class="memo exclude">Procedure Medium Version</span><span name="conditional_560e4968710a0" class="hidden"><textarea cols="108" rows="5" name="textarea_560e4968711af">After appropriate cleansing, liquid nitrogen was applied to warts on ***location/size/description of wart removed***.  </textarea></span><span class="checkbox" name="longprocedure"> <label><input type="checkbox" name="longprocedure" value="" /> </label></span><span class="memo exclude">Procedure Long Version</span><span name="conditional_560e4968712a0" class="hidden"><textarea cols="108" rows="5" name="textarea_560e4968713e4">***Wart was/Warts were/Condylomata acuminata was/Plantar wart was/Plantar warts were*** treated with ***light cryotherapy using cotton tipped applicator/cryocautery with freeze thaw freeze technique with 2-3 mm surround freeze/shave excision of overlying keratin and then cryocauterized with freeze thaw freeze technique with 2-3 mm surround freeze/curettage/Podophylin/trichloroacetic acid***.  </textarea></span><span class="checkbox" name="education"> <label><input type="checkbox" name="education" value="" /> </label></span><span class="memo exclude">Education</span><span name="conditional_560e4968714d4" class="hidden"><textarea cols="108" rows="5" name="textarea_560e4968715e7">Education:  Aftercare, including blister formation, risks of bleeding, and risks of recurrence were discussed. All questions answered.  Return for retreatment as   .</textarea></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_560e4968716d4" class="hidden"><span class="exclude"><br>reference:  none<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  August 18, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/skin/wart-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/skin/wart-plan.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/skin/wart-plan.txt" target="_blank">www.soapnote.org/generator/txt/skin/wart-plan.txt</a></span></span><br><br><input type="button" class="soapnote_submit exclude" value="Submit"/>
+Wart<br><span class="checkbox" name="consent"> <label><input type="checkbox" name="consent" value="" /> </label></span><span class="memo exclude">Consent</span><span name="conditional_560e496870be3" class="hidden"><textarea cols="108" rows="5" name="textarea_560e496870d39">Consent:  Risks and benefits of therapy discussed with patient who voices understanding and agrees with planned care. No barriers to communication or understanding identified.  After obtaining informed consent, the patient's identity, procedure, and site were verified during a pause prior to proceeding with the minor surgical procedure as per universal protocol recommendations.  </textarea></span><span class="checkbox" name="shortprocedure"> <label><input type="checkbox" name="shortprocedure" value="" /> </label></span><span class="memo exclude">Procedure Short Version</span><span name="conditional_560e496870e77" class="hidden"><textarea cols="108" rows="5" name="textarea_560e496870fa8">Cryotherapy with liquid nitrogen, 3 treatments of 10 seconds each applied. Frost ring obtained.  </textarea></span><span class="checkbox" name="mediumprocedure"> <label><input type="checkbox" name="mediumprocedure" value="" /> </label></span><span class="memo exclude">Procedure Medium Version</span><span name="conditional_560e4968710a0" class="hidden"><textarea cols="108" rows="5" name="textarea_560e4968711af">After appropriate cleansing, liquid nitrogen was applied to warts on ***location/size/description of wart removed***.  </textarea></span><span class="checkbox" name="longprocedure"> <label><input type="checkbox" name="longprocedure" value="" /> </label></span><span class="memo exclude">Procedure Long Version</span><span name="conditional_560e4968712a0" class="hidden"><textarea cols="108" rows="5" name="textarea_560e4968713e4">***Wart was/Warts were/Condylomata acuminata was/Plantar wart was/Plantar warts were*** treated with ***light cryotherapy using cotton tipped applicator/cryocautery with freeze thaw freeze technique with 2-3 mm surround freeze/shave excision of overlying keratin and then cryocauterized with freeze thaw freeze technique with 2-3 mm surround freeze/curettage/Podophylin/trichloroacetic acid***.  </textarea></span><span class="checkbox" name="education"> <label><input type="checkbox" name="education" value="" /> </label></span><span class="memo exclude">Education</span><span name="conditional_560e4968714d4" class="hidden"><textarea cols="108" rows="5" name="textarea_560e4968715e7">Education:  Aftercare, including blister formation, risks of bleeding, and risks of recurrence were discussed. All questions answered.  Return for retreatment as   .</textarea></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_560e4968716d4" class="hidden"><span class="exclude"><br>reference:  none<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  August 18, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/skin/wart-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/skin/wart-plan.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/skin/wart-plan.txt" target="_blank">www.soapnote.org/generator/txt/skin/wart-plan.txt</a></span></span><br><br><input type="button" class="soapnote_submit exclude" value="Submit"/>
 <div class="soapnote_result_container exclude">
 Result - Copy or Print this text:
-<div class="result_buttons">
-<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
-<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
-</div>
 <textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
 </div>
 </form>
@@ -68,15 +56,6 @@ jQuery(document).ready(function($) {
 				$('#form_1').find('input[name="consent"], select[name="consent"], input[name="shortprocedure"], select[name="shortprocedure"], input[name="mediumprocedure"], select[name="mediumprocedure"], input[name="longprocedure"], select[name="longprocedure"], input[name="education"], select[name="education"], input[name="footnotes"], select[name="footnotes"]').change();
 			});
 			</script>
-
-<script type="text/javascript">
-
-jQuery(document).ready(function($){
-$(".print-button").click(function(){
-                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
-        });
-});
-</script>
 <script type="text/javascript" src="../../lib/form.js"></script>
 </div>
 </div>

@@ -23,3 +23,6 @@ include('lib/main-header.php');
 		</div>
 	</div>
 </div>
+<?php 
+include('lib/main-footer.php');
+?>

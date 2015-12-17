@@ -80,5 +80,9 @@
 					<li><a href="/women/uti-history/">Urinary Tract Infection (UTI) History</a></li>
 					<li><a href="/women/vaginitis-history/">Vaginitis History</a></li>
 					<li><a href="/infectious/varicella-history/">Varicella History</a></li>	
-					<li><a href="/infectious/viral-infection-hx/">Viral Infection History</a></li>									</ul>
+					<li><a href="/infectious/viral-infection-hx/">Viral Infection History</a></li>									
+</ul>
 </div>
+<?php 
+ include('../lib/main-footer.php');
+?>

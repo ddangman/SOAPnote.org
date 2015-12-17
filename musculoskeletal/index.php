@@ -62,3 +62,6 @@
 					<li><a href="/musculoskeletal/upper-back-pain-history/">Upper Back Pain History</a></li>
 </ul>
 </div>
+<?php 
+ include('../lib/main-footer.php');
+?>

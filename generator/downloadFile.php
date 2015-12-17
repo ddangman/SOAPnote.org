@@ -16,12 +16,13 @@ if($_GET['type'] == 'txt') {
         //header("Content-Length: ".filesize($filepath));
         ob_end_flush();
         @readfile($filepath);
+				
 } else if($_GET['type'] == 'zip') {
-        $realFilename = $_SESSION['txtFileName'] . '.zip';
+        $realFilename = (!empty($_SESSION['txtFileName'])?$_SESSION['txtFileName']:$userId) . '.zip';
         
         $filename =  $userId .'.zip';
         $filepath = DATA_PATH.'/zip/'.$userId .'.zip';
-        $content = file_get_contents(DATA_PATH.'/html/'.$userId . '.html');
+        $content = file_get_contents(DATA_PATH.'/'.$userId . '.html');
         
         getHtml($content, $filepath);
         
@@ -36,4 +37,5 @@ if($_GET['type'] == 'txt') {
         
         ob_end_flush();
         @readfile($filepath);
+				
 }

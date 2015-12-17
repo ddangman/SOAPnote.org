@@ -1,32 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>soapnote.org = calculators + decision tools + SOAP samples</title>
     <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
     <script type="text/javascript" src="../../lib/jquery.min.js"></script>
     <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
-    <script>
-        function copyToClipboard(element) {
-                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
-                $("#temp").val($(element).val()).select();
-                document.execCommand("copy");
-                $("#temp").remove();
-                alert('Result has been copied!');
-        }
-    </script>
     </head>
     <body>
 
         <div id="container" class="embed_client">
                 <div class="form-view-content ">
                         <form id="form_1" method="get" autocomplete="off">
-                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Modified Centor Score<br><select name="Q1Fever"><option value="No (0 points)=0">No (0 points)</option><option value="YES (1 point)=1">YES (1 point)</option></select> <-- History of fever or measured temperature > 100.4 degrees F<br><select name="Q2Cough"><option value="Cough is present (0 points)=0">Cough is present (0 points)</option><option value="COUGH IS ABSENT (1 point)=1">COUGH IS ABSENT (1 point)</option></select> <-- Presence of coughing<br><select name="Q3Nodes"><option value="No (0 points)=0">No (0 points)</option><option value="YES (1 point)=1">YES (1 point)</option></select> <-- Tender anterior cervical nodes<br><select name="Q4Tonsil"><option value="No (0 points)=0">No (0 points)</option><option value="YES (1 point)=1">YES (1 point)</option></select> <-- Tonsillar swelling or exudates<br><select name="Q5Age"><option value="< 15 years (1 point)=1">< 15 years (1 point)</option><option value="15 to 45 years (0 points)=0">15 to 45 years (0 points)</option><option value="> 45 years (-1 point)=-1">> 45 years (-1 point)</option></select> <-- Age<br>Score --> <span class="calc">score<span class="calc_value">score=(Q1Fever)+(Q2Cough)+(Q3Nodes)+(Q4Tonsil)+(Q5Age)</span></span><br>Interpretation -->  Risk of group A beta-hemolytic streptococcus is <span class="calc">Risk and Recommendation<span class="calc_value">score=(Q1Fever)+(Q2Cough)+(Q3Nodes)+(Q4Tonsil)+(Q5Age);score>3?'51 to 53%, consider empiric antibiotic treatment.':score>2?'28 to 35%, perform throat culture or rapid antigen detection testing and treat accordingly.':score>1?'11 to 17%, perform throat culture or rapid antigen detection testing and treat accordingly.':score>0?'5 to 10%, may forgo antibiotics OR may perform throat culture or rapid antigen detection testing and treat accordingly.':'1 to 2.5%, antibiotic treatment or further testing is not warranted.'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ee414565b75" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/11033707">Centor criteria for pharyngitis</a>, AAFP article <a href="http://www.aafp.org/afp/2009/0301/p383.html">Choby (2009) Am Fam Physician 79:383-390</a>.<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  August 12, 2011; September 6, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/strep-throat-decision-tool.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/strep-throat-decision-tool.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/strep-throat-decision-tool.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/strep-throat-decision-tool.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+Modified Centor Score<br><select name="Q1Fever"><option value="No (0 points)=0">No (0 points)</option><option value="YES (1 point)=1">YES (1 point)</option></select> <-- History of fever or measured temperature > 100.4 degrees F<br><select name="Q2Cough"><option value="Cough is present (0 points)=0">Cough is present (0 points)</option><option value="COUGH IS ABSENT (1 point)=1">COUGH IS ABSENT (1 point)</option></select> <-- Presence of coughing<br><select name="Q3Nodes"><option value="No (0 points)=0">No (0 points)</option><option value="YES (1 point)=1">YES (1 point)</option></select> <-- Tender anterior cervical nodes<br><select name="Q4Tonsil"><option value="No (0 points)=0">No (0 points)</option><option value="YES (1 point)=1">YES (1 point)</option></select> <-- Tonsillar swelling or exudates<br><select name="Q5Age"><option value="< 15 years (1 point)=1">< 15 years (1 point)</option><option value="15 to 45 years (0 points)=0">15 to 45 years (0 points)</option><option value="> 45 years (-1 point)=-1">> 45 years (-1 point)</option></select> <-- Age<br>Score --> <span class="calc">score<span class="calc_value">score=(Q1Fever)+(Q2Cough)+(Q3Nodes)+(Q4Tonsil)+(Q5Age)</span></span><br>Interpretation -->  Risk of group A beta-hemolytic streptococcus is <span class="calc">Risk and Recommendation<span class="calc_value">score=(Q1Fever)+(Q2Cough)+(Q3Nodes)+(Q4Tonsil)+(Q5Age);score>3?'51 to 53%, consider empiric antibiotic treatment.':score>2?'28 to 35%, perform throat culture or rapid antigen detection testing and treat accordingly.':score>1?'11 to 17%, perform throat culture or rapid antigen detection testing and treat accordingly.':score>0?'5 to 10%, may forgo antibiotics OR may perform throat culture or rapid antigen detection testing and treat accordingly.':'1 to 2.5%, antibiotic treatment or further testing is not warranted.'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ee414565b75" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/11033707">Centor criteria for pharyngitis</a>, AAFP article <a href="http://www.aafp.org/afp/2009/0301/p383.html">Choby (2009) Am Fam Physician 79:383-390</a>.<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  August 12, 2011; September 6, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/strep-throat-decision-tool.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/strep-throat-decision-tool.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/strep-throat-decision-tool.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/strep-throat-decision-tool.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
 <div class="soapnote_result_container exclude">
 Result - Copy or Print this text:
-<div class="result_buttons">
-<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
-<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
-</div>
 <textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
 </div>
 </form>
@@ -62,15 +50,6 @@ jQuery(document).ready(function($) {
 				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
 			});
 			</script>
-
-<script type="text/javascript">
-
-jQuery(document).ready(function($){
-$(".print-button").click(function(){
-                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
-        });
-});
-</script>
 <script type="text/javascript" src="../../lib/form.js"></script>
 </div>
 </div>

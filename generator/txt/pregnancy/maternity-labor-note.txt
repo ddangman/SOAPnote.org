@@ -1,8 +1,0 @@
-[html]Maternity Labor Note
-[/html][textarea columns=108 rows=25 default="*** year old G***P*** now P*** who presented to Labor and Delivery ***in active labor/for induction of labor***.  ***Progressed spontaneously to complete/Labor was augmented with Pitocin, she progressed to complete*** and delivered a liveborn ***male/female*** infant over ***an intact perineum/a 1st degree midline laceration/a 2nd degree midline laceration/a 3rd degree midline laceration/a mediolateral episiotomy***. Infant and mother stable in the immediate post-partum period. ***Laceration repaired in the usual layered fashion with 3-0 Vicryl./Laceration repaired in the usual layered fashion with 4-0 Vicryl./Episiotomy repaired in the usual layered fashion with 3-0 Vicryl./Episiotomy repaired in the usual layered fashion with 4-0 Vicryl.  Infant transferred to Level I nursery.***"]
-[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  none
-posted by:  Mark Morgan, M.D.
-post/review dates:  April 1, 2010; September 4, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/pregnancy/maternity-labor-note.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/pregnancy/maternity-labor-note.txt</a>
-markup link:  <a href="http://www.soapnote.org/generator/txt/pregnancy/maternity-labor-note.txt" target="_blank">www.soapnote.org/generator/txt/pregnancy/maternity-labor-note.txt</a>[/html][/conditional]

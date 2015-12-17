@@ -1,8 +1,0 @@
-[html]6 to 10 Year History
-[/html][textarea default="Has been generally healthy over the past year. Nutrition includes a variety of foods and good milk intake. Growth is normal. Exercise is regular. No height/weight concerns. No school performance or social interaction concerns. Discussed anger style, moods, etc. Typical dependence issues with choice and time-out/privileges approach. No problems with urine or stool. Denies smoking. All other systems are negative."]
-[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  none
-posted by:  Mark Morgan, M.D.
-post/review dates:  April 1, 2010; August 30, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/6-to-10-year-hx.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/6-to-10-year-hx.txt</a>
-markup link:  <a href="http://www.soapnote.org/generator/txt/child-health/6-to-10-year-hx.txt" target="_blank">www.soapnote.org/generator/txt/child-health/6-to-10-year-hx.txt</a>[/html][/conditional]

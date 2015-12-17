@@ -41,3 +41,6 @@
 					<li><a href="/general/travel-counseling-plan/">Travel Counseling Plan</a></li>
 					<li><a href="/general/travel-diarrhea-plan/">Traveler's Diarrhea Assessment/Plan</a></li>
 </ul></div>
+<?php 
+ include('../lib/main-footer.php');
+?>

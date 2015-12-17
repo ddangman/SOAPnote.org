@@ -1,8 +1,0 @@
-[html]Temporomandibular Joint Syndrome Plan
-[/html][textarea columns=108 rows=25 default="Assessment:  Temporomandibular Joint Syndrome&#13;&#10;Patient encouraged not to overuse jaw, by not chewing gum, ice, apples, beef, and other hard foods.&#13;&#10;Advise following mechanically soft diet.&#13;&#10;Patient discouraged from clenching jaw or grinding teeth, and recommend referral to dental for a plastic mouthpiece or bite block if symptoms do not improve.&#13;&#10;Apply a heating pad set at low for 20 minutes, 4 to 8 times a day.&#13;&#10;Put a cloth-covered ice pack on your jaw for 20 minutes 4 to 8 times a day.&#13;&#10;NSAID use for the next two weeks. If symptoms worsen or do not resolve recommend steroid shot for Botox injections.&#13;&#10;May then also try Nortriptyline or Flexeril at hs to reduce bruxism."]
-[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  none
-posted by:  Mark Morgan, M.D.
-post/review dates:  April 14, 2010; September 6, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/tmj-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/tmj-plan.txt</a>
-markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/tmj-plan.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/tmj-plan.txt</a>[/html][/conditional]

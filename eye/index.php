@@ -13,3 +13,6 @@
 					<li><a href="/eye/stye-plan/">Stye Assessment/Plan</a></li>
 					<li><a href="/eye/stye-history">Stye History</a></li>
 </ul></div>
+<?php 
+ include('../lib/main-footer.php');
+?>

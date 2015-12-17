@@ -16,12 +16,13 @@ if($act == 'saveFile') {
         $fileUrl = generateTextFile($content,$userId) ;
         die($_SESSION['txtFileName']);
 } else if ($act == 'generateForm') {
-        $formTitle = $userId;
+        $formTitle = '';
         if(!empty($_POST['formTitle']))
-                $formTitle = $_POST['formTitle'];
+					$formTitle = $_POST['formTitle'];
         $_SESSION['txtFileName'] = $formTitle;
         $content = $_POST['content'];
-        $fileUrl = generateFormFile($formTitle,$content,$userId) ;
+				$admin = $_POST['admin']==1?1:0;
+        $fileUrl = generateFormFile($formTitle,$content,$userId,$admin) ;
         die($fileUrl);
 } else {
         die('');

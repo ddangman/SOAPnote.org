@@ -27,3 +27,6 @@
 					<li><a href="/injury/work-injury-headaches/">Work Injury, Headaches</a></li>								
 </ul>
 </div>
+<?php 
+ include('../lib/main-footer.php');
+?>

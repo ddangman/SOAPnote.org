@@ -28,3 +28,6 @@
 					<li><a href="/digestive-system/meld/">Model for End-Stage Liver Disease (MELD) Calculator</a></li>
 					<li><a href="/digestive-system/rockall-gi-bleed/">Rockall Risk Score for GI Bleeding</a></li>
 </ul></div>
+<?php 
+ include('../lib/main-footer.php');
+?>

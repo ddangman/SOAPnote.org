@@ -27,3 +27,6 @@ Please feel free to <a href="mailto:mark@soapnote.org">email us</a> if you have 
 </br>
 <em>Last Updated October 4, 2015</em>
 </div>
+<?php 
+ include('../lib/main-footer.php');
+?>

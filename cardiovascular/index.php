@@ -55,3 +55,6 @@
 					<li><a href="/cardiovascular/target-heart-rate/">Target and Maximum Heart Rate for Exercise</a></li>
 </ul>
 </div>
+<?php 
+ include('../lib/main-footer.php');
+?>

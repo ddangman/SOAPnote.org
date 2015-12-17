@@ -20,3 +20,6 @@
 					<li><a href="/pregnancy/wheel/">Pregnancy Dating Wheel – LMP</a></li>
 </ul>
 </div>
+<?php 
+ include('../lib/main-footer.php');
+?>

@@ -3,7 +3,7 @@
 ?>
 <ul class="breadcrumb">
     <li><a href="/">Home</a></li>
-    <li class="active">SOAPnote Markup</li>
+    <li class="active">SOAPnote Tags</li>
 </ul>
 
 <div id="container" class="container-fluid">
@@ -11,7 +11,7 @@
 		<div class="col-sm-3">
 			<ul>
 				<li><a href="#getstarted">Getting started making Soapnotes</a></li>
-				<li><a href="#basic">Basic Soapnote Markup</a>
+				<li><a href="#basic">Basic Soapnote Tags</a>
 			<ul>
 				<li><a href="#boilerplate">Boilerplate</a></li>
 				<li><a href="#textbox">Text Boxes</a></li>
@@ -63,11 +63,11 @@
 			<li>Start small - try a few small templates before you try to put together the grand unifying medical calculator.</li>
 			<li>Save your work early and often.</li>
 			<li>There probably is a sweet spot for the proportions of user input versus <a href="http://en.wikipedia.org/wiki/Boilerplate_(text)">boilerplate</a>.  One biased opinion is that there should be a lot more than 50% boilerplate and a lot less than 50% user input.</li>
-			<li>You can post a simple boilerplate Soapnote in a matter of moments. You can always come back to it later and pepper it with Soapnote Markup to make it more interactive.</li>
+			<li>You can post a simple boilerplate Soapnote in a matter of moments. You can always come back to it later and pepper it with Soapnote Tags to make it more interactive.</li>
 		</ul>
-		<h2><a name="basic"></a>Basic Soapnote Markup</h2>
-		Soapnote Markup is the snippets in the brackets that turn boilerplate into an interactive form. The samples below might be a good launching-off point for developing your own templates, interactive forms, and calculators.  To see how things work, you can toggle between "Markup View" (the code behind the form) and "Form View" (the functioning form).
-		Aside from the ones below, there's a lot of other calculators and forms you can take a look at and shamelessly steal from, too.  Just go to "Markup View", "Duplicate" the form and make your changes. Easy!
+		<h2><a name="basic"></a>Basic Soapnote Tags</h2>
+		Soapnote Tags are the snippets in the brackets that turn boilerplate into an interactive form. The samples below might be a good launching-off point for developing your own templates, interactive forms, and calculators.  
+		Aside from the ones below, there's a lot of other calculators and forms you can take a look at and shamelessly steal from, too.
 		<h3><a name="boilerplate"></a>Boilerplate</h3>
 		This is simply text entered into a form. Nothing interactive or customized here.
 		Here is a sample of <a href="/sample/boilerplate/">boilerplate</a>.
@@ -134,7 +134,7 @@
 		If you have some formatted HTML that you'd like in the form, you can sandwich it between a [html] and a [/html].
 		HTML is used to display links or other formatting. It does not display in the output.
 		Any html may be placed between [html] and [/html]
-		This is a little more powerful than the [link] and [comment] markup items, but also a little more complicated.
+		This is a little more powerful than the [link] and [comment] tags, but also a little more complicated.
 		Code for this is: [html] and [/html]
 		Example 1:
 		This text goes into the output

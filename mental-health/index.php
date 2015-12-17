@@ -37,5 +37,8 @@
 					<li><a href="/mental-health/bathe-technique/">Psychosocial History - BATHE Technique</a></li>
 					<li><a href="/mental-health/stages-of-change/">Stage of Change Assessment</a></li>
 					<li><a href="/mental-health/suicide-behaviors-questionnaire/">Suicide Behaviors Questionnaire-Revised (SBQ-R)</a></li>
-					</ul>
-					</div>
+</ul>
+</div>
+<?php 
+ include('../lib/main-footer.php');
+?>

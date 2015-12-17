@@ -1,32 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>soapnote.org = calculators + decision tools + SOAP samples</title>
     <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
     <script type="text/javascript" src="../../lib/jquery.min.js"></script>
     <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
-    <script>
-        function copyToClipboard(element) {
-                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
-                $("#temp").val($(element).val()).select();
-                document.execCommand("copy");
-                $("#temp").remove();
-                alert('Result has been copied!');
-        }
-    </script>
     </head>
     <body>
 
         <div id="container" class="embed_client">
                 <div class="form-view-content ">
                         <form id="form_1" method="get" autocomplete="off">
-                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Abdominal Aortic Aneurysm Prognosis and Surveillance Calculator<br><select name="Q1"><option value="3.0=3.0">3.0</option><option value="3.1=3.1">3.1</option><option value="3.2=3.2">3.2</option><option value="3.3=3.3">3.3</option><option value="3.4=3.4">3.4</option><option value="3.5=3.5">3.5</option><option value="3.6=3.6">3.6</option><option value="3.7=3.7">3.7</option><option value="3.8=3.8">3.8</option><option value="3.9=3.9">3.9</option><option value="4.0=4.0">4.0</option><option value="4.1=4.1">4.1</option><option value="4.2=4.2">4.2</option><option value="4.3=4.3">4.3</option><option value="4.4=4.4">4.4</option><option value="4.5=4.5">4.5</option><option value="4.6=4.6">4.6</option><option value="4.7=4.7">4.7</option><option value="4.8=4.8">4.8</option><option value="4.9=4.9">4.9</option><option value="5.0=5.0">5.0</option><option value="5.1=5.1">5.1</option><option value="5.2=5.2">5.2</option><option value="5.3=5.3">5.3</option><option value="5.4=5.4">5.4</option><option value="5.5=5.5">5.5</option><option value="5.6=5.6">5.6</option><option value="5.7=5.7">5.7</option><option value="5.8=5.8">5.8</option><option value="5.9=5.9">5.9</option><option value="6.0=6.0">6.0</option><option value="6.1=6.1">6.1</option><option value="6.2=6.2">6.2</option><option value="6.3=6.3">6.3</option><option value="6.4=6.4">6.4</option><option value="6.5=6.5">6.5</option><option value="6.6=6.6">6.6</option><option value="6.7=6.7">6.7</option><option value="6.8=6.8">6.8</option><option value="6.9=6.9">6.9</option><option value="7.0=7.0">7.0</option><option value="greater than 7.0=7.1">greater than 7.0</option></select> <-- Size of aneurysm (in centimeters) <br><br>Average Annual Expansion Rate (Predicted) --> <span class="calc">rate<span class="calc_value">score1=(Q1);score1>5.9?'7 to 8 mm per year':score1>3.9?'3 to 5 mm per year':'1 to 4 mm per year'</span></span><br>Absolute Lifetime Risk of Rupture for Abdominal Aortic Aneurysm --> <span class="calc">risk<span class="calc_value">score2=(Q1);score2>6.9?'50 percent':score2>5.9?'40 percent':score2>4.9?'20 percent':'less than 20 percent'</span></span><br>Surveillance --> <span class="calc">recommendation<span class="calc_value">score3=(Q1);score3>5.4?'Surgical consultation for elective repair':score3>5?'Ultrasonography or Computed Tomography every 6 to 12 months, consider surgical consultation':score3>3.9?'Ultrasonography or Computed Tomography every 6 to 12 months':'Ultrasonography every 2 to 3 years'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ed9f78de89b" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16545667" target="_blank">Hirsch AT et al. ACC/AHA 2005 guidelines for the management of patients with peripheral arterial disease. J Am Coll Cardiol. 2006 Mar 21;47(6):1239-312.</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  May 14, 2015; August 18, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/aaa-prognosis-surveillance.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/aaa-prognosis-surveillance.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/aaa-prognosis-surveillance.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/aaa-prognosis-surveillance.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+Abdominal Aortic Aneurysm Prognosis and Surveillance Calculator<br><select name="Q1"><option value="3.0=3.0">3.0</option><option value="3.1=3.1">3.1</option><option value="3.2=3.2">3.2</option><option value="3.3=3.3">3.3</option><option value="3.4=3.4">3.4</option><option value="3.5=3.5">3.5</option><option value="3.6=3.6">3.6</option><option value="3.7=3.7">3.7</option><option value="3.8=3.8">3.8</option><option value="3.9=3.9">3.9</option><option value="4.0=4.0">4.0</option><option value="4.1=4.1">4.1</option><option value="4.2=4.2">4.2</option><option value="4.3=4.3">4.3</option><option value="4.4=4.4">4.4</option><option value="4.5=4.5">4.5</option><option value="4.6=4.6">4.6</option><option value="4.7=4.7">4.7</option><option value="4.8=4.8">4.8</option><option value="4.9=4.9">4.9</option><option value="5.0=5.0">5.0</option><option value="5.1=5.1">5.1</option><option value="5.2=5.2">5.2</option><option value="5.3=5.3">5.3</option><option value="5.4=5.4">5.4</option><option value="5.5=5.5">5.5</option><option value="5.6=5.6">5.6</option><option value="5.7=5.7">5.7</option><option value="5.8=5.8">5.8</option><option value="5.9=5.9">5.9</option><option value="6.0=6.0">6.0</option><option value="6.1=6.1">6.1</option><option value="6.2=6.2">6.2</option><option value="6.3=6.3">6.3</option><option value="6.4=6.4">6.4</option><option value="6.5=6.5">6.5</option><option value="6.6=6.6">6.6</option><option value="6.7=6.7">6.7</option><option value="6.8=6.8">6.8</option><option value="6.9=6.9">6.9</option><option value="7.0=7.0">7.0</option><option value="greater than 7.0=7.1">greater than 7.0</option></select> <-- Size of aneurysm (in centimeters) <br><br>Average Annual Expansion Rate (Predicted) --> <span class="calc">rate<span class="calc_value">score1=(Q1);score1>5.9?'7 to 8 mm per year':score1>3.9?'3 to 5 mm per year':'1 to 4 mm per year'</span></span><br>Absolute Lifetime Risk of Rupture for Abdominal Aortic Aneurysm --> <span class="calc">risk<span class="calc_value">score2=(Q1);score2>6.9?'50 percent':score2>5.9?'40 percent':score2>4.9?'20 percent':'less than 20 percent'</span></span><br>Surveillance --> <span class="calc">recommendation<span class="calc_value">score3=(Q1);score3>5.4?'Surgical consultation for elective repair':score3>5?'Ultrasonography or Computed Tomography every 6 to 12 months, consider surgical consultation':score3>3.9?'Ultrasonography or Computed Tomography every 6 to 12 months':'Ultrasonography every 2 to 3 years'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ed9f78de89b" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16545667" target="_blank">Hirsch AT et al. ACC/AHA 2005 guidelines for the management of patients with peripheral arterial disease. J Am Coll Cardiol. 2006 Mar 21;47(6):1239-312.</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  May 14, 2015; August 18, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/aaa-prognosis-surveillance.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/aaa-prognosis-surveillance.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/aaa-prognosis-surveillance.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/aaa-prognosis-surveillance.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
 <div class="soapnote_result_container exclude">
 Result - Copy or Print this text:
-<div class="result_buttons">
-<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
-<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
-</div>
 <textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
 </div>
 </form>
@@ -62,15 +50,6 @@ jQuery(document).ready(function($) {
 				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
 			});
 			</script>
-
-<script type="text/javascript">
-
-jQuery(document).ready(function($){
-$(".print-button").click(function(){
-                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
-        });
-});
-</script>
 <script type="text/javascript" src="../../lib/form.js"></script>
 </div>
 </div>

@@ -1,32 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>soapnote.org = calculators + decision tools + SOAP samples</title>
     <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
     <script type="text/javascript" src="../../lib/jquery.min.js"></script>
     <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
-    <script>
-        function copyToClipboard(element) {
-                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
-                $("#temp").val($(element).val()).select();
-                document.execCommand("copy");
-                $("#temp").remove();
-                alert('Result has been copied!');
-        }
-    </script>
     </head>
     <body>
 
         <div id="container" class="embed_client">
                 <div class="form-view-content ">
                         <form id="form_1" method="get" autocomplete="off">
-                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Mannheim Peritonitis Index for mortality prediction<br>Risk factor<br><select name="Q1"><option value="no (0 points)=0">no (0 points)</option><option value="YES (7 points)=7">YES (7 points)</option></select> <-- Organ failure<br><select name="Q2"><option value="no (0 points)=0">no (0 points)</option><option value="YES (6 points)=6">YES (6 points)</option></select> <-- Diffuse peritonitis<br><select name="Q3"><option value="no (0 points)=0">no (0 points)</option><option value="YES (5 points)=5">YES (5 points)</option></select> <-- Age older than 50 years<br><select name="Q4"><option value="no (0 points)=0">no (0 points)</option><option value="YES (5 points)=5">YES (5 points)</option></select> <-- Female sex<br><select name="Q5"><option value="no (0 points)=0">no (0 points)</option><option value="YES (4 points)=4">YES (4 points)</option></select> <-- Malignancy<br><select name="Q6"><option value="no (0 points)=0">no (0 points)</option><option value="YES (4 points)=4">YES (4 points)</option></select> <-- Origin of sepsis not colonic<br><select name="Q7"><option value="no (0 points)=0">no (0 points)</option><option value="YES (4 points)=4">YES (4 points)</option></select> <-- Preoperative duration of peritonitis > 24 hours<br><select name="Q8"><option value="Clear (0 points)=0">Clear (0 points)</option><option value="Cloudy, purulent (6 points)=6">Cloudy, purulent (6 points)</option><option value="Fecal (12 points)=12">Fecal (12 points)</option></select> <-- Exudate<br>Score --> <span class="calc">number<span class="calc_value">score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)</span></span><br>Interpretation --> <span class="calc">result<span class="calc_value">score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8);score2>29?'Mortality rate 64%':score2>21?'Mortality rate 26%':score2>13?'Mortality rate 13%':score2>5?'Mortality rate 20%':'Mortality rate 0%'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ee3f305b509" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16607684" target="_blank">Biondo S, Ramos E, Fraccalvieri D, Kreisler E, Ragué JM, Jaurrieta E. Comparative study of left colonic Peritonitis Severity Score and Mannheim Peritonitis Index. Br J Surg. 2006 May;93(5):616-22.</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  September 19, 2014; August 25, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/digestive-system/mannheim-peritonitis-index.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/digestive-system/mannheim-peritonitis-index.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/mannheim-peritonitis-index.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/mannheim-peritonitis-index.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+Mannheim Peritonitis Index for mortality prediction<br>Risk factor<br><select name="Q1"><option value="no (0 points)=0">no (0 points)</option><option value="YES (7 points)=7">YES (7 points)</option></select> <-- Organ failure<br><select name="Q2"><option value="no (0 points)=0">no (0 points)</option><option value="YES (6 points)=6">YES (6 points)</option></select> <-- Diffuse peritonitis<br><select name="Q3"><option value="no (0 points)=0">no (0 points)</option><option value="YES (5 points)=5">YES (5 points)</option></select> <-- Age older than 50 years<br><select name="Q4"><option value="no (0 points)=0">no (0 points)</option><option value="YES (5 points)=5">YES (5 points)</option></select> <-- Female sex<br><select name="Q5"><option value="no (0 points)=0">no (0 points)</option><option value="YES (4 points)=4">YES (4 points)</option></select> <-- Malignancy<br><select name="Q6"><option value="no (0 points)=0">no (0 points)</option><option value="YES (4 points)=4">YES (4 points)</option></select> <-- Origin of sepsis not colonic<br><select name="Q7"><option value="no (0 points)=0">no (0 points)</option><option value="YES (4 points)=4">YES (4 points)</option></select> <-- Preoperative duration of peritonitis > 24 hours<br><select name="Q8"><option value="Clear (0 points)=0">Clear (0 points)</option><option value="Cloudy, purulent (6 points)=6">Cloudy, purulent (6 points)</option><option value="Fecal (12 points)=12">Fecal (12 points)</option></select> <-- Exudate<br>Score --> <span class="calc">number<span class="calc_value">score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)</span></span><br>Interpretation --> <span class="calc">result<span class="calc_value">score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8);score2>29?'Mortality rate 64%':score2>21?'Mortality rate 26%':score2>13?'Mortality rate 13%':score2>5?'Mortality rate 20%':'Mortality rate 0%'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ee3f305b509" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16607684" target="_blank">Biondo S, Ramos E, Fraccalvieri D, Kreisler E, Ragué JM, Jaurrieta E. Comparative study of left colonic Peritonitis Severity Score and Mannheim Peritonitis Index. Br J Surg. 2006 May;93(5):616-22.</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  September 19, 2014; August 25, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/digestive-system/mannheim-peritonitis-index.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/digestive-system/mannheim-peritonitis-index.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/mannheim-peritonitis-index.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/mannheim-peritonitis-index.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
 <div class="soapnote_result_container exclude">
 Result - Copy or Print this text:
-<div class="result_buttons">
-<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
-<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
-</div>
 <textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
 </div>
 </form>
@@ -62,15 +50,6 @@ jQuery(document).ready(function($) {
 				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
 			});
 			</script>
-
-<script type="text/javascript">
-
-jQuery(document).ready(function($){
-$(".print-button").click(function(){
-                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
-        });
-});
-</script>
 <script type="text/javascript" src="../../lib/form.js"></script>
 </div>
 </div>

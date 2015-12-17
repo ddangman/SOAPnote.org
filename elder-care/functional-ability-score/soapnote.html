@@ -1,32 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>soapnote.org = calculators + decision tools + SOAP samples</title>
     <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
     <script type="text/javascript" src="../../lib/jquery.min.js"></script>
     <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
-    <script>
-        function copyToClipboard(element) {
-                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
-                $("#temp").val($(element).val()).select();
-                document.execCommand("copy");
-                $("#temp").remove();
-                alert('Result has been copied!');
-        }
-    </script>
     </head>
     <body>
 
         <div id="container" class="embed_client">
                 <div class="form-view-content ">
                         <form id="form_1" method="get" autocomplete="off">
-                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Functional Ability Score<br><select name="Q1a"><option value="0 (no impairment)=0">0 (no impairment)</option><option value="1 (mild impairment)=1">1 (mild impairment)</option><option value="2 (moderate impairment)=2">2 (moderate impairment)</option><option value="3 (high impairment)=3">3 (high impairment)</option></select> <-- 1) Bed Mobility    <br><select name="Q1b"><option value="0 (no impairment)=0">0 (no impairment)</option><option value="1 (mild impairment)=1">1 (mild impairment)</option><option value="2 (moderate impairment)=2">2 (moderate impairment)</option><option value="3 (high impairment)=3">3 (high impairment)</option></select> <-- 2) Transferring    <br><select name="Q1c"><option value="0 (no impairment)=0">0 (no impairment)</option><option value="1 (mild impairment)=1">1 (mild impairment)</option><option value="2 (moderate impairment)=2">2 (moderate impairment)</option><option value="3 (high impairment)=3">3 (high impairment)</option></select> <-- 3) Eating      <br><select name="Q1d"><option value="0 (no impairment)=0">0 (no impairment)</option><option value="1 (mild impairment)=1">1 (mild impairment)</option><option value="2 (moderate impairment)=2">2 (moderate impairment)</option><option value="3 (high impairment)=3">3 (high impairment)</option></select> <-- 4) Toileting    <br><select name="Q1e"><option value="0 (no impairment)=0">0 (no impairment)</option><option value="1 (mild impairment)=1">1 (mild impairment)</option><option value="2 (moderate impairment)=2">2 (moderate impairment)</option><option value="3 (high impairment)=3">3 (high impairment)</option></select> <-- 5) Hygiene    <br><select name="Q1f"><option value="0 (no impairment)=0">0 (no impairment)</option><option value="1 (mild impairment)=1">1 (mild impairment)</option><option value="2 (moderate impairment)=2">2 (moderate impairment)</option><option value="3 (high impairment)=3">3 (high impairment)</option></select> <-- 6) Locomotion on unit   <br><select name="Q1g"><option value="0 (no impairment)=0">0 (no impairment)</option><option value="1 (mild impairment)=1">1 (mild impairment)</option><option value="2 (moderate impairment)=2">2 (moderate impairment)</option><option value="3 (high impairment)=3">3 (high impairment)</option></select> <-- 7) Dressing<br>Functional Ability Score --> <span class="calc">number<span class="calc_value">score2=(Q1a)+(Q1b)+(Q1c)+(Q1d)+(Q1e)+(Q1f)+(Q1g)</span></span> / 28<br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ee9b852c024" class="hidden"><span class="exclude"><br>reference:  none<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  October 12, 2014; August 30, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/functional-ability-score.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/functional-ability-score.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/functional-ability-score.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/functional-ability-score.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+Functional Ability Score<br><select name="Q1a"><option value="0 (no impairment)=0">0 (no impairment)</option><option value="1 (mild impairment)=1">1 (mild impairment)</option><option value="2 (moderate impairment)=2">2 (moderate impairment)</option><option value="3 (high impairment)=3">3 (high impairment)</option></select> <-- 1) Bed Mobility    <br><select name="Q1b"><option value="0 (no impairment)=0">0 (no impairment)</option><option value="1 (mild impairment)=1">1 (mild impairment)</option><option value="2 (moderate impairment)=2">2 (moderate impairment)</option><option value="3 (high impairment)=3">3 (high impairment)</option></select> <-- 2) Transferring    <br><select name="Q1c"><option value="0 (no impairment)=0">0 (no impairment)</option><option value="1 (mild impairment)=1">1 (mild impairment)</option><option value="2 (moderate impairment)=2">2 (moderate impairment)</option><option value="3 (high impairment)=3">3 (high impairment)</option></select> <-- 3) Eating      <br><select name="Q1d"><option value="0 (no impairment)=0">0 (no impairment)</option><option value="1 (mild impairment)=1">1 (mild impairment)</option><option value="2 (moderate impairment)=2">2 (moderate impairment)</option><option value="3 (high impairment)=3">3 (high impairment)</option></select> <-- 4) Toileting    <br><select name="Q1e"><option value="0 (no impairment)=0">0 (no impairment)</option><option value="1 (mild impairment)=1">1 (mild impairment)</option><option value="2 (moderate impairment)=2">2 (moderate impairment)</option><option value="3 (high impairment)=3">3 (high impairment)</option></select> <-- 5) Hygiene    <br><select name="Q1f"><option value="0 (no impairment)=0">0 (no impairment)</option><option value="1 (mild impairment)=1">1 (mild impairment)</option><option value="2 (moderate impairment)=2">2 (moderate impairment)</option><option value="3 (high impairment)=3">3 (high impairment)</option></select> <-- 6) Locomotion on unit   <br><select name="Q1g"><option value="0 (no impairment)=0">0 (no impairment)</option><option value="1 (mild impairment)=1">1 (mild impairment)</option><option value="2 (moderate impairment)=2">2 (moderate impairment)</option><option value="3 (high impairment)=3">3 (high impairment)</option></select> <-- 7) Dressing<br>Functional Ability Score --> <span class="calc">number<span class="calc_value">score2=(Q1a)+(Q1b)+(Q1c)+(Q1d)+(Q1e)+(Q1f)+(Q1g)</span></span> / 28<br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ee9b852c024" class="hidden"><span class="exclude"><br>reference:  none<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  October 12, 2014; August 30, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/functional-ability-score.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/functional-ability-score.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/functional-ability-score.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/functional-ability-score.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
 <div class="soapnote_result_container exclude">
 Result - Copy or Print this text:
-<div class="result_buttons">
-<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
-<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
-</div>
 <textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
 </div>
 </form>
@@ -62,15 +50,6 @@ jQuery(document).ready(function($) {
 				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
 			});
 			</script>
-
-<script type="text/javascript">
-
-jQuery(document).ready(function($){
-$(".print-button").click(function(){
-                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
-        });
-});
-</script>
 <script type="text/javascript" src="../../lib/form.js"></script>
 </div>
 </div>

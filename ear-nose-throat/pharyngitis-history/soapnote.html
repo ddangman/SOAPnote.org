@@ -1,32 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>soapnote.org = calculators + decision tools + SOAP samples</title>
     <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
     <script type="text/javascript" src="../../lib/jquery.min.js"></script>
     <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
-    <script>
-        function copyToClipboard(element) {
-                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
-                $("#temp").val($(element).val()).select();
-                document.execCommand("copy");
-                $("#temp").remove();
-                alert('Result has been copied!');
-        }
-    </script>
     </head>
     <body>
 
         <div id="container" class="embed_client">
                 <div class="form-view-content ">
                         <form id="form_1" method="get" autocomplete="off">
-                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/><span class="exclude">Pharyngitis History<br></span><span class="checkbox" name="A"> <label><input type="checkbox" name="A" value="" /> </label></span><span class="memo exclude">Version A</span><span name="conditional_55ee40e259738" class="hidden">Duration of symptoms in days <input type="text" value="" size="15" name="text_55ee40e2598ae" /><br>Pertinent positives<br><select name="select_55ee40e259956"><option value="no">no</option><option value="YES">YES</option></select> <-- fever<br><select name="select_55ee40e259956"><option value="no">no</option><option value="YES">YES</option></select> <-- malaise<br><select name="select_55ee40e259956"><option value="no">no</option><option value="YES">YES</option></select> <-- swollen lymph nodes<br><select name="select_55ee40e259956"><option value="no">no</option><option value="YES">YES</option></select> <-- cough<br><select name="select_55ee40e259956"><option value="no">no</option><option value="YES">YES</option></select> <-- headache<br><select name="select_55ee40e259956"><option value="no">no</option><option value="YES">YES</option></select> <-- rash<br><select name="select_55ee40e259d27"><option value="good">good</option><option value="adequate">adequate</option><option value="poor">poor</option></select> <-- Intake pattern<br><select name="select_55ee40e259dd6"><option value="good">good</option><option value="adequate">adequate</option><option value="poor">poor</option><option value="constipation">constipation</option></select> <-- Elimination pattern<textarea cols="108" rows="5" name="textarea_55ee40e259ea5"></textarea></span><span class="checkbox" name="B"> <label><input type="checkbox" name="B" value="" /> </label></span><span class="memo exclude">Version B</span><span name="conditional_55ee40e259fcc" class="hidden"><textarea cols="108" rows="5" name="textarea_55ee40e25a16e">Patient has had *** days of ***sore throat/dysphonia/fever/cough/difficulty swallowing/nasal congestion/headache***.&#13;&#10;Patient has had no ***dysphonia/fever/cough/difficulty swallowing/nasal congestion/headache***.&#13;&#10;There ***are no known/have been*** recent exposures to Strep. The patient ***has not had/has had*** Strep pharyngitis in the past 30 days.&#13;&#10;Other history/symptoms:  ***nausea/vomiting/mild abdominal ache/diarrhea/rash/refusing to eat/refusing to drink/body aches/eye irritation/ear pain/facial pain/shortness of breath/arthralgias/myalgias/exposure to Mono***.</textarea></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ee40e25a2a8" class="hidden"><span class="exclude"><br>reference:  none<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  April 1, 2010; June 11, 2010; September 6, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/pharyngitis-history.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/pharyngitis-history.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/pharyngitis-history.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/pharyngitis-history.txt</a></span></span><br><br><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<span class="exclude">Pharyngitis History<br></span><span class="checkbox" name="A"> <label><input type="checkbox" name="A" value="" /> </label></span><span class="memo exclude">Version A</span><span name="conditional_55ee40e259738" class="hidden">Duration of symptoms in days <input type="text" value="" size="15" name="text_55ee40e2598ae" /><br>Pertinent positives<br><select name="select_55ee40e259956"><option value="no">no</option><option value="YES">YES</option></select> <-- fever<br><select name="select_55ee40e259956"><option value="no">no</option><option value="YES">YES</option></select> <-- malaise<br><select name="select_55ee40e259956"><option value="no">no</option><option value="YES">YES</option></select> <-- swollen lymph nodes<br><select name="select_55ee40e259956"><option value="no">no</option><option value="YES">YES</option></select> <-- cough<br><select name="select_55ee40e259956"><option value="no">no</option><option value="YES">YES</option></select> <-- headache<br><select name="select_55ee40e259956"><option value="no">no</option><option value="YES">YES</option></select> <-- rash<br><select name="select_55ee40e259d27"><option value="good">good</option><option value="adequate">adequate</option><option value="poor">poor</option></select> <-- Intake pattern<br><select name="select_55ee40e259dd6"><option value="good">good</option><option value="adequate">adequate</option><option value="poor">poor</option><option value="constipation">constipation</option></select> <-- Elimination pattern<textarea cols="108" rows="5" name="textarea_55ee40e259ea5"></textarea></span><span class="checkbox" name="B"> <label><input type="checkbox" name="B" value="" /> </label></span><span class="memo exclude">Version B</span><span name="conditional_55ee40e259fcc" class="hidden"><textarea cols="108" rows="5" name="textarea_55ee40e25a16e">Patient has had *** days of ***sore throat/dysphonia/fever/cough/difficulty swallowing/nasal congestion/headache***.&#13;&#10;Patient has had no ***dysphonia/fever/cough/difficulty swallowing/nasal congestion/headache***.&#13;&#10;There ***are no known/have been*** recent exposures to Strep. The patient ***has not had/has had*** Strep pharyngitis in the past 30 days.&#13;&#10;Other history/symptoms:  ***nausea/vomiting/mild abdominal ache/diarrhea/rash/refusing to eat/refusing to drink/body aches/eye irritation/ear pain/facial pain/shortness of breath/arthralgias/myalgias/exposure to Mono***.</textarea></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ee40e25a2a8" class="hidden"><span class="exclude"><br>reference:  none<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  April 1, 2010; June 11, 2010; September 6, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/pharyngitis-history.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/pharyngitis-history.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/pharyngitis-history.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/pharyngitis-history.txt</a></span></span><br><br><input type="button" class="soapnote_submit exclude" value="Submit"/>
 <div class="soapnote_result_container exclude">
 Result - Copy or Print this text:
-<div class="result_buttons">
-<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
-<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
-</div>
 <textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
 </div>
 </form>
@@ -64,15 +52,6 @@ jQuery(document).ready(function($) {
 				$('#form_1').find('input[name="A"], select[name="A"], input[name="B"], select[name="B"], input[name="footnotes"], select[name="footnotes"]').change();
 			});
 			</script>
-
-<script type="text/javascript">
-
-jQuery(document).ready(function($){
-$(".print-button").click(function(){
-                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
-        });
-});
-</script>
 <script type="text/javascript" src="../../lib/form.js"></script>
 </div>
 </div>

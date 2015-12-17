@@ -62,3 +62,6 @@
 			<li><a href="/child-health/pediatric-physical-exam/">(General) Pediatric Physical Exams</a></li>
 			<li><a href="/child-health/yale-scale/">Yale Observation Scale for Febrile Child</a></li>
 </ul></div>
+<?php 
+ include('../lib/main-footer.php');
+?>

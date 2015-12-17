@@ -11,3 +11,6 @@
 </br>
 <em>Last Updated October 23, 2015</em>
 </div>
+<?php 
+ include('../lib/main-footer.php');
+?>

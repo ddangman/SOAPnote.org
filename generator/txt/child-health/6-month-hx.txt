@@ -1,8 +1,0 @@
-[html]6 Month History
-[/html][textarea default="Has done well over the past two months. Nutrition includes ***nursing/--- formula*** plus solids. Growth is normal. Speech includes squealing, cooing, and some repetitive sounds. No concerns regarding hearing. Motor skills include rolling, sitting, and transferring with both hands. Looks for object. Toes to mouth. No problems with urine or stool. No significant sleep issues. All other systems are negative."]
-[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  none
-posted by:  Mark Morgan, M.D.
-post/review dates:  April 1, 2010; August 30, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/6-month-hx.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/6-month-hx.txt</a>
-markup link:  <a href="http://www.soapnote.org/generator/txt/child-health/6-month-hx.txt" target="_blank">www.soapnote.org/generator/txt/child-health/6-month-hx.txt</a>[/html][/conditional]

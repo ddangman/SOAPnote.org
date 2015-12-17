@@ -1,19 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>soapnote.org = calculators + decision tools + SOAP samples</title>
     <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
     <script type="text/javascript" src="../../lib/jquery.min.js"></script>
     <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
-    <script>
-        function copyToClipboard(element) {
-                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
-                $("#temp").val($(element).val()).select();
-                document.execCommand("copy");
-                $("#temp").remove();
-                alert('Result has been copied!');
-        }
-    </script>
     </head>
     <body>
 
@@ -21,13 +13,9 @@
                 <!-- <h1 class="entry-title">canadian-c-spine-rule</h1> -->
                 <div class="form-view-content ">
                         <form id="form_1" method="get" autocomplete="off">
-                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Canadian C-Spine Rule<span class="exclude"><br>Summary: Evaluate for need of C-spine Xray. This applies the Canadian C-Spine Rule to determine whether Xray is recommended.</span><br>High Risk Factors<br><select name="Q1"><option value="no=0">no</option><option value="YES=10">YES</option></select> <-- Age: 65 years or older<br><select name="Q2"><option value="no=0">no</option><option value="YES=10">YES</option></select> <-- Has paresthesia in the extremities<br><select name="Q3"><option value="no=0">no</option><option value="YES=10">YES</option></select> <-- Fall from at least 3 feet or 5 stairs<br><select name="Q4"><option value="no=0">no</option><option value="YES=10">YES</option></select> <-- Axial load to the head, such as when diving<br><select name="Q5"><option value="no=0">no</option><option value="YES=10">YES</option></select> <-- Motor vehicle collision at high speed (at least 62 mph)<br><select name="Q6"><option value="no=0">no</option><option value="YES=10">YES</option></select> <-- Motor vehicle collision with ejection or rollover<br><select name="Q7"><option value="no=0">no</option><option value="YES=10">YES</option></select> <-- Collision involving motorized recreational vehicle or bicycle<br><span name="conditional_560fadf6bc281" class="hidden">Low Risk Factors<br><select name="Q8"><option value="yes=1">yes</option><option value="NO=0">NO</option></select> <-- Able to sit up in the emergency room<br><select name="Q9"><option value="yes=1">yes</option><option value="NO=0">NO</option></select> <-- Ambulatory at any time<br><select name="Qten"><option value="yes=1">yes</option><option value="NO=0">NO</option></select> <-- Delayed onset of neck pain<br><select name="Qeleven"><option value="yes=1">yes</option><option value="NO=0">NO</option></select> <-- No midline C-spine tenderness<br><select name="Qtwelve"><option value="yes=1">yes</option><option value="NO=0">NO</option></select> <-- Simple rear-end collision<br><select name="Qthirteen"><option value="yes=1">yes</option><option value="NO=0">NO</option></select> <-- Not hit by bus or large truck, rollover, or hit by a vehicle moving at high speed <br>NOTE:  Range of motion is safely assessed (safe if at least ONE low risk factor is present)<br><select name="Qfourteen"><option value="yes=0">yes</option><option value="NO=10">NO</option></select> <-- Patient is able to actively rotate neck 45 degrees to the left and right<br></span><br><span class="calc">Interpretation<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Qten)+(Qeleven)+(Qtwelve)+(Qthirteen)+(Qfourteen);score>9?'Canadian C-Spine Rule recommends obtaining X-ray':score>0?'Canadian C-Spine Rule supports not obtaining X-ray':'Canadian C-Spine Rule recommends obtaining X-ray'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_560fadf6bc764" class="hidden"><span class="exclude"><br>reference:   <a href="http://www.aafp.org/afp/2006/0515/p1787.html" target="_blank">Ebell (2006) Am Fam Phys 73:1787-1788</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  August 13, 2013; September 2, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/canadian-c-spine-rule.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/canadian-c-spine-rule.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/canadian-c-spine-rule.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/canadian-c-spine-rule.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+Canadian C-Spine Rule<span class="exclude"><br>Summary: Evaluate for need of C-spine Xray. This applies the Canadian C-Spine Rule to determine whether Xray is recommended.</span><br>High Risk Factors<br><select name="Q1"><option value="no=0">no</option><option value="YES=10">YES</option></select> <-- Age: 65 years or older<br><select name="Q2"><option value="no=0">no</option><option value="YES=10">YES</option></select> <-- Has paresthesia in the extremities<br><select name="Q3"><option value="no=0">no</option><option value="YES=10">YES</option></select> <-- Fall from at least 3 feet or 5 stairs<br><select name="Q4"><option value="no=0">no</option><option value="YES=10">YES</option></select> <-- Axial load to the head, such as when diving<br><select name="Q5"><option value="no=0">no</option><option value="YES=10">YES</option></select> <-- Motor vehicle collision at high speed (at least 62 mph)<br><select name="Q6"><option value="no=0">no</option><option value="YES=10">YES</option></select> <-- Motor vehicle collision with ejection or rollover<br><select name="Q7"><option value="no=0">no</option><option value="YES=10">YES</option></select> <-- Collision involving motorized recreational vehicle or bicycle<br><span name="conditional_560fadf6bc281" class="hidden">Low Risk Factors<br><select name="Q8"><option value="yes=1">yes</option><option value="NO=0">NO</option></select> <-- Able to sit up in the emergency room<br><select name="Q9"><option value="yes=1">yes</option><option value="NO=0">NO</option></select> <-- Ambulatory at any time<br><select name="Qten"><option value="yes=1">yes</option><option value="NO=0">NO</option></select> <-- Delayed onset of neck pain<br><select name="Qeleven"><option value="yes=1">yes</option><option value="NO=0">NO</option></select> <-- No midline C-spine tenderness<br><select name="Qtwelve"><option value="yes=1">yes</option><option value="NO=0">NO</option></select> <-- Simple rear-end collision<br><select name="Qthirteen"><option value="yes=1">yes</option><option value="NO=0">NO</option></select> <-- Not hit by bus or large truck, rollover, or hit by a vehicle moving at high speed <br>NOTE:  Range of motion is safely assessed (safe if at least ONE low risk factor is present)<br><select name="Qfourteen"><option value="yes=0">yes</option><option value="NO=10">NO</option></select> <-- Patient is able to actively rotate neck 45 degrees to the left and right<br></span><br><span class="calc">Interpretation<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Qten)+(Qeleven)+(Qtwelve)+(Qthirteen)+(Qfourteen);score>9?'Canadian C-Spine Rule recommends obtaining X-ray':score>0?'Canadian C-Spine Rule supports not obtaining X-ray':'Canadian C-Spine Rule recommends obtaining X-ray'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_560fadf6bc764" class="hidden"><span class="exclude"><br>reference:   <a href="http://www.aafp.org/afp/2006/0515/p1787.html" target="_blank">Ebell (2006) Am Fam Phys 73:1787-1788</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  August 13, 2013; September 2, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/canadian-c-spine-rule.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/canadian-c-spine-rule.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/canadian-c-spine-rule.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/canadian-c-spine-rule.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
 <div class="soapnote_result_container exclude">
 Result - Copy or Print this text:
-<div class="result_buttons">
-<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
-<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
-</div>
 <textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
 </div>
 </form>
@@ -64,15 +52,6 @@ jQuery(document).ready(function($) {
 				$('#form_1').find('input[name="Q1"], select[name="Q1"], input[name="Q2"], select[name="Q2"], input[name="Q3"], select[name="Q3"], input[name="Q4"], select[name="Q4"], input[name="Q5"], select[name="Q5"], input[name="Q6"], select[name="Q6"], input[name="Q7"], select[name="Q7"], input[name="footnotes"], select[name="footnotes"]').change();
 			});
 			</script>
-
-<script type="text/javascript">
-
-jQuery(document).ready(function($){
-$(".print-button").click(function(){
-                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
-        });
-});
-</script>
 <script type="text/javascript" src="../../lib/form.js"></script>
 </div>
 </div>

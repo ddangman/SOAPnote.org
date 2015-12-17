@@ -1,6 +1,0 @@
-This calculator performs a simple computation then interprets the result
-[text name="A"] <-- A (enter a number)
-[text name="B"] <-- B (enter a number)
-
-A + B --> [calc value="score1=(A)+(B)" memo="computation"]
-A + B --> [calc value="score2=(A)+(B);score2>1000?'Sum is greater than 1000':score2>100?'Sum is greater than 100 and less than or equal to 1000':score2>10?'Sum is greater than 10 and less than or equal to 100':score2>0?'Sum is greater than 0 and less than or equal to 10':'sum is 0 or less'" memo="interpretation"]

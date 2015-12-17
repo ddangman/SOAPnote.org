@@ -1,8 +1,0 @@
-[html]4 Month History
-[/html][textarea default="Has done well over the past two months. Nutrition includes ***nursing/--- formula***. Growth is normal. Speech includes squealing and cooing. No concerns regarding hearing. Responsive. Smiling. Reaches for objects. Hands to midline/mouth. Head up prone. Pivots while on stomach. No problems with urine or stool. Usual sleep pattern. All other systems are negative."]
-[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  none
-posted by:  Mark Morgan, M.D.
-post/review dates:  April 1, 2010; August 30, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/4-month-hx.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/4-month-hx.txt</a>
-markup link:  <a href="http://www.soapnote.org/generator/txt/child-health/4-month-hx.txt" target="_blank">www.soapnote.org/generator/txt/child-health/4-month-hx.txt</a>[/html][/conditional]

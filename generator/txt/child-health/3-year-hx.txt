@@ -1,8 +1,0 @@
-[html]3 Year History
-[/html][textarea default="Has been generally healthy over the past few months. Nutrition includes milk and a variety of foods. Growth is normal. Speech includes three to four word sentences that are more than 3/4 intelligible. Motor skills include dressing and undressing, walking up and down steps, cutting with scissors, and interest in toileting. Parents use simple choice and time-out with good effect. No significant sleep issues. Social interactions are fine. All other systems are negative."]
-[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  none
-posted by:  Mark Morgan, M.D.
-post/review dates:  April 1, 2010; August 30, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/3-year-hx.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/3-year-hx.txt</a>
-markup link:  <a href="http://www.soapnote.org/generator/txt/*dir*/3-year-hx.txt" target="_blank">www.soapnote.org/generator/txt/*dir*/3-year-hx.txt</a>[/html][/conditional]

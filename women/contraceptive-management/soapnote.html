@@ -1,19 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>soapnote.org = calculators + decision tools + SOAP samples</title>
     <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
     <script type="text/javascript" src="../../lib/jquery.min.js"></script>
     <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
-    <script>
-        function copyToClipboard(element) {
-                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
-                $("#temp").val($(element).val()).select();
-                document.execCommand("copy");
-                $("#temp").remove();
-                alert('Result has been copied!');
-        }
-    </script>
     </head>
     <body>
 
@@ -21,13 +13,9 @@
                 <!-- <h1 class="entry-title">contraceptive-management</h1> -->
                 <div class="form-view-content ">
                         <form id="form_1" method="get" autocomplete="off">
-                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/><span class="exclude">Contraception Management Visit<br></span>HISTORY:  <br><textarea cols="60" rows="5" name="textarea_560e02c456fde">Patient requests contraception.  She is not currently taking any birth control.</textarea><br>LMP:  <input type="text" class="date " value="" size="10" name="date_560e02c45706a" /><br>Tobacco Use:  <select name="select_560e02c45710b"><option value="no">no</option><option value="yes">yes</option></select><br>EXAM:  <br><textarea cols="60" rows="5" name="textarea_560e02c4571d4">Vital Signs Within Normal Limits.&#13;&#10;GENERAL: Well Developed and Well Nourished Female, Alert and oriented x 3, in no distress.</textarea><br>ASSESSMENT/PLAN:<br><textarea cols="60" rows="5" name="textarea_560e02c45729b">discussed contraceptive means available including IUD, nuvaring, combination oral contraceptives, and implanon.&#13;&#10;She wishes to proceed with ***.&#13;&#10;Urine HCG obtained and is ***NEGATIVE***&#13;&#10;Benefits and risks discussed with patient.</textarea><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_560e02c456de2" class="hidden"><span class="exclude"><br>reference:  none<br>post/review dates:  October 14, 2013; August 31, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/women/contraceptive-management.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/women/contraceptive-management.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/women/contraceptive-management.txt" target="_blank">www.soapnote.org/generator/txt/women/contraceptive-management.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<span class="exclude">Contraception Management Visit<br></span>HISTORY:  <br><textarea cols="60" rows="5" name="textarea_560e02c456fde">Patient requests contraception.  She is not currently taking any birth control.</textarea><br>LMP:  <input type="text" class="date " value="" size="10" name="date_560e02c45706a" /><br>Tobacco Use:  <select name="select_560e02c45710b"><option value="no">no</option><option value="yes">yes</option></select><br>EXAM:  <br><textarea cols="60" rows="5" name="textarea_560e02c4571d4">Vital Signs Within Normal Limits.&#13;&#10;GENERAL: Well Developed and Well Nourished Female, Alert and oriented x 3, in no distress.</textarea><br>ASSESSMENT/PLAN:<br><textarea cols="60" rows="5" name="textarea_560e02c45729b">discussed contraceptive means available including IUD, nuvaring, combination oral contraceptives, and implanon.&#13;&#10;She wishes to proceed with ***.&#13;&#10;Urine HCG obtained and is ***NEGATIVE***&#13;&#10;Benefits and risks discussed with patient.</textarea><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_560e02c456de2" class="hidden"><span class="exclude"><br>reference:  none<br>post/review dates:  October 14, 2013; August 31, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/women/contraceptive-management.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/women/contraceptive-management.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/women/contraceptive-management.txt" target="_blank">www.soapnote.org/generator/txt/women/contraceptive-management.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
 <div class="soapnote_result_container exclude">
 Result - Copy or Print this text:
-<div class="result_buttons">
-<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
-<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
-</div>
 <textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
 </div>
 </form>
@@ -63,15 +51,6 @@ jQuery(document).ready(function($) {
 				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
 			});
 			</script>
-
-<script type="text/javascript">
-
-jQuery(document).ready(function($){
-$(".print-button").click(function(){
-                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
-        });
-});
-</script>
 <script type="text/javascript" src="../../lib/form.js"></script>
 </div>
 </div>

@@ -1,19 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>soapnote.org = calculators + decision tools + SOAP samples</title>
     <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
     <script type="text/javascript" src="../../lib/jquery.min.js"></script>
     <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
-    <script>
-        function copyToClipboard(element) {
-                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
-                $("#temp").val($(element).val()).select();
-                document.execCommand("copy");
-                $("#temp").remove();
-                alert('Result has been copied!');
-        }
-    </script>
     </head>
     <body>
 
@@ -21,13 +13,9 @@
                 <!-- <h1 class="entry-title">osteoporosis-score</h1> -->
                 <div class="form-view-content ">
                         <form id="form_1" method="get" autocomplete="off">
-                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Osteoporosis SCORE Estimation<span class="exclude"><br><strong>Summary:</strong>  Tool for osteoporosis risk assessment.  <a href="http://www.ncbi.nlm.nih.gov/pubmed/21242341" target="_blank">USPSTF recommends</a> screening for osteoporosis in women 65 years or older, and in younger women whose fracture risk is equal to or greater than that of a 65-year-old white woman with no additional risk factors.<br><strong>See also:</strong> <a href="http://www.soapnote.org/women/osteoporosis-self-assessment-tool/" target="_blank">Osteoporosis Self-Assessment Tool</a><br></span><br><select name="race"><option value="African American (0 points)=0">African American (0 points)</option><option value="Not African American (5 points)=5">Not African American (5 points)</option></select> <-- Race <br><select name="rheum"><option value="no (0 points)=0">no (0 points)</option><option value="yes (4 points)=4">yes (4 points)</option></select> <-- Rheumatoid Arthritis<br><select name="fracture"><option value="none (0 points)=0">none (0 points)</option><option value="one (4 points)=4">one (4 points)</option><option value="two (8 points)=8">two (8 points)</option><option value="three (12 points)=12">three (12 points)</option></select> <-- Fracture after age 45 of wrist, hip or rib (4 points per Fracture)<br><select name="age"><option value="65 or younger (0 points)=0">65 or younger (0 points)</option><option value="66 to 69 (18 points)=18">66 to 69 (18 points)</option><option value="70 to 79 (21 points)=21">70 to 79 (21 points)</option><option value="80 to 89 (24 points)=24">80 to 89 (24 points)</option><option value="90 to 99 (27 points)=27">90 to 99 (27 points)</option></select> <-- Age over 65 (3 points per decade if above 65)<br><input type="text" value="150" size="15" name="weight" /> <-- Weight (subtract 1 point for every 10 points)<br><select name="estro"><option value="ever used (0 points)=0">ever used (0 points)</option><option value="never used (1 point)=1">never used (1 point)</option></select> <-- Estrogen therapy ever<br>Score --> <span class="calc">number<span class="calc_value">score1=((race)+(rheum)+(fracture)+(age)+((weight)/(-10))+(estro)).toFixed(0)</span></span> points<br>Interpretation --> <span class="calc">recommendation<span class="calc_value">score2=(race)+(rheum)+(fracture)+(age)+((weight)/(-10))+(estro);score2>5?'Associated with T-Score below -2, Osteoporosis testing with DEXA Scan is recommended':'Osteoporosis testing not recommended based on this screen'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_560e0679dacc8" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/10179905" target="_blank">Lydick (1998) Am J Manag Care. 4:37-48. </a>, <a href="http://www.fpnotebook.com/rheum/exam/OstprsScrEstmtn.htm" target="_blank">FPNotebook page</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  March 12, 2012; August 31, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/women/osteoporosis-score.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/women/osteoporosis-score.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/women/osteoporosis-score.txt" target="_blank">www.soapnote.org/generator/txt/women/osteoporosis-score.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+Osteoporosis SCORE Estimation<span class="exclude"><br><strong>Summary:</strong>  Tool for osteoporosis risk assessment.  <a href="http://www.ncbi.nlm.nih.gov/pubmed/21242341" target="_blank">USPSTF recommends</a> screening for osteoporosis in women 65 years or older, and in younger women whose fracture risk is equal to or greater than that of a 65-year-old white woman with no additional risk factors.<br><strong>See also:</strong> <a href="http://www.soapnote.org/women/osteoporosis-self-assessment-tool/" target="_blank">Osteoporosis Self-Assessment Tool</a><br></span><br><select name="race"><option value="African American (0 points)=0">African American (0 points)</option><option value="Not African American (5 points)=5">Not African American (5 points)</option></select> <-- Race <br><select name="rheum"><option value="no (0 points)=0">no (0 points)</option><option value="yes (4 points)=4">yes (4 points)</option></select> <-- Rheumatoid Arthritis<br><select name="fracture"><option value="none (0 points)=0">none (0 points)</option><option value="one (4 points)=4">one (4 points)</option><option value="two (8 points)=8">two (8 points)</option><option value="three (12 points)=12">three (12 points)</option></select> <-- Fracture after age 45 of wrist, hip or rib (4 points per Fracture)<br><select name="age"><option value="65 or younger (0 points)=0">65 or younger (0 points)</option><option value="66 to 69 (18 points)=18">66 to 69 (18 points)</option><option value="70 to 79 (21 points)=21">70 to 79 (21 points)</option><option value="80 to 89 (24 points)=24">80 to 89 (24 points)</option><option value="90 to 99 (27 points)=27">90 to 99 (27 points)</option></select> <-- Age over 65 (3 points per decade if above 65)<br><input type="text" value="150" size="15" name="weight" /> <-- Weight (subtract 1 point for every 10 points)<br><select name="estro"><option value="ever used (0 points)=0">ever used (0 points)</option><option value="never used (1 point)=1">never used (1 point)</option></select> <-- Estrogen therapy ever<br>Score --> <span class="calc">number<span class="calc_value">score1=((race)+(rheum)+(fracture)+(age)+((weight)/(-10))+(estro)).toFixed(0)</span></span> points<br>Interpretation --> <span class="calc">recommendation<span class="calc_value">score2=(race)+(rheum)+(fracture)+(age)+((weight)/(-10))+(estro);score2>5?'Associated with T-Score below -2, Osteoporosis testing with DEXA Scan is recommended':'Osteoporosis testing not recommended based on this screen'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_560e0679dacc8" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/10179905" target="_blank">Lydick (1998) Am J Manag Care. 4:37-48. </a>, <a href="http://www.fpnotebook.com/rheum/exam/OstprsScrEstmtn.htm" target="_blank">FPNotebook page</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  March 12, 2012; August 31, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/women/osteoporosis-score.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/women/osteoporosis-score.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/women/osteoporosis-score.txt" target="_blank">www.soapnote.org/generator/txt/women/osteoporosis-score.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
 <div class="soapnote_result_container exclude">
 Result - Copy or Print this text:
-<div class="result_buttons">
-<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
-<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
-</div>
 <textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
 </div>
 </form>
@@ -63,15 +51,6 @@ jQuery(document).ready(function($) {
 				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
 			});
 			</script>
-
-<script type="text/javascript">
-
-jQuery(document).ready(function($){
-$(".print-button").click(function(){
-                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
-        });
-});
-</script>
 <script type="text/javascript" src="../../lib/form.js"></script>
 </div>
 </div>

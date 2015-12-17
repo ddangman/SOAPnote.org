@@ -1,32 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>soapnote.org = calculators + decision tools + SOAP samples</title>
     <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
     <script type="text/javascript" src="../../lib/jquery.min.js"></script>
     <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
-    <script>
-        function copyToClipboard(element) {
-                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
-                $("#temp").val($(element).val()).select();
-                document.execCommand("copy");
-                $("#temp").remove();
-                alert('Result has been copied!');
-        }
-    </script>
     </head>
     <body>
 
         <div id="container" class="embed_client">
                 <div class="form-view-content ">
                         <form id="form_1" method="get" autocomplete="off">
-                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/><span class="exclude">Welcome to Medicare History<br></span><textarea cols="60" rows="25" name="textarea_55eea0c506b98">MEDICAL HISTORY:&#13;&#10;Illnesses:  ***&#13;&#10;Hospitalizations:  ***&#13;&#10;Surgeries:  ***&#13;&#10;Injuries:  ***&#13;&#10;Patient is able to perform all activities of daily living with the EXCEPTION of: ***none/eating/feeding/bathing/dressing/toileting/transferring/maintaining continence***.&#13;&#10;Falls in the last year:  ***No/Yes ---details---***&#13;&#10;SOCIAL HISTORY:&#13;&#10;Alcohol use: ***none/drinks --- every ---***&#13;&#10;Tobacco use: ***none/smokes --- every ---***&#13;&#10;Illicit drug use: ***none/uses ---***&#13;&#10;Diet includes: ***vegetables/fruits/dairy/meat***&#13;&#10;Physical activity includes: ***&#13;&#10;FAMILY HISTORY:&#13;&#10;Hereditary diseases:  ***&#13;&#10;Conditions that place the patient at increased risk for disease:  ***</textarea><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55eea0c508737" class="hidden"><span class="exclude"><br>reference:  This is an online version of a template by Stephen P. Merry, MD, MPH, Consultant, Department of Family Medicine, Mayo Clinic, Rochester, Minnesota<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  April 1, 2010; August 30, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/medicare-history.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/medicare-history.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/medicare-history.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/medicare-history.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<span class="exclude">Welcome to Medicare History<br></span><textarea cols="60" rows="25" name="textarea_55eea0c506b98">MEDICAL HISTORY:&#13;&#10;Illnesses:  ***&#13;&#10;Hospitalizations:  ***&#13;&#10;Surgeries:  ***&#13;&#10;Injuries:  ***&#13;&#10;Patient is able to perform all activities of daily living with the EXCEPTION of: ***none/eating/feeding/bathing/dressing/toileting/transferring/maintaining continence***.&#13;&#10;Falls in the last year:  ***No/Yes ---details---***&#13;&#10;SOCIAL HISTORY:&#13;&#10;Alcohol use: ***none/drinks --- every ---***&#13;&#10;Tobacco use: ***none/smokes --- every ---***&#13;&#10;Illicit drug use: ***none/uses ---***&#13;&#10;Diet includes: ***vegetables/fruits/dairy/meat***&#13;&#10;Physical activity includes: ***&#13;&#10;FAMILY HISTORY:&#13;&#10;Hereditary diseases:  ***&#13;&#10;Conditions that place the patient at increased risk for disease:  ***</textarea><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55eea0c508737" class="hidden"><span class="exclude"><br>reference:  This is an online version of a template by Stephen P. Merry, MD, MPH, Consultant, Department of Family Medicine, Mayo Clinic, Rochester, Minnesota<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  April 1, 2010; August 30, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/medicare-history.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/medicare-history.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/medicare-history.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/medicare-history.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
 <div class="soapnote_result_container exclude">
 Result - Copy or Print this text:
-<div class="result_buttons">
-<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
-<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
-</div>
 <textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
 </div>
 </form>
@@ -62,15 +50,6 @@ jQuery(document).ready(function($) {
 				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
 			});
 			</script>
-
-<script type="text/javascript">
-
-jQuery(document).ready(function($){
-$(".print-button").click(function(){
-                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
-        });
-});
-</script>
 <script type="text/javascript" src="../../lib/form.js"></script>
 </div>
 </div>

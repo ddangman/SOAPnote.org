@@ -1,19 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>soapnote.org = calculators + decision tools + SOAP samples</title>
     <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
     <script type="text/javascript" src="../../lib/jquery.min.js"></script>
     <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
-    <script>
-        function copyToClipboard(element) {
-                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
-                $("#temp").val($(element).val()).select();
-                document.execCommand("copy");
-                $("#temp").remove();
-                alert('Result has been copied!');
-        }
-    </script>
     </head>
     <body>
 
@@ -21,13 +13,9 @@
                 <!-- <h1 class="entry-title">ptsd-screen</h1> -->
                 <div class="form-view-content ">
                         <form id="form_1" method="get" autocomplete="off">
-                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Post Traumatic Stress Disorder (PTSD) Screen<span class="exclude"><br>Summary: This is a calculator to screen for Post Traumatic Stress Disorder (PTSD).</span><br>To use the PC-PTSD instrument, ask the patient, “In your life have you ever had any experience that was so frightening, horrible, or upsetting that in the past month you: (four question items below)<br>---------------------------------------------------------------------------<br><select name="Q1"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Have had nightmares about it or thought about it when you did not want to?<br><select name="Q2"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Tried hard not to think about it or went out of your way to avoid situations that reminded you of it?<br><select name="Q3"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Were constantly on guard, watchful, or easily startled?<br><select name="Q4"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Felt numb or detached from others, activities, or your surroundings?<br>Result --> <span class="calc">Interpretation<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4);score>2?'positive screen for PTSD':'negative screen for PTSD'</span></span><br><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_560fabb0b467e" class="hidden"><span class="exclude"><br>reference:  AAFP Point-of-Care Guide at <a href="http://www.aafp.org/afp/2007/1215/p1848.html" target="_blank">Ebell (2007) Am Fam Physician 76: 1848-9</a>, PDF article on the PC-PTSD Screening Tool at <a href="http://www.ptsd.va.gov/professional/articles/article-pdf/id26676.pdf" target="_blank">Prins (2004) Prim Care Psych 9: 9-14</a>.<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  February 1, 2011; September 7, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/ptsd-screen.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/ptsd-screen.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/ptsd-screen.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/ptsd-screen.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+Post Traumatic Stress Disorder (PTSD) Screen<span class="exclude"><br>Summary: This is a calculator to screen for Post Traumatic Stress Disorder (PTSD).</span><br>To use the PC-PTSD instrument, ask the patient, “In your life have you ever had any experience that was so frightening, horrible, or upsetting that in the past month you: (four question items below)<br>---------------------------------------------------------------------------<br><select name="Q1"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Have had nightmares about it or thought about it when you did not want to?<br><select name="Q2"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Tried hard not to think about it or went out of your way to avoid situations that reminded you of it?<br><select name="Q3"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Were constantly on guard, watchful, or easily startled?<br><select name="Q4"><option value="no=0">no</option><option value="YES=1">YES</option></select> <-- Felt numb or detached from others, activities, or your surroundings?<br>Result --> <span class="calc">Interpretation<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4);score>2?'positive screen for PTSD':'negative screen for PTSD'</span></span><br><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_560fabb0b467e" class="hidden"><span class="exclude"><br>reference:  AAFP Point-of-Care Guide at <a href="http://www.aafp.org/afp/2007/1215/p1848.html" target="_blank">Ebell (2007) Am Fam Physician 76: 1848-9</a>, PDF article on the PC-PTSD Screening Tool at <a href="http://www.ptsd.va.gov/professional/articles/article-pdf/id26676.pdf" target="_blank">Prins (2004) Prim Care Psych 9: 9-14</a>.<br>posted by:  Mark Morgan, M.D.<br>post/review dates:  February 1, 2011; September 7, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/ptsd-screen.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/ptsd-screen.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/ptsd-screen.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/ptsd-screen.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
 <div class="soapnote_result_container exclude">
 Result - Copy or Print this text:
-<div class="result_buttons">
-<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
-<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
-</div>
 <textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
 </div>
 </form>
@@ -63,15 +51,6 @@ jQuery(document).ready(function($) {
 				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
 			});
 			</script>
-
-<script type="text/javascript">
-
-jQuery(document).ready(function($){
-$(".print-button").click(function(){
-                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
-        });
-});
-</script>
 <script type="text/javascript" src="../../lib/form.js"></script>
 </div>
 </div>

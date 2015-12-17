@@ -1,32 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>soapnote.org = calculators + decision tools + SOAP samples</title>
     <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
     <script type="text/javascript" src="../../lib/jquery.min.js"></script>
     <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
-    <script>
-        function copyToClipboard(element) {
-                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
-                $("#temp").val($(element).val()).select();
-                document.execCommand("copy");
-                $("#temp").remove();
-                alert('Result has been copied!');
-        }
-    </script>
     </head>
     <body>
 
         <div id="container" class="embed_client">
                 <div class="form-view-content ">
                         <form id="form_1" method="get" autocomplete="off">
-                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Outpatient Bleeding Risk Index<span class="exclude"><br><strong>Summary:</strong><br>The Outpatient Bleeding Risk Index is used to help predict the risk of bleeding with anticoagulation. An approach to the decision of warfarin for oral anticoagulation for atrial fibrillation is suggested in <a href="http://www.aafp.org/afp/2005/0615/afp20050615p2348-f1.pdf" target="_blank">Am Fam Physician. 2005 Jun 15;71(12):2348-2350.</a>1) Use the <a href="http://www.soapnote.org/cardiovascular/chads2/" target="_blank">CHADS2 rule</a> as well as the <a href="http://www.soapnote.org/cardiovascular/accp-stroke-risk-calculator/" target="_blank">ACCP rule</a> to determine the risk of stroke.<br>2) If both these measures predict moderate risk of stroke, proceed to calculate the <a href="http://www.soapnote.org/cardiovascular/outpatient-bleeding-risk-index-obri/" target="_blank">Outpatient Bleeding Risk Index</a> and weigh the risks versus the benefits.</span><br><select name="Q1"><option value="No (0 points)=0">No (0 points)</option><option value="YES (1 point)=1">YES (1 point)</option></select> <-- Age 65 or older<br><select name="Q2"><option value="No (0 points)=0">No (0 points)</option><option value="YES (1 point)=1">YES (1 point)</option></select> <-- History of GI tract bleeding<br><select name="Q3"><option value="No (0 points)=0">No (0 points)</option><option value="YES (1 point)=1">YES (1 point)</option></select> <-- History of stroke<br><select name="Q4"><option value="No (0 points)=0">No (0 points)</option><option value="YES (1 point)=1">YES (1 point)</option></select> <-- Recent MI, hematocrit lower than 30 percent, creatinine higher than 1.5, or diabetes mellitus.<br>Score --> <span class="calc">score<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4)</span></span> out of 4 points<br>Interpretation (percent of cases with major bleeding at 1 year) --> <span class="calc">interpretation<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4);score>2?'High risk(10.6-48%)':score>0?'Intermediate risk (2.5-12%)':'Low risk (0-3%)'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55eda2960eae9" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.aafp.org/afp/2005/0615/p2348.html" target="_blank">Am Fam Physician. 2005 Jun 15;71(12):2348-2350. </a>, <a href="http://www.aafp.org/afp/2010/0315/p780.html" target="_blank">Am Fam Physician. 2010 Mar 15;81(6):780-782.</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  May 31, 2010; August 20, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/outpatient-bleeding-risk-index-obri.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/outpatient-bleeding-risk-index-obri.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/outpatient-bleeding-risk-index-obri.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/outpatient-bleeding-risk-index-obri.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+Outpatient Bleeding Risk Index<span class="exclude"><br><strong>Summary:</strong><br>The Outpatient Bleeding Risk Index is used to help predict the risk of bleeding with anticoagulation. An approach to the decision of warfarin for oral anticoagulation for atrial fibrillation is suggested in <a href="http://www.aafp.org/afp/2005/0615/afp20050615p2348-f1.pdf" target="_blank">Am Fam Physician. 2005 Jun 15;71(12):2348-2350.</a>1) Use the <a href="http://www.soapnote.org/cardiovascular/chads2/" target="_blank">CHADS2 rule</a> as well as the <a href="http://www.soapnote.org/cardiovascular/accp-stroke-risk-calculator/" target="_blank">ACCP rule</a> to determine the risk of stroke.<br>2) If both these measures predict moderate risk of stroke, proceed to calculate the <a href="http://www.soapnote.org/cardiovascular/outpatient-bleeding-risk-index-obri/" target="_blank">Outpatient Bleeding Risk Index</a> and weigh the risks versus the benefits.</span><br><select name="Q1"><option value="No (0 points)=0">No (0 points)</option><option value="YES (1 point)=1">YES (1 point)</option></select> <-- Age 65 or older<br><select name="Q2"><option value="No (0 points)=0">No (0 points)</option><option value="YES (1 point)=1">YES (1 point)</option></select> <-- History of GI tract bleeding<br><select name="Q3"><option value="No (0 points)=0">No (0 points)</option><option value="YES (1 point)=1">YES (1 point)</option></select> <-- History of stroke<br><select name="Q4"><option value="No (0 points)=0">No (0 points)</option><option value="YES (1 point)=1">YES (1 point)</option></select> <-- Recent MI, hematocrit lower than 30 percent, creatinine higher than 1.5, or diabetes mellitus.<br>Score --> <span class="calc">score<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4)</span></span> out of 4 points<br>Interpretation (percent of cases with major bleeding at 1 year) --> <span class="calc">interpretation<span class="calc_value">score=(Q1)+(Q2)+(Q3)+(Q4);score>2?'High risk(10.6-48%)':score>0?'Intermediate risk (2.5-12%)':'Low risk (0-3%)'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55eda2960eae9" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.aafp.org/afp/2005/0615/p2348.html" target="_blank">Am Fam Physician. 2005 Jun 15;71(12):2348-2350. </a>, <a href="http://www.aafp.org/afp/2010/0315/p780.html" target="_blank">Am Fam Physician. 2010 Mar 15;81(6):780-782.</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  May 31, 2010; August 20, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/outpatient-bleeding-risk-index-obri.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/outpatient-bleeding-risk-index-obri.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/outpatient-bleeding-risk-index-obri.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/outpatient-bleeding-risk-index-obri.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
 <div class="soapnote_result_container exclude">
 Result - Copy or Print this text:
-<div class="result_buttons">
-<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
-<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
-</div>
 <textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
 </div>
 </form>
@@ -62,15 +50,6 @@ jQuery(document).ready(function($) {
 				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
 			});
 			</script>
-
-<script type="text/javascript">
-
-jQuery(document).ready(function($){
-$(".print-button").click(function(){
-                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
-        });
-});
-</script>
 <script type="text/javascript" src="../../lib/form.js"></script>
 </div>
 </div>

@@ -34,3 +34,6 @@
 					<li><a href="/sample/version-A-version-B/">Version A and Version B</a></li>
 </ul>
 </div>
+<?php 
+ include('../lib/main-footer.php');
+?>

@@ -50,3 +50,6 @@
 					<li><a href="/infectious/uri-exam/">Upper Respiratory Infection (URI) Exam</a></li>
 					<li><a href="/women/vaginitis-exam/">Vaginitis Exam</a></li>				
 </ul></div>
+<?php 
+ include('../lib/main-footer.php');
+?>

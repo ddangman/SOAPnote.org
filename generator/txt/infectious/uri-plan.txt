@@ -1,7 +1,0 @@
-[textarea default="Viral URI&#13;&#10;Recommended ***increased fluids/humidity/12-hour decongestant nasal spray twice daily for a maximum of 4 days/1 tsp honey for the cough prn/Tylenol as needed/Ibuprofen as needed/Steam inhalation for sinus pressure***&#13;&#10;Recheck if not improved in one week or sooner if worsening."]
-[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  none
-posted by:  Mark Morgan, M.D.
-post/review dates:  April 12, 2010; August 20, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/infectious/uri-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/infectious/uri-plan.txt</a>
-markup link:  <a href="http://www.soapnote.org/generator/txt/infectious/uri-plan.txt" target="_blank">www.soapnote.org/generator/txt/infectious/uri-plan.txt</a>[/html][/conditional]

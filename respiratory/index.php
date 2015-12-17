@@ -34,3 +34,6 @@
 					<li><a href="/infectious/uri-plan/">Upper Respiratory Infection Assessment/Plan</a></li>
 </ul>
 </div>
+<?php 
+ include('../lib/main-footer.php');
+?>

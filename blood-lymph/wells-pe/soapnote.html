@@ -1,32 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>soapnote.org = calculators + decision tools + SOAP samples</title>
     <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
     <script type="text/javascript" src="../../lib/jquery.min.js"></script>
     <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
-    <script>
-        function copyToClipboard(element) {
-                $("body").append("<textarea id='temp' style='position:absolute;opacity:0;'></textarea>");
-                $("#temp").val($(element).val()).select();
-                document.execCommand("copy");
-                $("#temp").remove();
-                alert('Result has been copied!');
-        }
-    </script>
     </head>
     <body>
 
         <div id="container" class="embed_client">
                 <div class="form-view-content ">
                         <form id="form_1" method="get" autocomplete="off">
-                                <input type="hidden" class="input_permalink" name="input_permalink" value=""/>Wells Clinical Prediction Rule for Pulmonary Embolism<br>Clinical Features:<br><select name="DVT"><option value="No (0 points)=0">No (0 points)</option><option value="Yes (3 points)=3">Yes (3 points)</option></select> <-- Clinical symptoms of DVT?<br><select name="Alternative"><option value="No (0 points)=0">No (0 points)</option><option value="Yes (3 points)=3">Yes (3 points)</option></select> <-- Other diagnosis less likely than PE? <br><select name="Rate"><option value="No (0 points)=0">No (0 points)</option><option value="Yes (1.5 points)=1.5">Yes (1.5 points)</option></select> <-- Heart rate greater than 100 beats per minute?<br><select name="Immobilization"><option value="No (0 points)=0">No (0 points)</option><option value="Yes (1.5 points)=1.5">Yes (1.5 points)</option></select> <-- Immobilization or surgery in the last 4 weeks?<br><select name="Previous"><option value="No (0 points)=0">No (0 points)</option><option value="Yes (1.5 points)=1.5">Yes (1.5 points)</option></select> <-- Previous DVT or PE?<br><select name="Hemoptysis"><option value="No (0 points)=0">No (0 points)</option><option value="Yes (1 point)=1">Yes (1 point)</option></select> <-- Hemoptysis?<br><select name="Malignancy"><option value="No (0 points)=0">No (0 points)</option><option value="Yes (1 point)=1">Yes (1 point)</option></select> <-- Malignancy?<br>Score: <span class="calc"><span class="calc_value">score=(DVT)+(Alternative)+(Rate)+(Immobilization)+(Previous)+(Hemoptysis)+(Malignancy)</span></span> --> <span class="calc">Interpretation<span class="calc_value">score=(DVT)+(Alternative)+(Rate)+(Immobilization)+(Previous)+(Hemoptysis)+(Malignancy);score>6?'High Risk - 78.4%':score>1?'Moderate Risk - 27.8%':'Low Risk - 3.4%'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ed9e8664c3b" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.aafp.org/afp/2004/0615/p2829.html" target="_blank">Ramzi (2004) Am Fam Physician 69:2829-36</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  July 9, 2012; August 31, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/blood-lymph/wells-pe.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/blood-lymph/wells-pe.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/blood-lymph/wells-pe.txt" target="_blank">www.soapnote.org/generator/txt/blood-lymph/wells-pe.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+Wells Clinical Prediction Rule for Pulmonary Embolism<br>Clinical Features:<br><select name="DVT"><option value="No (0 points)=0">No (0 points)</option><option value="Yes (3 points)=3">Yes (3 points)</option></select> <-- Clinical symptoms of DVT?<br><select name="Alternative"><option value="No (0 points)=0">No (0 points)</option><option value="Yes (3 points)=3">Yes (3 points)</option></select> <-- Other diagnosis less likely than PE? <br><select name="Rate"><option value="No (0 points)=0">No (0 points)</option><option value="Yes (1.5 points)=1.5">Yes (1.5 points)</option></select> <-- Heart rate greater than 100 beats per minute?<br><select name="Immobilization"><option value="No (0 points)=0">No (0 points)</option><option value="Yes (1.5 points)=1.5">Yes (1.5 points)</option></select> <-- Immobilization or surgery in the last 4 weeks?<br><select name="Previous"><option value="No (0 points)=0">No (0 points)</option><option value="Yes (1.5 points)=1.5">Yes (1.5 points)</option></select> <-- Previous DVT or PE?<br><select name="Hemoptysis"><option value="No (0 points)=0">No (0 points)</option><option value="Yes (1 point)=1">Yes (1 point)</option></select> <-- Hemoptysis?<br><select name="Malignancy"><option value="No (0 points)=0">No (0 points)</option><option value="Yes (1 point)=1">Yes (1 point)</option></select> <-- Malignancy?<br>Score: <span class="calc"><span class="calc_value">score=(DVT)+(Alternative)+(Rate)+(Immobilization)+(Previous)+(Hemoptysis)+(Malignancy)</span></span> --> <span class="calc">Interpretation<span class="calc_value">score=(DVT)+(Alternative)+(Rate)+(Immobilization)+(Previous)+(Hemoptysis)+(Malignancy);score>6?'High Risk - 78.4%':score>1?'Moderate Risk - 27.8%':'Low Risk - 3.4%'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_55ed9e8664c3b" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.aafp.org/afp/2004/0615/p2829.html" target="_blank">Ramzi (2004) Am Fam Physician 69:2829-36</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  July 9, 2012; August 31, 2015<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/blood-lymph/wells-pe.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/blood-lymph/wells-pe.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/blood-lymph/wells-pe.txt" target="_blank">www.soapnote.org/generator/txt/blood-lymph/wells-pe.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
 <div class="soapnote_result_container exclude">
 Result - Copy or Print this text:
-<div class="result_buttons">
-<a  onclick="copyToClipboard('.soapnote_result')" rel="nofollow" title="Copy to clipboard" href="javascript:void(0)" class="button copy-button exclude">Copy</a>
-<a rel="nofollow" title="Print" href="javascript:void(0)" class="button print-button exclude">Print</a>
-</div>
 <textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
 </div>
 </form>
@@ -62,15 +50,6 @@ jQuery(document).ready(function($) {
 				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
 			});
 			</script>
-
-<script type="text/javascript">
-
-jQuery(document).ready(function($){
-$(".print-button").click(function(){
-                doPrint($(this).parents('.soapnote_result_container').find('.soapnote_result').val().replace(/\n/g,"\r\n"));
-        });
-});
-</script>
 <script type="text/javascript" src="../../lib/form.js"></script>
 </div>
 </div>

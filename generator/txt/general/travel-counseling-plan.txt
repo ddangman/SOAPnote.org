@@ -1,8 +1,0 @@
-[html]Travel Counseling Assessment/Plan
-[/html][textarea columns=108 rows=25 default="Assessment: Traveler counseling&#13;&#10;Plan: We discussed travel health insurance, anti-motion sickness medication (options Antivert, Scopalamine patch), animal bite and rabies prevention, motion sickness, jet lag, avoiding swimming in fresh lakes and streams, DVT prevention, corrective lens precautions, illness after travel as well as sunscreen. Also discussed jet lag and use of Ambien or other and uncertain benefit of Melatonin.  Handouts from CDC web page were given to the patient."]
-[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  none
-posted by:  Mark Morgan, M.D.
-post/review dates:  April 1, 2010; September 7, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/general/travel-counseling-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/general/travel-counseling-plan.txt</a>
-markup link:  <a href="http://www.soapnote.org/generator/txt/general/travel-counseling-plan.txt" target="_blank">www.soapnote.org/generator/txt/general/travel-counseling-plan.txt</a>[/html][/conditional]

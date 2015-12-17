@@ -1,8 +1,0 @@
-[html]2 Month History
-[/html][textarea default="Has done well over the past month. Nutrition includes ***nursing every 2-3 hours/--- formula every 2-3 hours***. Growth is normal. Alert to sights and sounds. Coos and smiles. Turns to sound. Holds object. Recognizes face. No concerns regarding hearing. No problems with urine or stool. Sleeps on back. Usual sleep pattern. All other systems are negative."]
-[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  none
-posted by:  Mark Morgan, M.D.
-post/review dates:  April 1, 2010; August 30, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/2-month-hx.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/2-month-hx.txt</a>
-markup link:  <a href="http://www.soapnote.org/generator/txt/child-health/2-month-hx.txt" target="_blank">www.soapnote.org/generator/txt/child-health/2-month-hx.txt</a>[/html][/conditional]

@@ -4,6 +4,7 @@ define('APP_URL', 'http://www.soapnote.org/generator');
 define('TEMPLATE_PATH', dirname(__FILE__) . '/template');
 define('DATA_PATH', dirname(__FILE__) . '/data');
 define('DATA_URL', APP_URL . '/data');
+define('ASSETS_PATH', dirname(dirname(__FILE__)) . '/lib');
 
 $shortcode_tags = array('text' => 'shortcode_text_function',
                                                 'date' => 'shortcode_date_function',
@@ -21,29 +22,52 @@ $shortcode_tags = array('text' => 'shortcode_text_function',
 
 $conditions = $condition_fields = array();
 
-function generateFormFile($title, $content,$fileName) {
+function generateFormFile($title, $content, $fileName, $admin = false) {
         global $conditions, $condition_fields;
-        $header = str_replace('##DATA_URL##',DATA_URL,file_get_contents(TEMPLATE_PATH . '/header.php'));
-        $header = str_replace('##FORM_TITLE##',$title,$header);
-        $footer = str_replace('##DATA_URL##',DATA_URL,file_get_contents(TEMPLATE_PATH . '/footer.php'));
-        
+				
+        $header = file_get_contents(TEMPLATE_PATH . '/header.php');
+				
+				if (!empty($title)) $title .= ' | ';
+				$header = str_replace('##FORM_TITLE##', $title, $header);
+				
+				if ($admin) {
+					$form_css = '
+						<link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+						<link rel="stylesheet" href="../../lib/jquery-ui.min.css" type="text/css" media="all"/>
+						';
+				}
+				else {
+					$form_css = '<style>';
+					$form_css .= file_get_contents(ASSETS_PATH . '/style.css');
+					$form_css .= "\n\n\n" . file_get_contents(ASSETS_PATH . '/jquery-ui.min.css');
+					$form_css .= '</style>';
+				}
+				
+				$header = str_replace('##FORM_CSS##', $form_css, $header);
+				
+				if ($admin) {
+					$form_js = '
+						<script type="text/javascript" src="../../lib/jquery.min.js"></script>
+						<script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+						<script type="text/javascript" src="../../lib/form.js"></script>
+						';
+				}
+				else {
+					$form_js = '<script type="text/javascript">';
+					$form_js .= file_get_contents(ASSETS_PATH . '/jquery.min.js');
+					$form_js .= "\n\n\n" . file_get_contents(ASSETS_PATH . '/jquery-ui.min.js');
+					$form_js .= "\n\n\n" . file_get_contents(ASSETS_PATH . '/form.js');
+					$form_js .= '</script>';
+				}
+				
+				$header = str_replace('##FORM_JS##', $form_js, $header);
+				
+        $footer = file_get_contents(TEMPLATE_PATH . '/footer.php');
+
+				
         $content  = str_replace(array("\r\n","\n"),"<br>",$content);
         $content = do_shortcode($content);
-        /*
-        $regex =  get_shortcode_regex( );
-        preg_match_all("/$regex/is",$content,$matched);
 
-         foreach($matched[0] as $key => $item) {
-                $shortcodeName = $matched[2][$key];
-                $itemText = $matched[3][$key];
-                $itemAtts = shortcode_parse_atts($itemText) ;
-                $itemFunc = $shortcode_tags[$shortcodeName];
-                $itemContent = $matched[5][$key];
-                $itemHtml = call_user_func($itemFunc, $itemAtts,$itemContent);
-                
-                $content = str_replace($item,$itemHtml,$content);
-         }
-         */
          $conditionalContent = '';
          if (!empty($conditions) && sizeof($conditions) > 0) { 
 			$conditionalContent .= '<script type="text/javascript">' . "\n";
@@ -51,8 +75,7 @@ function generateFormFile($title, $content,$fileName) {
 			$conditionalContent .= 'vars[1] = {};' . "\n";
 			$conditionalContent .= "if (typeof conditions == 'undefined') conditions = new Array();" . "\n";
 			$conditionalContent .= "conditions[1] = new Array();" . "\n";
-			foreach ($conditions as $show => $condition) 
-                        { 
+			foreach ($conditions as $show => $condition) {
 				$conditionalContent .= 'conditions[1].push({logic:"' . $condition . '", show:"' .  $show . '"});' . "\n";
 			}
 			$fields = '';
@@ -92,8 +115,26 @@ function generateFormFile($title, $content,$fileName) {
         
         $footer = str_replace('##CONDITIONAL_CONTENT##',$conditionalContent,$footer);
         $content = $header . $content . $footer;
-        file_put_contents(DATA_PATH.'/html/'.$fileName . '.html', $content);
-        return DATA_URL .'/html/'.$fileName . '.html';
+        file_put_contents(DATA_PATH.'/'.$fileName . '.html', $content);
+
+				//delete old html, txt and zip files
+				deleteTempFiles();
+
+				
+        return DATA_URL .'/'.$fileName . '.html';
+}
+
+function deleteTempFiles() {
+	$files = glob(DATA_PATH.'/*.html');
+	$files = array_merge($files, glob(DATA_PATH.'/text/*.txt'));
+	$files = array_merge($files, glob(DATA_PATH.'/zip/*.zip'));
+	
+  $now   = time();
+
+  foreach ($files as $file)
+    if (is_file($file))
+      if ($now - filemtime($file) >= 60 * 60 * 24 * 2) // delete if file is older than 2 days
+        unlink($file);
 }
 
 function generateTextFile($content,$fileName) {
@@ -108,11 +149,6 @@ function getHtml($data, $zipFilePath) {
 	}
 	$res = $zip->open($zipFilePath, ZipArchive::CREATE);
 	if ($res === true) {
-                $data = str_replace(array(APP_URL . '/data/html/css/',APP_URL . '/data/html/js/'),'',$data);
-                $zip->addFromString('style.css', file_get_contents(APP_URL . '/data/html/css/style.css'));
-                $zip->addFromString('jquery.min.js', file_get_contents(APP_URL . '/data/html/js/jquery.min.js'));
-                $zip->addFromString('jquery-ui.min.js', file_get_contents(APP_URL . '/data/html/js/jquery-ui.min.js'));
-                $zip->addFromString('form.js', file_get_contents(APP_URL . '/data/html/js/form.js'));
 		$zip->addFromString("soapnote.html" , $data);
 	}
 	$zip->close();
@@ -394,7 +430,7 @@ function getUserId($reset=false) {
 			'condition' => ''
 		), $atts ) );
 
-		if (empty($name)) $name = uniqid('conditional_');
+		if (empty($name)) $name = uniqid('conditional_'.rand(1000,9999));
 		
 		if (!empty($condition)) {
 			$condition = str_replace('&#038;','&',$condition);
@@ -483,39 +519,24 @@ function do_shortcode ($content) {
          foreach($matched[0] as $key => $item) {
                 $shortcodeName = $matched[2][$key];
                 
-                if($shortcodeName != 'conditional')
-                        continue;
-                
                 $itemText = trim($matched[3][$key]);
                 $itemAtts = shortcode_parse_atts($itemText) ;
                 $itemFunc = $shortcode_tags[$shortcodeName];
                 $itemContent = trim($matched[5][$key]);
                 $itemHtml = call_user_func($itemFunc, $itemAtts,$itemContent);
-                
-                if($shortcodeName == 'conditional') {
-                        file_put_contents('test.txt',$item,FILE_APPEND);
-                }
-                $content = str_replace(trim($item),$itemHtml,$content);
-                
+                				
+								$item = trim($item);
+								
+								
+								$pos = strpos($content, $item);
+								
+								if ($pos !== false) {
+									$content = substr_replace($content, $itemHtml, $pos, strlen($item));
+								}
          }
-         
-          foreach($matched[0] as $key => $item) {
-                $shortcodeName = $matched[2][$key];
-                
-                if($shortcodeName == 'conditional')
-                        continue;
-                
-                $itemText = trim($matched[3][$key]);
-                $itemAtts = shortcode_parse_atts($itemText) ;
-                $itemFunc = $shortcode_tags[$shortcodeName];
-                $itemContent = trim($matched[5][$key]);
-                $itemHtml = call_user_func($itemFunc, $itemAtts,$itemContent);
-                
-                $content = str_replace(trim($item),$itemHtml,$content);
-                
-         }
-        
+
         return $content;
+				
 }
 
 function shortcode_atts( $pairs, $atts, $shortcode = '' ) {

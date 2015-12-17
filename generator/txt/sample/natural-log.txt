@@ -1,5 +1,0 @@
-Enter a number ---> [text name="numby"]
-
-The number you entered was [var name="numby"]
-The natural log of the number you entered is [calc value="score1=Math.log((numby))" memo="result"].
-The log base 10 of the number you entered is [calc value="score2=Math.log((numby))/Math.LN10" memo="result"].

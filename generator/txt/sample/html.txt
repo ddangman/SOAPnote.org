@@ -1,7 +1,0 @@
-This text goes into the output
-[text default="this does, too"][html]
-<em>This italic text does not go into output.</em>
-<strong>This bold text does not go into the output.</strong>
-<em><strong><mark>This italic, bold, highlighted text also does not go into the output.</mark></strong></em>
-<small>This small text does not go to output.</small>
-<del>Finally, this deleted text does go to output either.</del>[/html]

@@ -1,8 +1,0 @@
-[text default="CARDIOVASCULAR:  "]
-[checkbox value="S1/S2, no S3/S4|soft S1, normal S2, no S3/S4|S1/S2, S3 present, no S4|S1/S2, no S3, S4 present|no murmur|holosystolic murmur|midsystolic murmur|late systolic murmur|diastolic murmur|loudness 1/6|loudness 2/6|loudness 3/6|loudness 4/6|loudness 5/6|loudness 6/6|rhythm is regular|rhythm is irregular|rhythm is irregularly irregular"][checkbox name="pulses" value="Peripheral pulses are 2+ throughout|Peripheral pulses are diminished|Peripheral pulses exam - "][conditional field="pulses" condition="(pulses).is('Peripheral pulses exam - ')"][text][/conditional][checkbox name="carotids" value="No carotid bruits|Carotid bruits on the left|Carotid bruits on the right|Bilateral Carotid bruits|Carotid pulses exam - "][conditional field="carotids" condition="(carotids).is('Carotid pulses exam - ')"][text][/conditional]
-[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  none
-posted by:  Mark Morgan, M.D.
-post/review dates:  August 19, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/cardio-exam.txt" target="_blank">https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/cardio-exam.txt</a>
-markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/cardio-exam.txt" target="_blank">http://www.soapnote.org/generator/txt/cardiovascular/cardio-exam.txt</a>[/html][/conditional]

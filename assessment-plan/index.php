@@ -75,3 +75,6 @@
 					<li><a href="/skin/wart-plan/">Wart Assessment/Plan</a></li>
 </ul>
 </div>
+<?php 
+ include('../lib/main-footer.php');
+?>

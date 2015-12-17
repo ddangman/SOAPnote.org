@@ -1,8 +1,0 @@
-[html]Pharyngitis Assessment/Plan
-[/html][textarea columns=108 rows=25 default="Assessment:  ***Pharyngitis/Sore throat/Pharyngitis, rule out mono/Strep pharyngitis***&#13;&#10;***Strep screen/treat per protocol/treat regardless of throat culture results due to CENTOR criteria/throat culture not obtained/Rapid Mononucleosis Screen/CBC***&#13;&#10;Symptomatic relief discussed&#13;&#10;Mono-type illness cautions discussed. To avoid all contact risk activities and sports until cleared to return. discussed potential complications and advised immediate evaluation if any develop.&#13;&#10;Strep pharyngitis considered contagious until treated for 24 hours&#13;&#10;Advised to recheck if not resolved in one week or sooner if worse in any way.&#13;&#10;Medications and side effects discussed:&#13;&#10;***Penicillin 250 mg twice daily x10 days/Penicillin 500 mg, twice daily x 10 days/Amoxicillin 250 mg, twice daily x 10 days/Amoxicillin 500 mg, twice daily x10 days/Azithromycin for age and weight/Keflex 250 mg bid x 10 days/Keflex 500 mg bid x 10 days***"]
-[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  none
-posted by:  Mark Morgan, M.D.
-post/review dates:  March 31, 2010; September 6, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/pharyngitis-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/pharyngitis-plan.txt</a>
-markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/pharyngitis-plan.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/pharyngitis-plan.txt</a>[/html][/conditional]

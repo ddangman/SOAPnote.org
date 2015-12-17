@@ -36,3 +36,6 @@
 					<li><a href="/elder-care/medicare-history/">Welcome to Medicare History</a></li>
 					<li><a href="/elder-care/zarit-caregiver-burden/">Zarit Caregiver Burden Interview</a></li>
 </ul></div>
+<?php 
+ include('../lib/main-footer.php');
+?>

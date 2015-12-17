@@ -1,6 +1,0 @@
-[select name="Q1" value="TRUE=1|FALSE=0"] 1. I'm good enough.
-[select name="Q2" value="TRUE=1|FALSE=0"] 2. I'm smart enough.
-[select name="Q3" value="TRUE=1|FALSE=0"] 3. Doggone it, people like me.
-__________________________
-
-Interpretation [calc value="score=(Q1)+(Q2)+(Q3);score>2?'Best':score>1?'Better':'Good'" memo="score interpretation"]

@@ -1,8 +1,0 @@
-Atopic dermatitis
-[checkbox value="Reviewed skin care. Avoid irritants/perfume products.  "][checkbox value="Use of nonsoap cleansers (neutral or low pH, hypoallergenic, and without fragrances).  "][checkbox value="Regular application of moisturizers after bathing.  "][checkbox value="Flare ups:  Daily use of steroid cream for up to several weeks at a time.  "][checkbox value="Maintenance:  Intermittent (once or twice per week) use of steroid on areas that commonly flare.  "][checkbox value="Return to clinic signs and symptoms reviewed. Side effects of medication discussed.  "]
-[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
-reference:  none
-posted by:  Mark Morgan, M.D.
-post/review dates:  January 11, 2014; August 20, 2015; October 2, 2015
-revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/skin/atopic-dermatitis-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/skin/atopic-dermatitis-plan.txt</a>
-markup link:  <a href="http://www.soapnote.org/generator/txt/skin/atopic-dermatitis-plan.txt" target="_blank">www.soapnote.org/generator/txt/skin/atopic-dermatitis-plan.txt</a>[/html][/conditional]

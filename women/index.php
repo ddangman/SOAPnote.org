@@ -30,3 +30,6 @@
 					<li><a href="/women/vaginitis-history/">Vaginitis History</a></li>
 					<li><a href="/women/vaginitis-plan/">Vaginitis Plan</a></li>
 </ul></div>
+<?php 
+ include('../lib/main-footer.php');
+?>

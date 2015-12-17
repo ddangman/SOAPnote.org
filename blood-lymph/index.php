@@ -15,3 +15,6 @@
 					<li><a href="/blood-lymph/wells-dvt/">Wells Clinical Prediction Rule for DVT</a></li>
 					<li><a href="/blood-lymph/wells-pe/">Wells Clinical Prediction Rule for Pulmonary Embolism</a></li>
 </ul></div>
+<?php 
+ include('../lib/main-footer.php');
+?>
