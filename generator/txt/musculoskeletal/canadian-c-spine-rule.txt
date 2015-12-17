@@ -1,0 +1,27 @@
+Canadian C-Spine Rule[html]
+Summary: Evaluate for need of C-spine Xray. This applies the Canadian C-Spine Rule to determine whether Xray is recommended.[/html]
+High Risk Factors
+[select name="Q1" value="no=0|YES=10"] <-- Age: 65 years or older
+[select name="Q2" value="no=0|YES=10"] <-- Has paresthesia in the extremities
+[select name="Q3" value="no=0|YES=10"] <-- Fall from at least 3 feet or 5 stairs
+[select name="Q4" value="no=0|YES=10"] <-- Axial load to the head, such as when diving
+[select name="Q5" value="no=0|YES=10"] <-- Motor vehicle collision at high speed (at least 62 mph)
+[select name="Q6" value="no=0|YES=10"] <-- Motor vehicle collision with ejection or rollover
+[select name="Q7" value="no=0|YES=10"] <-- Collision involving motorized recreational vehicle or bicycle
+[conditional field="Q1|Q2|Q3|Q4|Q5|Q6|Q7" condition="(Q1).is('no=0')&&(Q2).is('no=0')&&(Q3).is('no=0')&&(Q4).is('no=0')&&(Q5).is('no=0')&&(Q6).is('no=0')&&(Q7).is('no=0')"]Low Risk Factors
+[select name="Q8" value="yes=1|NO=0"] <-- Able to sit up in the emergency room
+[select name="Q9" value="yes=1|NO=0"] <-- Ambulatory at any time
+[select name="Qten" value="yes=1|NO=0"] <-- Delayed onset of neck pain
+[select name="Qeleven" value="yes=1|NO=0"] <-- No midline C-spine tenderness
+[select name="Qtwelve" value="yes=1|NO=0"] <-- Simple rear-end collision
+[select name="Qthirteen" value="yes=1|NO=0"] <-- Not hit by bus or large truck, rollover, or hit by a vehicle moving at high speed 
+NOTE:  Range of motion is safely assessed (safe if at least ONE low risk factor is present)
+[select name="Qfourteen" value="yes=0|NO=10"] <-- Patient is able to actively rotate neck 45 degrees to the left and right
+[/conditional]
+[calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Qten)+(Qeleven)+(Qtwelve)+(Qthirteen)+(Qfourteen);score>9?'Canadian C-Spine Rule recommends obtaining X-ray':score>0?'Canadian C-Spine Rule supports not obtaining X-ray':'Canadian C-Spine Rule recommends obtaining X-ray'" memo="Interpretation"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:   <a href="http://www.aafp.org/afp/2006/0515/p1787.html" target="_blank">Ebell (2006) Am Fam Phys 73:1787-1788</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  August 13, 2013; September 2, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/canadian-c-spine-rule.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/canadian-c-spine-rule.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/canadian-c-spine-rule.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/canadian-c-spine-rule.txt</a>[/html][/conditional]

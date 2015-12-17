@@ -1,0 +1,20 @@
+Ottawa ankle and foot rules
+[select name="Q1a" value="no=0|YES=10"] <-- Pain in the malleolar zone[conditional field="Q1a" condition="(Q1a).is('YES=10')"]
+[select name="Q2a" value="no=0|YES=1"] <-- Bone tenderness lower 6 cm (2.5 in) of the fibula
+[select name="Q3a" value="no=0|YES=1"] <-- Bone tenderness lower 6 cm (2.5 in) of the tibia
+[select name="Q4a" value="yes=0|NO=100"] <-- Able to ambulate at injury
+[select name="Q5a" value="yes=0|NO=100"] <-- Able to ambulate in ER for 4 steps[/conditional]
+Interpretation --> Ankle [calc memo="Xray Indicated?" value="score=(Q1a)+(Q2a)+(Q3a)+(Q4a)+(Q5a);score>210?'Xray Indicated per Ottawa Ankle Rule':'Xray Not Indicated per Ottawa Ankle Rule'"]
+[select name="Q1f" value="no=0|YES=10"] <-- Pain in the midfoot zone[conditional field="Q1f" condition="(Q1f).is('YES=10')"]
+[select name="Q2f" value="no=0|YES=1"] <-- Bone tenderness over the navicular bone
+[select name="Q3f" value="no=0|YES=1"] <-- Bone tenderness over the base of the fifth metatarsal
+[select name="Q4f" value="yes=0|NO=100"] <-- Able to ambulate at injury
+[select name="Q5f" value="yes=0|NO=100"] <-- Able to ambulate in ER for 4 steps[/conditional]
+Interpretation --> Foot [calc memo="Xray Indicated?" value="score=(Q1f)+(Q2f)+(Q3f)+(Q4f)+(Q5f);score>210?'Xray Indicated per Ottawa Foot Rule':'Xray Not Indicated per Ottawa Foot Rule'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/8433468">Stiell (1993) JAMA 269:1127-32.</a>
+article with details is at <a href="http://www.aafp.org/afp/2004/1015/p1535.html">Ebell (2004) 70:1535-1536</a> and <a href="http://www.aafp.org/afp/2004/1015/afp20041015p1535_f1.gif"> encounter form with illustration</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  September 8, 2013; September 3, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/ottawa-ankle-and-foot-rules.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/ottawa-ankle-and-foot-rules.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/ottawa-ankle-and-foot-rules.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/ottawa-ankle-and-foot-rules.txt</a>[/html][/conditional]

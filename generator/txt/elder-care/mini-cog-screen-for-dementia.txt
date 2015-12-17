@@ -1,0 +1,13 @@
+Mini Cog  [comment memo="The Mini Cog is a very easy, 2 question dementia screening tool.  If you have less time, you could just have them draw the clock."]
+Step 1:  Ask the patient to repeat 3 unrelated words such as “ball,” “dog,” and “television.”
+Step 2:  Ask the patient to draw a simple clock set to 10 minutes after eleven o’clock (11:10).  A correct response is drawing the a circle with the numbers in approximately the right positions and hands pointing to 11 and 2.
+     [select value="No=0|Yes=2" name="step2"] <-- Was the clock drawn correctly? (circle with numbers in place, hands at 11 and 2)?
+Step 3:  Ask the patient to recall the three words.
+     [select value="Zero=0|One=1|Two=2|Three=3" name="step3"] <-- How many words were recalled correctly?
+Score:  [calc value="score=(step2)+(step3)" memo="x"]/5  Interpretation:  [calc value="score=(step2)+(step3); score>2?'Negative screen for dementia':'Positive screen for dementia/further evaluation is warranted'" memo="Interpretation"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.aafp.org/afp/2009/0315/p497.html" target="_blank">Am Fam Physician. 2009 Mar 15;79(6):497-500.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  June 16, 2010; August 30, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/mini-cog-screen-for-dementia.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/mini-cog-screen-for-dementia.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/mini-cog-screen-for-dementia.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/mini-cog-screen-for-dementia.txt</a>[/html][/conditional]

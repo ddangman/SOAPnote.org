@@ -1,0 +1,9 @@
+[html]Uncomplicated Urinary Tract Infection (UTI) Assessment/Plan
+[/html][textarea default="Uncomplicated UTI&#13;&#10;Patient education: ***instructed to force fluids/take medicine until it is gone/if the symptoms continue at the end of the course of medicine, come in/If the symptoms worsen, an appointment must be made for evaluation/urinate frequently, and avoid retaining your urine for a long time when you feel the urge to void/wipe from front to back after a bowel movement/take showers rather than tub baths/empty your bladder after intercourse and drink a full glass of water to help flush bacteria***&#13;&#10;Medications:  Trimethoprim/Sulfamethoxazole (Bactrim DS) one orally twice daily for 3 days/Nitrofurantoin (Macrobid) one orally twice daily for 5 days/Fosfomycin (Monurol) 3 grams for one dose&#13;&#10;"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.fpnotebook.com/uro/ID/UrnryTrctInfctn.htm" target="_blank">FP Notebook Page</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; September 1, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/women/uti-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/women/uti-plan.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/women/uti-plan.txt" target="_blank">www.soapnote.org/generator/txt/women/uti-plan.txt</a>[/html][/conditional]
+

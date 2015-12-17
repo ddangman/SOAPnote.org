@@ -1,0 +1,11 @@
+Ingrown Toenail Procedure
+[checkbox name="subjective" memo="Subjective" value=" "][checkbox name="objective" memo="Objective" value=" "][checkbox name="assessment" memo="Assessment/Plan" value=" "]
+[conditional field="subjective" condition="(subjective).is(' ')"]Subjective:  The history was provided by [text].  Patient has had [text] days of pain at [select value="left|right|bilateral"] great toe.  Margin of nail affected [select value="medial|lateral|both"].  Swelling [select value="is|is not"] present.  Drainage [select value="is|is not"] present.  Patient [select value="has|does not have"] prior history of ingrown nails.  Patient [select value="has|does not have"] diabetes mellitus.  [text memo="other details..."][/conditional]
+[conditional field="objective" condition="(objective).is(' ')"]Objective:  [select value="Left|Right|Bilateral"] great toenail is painful over the [select value="medial|lateral|both"] margin.  There is [select  value="purulent|serous|bloody|no"] drainage.  There is [select value="swelling|inflammation|obvious infection|erythema|no swelling or erythema"].  Range of motion of the toe is [select value="normal|reduced"][text memo="other details..."][/conditional]
+[conditional field="assessment" condition="(assessment).is(' ')"]Assessment/Plan:  Ingrown toenail [select value="left|right|bilateral"].  [checkbox value="Antibiotics.  |Phenol-Alcohol procedure, see procedure note.  |Instructed in appropriate nail care.  |Soak in warm water 20-30 minutes twice a day.  |Follow up if new, worsening, or persisting symptoms.  "][text memo="other details..."][/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  August 14, 2012; September 3, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/ingrown-toenail.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/ingrown-toenail.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/ingrown-toenail.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/ingrown-toenail.txt</a>[/html][/conditional]

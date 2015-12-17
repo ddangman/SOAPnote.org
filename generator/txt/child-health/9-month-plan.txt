@@ -1,0 +1,8 @@
+[html]9 Month Assessment/Plan
+[h/tml][textarea default="Normal growth and development&#013;&#010;Injury prevention and health promotion issues discussed. &#013;&#010;***No immunizations/DTaP/DTaP-Hib/IPV/HBV-Hib/Hib/Hepatitis B/PCV-7/Influenza*** given today. Side effects, risks, and benefits of immunizations discussed. Return to clinic at 15 months of age, or sooner if concerns arise. Approved for all routine preventive medicine services, including immunizations. Abuse/neglect, functional status, nutrition and pain assessed and no further evaluation is needed."]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; August 30, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/9-month-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/9-month-plan.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/child-health/9-month-plan.txt" target="_blank">www.soapnote.org/generator/txt/child-health/9-month-plan.txt</a>[/html][/conditional]

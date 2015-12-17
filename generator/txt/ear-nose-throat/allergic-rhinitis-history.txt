@@ -1,0 +1,32 @@
+[html]Allergic Rhinitis History
+[/html][select value="less than 1 day|1 day|2 days|3 days|4 days|5 days|6 days|7 days|more than 1 week|more than 1 month"] <-- duration
+[select value="no|YES"] <-- nasal congestion
+[select value="no|YES"] <-- nasal discharge
+[select value="no|YES"] <-- sneezing
+[select value="no|YES"] <-- watery eyes
+[select value="no|YES"] <-- cough
+[select value="no|YES"] <-- headache
+[select value="no|YES"] <-- fever
+[select value="no|YES"] <-- past history of similar symptoms
+Allergies identified 
+[select value="no|YES"] <-- ragweed
+[select value="no|YES"] <-- tree pollen
+[select value="no|YES"] <-- mold
+[select value="no|YES"] <-- grass
+[select value="no|YES"] <-- animal dander
+Prior treatment
+[select value="no|YES"] <-- over the counter antihistamines
+[select value="no|YES"] <-- loratidine
+[select value="no|YES"] <-- fexofenadine
+[select value="no|YES"] <-- cetirizine
+[select value="no|YES"] <-- intranasal steroids
+Past History
+[select value="no|YES"] <-- asthma
+[select value="no|YES"] <-- eczema
+[textarea]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  February 16, 2014; September 6, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/allergic-rhinitis-history.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/allergic-rhinitis-history.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/allergic-rhinitis-history.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/allergic-rhinitis-history.txt</a>[/html][/conditional]

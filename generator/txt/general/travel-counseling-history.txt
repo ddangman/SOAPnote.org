@@ -1,0 +1,63 @@
+Travel Counseling History
+[select name="Q1" value="male|female"] <-- Gender[conditional field="Q1" condition="(Q1).is('female')"]
+[select value="no|YES"] <-- Pregnant
+[select value="no|YES"] <-- Trying to become pregnant in next 3 months[/conditional]
+[text] <-- Age
+[textarea default="Past medical history notable for"]
+[textarea default="Itinerary is"]
+[select name="Q2" value="business|vacation|missionary|diving|backcountry|hiking|biking|climbing|health care delivery|other"] <-- Travel purpose [conditional field="Q2" condition="(Q2).is('other')"][text][/conditional]
+Accommodations include:
+[select value="no|YES"] <-- hotel/resort
+[select value="no|YES"] <-- private home
+[select value="no|YES"] <-- safari/camp
+[select value="no|YES"] <-- hostel
+[select name="Q3" value="no|YES"] <-- other [conditional field="Q3" condition="(Q3).is('YES')"][text][/conditional]
+History of...
+[select value="no|YES"] <-- fever in the past 48 hours
+[select value="no|YES"] <-- candidal vaginitis
+[select value="no|YES"] <-- frequent UTIs
+[select value="no|YES"] <-- breast feeding
+[select value="no|YES"] <-- oral contraceptive use currently
+[select value="no|YES"] <-- HIV/AIDS
+[select value="no|YES"] <-- other immune disorders
+[select value="no|YES"] <-- leukemia
+[select value="no|YES"] <-- transplantation
+[select value="no|YES"] <-- cancer
+[select value="no|YES"] <-- living or working closely with anyone with these disorders or anyone currently receiving chemotherapy
+[select value="no|YES"] <-- blood clotting/bleeding disorder
+[select value="no|YES"] <-- seizures
+[select value="no|YES"] <-- psychiatric problems
+[select value="no|YES"] <-- psoriasis
+[select value="no|YES"] <-- abnormal heart rhythm
+[select value="no|YES"] <-- tuberculosis exposure
+[select value="no|YES"] <-- splenectomy
+[select value="no|YES"] <-- ulcer
+[select value="no|YES"] <-- indigestion
+[select value="no|YES"] <-- diarrhea
+[select value="no|YES"] <-- stomach surgery
+[select value="no|YES"] <-- jaundice
+[select value="no|YES"] <-- hepatitis
+[select value="no|YES"] <-- hives or urticaria
+
+Malaria prophylaxis history
+[select value="no|YES"] <-- Reports having taken malaria chemoprophylaxis previously.
+
+Adverse vaccine or injection reactions
+[select value="no|YES"] <-- History of fainting from injections
+[select value="no|YES"] <-- History of reactions to previous vaccines
+
+Has received these in the last 8 months?
+[select value="no|YES"] <-- immune globulin
+[select value="no|YES"] <-- blood products
+
+Has received these in the last 4 weeks?
+[select value="no|YES"] <-- antibiotics
+
+Motion sickness?
+[select value="no|YES"] <-- Is prone to motion sickness
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  September 30, 2010; September 7, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/general/travel-counseling-history.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/general/travel-counseling-history.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/general/travel-counseling-history.txt" target="_blank">www.soapnote.org/generator/txt/general/travel-counseling-history.txt</a>[/html][/conditional]

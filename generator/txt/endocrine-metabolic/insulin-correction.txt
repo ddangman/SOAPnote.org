@@ -1,0 +1,16 @@
+Correction dose of insulin[html]
+Summary: This calculator is intended to help calculate a corrected insulin dose for adults with hyperglycemia. Corrected doses calculated here are suggested based on the inputs you provide. Please temper administration of large doses of insulin with good clinical judgement.[/html]
+[text name="Q1sugar"] <-- What is the current blood sugar? (mg/dL)  [comment memo="NOTE: Hyperglycemia may warrant monitoring and correction in an inpatient setting."]
+[text name="Q2goal" default="110"] <-- What is the goal blood sugar? (mg/dL)
+[text name="Q3insulin"] <-- What is the patient's usual total daily dose of insulin? (units)  [comment memo="Add up all the insulin the patient normal takes in a day. This includes long-, intermediate-, short-, and/or rapid-acting insulins. This value must be more than 0."]
+[select name="Insulin_Type" value="Regular=1500|Rapid-acting=1700"] <-- What type of insulin will you use to correct the hyperglycemia? [comment memo="Rapid-acting insulin includes aspart and lispro insulins. When Regular insulin is selected, the 1500 rule will be used. When Rapid-acting insulin is selected, the 1700 rule will be used."]
+------------------------------------------------------------------------------------------
+Insulin Sensitivity Factor (ISF) using [var name="Insulin_Type"] insulin:  [calc value="score=((Insulin_Type)/(Q3insulin));score>0?'':''"][calc value="score1=score.toFixed(2)" memo="ISF"]
+The ISF means that one unit of [var name="Insulin_Type"] insulin would be expected to lower the blood sugar by  [calc value="score1=score.toFixed(2)" memo="ISF"] mg/dL.
+The suggested correction dose of [var name="Insulin_Type"] insulin:  [calc value="score2=(((Q1sugar)-(Q2goal))/(score));score>0?'':''"][calc value="score3=score2.toFixed(2)" memo="correction"] units.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  The “Rule of 1500″ and “Rule of 1700″ which this is based on were developed by Dr. Paul C. Davidson at the Diabetes Center in Atlanta.  <a href="http://www.ncbi.nlm.nih.gov/pubmed/21544273" target="_blank">Guthrie DW, Guthrie RA, Hinnen D, Childs BP. It’s time to abandon the sliding scale. J Fam Pract. 
+posted by:  Mark Morgan, M.D.
+post/review dates:  May 24, 2011; August 22, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/endocrine-metabolic/insulin-correction.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/endocrine-metabolic/insulin-correction.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/insulin-correction.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/insulin-correction.txt</a>[/html][/conditional]

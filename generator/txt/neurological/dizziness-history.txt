@@ -1,0 +1,47 @@
+[checkbox memo="Short Version" name="short" value=""][conditional field="short" condition="(short).is('')"][textarea default="Source of history: son|daughter|spouse|father|mother.  Patient has had dizziness for ***.  Other symptoms include lightheadedness|vertigo|sensation of motion|tinnitus|decreased hearing|nausea|vomiting|weakness.  Onset abruptly|insidiously.  Symptoms have waxed and waned|increased|decreased|been stable.  Associated symptoms include headache|palpitations|chest pain|anxiety.  Symptoms are affecting ability to work|activities of daily living.  Aggravating factors include movement|loud noises|activity|food|change in posture.  Alleviating factors include laying down|avoiding movement|OTC motion sickness treatment.  Patient has past history of similar symptoms|Meniere's disease|syncope|orthostasis|cerebrovascular disease|diabetes|CAD|cardiac arrhythmia.  "][/conditional][checkbox memo="Long Version" name="long" value=""][conditional field="long" condition="(long).is('')"]Dizziness
+The episode happened [text] before this evaluation
+Onset while [text].
+Episode location: [text]
+Episode description: [text]
+The last similar episode was [text]
+Key symptoms
+[select value="no|YES"] <-- vertigo  [text]
+[select value="no|YES"] <-- hearing loss [text]
+[select value="no|YES"] <-- tinnitus [text]
+[select value="no|YES"] <-- lightheadedness [text]
+[select value="no|YES"] <-- ataxia or impaired balance [text]
+[select value="no|YES"] <-- near-syncope [text]
+[select value="no|YES"] <-- complete loss of consciousness [text]
+[select value="no|YES"] <-- seizure activity [text]
+[select value="no|YES"] <-- confusion [text]
+[select value="no|YES"] <-- generalized weakness [text]
+[select value="no|YES"] <-- palpitations [text]
+Associated symptoms:
+[select value="no|YES"] <-- chest pain [text]
+[select value="no|YES"] <-- dyspnea [text]
+[select value="no|YES"] <-- nausea or vomiting [text]
+[select value="no|YES"] <-- headache [text]
+[select value="no|YES"] <-- visual changes [text]
+[select value="no|YES"] <-- abdominal pain [text]
+[select value="no|YES"] <-- bleeding (e.g. stool, urine, vagina) [text]
+[select value="no|YES"] <-- low blood sugar [text]
+Past Medical History
+[select value="no|YES"] <-- Recent upper respiratory infection [text]
+[select value="no|YES"] <-- Recent trauma [text]
+[select value="no|YES"] <-- Seizure history [text]
+[select value="no|YES"] <-- Diabetes mellitus history [text]
+[select value="no|YES"] <-- Coronary artery disease history [text]
+[select value="no|YES"] <-- Cerebrovascular accident history [text]
+[select value="no|YES"] <-- Gastrointestinal bleeding history [text]
+[select value="no|YES"] <-- Other (e.g. pregnancy in women of child bearing age) [text]
+Cardiovascular risks reviewed
+[select value="no|YES"] <-- Family history of Premature CAD or CVA (<55) [text]
+[select value="no|YES"] <-- Tobacco use [text]
+[select value="no|YES"] <-- Hyperlipidemia [text]
+[select value="no|YES"] <-- Hypertension[/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  Long Version contributed by Dr. Scott Moses, creator/author of the <a href="http://www.fpnotebook.com" target="_blank">Family Practice Notebook</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  November 20, 2010 ; September 4, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/neurological/dizziness-history.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/neurological/dizziness-history.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/neurological/dizziness-history.txt" target="_blank">www.soapnote.org/generator/txt/neurological/dizziness-history.txt</a>[/html][/conditional]

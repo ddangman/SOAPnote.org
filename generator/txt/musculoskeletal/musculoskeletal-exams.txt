@@ -1,0 +1,23 @@
+[select name="Q1" value="Neck Pain|Back Pain|Shoulder Pain|Knee Pain"][conditional field="Q1" condition="(Q1).is('Neck Pain')"]
+[textarea default="General Appearance: no acute distress"]
+[textarea default="Neck: Range of motion with normal flexion, extension, right rotation, and left rotation.  There is no palpable paraspinal muscle spasm."]
+[textarea default="Upper extremity muscle strength is normal bilaterally.  Sensation is normal bilaterally.  Reflexes: normal and symmetric at biceps, triceps, brachioradialis"]
+[textarea default="C spine x-ray: normal, without loss of cervical lordosis, no degenerative changes"][/conditional][conditional field="Q1" condition="(Q1).is('Back Pain')"]
+[textarea default="General Appearance:  No distress.  Patient able to ambulate well.  Gait is not antalgic."]
+[textarea default="Straight leg raising negative bilaterally for radicular symptoms."]
+[textarea default="Sensory exam in the legs is normal. "]
+[textarea default="Knee reflexes are normal and symmetric."]
+[textarea default="Ankle reflexes are normal and symmetric"]
+[textarea default="Strength is normal and symmetric."]
+[textarea default="No paraspinal muscle spasm.  There is no midline tenderness.  ROM of spine with normal flexion, extension, lateral range of motion to the right and left, and rotation to the right and left."][/conditional][conditional field="Q1" condition="(Q1).is('Shoulder Pain')"]
+[textarea default="General Appearance: no acute distress"]
+[textarea default="Neck: Range of motion with normal flexion, extension, right rotation, and left rotation.  There is no palpable paraspinal muscle spasm."]
+[textarea default="Shoulder:  Symmetrical bilaterally, FROM flex/ex/IR/ER/abduction/adduction, No erythema or edema, Nontender to palpation, Negative:  Hawkins, Neers, Yergusons, Speeds, empty can, 5/5 strength biceps/triceps/grip, Radial pulse full. Cap refill <2 seconds, Sensory intact to light touch distally."][/conditional][conditional field="Q1" condition="(Q1).is('Knee Pain')"]
+[textarea default="General Appearance: no acute distress
+[textarea default="Knee: Normal joint contours.  No effusion.  Normal range of motion.  Normal strength on extension and flexion against resistance.  No joint line pain medially or laterally.  McMurray negative for crepitus and pain medially and laterally.  There is no swelling or pain over the pes anserine bursa.  Collateral ligament testing shows no laxity or pain.  Anterior drawer test and Lachman shows no anterior cruciate laxity.  Posterior drawer negative for laxity as well. No popliteal mass or palpable tenderness."][/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  November 26, 2010; September 3, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/musculoskeletal-exams.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/musculoskeletal-exams.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/musculoskeletal-exams.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/musculoskeletal-exams.txt</a>[/html][/conditional]

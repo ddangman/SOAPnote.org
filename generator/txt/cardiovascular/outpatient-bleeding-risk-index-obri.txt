@@ -1,0 +1,16 @@
+Outpatient Bleeding Risk Index[html]
+<strong>Summary:</strong>
+The Outpatient Bleeding Risk Index is used to help predict the risk of bleeding with anticoagulation. An approach to the decision of warfarin for oral anticoagulation for atrial fibrillation is suggested in <a href="http://www.aafp.org/afp/2005/0615/afp20050615p2348-f1.pdf" target="_blank">Am Fam Physician. 2005 Jun 15;71(12):2348-2350.</a>1) Use the <a href="http://www.soapnote.org/cardiovascular/chads2/" target="_blank">CHADS2 rule</a> as well as the <a href="http://www.soapnote.org/cardiovascular/accp-stroke-risk-calculator/" target="_blank">ACCP rule</a> to determine the risk of stroke.
+2) If both these measures predict moderate risk of stroke, proceed to calculate the <a href="http://www.soapnote.org/cardiovascular/outpatient-bleeding-risk-index-obri/" target="_blank">Outpatient Bleeding Risk Index</a> and weigh the risks versus the benefits.[/html]
+[select name="Q1" value="No (0 points)=0|YES (1 point)=1"] <-- Age 65 or older
+[select name="Q2" value="No (0 points)=0|YES (1 point)=1"] <-- History of GI tract bleeding
+[select name="Q3" value="No (0 points)=0|YES (1 point)=1"] <-- History of stroke
+[select name="Q4" value="No (0 points)=0|YES (1 point)=1"] <-- Recent MI, hematocrit lower than 30 percent, creatinine higher than 1.5, or diabetes mellitus.
+Score --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)" memo="score"] out of 4 points
+Interpretation (percent of cases with major bleeding at 1 year) --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4);score>2?'High risk(10.6-48%)':score>0?'Intermediate risk (2.5-12%)':'Low risk (0-3%)'" memo="interpretation"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.aafp.org/afp/2005/0615/p2348.html" target="_blank">Am Fam Physician. 2005 Jun 15;71(12):2348-2350. </a>, <a href="http://www.aafp.org/afp/2010/0315/p780.html" target="_blank">Am Fam Physician. 2010 Mar 15;81(6):780-782.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  May 31, 2010; August 20, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/outpatient-bleeding-risk-index-obri.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/outpatient-bleeding-risk-index-obri.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/outpatient-bleeding-risk-index-obri.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/outpatient-bleeding-risk-index-obri.txt</a>[/html][/conditional]

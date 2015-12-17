@@ -1,0 +1,3 @@
+LINK:  [link url="http://www.example.com" memo="this link won't go to the output"]
+...Another (possibly better) way to do links and other formatting on a SOAPnote is to use the [html] code:
+LINK: <a href="http://www.example.com" target="_blank">this link also won't go to the output</a> 

@@ -1,0 +1,8 @@
+[html]Direct Admission
+[/html][textarea columns=108 rows=25 default="Referring Physician: ***&#13;&#10;Summary of clinical history and reason for admission: ***&#13;&#10;Admitting diagnosis: ***&#13;&#10;Plan of care: ***&#13;&#10;Type of admission: ***Emergency/Urgent/Routine***&#13;&#10;Room assignment needs: ***ICU/Private/Strict Isolation/Airbourne Isolation/Monitored bed***&#13;&#10;IV drips or other needs: ***&#13;&#10;Mode of transportation: ***Private car/Ground ambulance/Fixed wing***&#13;&#10;Insurance Information: ***Unknown/Medicare/Private Insurance ---/Medical Assistance ---/Managed Care ---***"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; August 27, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/general/direct-admission.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/general/direct-admission.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/general/direct-admission.txt" target="_blank">www.soapnote.org/generator/txt/general/direct-admission.txt</a>[/html][/conditional]

@@ -1,0 +1,15 @@
+[html]Pain History - Pain Scales
+[/html][select value="Patient|Caregiver"] <-- Rater
+[select name="Q1" value="Numeric|FACES or Facial|FLACC"] <-- Pain Scale
+[conditional field="Q1" condition="(Q1).is('Numeric')"][text] out of 10[/conditional][conditional field="Q1" condition="(Q1).is('FACES or Facial')"][html]<a href="http://wongbakerfaces.org" target="_blank">FACES Scale Site</a>[/html][text] out of 10[/conditional][conditional field="Q1" condition="(Q1).is('FLACC')"][select name="FLACC1" value="No particular expression or smile (0 points)=0|Occasional grimace or frown, withdrawn, uninterested (1 point)=1|Frequent to constant quivering chin, clenched jaw (2 points)=2"] <-- Face
+[select name="FLACC2" value="Normal position or relaxed (0 points)=0|Uneasy, restless, tense (1 point)=1|Kicking, or legs drawn up (2 points)=2"] <-- Legs
+[select name="FLACC3" value="Lying quietly, normal position, moves easily (0 points)=0|Squirming, shifting, back and forth, tense (1 point)=1|Arched, rigid or jerking (2 points)=2"] <-- Activity
+[select name="FLACC4" value="No cry - awake or asleep (0 points)=0|Moans or whimpers; occasional complaint (1 point)=1|Crying steadily, screams or sobs, frequent complaints (2 points)=2"] <-- Cry
+[select name="FLACC5" value="Content, relaxed (0 points)=0|Reassured by occasional touching, hugging or being talked to, distractible (1 point)=1|Difficult to console or comfort (2 points)=2"] <-- Consolability
+[calc memo="score" value="(FLACC1)+(FLACC2)+(FLACC3)+(FLACC4)+(FLACC5)"] out of 10[/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="https://en.wikipedia.org/wiki/FLACC_scale" target="_blank">FLACC Scale</a>, <a href="http://wongbakerfaces.org" target="_blank">FACES Scale Site</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 11, 2010; August 29, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/general/pain-history.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/general/pain-history.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/general/pain-history.txt" target="_blank">www.soapnote.org/generator/txt/general/pain-history.txt</a>[/html][/conditional]

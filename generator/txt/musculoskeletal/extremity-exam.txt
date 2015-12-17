@@ -1,0 +1,8 @@
+[html]Extremity Exam
+[/html][textarea default="EXTREMITIES:  Strength, sensation, and reflexes are normal. No palpable cords and there is no pain with palpation. Digits and nails are normal."]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; August 28, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/extremity-exam.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/extremity-exam.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/extremity-exam.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/extremity-exam.txt</a>[/html][/conditional]

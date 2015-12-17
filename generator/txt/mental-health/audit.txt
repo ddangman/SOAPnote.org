@@ -1,0 +1,20 @@
+The Alcohol Use Disorders Identification Test (AUDIT), developed in 1982 by the World Health Organization, is a simple way to screen and identify people at risk of alcohol  problems.
+[select name="Q1" value="(0) Never (Skip to Questions 9-10)=0|(1) Monthly or less=1|(2) 2 to 4 times a month=2|(3) 2 to 3 times a week=3|(4) 4 or more times a week=4"] <-- 1. How often do you have a drink containing alcohol?
+[select name="Q2" value="(0) 1 or 2=0|(1) 3 or 4=1|(2) 5 or 6=2|(3) 7, 8, or 9=3|(4) 10 or more=4"] <-- 2. How many drinks containing alcohol do you have on a typical day when you are drinking?
+[select name="Q3" value="(0) Never=0|(1) Less than monthly=1|(2) Monthly=2|(3) Weekly=3|(4) Daily or almost daily=4"] <-- 3. How often do you have six or more drinks on one occasion?
+[select name="Q4" value="(0) Never=0|(1) Less than monthly=1|(2) Monthly=2|(3) Weekly=3|(4) Daily or almost daily=4"] <-- 4. How often during the last year have you found that you were not able to stop drinking once you had started?
+[select name="Q5" value="(0) Never=0|(1) Less than monthly=1|(2) Monthly=2|(3) Weekly=3|(4) Daily or almost daily=4"] <-- 5. How often during the last year have you failed to do what was normally expected from you because of drinking?
+[select name="Q6" value="(0) Never=0|(1) Less than monthly=1|(2) Monthly=2|(3) Weekly=3|(4) Daily or almost daily=4"] <-- 6. How often during the last year have you been unable to remember what happened the night before because you had been drinking?
+[select name="Q7" value="(0) Never=0|(1) Less than monthly=1|(2) Monthly=2|(3) Weekly=3|(4) Daily or almost daily=4"] <-- 7. How often during the last year have you needed an alcoholic drink first thing in the morning to get yourself going after a night of heavy drinking?
+[select name="Q8" value="(0) Never=0|(1) Less than monthly=1|(2) Monthly=2|(3) Weekly=3|(4) Daily or almost daily=4"] <-- 8. How often during the last year have you had a feeling of guilt or remorse after drinking?
+[select name="Q9" value="(0) No=0|(2) Yes, but not in the last year=2|(4) Yes, during the last year=4"] <-- 9. Have you or someone else been injured as a result of your drinking?
+[select name="Q10" value="(0) No=0|(2) Yes, but not in the last year=2|(4) Yes, during the last year=4"] <-- 10. Has a relative, friend, doctor, or another health professional expressed concern about your drinking or suggested you cut down?
+A total score of 8 or more indicates harmful drinking behavior. 
+Total Score --> [calc memo="number" value="score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10)"]
+Interpretation --> [calc memo="result" value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10);score2>7?'Harmful drinking behavior':'Negative screen'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.who.int" target="_blank">World Health Organization</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  August 15, 2014; September 7, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/audit.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/audit.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/audit.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/audit.txt</a>[/html][/conditional]

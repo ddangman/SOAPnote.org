@@ -1,0 +1,7 @@
+[textarea cols=108 rows=5 default="Scabies&#13;&#10;Permethrin 5% cream.  Apply from neck to toes.  Leave on for 10 hours.  Rinse off.  May repeat in 10 days.&#13;&#10;Clothing should be washed and heat dried.  &#13;&#10;Clothes that cannot be heat dried, should be sealed in plastic for 5 days.&#13;&#10;Itching may persist for 1 month.  &#13;&#10;Benadryl and hydrocortisone as needed to manage pruritis after treatment.&#13;&#10;Patient was provided with the information detailed on the CDC website regarding scabies."]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.cdc.gov/parasites/scabies/gen_info/faqs.html" target="_blank">CDC scabies page</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  February 20, 2011; August 20, 2015; October 2, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/skin/scabies-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/skin/scabies-plan.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/skin/scabies-plan.txt" target="_blank">www.soapnote.org/generator/txt/skin/scabies-plan.txt</a>[/html][/conditional]

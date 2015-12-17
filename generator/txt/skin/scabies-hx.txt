@@ -1,0 +1,9 @@
+[html]Scabies History
+[/html][textarea cols=108 rows=5 default="Possible infectious disease exposure
+Patient has been exposed (unprotected skin to skin contact) to an individual diagnosed with Scabies.  &#13;&#10;***Patient denies rash at this time/Patient notes rash at --- for --- days***."]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; August 20, 2015; October 2, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/skin/scabies-hx.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/skin/scabies-hx.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/skin/scabies-hx.txt" target="_blank">www.soapnote.org/generator/txt/skin/scabies-hx.txt</a>[/html][/conditional]

@@ -1,0 +1,34 @@
+Pediatric Early Warning Score
+
+[select name="Q1" value="A=3|B=2|C=1|D=0"] <-- Behavior
+A = Lethargic, Confused, OR Reduced pain response (3 points)
+B = Irritable or agitated and not consolable (2 points)
+C = Sleeping OR Irritable but consolable (1 point)
+D = Playing OR Appropriate activity for the patient (0 point)
+
+[select name="Q2" value="A=3|B=2|C=1|D=0"] <-- Cardiovascular
+A = Grey appearance OR Capillary refill time 5 seconds or longer or Tachycardia with heart rate 30 beats above normal for age or Bradycardia for age (3 points)
+B = Capillary refill time 4 seconds or less OR Tachycardia with heart rate 20 beats above normal for age (2 points)
+C = Pale OR Capillary refill time 3 seconds or less (1 point)
+D = Skin pink OR Capillary refill time 1-2 seconds (0 point)
+
+[select name="Q3" value="A=3|B=2|C=1|D=0"] <-- Respiratory
+A = Respiratory rate 5 breaths per minute below normal range OR Supplemental oxygen of FIO2 50% or higher to maintain adequate oxygenation (3 points)
+B = Respiratory rate 20 breaths per minute above normal range OR Accessory muscle use (neck retractions, intercostal retractions, abdominal breathing) OR Supplemental oxygen of FIO2 40-49% or 3 LPM or more to maintain adequate oxygenation (2 points)
+C = Respiratory Rate 10 breaths per minute above normal range OR Accessory muscle use (neck retractions, intercostal retractions, abdominal breathing) OR Supplemental oxygen of FIO2 24-40% or 2 LPM or more to maintain adequate oxygenation (1 point)
+D = Respiratory Rate normal for age AND No retractions (0 points)
+
+[select name="Q4" value="A=2|B=0"] <-- Modifier
+A = Frequent interventions (e.g. frequent suctioning, repositioning, Supplemental Oxygen changes) OR Multiple IV attempts (2 points)
+B = None (0 points)
+
+Score --> [calc memo="number" value="score=(Q1)+(Q2)+(Q3)+(Q4)"] out of 11 points
+Recommendation --> [calc memo="result" value="score2=(Q1)+(Q2)+(Q3)+(Q4);score2>6?'Assess every 30 minutes':score2>5?'Assess every 1 hour':score2>4?'Assess every 1 to 2 hours':'Assess every 4 hours'"]
+
+Note: Rapid response evaluation is indicated for parental concern regardless of above score
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16990097" target="_blank">Duncan H, Hutchison J, Parshuram CS. The Pediatric Early Warning System score: a severity of illness score to predict urgent medical need in hospitalized children. J Crit Care. 2006 Sep;21(3):271-8.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  May 15, 2015; September 7, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/pediatric-early-warning-score.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/pediatric-early-warning-score.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/child-health/pediatric-early-warning-score.txt" target="_blank">www.soapnote.org/generator/txt/child-health/pediatric-early-warning-score.txt</a>[/html][/conditional]

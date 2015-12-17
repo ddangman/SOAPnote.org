@@ -1,0 +1,19 @@
+Nutritional Health Checklist
+[select name="Q1" value="false (0 points)=0|TRUE (2 points)=2"] <-- 1. I have an illness or condition that made me change the kind or amount of food I eat.
+[select name="Q2" value="false (0 points)=0|TRUE (2 points)=2"] <-- 2. I eat fewer than two meals per day.
+[select name="Q3" value="false (0 points)=0|TRUE (3 points)=3"] <-- 3. I eat few fruits, vegetables, or milk products.
+[select name="Q4" value="false (0 points)=0|TRUE (2 points)=2"] <-- 4. I have three or more drinks of beer, liquor, or wine almost every day.
+[select name="Q5" value="false (0 points)=0|TRUE (2 points)=2"] <-- 5. I have tooth or mouth problems that make it hard for me to eat.
+[select name="Q6" value="false (0 points)=0|TRUE (4 points)=4"] <-- 6. I don't always have enough money to buy the food I need.
+[select name="Q7" value="false (0 points)=0|TRUE (1 point)=1"] <-- 7. I eat alone most of the time.
+[select name="Q8" value="false (0 points)=0|TRUE (1 point)=1"] <-- 8. I take three or more different prescription or over-the-counter drugs per day.
+[select name="Q9" value="false (0 points)=0|TRUE (2 points)=2"] <-- 9. Without wanting to, I have lost or gained 10 lb in the past six months.
+[select name="Q10" value="false (0 points)=0|TRUE (2 points)=2"] <-- 10. I am not always physically able to shop, cook, or feed myself.
+Score --> [calc memo="score" value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10)"] out of 21 points
+Interpretation --> [calc memo="interpretation" value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10);score>5?'High nutritional risk, may require immediate assistance to improve your nutritional status.':score>2?'Moderate nutritional risk.  Lifestyle and eating habit improvements needed.  Recheck your nutritional score in three months.':'Good nutrition. Recheck nutritional score in six months.'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  The Nutrition Health Checklist was developed for the Nutrition Screening Initiative, a project of the American Academy of Family Physicians, the American Dietetic Association and the National Council on Aging, Inc.<a href="http://www.aafp.org/afp/980301ap/edits.html"> Info at AAFP website</a>, AAFP Geriatric assessment article: <a href="http://www.aafp.org/afp/2011/0101/p48.html">Elsawy (2011) Am Fam Phys 83: 48-56</a>.
+posted by:  Mark Morgan, M.D.
+post/review dates:  June 24, 2011; August 30, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/nutritional-checklist.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/nutritional-checklist.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/nutritional-checklist.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/nutritional-checklist.txt</a>[/html][/conditional]

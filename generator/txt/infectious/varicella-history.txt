@@ -1,0 +1,17 @@
+[html]Varicella History
+[/html]
+[checkbox memo="Short Version" name="short" value=""][conditional field="short" condition="(short).is('')"][textarea default="History provided by ***mother/father/grandparent***&#13;&#10;The patient comes in with *** days of vesicular rash.  The rash is described as initially occurring as small water blisters with surrounding erythema. There ***has/has not*** been a known exposure to varicella virus.&#13;&#10;The patient ***has/has no*** accompanying pruritus, ***has/has no*** accompanying fever, ***has had/has not had*** a cough and ***has had/has not had*** ocular symptoms."][/conditional][checkbox memo="Long Version" name="long" value=""][conditional field="long" condition="(long).is('')"]
+Patient accompanied with [select name+"Q1" value="Mother|Father|Grandparent|Guardian|None"]
+[text memo="how many"] days of vesicular rash
+[select name="Q2" value="Yes|No"] <-- Typical varicella rash (The rash is described as initially occurring as small water blisters with surrounding erythema.) [text]
+[select name="Q3" value="Yes|No"] <-- Pruritis [text]
+[select name="Q4" value="Yes|No"] <-- Fever [text]
+[select name="Q5" value="Yes|No"] <-- Cough [text]
+[select name="Q6" value="Yes|No"] <-- Ocular symptoms [text]
+[textarea cols=108 rows=5 default="" memo="other details"][/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; September 1, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/infectious/varicella-history.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/infectious/varicella-history.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/infectious/varicella-history.txt" target="_blank">www.soapnote.org/generator/txt/infectious/varicella-history.txt</a>[/html][/conditional]

@@ -1,0 +1,18 @@
+Osteoporosis SCORE Estimation[html]
+<strong>Summary:</strong>  Tool for osteoporosis risk assessment.  <a href="http://www.ncbi.nlm.nih.gov/pubmed/21242341" target="_blank">USPSTF recommends</a> screening for osteoporosis in women 65 years or older, and in younger women whose fracture risk is equal to or greater than that of a 65-year-old white woman with no additional risk factors.
+<strong>See also:</strong> <a href="http://www.soapnote.org/women/osteoporosis-self-assessment-tool/" target="_blank">Osteoporosis Self-Assessment Tool</a>
+[/html]
+[select name="race" value="African American (0 points)=0|Not African American (5 points)=5"] <-- Race 
+[select name="rheum" value="no (0 points)=0|yes (4 points)=4"] <-- Rheumatoid Arthritis
+[select name="fracture" value="none (0 points)=0|one (4 points)=4|two (8 points)=8|three (12 points)=12"] <-- Fracture after age 45 of wrist, hip or rib (4 points per Fracture)
+[select name="age" value="65 or younger (0 points)=0|66 to 69 (18 points)=18|70 to 79 (21 points)=21|80 to 89 (24 points)=24|90 to 99 (27 points)=27"] <-- Age over 65 (3 points per decade if above 65)
+[text name="weight" default=150] <-- Weight (subtract 1 point for every 10 points)
+[select name="estro" value="ever used (0 points)=0|never used (1 point)=1"] <-- Estrogen therapy ever
+Score --> [calc memo="number" value="score1=((race)+(rheum)+(fracture)+(age)+((weight)/(-10))+(estro)).toFixed(0)"] points
+Interpretation --> [calc memo="recommendation" value="score2=(race)+(rheum)+(fracture)+(age)+((weight)/(-10))+(estro);score2>5?'Associated with T-Score below -2, Osteoporosis testing with DEXA Scan is recommended':'Osteoporosis testing not recommended based on this screen'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/10179905" target="_blank">Lydick (1998) Am J Manag Care. 4:37-48. </a>, <a href="http://www.fpnotebook.com/rheum/exam/OstprsScrEstmtn.htm" target="_blank">FPNotebook page</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  March 12, 2012; August 31, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/women/osteoporosis-score.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/women/osteoporosis-score.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/women/osteoporosis-score.txt" target="_blank">www.soapnote.org/generator/txt/women/osteoporosis-score.txt</a>[/html][/conditional]

@@ -1,0 +1,24 @@
+Geriatric Depression Scale  [comment memo="A screening tool for depression in the elderly..."]
+Findings:  [comment memo="All findings are weighted 1 point -- total possible score is 15."]
+[select value="yes=0|NO=1" name="satisfied"] <-- Are you basically satisfied with your life?
+[select value="no=0|YES=1" name="dropped"] <-- Have you dropped many of your activities and interests?
+[select value="no=0|YES=1" name="empty"] <-- Do you feel that your life is empty?
+[select value="no=0|YES=1" name="bored"] <-- Do you often get bored?
+[select value="yes=0|NO=1" name="spirits"] <-- Are you in good spirits most of the time?
+[select value="no=0|YES=1" name="afraid"] <-- Are you afraid that something bad is going to happen to you?
+[select value="yes=0|NO=1" name="happy"] <-- Do you feel happy most of the time?
+[select value="no=0|YES=1" name="helpless"] <-- Do you often feel helpless?
+[select value="no=0|YES=1" name="home"] <-- Do you prefer to stay at home, rather than going out and doing new things?
+[select value="no=0|YES=1" name="memory"] <-- Do you feel that you have more problems with memory than most people?
+[select value="yes=0|NO=1" name="alive"] <-- Do you think that it is wonderful to be alive now?
+[select value="no=0|YES=1" name="worthless"] <-- Do you feel pretty worthless the way you are now?
+[select value="yes=0|NO=1" name="energy"] <-- Do you feel full of energy?
+[select value="no=0|YES=1" name="hopeless"] <-- Do you feel that your situation is hopeless?
+[select value="no=0|YES=1" name="better"] <-- Do you think that most people are better off than you are?
+Score:  [calc value="score=(satisfied)+(dropped)+(empty)+(bored)+(spirits)+(afraid)+(happy)+(helpless)+(home)+(memory)+(alive)+(worthless)+(energy)+(hopeless)+(better)" memo="x"]/15  Interpretation:  [calc value="score=(satisfied)+(dropped)+(empty)+(bored)+(spirits)+(afraid)+(happy)+(helpless)+(home)+(memory)+(alive)+(worthless)+(energy)+(hopeless)+(better);score>10?'Very likely depression':score>5?'Possible depression':'Depression unlikely'" memo="Interpretation"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.aafp.org/afp/2002/0915/p1001.html" target="_blank">Screening for Depression Across the Lifespan: A Review of Measures for Use in Primary Care Settings, Am Fam Physician. 2002 Sep 15;66(6):1001-1009</a>, <a href="http://www.aafp.org/afp/2004/0715/p343.html" target="_blank">Geriatric Failure to Thrive, Am Fam Physician. 2004 Jul 15;70(2):343-350</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  June 16, 2010; August 30, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/geriatric-depression-scale.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/elder-care/geriatric-depression-scale.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/elder-care/geriatric-depression-scale.txt" target="_blank">www.soapnote.org/generator/txt/elder-care/geriatric-depression-scale.txt</a>[/html][/conditional]

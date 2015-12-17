@@ -1,0 +1,35 @@
+Hepatitis B Decision Tool - Initial Screening[html]
+Summary: A Hepatitis B decision tool for interpretation of initial screening tests.
+See soapnote's Hepatitis B <a href="http://www.soapnote.org/infectious/hepatitis-b-screening/">Screening Decision Tool</a> and <a href="http://www.soapnote.org/infectious/hepatitis-b-chronic/">Chronic Decision Tool</a>.
+[/html][select name="Q1" value="negative|positive"] <-- HBsAg - Hepatitis B surface antigen
+[select name="Q2" value="negative|positive"] <-- HBcAb - Hepatitis B core antibody
+[select name="Q3" value="negative|positive"] <-- HBsAb - Hepatitis B surface antibody
+[conditional field="Q1|Q2|Q3" condition="(Q1).is('negative')&&(Q2).is('negative')&&(Q3).is('negative')"]Susceptible to HBV infection
+Interpretation - Susceptible to Hepatitis B infection.
+Recommendation - Vaccination.  [/conditional][conditional field="Q1|Q2|Q3" condition="(Q1).is('negative')&&(Q2).is('positive')&&(Q3).is('negative')"]Immune to HBV infection (vaccinated)
+Interpretation - Immune to Hepatitis B infection due to vaccination. 
+Recommendation - No intervention required.  [/conditional][conditional field="Q1|Q2|Q3" condition="(Q1).is('negative')&&(Q2).is('positive')&&(Q3).is('positive')"]Immune to HBV infection (resolved natural infection)
+Interpretation - Immune to Hepatitis B infection due to natural infection. 
+Recommendation - No intervention required.  [/conditional][conditional field="Q1|Q2|Q3" condition="(Q1).is('positive')&&(Q2).is('negative')&&(Q3).is('positive')"]Acute or chronic HBV infection
+Interpretation - Acute or chronic Hepatitis B infection. 
+Recommendation -
+Obtain Hepatitis B IgM to clarify whether acute (positive IgM) or chronic (negative IgM).  [/conditional][conditional field="Q1|Q2" condition="(Q1).is('positive')&&(Q2).is('positive')"]This isn't an ordinary finding.  Hepatitis B surface antigen and Hepatitis B surface antibody shouldn't both be positive.  [/conditional][conditional field="Q1|Q2|Q3" condition="(Q1).is('negative')&&(Q2).is('negative')&&(Q3).is('positive')"]Interpretation unclear
+Interpretation - Unclear; four possibilities:
+1.  Resolved infection (most common)
+2.  False-positive anti-HBc, thus susceptible
+3.  "Low level" chronic infection
+4.  Resolving acute infection
+Recommendation - 
+To evaluate for possible low level chronic hepatitis infection, obtain quantitative Hepatitis B DNA level, serum ALT, and Hepatis B e antigen and antibody.  
+To detect possible acute infection in window phase, obtain Hepatitis B core antibody IgM level (positive in acute disease).[/conditional][conditional field="Q1|Q2|Q3" condition="(Q1).is('positive')&&(Q2).is('negative')&&(Q3).is('negative')"]Unusual and transient finding.  
+Interpretation - Unclear; two possibilities:
+1.  Early acute infection
+2.  Transient finding up to 18 days after vaccination
+Recommendation - Clinical judgement can guide further investigation, such as short interval retesting.[/conditional][html]
+You may wish to proceed to evaluation and treatment of Chronic Hepatitis B.  This is located at <a href="http://www.soapnote.org/infectious/hepatitis-b-chronic/">soapnote.org/infectious/hepatitis-b-chronic/</a>.[/html]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  AFP article on diagnosis and treatment of hepatitis B: <a href="http://www.aafp.org/afp/2010/0415/p965.html">Wilkins (2010) Am Fam Phys 81: 965-72</a>; CDC <a href="http://www.cdc.gov/hepatitis/HBV/index.htm">Hepatitis B page</a> and <a href="http://www.cdc.gov/hepatitis/HBV/PDFs/SerologicChartv8.pdf">serology chart</a>; American Association for Study of Liver Diseases (AASLD) <a href="http://www.aasld.org/practiceguidelines/Pages/default.aspx">Hepatitis B Guidelines</a>.
+posted by:  Mark Morgan, M.D.
+post/review dates:  September 11, 2011; September 1, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/infectious/hepatitis-b-screening.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/infectious/hepatitis-b-screening.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/infectious/hepatitis-b-screening.txt" target="_blank">www.soapnote.org/generator/txt/infectious/hepatitis-b-screening.txt</a>[/html][/conditional]

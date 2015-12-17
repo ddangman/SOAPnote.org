@@ -1,0 +1,18 @@
+Routine blood lead screening:
+[select name="Q1" value="no|YES"] <-- moving from a foreign country within last 12 months
+[select name="Q2" value="no|YES"] <-- moving from a major metropolitan area within last 12 months
+[select name="Q3" value="no|YES"] <-- receiving MA (Medical Assistance)
+[select name="Q4" value="no|YES"] <-- receiving WIC (Supplemental Food Program for Women, Infants, and Children)
+[select name="Q5" value="no|YES"] <-- receiving Medicaid
+[select name="Q6" value="no|YES"] <-- living in a home built before 1950
+[select name="Q7" value="no|YES"] <-- visiting a home built before 1950 in past 6 months
+[select name="Q8" value="no|YES"] <-- attending day care in a home built before 1950 in past 6 months
+[select name="Q9" value="no|YES"] <-- sibling or housemate diagnosed with blood lead poisoning
+[select name="Q10" value="no|YES"] <-- playmate diagnosed with blood lead poisoning
+[select name="Q11" value="no|YES"] <-- living in or regularly visiting a building built before 1978 with recent repair, remodeling, or damage
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; September 7, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/lead-screening.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/child-health/lead-screening.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/child-health/lead-screening.txt" target="_blank">www.soapnote.org/generator/txt/child-health/lead-screening.txt</a>[/html][/conditional]

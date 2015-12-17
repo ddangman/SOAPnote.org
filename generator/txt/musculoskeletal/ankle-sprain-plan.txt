@@ -1,0 +1,19 @@
+[html]Ankle Sprain Assessment/Plan
+[/html]Assessment:
+[text size=100 default="Uncomplicated Lateral Ankle Sprain"]
+Plan:
+[text size=100 default="Ice packs applied for 20 minutes or ice massage for 8 minutes three times a day"][text size=100 default="Rest and elevation"]
+[text size=100 default="Crutch walking for 2 to 3 days"]
+[text size=100 default="Air cast splint with elastic compression wrap or Ankle lace up support alone"]
+[text size=100 default="OTC Acetaminophen up to four times a day for pain"]
+[text size=100 default="OTC NSAID such as naproxen by mouth twice a day or ibuprofen by mouth three times a day for 5-14 days"]
+[text size=100 default="Start early range of motion (focus on dorsiflexion) as soon as possible"]
+[text size=100 default="Patient educated on strengthening/strengthening program for ankle"]
+[text size=100 default="Handout given for strengthening program for the ankle"]  [link memo="handout at familydoctor.org" url="http://familydoctor.org/familydoctor/en/prevention-wellness/staying-healthy/first-aid/ankle-sprains-healing-and-preventing-injury.html"]
+[text size=100 default="Follow up in 1 month or sooner if worsening/no improvement"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.aafp.org/afp/2006/1115/p1714.html" target="_blank">Ivins (2006) Am Fam Physician. 74:1714-1720</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 14, 2010; September 2, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/ankle-sprain-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/ankle-sprain-plan.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/ankle-sprain-plan.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/ankle-sprain-plan.txt</a>[/html][/conditional]

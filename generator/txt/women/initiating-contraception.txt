@@ -1,0 +1,8 @@
+[html]Initiating Contraception History
+[/html][textarea default="Desired Contraception&#13;&#10;She requests contraception for pregnancy prevention, ***irregular menses, ***acne, ***cramping, ***other. Previously on *** medication.  Her experience with that medication was ***bleeding, ***side-effects.&#13;&#10;LMP was ***.&#13;&#10;She is *** currently sexually active, and began sexual activity at age.  Menses onset age ***.  G*P*.&#13;&#10;Contraindications review:  no estrogen-dependent neoplasia or breast cancer; no history of DVT, pulmonary embolism, stroke, or coronary artery disease; no family history of clots or clotting disorders; non-smoker (over age 35); and no uncontrolled hypertension.&#13;&#10;Special considerations review:  no concerning headache pattern, no advanced diabetes mellitus, no complicated valvular heart disease, no current antibiotics or anti-seizure medications."]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 13, 2010; August 31, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/women/initiating-contraception.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/women/initiating-contraception.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/women/initiating-contraception.txt" target="_blank">www.soapnote.org/generator/txt/women/initiating-contraception.txt</a>[/html][/conditional]

@@ -1,0 +1,26 @@
+LIFE EVENTS CHECKLIST (LEC)
+Listed below are a number of difficult or stressful things that sometimes happen to people. For each event check one or more of the boxes to indicate that: (a) it happened to you personally, (b) you witnessed it happen to someone else, (c) you learned about it happening to someone close to you, (d) you’re not sure if it fits, or (e) it doesn’t apply to you. 
+Be sure to consider your entire life (growing up as well as adulthood) as you go through the list of events. 
+1. Natural disaster (for example, flood, hurricane, tornado, earthquake) --> [checkbox value="Event Happened to me|Witnessed it|Learned about it|Not Sure|Doesn’t apply"] 
+2. Fire or explosion --> [checkbox value="Event Happened to me|Witnessed it|Learned about it|Not Sure|Doesn’t apply"] 
+3. Transportation accident (for example, car accident, boat accident, train wreck, plane crash) --> [checkbox value="Event Happened to me|Witnessed it|Learned about it|Not Sure|Doesn’t apply"] 
+4. Serious accident at work, home, or during recreational activity --> [checkbox value="Event Happened to me|Witnessed it|Learned about it|Not Sure|Doesn’t apply"] 
+5. Exposure to toxic substance (for example, dangerous chemicals, radiation) --> [checkbox value="Event Happened to me|Witnessed it|Learned about it|Not Sure|Doesn’t apply"] 
+6. Physical assault (for example, being attacked, hit, slapped, kicked, beaten up) --> [checkbox value="Event Happened to me|Witnessed it|Learned about it|Not Sure|Doesn’t apply"] 
+7. Assault with a weapon (for example, being shot, stabbed, threatened with a knife, gun, bomb) --> [checkbox value="Event Happened to me|Witnessed it|Learned about it|Not Sure|Doesn’t apply"] 
+8. Sexual assault (rape, attempted rape, made to perform any type of sexual act through force or threat of harm) --> [checkbox value="Event Happened to me|Witnessed it|Learned about it|Not Sure|Doesn’t apply"] 
+9. Other unwanted or uncomfortable sexual experience --> [checkbox value="Event Happened to me|Witnessed it|Learned about it|Not Sure|Doesn’t apply"] 
+10. Combat or exposure to a war-zone (in the military or as a civilian) --> [checkbox value="Event Happened to me|Witnessed it|Learned about it|Not Sure|Doesn’t apply"] 
+11. Captivity (for example, being kidnapped, abducted, held hostage, prisoner of war) --> [checkbox value="Event Happened to me|Witnessed it|Learned about it|Not Sure|Doesn’t apply"] 
+12. Life-threatening illness or injury --> [checkbox value="Event Happened to me|Witnessed it|Learned about it|Not Sure|Doesn’t apply"] 
+13. Severe human suffering --> [checkbox value="Event Happened to me|Witnessed it|Learned about it|Not Sure|Doesn’t apply"] 
+14. Sudden, violent death (for example, homicide, suicide) --> [checkbox value="Event Happened to me|Witnessed it|Learned about it|Not Sure|Doesn’t apply"] 
+15. Sudden, unexpected death of someone close to you --> [checkbox value="Event Happened to me|Witnessed it|Learned about it|Not Sure|Doesn’t apply"] 
+16. Serious injury, harm, or death you caused to someone else --> [checkbox value="Event Happened to me|Witnessed it|Learned about it|Not Sure|Doesn’t apply"] 
+17. Any other very stressful event or experience --> [checkbox value="Event Happened to me|Witnessed it|Learned about it|Not Sure|Doesn’t apply"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/7712061" target="_blank">Blake DD, Weathers FW, Nagy LM, Kaloupek DG, Gusman FD, Charney DS, Keane TM. The development of a Clinician-Administered PTSD Scale. J Trauma Stress. 1995 Jan;8(1):75-90.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  September 1, 2014; September 7, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/life-events-checklist.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/life-events-checklist.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/life-events-checklist.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/life-events-checklist.txt</a>[/html][/conditional]

@@ -1,0 +1,18 @@
+Polymyalgia Rheumatica Diagnostic Criteria - Chuang
+[select name="age" value="no=0|YES=1"] <-- Age 50 years or older
+[select name="aching" value="no=0|YES=1"] <-- Bilateral aching and stiffness for one month or more
+------------------------------------------------------------------------------------
+Aching/Stiffness:  To meet criteria, 2 of the following 3 areas below must have aching/stiffness
+[select name="neck" value="no=0|YES=0.5"] <-- Aching/stiffness involves neck or torso
+[select name="shoulders" value="no=0|YES=0.5"] <-- Aching/stiffness involves shoulders or proximal regions of the arms
+[select name="hips" value="no=0|YES=0.5"] <-- Aching/stiffness involves hips or proximal aspects of the thighs
+------------------------------------------------------------------------------------
+[select name="esr" value="no=0|YES=1"] <-- Erythrocyte sedimentation rate (ESR) > 40 mm/hour
+[select name="excluded" value="no=0|YES=1"] <-- Exclusion of all other diagnoses except giant cell arteritis
+Interpretation --> [calc memo="Interpretation" value="score=(age)+(aching)+(neck)+(shoulders)+(hips)+(esr)+(excluded);score>4.9?'Meets criteria for polymyalgia rheumatica':'Does not meet criteria for polymyalgia rheumatica'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/6982645" target="_blank">Chuang TY, Hunder GG, Ilstrup DM, Kurland LT.  Polymyalgia rheumatica: a 10-year epidemiologic and clinical study.  Ann Intern Med. 1982 Nov;97(5):672-80.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  October 15, 2013; September 2, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/polymyalgia-rheumatica-chuang.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/polymyalgia-rheumatica-chuang.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/polymyalgia-rheumatica-chuang.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/polymyalgia-rheumatica-chuang.txt</a>[/html][/conditional]

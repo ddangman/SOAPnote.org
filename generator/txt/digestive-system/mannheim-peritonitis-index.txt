@@ -1,0 +1,18 @@
+Mannheim Peritonitis Index for mortality prediction
+Risk factor
+[select name="Q1" value="no (0 points)=0|YES (7 points)=7"] <-- Organ failure
+[select name="Q2" value="no (0 points)=0|YES (6 points)=6"] <-- Diffuse peritonitis
+[select name="Q3" value="no (0 points)=0|YES (5 points)=5"] <-- Age older than 50 years
+[select name="Q4" value="no (0 points)=0|YES (5 points)=5"] <-- Female sex
+[select name="Q5" value="no (0 points)=0|YES (4 points)=4"] <-- Malignancy
+[select name="Q6" value="no (0 points)=0|YES (4 points)=4"] <-- Origin of sepsis not colonic
+[select name="Q7" value="no (0 points)=0|YES (4 points)=4"] <-- Preoperative duration of peritonitis > 24 hours
+[select name="Q8" value="Clear (0 points)=0|Cloudy, purulent (6 points)=6|Fecal (12 points)=12"] <-- Exudate
+Score --> [calc memo="number" value="score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)"]
+Interpretation --> [calc memo="result" value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8);score2>29?'Mortality rate 64%':score2>21?'Mortality rate 26%':score2>13?'Mortality rate 13%':score2>5?'Mortality rate 20%':'Mortality rate 0%'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16607684" target="_blank">Biondo S, Ramos E, Fraccalvieri D, Kreisler E, Ragué JM, Jaurrieta E. Comparative study of left colonic Peritonitis Severity Score and Mannheim Peritonitis Index. Br J Surg. 2006 May;93(5):616-22.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  September 19, 2014; August 25, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/digestive-system/mannheim-peritonitis-index.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/digestive-system/mannheim-peritonitis-index.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/digestive-system/mannheim-peritonitis-index.txt" target="_blank">www.soapnote.org/generator/txt/digestive-system/mannheim-peritonitis-index.txt</a>[/html][/conditional]

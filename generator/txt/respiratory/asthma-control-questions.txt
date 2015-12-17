@@ -1,0 +1,20 @@
+Generic Asthma Control Calculator[html]
+SUMMARY: Free, unvalidated questionnaire that can be used in assessment of asthma symptom control.  The questions are from a 1995 NIH Asthma Pocket Guide referenced in the NAEPP guidelines below.
+LINKS:
+<a href="http://www.soapnote.org/respiratory/asthma-severity/" target="_blank">Asthma Severity Decision Tool</a>
+<a href="http://www.soapnote.org/respiratory/asthma-control/" target="_blank">Asthma Control Decision Tool</a>
+[/html]
+[select name="Q1" value="no=0|YES=1"] <-- 1. Has your asthma awakened you at night or early morning?
+[select name="Q2" value="no=0|YES=1"] <-- 2. Have you needed more quick-relief bronchodilator medication (inhaled short-acting beta2-agonist) than usual? 
+[select name="Q3" value="no=0|YES=1"] <-- 3. Have you needed any urgent medical care for your asthma, such as unscheduled visits to your doctor, an urgent care clinic, or the emergency department? 
+[select name="Q4" value="no=0|YES=1"] <-- 4. Are you participating in your usual and desired activities?
+[select name="Q5" value="no=0|YES=1"] <-- 5. If you are measuring your peak flow, has it been below your personal best?
+ 
+Score --> [calc memo="number" value="score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)"] out of 5 (0 = controlled, 1 to 5 = uncontrolled)
+Interpretation --> [calc memo="interpretation" value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5);score2>0?'Uncontrolled':'Controlled'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.nhlbi.nih.gov/guidelines/asthma/asthgdln.htm" target="_blank">NAEPP 2007 Guidelines</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/20141095" target="_blank">Pollart (2009) Am Fam Physician 79:  761-7.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  March 25, 2012; August 21, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/respiratory/asthma-control-questions.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/respiratory/asthma-control-questions.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/respiratory/asthma-control-questions.txt" target="_blank">www.soapnote.org/generator/txt/respiratory/asthma-control-questions.txt</a>[/html][/conditional]

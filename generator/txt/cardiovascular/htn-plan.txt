@@ -1,0 +1,14 @@
+***Hypertension/Elevated blood pressure***
+Blood pressure noted.
+Goal BP is ***SBP<140, DBP<90/SBP<130, DBP<80***
+Patient ***is/is not*** at goal.
+***Patient monitors BP at home and readings have been normal/Patient is hypertensive and on treatment/Treatment started today based on BP finding/Non-pharmacologic treatments discussed.***
+Labs:  Creatinine ***, BUN ***, K ***, Na ***
+Medications:  ***ACE/ARB/thiazide/Beta Blocker/Ca Channel Blocker/other*** ***continued/added/changed***
+Patient to arrange follow up ***tomorrow/within the next week/within the next month***
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/htn-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/htn-plan.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/htn-plan.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/htn-plan.txt</a>[/html][/conditional]

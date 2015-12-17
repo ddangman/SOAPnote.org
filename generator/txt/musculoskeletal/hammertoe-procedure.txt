@@ -1,0 +1,46 @@
+[html]Hammertoe Procedure
+[/html][textarea default="INITIAL CONSULT:"]
+
+E/M Status: [select value="Established|New"]. Previous Podiatric Treatment: [select value="Yes|No"].
+
+The patient is seen today in the office. [text name="patient_name" memo="name"], a [text name="patient_age" memo="age"] year old [select value="male|female"], came in today for an initial consultation and evaluation. I examined the patient to determine appropriate treatment and plan of care. We reviewed the patient’s medical history, and history of the present condition. We discussed the anticipated prognosis, along with potential risks and benefits. Afterwards, the patient gave treatment consent. The ambulatory status of [var name="patient_name" is [select value="ambulatory|non-ambulatory"].
+
+CHIEF COMPLAINT:
+[var name="patient_name"] has primary symptoms that are representative of a Hammertoe, on the [select name="digit" value="first|second|third|fourth|fifth"] toe of [select name="side" value="the left foot|the right foot|bilateral feet"]. [var name="patient_name"] presents with a deformity of the toe that is painful when walking and wearing any footwear. The condition has been present for many months, and is ready to proceed with treatment.
+
+PATIENT HISTORY:
+
+[textarea]
+
+OBJECTIVE EXAM:
+
+I note the patient has pain on palpation and range of motion of the [var name="digit"] toe, of the [var name="side"]. Also noted is erythema and edema of the affected toe. There is a limitation of active and passive range of motion to the affected toe.
+
+Dermatological Exam:
+[textarea]
+Vascular Exam:
+[textarea]
+Neurological Exam:
+[textarea]
+
+ASSESSMENT:
+My impression is that the patient has a Diagnosis of Hammertoe. Treatment is medically necessary to return the patient to normal activities of daily living without limitations.
+
+TREATMENT PLAN:
+
+Pre-Op Diagnosis: Hammertoe, [var name="side"] Foot Post-op Diagnosis: Same
+Procedure: Hammertoe Reduction
+
+The patient was brought in and placed in the operating chair, supine position. Approximately [text size=2] cc’s of 2% Lidocaine plain was infiltrated to the base of the digit and metatarsophalangeal joint. Then, the lower leg was prepped and draped in the usual sterile manner.
+
+Attention was directed to the dorsal aspect of the affected digit, at the level of the proximal interphalangeal joint. Using a #15 blade, a [text size=2] cm dorsolinear incision was made. The incision was deepened with a blunt and sharp dissection, taking great care to preserve all neurovascular structures encountered. The tendon of the extensor digitorium longus and brevis were identified, and using a #15 blade, were freed from the PIPJ. The capsule was freed using a #15 blade, and the bone spur was removed using a bone rongeur. All bone were rasped smooth using a small bone rasp.
+
+The resultant wound was flushed with copious amounts of normal saline solution. The capsular and subcuticular closure was obtained using 3-0 vicryl in simple interrupted fashion. The wound was dressed with xerofoam gauze, dry sterile dressing and conform bandage.
+
+The patient appeared to have tolerated the surgical procedure well, without any complications, and left with all vital signs stable, and in apparent good spirits. Neurovascular status was noted to be intact. A follow-up examination is scheduled for approximately [text size=2] weeks.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  January 2, 2013; September 3, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/hammertoe-procedure.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/hammertoe-procedure.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/hammertoe-procedure.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/hammertoe-procedure.txt</a>[/html][/conditional]

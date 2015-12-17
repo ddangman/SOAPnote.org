@@ -1,0 +1,135 @@
+Anemia Evaluation
+[select name="Q1" value=" |A|B|C"] <-- Select the proper classification.
+A: Microcytic (MCV < 80 fL)
+B: Normocytic (MCV 80 - 100 fL)
+C: Macrocytic (MCV > 100 fL)[conditional field="Q1" condition="(Q1).is('A')"]
+[select name="QA1" value=" |A|B"] <-- Select the ferritin level.
+A: Low
+B: Normal or Elevated[/conditional][conditional field="Q1|QA1" condition="(Q1).is('A')&&(QA1).is('B')"]
+[select name="QA2" value=" |A|B"] <-- Select the chronicity of the microcytosis
+A: New microcytosis
+B: Old microcytosis[/conditional][conditional field="Q1" condition="(Q1).is('B')"]
+[select name="QB1" value=" |A|B"] <-- In regard to bleeding
+A: History and/or stool evidence of bleeding
+B: No history or stool evidence of bleeding[/conditional][conditional field="Q1" condition="(Q1).is('B')"]
+[select name="QB2" value=" |A|B|C|D"] <-- In regard to nutritional causes
+A: Ferritin is low
+B: B12 is low and/or homocysteine is high
+C: B12 is low and/or homocysteine is high AND Ferritin is low
+D: Ferritin, B12, and homocysteine are normal[/conditional][conditional field="Q1|QB1|QB2|QB3|QB4" condition="(Q1).is('B')&&((QB2).is('B')||(QB2).is('C'))"]
+[select name="QB2B" value=" |A|B"] <-- Select the methylmalonic acid (MMA) level
+A: Methylmalonic Acid level is high
+B: Methylmalonic Acid level is normal[/conditional][conditional field="Q1" condition="(Q1).is('B')"]
+[select name="QB3" value=" |A|B"] <-- In regard to renal function
+A: Renal insufficiency is present
+B: Renal function is normal[/conditional][conditional field="Q1" condition="(Q1).is('B')"]
+[select name="QB4" value=" |A|B"] <-- In regard to hemolysis
+A: Low serum haptoglobin level is associated with increased LDH, indirect bilirubin, or reticulocyte count.
+B: Serum haptoglobin, lactic dehydrogenase, indirect bilirubin, and reticulocyte count are all normal[/conditional][conditional field="Q1|QB1|QB2|QB3|QB4" condition="(Q1).is('B')&&(QB4).is('A')"]
+[select name="QB4A" value=" |A|B|C|D"] <-- Select peripheral blood smear finding
+A: Peripheral blood smear with spherocytes
+B: Peripheral blood smear with schistocytes
+C: Other abnormal findings
+D: No abnormal findings [/conditional][conditional field="Q1|QB1|QB2|QB3|QB4|QB4A" condition="(Q1).is('B')&&(QB4).is('A')&&(QB4A).is('A')"]
+[select name="QB4A1" value=" |A|B"] <-- Select Coombs Result
+A: Coombs test positive
+B: Coombs test negative
+[/conditional][conditional 
+field="Q1|QB1|QB2|QB3|QB4|QB4A|QB4A1" condition="(Q1).is('B')&&(QB4).is('A')&&(QB4A).is('A')&&(QB4A1).is('B')"]
+[select name="QB4A1B" value=" |A|B"] <-- Select Osmotic Fragility Test Result
+A: Osmotic Fragility Test Positive
+B: Osmotic Fragility Test Negative
+[/conditional][conditional field="Q1|QB1|QB2|QB3|QB4|QB4A" condition="(Q1).is('B')&&(QB4).is('A')&&(QB4A).is('B')"]
+[select name="QB4AB1" value=" |A|B|C"] <-- Select Other Findings
+A: Coagulation testing such as Prothrombin Time (aPT)/INR or Partial Thromboplastin Time (PTT) is Abnormal
+B: Prosthetic Heart Valve or Other Valvular Abnormality is Present
+C: Coagulation Testing is Normal and Heart Valve Problem is Not Suspected[/conditional][conditional field="Q1" condition="(Q1).is('C')"]
+[select name="QC1" value=" |A|B"] <-- Is patient taking any drugs with bone marrow toxicity?
+A: Taking a drug such as hydroxyurea, zidovudine, or other marrow toxins [html]<a href="http://www.fpnotebook.com/hemeonc/pharm/MdctnCsOfMcrcytcAnm.htm" target="_blank">see FPNotebook</a>[/html]
+B: Not on medication known to have marrow toxicity[/conditional][conditional field="Q1|QC1" condition="(Q1).is('C')&&(QC1).is('B')"]
+[select name="QC1B" value=" |A|B"] <-- Serum B12 and Homocysteine Levels
+A: B12 is low and/or homocysteine is high
+B: B12 and homocysteine are both normal[/conditional][conditional field="Q1|QC1|QC1B" condition="(Q1).is('C')&&(QC1).is('B')&&(QC1B).is('A')"]
+[select name="QC1BA" value=" |A|B"] <-- Select the methylmalonic acid (MMA) level
+A: Methylmalonic Acid level is high
+B: Methylmalonic Acid level is normal[/conditional][conditional field="Q1|QC1|QC1B" condition="(Q1).is('C')&&(QC1).is('B')&&(QC1B).is('B')"]
+[select name="QC1BB" value=" |A|B"] <-- Select severity of macrocytosis
+A: Marked Macrocytosis (MCV > 110 fL)
+B: Mild Macrocytosis (MCV 100 - 110 fL)[/conditional]
+----------------------------
+INTERPRETATION
+----------------------------[conditional field="Q1|QA1" condition="(Q1).is('A')&&(QA1).is('A')"]
+Consider IRON DEFICIENCY ANEMIA
+Peripheral blood smear clues may include anisocytosis, poikilocytosis, and elliptocytosis. 
+CBC clues may include increased RDW and thrombocytosis. [/conditional][conditional field="Q1|QA1|QA2" condition="(Q1).is('A')&&(QA1).is('B')&&(QA2).is('A')"]
+Consider ANEMIA OF CHRONIC DISEASE
+Peripheral blood smear clues may include unremarkable (usually), rouleaux formation, myelophthisis. 
+CBC clues may include normal RDW. 
+Usual causes of ANEMIA OF CHRONIC DISEASE may include Temporal arteritis, Rheumatoid arthritis, Chronic inflammation, or Chronic infection.
+Unusual causes of ANEMIA OF CHRONIC DISEASE may include Hodgkin lymphoma, Renal cell carcinoma, Castleman disease, or Myelofibrosis. [/conditional][conditional field="Q1|QA1|QA2" condition="(Q1).is('A')&&(QA1).is('B')&&(QA2).is('B')"]
+Consider THALASSEMIA
+Peripheral blood smear clues may include polychromasia, target cells, and basophilic stippling. 
+CBC clues may include normal or elevated RBC count and normal or elevated RDW. 
+Obtain hemoglobin electrophoresis.
+Consult hematologist. [/conditional][conditional field="Q1|QB1|QB2|QB3|QB4" condition="(Q1).is('B')&&(QB1).is('A')"]
+Consider ANEMIA DUE TO BLOOD LOSS
+Peripheral blood smear clues may include polychromasia. 
+CBC clue is that it is usually unremarkable. 
+Identify/address causes of blood loss. [/conditional][conditional field="Q1|QB1|QB2|QB3|QB4" condition="(Q1).is('B')&&((QB2).is('A')||(QB2).is('C'))"]
+Consider IRON DEFICIENCY ANEMIA
+Peripheral blood smear clues may include anisocytosis, poikilocytosis, and elliptocytosis. 
+CBC clues may include increased RDW and thrombocytosis. [/conditional][conditional field="Q1|QB1|QB2|QB3|QB4|QB2B" condition="(Q1).is('B')&&((QB2).is('B')||(QB2).is('C'))&&(QB2B).is('A')"]
+Consider B12 DEFICIENCY ANEMIA
+Peripheral blood smear clues may include anisocytosis and dimorphic RBCs. 
+CBC clues may include increased RDW. [/conditional][conditional field="Q1|QB1|QB2|QB3|QB4|QB2B" condition="(Q1).is('B')&&((QB2).is('B')||(QB2).is('C'))&&(QB2B).is('B')"]
+Consider FOLATE DEFICIENCY ANEMIA
+Peripheral blood smear clues may include anisocytosis and dimorphic RBCs. 
+CBC clues may include increased RDW. [/conditional][conditional field="Q1|QB1|QB2|QB3|QB4" condition="(Q1).is('B')&&(QB3).is('A')"]
+Consider ANEMIA OF RENAL DISEASE
+CBC clues may include normal RDW. [/conditional][conditional field="Q1|QB1|QB2|QB3|QB4|QB4A|QB4A1" condition="(Q1).is('B')&&(QB4).is('A')&&(QB4A).is('A')&&(QB4A1).is('A')"]
+Consider AUTOIMMUNE HEMOLYTIC ANEMIA 
+CBC clues may include normal or elevated RDW, thrombocytosis. 
+Consult hematologist. [/conditional][conditional 
+field="Q1|QB1|QB2|QB3|QB4|QB4A|QB4A1|QB4AB1" condition="(Q1).is('B')&&(QB4).is('A')&&(QB4A).is('A')&&(QB4A1).is('B')&&(QB4A1B).is('A')"]
+Consider HEREDITARY SPHEROCYTOSIS
+CBC clues may include normal or elevated RDW, thrombocytosis. 
+Consult hematologist. [/conditional][conditional 
+field="Q1|QB1|QB2|QB3|QB4|QB4A|QB4A1|QB4AB1" condition="(Q1).is('B')&&(QB4).is('A')&&(QB4A).is('A')&&(QB4A1).is('B')&&(QB4A1B).is('B')"]
+Consider HEMOLYTIC ANEMIA 
+Consult hematologist. [/conditional][conditional field="Q1|QB1|QB2|QB3|QB4|QB4A|QB4AB1" condition="(Q1).is('B')&&(QB4).is('A')&&(QB4A).is('B')&&(QB4AB1).is('A')"]
+Consider DISSEMINATED INTRAVASCULAR COAGULATION (DIC)
+Consult hematologist. [/conditional][conditional field="Q1|QB1|QB2|QB3|QB4|QB4A|QB4AB1" condition="(Q1).is('B')&&(QB4).is('A')&&(QB4A).is('B')&&(QB4AB1).is('B')"]
+Consider VALVULAR HEMOLYSIS
+Urinary Hemosiderin Test may be helpful. 
+Consult specialist to identify/address valvular concerns as appropriate. [/conditional][conditional field="Q1|QB1|QB2|QB3|QB4|QB4A|QB4AB1" condition="(Q1).is('B')&&(QB4).is('A')&&(QB4A).is('B')&&(QB4AB1).is('C')"]
+Consider THROMBOTIC THROMBOCYTOPENIA/HEMOLYTIC UREMIC SYNDROME
+CBC clues may include normal or elevated RDW, thrombocytopenia. 
+Consult hematologist. [/conditional][conditional 
+field="Q1|QB1|QB2|QB3|QB4|QB4A" condition="(Q1).is('B')&&(QB4).is('A')&&(QB4A).is('C')"]
+Consider HEMOLYTIC ANEMIA 
+Consult hematologist. [/conditional][conditional field="Q1|QC1" condition="(Q1).is('C')&&(QC1).is('A')"]
+Consider DRUG-RELATED MACROCYTIC ANEMIA
+Peripheral blood smear clues may include oval macrocytes.
+CBC clues may include increased RDW and marked or mild macrocytosis. 
+Adjust/discontinue medication in collaboration with prescriber if possible/appropriate. [/conditional][conditional field="Q1|QC1|QC1B|QC1BA" condition="(Q1).is('C')&&(QC1).is('B')&&(QC1B).is('A')&&(QC1BA).is('A')"]
+Consider B12 DEFICIENCY ANEMIA
+Peripheral blood smear clues may include oval macrocytes, hypersegmented neutrophils. 
+CBC clues may include increased RDW, marked or mild macrocytosis. [/conditional][conditional field="Q1|QC1|QC1B|QC1BA" condition="(Q1).is('C')&&(QC1).is('B')&&(QC1B).is('A')&&(QC1BA).is('B')"]
+Consider FOLATE DEFICIENCY ANEMIA
+Peripheral blood smear clues may include oval macrocytes, hypersegmented neutrophils. 
+CBC clues may include increased RDW, marked or mild macrocytosis. [/conditional][conditional field="Q1|QC1|QC1B|QC1BB" condition="(Q1).is('C')&&(QC1).is('B')&&(QC1B).is('B')&&(QC1BB).is('A')"]
+Consider MYELODYSPLASTIC SYNDROME or OTHER PRIMARY BONE MARROW DISORDER
+Peripheral blood smear clues may include dimorphic RBCs, pseudo Pelger-Huet anomaly cells, oval macrocytes.
+CBC clues may include increased RDW. 
+Consult hematologist. [/conditional][conditional field="Q1|QC1|QC1B|QC1BB" condition="(Q1).is('C')&&(QC1).is('B')&&(QC1B).is('B')&&(QC1BB).is('B')"]
+Consider MYELODYSPLASTIC SYNDROME.
+Peripheral blood smear clues may include dimorphic RBCs, pseudo Pelger-Huet anomaly cells, oval macrocytes.
+CBC clues may include increased RDW. 
+Consult hematologist.
+Note: Other conditions are possible, including LIVER DISEASE, ALCOHOL CONSUMPTION, HYPOTHYROIDISM, and marked reticulocytosis from HEMOLYSIS. [/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16007898" target="_blank">Tefferi A, Hanson CA, Inwards DJ. How to interpret and pursue an abnormal complete blood cell count in adults. Mayo Clin Proc. 2005 Jul;80(7):923-36.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/19202968" target="_blank">Kaferle J, Strzoda CE. Evaluation of macrocytosis. Am Fam Physician. 2009 Feb 1;79(3):203-8.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  January 20, 2015; August 31, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/blood-lymph/anemia-evalulation.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/blood-lymph/anemia-evalulation.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/blood-lymph/anemia-evalulation.txt" target="_blank">www.soapnote.org/generator/txt/blood-lymph/anemia-evalulation.txt</a>[/html][/conditional]	

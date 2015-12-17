@@ -1,0 +1,9 @@
+Status post gastric bypass surgery
+Lab tests for gastric bypass follow up ordered: ***Glucose, Plasma (fasting)/BMP/CMP/25-Hydroxyvitamin D2 and D3/Bone Alkaline Phosphatase/PTH, Intact w/Minerals/Calcium/TSH/CBC without 5 part differential/Vitamin B12/Fe and TIBC/Ferritin/Lipid Screen/Calcium (24hr) (Urine)/Creatinine (24hr) (Urine)***
+Referral to an Infusion Therapy Center for an infusion of 1 gram of iron dextran. She will be premedicated as well with Tylenol 1000 mg and Benadryl 50 mg. I will then recheck her ferritin in one month.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; August 22, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/endocrine-metabolic/gastric-bypass-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/endocrine-metabolic/gastric-bypass-plan.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/gastric-bypass-plan.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/gastric-bypass-plan.txt</a>[/html][/conditional]

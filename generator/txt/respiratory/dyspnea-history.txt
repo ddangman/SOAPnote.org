@@ -1,0 +1,44 @@
+Dyspnea
+Onset [text] prior to evaluation
+Onset while  [text]
+
+Now it is of [text] severity at the time of this evaluation.
+At it worst it is of [text] severity. 
+
+The dyspnea is relieved with [text]
+[select value="no|YES"] <-- worse lying flat
+[select value="no|YES"] <-- exertional
+[select value="no|YES"] <-- worse with coughing
+
+[select value="no|YES"] <-- cough [text] productive of sputum
+[select value="no|YES"] <-- wheezing
+[select value="no|YES"] <-- chest pain
+[select value="no|YES"] <-- palpitations
+[select value="no|YES"] <-- fever
+[select value="no|YES"] <-- diaphoresis
+
+Pertinent PMH:
+[select value="no|YES"] <-- COPD
+[select value="no|YES"] <-- Asthma.
+[select value="no|YES"] <-- CHF
+[select value="no|YES"] <-- Coronary Disease
+[select value="no|YES"] <-- Prior Intubations
+Tobacco use: [text]
+
+Pertinent Medications:
+Albuterol recent use up to every [text] and was last used [text] 
+Steroid inhaler: [text]
+Oral steroids last used: [text]
+
+Pitfalls:
+[select value="no|YES"] <-- Pneumothorax history or risk
+[select value="no|YES"] <-- Pneumonia history or risk
+[select value="no|YES"] <-- unilateral leg swelling
+[select value="no|YES"] <-- recent prolonged travel, recent trauma, hypercoagulable state, hormonal therapy
+[select value="no|YES"] <-- anxiety related symptoms such as panic, dizziness, or finger paresthesias.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  Dr. Scott Moses, creator/author of the <a href="http://www.fpnotebook.com">Family Practice Notebook</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  November 24, 2010; August 21, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/respiratory/dyspnea-history.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/respiratory/dyspnea-history.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/respiratory/dyspnea-history.txt" target="_blank">www.soapnote.org/generator/txt/respiratory/dyspnea-history.txt</a>[/html][/conditional]

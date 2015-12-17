@@ -1,0 +1,7 @@
+[textarea cols=108 rows=5 default="Acne vulgaris&#13;&#10;Reviewed acne causes, descriptions and clinical course. &#13;&#10;Over-the-counter interventions and medications reviewed. &#13;&#10;Recommended typical hygiene measures including water-based facial products, washing regularly with mild soap, and refraining from picking and popping the pustules. &#13;&#10;Expectations of therapy discussed. Side effects, risks and benefits of medications discussed. Refill process reviewed. &#13;&#10;Given prescription for ***Input medication prescribed***."]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 11, 2010; August 20, 2015; October 2, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/skin/acne-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/skin/acne-plan.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/skin/acne-plan.txt" target="_blank">www.soapnote.org/generator/txt/skin/acne-plan.txt</a>[/html][/conditional]

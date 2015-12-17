@@ -1,0 +1,17 @@
+CHADS2 Score, Stroke Risk in Atrial Fibrillation[html]
+<strong>Summary:</strong>
+The CHADS2 score is used to help decide whether or not to anticoagulant. An approach to the decision of warfarin for oral anticoagulation for atrial fibrillation is suggested in <a href="http://www.aafp.org/afp/2005/0615/afp20050615p2348-f1.pdf" target="_blank">Am Fam Physician. 2005 Jun 15;71(12):2348-2350.</a>1) Use the <a href="http://www.soapnote.org/cardiovascular/chads2/" target="_blank">CHADS2 rule</a> as well as the <a href="http://www.soapnote.org/cardiovascular/accp-stroke-risk-calculator/" target="_blank">ACCP rule</a> to determine the risk of stroke.
+2) If both these measures predict moderate risk of stroke, proceed to calculate the <a href="http://www.soapnote.org/cardiovascular/outpatient-bleeding-risk-index-obri/" target="_blank">Outpatient Bleeding Risk Index</a> and weigh the risks versus the benefits.[/html]
+[select name="Q1" value="No (0 points)=0|YES (1 point)=1"] <-- Congestive heart failure
+[select name="Q2" value="No (0 points)=0|YES (1 point)=1"] <-- Hypertension: Blood pressure consistently above 140/90 or on blood pressure medication?
+[select name="Q3" value="No (0 points)=0|YES (1 point)=1"] <-- Age > 75
+[select name="Q4" value="No (0 points)=0|YES (1 point)=1"] <-- Diabetes mellitus
+[select name="Q5" value="No (0 points)=0|YES (2 points)=2"] <-- Prior stroke or TIA
+Score --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)" memo="score"] out of 6 points
+Interpretation --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5);score>2?'5.3% annual stroke risk (high)':score>0?'2.7% annual stroke risk (moderate)':'0.8% annual stroke risk (low)'" memo="interpretation"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.aafp.org/afp/2005/0615/p2348.html" target="_blank">Am Fam Physician. 2005 Jun 15;71(12):2348-2350. </a>, <a href="http://www.aafp.org/afp/2010/0315/p780.html" target="_blank">Am Fam Physician. 2010 Mar 15;81(6):780-782.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  August 12, 2013; August 18, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/chads2.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/chads2.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/chads2.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/chads2.txt</a>[/html][/conditional]

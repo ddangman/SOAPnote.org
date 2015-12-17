@@ -1,0 +1,17 @@
+Rouan Decision Rule for Myocardial Infarction[html]
+<strong>Summary:</strong>
+Rule to determine the prevalence and characteristics of acute myocardial infarction (AMI) patients who present to emergency departments with normal or nonspecific electrocardiograms (ECGs).[/html]
+[select name="Q1" value="no=0|YES=1"] <-- Age greater than 60 years
+[select name="Q2" value="no=0|YES=1"] <-- Diaphoresis
+[select name="Q3" value="no=0|YES=1"] <-- History of MI or angina
+[select name="Q4" value="no=0|YES=1"] <-- Male sex
+[select name="Q5" value="no=0|YES=1"] <-- Pain described as pressure
+[select name="Q6" value="no=0|YES=1"] <-- Pain radiating to arm, shoulder, neck, or jaw
+Score --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)" memo="Score"] out of 6
+Interpretation --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6);score>3?'Up to 26.0%':score>2?'Up to 12.0%':score>1?'Up to 4.8%':score>0?'Up to 3.4%':'Up to 0.6%'" memo="Risk of MI"] risk of myocardial infarction.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/2683709" target="_blank">Rouan (1989) Am J Cardiol. 64:  1087-92.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/16342831" target="_blank">Cayley (2005) Am Fam Physician. 72:  2012-21.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  March 20, 2012; August 20, 2015 
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/rouan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/rouan.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/rouan.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/rouan.txt</a>[/html][/conditional]

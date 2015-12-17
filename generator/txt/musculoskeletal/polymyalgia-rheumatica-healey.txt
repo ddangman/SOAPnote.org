@@ -1,0 +1,19 @@
+Polymyalgia Rheumatica Diagnostic Criteria - Healey
+Pain:  To meet criteria, 2 of the following 3 areas below must have pain
+[select name="neck" value="no=0|YES=0.5"] <-- Pain at neck
+[select name="shoulders" value="no=0|YES=0.5"] <-- Pain at shoulders
+[select name="hips" value="no=0|YES=0.5"] <-- Pain at pelvic girdle
+------------------------------------------------------------------------
+[select name="age" value="no=0|YES=1"] <-- Age over 50 years
+[select name="pain" value="no=0|YES=1"] <-- Pain persisting for at least one month
+[select name="stiff" value="no=0|YES=1"] <-- Morning stiffness lasting more than 1 hour
+[select name="steroid" value="no=0|YES=1"] <-- Rapid response to prednisone (20 mg/day or less)
+[select name="esr" value="no=0|YES=1"] <-- Erythrocyte sedimentation rate (ESR) > 40 mm/hour
+[select name="excluded" value="no=0|YES=1"] <-- Absence of other diseases capable of causing the musculoskeletal symptoms
+Interpretation --> [calc memo="Interpretation" value="score=(age)+(pain)+(neck)+(shoulders)+(hips)+(stiff)+(steroid)+(esr)+(excluded);score>6.9?'Meets criteria for polymyalgia rheumatica':'Does not meet criteria for polymyalgia rheumatica'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/6729485" target="_blank">Healey LA.  Long-term follow-up of polymyalgia rheumatica: evidence for synovitis.  Semin Arthritis Rheum. 1984 May;13(4):322-8.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  October 5, 2013; September 2, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/polymyalgia-rheumatica-healey.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/polymyalgia-rheumatica-healey.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/polymyalgia-rheumatica-healey.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/polymyalgia-rheumatica-healey.txt</a>[/html][/conditional]

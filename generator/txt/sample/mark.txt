@@ -1,0 +1,22 @@
+[link memo="go to the mark" mark="mid-blah"]
+blah
+blah
+blah
+blah
+blah blah blah
+blah
+blah
+blah
+blah
+blah
+blah
+blah
+[mark name="mid-blah"]
+
+blah
+blah
+blah
+blah
+blah
+blah
+blah

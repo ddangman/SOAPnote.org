@@ -1,0 +1,13 @@
+OESIL Risk Score for Syncope
+[select name="Q1" value="no (0 points)=0|YES (1 point)=1"] <-- Age > 65 years
+[select name="Q2" value="no (0 points)=0|YES (1 point)=1"] <-- History of cardiovascular disease
+[select name="Q3" value="no (0 points)=0|YES (1 point)=1"] <-- Syncope without a prodrome
+[select name="Q4" value="no (0 points)=0|YES (1 point)=1"] <-- Abnormal ECG findings
+score --> [calc memo="number" value="score1=(Q1)+(Q2)+(Q3)+(Q4)"]
+interpretation --> [calc memo="result" value="score2=(Q1)+(Q2)+(Q3)+(Q4);score2>1?'31 % risk of all-cause mortality at 12 months':'0.6 % risk of all-cause mortality at 12 months'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/12727148" target="_blank">Colivicchi F, Ammirati F, Melina D, Guido V, Imperoli G, Santini M; OESIL (Osservatorio Epidemiologico sulla Sincope nel Lazio) Study Investigators. Development and prospective validation of a risk stratification system for patients with syncope in the emergency department: the OESIL risk score. Eur Heart J. 2003 May;24(9):811-9.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  September 19, 2014; August 20, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/oesil-risk-score.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/oesil-risk-score.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/oesil-risk-score.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/oesil-risk-score.txt</a>[/html][/conditional]

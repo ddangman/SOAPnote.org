@@ -1,0 +1,15 @@
+Lee's Revised Cardiac Risk Index[html]
+Rule to determine the risk of complication following surgery.[/html]
+[select name="Q1" value="false (0 points)=0|TRUE (1 point)=1"] <-- High Risk Surgery  [comment memo="High risk surgeries include: Emergency surgery (especially over age 75 years), cardiac procedures, aortic or other major vascular procedures, peripheral arterial vascular procedures, and prolonged surgery anticipated (>2 hours)"]
+[select name="Q2" value="false (0 points)=0|TRUE (1 point)=1"] <-- Coronary Artery Disease [comment memo="History of myocardial infarction or positive exercise test; or current chest pain secondary to myocardial ischemia, current nitrate therapy, or electrocardiography with pathologic Q wave"]
+[select name="Q3" value="false (0 points)=0|TRUE (1 point)=1"] <-- Congestive Heart Failure [comment memo="History of congestive heart failure, pulmonary edema, or paroxysmal nocturnal dyspnea; or current bilateral rales, S3 gallop, or chest radiography showing pulmonary vascular redistribution"]
+[select name="Q4" value="false (0 points)=0|TRUE (1 point)=1"] <-- Cerebrovascular Disease [comment memo="History of cerebrovascular disease (e.g., transient ischemic attack, stroke)"]
+[select name="Q5" value="false (0 points)=0|TRUE (1 point)=1"] <-- Diabetes Mellitus on Insulin
+[select name="Q6" value="false (0 points)=0|TRUE (1 point)=1"] <-- Serum Creatinine >2 mg/dl
+[calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)" memo="score"] out of 6 points.  [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6);score>2?'Risk Index Class IV, Major Cardiac Complication Risk >11.0%':score>1?'Risk Index Class III, Major Cardiac Complication Risk 6.6%':score>0?'Risk Index Class II, Major Cardiac Complication Risk 0.9%':'Risk Index Class I, Major Cardiac Complication Risk 0.4%'" memo="interpretation"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/10477528" target="_blank">Lee (1999) Circulation 100: 1043-9.</a>, <a href="http://www.fpnotebook.com/cv/Surgery/LsRvsdCrdcRskIndx.htm" target="_blank">Family Practice Notebook Page</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  March 20, 2012; August 20, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/lee-index.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/lee-index.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/lee-index.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/lee-index.txt</a>[/html][/conditional]

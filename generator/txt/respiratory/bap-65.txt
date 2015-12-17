@@ -1,0 +1,15 @@
+BAP-65 score for risk stratification in acute exacerbations of COPD
+[comment memo="Stratified risks are in-hospital mortality & mechanical ventilation requirement.  "]
+Based on information available at initial hospital presentation...
+[select name="bun" value="NO=0|YES=1"] <-- BUN greater than or equal to 25 mg/dL?
+[select name="ms" value="NO=0|YES=10"] <-- Altered Mental Status (initial Glasgow Coma score < 14 or a designation by the physician of disorientation, stupor, or coma)?
+[select name="pulse" value="NO=0|YES=10"] <-- Pulse greater than or equal to 109 beats/minute?
+[select name="age" value="NO=0|YES=10"] <-- Age greater than 65 years?
+------------------------------------------------------------
+Interpretation: [calc value="score=(bun)+(ms)+(pulse)+(age); score>29?'Class V - 26.2 percent in-hospital mortality, 54.6 percent require mechanical ventilation':score>19?'Class IV - 12.7 percent in-hospital mortality, 30.1 percent require mechanical ventilation.':score>9?'Class III - 3.7 percent in-hospital mortality, 8.4 percent require mechanical ventilation.':score>0?'Class II - 1.4 percent in-hospital mortality, 2.2 percent require mechanical ventilation.':'Class I - 0.5 percent in-hospital mortality, 2.1 percent require mechanical ventilation.'" memo="score interpretation"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/21527510" target="_blank">Shorr (2011) Chest 140:1177-1183</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 7, 2013; September 7, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/respiratory/bap-65.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/respiratory/bap-65.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/respiratory/bap-65.txt" target="_blank">www.soapnote.org/generator/txt/respiratory/bap-65.txt</a>[/html][/conditional]

@@ -1,0 +1,9 @@
+Hyperlipidemia
+Begin ***Statin***
+Pt will need a recheck lipids and ALT/AST in 12 weeks.  Goal lipid levels are as follows: Total cholesterol less than 170, triglycerides less than 150, HDL greater than 40, and an LDL less than 100. Will titrate statin therapy to obtain goal lipid levels.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 11, 2010
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/hyperlipidemia-plan.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/hyperlipidemia-plan.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/hyperlipidemia-plan.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/hyperlipidemia-plan.txt</a>[/html][/conditional]

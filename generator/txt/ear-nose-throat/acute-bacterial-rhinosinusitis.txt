@@ -1,0 +1,14 @@
+Acute Bacterial Rhinosinusitis Decision Tool
+Risk Factors:
+[select name="Q1" value="no=0|YES=1"] <-- Signs and symptoms persistent and no improving for 10+ days
+[select name="Q2" value="no=0|YES=1"] <-- Severe for 3+ days
+[select name="Q3" value="no=0|YES=1"] <-- Worsening or double-sickening 3+ days
+[select name="Q4" value="no=0|YES=10"] <-- Risk for resistance (age 65 years, antibiotic use within the past month, prior hospitalization longer than 5 days, comorbidities, or immunocompromised status)
+[calc memo="result" value="score=(Q1)+(Q2)+(Q3)+(Q4);score>10?'Symptomatic management AND Second-line antimicrobial therapy':score>1?'Symptomatic management AND First-line antimicrobial therapy':'Symptomatic management'"]
+[comment memo="First-line antimicrobial therapy: regular dose amoxicillin/clavulanate.  Second-line antimicrobial therapy: high dose amoxicillin/clavulanate; levofloxacin; moxifloxacin (adult); clindamycin AND cefpodoxime OR cefixime; or doxycycline (adult)"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/22438350" target="_blank">Chow AW, Benninger MS, Brook I, Brozek JL, Goldstein EJ, Hicks LA, Pankey GA, Seleznick M, Volturo G, Wald ER, File TM Jr, Infectious Diseases Society of America. IDSA clinical practice guideline for acute bacterial rhinosinusitis in children and adults. Clin Infect Dis. 2012 Apr;54(8):e72-e112.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  September 16, 2014; September 1, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/acute-bacterial-rhinosinusitis.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/acute-bacterial-rhinosinusitis.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/acute-bacterial-rhinosinusitis.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/acute-bacterial-rhinosinusitis.txt</a>[/html][/conditional]

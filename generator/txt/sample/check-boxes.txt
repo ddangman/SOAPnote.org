@@ -1,0 +1,1 @@
+[checkbox value="upper extremity|lower extremity|neck|back|knee"]

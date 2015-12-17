@@ -1,0 +1,44 @@
+Lower Extremity Pain/Injury
+Onset [text] prior to evaluation
+Onset while:  [text]
+Injury at: [text]
+
+Associated Pain (0=none, 10=severe)
+Location: [text]
+Radiation: [text]
+Severity now (0-10): [text]
+Severity at worst (0-10): [text]
+Duration: [text]
+Characterized as [text].
+
+Relieved with [text]
+Worse with [text]
+
+Associated Joint Symptoms
+Location: [text]
+[select value="no|YES"] <-- Stiffness
+[select value="no|YES"] <-- Redness
+[select value="no|YES"] <-- Swelling
+[select value="no|YES"] <-- Locking or catching
+[select value="no|YES"] <-- Giving way or unstable sensation
+
+Pitfall evaluation:
+[select value="no|YES"] <-- unable to bear weight
+[select value="no|YES"] <-- distal numbness
+[select value="no|YES"] <-- distal weakness
+[select value="no|YES"] <-- distal cold sensation, pallor, or cyanosis
+[select value="no|YES"] <-- fever
+[select value="no|YES"] <-- low back pain
+[select value="no|YES"] <-- DVT risk (leg swelling, palpable cord, prolonged immobilization)
+
+Pertinent PMH:
+[select value="no|YES"] <-- arthritis history
+[select value="no|YES"] <-- prior extremity pain/injury history with last episode [text]
+[select value="no|YES"] <-- lumbar disc history
+[select value="no|YES"] <-- peripheral vascular disease history
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  contributed by Dr. Scott Moses, creator/author of the <a href="http://www.fpnotebook.com" target="_blank">Family Practice Notebook</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  November 21, 2010; September 2, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/injury/lower-extremity-hx.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/injury/lower-extremity-hx.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/injury/lower-extremity-hx.txt" target="_blank">www.soapnote.org/generator/txt/injury/lower-extremity-hx.txt</a>[/html][/conditional]

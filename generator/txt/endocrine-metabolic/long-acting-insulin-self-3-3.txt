@@ -1,0 +1,23 @@
+Long-Acting Insulin Self-Adjustment ("Three By Three")
+Note:  These instructions are designed to help you adjust your own insulin. These instructions only apply for long-acting insulins like Lantus or Levemir and do not apply to NPH, Insulin 70/30, or short-acting insulins like Regular or Humalog.
+
+Your long-acting insulin is [select value="Glargine (brand name is Lantus)|Detemir (brand name is Levemir)"]
+Your dose of long-acting insulin is [text size=5] units [select value="every morning|every evening|every morning and evening"].
+
+ADJUSTING YOUR OWN INSULIN
+1. Check your morning blood sugar everyday prior to eating or drinking anything (fasting).  
+2. Know your goals! Goal fasting blood sugar less than [text default="130"].
+3. Adjust your long-acting insulin every 3 days as follows:
+----------------------------------------
+If ALL of your blood sugars greater than [text default="130"]. --> INCREASE by 3 units
+If ALL of your blood sugars between [text default="80 and 130"]. --> NO CHANGE
+If ALL of your blood sugars less than [text default="80"]. --> DECREASE by 3 units
+----------------------------------------
+4. Tell your medical provider how much insulin you are taking at every office visit.
+5. Bring your meter, diary, or log of your blood sugars to every office visit.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  March 9, 2013; August 23, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/endocrine-metabolic/long-acting-insulin-self-3-3.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/endocrine-metabolic/long-acting-insulin-self-3-3.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/long-acting-insulin-self-3-3.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/long-acting-insulin-self-3-3.txt</a>[/html][/conditional]

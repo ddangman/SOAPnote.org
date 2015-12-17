@@ -1,0 +1,23 @@
+Ottawa Subarachnoid Hemorrhage (SAH) Rule
+Rule Inclusion Criteria
+[select name="QA" value="yes=0|NO=10"] <-- Age 15 years or over
+[select name="QB" value="yes=0|NO=10"] <-- New, severe nontraumatic headache
+[select name="QC" value="yes=0|NO=10"] <-- Headache reached maximum intensity within 1 hour
+[select name="QD" value="no=0|YES=10"] <-- Neurologic deficits
+[select name="QE" value="no=0|YES=10"] <-- Previous aneurysms
+[select name="QF" value="no=0|YES=10"] <-- History of recurrent headaches (3 or more episodes in the last 6 or more months)
+High Risk Variables
+[select name="Q1" value="no=0|YES=1"] <-- Age 40 years or over
+[select name="Q2" value="no=0|YES=1"] <-- Neck pain or stiffness
+[select name="Q3" value="no=0|YES=1"] <-- Witnessed loss of consciousness
+[select name="Q4" value="no=0|YES=1"] <-- Onset during exertion
+[select name="Q5" value="no=0|YES=1"] <-- Thunderclap headache (instantly peaking pain)
+[select name="Q6" value="no=0|YES=1"] <-- Limited neck flexion on examination
+
+Interpretation --> [calc memo="Interpretation" value="score=(QA)+(QB)+(QC)+(QD)+(QE)+(QF)+(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6);score>9?'Does not meet rule inclusion criteria.  Ottawa SAH Rule may not be used.':score>0?'Meets Inclusion Criteria AND Has High Risk Variables.  Further investigation for Subarachnoid Hemorrhage is recommended per Ottawa SAH Rule':'Meets Inclusion Criteria AND Has No High Risk Variables.  Further investigation for Subarachnoid Hemorrhage may not be necessary.'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://jama.jamanetwork.com/article.aspx?articleid=1741823#.UkQq2izx9H0" target="_blank">Perry JJ, Stiell IG, Sivilotti MA, et al. Clinical Decision Rules to Rule Out Subarachnoid Hemorrhage for Acute Headache. JAMA. 2013;310(12):1248-1255.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  September 26, 2013; September 4, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/neurological/ottawa-sah-rule.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/neurological/ottawa-sah-rule.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/neurological/ottawa-sah-rule.txt" target="_blank">www.soapnote.org/generator/txt/neurological/ottawa-sah-rule.txt</a>[/html][/conditional]

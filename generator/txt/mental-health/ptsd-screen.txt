@@ -1,0 +1,16 @@
+Post Traumatic Stress Disorder (PTSD) Screen[html]
+Summary: This is a calculator to screen for Post Traumatic Stress Disorder (PTSD).[/html]
+To use the PC-PTSD instrument, ask the patient, “In your life have you ever had any experience that was so frightening, horrible, or upsetting that in the past month you: (four question items below)
+---------------------------------------------------------------------------
+[select name="Q1" value="no=0|YES=1"] <-- Have had nightmares about it or thought about it when you did not want to?
+[select name="Q2" value="no=0|YES=1"] <-- Tried hard not to think about it or went out of your way to avoid situations that reminded you of it?
+[select name="Q3" value="no=0|YES=1"] <-- Were constantly on guard, watchful, or easily startled?
+[select name="Q4" value="no=0|YES=1"] <-- Felt numb or detached from others, activities, or your surroundings?
+Result --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4);score>2?'positive screen for PTSD':'negative screen for PTSD'" memo="Interpretation"]
+
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  AAFP Point-of-Care Guide at <a href="http://www.aafp.org/afp/2007/1215/p1848.html" target="_blank">Ebell (2007) Am Fam Physician 76: 1848-9</a>, PDF article on the PC-PTSD Screening Tool at <a href="http://www.ptsd.va.gov/professional/articles/article-pdf/id26676.pdf" target="_blank">Prins (2004) Prim Care Psych 9: 9-14</a>.
+posted by:  Mark Morgan, M.D.
+post/review dates:  February 1, 2011; September 7, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/ptsd-screen.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/ptsd-screen.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/ptsd-screen.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/ptsd-screen.txt</a>[/html][/conditional]

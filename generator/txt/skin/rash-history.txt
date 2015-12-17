@@ -1,0 +1,8 @@
+[html]Rash History
+[/html][textarea cols=108 rows=5 default="Patient has had *** days of ***rash/hives/skin lesions***. &#13;&#10;The findings have been ***generalized/localized to the ---***. &#13;&#10;It ***has/has not*** been worsening and is described as ***red/flat/bumpy/scaly/bruise-like/blisters/raised/crusted/flaking/draining/painful/pruritic***. &#13;&#10;Patient ***has had exposures/has not had specific exposures/environmental irritants/chemical irritants/medications/insects/spiders/excessive sunlight/others with similar symptoms***. &#13;&#10;There ***has not been/has been*** a fever. &#13;&#10;There ***have not been other systemic symptoms/typical URI symptoms/myalgias/arthralgias/joint swelling/sore throat/malaise/diarrhea/nausea and vomiting/headache/chills/urinary symptoms/dyspnea***. &#13;&#10;Patient has ***tried diphenhydramine/tried cortisone cream/tried soaks/not tried any treatment on their own*** with ***some relief/no relief***. &#13;&#10;Patient ***has not had a/has had a*** similar rash in the past. &#13;&#10;Patient ***is not/is*** diabetic."]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; August 20, 2015; October 2, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/skin/rash-history.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/skin/rash-history.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/skin/rash-history.txt" target="_blank">www.soapnote.org/generator/txt/skin/rash-history.txt</a>[/html][/conditional]

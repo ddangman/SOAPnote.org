@@ -1,0 +1,25 @@
+Goldman Criteria for ICU Chest Pain Admission 
+------------------------------------------------------------
+EKG Findings:
+1. Myocardial infarction suspected on EKG.  [comment memo="Criteria not met if changes were present on prior EKG"]
+... ST Elevation 1 mm or more or pathologic Q waves in 2 or more leads. ---> [select name="MI"   value="no=0|yes=100"]
+2. Ischemia suspected on EKG.  [comment memo="Criteria not met if changes were present on prior EKG"]
+... ST depression of 1 mm or more or T-wave inversion in 2 or more leads. --->  [select name="ischemia"   value="no=0|yes=10"]
+Risk Factors (1 point for each positive risk factor)
+A. Low Systolic Blood Pressure [comment memo="Hypotensive reading at any point during the emergency department stay"]
+... Systolic Blood Pressure <100 mmHg ---> [select name="SBP"   value="no=0|yes=1"]
+B. Congestive Heart Failure signs.  
+... Rales heard above the bases bilaterally. ---> [select name="CHF"   value="no=0|yes=1"]
+C. Chest Pain worse than baseline Angina [comment memo="This risk factor is positive if 1 or more is present"]
+... Known unstable Ischemic Heart Disease ---> [select name="unstable"   value="no=0|yes=.1"]
+... New post-infarction Angina ---> [select name="new_angina"   value="no=0|yes=.1"]
+... Angina after a coronary revascularization procedure ---> [select name="revasc"   value="no=0|yes=.1"]
+... Pain similar to prior Myocardial Infarction ---> [select name="similar"   value="no=0|yes=.1"]
+------------------------------------------------------------
+Interpretation (with risk of major cardiac event in subsequent 30 days):  [calc value="score=(similar)+(revasc)+(new_angina)+(unstable)+(CHF)+(SBP)+(ischemia)+(MI); score>11.1?'High Risk (18%)':score>1?'Moderate Risk (7%)':score>0?'Low Risk (<5%)':'Very Low Risk (<1%)'" memo="score interpretation"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/8618604" target="_blank">Goldman (1996) N Engl J Med 334:1498</a>, <a href="http://www.fpnotebook.com/cv/exam/GldmnCrtrFrIcChstPnAdmsn.htm" target="_blank">FP Notebook page</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  February 7, 2013; August 19, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/goldman-chest-pain.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/goldman-chest-pain.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/goldman-chest-pain.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/goldman-chest-pain.txt</a>[/html][/conditional]

@@ -1,0 +1,13 @@
+Physical Functional Ability (FAQ5) Score
+[select name="Q1" value="1. Require total care: for bathing, toilet, dressing, moving and eating=1|2. Require frequent assistance=2|3. Require occasional assistance=3|4. Independent with self-care=4"] <--Self-care ability assessment
+[select name="Q2" value="1. Unable to perform any: chores, hobbies, driving, sex and social activities=1|2. Able to perform some=2|3. Able to perform many=3|4. Able to perform all=4"] <-- Family and social ability assessment
+[select name="Q3" value="1. Able to get up and walk with assistance, unable to climb stairs=1|2. Able to get up and walk independently, able to climb one flight of stairs=2|3. Able to walk short distances and climb more than one flight of stairs=3|4. Able to walk long distances and climb stairs without difficulty=4"] <-- Movement ability assessment
+[select name="Q4" value="1. Able to lift up to 10 lbs. occasionally=1|2. Able to lift up to 20 lbs. occasionally=2|3. Able to lift up to 50 lbs. occasionally=3|4. Able to lift over 50 lbs. occasionally=4"] <-- Lifting ability assessment 
+[select name="Q5" value="1. Unable to do any work=1|2. Able to work part-time and with physical limitations=2|3. Able to work part-time or with physical limitations=3|4. Able to perform normal work=4"] <-- Work ability assessment
+Physical Functional Ability (FAQ5) Score --> [calc memo="score" value="score1=((Q1)+(Q2)+(Q3)+(Q4)+(Q5))*5"] / 100
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  Peter S Marshall MD MPH in <a href="https://www.icsi.org/_asset/bw798b/ChronicPain.pdf" target="_blank">Institute for Clinical Systems Improvement (ICSI) Chronic Pain Guideline</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  August 23, 2014; September 3, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/faq5-score.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/faq5-score.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/faq5-score.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/faq5-score.txt</a>[/html][/conditional]

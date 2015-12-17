@@ -1,0 +1,54 @@
+Oswestry Low Back Pain Disability Questionnaire
+Instructions 
+This questionnaire has been designed to give us information as to how your back or leg pain is affecting your ability to manage in everyday life. Please answer by checking ONE box in each section for the statement which best applies to you. We realize you may consider that two or more statements in any one section apply but please just shade out the spot that indicates the statement which most clearly describes your problem.
+
+[select name="Sec1" value="DECLINED=0|Chosen=1" help="Declined items are not scored"] <-- Section 1 – Pain intensity 
+[conditional field="Sec1" condition="(Sec1).is('Chosen=1')"][select name="S1" value="I have no pain at the moment (0 points)=0|The pain is very mild at the moment (1 point)=1|The pain is moderate at the moment (2 points)=2|The pain is fairly severe at the moment (3 points)=3|The pain is very severe at the moment (4 points)=4|The pain is the worst imaginable at the moment (5 points)=5"][/conditional]
+
+[select name="Sec2" value="DECLINED=0|Chosen=1" help="Declined items are not scored"] <-- Section 2 – Personal care (washing, dressing etc) 
+[conditional field="Sec2" condition="(Sec2).is('Chosen=1')"][select name="S2" value="I can look after myself normally without causing extra pain (0 points)=0|I can look after myself normally but it causes extra pain (1 point)=1|It is painful to look after myself and I am slow and careful (2 points)=2|I need some help but manage most of my personal care (3 points)=3|I need help every day in most aspects of self-care (4 points)=4|I do not get dressed, I wash with difficulty and stay in bed (5 points)=5"][/conditional]
+
+[select name="Sec3" value="DECLINED=0|Chosen=1" help="Declined items are not scored"] <-- Section 3 – Lifting 
+[conditional field="Sec3" condition="(Sec3).is('Chosen=1')"][select name="S3" value="I can lift heavy weights without extra pain (0 points)=0|I can lift heavy weights but it gives extra pain (1 point)=1|Pain prevents me from lifting heavy weights off the floor, but I can manage if they are conveniently placed eg. on a table (2 points)=2|Pain prevents me from lifting heavy weights, but I can manage light to medium weights if they are conveniently positioned (3 points)=3|I can lift very light weights (4 points)=4|I cannot lift or carry anything at all (5 points)=5"][/conditional] 
+
+[select name="Sec4" value="DECLINED=0|Chosen=1" help="Declined items are not scored"] <-- Section 4 – Walking 
+[conditional field="Sec4" condition="(Sec4).is('Chosen=1')"][select name="S4" value="Pain does not prevent me walking any distance (0 points)=0|Pain prevents me from walking more than 1 mile (1 point)=1|Pain prevents me from walking more than 1/2 mile (2 points)=2|Pain prevents me from walking more than 100 yards (3 points)=3|I can only walk using a stick or crutches (4 points)=4|I am in bed most of the time (5 points)=5"][/conditional]  
+
+[select name="Sec5" value="DECLINED=0|Chosen=1" help="Declined items are not scored"] <-- Section 5 – Sitting 
+[conditional field="Sec5" condition="(Sec5).is('Chosen=1')"][select name="S5" value="I can sit in any chair as long as I like (0 points)=0|I can only sit in my favorite chair as long as I like (1 point)=1|Pain prevents me sitting more than one hour (2 points)=2|Pain prevents me from sitting more than 30 minutes (3 points)=3|Pain prevents me from sitting more than 10 minutes (4 points)=4|Pain prevents me from sitting at all (5 points)=5"][/conditional] 
+
+[select name="Sec6" value="DECLINED=0|Chosen=1" help="Declined items are not scored"] <-- Section 6 – Standing 
+[conditional field="Sec6" condition="(Sec6).is('Chosen=1')"][select name="S6" value="I can stand as long as I want without extra pain (0 points)=0|I can stand as long as I want but it gives me extra pain (1 point)=1|Pain prevents me from standing for more than 1 hour (2 points)=2|Pain prevents me from standing for more than 30 minutes (3 points)=3|Pain prevents me from standing for more than 10 minutes (4 points)=4|Pain prevents me from standing at all (5 points)=5"][/conditional] 
+
+[select name="Sec7" value="DECLINED=0|Chosen=1" help="Declined items are not scored"] <-- Section 7 – Sleeping 
+[conditional field="Sec7" condition="(Sec7).is('Chosen=1')"][select name="S7" value="My sleep is never disturbed by pain (0 points)=0|My sleep is occasionally disturbed by pain (1 point)=1|Because of pain I have less than 6 hours sleep (2 points)=2|Because of pain I have less than 4 hours sleep (3 points)=3|Because of pain I have less than 2 hours sleep (4 points)=4|Pain prevents me from sleeping at all (5 points)=5"][/conditional] 
+ 
+[select name="Sec8" value="DECLINED=0|Chosen=1" help="Declined items are not scored"] <-- Section 8 – Sex life (if applicable) 
+[conditional field="Sec8" condition="(Sec8).is('Chosen=1')"][select name="S8" value="My sex life is normal and causes no extra pain (0 points)=0|My sex life is normal but causes some extra pain (1 point)=1|My sex life is nearly normal but is very painful (2 points)=2|My sex life is severely restricted by pain (3 points)=3|My sex life is nearly absent because of pain (4 points)=4|Pain prevents any sex life at all (5 points)=5"][/conditional] 
+
+[select name="Sec9" value="DECLINED=0|Chosen=1" help="Declined items are not scored"] <-- Section 9 – Social life 
+[conditional field="Sec9" condition="(Sec9).is('Chosen=1')"][select name="S9" value="My social life is normal and gives me no extra pain (0 points)=0|My social life is normal but increases the degree of pain (1 point)=1|Pain has no significant effect on my social life apart from limiting my more energetic interests eg, sport (2 points)=2|Pain has restricted my social life and I do not go out as often (3 points)=3|Pain has restricted my social life to my home (4 points)=4|I have no social life because of pain (5 points)=5"][/conditional] 
+
+[select name="Sec10" value="DECLINED=0|Chosen=1" help="Declined items are not scored"] <-- Section 10 – Travelling 
+[conditional field="Sec10" condition="(Sec10).is('Chosen=1')"][select name="S10" value="I can travel anywhere without pain (0 points)=0|I can travel anywhere but it gives me extra pain (1 point)=1|Pain is bad but I manage journeys over two hours (2 points)=2|Pain restricts me to journeys of less than one hour (3 points)=3|Pain restricts me to short necessary journeys under 30 minutes (4 points)=4|Pain prevents me from travelling except to receive treatment (5 points)=5"][/conditional] 
+
+Sections completed --> [calc value="score1=(Sec1)+(Sec2)+(Sec3)+(Sec4)+(Sec5)+(Sec6)+(Sec7)+(Sec8)+(Sec9)+(Sec10)" memo="number"] sections.
+Total possible points --> [calc value="score2=((Sec1)+(Sec2)+(Sec3)+(Sec4)+(Sec5)+(Sec6)+(Sec7)+(Sec8)+(Sec9)+(Sec10))*5" memo="number"] points.
+Score -->  [calc value="score3=(S1)+(S2)+(S3)+(S4)+(S5)+(S6)+(S7)+(S8)+(S9)+(S10)" memo="number"] points.
+Index --> [calc value="score4=((100*((S1)+(S2)+(S3)+(S4)+(S5)+(S6)+(S7)+(S8)+(S9)+(S10)))/(((Sec1)+(Sec2)+(Sec3)+(Sec4)+(Sec5)+(Sec6)+(Sec7)+(Sec8)+(Sec9)+(Sec10))*5)).toFixed(1)" memo="number"] percent.
+Interpretation --> [calc value="score5=((100*((S1)+(S2)+(S3)+(S4)+(S5)+(S6)+(S7)+(S8)+(S9)+(S10)))/(((Sec1)+(Sec2)+(Sec3)+(Sec4)+(Sec5)+(Sec6)+(Sec7)+(Sec8)+(Sec9)+(Sec10))*5));score5>80.9?'Bed-bound or exaggerating their symptoms':score5>60.9?'Crippled - Positive intervention is required':score5>40.9?'Severe disability - Detailed investigation required':score5>20.9?'Moderate disability - Usually managed by conservative means':'Minimal disability - Advise on lifting sitting and exercise'" memo="interpretation"]
+[checkbox name="showScoring" memo="rating info" value=" "  help="rating table below will show up in output if box is checked"][conditional field="showScoring" condition="(showScoring).is(' ')"]
+Interpretation of scores
+0% to 20% - MINIMAL DISABILITY - The patient can cope with most living activities. Usually no treatment is indicated apart from advice on lifting sitting and exercise.
+21%-40% - MODERATE DISABILITY - The patient experiences more pain and difficulty with sitting, lifting and standing. Travel and social life are more difficult and they may be
+disabled from work. Personal care, sexual activity and sleeping are not grossly affected and the patient can usually be managed by conservative means.
+41%-60% - SEVERE DISABILITY - Pain remains the main problem in this group but activities of daily living are affected. These patients require a detailed investigation.
+61%-80% - CRIPPLED - Back pain impinges on all aspects of the patient's life. Positive
+intervention is required.
+81%-100% - These patients are either bed-bound or exaggerating their symptoms. [/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/11074683" target="_blank">Fairbank JC, Pynsent PB. The Oswestry Disability Index. Spine 2000 Nov 15;25(22):2940-52</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  January 2, 2014; September 3, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/oswestry-disability-index.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/oswestry-disability-index.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/oswestry-disability-index.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/oswestry-disability-index.txt</a>[/html][/conditional]

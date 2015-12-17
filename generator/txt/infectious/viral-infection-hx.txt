@@ -1,0 +1,8 @@
+[html]Viral Infection History
+[/html][textarea default="History provided by ***.&#13;&#10;The patient has been ill for *** days.&#13;&#10;Symptoms have included ***rhinorrhea/headache/myalgias/fever/chills/cough/sore throat/nausea/vomiting/diarrhea***.&#13;&#10;Patient has not had ***rhinorrhea/headache/myalgias/fever/chills/cough/sore throat/nausea/vomiting/diarrhea***.&#13;&#10;The patient ***has not/has*** had ill contacts."]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  This is an online version of a template by Stephen P. Merry, MD, MPH, Consultant, Department of Family Medicine, Mayo Clinic, Rochester, Minnesota
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; September 1, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/infectious/viral-infection-hx.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/infectious/viral-infection-hx.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/infectious/viral-infection-hx.txt" target="_blank">www.soapnote.org/generator/txt/infectious/viral-infection-hx.txt</a>[/html][/conditional]

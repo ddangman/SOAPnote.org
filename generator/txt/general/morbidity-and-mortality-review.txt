@@ -1,0 +1,22 @@
+MORBIDITY AND MORTALITY REVIEW FORM
+Date: [date]  Completed by: [text]
+Date of Event: [date]
+Case Identification: [text size=30 default="patient ID, med rec #, etc."]
+Outcome:  [select name="outcome" value="Death|ICU Transfer|Readmission within 48 hours|Medication error|Other"] [conditional field="outcome" condition="(outcome).is('Other')"] [text default="outcome description" size=70][/conditional]
+Brief summary of events leading to the adverse outcome: 
+[textarea]
+Was the outcome preventable? [select name="preventable" value="No|Yes|Uncertain"] [conditional field="preventable" condition="(preventable).is('Yes')||(preventable).is('Uncertain')"] What might have been done to change the outcome? [text size=140 default="prevention details"][/conditional]
+Is there clinical evidence to support individual practice change that may have altered the outcome? [select name="evidence" value="No|Yes"] [conditional field="evidence" condition="(evidence).is('Yes')"] [text size=140 default="evidence details"][/conditional]
+Are there any system-based changes that may prevent similar future outcomes? [select name="system" value="No|Yes"] [conditional field="system" condition="(system).is('Yes')"] [text size=140 default="description of proposed system-based changes"][/conditional]
+List three learning points from this case:
+[text default="point #1" size=140]
+[text default="point #2" size=140]
+[text default="point #3" size=140]
+************************************
+[checkbox memo="check box if you need more space for notes." name="notes" value=" "] [conditional field="notes" condition="(notes).is(' ')"] [textarea default="Additional space for notes"][/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  March 6, 2013; August 28, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/general/morbidity-and-mortality-review.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/general/morbidity-and-mortality-review.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/general/morbidity-and-mortality-review.txt" target="_blank">www.soapnote.org/generator/txt/general/morbidity-and-mortality-review.txt</a>[/html][/conditional]

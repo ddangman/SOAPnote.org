@@ -1,0 +1,25 @@
+Mood Disorder Questionnaire
+1. Has there ever been a period of time when you were not your usual self and ...
+[select name="Q1" value="no=0|YES=1"] <-- ...you felt so good or so hyper that other people thought you were not your normal self or you were so hyper that you got into trouble?
+[select name="Q2" value="no=0|YES=1"] <-- ...you were so irritable that you shouted at people or started fights or arguments?
+[select name="Q3" value="no=0|YES=1"] <-- ...you felt much more self-confident than usual?
+[select name="Q4" value="no=0|YES=1"] <-- ...you got much less sleep than usual and found that you didn’t really miss it?
+[select name="Q5" value="no=0|YES=1"] <-- ...you were more talkative or spoke much faster than usual?
+[select name="Q6" value="no=0|YES=1"] <-- ...thoughts raced through your head or you couldn’t slow your mind down?
+[select name="Q7" value="no=0|YES=1"] <-- ...you were so easily distracted by things around you that you had trouble concentrating or staying on track?
+[select name="Q8" value="no=0|YES=1"] <-- ...you had more energy than usual?
+[select name="Q9" value="no=0|YES=1"] <-- ...you were much more active or did many more things than usual?
+[select name="Q10" value="no=0|YES=1"] <-- ...you were much more social or outgoing than usual, for example, you telephoned friends in the middle of the night?
+[select name="Q11" value="no=0|YES=1"] <-- ...you were much more interested in sex than usual?
+[select name="Q12" value="no=0|YES=1"] <-- ...you did things that were unusual for you or that other people might have thought were excessive, foolish, or risky?
+[select name="Q13" value="no=0|YES=1"] <-- ...spending money got you or your family in trouble?
+[select name="Q14" value="no=0|YES=100"] <-- 2. If you checked YES to more than one of the above, have several of these ever happened during the same period of time? 
+[select name="Q15" value="No problems=0|Minor problem=0|Moderate problem=100|Serious problem=100"] <-- 3. How much of a problem did any of these cause you - like being unable to work; having family, money or legal troubles; getting into arguments or fights?
+Interpretation --> [calc memo="result" value="score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10)+(Q11)+(Q12)+(Q13)+(Q14)+(Q15);score1>206?'Positive screen for possible bipolar disorder':'Negative screen for possible bipolar disorder'"]
+
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/12505821" target="_blank">Hirschfeld RM, Holzer C, Calabrese JR, Weissman M, Reed M, Davies M, Frye MA, Keck P, McElroy S, Lewis L, Tierce J, Wagner KD, Hazard E. Validity of the mood disorder questionnaire: a general population study. Am J Psychiatry. 2003 Jan;160(1):178-80.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  August 25, 2014; September 7, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/mood-disorder-questionnaire.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/mood-disorder-questionnaire.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/mood-disorder-questionnaire.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/mood-disorder-questionnaire.txt</a>[/html][/conditional]

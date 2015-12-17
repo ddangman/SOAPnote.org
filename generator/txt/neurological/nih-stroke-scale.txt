@@ -1,0 +1,55 @@
+NIH Stroke Scale 
+.....................................................................................................
+1a. Assess Level of Consciousness (Alert=0, Coma=3)
+[select name="conscious"  value="Alert (0 points)=0|Not Alert; arousable by minor stimulation (1 point)=1|Not alert; requires repeated stimulation to attend (2 points)=2|Not responsive or reflexive posturing only (3 points)=3"]
+
+1b. Assess Orientation: Month, Age (1 point per bad answer)
+[select name="orientation"  value="Answers both questions correctly (0 points)=0|Answers one question correctly (1 point)=1|Answers neither question correctly (2 points)=2"]
+
+1c. Follow Commands: Open and close eyes, make fist and release (1 point per command NOT obeyed)
+[select name="commands"  value="Performs both tasks correctly (0 points)=0|Performs one task correctly (1 point)=1|Performs neither task correctly (2 points)=2"]
+
+2. Follow my finger (Normal=0, Forced deviation=2)
+[select name="finger"  value="Normal (0 points)=0|Partial gaze palsy (1 point)=1|Forced deviation (2 points)=2"]
+
+3. Visual field (Normal=0, hemianopia=2, bilateral loss=3)
+[select name="visual"  value="No visual loss (0 points)=0|Partial hemianopia (1 point)=1|Complete hemianopia (2 points)=2|Bilateral loss (3 points)=3"]
+
+4. Facial palsy:  Show teeth, Raise eyebrows, Squeeze eyes shut (Normal=0, Complete=3) 
+[select name="face"  value="Normal (0 points)=0|Minor paralysis (1 point)=1|Partial paralysis (2 points)=2|Complete paralysis (3 points)=3"]
+
+5a. Motor Strength Left Arm: Elevate to 90 degrees
+[select name="left_arm"  value="No drift (0 points)=0|Drift (1 point)=1|Some effort against gravity (2 points)=2|No effort against gravity (3 points)=3|No movement (4 points)=4|Amputation or joint fusion (0 points)=0"]
+
+5b. Motor Strength Right Arm: Elevate to 90 degrees
+[select name="right_arm"  value="No drift (0 points)=0|Drift (1 point)=1|Some effort against gravity (2 points)=2|No effort against gravity (3 points)=3|No movement (4 points)=4|Amputation or joint fusion (0 points)=0"]
+
+6a. Motor Strength Left Leg: Elevate to 30 degrees
+[select name="left_leg"  value="No drift (0 points)=0|Drift (1 point)=1|Some effort against gravity (2 points)=2|No effort against gravity (3 points)=3|No movement (4 points)=4|Amputation or joint fusion (0 points)=0"]
+
+6b. Motor Strength Right Leg: Elevate to 30 degrees
+[select name="right_leg"  value="No drift (0 points)=0|Drift (1 point)=1|Some effort against gravity (2 points)=2|No effort against gravity (3 points)=3|No movement (4 points)=4|Amputation or joint fusion (0 points)=0"]
+
+7. Coordination or limb ataxia: Finger-nose-finger, Heel-knee-shin (Absent=0, both limbs=2)
+[select name="ataxia"  value="Absent (0 points)=0|Ataxia in one limb (1 point)=1|Ataxia in two limbs (2 points)=2"]
+
+8. Sensory: Pin prick to face, arm, trunk, and legs, Compare sides (Normal=0, Severe loss=2)
+[select name="sensory"  value="Normal (0 points)=0|Mild to moderate loss (1 point)=1|Severe to total loss (2 points)=2"]
+
+9. Language: Name items, Describe picture, Read sentences (No Aphasia=0, Mute=3)
+[select name="language"  value="No aphasia (0 points)=0|Mild to moderate aphasia (1 point)=1|Severe aphasia (2 points)=2|Mute, global aphasia (3 points)=3"]
+
+10. Dysarthria: Speech clarity while reading word list (Normal=0, Nearly unintelligible=2)
+[select name="dysarthria"  value="Normal (0 points)=0|Mild to moderate dysarthria (1 point)=1|Severe dysarthria (2 points)=2|Intubated or physical barrier (0 points)=0"]
+
+11. Extinction and Inattention: Formerly called 'Neglect' (None=0, Complete=2)
+[select name="extinction"  value="No abnormality (0 points)=0|Visual, tactile, auditory, spatial, or personal inattention in one sensory modality (1 point)=1|Profound hemi-inattention or extinction to more than one modality (2 points)=2"]
+
+.....................................................................................................
+Total score:  [calc value="(conscious)+(orientation)+(commands)+(finger)+(visual)+(face)+(left_arm)+(right_arm)+(left_leg)+(right_leg)+(ataxia)+(sensory)+(language)+(dysarthria)+(extinction)" memo="score"] (maximum=42)
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/17431204" target="_blank">Adams (2007) Stroke. 38:1655</a>, <a href="http://www.fpnotebook.com/Neuro/Exam/NhStrkScl.htm" target="_blank">FP Notebook page</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  February 5, 2013; September 4, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/neurological/nih-stroke-scale.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/neurological/nih-stroke-scale.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/neurological/nih-stroke-scale.txt" target="_blank">www.soapnote.org/generator/txt/neurological/nih-stroke-scale.txt</a>[/html][/conditional]

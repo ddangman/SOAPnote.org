@@ -1,0 +1,36 @@
+[html]Related Link:  <a href="http://www.soapnote.org/endocrine-metabolic/insulin-correction/" target="_blank">Insulin Correction Dose for Hyperglycemia (calculator)</a>
+[/html]INSULIN SLIDING SCALE:  [select name="scale" value="Sensitive - Total Daily Insulin Dose 20-42 units|Regular - Total Daily Insulin Dose 43-84 units|Resistant - Total Daily Insulin Dose 85-126 units|Custom"][conditional field="scale" condition="(scale).is('Sensitive - Total Daily Insulin Dose 20-42 units')"]
+Blood Glucose Below 70: Give juice and seek medical attention
+Blood Glucose  71-149: No Insulin
+Blood Glucose 150-199: 1 unit Insulin
+Blood Glucose 200-249: 2 units Insulin
+Blood Glucose 250-299: 3 units Insulin
+Blood Glucose 300-349: 4 units Insulin
+Blood Glucose Over 350: 5 units Insulin and seek medical attention[/conditional][conditional field="scale" condition="(scale).is('Regular - Total Daily Insulin Dose 43-84 units')"]
+Blood Glucose Below 70: Give juice and seek medical attention
+Blood Glucose  71-149: No Insulin
+Blood Glucose 150-199: 2 units Insulin
+Blood Glucose 200-249: 4 units Insulin
+Blood Glucose 250-299: 6 units Insulin
+Blood Glucose 300-349: 8 units Insulin
+Blood Glucose Over 350: 10 units Insulin and seek medical attention[/conditional][conditional field="scale" condition="(scale).is('Resistant - Total Daily Insulin Dose 85-126 units')"]
+Blood Glucose Below 70: Give juice and seek medical attention
+Blood Glucose  71-149: No Insulin
+Blood Glucose 150-199: 3 units Insulin
+Blood Glucose 200-249: 6 units Insulin
+Blood Glucose 250-299: 9 units Insulin
+Blood Glucose 300-349: 12 units Insulin
+Blood Glucose Over 350: 15 units Insulin and seek medical attention[/conditional][conditional field="scale" condition="(scale).is('Custom')"]
+[text size=100 default="Blood Glucose Below 70: Give juice and seek medical attention"]
+[text size=100 default="Blood Glucose  71-149: No Insulin"]
+[text size=100 default="Blood Glucose 150-199: 0.5 units Insulin"]
+[text size=100 default="Blood Glucose 200-249: 1 unit Insulin"]
+[text size=100 default="Blood Glucose 200-249: 1.5 units Insulin"]
+[text size=100 default="Blood Glucose 200-249: 2.0 units Insulin"]
+[text size=100 default="Blood Glucose Over 350: 2.5 units Insulin and seek medical attention"][/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://clinical.diabetesjournals.org/content/29/1/3.full" target="_blank">Magaji, Vasudev, and Jann M. Johnston. Inpatient management of hyperglycemia and diabetes. Clinical Diabetes 29.1 (2011): 3.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  March 2, 2015; August 22, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/endocrine-metabolic/sliding-scale.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/endocrine-metabolic/sliding-scale.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/sliding-scale.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/sliding-scale.txt</a>[/html][/conditional]

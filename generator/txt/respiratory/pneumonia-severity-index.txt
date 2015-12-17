@@ -1,0 +1,35 @@
+Pneumonia Severity Index[html]
+<strong>Summary:</strong>
+Prognostic decision rule for mortality rate when diagnosed with pneumonia.[/html]
+[select name="Q1" value="20=20|21=21|22=22|23=23|24=24|25=25|26=26|27=27|28=28|29=29|30=30|31=31|32=32|33=33|34=34|35=35|36=36|37=37|38=38|39=39|40=40|41=41|42=42|43=43|44=44|45=45|46=46|47=47|48=48|49=49|50=50|51=51|52=52|53=53|54=54|55=55|56=56|57=57|58=58|59=59|60=60|61=61|62=62|63=63|64=64|65=65|66=66|67=67|68=68|69=69|70=70|71=71|72=72|73=73|74=74|75=75|76=76|77=77|78=78|79=79|80=80|81=81|82=82|83=83|84=84|85=85|86=86|87=87|88=88|89=89|90=90|91=91|92=92|93=93|94=94|95=95|96=96|97=97|98=98|99=99|100=100|101=101|102=102|103=103|104=104|105=105|106=106|107=107|108=108|109=109|110=110|111=111|112=112|113=113|114=114|115=115|116=116|117=117|118=118|119=119|120=120|121=121|122=122"] <-- Age
+General & Past Medical History
+[select name="Q2" value ="no=0|YES=-10"] <-- Female Gender, subtract 10 points
+[select name="Q3" value ="no=0|YES=10"] <-- Nursing Home Resident, add 10 points
+[select name="Q4" value ="no=0|YES=30"] <-- Cancer, add 30 points
+[select name="Q5" value ="no=0|YES=20"] <-- Liver Disease, add 20 points
+[select name="Q6" value ="no=0|YES=10"] <-- Congestive Heart Failure, add 10 points
+[select name="Q7" value ="no=0|YES=10"] <-- Cerebrovascular Accident, add 10 points
+[select name="Q8" value ="no=0|YES=10"] <-- Chronic Kidney Disease, add 10 points
+Examination Findings
+[select name="Q9" value ="no=0|YES=20"] <-- Altered Level of Consciousness, add 20 points
+[select name="Q10" value ="no=0|YES=20"] <-- Breathing Rate >30 rpm, add 20 points
+[select name="Q11" value ="no=0|YES=20"] <-- Systolic BP <90 mmHg, add 20 points
+[select name="Q12" value ="no=0|YES=15"] <-- Temperature not 95-104 F (35-40 C), add 15 points
+[select name="Q13" value ="no=0|YES=10"] <-- Heart Rate >125 bpm, add 10 points
+Labs & Xray
+[select name="Q14" value ="no=0|YES=30"] <-- ABG: Arterial pH <7.35, add 30 points
+[select name="Q15" value ="no=0|YES=10"] <-- ABG: PaO2 <60 mmHg (<90% O2 Sat), add 10 points
+[select name="Q16" value ="no=0|YES=20"] <-- Serum Sodium <130 mEq/L, add 20 points
+[select name="Q17" value ="no=0|YES=20"] <-- Blood Urea Nitrogen (BUN) >64 mg/dl, add 20 points
+[select name="Q18" value ="no=0|YES=10"] <-- Serum Glucose >250 mg/dl, add 10 points
+[select name="Q19" value ="no=0|YES=10"] <-- Hematocrit <30%, add 10 points
+[select name="Q20" value ="no=0|YES=10"] <-- Chest XRay: Pleural Effusion, add 10 points
+
+Score --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10)+(Q11)+(Q12)+(Q13)+(Q14)+(Q15)+(Q16)+(Q17)+(Q18)+(Q19)+(Q20)" memo="Score"]
+Interpretation --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)+(Q10)+(Q11)+(Q12)+(Q13)+(Q14)+(Q15)+(Q16)+(Q17)+(Q18)+(Q19)+(Q20);score>130?'Mortality 29.2% (high risk) - Inpatient management recommended.  ':score>90?'Class IV:  Mortality 8.2% (moderate risk) - Inpatient management recommended.  ':score>70?'Class III:  Mortality 2.8% (low risk) - Consider short observation hospital stay.  ':score>0?'Class II:  Mortality 0.6% (low risk) - Outpatient management recommended.  ':'Class I:  Mortality 0.1% (low risk) - Outpatient management recommended.  '" memo="Interpretation"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/8995086" target="_blank">Fine (1997) N Engl J Med 336: 243-50.</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/16669565" target="_blank">Ebell (2006) Am Fam Physician 73:  1425-8.</a>, <a href="http://www.fpnotebook.com/lung/exam/PnmnSvrtyIndx.htm" target="_blank">Family Practice Notebook Page</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  March 25, 2012; August 21, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/respiratory/pneumonia-severity-index.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/respiratory/pneumonia-severity-index.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/respiratory/pneumonia-severity-index.txt" target="_blank">www.soapnote.org/generator/txt/respiratory/pneumonia-severity-index.txt</a>[/html][/conditional]

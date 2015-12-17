@@ -1,0 +1,16 @@
+ROSE (Risk stratification Of Syncope in the Emergency department) Risk Score
+[select name="Q1" value="no (0 points)=0|YES (1 point)=1"] <-- Brain natriuretic peptide level greater than or equal to 300 pg per mL (300 ng per L)
+[select name="Q2" value="no (0 points)=0|YES (1 point)=1"] <-- Bradycardia (less than or equal to 50 beats per minute)
+[select name="Q3" value="no (0 points)=0|YES (1 point)=1"] <-- Rectal examination shows fecal occult blood
+[select name="Q4" value="no (0 points)=0|YES (1 point)=1"] <-- Anemia (hemoglobin level less than 9.0 g per dL)
+[select name="Q5" value="no (0 points)=0|YES (1 point)=1"] <-- Chest pain associated with syncope
+[select name="Q6" value="no (0 points)=0|YES (1 point)=1"] <-- ECG with Q wave (not in lead III)
+[select name="Q7" value="no (0 points)=0|YES (1 point)=1"] <-- Oxygen saturation less than or equal to 94 percent on room air
+score --> [calc memo="number" value="score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)"]
+interpretation --> [calc memo="result" value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7);score2>0?'16.5% risk of serious outcome or death at one month':'1.5% risk of serious outcome of death at one month'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/20170806/" target="_blank">Reed MJ, Newby DE, Coull AJ, Prescott RJ, Jacques KG, Gray AJ. The ROSE (risk stratification of syncope in the emergency department) study. J Am Coll Cardiol. 2010 Feb 23;55(8):713-21.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  September 19, 2014; August 20, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/rose-risk-score.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/rose-risk-score.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/rose-risk-score.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/rose-risk-score.txt</a>[/html][/conditional]

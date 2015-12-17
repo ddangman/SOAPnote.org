@@ -1,0 +1,15 @@
+CURB-65/CRB-65 Score for Pneumonia[html]
+Decision rules to help determine outpatient vs. inpatient treatment for pneumonia. (It really helps to get the BUN!)"
+[/html]Clinical Features:
+[select name="confusion" value="absent=0|present=1"] <-- Confusion
+[select name="BUN" value="less than/equal to 19 mg per dL (6.8 mmol per L)=0|greater 19 mg per dL (6.8 mmol per L)=1|not obtained=10"] <-- Blood Urea Nitrogen
+[select name="respiration" value="less than 30 breaths per minute=0|greater than/equal to 30 breaths per minute=1"] <-- Respiratory rate
+[select name="BP" value="systolic greater than/equal to 90 and diastolic greater than 60=0|systolic less than 90 or diastolic less than/equal to 60=1"] <-- Blood pressure
+[select name="age" value="less than 65=0|greater than/equal to 65=1"] <-- Age
+Result --> [calc value="score=(confusion)+(BUN)+(respiration)+(BP)+(age);score>13?'CRB-65 = 4: High risk of death; urgent hospitalization':score>12?'CRB-65 = 3: High risk of death; urgent hospitalization':score>11?'CRB-65 = 2: Increased risk of death; consider hospitalization':score>10?'CRB-65 = 1: Increased risk of death; consider hospitalization':score>9?'CRB-65 = 0: Very low risk of death; usually does not require hospitalization':score>4?'CURB-65 = 5: Severe pneumonia; hospitalize and consider admitting to intensive care':score>3?'CURB-65 = 4: Severe pneumonia; hospitalize and consider admitting to intensive care':score>2?'CURB-65 = 3: Severe pneumonia; hospitalize and consider admitting to intensive care':score>1?'CURB-65 = 2: Short inpatient hospitalization or closely-supervised outpatient treatment':score>0?'CURB-65 = 1: Low risk; consider home treatment':'CURB-65 = 0: Low risk; consider home treatment'" memo="score"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.aafp.org/afp/2006/0415/p1425.html" target="_blank">Am Fam Physician. 2006 Apr 15;73(8):1425-1428</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  September 1, 2010; September 1, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/infectious/curb-65-score.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/infectious/curb-65-score.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/infectious/curb-65-score.txt" target="_blank">www.soapnote.org/generator/txt/infectious/curb-65-score.txt</a>[/html][/conditional]

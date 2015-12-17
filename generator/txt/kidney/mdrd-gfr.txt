@@ -1,0 +1,15 @@
+MDRD Study Equation [html]
+See also <a href="http://www.soapnote.org/kidney/cockcroft-gault/">Cockcroft Gault GFR Calculator</a>[/html]
+[text name="QCreat"] <-- Serum Creatinine (in mg/dL)
+[select name="QGender" value="Male=1|Female=0.742"] <-- Gender
+[text name="QAge"] <-- Age (in years)
+[select name="QBlack" value="No=1|Yes=1.210"] <-- Race
+Interpretation --> [calc value="score=(175 * (Math.pow((QCreat),-1.154)) * (Math.pow((QAge),-0.203)) * (QGender) * (QBlack));score>59.99?'CKD Stage I/II (or no CKD)':score>29.99?'CKD Stage III':score>14.99?'CKD Stage IV':'CKD Stage V'" memo="Interpretation"]
+Based on estimated GFR of [calc value="score1=score.toFixed(2)" memo="GFR"] ml/min/1.73 m2
+Note:  GFR values greater than or equal to 60 mL/min/1.73 m2 should be reported as "≥ 60 mL/min/1.73 m2", not an exact number.
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/10075613" target="_blank">Levey AS, Bosch JP, Lewis JB, Greene T, Rogers N, Roth D: A more accurate method to estimate glomerular filtration rate from serum creatinine: A new prediction equation. Modification of Diet in Renal Disease Study Group. Ann Intern Med 130: 461–470, 1999</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  August 10, 2013; September 3, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/kidney/mdrd-gfr.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/kidney/mdrd-gfr.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/kidney/mdrd-gfr.txt" target="_blank">www.soapnote.org/generator/txt/kidney/mdrd-gfr.txt</a>[/html][/conditional]

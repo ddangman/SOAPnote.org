@@ -1,0 +1,17 @@
+Fleisher-Eagle Algorithm for Preoperative Cardiac Risk Assessment  
+[select value="NO=0|YES=1" name="ischemic"]  <-- Ischemic heart disease (angina or prior MI)? 
+[select value="NO=0|YES=1" name="chf"]  <-- Heart failure? 
+[select value="NO=0|YES=1" name="riskysurg"]  <-- High-risk surgery (including intraperitoneal, intrathoracic, and suprainguinal vascular procedures)?
+[select value="NO=0|YES=1" name="diabetes"]  <-- Diabetes mellitus (especially insulin-requiring)? 
+[select value="NO=0|YES=1" name="renal"]  <-- Renal insufficiency?
+[select value="NO=0|YES=1" name="poorfunc"]  <-- Poor functional status (defined as the inability to walk four blocks or climb two flights of stairs)?  
+[conditional field="ischemic|chf|riskysurg|diabetes|renal|poorfunc" condition="(ischemic).is('YES=1')||(chf).is('YES=1')||(riskysurg).is('YES=1')||(diabetes).is('YES=1')||(renal).is('YES=1')||(poorfunc).is('YES=1')"][select value="NO=0|YES=10" name="coronary"]  <-- History consistent with coronary heart disease? [/conditional]
+
+------------------------------------------------------------
+Interpretation: [calc value="score=(ischemic)+(chf)+(riskysurg)+(diabetes)+(renal)+(poorfunc)+(coronary); score>2?'Noninvasive testing should be performed, followed by cardiac catheterization if the results are positive.':score>0?'Perioperative beta blocker therapy is prudent, but no further testing is recommended.':'No further testing or treatment recommended.'" memo="score interpretation"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/11759647" target="_blank">Fleisher (2001) N Engl J Med 345:1677</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  February 24, 2013; August 19, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/fleisher-eagle-algorithm.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/fleisher-eagle-algorithm.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/fleisher-eagle-algorithm.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/fleisher-eagle-algorithm.txt</a>[/html][/conditional]

@@ -1,0 +1,22 @@
+GRACE Mortality Score for Acute Coronary Syndrome
+[select name="Q1" value="less than 30 years (0 points)=0|30 to 39 years (8 points)=8|40 to 49 years (25 points)=25|50 to 59 years (41 points)=41|60 to 69 years (58 points)=58|70 to 79 years (75 points)=75|80 to 89 years (91 points)=91|90 years and above (100 points)=100"] <-- Age
+[select name="Q2" value="less than 50 (0 points)=0|50 to 69 (3 points)=3|70 to 89 (9 points)=9|90 to 109 (15 points)=15|110 to 149 (24 points)=24|150 to 199 (38 points)=38|200 and above (46 points)=46"] <-- Heart Rate (bpm)
+[select name="Q3" value="less than 80 (58 points)=58|80 to 99 (53 points)=53|100 to 119 (43 points)=43|120 to 139 (34 points)=34|140 to 159 (24 points)=24|160 to 199 (10 points)=10|200 and above (0 points)=0"] <-- Systolic Blood Pressure (mm Hg)
+[select name="Q4" value="less than 0.40 (1 point)=1|0.40 to 0.79 (4 points)=4|0.80 to 1.19 (7 points)=7|1.20 to 1.59 (10 points)=10|1.60 to 1.99 (13 points)=13|2.00 to 3.99 (21 points)=21|4.00 or higher (28 points)=28"] <-- Serum Creatinine (mg/dL) 
+[select name="Q5" value="Class I - No CHF (0 points)=0|Class II - Pulmonary Rales or Jugular Venous Distention(20 points)=20|Class III - Pulmonary Edema (39 points)=39|Class IV - Cardiogenic Shock (59 points)=59"] < Congestive Heart Failure (CHF) Killip Class
+[select name="Q6" value="no (0 points)=0|YES (39 points)=39"] <-- Cardiac Arrest at Admission
+[select name="Q7" value="no (0 points)=0|YES (28 points)=28"] <-- ST segment deviation
+[select name="Q8" value="no (0 points)=0|YES (14 points)=14"] <-- Elevated cardiac enzymes or biomarkers (e.g. Troponin I)
+Score --> [calc memo="number" value="score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)"]
+If Non ST-Elevation Myocardial Infarction
+- In Hospital Mortality --> [calc memo="result" value="score2=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8);score2>140?'High risk - Mortality greater than 3%':score2>108?'Intermediate risk - Mortality 1 to 3%':'Low risk - Mortality less than 1%'"]
+- 6-Month Mortality --> [calc memo="result" value="score3=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8);score3>118?'High risk - Mortality greater than 8%':score3>88?'Intermediate risk - Mortality 3 to 8%':'Low risk - Mortality less than 3%'"]
+If ST-Elevation Myocardial Infarction
+- In Hospital Mortality --> [calc memo="result" value="score4=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8);score4>154?'High risk - Mortality greater than 5%':score4>125?'Intermediate risk - Mortality 2 to 5%':'Low risk - Mortality less than 2%'"]
+- 6-Month Mortality --> [calc memo="result" value="score5=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8);score5>127?'High risk - Mortality greater than 11%':score5>99?'Intermediate risk - Mortality 4.5 to 11%':'Low risk - Mortality less than 4.5%'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/17032691" target="_blank">Fox KA, Dabbous OH, Goldberg RJ, Pieper KS, Eagle KA, Van de Werf F, Avezum A, Goodman SG, Flather MD, Anderson FA Jr, Granger CB. Prediction of risk of death and myocardial infarction in the six months after presentation with acute coronary syndrome: prospective multinational observational study (GRACE). BMJ. 2006 Nov 25;333(7578):1091. </a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  September 22, 2014; August 19, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/grace-mortality-score.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/cardiovascular/grace-mortality-score.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/cardiovascular/grace-mortality-score.txt" target="_blank">www.soapnote.org/generator/txt/cardiovascular/grace-mortality-score.txt</a>[/html][/conditional]

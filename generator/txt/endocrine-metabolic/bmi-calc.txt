@@ -1,0 +1,22 @@
+Body Mass Index (BMI)
+[text name="Height"] <-- Height in inches
+[text name="Weight"] <-- Weight in pounds
+BMI Calculations
+Class --> [calc memo="class" value="score=(Weight)*(703)/((Height)*(Height));score>59.9999?'Super-super obesity or class V obesity':score>49.9999?'Super-obesity or class IV obesity':score>39.9999?'Extreme obesity or class III obesity':score>34.9999?'Obesity class II':score>29.9999?'Obesity class I':score>24.9999?'Overweight':score>18.4999?'Normal':score>16.4999?'Underweight':'Severely underweight'"]
+BMI –> [calc memo="bmi" value="score1=score.toFixed(1)"]
+For ADULTS of this height:
+Severely underweight (BMI < 16.5): less than [calc memo="---" value="score2=((16.5)*(Height)*(Height)/(703)).toFixed(1)"] lbs
+Underweight (BMI 16.5 to 18.4): starts at [calc memo="---" value="score3=((16.5)*(Height)*(Height)/(703)).toFixed(1)"] lbs
+Normal (BMI 18.5 to 24.9): starts at [calc memo="---" value="score4=((18.5)*(Height)*(Height)/(703)).toFixed(1)"] lbs
+Overweight (BMI 25 to 29.9): starts at [calc memo="---" value="score5=((25)*(Height)*(Height)/(703)).toFixed(1)"] lbs
+Obesity class I (BMI 30 to 34.9): starts at [calc memo="---" value="score6=((30)*(Height)*(Height)/(703)).toFixed(1)"] lbs
+Obesity class II (BMI 35 to 39.9): starts at [calc memo="---" value="score7=((35)*(Height)*(Height)/(703)).toFixed(1)"] lbs
+Extreme obesity or class III obesity (BMI 40 to 49.9): starts at [calc memo="---" value="score8=((40)*(Height)*(Height)/(703)).toFixed(1)"] lbs
+Super-obesity or class IV obesity (BMI 50 to 59.9): starts at [calc memo="---" value="score9=((50)*(Height)*(Height)/(703)).toFixed(1)"] lbs
+Super-super obesity or class V obesity (BMI 60 and above): starts at [calc memo="---" value="score10=((60)*(Height)*(Height)/(703)).toFixed(1)"] lbs
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  Obesity Evidence at <a href="http://www.aafp.org/afp/2010/1015/p974.html" target="_blank">Delaet (2010) Am Fam Physician 82:974-5</a>.
+posted by:  Mark Morgan, M.D.
+post/review dates:  November 11, 2010; August 21, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/endocrine-metabolic/bmi-calc.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/endocrine-metabolic/bmi-calc.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/endocrine-metabolic/bmi-calc.txt" target="_blank">www.soapnote.org/generator/txt/endocrine-metabolic/bmi-calc.txt</a>[/html][/conditional]

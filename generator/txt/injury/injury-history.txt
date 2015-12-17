@@ -1,0 +1,17 @@
+Onset [text] prior to evaluation
+Onset while:  [text]
+Injury at [text]
+
+Associated Pain (0=none, 10=severe)
+Location: [text]
+Radiation: [text]
+Severity now (0-10): [text]
+Severity at worst (0-10): [text]
+Duration: [text]
+Characterized as [text].
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  November 21, 2010; September 2, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/injury/injury-history.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/injury/injury-history.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/injury/injury-history.txt" target="_blank">www.soapnote.org/generator/txt/injury/injury-history.txt</a>[/html][/conditional]

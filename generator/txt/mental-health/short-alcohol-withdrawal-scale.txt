@@ -1,0 +1,20 @@
+Short Alcohol Withdrawal Scale (SAWS)
+QUESTION:  How have you felt in the last 24 hours?
+[select name="QA" value="none (0 points)=0|mild (1 point)=1|moderate (2 points)=2|severe (3 points)=3"] <-- Anxious
+[select name="QB" value="none (0 points)=0|mild (1 point)=1|moderate (2 points)=2|severe (3 points)=3"] <-- Feeling confused
+[select name="QC" value="none (0 points)=0|mild (1 point)=1|moderate (2 points)=2|severe (3 points)=3"] <-- Restless
+[select name="QD" value="none (0 points)=0|mild (1 point)=1|moderate (2 points)=2|severe (3 points)=3"] <-- Miserable
+[select name="QE" value="none (0 points)=0|mild (1 point)=1|moderate (2 points)=2|severe (3 points)=3"] <-- Problems with memory
+[select name="QF" value="none (0 points)=0|mild (1 point)=1|moderate (2 points)=2|severe (3 points)=3"] <-- Tremor (shakes)
+[select name="QG" value="none (0 points)=0|mild (1 point)=1|moderate (2 points)=2|severe (3 points)=3"] <-- Nausea
+[select name="QH" value="none (0 points)=0|mild (1 point)=1|moderate (2 points)=2|severe (3 points)=3"] <-- Heart pounding
+[select name="QI" value="none (0 points)=0|mild (1 point)=1|moderate (2 points)=2|severe (3 points)=3"] <-- Sleep disturbance
+[select name="QJ" value="none (0 points)=0|mild (1 point)=1|moderate (2 points)=2|severe (3 points)=3"] <-- Sweating
+Score --> [calc memo="Score" value="scorenum=(QA)+(QB)+(QC)+(QD)+(QE)+(QF)+(QG)+(QH)+(QI)+(QJ)"] points.
+Interpretation --> [calc memo="Interpretation" value="score=(QA)+(QB)+(QC)+(QD)+(QE)+(QF)+(QG)+(QH)+(QI)+(QJ);score>11?'Moderate to severe withdrawal.':'Mild withdrawal.'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/20570824" target="_blank">Elholm B, Larsen K, Hornnes N, Zierau F, Becker U.  A psychometric validation of the Short Alcohol Withdrawal Scale (SAWS). Alcohol Alcohol. 2010;45(4):361-5.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  January 1, 2014; September 7, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/short-alcohol-withdrawal-scale.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/short-alcohol-withdrawal-scale.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/short-alcohol-withdrawal-scale.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/short-alcohol-withdrawal-scale.txt</a>[/html][/conditional]

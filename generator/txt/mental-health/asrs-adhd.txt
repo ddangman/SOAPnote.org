@@ -1,0 +1,51 @@
+Adult ADHD Self-Report Scale
+Please answer the questions below.  As you answer each question, choose the answer that
+best describes how you have felt and conducted yourself over the past 6 months. Please give
+this completed checklist to your healthcare professional to discuss during today’s
+appointment.
+Patient Name [text] Today’s Date [date]
+Section A (SCREEN)
+[select name="Q1" value="never=0|rarely=0|sometimes=1|often=1|very often=1"] <-- 1. How often do you have trouble wrapping up the final details of a project, 
+once the challenging parts have been done?
+[select name="Q2" value="never=0|rarely=0|sometimes=1|often=1|very often=1"] <-- 2. How often do you have difficulty getting things in order when you have to do 
+a task that requires organization?
+[select name="Q3" value="never=0|rarely=0|sometimes=1|often=1|very often=1"] <-- 3. How often do you have problems remembering appointments or obligations?
+[select name="Q4" value="never=0|rarely=0|sometimes=0|often=1|very often=1"] <-- 4. When you have a task that requires a lot of thought, how often do you avoid or delay getting started?
+[select name="Q5" value="never=0|rarely=0|sometimes=0|often=1|very often=1"] <-- 5. How often do you fidget or squirm with your hands or feet when you have 
+to sit down for a long time?
+[select name="Q6" value="never=0|rarely=0|sometimes=0|often=1|very often=1"] <-- 6. How often do you feel overly active and compelled to do things, like you 
+were driven by a motor?
+[checkbox name="severity" value=" " memo="To complete and score Section B (SEVERITY) questions, click above"][conditional field="severity" condition="(severity).is(' ')"]
+Section B (SEVERITY)
+[select name="Q7" value="never=0|rarely=1|sometimes=2|often=3|very often=4"] <-- 7. How often do you make careless mistakes when you have to work on a boring or
+difficult project?
+[select name="Q8" value="never=0|rarely=1|sometimes=2|often=3|very often=4"] <-- 8. How often do you have difficulty keeping your attention when you are doing boring
+or repetitive work?
+[select name="Q9" value="never=0|rarely=1|sometimes=2|often=3|very often=4"] <-- 9. How often do you have difficulty concentrating on what people say to you, 
+even when they are speaking to you directly?
+[select name="Q10" value="never=0|rarely=1|sometimes=2|often=3|very often=4"] <-- 10. How often do you misplace or have difficulty finding things at home or at work?
+[select name="Q11" value="never=0|rarely=1|sometimes=2|often=3|very often=4"] <-- 11. How often are you distracted by activity or noise around you?
+[select name="Q12" value="never=0|rarely=1|sometimes=2|often=3|very often=4"] <-- 12. How often do you leave your seat in meetings or other situations in which 
+you are expected to remain seated?
+[select name="Q13" value="never=0|rarely=1|sometimes=2|often=3|very often=4"] <-- 13. How often do you feel restless or fidgety?
+[select name="Q14" value="never=0|rarely=1|sometimes=2|often=3|very often=4"] <-- 14. How often do you have difficulty unwinding and relaxing when you have time 
+to yourself?
+[select name="Q15" value="never=0|rarely=1|sometimes=2|often=3|very often=4"] <-- 15. How often do you find yourself talking too much when you are in social situations?
+[select name="Q16" value="never=0|rarely=1|sometimes=2|often=3|very often=4"] <-- 16. When you’re in a conversation, how often do you find yourself finishing 
+the sentences of the people you are talking to, before they can finish 
+them themselves?
+[select name="Q17" value="never=0|rarely=1|sometimes=2|often=3|very often=4"] <-- 17. How often do you have difficulty waiting your turn in situations when 
+turn taking is required?
+[select name="Q18" value="never=0|rarely=1|sometimes=2|often=3|very often=4"] <-- 18. How often do you interrupt others when they are busy?[/conditional]
+
+Section A (SCREEN) Result –-> [calc value="score1=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6);score1>3?'Section A -  Symptoms highly consistent with ADHD in adults, further investigation is warranted':'Section A - Negative screen for ADHD, consider other diagnoses'" memo="interpretation"] 
+
+[conditional field="severity" condition="(severity).is(' ')"]Section B (SEVERITY) Result --> [calc value="score2=+(Q7)+(Q8)+(Q9)+(Q10)+(Q11)+(Q12)+(Q13)+(Q14)+(Q15)+(Q16)+(Q17)+(Q18);score2>47?'Section B - Average frequency of symptoms = VERY OFTEN':score2>35?'Section B - Average frequency of symptoms = OFTEN':score2>23?'Section B - Average frequency of symptoms = SOMETIMES':score2>11?'Section B - Average frequency of symptoms = RARELY':'Section B - Average frequency of symptoms = NEVER'" memo="interpretation"][/conditional]
+
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/15841682" target="_blank">Kessler RC, Adler L, Ames M, Demler O, Faraone S, Hiripi E, Howes MJ, Jin R, Secnik K, Spencer T, Ustun TB, Walters EE. The World Health Organization Adult ADHD Self-Report Scale (ASRS): a short screening scale for use in the general population. Psychol Med. 2005 Feb;35(2):245-56.</a>
+<a href="http://www.aafp.org/afp/2012/0501/p890.html" target="_blank">Post RE, Kurlansik SL. Diagnosis and Management of Attention-Deficit/Hyperactivity Disorder in Adults. Am Fam Phys. 2012 May 1;85(9):890-896.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  January 5, 2014; September 6, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/asrs-adhd.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/asrs-adhd.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/asrs-adhd.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/asrs-adhd.txt</a>[/html][/conditional]

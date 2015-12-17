@@ -1,0 +1,18 @@
+[html]Pharyngitis History
+[/html][checkbox memo="Version A" name="A" value=""][conditional field="A" condition="(A).is('')"]Duration of symptoms in days [text]
+Pertinent positives
+[select value="no|YES"] <-- fever
+[select value="no|YES"] <-- malaise
+[select value="no|YES"] <-- swollen lymph nodes
+[select value="no|YES"] <-- cough
+[select value="no|YES"] <-- headache
+[select value="no|YES"] <-- rash
+[select value="good|adequate|poor"] <-- Intake pattern
+[select value="good|adequate|poor|constipation"] <-- Elimination pattern[textarea cols=108 rows=5 default=""][/conditional][checkbox memo="Version B" name="B" value=""][conditional field="B" condition="(B).is('')"][textarea cols=108 rows=5 default="Patient has had *** days of ***sore throat/dysphonia/fever/cough/difficulty swallowing/nasal congestion/headache***.&#13;&#10;Patient has had no ***dysphonia/fever/cough/difficulty swallowing/nasal congestion/headache***.&#13;&#10;There ***are no known/have been*** recent exposures to Strep. The patient ***has not had/has had*** Strep pharyngitis in the past 30 days.&#13;&#10;Other history/symptoms:  ***nausea/vomiting/mild abdominal ache/diarrhea/rash/refusing to eat/refusing to drink/body aches/eye irritation/ear pain/facial pain/shortness of breath/arthralgias/myalgias/exposure to Mono***."][/conditional]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  none
+posted by:  Mark Morgan, M.D.
+post/review dates:  April 1, 2010; June 11, 2010; September 6, 2015
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/pharyngitis-history.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/ear-nose-throat/pharyngitis-history.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/ear-nose-throat/pharyngitis-history.txt" target="_blank">www.soapnote.org/generator/txt/ear-nose-throat/pharyngitis-history.txt</a>[/html][/conditional]
+
