@@ -82,5 +82,17 @@
 				<li><a href="/help/">Help</a></li>
 			</ul>
 		</div>
+		<div>  
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- SOAPnote Ad 2015 August -->
+			<ins class="adsbygoogle"
+				 style="display:block"
+				 data-ad-client="ca-pub-0861899219579739"
+				 data-ad-slot="8523978083"
+				 data-ad-format="auto"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>  
+		</div>
 	</div>
 </nav>
