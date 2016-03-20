@@ -14,6 +14,7 @@
 					<li><a href="/neurological/dizziness-history/">Dizziness History</a></li>
 					<li><a href="/cardiovascular/fall-or-syncopal-episode-history/">Fall or Syncopal Episode History</a></li>
 					<li><a href="/musculoskeletal/fibromyalgia-calculator/">Fibromyalgia Diagnostic Criteria – American College of Rheumatology</a></li>
+					<li><a href="/neurological/gcs/">Glasgow Coma Scale</a></li>
 					<li><a href="/neurological/headache-hx/">Headache History</a></li>
 					<li><a href="/neurological/migraine-headache-exam/">Migraine Headache Exam</a></li>
 					<li><a href="/neurological/multiple-sclerosis-diagnosis/">Multiple Sclerosis - Diagnostic Approach</a></li>

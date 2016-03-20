@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>soapnote.org = calculators + decision tools + SOAP samples</title>
+    <link rel="stylesheet" href="../../lib/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/jquery-ui.min.js"></script>
+    </head>
+    <body>
+
+        <div id="container" class="embed_client">
+                <!-- <h1 class="entry-title">acute-neuro-hx</h1> -->
+                <div class="form-view-content ">
+                        <form id="form_1" method="get" autocomplete="off">
+Glasgow Coma Scale<br><select name="eye"><option value="Does not open eyes (1 point)=1">Does not open eyes (1 point)</option><option value="Opens eyes to painful stimulus (2 points)=2">Opens eyes to painful stimulus (2 points)</option><option value="Opens eyes to verbal stimulus (3 points)=3">Opens eyes to verbal stimulus (3 points)</option><option value="Opens eyes spontaneously (4 points)=4">Opens eyes spontaneously (4 points)</option></select> <-- Eye Response<br><select name="speech"><option value="Makes no sounds (1 point)=1">Makes no sounds (1 point)</option><option value="Is incomprehensible (2 points)=2">Is incomprehensible (2 points)</option><option value="Uses words inappropriately (3 points)=3">Uses words inappropriately (3 points)</option><option value="Is disoriented or confused (4 points)=4">Is disoriented or confused (4 points)</option><option value="Is oriented; speech is normal (5 points)=5">Is oriented; speech is normal (5 points)</option></select> <-- Speech<br><select name="movement"><option value="Does not move (1 point)=1">Does not move (1 point)</option><option value="Exhibits abnormal extension to painful stimulus (decerebrate response) (2 points)=2">Exhibits abnormal extension to painful stimulus (decerebrate response) (2 points)</option><option value="Exhibits abnormal flexion to painful stimulus (decorticate response) (3 points)=3">Exhibits abnormal flexion to painful stimulus (decorticate response) (3 points)</option><option value="Withdraws from painful stimulus (4 points)=4">Withdraws from painful stimulus (4 points)</option><option value="Responds locally to painful stimulus (5 points)=5">Responds locally to painful stimulus (5 points)</option><option value="Obeys verbal commands (6 points)=6">Obeys verbal commands (6 points)</option></select> <-- Movement<br>------------------------------------------------------------<br>Score:  <span class="calc"><span class="calc_value">scorex=(eye)+(speech)+(movement)</span></span><br>Interpretation:  <span class="calc">score interpretation<span class="calc_value">score=(eye)+(speech)+(movement); score>12?'Mild':score>8?'Moderate':'Severe'</span></span><br><span class="exclude"><hr></span><span class="checkbox" name="footnotes"> <label><input type="checkbox" name="footnotes" value="" /> </label></span><span class="memo exclude">display/hide footnotes</span><span name="conditional_189756ee4c6845aff" class="hidden"><span class="exclude"><br>reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/4136544" target="_blank">Teasdale G, Jennett B. (1974) Lancet. 1974 Jul 13;2(7872):81-4.</a><br>posted by:  Mark Morgan, M.D.<br>post/review dates:  March 20, 2016<br>revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/neurological/gcs.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/neurological/gcs.txt</a><br>markup link:  <a href="http://www.soapnote.org/generator/txt/neurological/gcs.txt" target="_blank">www.soapnote.org/generator/txt/neurological/gcs.txt</a></span></span><input type="button" class="soapnote_submit exclude" value="Submit"/>
+<div class="soapnote_result_container exclude">
+Result - Copy or Print this text:
+<textarea class="soapnote_result exclude" cols="80" rows="12" onclick="this.focus();this.select();" readonly="readonly"></textarea>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof vars == 'undefined') vars = new Array();
+vars[1] = {};
+if (typeof conditions == 'undefined') conditions = new Array();
+conditions[1] = new Array();
+conditions[1].push({logic:"(footnotes).is('')", show:"conditional_56109de70b963"});
+jQuery(document).ready(function($) {
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change(function() {
+					if ($(this).attr('type') == 'checkbox') {
+						vars[1][$(this).attr('name')] = new Array();
+						$(this).parents('.checkbox').find(':checked').each(function() {
+							vars[1][$(this).attr('name')].push($(this).val());
+						});
+					}
+					else vars[1][$(this).attr('name')] = $(this).val();
+					$.each(conditions[1], function(index, condition) { 
+						$.each(vars[1], function(index, value) { 
+							condition.logic = condition.logic.replace(new RegExp('\\('+index+'\\)', 'g'), 'vars[1][\''+index+'\']');
+						});
+						
+						try {
+							if (eval(condition.logic) === true) $('#form_1 [name="'+condition.show+'"]').removeClass('hidden');
+							else $('#form_1 [name='+condition.show+']').addClass('hidden');
+							}
+						catch(err) {
+							$('#form_1 [name='+condition.show+']').addClass('hidden');
+						}
+					});
+				});
+				$('#form_1').find('input[name="footnotes"], select[name="footnotes"]').change();
+			});
+			</script>
+<script type="text/javascript" src="../../lib/form.js"></script>
+</div>
+</div>
+</body>
+</html>

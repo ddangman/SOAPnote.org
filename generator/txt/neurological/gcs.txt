@@ -1,0 +1,13 @@
+Glasgow Coma Scale
+[select name="eye" value="Does not open eyes (1 point)=1|Opens eyes to painful stimulus (2 points)=2|Opens eyes to verbal stimulus (3 points)=3|Opens eyes spontaneously (4 points)=4"] <-- Eye Response
+[select name="speech" value="Makes no sounds (1 point)=1|Is incomprehensible (2 points)=2|Uses words inappropriately (3 points)=3|Is disoriented or confused (4 points)=4|Is oriented; speech is normal (5 points)=5"] <-- Speech
+[select name="movement" value="Does not move (1 point)=1|Exhibits abnormal extension to painful stimulus (decerebrate response) (2 points)=2|Exhibits abnormal flexion to painful stimulus (decorticate response) (3 points)=3|Withdraws from painful stimulus (4 points)=4|Responds locally to painful stimulus (5 points)=5|Obeys verbal commands (6 points)=6"] <-- Movement
+------------------------------------------------------------
+Score:  [calc value="scorex=(eye)+(speech)+(movement)"]
+Interpretation:  [calc value="score=(eye)+(speech)+(movement); score>12?'Mild':score>8?'Moderate':'Severe'" memo="score interpretation"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/4136544" target="_blank">Teasdale G, Jennett B. (1974) Lancet. 1974 Jul 13;2(7872):81-4.</a>
+posted by:  Mark Morgan, M.D.
+post/review dates:  March 20, 2016
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/neurological/gcs.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/neurological/gcs.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/neurological/gcs.txt" target="_blank">www.soapnote.org/generator/txt/neurological/gcs.txt</a>[/html][/conditional]
