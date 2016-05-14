@@ -78,7 +78,7 @@
 				<li><a href="/lingo/">Lingo</a></li>
 				<li><a href="/generator/">Create</a></li>
 				<li><a href="/goodness/">Freebies</a></li>
-				<li><a href="/suggest/">Suggest</a></li>
+				<li><a href="https://www.indiegogo.com/projects/clinical-calculators-and-note-templates/x/46196#/">Order</a></li>
 				<li><a href="/help/">Help</a></li>
 			</ul>
 		</div>
