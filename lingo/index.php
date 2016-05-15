@@ -271,10 +271,13 @@
 		This is definitely best understood by looking at the example <a href="http://www.soapnote.org/sample/interpreted-computation/" target="_blank">again it's right here</a>.
 		</br>
 		</br>
-		Please feel free to <a href="mailto:mark@soapnote.org">email us</a> if you have any questions!
+		Please go to the <a href="http://www.soapnote.org/help/">help page</a> if you have any questions!
 		</br>
 		</br>
-		<em>Last Updated August 24, 2015</em>
+		<em>Last Updated May 15, 2016</em>
 		</div>
 	</div>
 </div>
+<?php 
+ include('../lib/main-footer.php');
+?>

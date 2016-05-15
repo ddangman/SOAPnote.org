@@ -1,1 +1,0 @@
-[text name="Patient name"] is a patient w/ hx of [text name="Relevant PMHx"]

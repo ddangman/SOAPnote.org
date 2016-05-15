@@ -75,11 +75,10 @@
 						<li><a href="/complete-note/">Complete Notes</a></li>
 					</ul>
 				</li>				
-				<li><a href="/lingo/">Lingo</a></li>
+				<li><a href="/lingo/">Learn</a></li>
 				<li><a href="/generator/">Create</a></li>
-				<li><a href="/goodness/">Freebies</a></li>
-				<li><a href="/suggest/">Suggest</a></li>
-				<li><a href="/help/">Help</a></li>
+				<li><a href="/goodness/">App</a></li>
+				<li><a href="/help/">Ask</a></li>
 			</ul>
 		</div>
 		<div>  
