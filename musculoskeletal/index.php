@@ -59,6 +59,7 @@
 					<li><a href="/musculoskeletal/shoulder-exam/">Shoulder Exam</a></li>
 					<li><a href="/musculoskeletal/shoulder-exam-detailed/">Shoulder Exam (Detailed)</a></li>
 					<li><a href="/musculoskeletal/dx-sle/">Systemic Lupus Erythematosus Diagnosis</a></li>
+					<li><a href="/musculoskeletal/2013-ssc-criteria/">Systemic Sclerosis, Criteria for </a></li>
 					<li><a href="/musculoskeletal/upper-back-pain-history/">Upper Back Pain History</a></li>
 </ul>
 </div>
