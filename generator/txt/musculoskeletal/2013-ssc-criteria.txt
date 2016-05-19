@@ -1,0 +1,51 @@
+Diagnosis of Systemic Sclerosis (SSc)
+Target population for these criteria:
+The following decision tool is applicable to a patient being considered for a Systemic Sclerosis study.
+The criteria are not applicable to patients having a systemic sclerosis-like disorder that better explains their manifestations, such as nephrogenic sclerosing fibrosis, scleredema diabeticorum, scleromyxedema, erythromylagia, porphyria, lichen sclerosis, graft versus host disease, and diabetic chierarthropathy. Patients with Skin thickening sparing the fingers are also not classified as having SSc.
+
+1) Skin thickening of the fingers of both hands extending proximal to the metacarpophalangeal joints (9 points)
+CHOOSE --> [select name="Q1" value="Absent (0 points)=0|PRESENT (9 points)=9"]
+
+2) Skin thickening of the fingers: (only the higher score is counted)	
+Puffy fingers (2 points)
+CHOOSE --> [select name="Q2" value="Absent (0 points)=0|PRESENT (2 points)=2"]
+Sclerodactyly of the fingers (distal to the metacarpophalangeal joints but proximal to the proximal interphalangeal joints) (4 points)
+CHOOSE --> [select name="Q3" value="Absent (0 points)=0|PRESENT (4 points)=4"]
+
+3) Fingertip lesions: (only the higher score is counted)
+Digital tip ulcers (2 points)
+CHOOSE --> [select name="Q4" value="Absent (0 points)=0|PRESENT (2 points)=2"]
+Fingertip pitting scars (3 points)
+CHOOSE --> [select name="Q5" value="Absent (0 points)=0|PRESENT (3 points)=3"]
+
+4) Telangiectasia (2 points)
+CHOOSE --> [select name="Q6" value="Absent (0 points)=0|PRESENT (2 points)=2"]
+
+5) Abnormal nailfold capillaries (2 points)
+CHOOSE --> [select name="Q7" value="Absent (0 points)=0|PRESENT (2 points)=2"]
+
+6) Pulmonary arterial hypertension and/or interstitial lung disease: (maximum score is 2)
+Pulmonary arterial hypertension (2 points)
+CHOOSE --> [select name="Q8" value="Absent (0 points)=0|PRESENT (2 points)=2"]
+Interstitial lung disease (2 points)
+CHOOSE --> [select name="Q9" value="Absent (0 points)=0|PRESENT (2 points)=2"]
+
+7) Raynaud's Phenomenon (3 points)
+CHOOSE --> [select name="Q10" value="Absent (0 points)=0|PRESENT (3 points)=3"]
+
+8) SSc-related autoantibodies: (maximum score is 3)
+Anticentromere 3 (3 points)
+CHOOSE --> [select name="Q11" value="Absent (0 points)=0|PRESENT (3 points)=3"]
+Anti-topoisomerase I (3 points)
+CHOOSE --> [select name="Q12" value="Absent (0 points)=0|PRESENT (3 points)=3"]
+Anti-RNA polymerase III (3 points)
+CHOOSE --> [select name="Q13" value="Absent (0 points)=0|PRESENT (3 points)=3"]
+
+SCORE --> [calc memo="score" value="score1=(Q1)+(Math.max((Q2),(Q3)))+(Math.max((Q4),(Q5)))+(Q6)+(Q7)+(Math.max((Q8),(Q9)))+(Q10)+(Math.max((Q11),(Q12),(Q13)))"]
+RESULT --> [calc memo="interpretation" value="score2=(Q1)+(Math.max((Q2),(Q3)))+(Math.max((Q4),(Q5)))+(Q6)+(Q7)+(Math.max((Q8),(Q9)))+(Q10)+(Math.max((Q11),(Q12),(Q13)));score2>8?'MEETS 2013 ACR‐EULAR Classification Criteria for SSc':'DOES NOT MEET 2013 ACR‐EULAR Classification Criteria for SSc'"]
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+reference:  From the <a href="http://www.ncbi.nlm.nih.gov/pubmed/24092682">2013 ACR‐EULAR Classification Criteria for SSc</a>.
+posted by:  Mark Morgan, M.D.
+post/review dates:  May 19, 2016
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/2013-ssc-criteria.txt" target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/musculoskeletal/2013-ssc-criteria.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/musculoskeletal/2013-ssc-criteria.txt" target="_blank">www.soapnote.org/generator/txt/musculoskeletal/2013-ssc-criteria.txt</a>[/html][/conditional]
