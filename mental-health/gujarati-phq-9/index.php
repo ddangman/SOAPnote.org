@@ -5,7 +5,7 @@
   <li><a href="/">Home</a></li>
   <li><a href="/categories/">Categories</a></li>
   <li><a href="/mental-health/">Psychiatry</a></li>
-  <li class="active">Patient Health Questionnaire - PHQ 9</li>
+  <li class="active">Patient Health Questionnaire - PHQ 9 (Gujarati)</li>
 </ol>
 
 <div id="container" class="container">

@@ -1,0 +1,23 @@
+દદ ના  વા થ માટે   નાવલી – 9
+છે લા બે અઠવાિડયામાં તમને નીચને ી કોઈ પણ સમ યાનો કેટલી વાર અ ન ભુ વ થ ય ો છ ે ?
+
+[select name="Q1" value="જરા પણ નહિ=0|ઘણા દિવસો=1|અડધા કરતા વધેરા દિવસો=2|લગભગ દરરોજ=3"] <-- 1.  વિૃ  કરવામા ઓછો રસ અથવા ઓછો આનદં
+[select name="Q2" value="જરા પણ નહિ=0|ઘણા દિવસો=1|અડધા કરતા વધેરા દિવસો=2|લગભગ દરરોજ=3"] <-- 2. હતાશા, ઊદાસી અથવા િનરાશા લાગવી
+[select name="Q3" value="જરા પણ નહિ=0|ઘણા દિવસો=1|અડધા કરતા વધેરા દિવસો=2|લગભગ દરરોજ=3"] <-- 3.  ઘ ન આવવી, વ ચે  ઘ ઉડી જવી, વધારે  ઘ આવવી
+[select name="Q4" value="જરા પણ નહિ=0|ઘણા દિવસો=1|અડધા કરતા વધેરા દિવસો=2|લગભગ દરરોજ=3"] <-- 4. થાક અથવા અશિ ત લાગવી
+[select name="Q5" value="જરા પણ નહિ=0|ઘણા દિવસો=1|અડધા કરતા વધેરા દિવસો=2|લગભગ દરરોજ=3"] <-- 5. ભખૂ ઓછી કે વધારે લાગવી
+[select name="Q6" value="જરા પણ નહિ=0|ઘણા દિવસો=1|અડધા કરતા વધેરા દિવસો=2|લગભગ દરરોજ=3"] <-- 6. તમને તમારા િવષે ખરાબ લાગે અથવા તમે િન ફળ ગયા છો અથવા તમે તમારી અથવા તમારા  વજનોની અપ ે ા સતં ોષી નથી
+[select name="Q7" value="જરા પણ નહિ=0|ઘણા દિવસો=1|અડધા કરતા વધેરા દિવસો=2|લગભગ દરરોજ=3"] <-- 7. છાપાં વાચં વા અથવા ટી.વી. જોવા બાબતોમાં એક યાન રહવે ામાં તકલીફ
+[select name="Q8" value="જરા પણ નહિ=0|ઘણા દિવસો=1|અડધા કરતા વધેરા દિવસો=2|લગભગ દરરોજ=3"] <-- 8. હલનચલન અથવા બોલવાનું એટલું ધીમું હોય કે બી  લોકોનું  યાન  ય? અથવા એનાથી ઉલટું, એટલો બધો રઘવાટ અથવા અ વ થતા કે તમે રાબતે ા કરતાં વધારે ઝડપથી આમતમે ફરો
+[select name="Q9" value="જરા પણ નહિ=0|ઘણા દિવસો=1|અડધા કરતા વધેરા દિવસો=2|લગભગ દરરોજ=3"] <-- 9. આના કરતા મરવાનો અથવા તમને પોતાને કોઇક રીતે ઈ  કરવાનો િવચાર આવે
+
+Score --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+(Q9)" memo="score"] out of 27 points.  
+Interpretation --> [calc value="score=(Q1)+(Q2)+(Q3)+(Q4)+(Q5)+(Q6)+(Q7)+(Q8)+ (Q9);score>20?'Severe':score>14?'Moderately Severe':score>9?'Mild':score>4?'Minimal Symptoms':'Asymptomatic'" memo="interpretation"]
+
+[html]<hr>[/html][checkbox memo="display/hide footnotes" name="footnotes" value=""][conditional field="footnotes" condition="(footnotes).is('')"][html]
+references:  <a href="http://www.ncbi.nlm.nih.gov/pubmed/11556941" target="_blank">Kroenke (2001) J Gen Intern Med 16:606-13.</a> Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke અને સહયોિગયો  વારા Pfizer Inc થી શૈ િણક અનુદાન ની સહાયતા થી િવકિસત । અનુવાદ,  િતિલપી તૈયાર કરવા,  કાિશત અથવા િવતરણ કરવા અનુમિતની આવ યકતા નથી।
+posted by:  Mark Morgan, M.D.
+post/review dates:  May 20, 2016
+revision history: <a href="https://github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/gujarati-phq-9.txt"
+target="_blank">www.github.com/soapnote/SOAPnote-site/tree/master/generator/txt/mental-health/gujarati-phq-9.txt</a>
+markup link:  <a href="http://www.soapnote.org/generator/txt/mental-health/gujarati-phq-9.txt" target="_blank">www.soapnote.org/generator/txt/mental-health/gujarati-phq-9.txt</a>[/html][/conditional]

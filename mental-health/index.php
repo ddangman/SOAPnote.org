@@ -20,6 +20,7 @@
 					<li><a href="/mental-health/depression-plan/">Depression Assessment/Plan</a></li>
 					<li><a href="/elder-care/mini-cog-screen-for-dementia/">Dementia - Mini Cog Screen</a></li>
 					<li><a href="/mental-health/patient-health-questionnaire-phq-9-calculator/">Depression - Patient Health Questionnaire (PHQ 9) Calculator</a></li>
+					<li><a href="/mental-health/gujarati-phq-9/">Depression - Patient Health Questionnaire (PHQ 9) Calculator (Gujarati Version)</a></li>
 					<li><a href="/mental-health/dast-10/">Drug Use Questionnaire – (DAST – 10)</a></li>
 					<li><a href="/mental-health/fabq/">Fear Avoidance Beliefs Questionnaire</a></li>
 					<li><a href="/mental-health/generalized-anxiety-disorder-gad-7/">Generalized Anxiety Disorder GAD 7 Calculator</a></li>
