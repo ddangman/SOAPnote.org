@@ -4,6 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="apple-itunes-app" content="app-id=1046761652">
     <title>soapnote.org = calculators + decision tools + SOAP samples</title>
 
 	<!-- Latest compiled and minified CSS -->
